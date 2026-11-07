@@ -1315,7 +1315,7 @@
     "frio",
     "ingenieria"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 7,
@@ -1338,7 +1338,8 @@
    ],
    "aprobado": "2026-11-07T12:00:42.773Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 79
+   "duracion": 79,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "carretera",
