@@ -1084,7 +1084,7 @@
     "trafico",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 8,
@@ -1106,7 +1106,8 @@
    "tendencia": "Baliza V16",
    "aprobado": "2026-11-07T12:00:05.310Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 68.2
+   "duracion": 68.2,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "ollaexpres",
@@ -1335,7 +1336,7 @@
    ],
    "aprobado": "2026-11-07T12:00:42.773Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 79.0
+   "duracion": 79
   },
   {
    "id": "carretera",
