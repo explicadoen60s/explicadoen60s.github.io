@@ -1462,7 +1462,7 @@
     "energia",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 8,
@@ -1476,7 +1476,9 @@
     "Ahora que empieza el frío, tu caldera se enciende cada mañana. ¿Sabías que saca calor del humo?",
     "Tu caldera tiene un tubo que gotea agua. Y es buena señal.",
     "Hay calderas que rinden más del cien por cien. ¿Cómo puede ser?"
-   ]
+   ],
+   "aprobado": "2026-11-07T23:55:27.260Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cepillo",
