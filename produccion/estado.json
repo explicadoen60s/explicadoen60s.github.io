@@ -1372,6 +1372,241 @@
    ],
    "aprobado": "2026-11-07T12:00:46.456Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "tdt",
+   "formato": "A",
+   "titulo": "¿Te faltan canales en la tele? 📺 Así llega la TDT a tu antena",
+   "guion": "Enciendes la tele… y faltan canales. La antena está bien. ¿Qué ha pasado? Mira cómo llega la señal a tu salón. Desde una torre en lo alto de un monte, salen ondas de radio. Viajan en línea recta, a la velocidad de la luz, hasta la antena de tu tejado. Cada canal no tiene su propia onda. Van empaquetados. En una sola frecuencia viajan varios canales a la vez, comprimidos en ceros y unos. A ese paquete se le llama múltiple. Tu tele no sabe dónde está cada canal. Así que, cuando la instalas, hace un barrido. Escucha frecuencia a frecuencia, entre cuatrocientos setenta y seiscientos noventa y cuatro megahercios. Y apunta en una lista qué canales hay en cada una. Desde entonces, cuando pulsas el uno, salta directamente a esa frecuencia. Y aquí viene lo curioso… El jueves cinco de noviembre, a las ocho de la mañana, cinco cadenas cambiaron de múltiple. Siguen emitiendo, pero en otra frecuencia. Tu tele va al sitio de siempre… y no encuentra nada. Además llegaron emisiones en ultra alta definición, con un sistema nuevo, el DVB-T dos. Mete más datos en el mismo hueco. Si tu tele es antigua, no lo entiende. La solución dura unos minutos. Menú, búsqueda automática, y la tele vuelve a escuchar todas las frecuencias. No hace falta antena nueva. Sígueme para más.",
+   "texto": "Desde el 5 de noviembre la TDT ha cambiado y hay que volver a buscar canales. ¿Ya lo has hecho? 👇",
+   "tags": [
+    "tdt",
+    "television",
+    "antena",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Casi todas las casas ven la TDT y muchas han perdido canales esta semana",
+    "primer_segundo": 7,
+    "primer_segundo_nota": "Un mando pulsando y la pantalla saltando a «sin señal», con las ondas llegando a la antena del tejado",
+    "ensenar": 8,
+    "ensenar_nota": "Barrido de frecuencias de 470 a 694 MHz con un contador, paquetes de canales dentro de un múltiple, contador de 5 cadenas que cambian de sitio"
+   },
+   "ganchos": [
+    "Enciendes la tele… y faltan canales. La antena está bien. ¿Qué ha pasado?",
+    "Si desde el jueves te faltan canales en la tele, no es la antena.",
+    "Tu tele guarda una lista secreta de frecuencias. Y el jueves dejó de valer."
+   ],
+   "tendencia": "Por qué hay que resintonizar la tele (cómo llega la TDT a tu antena)"
+  },
+  {
+   "id": "luces",
+   "formato": "A",
+   "titulo": "¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así funcionan las luces de Navidad",
+   "guion": "Este año vas a sacar las luces de Navidad… y alguna bombilla estará fundida. ¿Por qué no se apaga toda la guirnalda? Mira por dentro. Las bombillas van en fila, una detrás de otra, en serie. La corriente entra por la primera, pasa por todas y sale por la última. Si se rompe una, el camino se corta. Y se apagan todas. Así que dentro de cada bombilla hay un truco: un alambre pequeño, enrollado bajo el filamento, que se llama derivación. Mientras la bombilla funciona, ese alambre está aislado. La corriente prefiere el filamento. Pero si el filamento se rompe, toda la tensión cae sobre ese hueco. El aislante se quema… y el alambre se suelda. La corriente pasa por él y las demás siguen encendidas. Y aquí viene lo curioso… Cada bombilla que se salta deja menos bombillas para repartir la tensión. Así que las demás reciben un poco más… y brillan más. Y se funden antes. Una avería trae la siguiente. Si cada bombilla tiene un noventa y nueve por ciento de probabilidades de funcionar, una guirnalda de cincuenta solo funciona entera seis de cada diez veces. Con ciento cincuenta, baja a poco más de dos de cada diez. Por eso conviene cambiar la fundida enseguida. Sígueme para más.",
+   "texto": "Las guirnaldas de Navidad esconden un truco en cada bombilla. ¿Las tuyas aguantan todo el mes? 👇",
+   "tags": [
+    "navidad",
+    "luces",
+    "electricidad",
+    "casa",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Casi todo el mundo pone luces en Navidad y ha visto bombillas fundidas",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una guirnalda encendida en primer plano y una bombilla que se funde con un chispazo mientras las demás siguen",
+    "ensenar": 9,
+    "ensenar_nota": "Flechas de corriente recorriendo la serie, la derivación que se suelda, voltímetro por bombilla que sube y probabilidad 99 % → 60 % → 22 %"
+   },
+   "ganchos": [
+    "Este año vas a sacar las luces de Navidad… y alguna bombilla estará fundida.",
+    "Se funde una bombilla de tu guirnalda… y las demás siguen encendidas. ¿Cómo?",
+    "Dentro de cada bombilla de Navidad hay un alambre escondido que se suelda solo."
+   ],
+   "tendencia": "navidad"
+  },
+  {
+   "id": "caldera",
+   "formato": "A",
+   "titulo": "Tu caldera saca calor del humo 🔥 Así funciona una caldera de condensación",
+   "guion": "Ahora que empieza el frío, tu caldera se enciende cada mañana. ¿Sabías que saca calor del humo? Mira por dentro. Abres el grifo de agua caliente o sube la calefacción. Entra gas y se enciende una llama. Encima pasa un tubo con agua, que se calienta. Una bomba la empuja a los radiadores, que calientan la casa, y vuelve más fría a la caldera. Pero al quemar gas no solo sale calor. Sale dióxido de carbono… y mucho vapor de agua, muy caliente. Las calderas antiguas lo tiraban por la chimenea. Y con él, una parte del calor. Así que las nuevas hacen pasar ese humo por un segundo intercambiador, donde llega el agua fría que vuelve de los radiadores. El humo se enfría tanto que el vapor se vuelve líquido. Y al condensarse, suelta su calor al agua. Por eso, debajo, tiene un tubo que gotea agua. Y aquí viene lo curioso… Con las cuentas de siempre, su rendimiento sale de hasta el ciento nueve por ciento. No crea energía. Es que las cuentas antiguas no contaban el calor escondido en el vapor. Para que funcione, el agua debe volver fría. Por eso trabajan a sesenta o setenta grados, y no a noventa. Desde dos mil quince, en Europa casi solo se fabrican así. Gastan hasta un veinticinco por ciento menos. Sígueme para más.",
+   "texto": "Las calderas de condensación aprovechan el vapor que las antiguas tiraban por la chimenea. ¿Sabes qué caldera tienes? 👇",
+   "tags": [
+    "caldera",
+    "calefaccion",
+    "casa",
+    "energia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "Media España enciende la caldera estos días; el tubo que gotea lo ha visto mucha gente",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La llama azul encendiéndose en primer plano dentro de la caldera en corte, con el agua empezando a circular",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetros de ida y vuelta, gotas de vapor que se condensan, contador de rendimiento que sube a 109 %, temperatura 90 → 70 °C y ahorro 25 %"
+   },
+   "ganchos": [
+    "Ahora que empieza el frío, tu caldera se enciende cada mañana. ¿Sabías que saca calor del humo?",
+    "Tu caldera tiene un tubo que gotea agua. Y es buena señal.",
+    "Hay calderas que rinden más del cien por cien. ¿Cómo puede ser?"
+   ]
+  },
+  {
+   "id": "cepillo",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movimientos por minuto",
+   "guion": "Cada noche te cepillas los dientes… y casi nadie llega a los dos minutos. Vamos a inventar un cepillo que lo haga mejor que tu mano. Primero, el movimiento. Tu mano frota unas cuantas veces por segundo. Así que pones un motor pequeño dentro del mango. Pero un motor gira, y tú quieres que el cabezal vibre de lado a lado. Así que usas un imán y una bobina. Cuando la corriente va en un sentido, el imán se va a la derecha. Cuando cambia, a la izquierda. Una y otra vez. Así consigues hasta treinta y un mil movimientos por minuto. Más de quinientos por segundo. Y aquí viene lo curioso… A esa velocidad, las cerdas agitan la pasta y la saliva, y el líquido se mete entre los dientes, donde las cerdas no tocan. Pero si aprietas fuerte, frenas la vibración. Por eso muchos llevan un sensor que avisa si aprietas demasiado. Ahora, el tiempo. Pones un reloj de dos minutos. Cada treinta segundos, el cepillo hace una pausa corta: es la señal para cambiar de zona. Cuatro zonas, cuatro pausas. Falta cargarlo. Pero el agua y los enchufes se llevan mal. Así que la base tiene una bobina que crea un campo magnético. Otra bobina dentro del mango lo convierte en corriente. Sin ningún metal a la vista. Con una carga, aguanta unas dos semanas. Sígueme para más.",
+   "texto": "Un cepillo sónico vibra cientos de veces por segundo y se carga sin enchufe. ¿Tú usas manual o eléctrico? 👇",
+   "tags": [
+    "cepillo",
+    "dientes",
+    "baño",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Todo el mundo se cepilla los dientes cada día",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El cabezal vibrando en primer plano contra un diente, con la pasta salpicando",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de movimientos hasta 31.000 por minuto, imán que va y viene con la corriente, reloj de 2 min con 4 pausas de 30 s y bobinas de carga con líneas de campo"
+   },
+   "ganchos": [
+    "Cada noche te cepillas los dientes… y casi nadie llega a los dos minutos.",
+    "Tu cepillo eléctrico se mueve más de quinientas veces por segundo.",
+    "¿Por qué tu cepillo eléctrico se carga sin enchufarlo?"
+   ]
+  },
+  {
+   "id": "detector",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» el humo?",
+   "guion": "Si de madrugada se quema algo en tu casa, el humo no te despierta. Vamos a inventar algo que lo vea por ti. Quieres notar el humo antes que el fuego. Así que haces una cajita con rendijas, para que entre el aire, pero a oscuras por dentro. Dentro pones una luz pequeña, un led, que se enciende a ratos. Y un sensor de luz. Pero no los pones enfrente. Los pones en ángulo, separados por una pared. Con el aire limpio, la luz va recta… y el sensor no ve nada. Así que, cuando entra humo, la luz choca con las partículas y rebota en todas direcciones. Una parte llega al sensor. Cuanto más humo, más luz le llega. Y cuando pasa de un límite, salta la alarma. Pero tiene que despertarte. Así que pones una sirena que suena a ochenta y cinco decibelios, medidos a tres metros. Como el tráfico de una avenida. Y aquí viene lo curioso… El polvo o un insecto también reflejan la luz. Por eso las rendijas tienen una malla fina, y el detector mide varias veces antes de pitar. Y si se acaba la pila, no puede avisarte. Así que, cuando le queda poca, suelta un pitido corto de vez en cuando, durante semanas, hasta que la cambias. Algunos llevan una pila sellada que dura diez años. Sígueme para más.",
+   "texto": "Un detector de humo funciona con una luz que no apunta a ningún sitio. ¿Tienes uno en casa? 👇",
+   "tags": [
+    "detector",
+    "humo",
+    "seguridad",
+    "casa",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Está en muchas casas, hoteles y oficinas; el pitido de la pila es universal",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Humo entrando en primer plano por las rendijas y el haz del led rebotando en las partículas",
+    "ensenar": 9,
+    "ensenar_nota": "Medidor de luz que llega al sensor subiendo con el humo hasta el límite, decibelímetro hasta 85 dB a 3 m y contador de vida de la pila hasta 10 años"
+   },
+   "ganchos": [
+    "Si de madrugada se quema algo en tu casa, el humo no te despierta.",
+    "Tu detector de humo tiene una luz que nunca apunta al sensor.",
+    "¿Por qué tu detector de humo suelta un pitido de vez en cuando?"
+   ]
+  },
+  {
+   "id": "ventana",
+   "formato": "A",
+   "titulo": "¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo evita el doble cristal",
+   "guion": "Esta mañana, al despertarte, tu ventana estaba empañada. Pero ese agua no viene de fuera. Mira de dónde sale. El aire de tu habitación lleva agua invisible, en forma de vapor. Y lo vas cargando tú: al respirar, al ducharte, al cocinar. Pero el aire no puede llevar todo el vapor que quiera. Depende de la temperatura. Un metro cúbico de aire a veinte grados aguanta unos diecisiete gramos de agua. A diez grados, solo unos nueve. Y de noche, fuera hace frío. El cristal se enfría casi como la calle. Así que el aire que toca el cristal se enfría de golpe. Ya no puede llevar todo su vapor… y lo suelta en gotitas diminutas. Eso es el vaho. A esa temperatura se le llama punto de rocío. Si el cristal está más frío, se empaña. Y aquí viene lo curioso… La solución no es un cristal más gordo. Es meter aire entre dos cristales. Con doble acristalamiento, el cristal de fuera se enfría, pero la cámara de aire, o de gas, apenas deja pasar el calor. Así que el de dentro se queda casi a la temperatura de tu cuarto. Por eso casi no se empaña. Y si aun así se empaña, abre diez minutos: sacas el aire húmedo y entra aire seco. Sígueme para más.",
+   "texto": "El vaho de tus ventanas es agua que ya estaba en el aire. ¿Las tuyas se empañan en invierno? 👇",
+   "tags": [
+    "ventana",
+    "humedad",
+    "casa",
+    "invierno",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo ve sus ventanas empañadas en invierno, y «humedad» está en Google Trends",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Un dedo dibujando en el vaho del cristal en primer plano, con las gotas cayendo",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de gramos de vapor por m³ (17 g a 20 °C → 9 g a 10 °C), termómetros en el aire y en cada cristal y el punto de rocío marcado"
+   },
+   "ganchos": [
+    "Esta mañana, al despertarte, tu ventana estaba empañada. Pero ese agua no viene de fuera.",
+    "Cada noche sueltas agua suficiente para empañar tu ventana.",
+    "¿Por qué se empaña el cristal por dentro y no por fuera?"
+   ],
+   "tendencia": "humedad"
+  },
+  {
+   "id": "puente",
+   "formato": "C",
+   "titulo": "¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.572 alambres",
+   "guion": "Cuando cruzas un puente en coche, no piensas que vas colgado de unos alambres. ¿Y si tuvieras que construir uno sobre el mar? Vamos a colgarlo. Primero, el problema. Entre las dos orillas hay más de un kilómetro de agua profunda. No puedes poner pilares en medio. Así que levantas dos torres, una cerca de cada orilla. En el puente de San Francisco miden doscientos veintisiete metros, como un rascacielos de setenta plantas. Pero las torres solas no sujetan nada. Así que tiendes dos cables de una orilla a otra, por encima de las torres. Pero un cable tan largo y tan gordo no se puede fabricar entero, ni subir. Así que lo hilas allí mismo, alambre a alambre, con una rueda que va y viene de orilla a orilla. Cada cable lleva veintisiete mil quinientos setenta y dos alambres de cinco milímetros. Juntos miden noventa y dos centímetros de grosor. Y aquí viene lo curioso… Si estiras todos los alambres de los dos cables, salen unos ciento veintinueve mil kilómetros. Más de tres vueltas a la Tierra. Pero el cable tira hacia dentro con muchísima fuerza. Así que, en cada orilla, lo atas a bloques de hormigón enormes, enterrados. Ahora cuelgas tirantes verticales del cable, y de ellos el tablero. El peso baja por los tirantes, sube por el cable, y empuja las torres hacia el suelo. Sígueme para más.",
+   "texto": "Un puente colgante cuelga de dos cables hechos de miles de alambres finos. ¿Cuál es el puente más grande que has cruzado? 👇",
+   "tags": [
+    "puente",
+    "ingenieria",
+    "construccion",
+    "acero",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Todo el mundo cruza puentes, aunque no sean colgantes; la sensación de ir «colgado» engancha",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Un coche cruzando en primer plano mientras la cámara baja al cable y se ven los alambres en corte",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de alambres hasta 27.572, regla de altura de la torre hasta 227 m, grosor 92 cm, contador de km de alambre hasta 129.000 y flechas de fuerza"
+   },
+   "ganchos": [
+    "Cuando cruzas un puente en coche, no piensas que vas colgado de unos alambres.",
+    "Cada cable de este puente tiene veintisiete mil alambres. Y se hiló allí mismo.",
+    "Los alambres de un solo puente dan tres vueltas a la Tierra."
+   ]
+  },
+  {
+   "id": "nieve",
+   "formato": "C",
+   "titulo": "¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcionan los cañones",
+   "guion": "Ahora mismo, en muchas estaciones de esquí, aún no ha nevado… y las pistas ya se están poniendo blancas. ¿Y si tuvieras que fabricar la nieve? Vamos a hacerla. Primero, necesitas agua. Mucha. Así que haces una balsa arriba de la montaña, y la llenas en verano, con agua de lluvia o de un río. Debajo de las pistas entierras tuberías, que suben el agua hasta cada cañón. Pero si lanzas agua al aire, cae como lluvia. Y se congela en el suelo, como hielo duro. Así que la rompes en gotas finísimas. En el cañón, el agua sale mezclada con aire a presión, que la pulveriza. Y aquí viene lo curioso… Al salir, el aire a presión se expande de golpe y se enfría. Así crea pequeños núcleos de hielo. Las gotas se pegan a ellos y se congelan mientras caen. Pero no vale cualquier día. Si el aire está húmedo, necesitas varios grados bajo cero. Si está muy seco, el agua se evapora un poco, roba calor, y puedes hacer nieve casi a cero grados. Por eso los cañones se encienden de madrugada, cuando más frío hace. Una gran estación puede tener un centenar de cañones trabajando a la vez. Y luego, unas máquinas con cadenas reparten y aplastan la nieve, para que aguante todo el invierno. Sígueme para más.",
+   "texto": "Antes de que nieve, las estaciones ya están fabricando nieve con agua y aire. ¿Has esquiado sobre nieve artificial? 👇",
+   "tags": [
+    "nieve",
+    "esqui",
+    "invierno",
+    "montaña",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-07",
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "Es de temporada (noviembre) y conocido, aunque no todo el mundo esquía",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "El chorro del cañón disparando nieve hacia la cámara en primer plano",
+    "ensenar": 8,
+    "ensenar_nota": "Termómetro y medidor de humedad que deciden si hay nieve o lluvia, contador de cañones hasta un centenar y gotas que se congelan al caer con un contador de temperatura"
+   },
+   "ganchos": [
+    "Ahora mismo, en muchas estaciones de esquí, aún no ha nevado… y las pistas ya se están poniendo blancas.",
+    "Esta nieve no ha caído del cielo. La ha fabricado una máquina.",
+    "¿Cómo se fabrica nieve con agua y aire?"
+   ]
   }
  ]
 }

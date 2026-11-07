@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-07T12:00:00+01:00",
- "resumen": "La TDT sube al primer puesto: el cambio del 5 de noviembre (canal nuevo La Séptima y UHD) está confirmado, «La 2» y «La Séptima» están en tendencia y los tutoriales de resintonizar suman unas 168 mil vistas. Nueva: la baliza V16 (53 mil vistas), ya propuesta como guion. Router y placas ya tienen vídeo. El resto de Google Trends es fútbol, política y famosos.",
+ "actualizado": "2026-11-07T21:00:00+01:00",
+ "resumen": "La TDT sube al primer puesto: el cambio del 5 de noviembre (canal nuevo La Séptima y UHD) está confirmado, «La 2» y «La Séptima» están en tendencia y los tutoriales de resintonizar suman unas 168 mil vistas. Nueva: la baliza V16 (53 mil vistas), ya propuesta como guion. Router y placas ya tienen vídeo. El resto de Google Trends es fútbol, política y famosos. Actualización de la tarde: V16 y paraguas pasan a descartadas porque ya están en producción; «navidad» y «humedad» aparecen en Google Trends y se han usado para dos guiones (luces de Navidad y ventanas empañadas).",
  "tendencias": [
   {
    "id": "tdt",
@@ -71,58 +71,6 @@
    ]
   },
   {
-   "id": "v16",
-   "tema": "La baliza V16 conectada (adiós a los triángulos)",
-   "tipo": "actualidad",
-   "puntuacion": 76,
-   "por_que": "«Baliza V16: los triángulos ya no sirven (DGT)» lleva 53.435 vistas en el nicho de «cómo funciona»; es obligatoria desde 2026 y casi todos los conductores la llevan en la guantera sin saber que manda su posición a Tráfico.",
-   "senales": [
-    {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«Baliza V16: los triángulos ya no sirven (DGT)», 53.435 vistas"
-    }
-   ],
-   "urgencia": "Esta semana o la próxima",
-   "angulo": "Formato A: la baliza en el techo destellando y, por dentro, el localizador y la SIM que mandan la posición a la DGT 3.0 cada 100 segundos.",
-   "titulo": "Adiós a los triángulos: esta luz avisa a Tráfico de dónde estás 🚨 Así funciona la baliza V16",
-   "gancho": "Si tienes coche, desde este año los triángulos ya no valen.",
-   "primer_segundo": "Un brazo saca la baliza por la ventanilla y la pega en el techo; empieza a destellar en primer plano.",
-   "cifras": [
-    "Visible a 1 km en 360°",
-    "Posición enviada cada 100 s",
-    "12 años de conexión incluida",
-    "Al menos 30 min de batería"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: los triángulos ya no valen",
-    "El peligro de andar por el arcén",
-    "Imán y luz visible a 1 km",
-    "Localizador + SIM",
-    "La posición va a la DGT 3.0 y a los paneles",
-    "Cada 100 s, 12 años de conexión",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 9,
-    "ensenar": 8
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Obligatoria y polémica: todo el que conduce se siente aludido y comenta.",
-   "competencia": "Vídeos de noticias y de marcas; pocos enseñan qué pasa por dentro.",
-   "riesgos": "No enseñar marcas de balizas; ceñirse a lo que exige la norma.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "v16",
-    "dgt",
-    "coche",
-    "trafico",
-    "comofunciona"
-   ],
-   "propuesto": "Ya propuesto como guion «v16»."
-  },
-  {
    "id": "linterna",
    "tema": "Linterna sin pilas (del kit de emergencia)",
    "tipo": "actualidad",
@@ -171,56 +119,6 @@
     "inventos",
     "comofunciona"
    ]
-  },
-  {
-   "id": "paraguas",
-   "tema": "Cómo se abre un paraguas automático",
-   "tipo": "actualidad",
-   "puntuacion": 60,
-   "por_que": "Ayer el tiempo estaba en tendencias; hoy la señal ha bajado, pero es un objeto de temporada que todo el mundo usa en noviembre y casi nadie sabe cómo se abre solo.",
-   "senales": [
-    {
-     "fuente": "Google Trends España",
-     "dato": "Búsquedas sobre lluvias de los próximos 7 días (meteovigo, 500+)"
-    }
-   ],
-   "urgencia": "Esta semana o la próxima",
-   "angulo": "Formato B: inventar el paraguas pieza a pieza (tela, varillas, corredera, muelle del botón automático) con flechas de fuerza del viento.",
-   "titulo": "Si tuvieras que inventar el paraguas… ☔ ¿por qué se da la vuelta con el viento?",
-   "gancho": "El paraguas que llevas hoy se abre en menos de un segundo… ¿qué lo empuja?",
-   "primer_segundo": "Un pulgar pulsando el botón y el paraguas abriéndose de golpe en primer plano bajo la lluvia.",
-   "cifras": [
-    "Número de varillas: normalmente 8 (comprobar)",
-    "Velocidad del viento a la que se da la vuelta (comprobar)",
-    "Fuerza del muelle (comprobar)"
-   ],
-   "formato": "B",
-   "estructura": [
-    "Gancho: se abre solo",
-    "Tela impermeable",
-    "Varillas que la tensan",
-    "Corredera y muelle del botón",
-    "Pero el viento lo da la vuelta… así que varillas flexibles",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 9,
-    "primer_segundo": 9,
-    "ensenar": 6
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Objeto universal y de temporada; todo el mundo ha visto un paraguas dado la vuelta.",
-   "competencia": "Poca en español.",
-   "riesgos": "Las cifras son difíciles de enseñar; hay que buscar un medidor claro (viento en km/h).",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "paraguas",
-    "lluvia",
-    "inventos",
-    "comofunciona",
-    "otono"
-   ],
-   "propuesto": "Ya propuesto como guion «paraguas» (8 varillas, 1928)."
   },
   {
    "id": "espejo",
@@ -417,6 +315,14 @@
   {
    "tema": "Escalera mecánica (34 mil)",
    "motivo": "Ya hecha: «escalera»."
+  },
+  {
+   "tema": "La baliza V16 conectada (adiós a los triángulos)",
+   "motivo": "Ya hecho: la escena está en produccion/escenas/ y el vídeo en producción."
+  },
+  {
+   "tema": "Cómo se abre un paraguas automático",
+   "motivo": "Ya hecho: la escena está en produccion/escenas/ y el vídeo en producción."
   }
  ]
 }
