@@ -4,12 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 05/11 | 00:35 | instagram | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://www.instagram.com/reel/DfVpg-QEoq0/) |
-| jue 05/11 | 00:35 | tiktok | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | 📲 en tu bandeja de TikTok |
-| jue 05/11 | 00:35 | youtube | ¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la panta | [✅ publicado](https://youtube.com/shorts/_jgz1oGTBxk) |
-| jue 05/11 | 00:36 | instagram | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | [✅ publicado](https://www.instagram.com/reel/DfVpvuKgf5f/) |
-| jue 05/11 | 00:36 | tiktok | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | 📲 en tu bandeja de TikTok |
-| jue 05/11 | 00:36 | youtube | ¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 As | [✅ publicado](https://youtube.com/shorts/qA9E1SHz4nw) |
 | jue 05/11 | 10:00 | instagram | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | [✅ publicado](https://www.instagram.com/reel/DfWu5aiCHXa/) |
 | jue 05/11 | 10:00 | tiktok | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | 📲 en tu bandeja de TikTok |
 | jue 05/11 | 12:00 | youtube | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | [✅ publicado](https://youtube.com/shorts/UFWj2_kxP2U) |
