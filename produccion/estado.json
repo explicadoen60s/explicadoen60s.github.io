@@ -986,7 +986,7 @@
     "fisica",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-06",
    "reglas": {
     "cotidiano": 9,
@@ -1003,7 +1003,8 @@
    ],
    "aprobado": "2026-11-06T21:39:16.967Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 69.5
+   "duracion": 69.5,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "depuradora",
