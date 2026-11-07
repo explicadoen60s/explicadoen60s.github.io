@@ -1526,7 +1526,7 @@
     "casa",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 7,
@@ -1540,7 +1540,9 @@
     "Si de madrugada se quema algo en tu casa, el humo no te despierta.",
     "Tu detector de humo tiene una luz que nunca apunta al sensor.",
     "¿Por qué tu detector de humo suelta un pitido de vez en cuando?"
-   ]
+   ],
+   "aprobado": "2026-11-07T23:56:02.055Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "ventana",
