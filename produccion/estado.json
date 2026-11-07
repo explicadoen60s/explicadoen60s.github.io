@@ -1354,7 +1354,7 @@
     "obras",
     "ingenieria"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1380,7 +1380,8 @@
    ],
    "aprobado": "2026-11-07T12:00:46.456Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 76.8
+   "duracion": 76.8,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "tdt",
