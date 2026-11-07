@@ -35,7 +35,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 07/11 | 16:00 | youtube | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | [✅ publicado](https://youtube.com/shorts/MKLajrFUt9Y) |
 | sáb 07/11 | 18:00 | instagram | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | [✅ publicado](https://www.instagram.com/reel/DfcqxifHFcH/) |
 | sáb 07/11 | 18:00 | tiktok | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | 📲 en tu bandeja de TikTok |
-| sáb 07/11 | 21:00 | tiktok | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
+| sáb 07/11 | 21:00 | tiktok | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 10:00 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
 | dom 08/11 | 10:00 | tiktok | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
 | dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
