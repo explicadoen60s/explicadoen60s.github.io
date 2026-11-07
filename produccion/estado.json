@@ -1432,7 +1432,7 @@
     "casa",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1447,7 +1447,9 @@
     "Se funde una bombilla de tu guirnalda… y las demás siguen encendidas. ¿Cómo?",
     "Dentro de cada bombilla de Navidad hay un alambre escondido que se suelda solo."
    ],
-   "tendencia": "navidad"
+   "tendencia": "navidad",
+   "aprobado": "2026-11-07T23:55:38.928Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "caldera",
