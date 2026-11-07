@@ -1587,7 +1587,7 @@
     "acero",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 7,
@@ -1601,7 +1601,9 @@
     "Cuando cruzas un puente en coche, no piensas que vas colgado de unos alambres.",
     "Cada cable de este puente tiene veintisiete mil alambres. Y se hiló allí mismo.",
     "Los alambres de un solo puente dan tres vueltas a la Tierra."
-   ]
+   ],
+   "aprobado": "2026-11-07T23:55:48.444Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "nieve",
