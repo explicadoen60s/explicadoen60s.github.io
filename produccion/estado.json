@@ -1161,7 +1161,7 @@
     "seguridad",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 10,
@@ -1183,7 +1183,8 @@
    ],
    "aprobado": "2026-11-07T12:00:54.362Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 70.4
+   "duracion": 70.4,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "paraguas",
