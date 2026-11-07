@@ -1493,7 +1493,7 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 9,
@@ -1507,7 +1507,9 @@
     "Cada noche te cepillas los dientes… y casi nadie llega a los dos minutos.",
     "Tu cepillo eléctrico se mueve más de quinientas veces por segundo.",
     "¿Por qué tu cepillo eléctrico se carga sin enchufarlo?"
-   ]
+   ],
+   "aprobado": "2026-11-07T23:55:33.436Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "detector",
