@@ -1555,7 +1555,7 @@
     "invierno",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-07",
    "reglas": {
     "cotidiano": 10,
@@ -1570,7 +1570,9 @@
     "Cada noche sueltas agua suficiente para empañar tu ventana.",
     "¿Por qué se empaña el cristal por dentro y no por fuera?"
    ],
-   "tendencia": "humedad"
+   "tendencia": "humedad",
+   "aprobado": "2026-11-07T23:55:44.017Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "puente",
