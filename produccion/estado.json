@@ -1893,6 +1893,36 @@
     "¿Cómo se hace un túnel debajo de una ciudad sin tirar las casas?",
     "Esta máquina pesa mil quinientas toneladas y avanza dieciocho metros al día."
    ]
+  },
+  {
+   "id": "brazo",
+   "formato": "B",
+   "titulo": "Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvieras que inventar un brazo…",
+   "guion": "Ahora mismo, sujetando el móvil, tu brazo hace fuerza como para levantar casi dos kilos. ¿Por qué tanta? Vamos a inventar un brazo. Primero, un hueso rígido para el antebrazo. Y una bisagra en el codo, para que pueda doblarse. Pero un hueso solo no se mueve. Necesita un motor. Así que le pones un músculo: el bíceps. Un músculo solo sabe hacer una cosa… encogerse y tirar. Nunca empuja. Lo atas al hueso con una cuerda muy dura: el tendón. Pero ojo, no lo atas cerca de la mano. Lo atas a solo cuatro centímetros del codo. Y la mano queda a unos treinta y cinco. Y aquí viene lo curioso… Como tira tan cerca del codo, tiene que hacer unas ocho veces más fuerza. Por eso tu móvil, de doscientos gramos, le cuesta casi dos kilos. ¿Entonces es un mal diseño? No. A cambio, si el bíceps se encoge un centímetro, tu mano sube unos nueve. Pierdes fuerza, pero ganas rapidez. Por eso puedes lanzar una pelota tan deprisa. Pero falta algo. Si el músculo solo tira… ¿quién vuelve a estirar el brazo? Así que pones otro músculo detrás: el tríceps. Uno tira hacia arriba y el otro hacia abajo. Siempre trabajan por parejas. Sígueme para más.",
+   "texto": "Tu bíceps tira a solo cuatro centímetros del codo… y eso tiene truco. ¿Sabías que el músculo nunca empuja? 👇",
+   "tags": [
+    "cuerpohumano",
+    "brazo",
+    "musculos",
+    "palanca",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "tendencia": "Cómo funciona tu brazo (palanca del bíceps)",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Es el brazo con el que el espectador sujeta el móvil mientras ve el vídeo",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una mano gigante levantando un móvil en primer plano, con el antebrazo en corte y el bíceps encogiéndose",
+    "ensenar": 9,
+    "ensenar_nota": "Báscula del bíceps que sube de 0 a casi 2 kg, regla con 4 cm y 35 cm, contador de 1 cm de músculo → 9 cm de mano y flechas de tirón del bíceps y del tríceps"
+   },
+   "ganchos": [
+    "Ahora mismo, sujetando el móvil, tu brazo hace fuerza como para levantar casi dos kilos.",
+    "Tu bíceps está atado en el peor sitio posible… y es a propósito.",
+    "Un músculo nunca empuja. Entonces, ¿cómo estiras el brazo?"
+   ]
   }
  ]
 }

@@ -1,62 +1,66 @@
 {
- "actualizado": "2026-11-08T13:00:00+01:00",
- "resumen": "Las 8 escenas pendientes ya están entregadas (TDT, luces, caldera, cepillo, detector, ventana, puente y nieve), así que esas tendencias pasan a descartadas. Lo nuevo: «borrasca bruña» lidera Google Trends (2000+) y da pie a explicar por qué los molinos se paran con viento fuerte. En shorts de la semana destacan el velcro (59 mil) y el suelo infinito de espejos (161 mil). Se han convertido en guiones aerogenerador, velcro, espejos y linterna; ratón óptico, vibración del móvil, secador y metro salen de temas cotidianos. Google Trends y Wikipedia vienen dominados por política (Paraguay), fútbol y famosos.",
+ "actualizado": "2026-11-08T20:45:00+01:00",
+ "resumen": "Google Trends España de esta tarde es solo fútbol y tenis (Real Madrid-Murcia 2000+, Real Sociedad-Rayo 5000+) y Wikipedia sigue con la crisis de Paraguay y famosos: nada aprovechable. La borrasca ya no sale en Trends, así que el molino baja de urgencia. Nuevo: el brazo como palanca (los shorts de cuerpo humano en 3D rondan 80 mil-730 mil vistas), convertido en el guion «brazo». Espejos sale de la lista porque se rechazó en el panel, y el ratón porque ya está en producción. En ciencia y tecnología siguen cargador (16 M) y paneles solares (1,5 M), ya hechos.",
  "tendencias": [
   {
-   "id": "aerogenerador",
-   "tema": "Por qué los molinos se paran cuando sopla fuerte (borrasca Bruña)",
-   "tipo": "actualidad",
-   "puntuacion": 74,
-   "por_que": "«borrasca bruña» es la búsqueda que más crece en Google Trends España (2000+). Con viento fuerte la gente ve molinos parados y no entiende por qué. La eólica es la primera fuente de electricidad de España (≈22 % en 2025, Red Eléctrica).",
+   "id": "brazo",
+   "tema": "Cómo funciona tu brazo (la palanca del bíceps)",
+   "tipo": "evergreen",
+   "puntuacion": 72,
+   "por_que": "En los shorts de «cómo funciona» de la semana, «¿Cómo funciona tu brazo?» suma 82.114 vistas y los vídeos de cuerpo humano en 3D de «Por Dentro De Todo» llegan a 729.984 (stent) y 147.850 (cadera). El brazo es lo más cotidiano posible y no necesita hablar de enfermedades.",
    "senales": [
     {
-     "fuente": "Google Trends España",
-     "dato": "«borrasca bruña», 2000+ búsquedas"
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«¿Cómo funciona tu brazo?», 82.114 vistas"
     },
     {
-     "fuente": "Red Eléctrica (cierre 2025)",
-     "dato": "La eólica, primera fuente del mix por tercer año, ≈22 %",
-     "url": "https://www.ree.es/sites/default/files/2025-12/1912-np-datos-cierre-2025.pdf"
+     "fuente": "Shorts «cómo funciona» de la semana",
+     "dato": "«Por Dentro De Todo»: stent 729.984 vistas y cadera 147.850 (cuerpo humano en 3D)",
+     "url": "https://youtube.com/shorts/SP1ETdB4Ezw"
+    },
+    {
+     "fuente": "Física de palancas (OpenStax, músculos y articulaciones)",
+     "dato": "Bíceps a unos 4 cm del codo y mano a unos 35-38 cm: fuerza unas 8-9 veces el peso",
+     "url": "https://openbooks.lib.msu.edu/collegephysics1/chapter/forces-and-torques-in-muscles-and-joints-2"
     }
    ],
-   "urgencia": "Alta: mientras dure el temporal",
-   "angulo": "Formato C: levantar el molino pieza a pieza (torre, zapata, palas, multiplicadora, orientación) y terminar en la parada por viento fuerte.",
-   "titulo": "¿Y si construyes un molino de viento gigante? 🌬️ Por qué se para cuando sopla fuerte",
-   "gancho": "¿Por qué los molinos se paran justo cuando más viento hace?",
-   "primer_segundo": "Una pala gigante pasando delante de la cámara con la velocidad de la punta en un contador.",
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato B: inventar el brazo pieza a pieza (hueso, bisagra, músculo que solo tira, tendón cerca del codo, tríceps) con la fuerza en una báscula.",
+   "titulo": "Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪",
+   "gancho": "Ahora mismo, sujetando el móvil, tu brazo hace fuerza como para levantar casi dos kilos.",
+   "primer_segundo": "Mano gigante levantando un móvil con el antebrazo en corte y el bíceps encogiéndose.",
    "cifras": [
-    "Torres de 80-160 m",
-    "Palas de 40-85 m",
-    "Rotor 10-40 rpm → generador 1.500 rpm",
-    "Punta de pala 80-100 m/s (≈290-360 km/h)",
-    "Arranca a 3-4 m/s y se para a ≈25 m/s (90 km/h)"
+    "Bíceps a ≈4 cm del codo, mano a ≈35 cm",
+    "Fuerza ≈8 veces el peso",
+    "Móvil 200 g → casi 2 kg de tirón",
+    "1 cm de músculo → ≈9 cm de mano"
    ],
-   "formato": "C",
+   "formato": "B",
    "estructura": [
-    "Gancho: 1 de cada 5 veces que enciendes la luz",
-    "Torre alta",
-    "Zapata para que no vuelque",
-    "Palas lentas",
-    "Multiplicadora",
-    "Orientación al viento",
-    "Parada a 90 km/h",
+    "Gancho con el móvil",
+    "Hueso y bisagra",
+    "Músculo que solo tira",
+    "Tendón a 4 cm del codo",
+    "Dato: ×8 de fuerza",
+    "Ganas rapidez",
+    "Tríceps: por parejas",
     "Cierre"
    ],
    "reglas": {
-    "cotidiano": 7,
+    "cotidiano": 10,
     "primer_segundo": 8,
     "ensenar": 9
    },
    "potencial": "alto",
-   "por_que_funcionaria": "Responde a una duda que el espectador tiene esta semana y tiene cifras muy visuales.",
-   "competencia": "Pocos shorts en español con el mecanismo completo.",
-   "riesgos": "No hablar de daños ni víctimas del temporal.",
-   "mejor_hora": "18:00",
+   "por_que_funcionaria": "Habla del brazo que sujeta el móvil en ese momento y tiene un dato chocante (×8) fácil de enseñar con una báscula.",
+   "competencia": "Hay shorts de anatomía, pero pocos con la palanca y las cifras.",
+   "riesgos": "No dar consejos de salud ni de gimnasio; cifras redondeadas (dependen de cada persona).",
+   "mejor_hora": "13:00",
    "hashtags": [
-    "energia",
-    "viento",
-    "molinos",
-    "borrasca",
+    "cuerpohumano",
+    "brazo",
+    "musculos",
+    "ciencia",
     "comofunciona"
    ]
   },
@@ -115,41 +119,43 @@
    ]
   },
   {
-   "id": "raton",
-   "tema": "Cómo sabe el ratón hacia dónde lo mueves",
-   "tipo": "evergreen",
-   "puntuacion": 66,
-   "por_que": "Los temas de tecnología de escritorio funcionan en el canal (teclado, mando). El ratón óptico hace 1.500 fotos por segundo (sensores sencillos) y más de 17.000 los de juego: cifra chocante y fácil de enseñar.",
+   "id": "aerogenerador",
+   "tema": "Por qué los molinos se paran cuando sopla fuerte (borrasca Bruña)",
+   "tipo": "actualidad",
+   "puntuacion": 64,
+   "por_que": "«borrasca bruña» es la búsqueda que más crece en Google Trends España (2000+). Con viento fuerte la gente ve molinos parados y no entiende por qué. La eólica es la primera fuente de electricidad de España (≈22 % en 2025, Red Eléctrica).",
    "senales": [
     {
-     "fuente": "Hoja de datos del sensor ADNS-2610",
-     "dato": "1.500 fotos/s, 324 píxeles (18×18), led rojo",
-     "url": "https://fab.cba.mit.edu/classes/863.09/people/labrune/files/camera/ADNS2610.pdf"
+     "fuente": "Google Trends España",
+     "dato": "«borrasca bruña», 2000+ búsquedas"
     },
     {
-     "fuente": "DriversCloud",
-     "dato": "Sensores modernos: más de 17.000 fotos por segundo",
-     "url": "https://www.driverscloud.com/en/news/2796/over-17000-photos-per-second-modern-mouse-sensors-are-precision-weapons"
+     "fuente": "Red Eléctrica (cierre 2025)",
+     "dato": "La eólica, primera fuente del mix por tercer año, ≈22 %",
+     "url": "https://www.ree.es/sites/default/files/2025-12/1912-np-datos-cierre-2025.pdf"
     }
    ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Formato A: corte del ratón, led rasante, cámara de 18×18 y comparación de fotos; por qué falla en un cristal.",
-   "titulo": "Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️",
-   "gancho": "Tu ratón hace mil quinientas fotos por segundo… de tu mesa.",
-   "primer_segundo": "El ratón deslizándose visto desde abajo con la luz roja barriendo la mesa.",
+   "urgencia": "Media: la borrasca ya no aparece en Google Trends; sigue valiendo como tema de invierno",
+   "angulo": "Formato C: levantar el molino pieza a pieza (torre, zapata, palas, multiplicadora, orientación) y terminar en la parada por viento fuerte.",
+   "titulo": "¿Y si construyes un molino de viento gigante? 🌬️ Por qué se para cuando sopla fuerte",
+   "gancho": "¿Por qué los molinos se paran justo cuando más viento hace?",
+   "primer_segundo": "Una pala gigante pasando delante de la cámara con la velocidad de la punta en un contador.",
    "cifras": [
-    "1.500 fotos/s",
-    "17.000 fotos/s",
-    "18×18 = 324 píxeles"
+    "Torres de 80-160 m",
+    "Palas de 40-85 m",
+    "Rotor 10-40 rpm → generador 1.500 rpm",
+    "Punta de pala 80-100 m/s (≈290-360 km/h)",
+    "Arranca a 3-4 m/s y se para a ≈25 m/s (90 km/h)"
    ],
-   "formato": "A",
+   "formato": "C",
    "estructura": [
-    "Gancho",
-    "Led rasante",
-    "Cámara 18×18",
-    "Compara fotos",
-    "Velocidad",
-    "Cristal",
+    "Gancho: 1 de cada 5 veces que enciendes la luz",
+    "Torre alta",
+    "Zapata para que no vuelque",
+    "Palas lentas",
+    "Multiplicadora",
+    "Orientación al viento",
+    "Parada a 90 km/h",
     "Cierre"
    ],
    "reglas": {
@@ -157,16 +163,16 @@
     "primer_segundo": 8,
     "ensenar": 9
    },
-   "potencial": "medio-alto",
-   "por_que_funcionaria": "Revela algo escondido en un objeto que se toca a diario.",
-   "competencia": "Hay vídeos largos, pocos shorts.",
-   "riesgos": "Que no parezca anuncio de ratones de juego.",
-   "mejor_hora": "16:00",
+   "potencial": "alto",
+   "por_que_funcionaria": "Responde a una duda que el espectador tiene esta semana y tiene cifras muy visuales.",
+   "competencia": "Pocos shorts en español con el mecanismo completo.",
+   "riesgos": "No hablar de daños ni víctimas del temporal.",
+   "mejor_hora": "18:00",
    "hashtags": [
-    "raton",
-    "ordenador",
-    "camara",
-    "tecnologia",
+    "energia",
+    "viento",
+    "molinos",
+    "borrasca",
     "comofunciona"
    ]
   },
@@ -174,7 +180,7 @@
    "id": "linterna",
    "tema": "Linterna sin pilas (del kit de emergencia)",
    "tipo": "actualidad",
-   "puntuacion": 62,
+   "puntuacion": 60,
    "por_que": "Sigue el interés por el kit de emergencia de 72 horas que pide Bruselas (con linterna). Una linterna de agitar se explica con imán, bobina, diodos, condensador y led; ≈30 s de agitar dan ≈5 min de luz.",
    "senales": [
     {
@@ -221,66 +227,6 @@
     "electricidad",
     "iman",
     "inventos",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "espejos",
-   "tema": "El «suelo infinito» (espejos enfrentados)",
-   "tipo": "evergreen",
-   "puntuacion": 58,
-   "por_que": "«How the Infinity Floor Works» suma 161 mil vistas esta semana. Versión cotidiana: los espejos enfrentados del ascensor. Cada espejo devuelve un 90-98 % de la luz y refleja mejor el verde (≈510 nm): por eso las copias se oscurecen y se vuelven verdes.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«How the Infinity Floor Works», 161.539 vistas"
-    },
-    {
-     "fuente": "Gigazine (Julie Bentley, óptica)",
-     "dato": "Cada rebote devuelve 90-98 % de la luz",
-     "url": "https://gigazine.net/gsc_news/en/20240513-mirrors-infinite-reflections"
-    },
-    {
-     "fuente": "Futurism",
-     "dato": "Los espejos reflejan mejor ≈510 nm (verde)",
-     "url": "https://futurism.com/the-color-of-mirrors"
-    }
-   ],
-   "urgencia": "Baja",
-   "angulo": "Formato A: el túnel de copias, rebote a rebote, con la luz que se pierde y el verde que queda.",
-   "titulo": "¿Por qué en el ascensor ves infinitas copias de ti? 🪞",
-   "gancho": "Te metes en un ascensor con dos espejos enfrentados… y ves cientos de copias de ti.",
-   "primer_segundo": "La cámara viajando hacia el fondo del túnel de copias.",
-   "cifras": [
-    "90-98 % por rebote",
-    "0,95^20 ≈ 36 %",
-    "0,95^50 ≈ 8 %"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho",
-    "Rebotes",
-    "Distancia",
-    "Luz que se pierde",
-    "Verde",
-    "No son infinitas",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 8,
-    "ensenar": 9
-   },
-   "potencial": "medio-alto",
-   "por_que_funcionaria": "Experiencia que todo el mundo ha vivido, con un final sorprendente (el verde).",
-   "competencia": "Algún short en inglés.",
-   "riesgos": "Que la escena del túnel no sea un plano quieto.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "espejos",
-    "luz",
-    "ascensor",
-    "ciencia",
     "comofunciona"
    ]
   },
@@ -382,6 +328,14 @@
   }
  ],
  "descartadas": [
+  {
+   "tema": "Suelo infinito (espejos enfrentados)",
+   "motivo": "Rechazado hoy en el panel («espejos»)."
+  },
+  {
+   "tema": "Ratón óptico",
+   "motivo": "Ya en producción: «raton» está renderizándose."
+  },
   {
    "tema": "TDT y La Séptima (25.728 lecturas en Wikipedia)",
    "motivo": "Ya en producción: «tdt» está renderizándose."
