@@ -1346,9 +1346,15 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705819051959945239",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-08T15:16:59.284364+00:00"
   },
   {
    "id": "chatgpt-youtube",
@@ -1364,9 +1370,14 @@
     "comofunciona",
     "ia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "D-vXkFAmooU",
+    "url": "https://youtube.com/shorts/D-vXkFAmooU"
+   },
+   "publicado": "2026-11-08T15:17:01.779287+00:00"
   },
   {
    "id": "chatgpt-instagram",
