@@ -76,7 +76,9 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
 | vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
 | sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
+| sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
+| sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
@@ -127,3 +129,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 26/11 | 12:00 | youtube | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
 | jue 26/11 | 16:00 | youtube | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
 | jue 26/11 | 18:00 | instagram | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
+| vie 27/11 | 10:00 | instagram | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
+| vie 27/11 | 12:00 | youtube | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
+| vie 27/11 | 16:00 | youtube | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
+| vie 27/11 | 18:00 | instagram | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
