@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 05/11 | 18:00 | instagram | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | [✅ publicado](https://www.instagram.com/reel/DfXl6zEihqi/) |
-| jue 05/11 | 18:00 | tiktok | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | 📲 en tu bandeja de TikTok |
 | jue 05/11 | 21:00 | tiktok | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 10:00 | instagram | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | [✅ publicado](https://www.instagram.com/reel/DfZSjxzCgQ3/) |
 | vie 06/11 | 10:00 | tiktok | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | 📲 en tu bandeja de TikTok |
@@ -30,8 +28,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 08/11 | 13:00 | tiktok | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 16:00 | tiktok | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 16:00 | youtube | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | [✅ publicado](https://youtube.com/shorts/D-vXkFAmooU) |
-| dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | ⏳ pendiente |
-| dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
+| dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | [✅ publicado](https://www.instagram.com/reel/DffPod3CS6S/) |
+| dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
 | lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |

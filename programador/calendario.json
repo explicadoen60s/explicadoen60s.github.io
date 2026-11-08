@@ -1393,9 +1393,14 @@
     "comofunciona",
     "ia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17937611061409634",
+    "url": "https://www.instagram.com/reel/DffPod3CS6S/"
+   },
+   "publicado": "2026-11-08T17:02:11.086776+00:00"
   },
   {
    "id": "deposito-tiktok",
@@ -1411,9 +1416,15 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705847012603791382",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-08T17:04:55.958065+00:00"
   },
   {
    "id": "mando-tiktok",
