@@ -1820,7 +1820,7 @@
     "ropa",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-08",
    "reglas": {
     "cotidiano": 9,
@@ -1835,7 +1835,9 @@
     "Ese ruido al abrir tus zapatillas… son cientos de ganchos soltándose.",
     "Un perro lleno de cardos inventó algo que usas cada día."
    ],
-   "tendencia": "Cómo funciona el velcro"
+   "tendencia": "Cómo funciona el velcro",
+   "aprobado": "2026-11-08T19:23:20.599Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "aerogenerador",
