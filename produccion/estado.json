@@ -1667,7 +1667,7 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-08",
    "reglas": {
     "cotidiano": 7,
@@ -1684,7 +1684,8 @@
    ],
    "aprobado": "2026-11-08T16:03:31.750Z",
    "aprobado_por": "Christian_Civico",
-   "duracion": 66.0
+   "duracion": 66,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "vibracion",
@@ -1716,7 +1717,7 @@
    ],
    "aprobado": "2026-11-08T16:03:50.644Z",
    "aprobado_por": "Christian_Civico",
-   "duracion": 67.0
+   "duracion": 67
   },
   {
    "id": "espejos",
