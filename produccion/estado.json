@@ -1886,7 +1886,7 @@
     "ciudad",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-08",
    "reglas": {
     "cotidiano": 7,
@@ -1900,7 +1900,9 @@
     "Ahora mismo, bajo tus pies, puede haber un tren pasando a veinte metros.",
     "¿Cómo se hace un túnel debajo de una ciudad sin tirar las casas?",
     "Esta máquina pesa mil quinientas toneladas y avanza dieciocho metros al día."
-   ]
+   ],
+   "aprobado": "2026-11-08T19:23:42.939Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "brazo",
