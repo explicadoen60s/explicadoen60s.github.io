@@ -1759,7 +1759,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-08",
    "reglas": {
     "cotidiano": 9,
@@ -1773,7 +1773,9 @@
     "Cada mañana te secas el pelo con un aparato de dos mil vatios.",
     "¿Por qué se apaga solo tu secador si tapas la rejilla?",
     "Dentro de tu secador hay un alambre al rojo vivo."
-   ]
+   ],
+   "aprobado": "2026-11-08T19:23:16.170Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "linterna",
