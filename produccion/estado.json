@@ -1641,6 +1641,242 @@
    ],
    "aprobado": "2026-11-07T23:55:59.908Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "raton",
+   "formato": "A",
+   "titulo": "Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así funciona por dentro",
+   "guion": "Tu ratón hace mil quinientas fotos por segundo… de tu mesa. Mira por dentro. Le das la vuelta y ves una luz roja. Es un led, y no está para decorar. Ilumina la mesa de lado, casi rozando. Así, cada pelusa, cada fibra de la madera y cada arañazo hacen una sombra pequeña. Encima hay una lente y, detrás, una cámara diminuta. Pero no es como la de tu móvil. Tiene solo dieciocho por dieciocho píxeles. Trescientos veinticuatro puntos en total. Con eso no ves una foto bonita… ves un mapa de manchas. Y aquí viene lo curioso… El ratón no guarda ninguna foto. Compara cada una con la anterior. Si las manchas se han ido un poco a la izquierda, es que tú has movido el ratón a la derecha. Un chip calcula cuántos puntos se han desplazado, y en qué dirección. Y se lo manda al ordenador, que mueve la flecha lo mismo. Así que, cuantas más fotos hace, más rápido puedes mover la mano sin que se pierda. Un ratón sencillo hace mil quinientas por segundo. Los de videojuegos, más de diecisiete mil. Por eso falla sobre un cristal. Es tan liso y transparente que no hay manchas que comparar. La cámara ve siempre lo mismo… y la flecha se queda quieta. Sígueme para más.",
+   "texto": "Tu ratón no tiene bola: tiene una cámara que fotografía tu mesa sin parar. ¿Sabías por qué falla sobre un cristal? 👇",
+   "tags": [
+    "raton",
+    "ordenador",
+    "camara",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Casi todo el que trabaja o estudia usa un ratón cada día; no tanto quien solo usa el móvil",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una mano deslizando el ratón en primer plano, visto desde abajo, con la luz roja barriendo la mesa",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de fotos por segundo (1.500 → 17.000), rejilla de 18×18 píxeles con las manchas desplazándose y flechas que dan el desplazamiento en puntos"
+   },
+   "ganchos": [
+    "Tu ratón hace mil quinientas fotos por segundo… de tu mesa.",
+    "¿Por qué tu ratón no funciona encima de un cristal?",
+    "Dentro de tu ratón hay una cámara. Y no para de hacer fotos."
+   ]
+  },
+  {
+   "id": "vibracion",
+   "formato": "A",
+   "titulo": "¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gira 12.000 veces por minuto",
+   "guion": "Cuando tu móvil vibra en la mesa, dentro hay algo dando vueltas. Mira por dentro. En muchos móviles hay un motor del tamaño de una lenteja. Ocho milímetros. Pero su eje no lleva una rueda centrada. Lleva una pesa con forma de media luna, toda hacia un lado. Cuando el motor gira, esa pesa tira del móvil hacia arriba, luego hacia un lado, luego hacia abajo. Una y otra vez. Y el móvil entero tiembla. ¿Cuánto gira? Hasta doce mil vueltas por minuto. Doscientas sacudidas cada segundo. Por eso suena ese zumbido. Pero un motor así tarda en arrancar y en frenar. No puede dar un toque corto y seco. Y aquí viene lo curioso… Muchos móviles modernos ya no tienen un motor que gire. Tienen una pesa colgada de un muelle, con un imán, y una bobina alrededor. La corriente empuja la pesa hacia un lado, luego hacia el otro. Como un altavoz, pero que en vez de sonido mueve tu mano. Y si la empujan justo al ritmo al que el muelle rebota solo, con muy poca energía se mueve muchísimo. Así puede dar un toque cortísimo, como cuando pulsas una tecla en la pantalla. Esa sensación de clic… no es un botón. Es una pesa rebotando dentro. Sígueme para más.",
+   "texto": "Ese zumbido de tu móvil es una pesa que gira miles de veces por minuto. ¿El tuyo vibra con zumbido o con toques secos? 👇",
+   "tags": [
+    "movil",
+    "vibracion",
+    "motor",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "El móvil que el espectador tiene en la mano vibra decenas de veces al día",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Un móvil vibrando sobre la mesa en primer plano, temblando, y la cámara entrando por el corte hasta la pesa que gira",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de vueltas por minuto hasta 12.000, sacudidas por segundo hasta 200, flechas de fuerza girando con la pesa y bobina con la corriente cambiando de sentido"
+   },
+   "ganchos": [
+    "Cuando tu móvil vibra en la mesa, dentro hay algo dando vueltas.",
+    "¿Qué se mueve dentro de tu móvil cuando vibra?",
+    "Ese clic que notas al escribir en la pantalla… no es ningún botón."
+   ]
+  },
+  {
+   "id": "espejos",
+   "formato": "A",
+   "titulo": "¿Por qué en el ascensor ves infinitas copias de ti? 🪞 (y por qué se vuelven verdes)",
+   "guion": "Te metes en un ascensor con dos espejos enfrentados… y ves cientos de copias de ti. ¿Son infinitas? Mira lo que hace la luz. La luz sale de tu cara y llega al espejo de delante. Rebota y vuelve hacia atrás. Llega al espejo de detrás, rebota otra vez… y así sin parar. Cada rebote es una copia nueva. Y cada copia parece estar más lejos. Si los espejos están a metro y medio, cada copia aparece tres metros más al fondo. Pero un espejo no devuelve toda la luz. Se queda un poquito en cada rebote. Un espejo normal devuelve entre el noventa y el noventa y ocho por ciento. Parece casi todo… pero se acumula. Con un noventa y cinco, después de veinte rebotes queda poco más de un tercio de la luz. Después de cincuenta, menos de una décima parte. Por eso las copias del fondo se ven cada vez más oscuras. Y aquí viene lo curioso… Fíjate en el color. Las copias del fondo se vuelven verdes. Un espejo refleja mejor el verde que el rojo o el azul. En cada rebote se pierde un poco más de los otros colores. Así que el túnel se va tiñendo de verde. Al final queda tan poca luz que tu ojo ya no ve nada. No son infinitas. Simplemente, se apagan. Sígueme para más.",
+   "texto": "Dos espejos enfrentados parecen un túnel sin fin, pero cada rebote se come un poco de luz. ¿Te habías fijado en que el fondo se ve verde? 👇",
+   "tags": [
+    "espejos",
+    "luz",
+    "ascensor",
+    "ciencia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "Casi todo el mundo se ha visto repetido entre dos espejos de un ascensor o un probador",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una persona entrando en el ascensor y el túnel de copias apareciendo de golpe, con la cámara viajando hacia el fondo",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de rebotes, medidor de luz que baja (100 % → 36 % → 8 %), regla de distancia que suma 3 m por copia y barras de color rojo-verde-azul que se desequilibran"
+   },
+   "ganchos": [
+    "Te metes en un ascensor con dos espejos enfrentados… y ves cientos de copias de ti.",
+    "¿Cuántas copias de ti ves entre dos espejos? Spoiler: no son infinitas.",
+    "¿Por qué el fondo del túnel de espejos se ve verde?"
+   ],
+   "tendencia": "El «suelo infinito» (espejos enfrentados)"
+  },
+  {
+   "id": "secador",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios para secarte el pelo",
+   "guion": "Cada mañana te secas el pelo con un aparato de dos mil vatios. Vamos a inventarlo. El pelo mojado se seca solo, pero tarda horas. El agua necesita calor para evaporarse, y aire que se la lleve. Primero, el aire. Así que pones un ventilador pequeño, con un motor, en la parte de atrás. Aspira el aire por la rejilla y lo empuja hacia delante. Pero el aire frío seca despacio. Así que, delante del ventilador, pones un alambre especial, de níquel y cromo. Unos treinta centímetros, enrollados en una placa de mica, que no arde. Cuando pasa la corriente, el alambre se pone al rojo. El aire lo atraviesa y sale caliente. Y aquí viene lo curioso… Ese alambre se lleva casi toda la energía. Mucho más que el motor. Por eso un secador gasta como un horno pequeño. Pero si tapas la rejilla con la mano o con el pelo, el aire deja de pasar. El alambre sigue calentando… y todo se recalienta. Así que pones una lámina de dos metales pegados. Al calentarse, uno se estira más que el otro, y la lámina se dobla. Cuando pasa de unos sesenta grados, se separa del contacto y corta la corriente. Al enfriarse, vuelve. Y por si acaso, un fusible que se funde si todo falla. Por último, una boquilla estrecha, que concentra el chorro. Sígueme para más.",
+   "texto": "Tu secador es un ventilador con un alambre al rojo dentro… y un truco para no quemarse. ¿Se te ha apagado alguna vez solo? 👇",
+   "tags": [
+    "secador",
+    "electricidad",
+    "calor",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Hay secador en casi todas las casas y mucha gente lo usa cada mañana",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El chorro de aire caliente del secador moviendo un mechón de pelo en primer plano, con el alambre rojo brillando dentro",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de vatios hasta 2.000, termómetro del aire que sube y, al tapar la rejilla, llega a 60 °C y la lámina se dobla y corta; flechas de aire entrando y saliendo"
+   },
+   "ganchos": [
+    "Cada mañana te secas el pelo con un aparato de dos mil vatios.",
+    "¿Por qué se apaga solo tu secador si tapas la rejilla?",
+    "Dentro de tu secador hay un alambre al rojo vivo."
+   ]
+  },
+  {
+   "id": "linterna",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde sale la luz?",
+   "guion": "Si esta noche se va la luz y no tienes pilas… ¿cómo enciendes una linterna? Vamos a inventar una que no las necesite. Necesitas electricidad. Pero no hay enchufe ni pila. Solo tienes tu mano. Así que usas un truco que descubrió Faraday en mil ochocientos treinta y uno. Coges un tubo, le enrollas un hilo de cobre muchas veces, y metes dentro un imán que pueda deslizarse. Cada vez que el imán atraviesa la bobina, aparece corriente en el hilo. Sin tocarlo. Cuanto más rápido pasa, más voltaje. Así que agitas la linterna y el imán va y viene. Pero esa corriente va a tirones: un sentido, luego el otro, y luego nada. Así que pones unos diodos, que solo la dejan pasar en una dirección. Y un condensador, que la guarda como un pequeño depósito. Y aquí viene lo curioso… Una bombilla de las de antes se lo gastaría en un segundo. Así que pones un led, que da mucha luz con poquísima energía. Con unos treinta segundos de agitar, consigues unos cinco minutos de luz. Cuando se apaga, vuelves a agitar. Otras cambian el imán suelto por una manivela que hace girar un imán. Más cómoda, y el mismo principio. Ninguna pila que se gaste o se estropee en un cajón. Sígueme para más.",
+   "texto": "Sin pilas y sin enchufe: un imán, una bobina y tu mano. ¿Tienes una linterna así en casa? 👇",
+   "tags": [
+    "linterna",
+    "electricidad",
+    "iman",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "Todo el mundo ha buscado una linterna en un apagón; la de agitar no la tiene todo el mundo",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una mano agitando la linterna en primer plano, en corte, con el imán atravesando la bobina y la aguja del voltímetro saltando",
+    "ensenar": 9,
+    "ensenar_nota": "Voltímetro que salta con cada pasada del imán, flechas de corriente que cambian de sentido y se enderezan en los diodos, nivel del condensador que sube y contador 30 s → 5 min de luz"
+   },
+   "ganchos": [
+    "Si esta noche se va la luz y no tienes pilas… ¿cómo enciendes una linterna?",
+    "Esta linterna no tiene pilas. La luz sale de tu mano.",
+    "Agitas treinta segundos… y tienes cinco minutos de luz."
+   ],
+   "tendencia": "Linterna sin pilas (del kit de emergencia)"
+  },
+  {
+   "id": "velcro",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar el velcro… 👟 cientos de ganchos diminutos",
+   "guion": "Tus zapatillas, tu mochila, la funda de tu móvil… se cierran con un ¡rrrrrr! Vamos a inventar el velcro. En mil novecientos cuarenta y uno, un ingeniero suizo vuelve de pasear con su perro. Los dos van llenos de cardos pegados. Los mira al microscopio, y cada pinchito termina en un ganchito. Así que quieres copiarlo: una tira cubierta de ganchos. Pero los ganchos necesitan algo donde engancharse. Así que la otra tira lleva bucles: hilos en forma de anillo, muy finos. Al apretar, cada gancho se mete en un bucle. Pero el algodón se aplasta y se rompe enseguida. Así que usas nailon. Tejes bucles de nailon y luego cortas cada bucle por un lado. Así salen ganchos duros, que vuelven a su forma. Y aquí viene lo curioso… Un solo gancho apenas aguanta nada. Pero hay unos trescientos ganchos y bucles en cada pulgada cuadrada, un cuadrado de dos centímetros y medio de lado. Si tiras de golpe, tiras de todos a la vez, y aguanta. Pero si lo despegas desde el borde, sueltas los ganchos de pocos en pocos. Por eso se abre tan fácil… y por eso suena así: es cada gancho soltándose. Tardó catorce años en conseguirlo. Lo patentó en mil novecientos cincuenta y cinco. Sígueme para más.",
+   "texto": "Ese ¡rrrrr! que haces al abrir tus zapatillas son cientos de ganchos soltándose uno a uno. ¿Sabías que se inspiró en un cardo? 👇",
+   "tags": [
+    "velcro",
+    "inventos",
+    "naturaleza",
+    "ropa",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Zapatillas, mochilas, chaquetas y fundas: casi todo el mundo lo abre a diario",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Una tira despegándose en macro, con los ganchos soltándose uno a uno de los bucles",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de ganchos enganchados que baja al despegar desde el borde y se mantiene al tirar de golpe, flechas de fuerza repartidas y cuadrado de 2,5 cm con 300 ganchos; años 1941 → 1955"
+   },
+   "ganchos": [
+    "Tus zapatillas, tu mochila, la funda de tu móvil… se cierran con un ¡rrrrrr!",
+    "Ese ruido al abrir tus zapatillas… son cientos de ganchos soltándose.",
+    "Un perro lleno de cardos inventó algo que usas cada día."
+   ],
+   "tendencia": "Cómo funciona el velcro"
+  },
+  {
+   "id": "aerogenerador",
+   "formato": "C",
+   "titulo": "¿Y si construyes un molino de viento gigante? 🌬️ Por qué se para cuando sopla fuerte",
+   "guion": "Una de cada cinco veces que enciendes la luz en España, esa electricidad viene del viento. ¿Y si tuvieras que construir el molino? Vamos a levantarlo. Primero, el viento. Cerca del suelo, los árboles y las casas lo frenan. Así que subes el molino muy alto: torres de entre ochenta y ciento sesenta metros. Pero una torre así, con el viento empujando arriba, volcaría. Así que bajo tierra pones una zapata enorme de hormigón y acero, que la sujeta. Arriba colocas tres palas, de hasta ochenta y cinco metros cada una. Pero giran despacio: entre diez y cuarenta vueltas por minuto. Y para hacer electricidad, el generador necesita unas mil quinientas. Así que, en la caja de arriba, pones una multiplicadora: engranajes que convierten cada vuelta lenta en muchas rápidas. Y aquí viene lo curioso… Aunque las palas parecen lentas, la punta va a cerca de trescientos kilómetros por hora. Pero el viento cambia de dirección. Así que la caja entera gira sobre la torre, hasta mirar de frente al viento. Con unos tres metros por segundo, el molino arranca. Pero si sopla demasiado, a unos noventa kilómetros por hora, podría romperse. Así que pone las palas de canto, frena y se para. Por eso, en plena borrasca, ves molinos quietos. Sígueme para más.",
+   "texto": "Las palas parecen lentas, pero la punta va casi a 300 km/h. ¿Has visto alguna vez un molino de cerca? 👇",
+   "tags": [
+    "energia",
+    "viento",
+    "molinos",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Se ven en cualquier carretera de España y la luz de casa sale en parte del viento",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Una pala gigante pasando a toda velocidad delante de la cámara, en primer plano, con un contador de velocidad en la punta",
+    "ensenar": 9,
+    "ensenar_nota": "Regla de altura de la torre (80 → 160 m), cuentavueltas del rotor (15 rpm) y del generador (1.500 rpm) en la multiplicadora, velocidad de la punta hasta 300 km/h y anemómetro que llega a 90 km/h y para el molino"
+   },
+   "ganchos": [
+    "Una de cada cinco veces que enciendes la luz en España, esa electricidad viene del viento.",
+    "¿Por qué los molinos se paran justo cuando más viento hace?",
+    "La punta de esa pala va casi a trescientos kilómetros por hora."
+   ],
+   "tendencia": "Por qué los molinos se paran cuando sopla fuerte (borrasca Bruña)"
+  },
+  {
+   "id": "metro",
+   "formato": "C",
+   "titulo": "¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1.500 toneladas",
+   "guion": "Ahora mismo, bajo tus pies, puede haber un tren pasando a veinte metros. ¿Y si tuvieras que construir el metro? Vamos a excavarlo. Primero, el problema: arriba hay calles, casas y tráfico. No puedes abrir una zanja de kilómetros. Así que bajas una máquina gigante por un pozo: la tuneladora. Mide casi cien metros y pesa unas mil quinientas toneladas. Delante tiene una rueda con cuchillas que gira y araña la tierra. Pero un agujero recién hecho se derrumba. Así que, justo detrás de la rueda, un escudo de acero sujeta el terreno. Y a cada paso, unos brazos colocan piezas curvas de hormigón, llamadas dovelas. Siete piezas cierran un anillo. Luego otro, y otro. La tuneladora avanza empujándose contra el último anillo. Pero la tierra que sale tiene que ir a algún sitio. Así que una cinta la lleva hacia atrás hasta el pozo, y de ahí a los camiones. Y aquí viene lo curioso… En la última ampliación del metro de Madrid, avanzó una media de dieciocho metros al día. En ciento cuarenta y siete días, casi tres kilómetros. Y sacó unos ciento ochenta y nueve mil metros cúbicos de tierra. Pero no puede hundir las casas de arriba. Así que se mide cada día si el suelo baja, aunque sea un milímetro. Cuando termina, llegan las vías, los cables y las estaciones. Sígueme para más.",
+   "texto": "Una máquina de casi cien metros excava, sujeta la tierra y pone las paredes del túnel a la vez. ¿Tienes metro en tu ciudad? 👇",
+   "tags": [
+    "metro",
+    "tuneladora",
+    "ingenieria",
+    "ciudad",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-08",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Millones de personas van en metro cada día en Madrid, Barcelona, Valencia, Bilbao o Sevilla",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La rueda de corte de la tuneladora girando de frente y arañando la tierra en primer plano, con piedras saltando",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de anillos (7 dovelas cada uno), metros excavados al día (18), contador de días hasta 147 y de metros cúbicos hasta 189.000, y un medidor de asiento del suelo en milímetros"
+   },
+   "ganchos": [
+    "Ahora mismo, bajo tus pies, puede haber un tren pasando a veinte metros.",
+    "¿Cómo se hace un túnel debajo de una ciudad sin tirar las casas?",
+    "Esta máquina pesa mil quinientas toneladas y avanza dieciocho metros al día."
+   ]
   }
  ]
 }

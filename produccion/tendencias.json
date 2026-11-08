@@ -1,72 +1,172 @@
 {
- "actualizado": "2026-11-07T21:00:00+01:00",
- "resumen": "La TDT sube al primer puesto: el cambio del 5 de noviembre (canal nuevo La Séptima y UHD) está confirmado, «La 2» y «La Séptima» están en tendencia y los tutoriales de resintonizar suman unas 168 mil vistas. Nueva: la baliza V16 (53 mil vistas), ya propuesta como guion. Router y placas ya tienen vídeo. El resto de Google Trends es fútbol, política y famosos. Actualización de la tarde: V16 y paraguas pasan a descartadas porque ya están en producción; «navidad» y «humedad» aparecen en Google Trends y se han usado para dos guiones (luces de Navidad y ventanas empañadas).",
+ "actualizado": "2026-11-08T13:00:00+01:00",
+ "resumen": "Las 8 escenas pendientes ya están entregadas (TDT, luces, caldera, cepillo, detector, ventana, puente y nieve), así que esas tendencias pasan a descartadas. Lo nuevo: «borrasca bruña» lidera Google Trends (2000+) y da pie a explicar por qué los molinos se paran con viento fuerte. En shorts de la semana destacan el velcro (59 mil) y el suelo infinito de espejos (161 mil). Se han convertido en guiones aerogenerador, velcro, espejos y linterna; ratón óptico, vibración del móvil, secador y metro salen de temas cotidianos. Google Trends y Wikipedia vienen dominados por política (Paraguay), fútbol y famosos.",
  "tendencias": [
   {
-   "id": "tdt",
-   "tema": "Por qué hay que resintonizar la tele (cómo llega la TDT a tu antena)",
+   "id": "aerogenerador",
+   "tema": "Por qué los molinos se paran cuando sopla fuerte (borrasca Bruña)",
    "tipo": "actualidad",
-   "puntuacion": 80,
-   "por_que": "Confirmado: el 5 de noviembre de 2026 la TDT cambió (nuevo canal La Séptima y primeras emisiones en ultra alta definición con DVB-T2) y hay que resintonizar. «La 2» está en Google Trends (5.000+ búsquedas), «La Séptima» lleva 25.728 lecturas en Wikipedia y dos tutoriales de resintonizar suman unas 168 mil vistas (85.376 y 82.610).",
+   "puntuacion": 74,
+   "por_que": "«borrasca bruña» es la búsqueda que más crece en Google Trends España (2000+). Con viento fuerte la gente ve molinos parados y no entiende por qué. La eólica es la primera fuente de electricidad de España (≈22 % en 2025, Red Eléctrica).",
    "senales": [
     {
      "fuente": "Google Trends España",
-     "dato": "«la 2», 5.000+ búsquedas"
+     "dato": "«borrasca bruña», 2000+ búsquedas"
     },
     {
-     "fuente": "Wikipedia",
-     "dato": "«La Séptima», 25.728 lecturas en un día",
-     "url": "https://es.wikipedia.org/wiki/La_Séptima"
-    },
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«RESINTONIZAR los canales nuevos de la TDT…», 85.376 vistas"
-    },
-    {
-     "fuente": "YouTube España · Ciencia y tecnología",
-     "dato": "«Cómo resintonizar tu Smart TV y encontrar todos los canales de la TDT», 82.610 vistas"
-    },
-    {
-     "fuente": "Noticia",
-     "dato": "La TDT cambia el 5 de noviembre: nuevo canal y emisiones UHD",
-     "url": "https://www.ondavasca.com/la-tdt-se-renueva-a-partir-del-5-de-noviembre-llega-un-nuevo-canal-y-las-emisiones-en-ultra-alta-definicion/"
+     "fuente": "Red Eléctrica (cierre 2025)",
+     "dato": "La eólica, primera fuente del mix por tercer año, ≈22 %",
+     "url": "https://www.ree.es/sites/default/files/2025-12/1912-np-datos-cierre-2025.pdf"
     }
    ],
-   "urgencia": "Muy alta: el cambio fue el 5 de noviembre y la gente aún está resintonizando; sacarlo esta semana.",
-   "angulo": "La antena recibe varios canales en una sola frecuencia (un múltiple). El 5 de noviembre se reordenaron y llegó el UHD con DVB-T2: la tele busca en el sitio viejo o no entiende el formato nuevo hasta que resintonizas.",
-   "titulo": "¿Han desaparecido canales de tu tele? 📺 Así llega la TDT a tu antena",
-   "gancho": "Enciendes la tele… y faltan canales. La antena está bien. ¿Qué ha pasado?",
-   "primer_segundo": "El mando pulsando y la pantalla saltando de canal a «sin señal», con la antena del tejado en primer plano.",
+   "urgencia": "Alta: mientras dure el temporal",
+   "angulo": "Formato C: levantar el molino pieza a pieza (torre, zapata, palas, multiplicadora, orientación) y terminar en la parada por viento fuerte.",
+   "titulo": "¿Y si construyes un molino de viento gigante? 🌬️ Por qué se para cuando sopla fuerte",
+   "gancho": "¿Por qué los molinos se paran justo cuando más viento hace?",
+   "primer_segundo": "Una pala gigante pasando delante de la cámara con la velocidad de la punta en un contador.",
    "cifras": [
-    "Varios canales viajan juntos en un mismo múltiple (comprobar cuántos)",
-    "Frecuencia de cada múltiple en MHz (comprobar)",
-    "Fecha del cambio: 5 de noviembre de 2026"
+    "Torres de 80-160 m",
+    "Palas de 40-85 m",
+    "Rotor 10-40 rpm → generador 1.500 rpm",
+    "Punta de pala 80-100 m/s (≈290-360 km/h)",
+    "Arranca a 3-4 m/s y se para a ≈25 m/s (90 km/h)"
    ],
-   "formato": "A",
+   "formato": "C",
    "estructura": [
-    "Gancho: faltan canales",
-    "De la torre a la antena del tejado",
-    "Un múltiple: varios canales en una frecuencia",
-    "Cambian la frecuencia",
-    "La tele busca en el sitio viejo",
-    "Resintonizar: barrido de frecuencias",
-    "Cierre: Sígueme para más."
+    "Gancho: 1 de cada 5 veces que enciendes la luz",
+    "Torre alta",
+    "Zapata para que no vuelque",
+    "Palas lentas",
+    "Multiplicadora",
+    "Orientación al viento",
+    "Parada a 90 km/h",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "primer_segundo": 8,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Responde a una duda que el espectador tiene esta semana y tiene cifras muy visuales.",
+   "competencia": "Pocos shorts en español con el mecanismo completo.",
+   "riesgos": "No hablar de daños ni víctimas del temporal.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "energia",
+    "viento",
+    "molinos",
+    "borrasca",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "velcro",
+   "tema": "Cómo funciona el velcro",
+   "tipo": "evergreen",
+   "puntuacion": 70,
+   "por_que": "El short «How Velcro Actually Works» suma 59 mil vistas esta semana sin ser en español. Es algo que el espectador abre a diario (zapatillas, mochila) y tiene sonido propio.",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«How Velcro Actually Works», 59.212 vistas"
+    },
+    {
+     "fuente": "Swissinfo",
+     "dato": "Idea en 1941, patente en 1955, ≈300 ganchos y bucles por pulgada cuadrada",
+     "url": "https://www.swissinfo.ch/eng/velcro_how-a-swiss-invention-hooked-the-world/5653568"
+    }
+   ],
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato B: inventarlo a partir del cardo: ganchos, bucles, nailon cortado, y por qué se abre desde el borde.",
+   "titulo": "Si tuvieras que inventar el velcro… 👟 cientos de ganchos diminutos",
+   "gancho": "Ese ruido al abrir tus zapatillas… son cientos de ganchos soltándose.",
+   "primer_segundo": "Una tira despegándose en macro, los ganchos soltándose uno a uno.",
+   "cifras": [
+    "300 ganchos y bucles por pulgada cuadrada",
+    "1941 → 1955 (14 años)"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Gancho: el ¡rrrr!",
+    "Cardo al microscopio",
+    "Ganchos",
+    "Bucles",
+    "Nailon",
+    "Por qué aguanta y por qué se abre",
+    "Cierre"
    ],
    "reglas": {
     "cotidiano": 9,
-    "primer_segundo": 7,
-    "ensenar": 7
+    "primer_segundo": 9,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Objeto universal, primer plano espectacular y sonido reconocible.",
+   "competencia": "Hay versiones en inglés; casi ninguna en español.",
+   "riesgos": "«Velcro» es marca: no enseñarla en pantalla.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "velcro",
+    "inventos",
+    "naturaleza",
+    "ropa",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "raton",
+   "tema": "Cómo sabe el ratón hacia dónde lo mueves",
+   "tipo": "evergreen",
+   "puntuacion": 66,
+   "por_que": "Los temas de tecnología de escritorio funcionan en el canal (teclado, mando). El ratón óptico hace 1.500 fotos por segundo (sensores sencillos) y más de 17.000 los de juego: cifra chocante y fácil de enseñar.",
+   "senales": [
+    {
+     "fuente": "Hoja de datos del sensor ADNS-2610",
+     "dato": "1.500 fotos/s, 324 píxeles (18×18), led rojo",
+     "url": "https://fab.cba.mit.edu/classes/863.09/people/labrune/files/camera/ADNS2610.pdf"
+    },
+    {
+     "fuente": "DriversCloud",
+     "dato": "Sensores modernos: más de 17.000 fotos por segundo",
+     "url": "https://www.driverscloud.com/en/news/2796/over-17000-photos-per-second-modern-mouse-sensors-are-precision-weapons"
+    }
+   ],
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato A: corte del ratón, led rasante, cámara de 18×18 y comparación de fotos; por qué falla en un cristal.",
+   "titulo": "Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️",
+   "gancho": "Tu ratón hace mil quinientas fotos por segundo… de tu mesa.",
+   "primer_segundo": "El ratón deslizándose visto desde abajo con la luz roja barriendo la mesa.",
+   "cifras": [
+    "1.500 fotos/s",
+    "17.000 fotos/s",
+    "18×18 = 324 píxeles"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho",
+    "Led rasante",
+    "Cámara 18×18",
+    "Compara fotos",
+    "Velocidad",
+    "Cristal",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "primer_segundo": 8,
+    "ensenar": 9
    },
    "potencial": "medio-alto",
-   "por_que_funcionaria": "Problema práctico que tiene mucha gente ahora mismo.",
-   "competencia": "Tutoriales paso a paso por marca; nadie explica por qué pasa.",
-   "riesgos": "No enseñar marcas de televisores ni logotipos de cadenas; explicar que las teles antiguas sin DVB-T2 no verán el canal UHD.",
-   "mejor_hora": "21:00",
+   "por_que_funcionaria": "Revela algo escondido en un objeto que se toca a diario.",
+   "competencia": "Hay vídeos largos, pocos shorts.",
+   "riesgos": "Que no parezca anuncio de ratones de juego.",
+   "mejor_hora": "16:00",
    "hashtags": [
-    "tdt",
-    "television",
-    "antena",
-    "tele",
+    "raton",
+    "ordenador",
+    "camara",
+    "tecnologia",
     "comofunciona"
    ]
   },
@@ -74,146 +174,113 @@
    "id": "linterna",
    "tema": "Linterna sin pilas (del kit de emergencia)",
    "tipo": "actualidad",
-   "puntuacion": 64,
-   "por_que": "«emergencia» está en Google Trends España (200+) porque Bruselas vuelve a pedir un kit para 72 horas, que incluye linterna y radio. Una linterna de dinamo o de agitar se explica con un imán y una bobina.",
+   "puntuacion": 62,
+   "por_que": "Sigue el interés por el kit de emergencia de 72 horas que pide Bruselas (con linterna). Una linterna de agitar se explica con imán, bobina, diodos, condensador y led; ≈30 s de agitar dan ≈5 min de luz.",
    "senales": [
     {
-     "fuente": "Google Trends España",
-     "dato": "«emergencia», 200+ búsquedas",
+     "fuente": "Google Trends España (semana)",
+     "dato": "«emergencia» en tendencia por el kit de 72 horas",
      "url": "https://www.europapress.es/internacional/noticia-bruselas-vuelve-pedir-kits-emergencia-72-horas-plantea-ensenar-ninos-actuar-crisis-20261103130703.html"
+    },
+    {
+     "fuente": "SlashGear",
+     "dato": "≈30 s de agitar → ≈5 min de luz",
+     "url": "https://www.slashgear.com/2283832/what-is-faraday-shake-flashlight-how-does-it-work/"
     }
    ],
-   "urgencia": "Media: aprovecha la noticia del kit de esta semana",
-   "angulo": "Formato B: inventar una linterna que no necesita pilas. Imán que atraviesa una bobina, corriente que aparece, condensador que la guarda y LED que gasta muy poco.",
-   "titulo": "Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde sale la luz?",
-   "gancho": "Bruselas te pide tener una linterna en casa… ¿y si se acaban las pilas?",
-   "primer_segundo": "Una mano agitando la linterna en primer plano y un imán atravesando la bobina con un medidor de voltaje que salta.",
+   "urgencia": "Media",
+   "angulo": "Formato B: inventar la linterna que no necesita pilas.",
+   "titulo": "Si tuvieras que inventar una linterna sin pilas… 🔦",
+   "gancho": "Si esta noche se va la luz y no tienes pilas… ¿cómo enciendes una linterna?",
+   "primer_segundo": "Una mano agitando la linterna en corte, el imán atravesando la bobina y un voltímetro que salta.",
    "cifras": [
-    "Voltaje que sube con cada sacudida (comprobar)",
-    "Minutos de luz por minuto de manivela (comprobar)",
-    "Kit para 72 horas"
+    "Faraday, 1831",
+    "30 s → 5 min de luz"
    ],
    "formato": "B",
    "estructura": [
-    "Gancho: el kit de emergencia",
-    "Problema: sin pilas no hay luz",
-    "Imán + bobina = corriente",
-    "Condensador para guardarla",
-    "LED que gasta poquísimo",
-    "Cierre: Sígueme para más."
+    "Gancho: apagón",
+    "Imán + bobina",
+    "Diodos",
+    "Condensador",
+    "Led",
+    "Cierre"
    ],
    "reglas": {
-    "cotidiano": 5,
+    "cotidiano": 6,
     "primer_segundo": 8,
-    "ensenar": 8
+    "ensenar": 9
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Conecta con una noticia práctica y enseña un principio físico muy visual.",
-   "competencia": "Poca en shorts en español.",
-   "riesgos": "No dar a entender alarma ni miedo; tono práctico. Comprobar las cifras.",
+   "por_que_funcionaria": "Conecta con una noticia práctica y un principio físico muy visual.",
+   "competencia": "Poca en español.",
+   "riesgos": "Tono práctico, sin alarmismo.",
    "mejor_hora": "13:00",
    "hashtags": [
-    "emergencia",
     "linterna",
     "electricidad",
+    "iman",
     "inventos",
     "comofunciona"
    ]
   },
   {
-   "id": "espejo",
+   "id": "espejos",
    "tema": "El «suelo infinito» (espejos enfrentados)",
-   "tipo": "nicho",
-   "puntuacion": 54,
-   "por_que": "«How the Infinity Floor Works» lleva 125.610 vistas en el nicho de «cómo funciona»; el efecto de espejos enfrentados está en ascensores y probadores que todo el mundo usa.",
+   "tipo": "evergreen",
+   "puntuacion": 58,
+   "por_que": "«How the Infinity Floor Works» suma 161 mil vistas esta semana. Versión cotidiana: los espejos enfrentados del ascensor. Cada espejo devuelve un 90-98 % de la luz y refleja mejor el verde (≈510 nm): por eso las copias se oscurecen y se vuelven verdes.",
    "senales": [
     {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«How the Infinity Floor Works», 125.610 vistas",
-     "url": "https://youtube.com/shorts/eHV4M_jHDV4"
-    }
-   ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Espejo normal abajo, espejo semitransparente arriba y LEDs en medio: cada rebote pierde un poco de luz y las copias se apagan hacia el fondo; enlazarlo con el espejo del ascensor.",
-   "titulo": "¿Por qué en el ascensor ves infinitas copias de ti? 🪞 Así funciona",
-   "gancho": "Te miras en el espejo del ascensor… y ves cien copias de ti. ¿Cuál es la de verdad?",
-   "primer_segundo": "Un túnel de luces que se hunde en primer plano y una mano tocando el cristal.",
-   "cifras": [
-    "Luz que se pierde en cada rebote (comprobar %)",
-    "Número de copias visibles antes de apagarse (comprobar)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho: infinitas copias",
-    "Un espejo refleja casi toda la luz",
-    "Dos espejos enfrentados: rebotes",
-    "Cada rebote pierde luz y se aleja",
-    "El suelo infinito: espejo semitransparente",
-    "Cierre: Sígueme para más."
-   ],
-   "reglas": {
-    "cotidiano": 7,
-    "primer_segundo": 9,
-    "ensenar": 8
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Visualmente hipnótico: perfecto para el primer segundo.",
-   "competencia": "Pocos vídeos en castellano.",
-   "riesgos": "Comprobar los porcentajes de reflexión.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "espejo",
-    "luz",
-    "ilusion",
-    "fisica",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "helicoptero",
-   "tema": "Cómo se dirige un helicóptero (el plato oscilante)",
-   "tipo": "nicho",
-   "puntuacion": 52,
-   "por_que": "Short del rotor de helicóptero con 58 mil vistas en el nicho esta semana; el mecanismo es muy visual, pero no es cotidiano.",
-   "senales": [
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«How the Infinity Floor Works», 161.539 vistas"
+    },
     {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«Como funciona o sistema de controle do rotor de um helicóptero?», 58 mil vistas"
+     "fuente": "Gigazine (Julie Bentley, óptica)",
+     "dato": "Cada rebote devuelve 90-98 % de la luz",
+     "url": "https://gigazine.net/gsc_news/en/20240513-mirrors-infinite-reflections"
+    },
+    {
+     "fuente": "Futurism",
+     "dato": "Los espejos reflejan mejor ≈510 nm (verde)",
+     "url": "https://futurism.com/the-color-of-mirrors"
     }
    ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Plato oscilante que inclina cada pala al pasar por un punto y una flecha de empuje que se inclina hacia donde va el helicóptero.",
-   "titulo": "¿Cómo sabe un helicóptero hacia dónde ir? 🚁 Así funciona por dentro",
-   "gancho": "Un helicóptero no tiene alas… pero puede ir hacia delante, hacia atrás o de lado.",
-   "primer_segundo": "Las palas girando en primer plano y una de ellas inclinándose al pasar.",
+   "urgencia": "Baja",
+   "angulo": "Formato A: el túnel de copias, rebote a rebote, con la luz que se pierde y el verde que queda.",
+   "titulo": "¿Por qué en el ascensor ves infinitas copias de ti? 🪞",
+   "gancho": "Te metes en un ascensor con dos espejos enfrentados… y ves cientos de copias de ti.",
+   "primer_segundo": "La cámara viajando hacia el fondo del túnel de copias.",
    "cifras": [
-    "Vueltas por minuto del rotor (comprobar)",
-    "Ángulo de cada pala (comprobar)"
+    "90-98 % por rebote",
+    "0,95^20 ≈ 36 %",
+    "0,95^50 ≈ 8 %"
    ],
    "formato": "A",
    "estructura": [
     "Gancho",
-    "Rotor y empuje",
-    "Plato oscilante",
-    "Inclinar el empuje",
-    "Rotor de cola",
-    "Cierre: Sígueme para más."
+    "Rebotes",
+    "Distancia",
+    "Luz que se pierde",
+    "Verde",
+    "No son infinitas",
+    "Cierre"
    ],
    "reglas": {
-    "cotidiano": 3,
-    "primer_segundo": 9,
-    "ensenar": 8
+    "cotidiano": 8,
+    "primer_segundo": 8,
+    "ensenar": 9
    },
-   "potencial": "medio",
-   "por_que_funcionaria": "Mecanismo muy visual que engancha a los curiosos de la ingeniería.",
-   "competencia": "Hay muchos en inglés y portugués.",
-   "riesgos": "Poco cotidiano (regla 1). No enseñar helicópteros militares.",
-   "mejor_hora": "16:00",
+   "potencial": "medio-alto",
+   "por_que_funcionaria": "Experiencia que todo el mundo ha vivido, con un final sorprendente (el verde).",
+   "competencia": "Algún short en inglés.",
+   "riesgos": "Que la escena del túnel no sea un plano quieto.",
+   "mejor_hora": "21:00",
    "hashtags": [
-    "helicoptero",
-    "aviacion",
-    "ingenieria",
-    "mecanica",
+    "espejos",
+    "luz",
+    "ascensor",
+    "ciencia",
     "comofunciona"
    ]
   },
@@ -221,108 +288,143 @@
    "id": "submarino",
    "tema": "Cómo se hunde y sale a flote un submarino",
    "tipo": "nicho",
-   "puntuacion": 46,
-   "por_que": "«¿Cómo funciona un submarino?» lleva 79.870 vistas esta semana en el nicho.",
+   "puntuacion": 44,
+   "por_que": "«¿Cómo funciona un submarino?» (Casco Amarillo) suma 142 mil vistas. Buen mecanismo (tanques de lastre, aire comprimido), pero lejos de lo cotidiano.",
    "senales": [
     {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«¿Cómo funciona un submarino?», 79.870 vistas",
-     "url": "https://youtube.com/shorts/Qld0IOJO46g"
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona un submarino?», 142.039 vistas"
     }
    ],
    "urgencia": "Baja",
-   "angulo": "Tanques de lastre que se llenan de agua o de aire comprimido, con un medidor de profundidad y otro de presión.",
-   "titulo": "Si tuvieras que inventar un submarino… 🌊 ¿cómo se hunde y vuelve a subir?",
-   "gancho": "Un barco de miles de toneladas… que decide cuándo hundirse.",
-   "primer_segundo": "Burbujas saliendo de los tanques en primer plano mientras el casco se hunde.",
+   "angulo": "Formato B: inventar un barco que se hunde y vuelve a subir.",
+   "titulo": "Si tuvieras que inventar un submarino… 🌊",
+   "gancho": "¿Cómo se hunde un barco a propósito… y vuelve a subir?",
+   "primer_segundo": "Agua entrando a chorro en los tanques en primer plano.",
    "cifras": [
-    "Presión que sube 1 bar cada 10 m (comprobar)",
-    "Profundidad de trabajo (comprobar)"
+    "Profundidad (comprobar)",
+    "Presión: +1 atmósfera cada 10 m"
    ],
    "formato": "B",
    "estructura": [
     "Gancho",
-    "Flotar: pesar menos que el agua que desplaza",
+    "Flotar",
     "Tanques de lastre",
-    "Aire comprimido para subir",
-    "Dato sorprendente: la presión",
-    "Cierre: Sígueme para más."
+    "Aire comprimido",
+    "Presión",
+    "Cierre"
    ],
    "reglas": {
     "cotidiano": 3,
     "primer_segundo": 8,
     "ensenar": 8
    },
-   "potencial": "medio-bajo",
-   "por_que_funcionaria": "Mecanismo muy visual.",
-   "competencia": "Bastantes vídeos ya.",
-   "riesgos": "Poco cotidiano (regla 1); evitar submarinos militares.",
-   "mejor_hora": "18:00",
+   "potencial": "medio",
+   "por_que_funcionaria": "Visual y misterioso.",
+   "competencia": "Ya hay un short reciente con buenos números.",
+   "riesgos": "Regla 1 floja; evitar submarinos militares.",
+   "mejor_hora": "21:00",
    "hashtags": [
     "submarino",
-    "flotar",
     "mar",
+    "flotar",
+    "ingenieria",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "paracaidas",
+   "tema": "Cómo funciona un paracaídas",
+   "tipo": "nicho",
+   "puntuacion": 40,
+   "por_que": "«¿Cómo funciona el paracaídas?» suma 82 mil vistas en la semana. Física clara (resistencia del aire, velocidad límite), pero poca gente lo usa.",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona el paracaídas?», 82.200 vistas"
+    }
+   ],
+   "urgencia": "Baja",
+   "angulo": "Formato A: caída con velocímetro que se estabiliza y baja al abrir.",
+   "titulo": "¿Por qué un paracaídas te frena? 🪂",
+   "gancho": "Caes a doscientos kilómetros por hora… y en tres segundos bajas a veinte (comprobar).",
+   "primer_segundo": "Una persona cayendo con el velocímetro subiendo.",
+   "cifras": [
+    "Velocidad límite (comprobar)",
+    "Velocidad con el paracaídas abierto (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho",
+    "Caída libre",
+    "Velocidad límite",
+    "Apertura",
+    "Aterrizaje",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 3,
+    "primer_segundo": 9,
+    "ensenar": 9
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Velocímetros muy enseñables.",
+   "competencia": "Algún short en español esta semana.",
+   "riesgos": "Regla 1 floja; evitar accidentes.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "paracaidas",
+    "aire",
     "fisica",
+    "caida",
     "comofunciona"
    ]
   }
  ],
  "descartadas": [
   {
-   "tema": "Router y placas solares en un apagón",
-   "motivo": "Ya hechos esta semana: «router» y «placas» están en produccion/escenas/."
+   "tema": "TDT y La Séptima (25.728 lecturas en Wikipedia)",
+   "motivo": "Ya en producción: «tdt» está renderizándose."
   },
   {
-   "tema": "Cargar el móvil toda la noche (1,1 M), qué hacer si el móvil cae al agua (920 mil), cargador (16 M)",
-   "motivo": "Ya hechos: «bateria», «arroz» y «cargador»."
+   "tema": "Luces de Navidad, ventanas empañadas, caldera, detector de humo, nieve artificial",
+   "motivo": "Ya en producción esta semana (escenas entregadas)."
   },
   {
-   "tema": "Fútbol y motor (Hakimi, Balde, Rodri Hernández, GP de Qatar)",
-   "motivo": "Deportes y resultados: no hay mecanismo."
+   "tema": "Bolígrafo (4,4 M vistas) y cargador (16 M vistas)",
+   "motivo": "Ya hechos: «boligrafo» y «cargador» están en produccion/escenas/."
   },
   {
-   "tema": "Política (Santiago Peña, Partido Colorado, crisis en Paraguay, Carlos Cuerpo, Trump)",
-   "motivo": "Política: no encaja con la cuenta."
+   "tema": "Cargar el móvil toda la noche (1,4 M) y placas solares en un apagón (1,3 M)",
+   "motivo": "Ya hechos: «bateria» y «placas»."
   },
   {
-   "tema": "Famosos y música (C. Tangana, Russell Brand, Sebastián Lelio, Meghan Markle)",
-   "motivo": "Personas famosas: no hay mecanismo que explicar."
+   "tema": "Phalanx y cazacarros M18 Hellcat",
+   "motivo": "Armas."
   },
   {
-   "tema": "Proyectil, Phalanx, cazacarros M18",
-   "motivo": "Armas: fuera de la línea de la cuenta."
+   "tema": "Stent, piedra de riñón, cadera nueva, «caneta que emagrece»",
+   "motivo": "Salud y medicamentos: fuera de la línea del canal y con riesgo de consejo médico."
   },
   {
-   "tema": "Móviles nuevos (iPhone Duo, Galaxy S27), MacBook de 17.591 €, PS5 en Black Friday, tele portátil",
-   "motivo": "Marcas y precios: no se pueden enseñar marcas reales; el plegable ya está hecho."
+   "tema": "Santiago Peña, crisis de Paraguay, Ueno Bank, «quiebra», Rusia",
+   "motivo": "Política y sucesos."
   },
   {
-   "tema": "Parto, trasplante de pelo, cadera, piedra de riñón",
-   "motivo": "Temas médicos: no son objetos cotidianos y el canal «Por Dentro De Todo» los domina."
+   "tema": "Iniesta, Altuna, Girona, Cristiano, famosos varios",
+   "motivo": "Famosos y deportes: no hay mecanismo."
   },
   {
-   "tema": "Videojuegos (Zelda, Fortnite, Pokémon, Worlds 2026)",
-   "motivo": "Marcas de videojuegos: no se pueden enseñar."
+   "tema": "«epicentro»",
+   "motivo": "Probable suceso (terremoto) con posibles víctimas."
   },
   {
-   "tema": "Neumático de avión (3,9 M) y bolígrafo (3,6 M)",
-   "motivo": "Ya hechos: «ruedas» y «boligrafo»."
+   "tema": "«burbuja de la IA»",
+   "motivo": "Finanzas y opinión, no un mecanismo."
   },
   {
-   "tema": "Moray, Tipón y la milpa",
-   "motivo": "Interesante pero lejos de lo cotidiano (regla 1)."
-  },
-  {
-   "tema": "Escalera mecánica (34 mil)",
-   "motivo": "Ya hecha: «escalera»."
-  },
-  {
-   "tema": "La baliza V16 conectada (adiós a los triángulos)",
-   "motivo": "Ya hecho: la escena está en produccion/escenas/ y el vídeo en producción."
-  },
-  {
-   "tema": "Cómo se abre un paraguas automático",
-   "motivo": "Ya hecho: la escena está en produccion/escenas/ y el vídeo en producción."
+   "tema": "Arroba (9.545 lecturas)",
+   "motivo": "Es historia de un símbolo, no un mecanismo que enseñar."
   }
  ]
 }
