@@ -1440,9 +1440,15 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705898380408637462",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-08T20:23:26.516611+00:00"
   },
   {
    "id": "plegable-instagram",
