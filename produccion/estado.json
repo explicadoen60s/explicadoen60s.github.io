@@ -1790,7 +1790,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-08",
    "reglas": {
     "cotidiano": 6,
@@ -1805,7 +1805,9 @@
     "Esta linterna no tiene pilas. La luz sale de tu mano.",
     "Agitas treinta segundos… y tienes cinco minutos de luz."
    ],
-   "tendencia": "Linterna sin pilas (del kit de emergencia)"
+   "tendencia": "Linterna sin pilas (del kit de emergencia)",
+   "aprobado": "2026-11-08T19:23:34.155Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "velcro",
