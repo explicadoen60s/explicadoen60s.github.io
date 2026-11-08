@@ -64,12 +64,20 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
 | jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
 | jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
+| jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
+| jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | ⏳ pendiente |
+| jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | ⏳ pendiente |
 | vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
+| vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | ⏳ pendiente |
 | vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
+| vie 13/11 | 13:00 | tiktok | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ⏳ pendiente |
+| vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | ⏳ pendiente |
 | vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
+| vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
+| vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
 | sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
@@ -106,3 +114,19 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 22/11 | 12:00 | youtube | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
 | dom 22/11 | 16:00 | youtube | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
 | dom 22/11 | 18:00 | instagram | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
+| lun 23/11 | 10:00 | instagram | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |
+| lun 23/11 | 12:00 | youtube | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |
+| lun 23/11 | 16:00 | youtube | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | ⏳ pendiente |
+| lun 23/11 | 18:00 | instagram | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | ⏳ pendiente |
+| mar 24/11 | 10:00 | instagram | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | ⏳ pendiente |
+| mar 24/11 | 12:00 | youtube | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | ⏳ pendiente |
+| mar 24/11 | 16:00 | youtube | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | ⏳ pendiente |
+| mar 24/11 | 18:00 | instagram | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | ⏳ pendiente |
+| mié 25/11 | 10:00 | instagram | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ⏳ pendiente |
+| mié 25/11 | 12:00 | youtube | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ⏳ pendiente |
+| mié 25/11 | 16:00 | youtube | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | ⏳ pendiente |
+| mié 25/11 | 18:00 | instagram | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | ⏳ pendiente |
+| jue 26/11 | 10:00 | instagram | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
+| jue 26/11 | 12:00 | youtube | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
+| jue 26/11 | 16:00 | youtube | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
+| jue 26/11 | 18:00 | instagram | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
