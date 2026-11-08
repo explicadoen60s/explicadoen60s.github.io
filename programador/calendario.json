@@ -1257,8 +1257,9 @@
     "fotografia"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "504 Server Error: Gateway Time-out for url: https://github.com/explicadoen60s/explicadoen60s.github.io/releases/download/videos/camara.mp4"
   },
   {
    "id": "tostadora-tiktok",
@@ -1274,9 +1275,15 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7705726156687149079",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-08T09:16:31.408999+00:00"
   },
   {
    "id": "camara-youtube",

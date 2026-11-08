@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 05/11 | 10:00 | instagram | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | [✅ publicado](https://www.instagram.com/reel/DfWu5aiCHXa/) |
-| jue 05/11 | 10:00 | tiktok | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | 📲 en tu bandeja de TikTok |
 | jue 05/11 | 12:00 | youtube | ¿Cómo sube el café en la cafetera italiana? ☕ Así funciona p | [✅ publicado](https://youtube.com/shorts/UFWj2_kxP2U) |
 | jue 05/11 | 13:00 | tiktok | Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes | 📲 en tu bandeja de TikTok |
 | jue 05/11 | 16:00 | tiktok | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | 📲 en tu bandeja de TikTok |
@@ -31,7 +29,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 07/11 | 18:00 | tiktok | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 21:00 | tiktok | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 10:00 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
-| dom 08/11 | 10:00 | tiktok | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
+| dom 08/11 | 10:00 | tiktok | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ⏳ pendiente |
 | dom 08/11 | 13:00 | tiktok | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
 | dom 08/11 | 16:00 | tiktok | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
