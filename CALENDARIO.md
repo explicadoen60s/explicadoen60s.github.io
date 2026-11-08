@@ -55,12 +55,21 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 10/11 | 16:00 | tiktok | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
 | mar 10/11 | 16:00 | youtube | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
 | mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
+| mar 10/11 | 18:00 | tiktok | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
+| mar 10/11 | 21:00 | tiktok | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
 | mié 11/11 | 10:00 | instagram | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | ⏳ pendiente |
+| mié 11/11 | 10:00 | tiktok | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
 | mié 11/11 | 12:00 | youtube | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | ⏳ pendiente |
+| mié 11/11 | 13:00 | tiktok | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | ⏳ pendiente |
+| mié 11/11 | 16:00 | tiktok | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | ⏳ pendiente |
 | mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
 | mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
+| mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
+| mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
 | jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
+| jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
 | jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
+| jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
 | vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
@@ -85,3 +94,21 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mié 18/11 | 10:00 | instagram | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
 | mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
+| mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
+| mié 18/11 | 18:00 | instagram | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
+| jue 19/11 | 10:00 | instagram | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
+| jue 19/11 | 12:00 | youtube | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
+| jue 19/11 | 16:00 | youtube | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
+| jue 19/11 | 18:00 | instagram | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
+| vie 20/11 | 10:00 | instagram | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | ⏳ pendiente |
+| vie 20/11 | 12:00 | youtube | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | ⏳ pendiente |
+| vie 20/11 | 16:00 | youtube | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | ⏳ pendiente |
+| vie 20/11 | 18:00 | instagram | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | ⏳ pendiente |
+| sáb 21/11 | 10:00 | instagram | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
+| sáb 21/11 | 12:00 | youtube | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
+| sáb 21/11 | 16:00 | youtube | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
+| sáb 21/11 | 18:00 | instagram | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
+| dom 22/11 | 10:00 | instagram | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
+| dom 22/11 | 12:00 | youtube | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
+| dom 22/11 | 16:00 | youtube | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
+| dom 22/11 | 18:00 | instagram | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
