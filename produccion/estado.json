@@ -1976,11 +1976,12 @@
     "¿Cómo sabe tu móvil dónde está el suelo?"
    ],
    "guion": "Giras el móvil ahora mismo… y la pantalla gira contigo. ¿Cómo sabe dónde está el suelo? Dentro hay un chip más pequeño que un grano de arroz: el acelerómetro. Vamos a abrirlo. Dentro hay un bloque de silicio que flota. Está colgado de unos muelles finísimos. Y tiene dedos, como un peine. Entre sus dedos hay otros dedos fijos, pegados al chip. Cuando sujetas el móvil de pie, la gravedad tira del bloque hacia abajo. Los muelles ceden un poquito. Sus dedos se acercan a los de un lado… y se alejan de los del otro. Y aquí viene lo curioso… El bloque se mueve solo unos pocos nanómetros. Mucho menos que el tamaño de un virus. Pero entre los dedos hay electricidad. Cuanto más cerca están, más carga cabe entre ellos. El chip mide esa diferencia, y sabe cuánto tira la gravedad en esa dirección. Y lo hace en tres direcciones: arriba y abajo, a los lados, y delante y detrás. Si tumbas el móvil, la gravedad ya no tira hacia la parte de abajo de la pantalla. Ahora tira hacia un lado. El primer número baja de uno a cero. El del lado sube de cero a uno. El móvil lo lee cientos de veces por segundo. Cuando gana el lado, gira la pantalla. Con ese mismo chip, cuenta tus pasos. Sígueme para más.",
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T09:25:37.726Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 67
+   "duracion": 67,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cerilla",
