@@ -84,7 +84,9 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
 | dom 15/11 | 18:00 | instagram | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
 | dom 15/11 | 18:00 | tiktok | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
+| dom 15/11 | 21:00 | tiktok | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | ⏳ pendiente |
 | lun 16/11 | 10:00 | instagram | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
+| lun 16/11 | 10:00 | tiktok | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
 | lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
@@ -146,3 +148,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 30/11 | 18:00 | instagram | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | ⏳ pendiente |
 | mar 01/12 | 10:00 | instagram | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
 | mar 01/12 | 12:00 | youtube | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
+| mar 01/12 | 16:00 | youtube | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | ⏳ pendiente |
+| mar 01/12 | 18:00 | instagram | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | ⏳ pendiente |
+| mié 02/12 | 10:00 | instagram | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
+| mié 02/12 | 12:00 | youtube | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
