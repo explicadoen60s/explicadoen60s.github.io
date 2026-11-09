@@ -1610,9 +1610,14 @@
     "bateria",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17996170563023309",
+    "url": "https://www.instagram.com/reel/Dfh4U73FfqV/"
+   },
+   "publicado": "2026-11-09T17:35:55.721151+00:00"
   },
   {
    "id": "parking-tiktok",
@@ -1628,9 +1633,15 @@
     "coches",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706226612975290371",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-09T17:36:36.423903+00:00"
   },
   {
    "id": "depuradora-tiktok",

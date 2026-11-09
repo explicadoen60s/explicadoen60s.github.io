@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://www.instagram.com/reel/DfaJOHhCO66/) |
-| vie 06/11 | 18:00 | tiktok | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 21:00 | tiktok | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://www.instagram.com/reel/Dfb1sYckf2k/) |
 | sáb 07/11 | 10:00 | tiktok | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | 📲 en tu bandeja de TikTok |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 09/11 | 13:00 | tiktok | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://youtube.com/shorts/dBlecn8ge7c) |
-| lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
-| lun 09/11 | 18:00 | tiktok | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
+| lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://www.instagram.com/reel/Dfh4U73FfqV/) |
+| lun 09/11 | 18:00 | tiktok | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
 | mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
