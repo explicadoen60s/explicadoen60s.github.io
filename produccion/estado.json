@@ -1939,6 +1939,94 @@
    ],
    "aprobado": "2026-11-08T19:23:46.934Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "giro",
+   "formato": "A",
+   "titulo": "Giras el móvil y la pantalla gira 📱 Así sabe dónde está el suelo",
+   "texto": "Un bloque de silicio que se mueve unos nanómetros decide si tu pantalla gira. ¿Tienes el giro automático activado? 👇",
+   "tags": [
+    "movil",
+    "acelerometro",
+    "gravedad",
+    "tecnologia",
+    "comofunciona"
+   ],
+   "tendencia": "Cómo sabe tu móvil hacia dónde girar la pantalla",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Es el móvil que el espectador tiene en la mano mientras ve el vídeo",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Una mano girando el móvil en primer plano y la pantalla rotando con él, con el chip abriéndose en corte",
+    "ensenar": 9,
+    "ensenar_nota": "Medidores de gravedad por eje (1 → 0 y 0 → 1), dedos del peine acercándose, regla de nanómetros y contador de lecturas por segundo"
+   },
+   "ganchos": [
+    "Giras el móvil ahora mismo… y la pantalla gira contigo.",
+    "Dentro de tu móvil hay un trozo de silicio que flota.",
+    "¿Cómo sabe tu móvil dónde está el suelo?"
+   ],
+   "guion": "Giras el móvil ahora mismo… y la pantalla gira contigo. ¿Cómo sabe dónde está el suelo? Dentro hay un chip más pequeño que un grano de arroz: el acelerómetro. Vamos a abrirlo. Dentro hay un bloque de silicio que flota. Está colgado de unos muelles finísimos. Y tiene dedos, como un peine. Entre sus dedos hay otros dedos fijos, pegados al chip. Cuando sujetas el móvil de pie, la gravedad tira del bloque hacia abajo. Los muelles ceden un poquito. Sus dedos se acercan a los de un lado… y se alejan de los del otro. Y aquí viene lo curioso… El bloque se mueve solo unos pocos nanómetros. Mucho menos que el tamaño de un virus. Pero entre los dedos hay electricidad. Cuanto más cerca están, más carga cabe entre ellos. El chip mide esa diferencia, y sabe cuánto tira la gravedad en esa dirección. Y lo hace en tres direcciones: arriba y abajo, a los lados, y delante y detrás. Si tumbas el móvil, la gravedad ya no tira hacia la parte de abajo de la pantalla. Ahora tira hacia un lado. El primer número baja de uno a cero. El del lado sube de cero a uno. El móvil lo lee cientos de veces por segundo. Cuando gana el lado, gira la pantalla. Con ese mismo chip, cuenta tus pasos. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "cerilla",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar la cerilla… 🔥 por qué solo se enciende contra su caja",
+   "texto": "La mitad de la receta está en la cerilla y la otra mitad en la caja. ¿Has probado a rascarla contra la pared? 👇",
+   "tags": [
+    "cerilla",
+    "fuego",
+    "quimica",
+    "inventos",
+    "comofunciona"
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Casi todas las casas tienen una caja de cerillas para la vela o la cocina",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Macro de la cabeza rascando la tira marrón y la llama naciendo con chispas",
+    "ensenar": 8,
+    "ensenar_nota": "Cronómetro de minutos frotando palos frente a menos de 1 s, termómetro que marca 30 °C y el fósforo prende, flechas de oxígeno del clorato al azufre, año 1844"
+   },
+   "ganchos": [
+    "Rascas una cerilla… y en menos de un segundo tienes fuego en la mano.",
+    "¿Por qué una cerilla solo se enciende contra su caja?",
+    "La mitad de tu cerilla… está en la caja."
+   ],
+   "guion": "Rascas una cerilla… y en menos de un segundo tienes fuego en la mano. Vamos a inventarla. Necesitas calor para encender la madera. Mucho calor. Frotar dos palos funciona, pero tardas minutos. Así que buscas algo que arda con muy poco. El fósforo blanco se enciende solo, a unos treinta grados. Lo pones en la punta del palito y listo. Pero es tan fácil que se enciende en el bolsillo. Y es venenoso: enfermaba a quienes fabricaban las cerillas. Así que separas la receta en dos. En la caja, la tira marrón lleva fósforo rojo y polvo de vidrio. Es mucho más tranquilo. En la cabeza de la cerilla, clorato de potasio, que suelta oxígeno, y azufre, que arde fácil. Y aquí viene lo curioso… Al rascar, el vidrio roza y calienta. Una pizca de fósforo rojo se vuelve blanco… y prende al instante. Esa chispa enciende el clorato, que da oxígeno al azufre. ¡Fuuu! Llama. Pero la llama de la cabeza dura un suspiro. Así que mojas el palo en parafina, que arde despacio y le pasa el fuego a la madera. Por eso solo se encienden contra su caja: cada mitad, sola, no hace nada. Si la rascas contra la pared, no pasa nada. La inventó un sueco en mil ochocientos cuarenta y cuatro. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "montanarusa",
+   "formato": "C",
+   "titulo": "¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no son redondos",
+   "texto": "Sin motor, frenos que no tocan y rizos con forma de lágrima. ¿Te subes delante o detrás? 👇",
+   "tags": [
+    "montanarusa",
+    "fisica",
+    "gravedad",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "Casi todo el mundo se ha subido o ha visto una en una feria o un parque",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "El vagón cayendo en picado hacia la cámara con el velocímetro subiendo",
+    "ensenar": 9,
+    "ensenar_nota": "Altímetro hasta 30 m, velocímetro hasta casi 90 km/h, medidor de veces tu peso que llega a 6 en el rizo redondo y baja a 4 en el de lágrima, flechas de corriente en los imanes"
+   },
+   "ganchos": [
+    "Subes al vagón, el corazón a mil… ¿Y si tuvieras que construir tú la montaña rusa?",
+    "Ese clac, clac, clac de la montaña rusa… te está salvando.",
+    "Los rizos de las montañas rusas no son redondos. ¿Por qué?"
+   ],
+   "guion": "Subes al vagón, el corazón a mil… ¿Y si tuvieras que construir tú la montaña rusa? Vamos a levantarla. Primero, la energía. El tren no lleva motor. Así que lo subes con una cadena hasta treinta metros de altura. Pero si la cadena se rompe, el tren caería hacia atrás. Así que pones unos dientes a lo largo de la subida. Ese clac, clac, clac que oyes… son los seguros que no le dejan bajar. Arriba lo sueltas. La gravedad hace todo el trabajo: en la bajada llegas a casi noventa kilómetros por hora. Pero en las curvas y en las bajadas, el vagón saldría volando. Así que pones ruedas por encima, por los lados y por debajo del raíl. Ahora, el rizo. Si lo haces redondo, abajo la fuerza te aplasta: hasta seis veces tu peso. Y aquí viene lo curioso… Por eso los rizos no son círculos. Tienen forma de lágrima: abajo, la curva es abierta y suave; arriba, cerrada. Así la fuerza baja a unas cuatro veces tu peso. Pero al final hay que parar, sin chirridos y sin desgastar nada. Así que pones imanes junto al raíl y aletas de metal debajo del tren. Al pasar entre los imanes, aparecen corrientes que lo frenan… sin tocarlo. Ni siquiera necesita electricidad. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
   }
  ]
 }

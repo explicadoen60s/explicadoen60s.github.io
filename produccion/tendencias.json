@@ -1,232 +1,360 @@
 {
- "actualizado": "2026-11-08T20:45:00+01:00",
- "resumen": "Google Trends España de esta tarde es solo fútbol y tenis (Real Madrid-Murcia 2000+, Real Sociedad-Rayo 5000+) y Wikipedia sigue con la crisis de Paraguay y famosos: nada aprovechable. La borrasca ya no sale en Trends, así que el molino baja de urgencia. Nuevo: el brazo como palanca (los shorts de cuerpo humano en 3D rondan 80 mil-730 mil vistas), convertido en el guion «brazo». Espejos sale de la lista porque se rechazó en el panel, y el ratón porque ya está en producción. En ciencia y tecnología siguen cargador (16 M) y paneles solares (1,5 M), ya hechos.",
+ "actualizado": "2026-11-09T12:00:00+01:00",
+ "resumen": "Trends y Wikipedia siguen dominados por fútbol, famosos y la crisis de Paraguay: nada aprovechable. Brazo, velcro, molinos y linterna salen de la lista porque hoy se han entregado sus escenas. Lo más fuerte del nicho es el paracaídas (3,18 millones de vistas en un short), seguido de las operaciones en 3D (stent 771 mil). Nuevos guiones propuestos: «giro» (cómo sabe el móvil girar la pantalla), «cerilla» y «montanarusa».",
  "tendencias": [
   {
-   "id": "brazo",
-   "tema": "Cómo funciona tu brazo (la palanca del bíceps)",
+   "id": "giro",
+   "tema": "Cómo sabe tu móvil hacia dónde girar la pantalla",
    "tipo": "evergreen",
-   "puntuacion": 72,
-   "por_que": "En los shorts de «cómo funciona» de la semana, «¿Cómo funciona tu brazo?» suma 82.114 vistas y los vídeos de cuerpo humano en 3D de «Por Dentro De Todo» llegan a 729.984 (stent) y 147.850 (cadera). El brazo es lo más cotidiano posible y no necesita hablar de enfermedades.",
+   "puntuacion": 76,
+   "por_que": "Sin pico de búsquedas, pero es el objeto que el espectador tiene en la mano (regla 1 al máximo). Los shorts de «por dentro» de aparatos siguen funcionando: «Cómo un botón con cable se convierte en un mando inalámbrico» suma 57 mil vistas en una semana. Ya convertido en el guion «giro».",
    "senales": [
     {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«¿Cómo funciona tu brazo?», 82.114 vistas"
-    },
-    {
-     "fuente": "Shorts «cómo funciona» de la semana",
-     "dato": "«Por Dentro De Todo»: stent 729.984 vistas y cadera 147.850 (cuerpo humano en 3D)",
-     "url": "https://youtube.com/shorts/SP1ETdB4Ezw"
-    },
-    {
-     "fuente": "Física de palancas (OpenStax, músculos y articulaciones)",
-     "dato": "Bíceps a unos 4 cm del codo y mano a unos 35-38 cm: fuerza unas 8-9 veces el peso",
-     "url": "https://openbooks.lib.msu.edu/collegephysics1/chapter/forces-and-torques-in-muscles-and-joints-2"
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Cómo un botón con cable se convierte en un mando inalámbrico», 57.220 vistas"
     }
    ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Formato B: inventar el brazo pieza a pieza (hueso, bisagra, músculo que solo tira, tendón cerca del codo, tríceps) con la fuerza en una báscula.",
-   "titulo": "Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪",
-   "gancho": "Ahora mismo, sujetando el móvil, tu brazo hace fuerza como para levantar casi dos kilos.",
-   "primer_segundo": "Mano gigante levantando un móvil con el antebrazo en corte y el bíceps encogiéndose.",
+   "urgencia": "Media",
+   "angulo": "Formato A: abrir el chip acelerómetro y ver el bloque de silicio moverse con la gravedad.",
+   "titulo": "Giras el móvil y la pantalla gira 📱 Así sabe dónde está el suelo",
+   "gancho": "Giras el móvil ahora mismo… y la pantalla gira contigo.",
+   "primer_segundo": "Mano girando el móvil en primer plano y la pantalla rotando.",
    "cifras": [
-    "Bíceps a ≈4 cm del codo, mano a ≈35 cm",
-    "Fuerza ≈8 veces el peso",
-    "Móvil 200 g → casi 2 kg de tirón",
-    "1 cm de músculo → ≈9 cm de mano"
+    "Gravedad por eje: 1 → 0 y 0 → 1",
+    "Desplazamiento de unos pocos nanómetros",
+    "Cientos de lecturas por segundo"
    ],
-   "formato": "B",
+   "formato": "A",
    "estructura": [
-    "Gancho con el móvil",
-    "Hueso y bisagra",
-    "Músculo que solo tira",
-    "Tendón a 4 cm del codo",
-    "Dato: ×8 de fuerza",
-    "Ganas rapidez",
-    "Tríceps: por parejas",
+    "Gancho: giras el móvil",
+    "El chip acelerómetro",
+    "Bloque colgado de muelles y peine",
+    "La gravedad mueve el bloque",
+    "Dato: unos nanómetros",
+    "Tres direcciones y giro de pantalla",
     "Cierre"
    ],
    "reglas": {
     "cotidiano": 10,
-    "primer_segundo": 8,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Habla del brazo que sujeta el móvil en ese momento y tiene un dato chocante (×8) fácil de enseñar con una báscula.",
-   "competencia": "Hay shorts de anatomía, pero pocos con la palanca y las cifras.",
-   "riesgos": "No dar consejos de salud ni de gimnasio; cifras redondeadas (dependen de cada persona).",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "cuerpohumano",
-    "brazo",
-    "musculos",
-    "ciencia",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "velcro",
-   "tema": "Cómo funciona el velcro",
-   "tipo": "evergreen",
-   "puntuacion": 70,
-   "por_que": "El short «How Velcro Actually Works» suma 59 mil vistas esta semana sin ser en español. Es algo que el espectador abre a diario (zapatillas, mochila) y tiene sonido propio.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«How Velcro Actually Works», 59.212 vistas"
-    },
-    {
-     "fuente": "Swissinfo",
-     "dato": "Idea en 1941, patente en 1955, ≈300 ganchos y bucles por pulgada cuadrada",
-     "url": "https://www.swissinfo.ch/eng/velcro_how-a-swiss-invention-hooked-the-world/5653568"
-    }
-   ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Formato B: inventarlo a partir del cardo: ganchos, bucles, nailon cortado, y por qué se abre desde el borde.",
-   "titulo": "Si tuvieras que inventar el velcro… 👟 cientos de ganchos diminutos",
-   "gancho": "Ese ruido al abrir tus zapatillas… son cientos de ganchos soltándose.",
-   "primer_segundo": "Una tira despegándose en macro, los ganchos soltándose uno a uno.",
-   "cifras": [
-    "300 ganchos y bucles por pulgada cuadrada",
-    "1941 → 1955 (14 años)"
-   ],
-   "formato": "B",
-   "estructura": [
-    "Gancho: el ¡rrrr!",
-    "Cardo al microscopio",
-    "Ganchos",
-    "Bucles",
-    "Nailon",
-    "Por qué aguanta y por qué se abre",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 9,
     "primer_segundo": 9,
     "ensenar": 9
    },
    "potencial": "alto",
-   "por_que_funcionaria": "Objeto universal, primer plano espectacular y sonido reconocible.",
-   "competencia": "Hay versiones en inglés; casi ninguna en español.",
-   "riesgos": "«Velcro» es marca: no enseñarla en pantalla.",
-   "mejor_hora": "13:00",
+   "por_que_funcionaria": "Lo está haciendo con la mano mientras lo ve; la explicación cabe en un medidor que pasa de 1 a 0.",
+   "competencia": "Poca en castellano con este enfoque.",
+   "riesgos": "Que el movimiento microscópico se entienda; usar reglas de escala.",
+   "mejor_hora": "21:00",
    "hashtags": [
-    "velcro",
-    "inventos",
-    "naturaleza",
-    "ropa",
+    "movil",
+    "acelerometro",
+    "gravedad",
+    "tecnologia",
     "comofunciona"
    ]
   },
   {
-   "id": "aerogenerador",
-   "tema": "Por qué los molinos se paran cuando sopla fuerte (borrasca Bruña)",
-   "tipo": "actualidad",
+   "id": "montanarusa",
+   "tema": "¿Y si construyes una montaña rusa?",
+   "tipo": "evergreen",
    "puntuacion": 64,
-   "por_que": "«borrasca bruña» es la búsqueda que más crece en Google Trends España (2000+). Con viento fuerte la gente ve molinos parados y no entiende por qué. La eólica es la primera fuente de electricidad de España (≈22 % en 2025, Red Eléctrica).",
+   "por_que": "El formato «construcción en corte» funciona esta semana: «Cómo un hoyo se convierte en los túneles de Cu Chi» suma 1,9 millones de vistas. La montaña rusa tiene problema-solución claro y cifras que se ven (altura, velocidad, veces tu peso). Ya convertido en el guion «montanarusa».",
    "senales": [
     {
-     "fuente": "Google Trends España",
-     "dato": "«borrasca bruña», 2000+ búsquedas"
-    },
-    {
-     "fuente": "Red Eléctrica (cierre 2025)",
-     "dato": "La eólica, primera fuente del mix por tercer año, ≈22 %",
-     "url": "https://www.ree.es/sites/default/files/2025-12/1912-np-datos-cierre-2025.pdf"
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Cómo un hoyo se convierte en los túneles de Cu Chi», 1.911.671 vistas"
     }
    ],
-   "urgencia": "Media: la borrasca ya no aparece en Google Trends; sigue valiendo como tema de invierno",
-   "angulo": "Formato C: levantar el molino pieza a pieza (torre, zapata, palas, multiplicadora, orientación) y terminar en la parada por viento fuerte.",
-   "titulo": "¿Y si construyes un molino de viento gigante? 🌬️ Por qué se para cuando sopla fuerte",
-   "gancho": "¿Por qué los molinos se paran justo cuando más viento hace?",
-   "primer_segundo": "Una pala gigante pasando delante de la cámara con la velocidad de la punta en un contador.",
+   "urgencia": "Baja",
+   "angulo": "Formato C: subida con cadena, seguros clac-clac, ruedas por debajo, rizo en lágrima y frenos magnéticos.",
+   "titulo": "¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no son redondos",
+   "gancho": "Ese clac, clac, clac de la montaña rusa… te está salvando.",
+   "primer_segundo": "El vagón cayendo en picado hacia la cámara.",
    "cifras": [
-    "Torres de 80-160 m",
-    "Palas de 40-85 m",
-    "Rotor 10-40 rpm → generador 1.500 rpm",
-    "Punta de pala 80-100 m/s (≈290-360 km/h)",
-    "Arranca a 3-4 m/s y se para a ≈25 m/s (90 km/h)"
+    "Altura 30 m",
+    "Casi 90 km/h",
+    "6 veces tu peso en rizo redondo → unas 4 en lágrima"
    ],
    "formato": "C",
    "estructura": [
-    "Gancho: 1 de cada 5 veces que enciendes la luz",
-    "Torre alta",
-    "Zapata para que no vuelque",
-    "Palas lentas",
-    "Multiplicadora",
-    "Orientación al viento",
-    "Parada a 90 km/h",
+    "Gancho",
+    "Cadena",
+    "Seguros",
+    "Bajada",
+    "Ruedas bajo el raíl",
+    "Rizo en lágrima",
+    "Frenos magnéticos",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 6,
+    "primer_segundo": 9,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Mucho movimiento y un dato que sorprende (los rizos no son círculos).",
+   "competencia": "Hay vídeos largos de física de montañas rusas, pocos shorts en castellano.",
+   "riesgos": "No mostrar parques ni marcas reales.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "montanarusa",
+    "fisica",
+    "gravedad",
+    "ingenieria",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "paracaidas",
+   "tema": "Cómo frena un paracaídas",
+   "tipo": "nicho",
+   "puntuacion": 62,
+   "por_que": "El short más visto de la semana del nicho es «Como um paraquedas freia uma queda?» con 3,18 millones de vistas, y «¿Cómo funciona el paracaídas?» (mecanica_oculta) suma 95 mil. Mucho interés, pero poca gente lo usa.",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Como um paraquedas freia uma queda? O poder do ar», 3.178.357 vistas"
+    },
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona el paracaídas?», 94.935 vistas"
+    }
+   ],
+   "urgencia": "Media",
+   "angulo": "Formato B: inventar el paracaídas pieza a pieza (tela, celdas que se inflan, cuerdas, el paracaídas pequeño que saca al grande).",
+   "titulo": "Si tuvieras que inventar un paracaídas… 🪂",
+   "gancho": "Caes a doscientos kilómetros por hora… y en tres segundos vas a veinte (comprobar).",
+   "primer_segundo": "Un cuerpo en caída libre en primer plano con el velocímetro girando.",
+   "cifras": [
+    "Velocidad de caída libre (comprobar)",
+    "Velocidad al aterrizar (comprobar)",
+    "Superficie de la tela (comprobar)"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Gancho: velocímetro",
+    "Resistencia del aire",
+    "Tela grande",
+    "Celdas que se inflan",
+    "Paracaídas extractor",
+    "Dato sorprendente",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 3,
+    "primer_segundo": 10,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "El formato ya ha demostrado millones de vistas esta semana.",
+   "competencia": "Dos shorts recientes, uno con 3 millones.",
+   "riesgos": "Regla 1 muy floja; llegar tarde a una ola ya aprovechada.",
+   "mejor_hora": "21:00",
+   "hashtags": [
+    "paracaidas",
+    "fisica",
+    "aire",
+    "inventos",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "cerilla",
+   "tema": "Por qué una cerilla solo se enciende contra su caja",
+   "tipo": "evergreen",
+   "puntuacion": 58,
+   "por_que": "Sin señal directa esta semana; se propone porque la química se puede enseñar con un termómetro y flechas, y está en casi todas las casas. Ya convertido en el guion «cerilla».",
+   "senales": [
+    {
+     "fuente": "Banco propio",
+     "dato": "Sin señal en Trends ni Wikipedia esta semana"
+    }
+   ],
+   "urgencia": "Baja",
+   "angulo": "Formato B: separar la receta en dos (cabeza y caja) para que no prenda sola.",
+   "titulo": "Si tuvieras que inventar la cerilla… 🔥",
+   "gancho": "La mitad de tu cerilla… está en la caja.",
+   "primer_segundo": "Macro de la cabeza rascando la tira y la llama naciendo.",
+   "cifras": [
+    "Fósforo blanco: unos 30 °C",
+    "Menos de 1 segundo frente a minutos",
+    "1844"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Gancho",
+    "Frotar palos",
+    "Fósforo blanco",
+    "Problema: arde solo y es venenoso",
+    "Caja y cabeza",
+    "Dato: el roce lo vuelve blanco",
+    "Parafina",
     "Cierre"
    ],
    "reglas": {
     "cotidiano": 7,
-    "primer_segundo": 8,
-    "ensenar": 9
+    "primer_segundo": 9,
+    "ensenar": 8
    },
-   "potencial": "alto",
-   "por_que_funcionaria": "Responde a una duda que el espectador tiene esta semana y tiene cifras muy visuales.",
-   "competencia": "Pocos shorts en español con el mecanismo completo.",
-   "riesgos": "No hablar de daños ni víctimas del temporal.",
-   "mejor_hora": "18:00",
+   "potencial": "medio",
+   "por_que_funcionaria": "Plano macro de la llama muy llamativo.",
+   "competencia": "Pocos shorts recientes.",
+   "riesgos": "Evitar que parezca un tutorial para hacer fuego peligroso.",
+   "mejor_hora": "21:00",
    "hashtags": [
-    "energia",
-    "viento",
-    "molinos",
-    "borrasca",
+    "cerilla",
+    "fuego",
+    "quimica",
+    "inventos",
     "comofunciona"
    ]
   },
   {
-   "id": "linterna",
-   "tema": "Linterna sin pilas (del kit de emergencia)",
-   "tipo": "actualidad",
-   "puntuacion": 60,
-   "por_que": "Sigue el interés por el kit de emergencia de 72 horas que pide Bruselas (con linterna). Una linterna de agitar se explica con imán, bobina, diodos, condensador y led; ≈30 s de agitar dan ≈5 min de luz.",
+   "id": "radio",
+   "tema": "Cómo llega la radio a tu coche",
+   "tipo": "evergreen",
+   "puntuacion": 50,
+   "por_que": "«radio online» aparece en Google Trends España con más de 500 búsquedas. La radio FM del coche es cotidiana y la onda que sube y baja se puede enseñar.",
    "senales": [
     {
-     "fuente": "Google Trends España (semana)",
-     "dato": "«emergencia» en tendencia por el kit de 72 horas",
-     "url": "https://www.europapress.es/internacional/noticia-bruselas-vuelve-pedir-kits-emergencia-72-horas-plantea-ensenar-ninos-actuar-crisis-20261103130703.html"
-    },
-    {
-     "fuente": "SlashGear",
-     "dato": "≈30 s de agitar → ≈5 min de luz",
-     "url": "https://www.slashgear.com/2283832/what-is-faraday-shake-flashlight-how-does-it-work/"
+     "fuente": "Google Trends España",
+     "dato": "«radio online», 500+ búsquedas"
     }
    ],
-   "urgencia": "Media",
-   "angulo": "Formato B: inventar la linterna que no necesita pilas.",
-   "titulo": "Si tuvieras que inventar una linterna sin pilas… 🔦",
-   "gancho": "Si esta noche se va la luz y no tienes pilas… ¿cómo enciendes una linterna?",
-   "primer_segundo": "Una mano agitando la linterna en corte, el imán atravesando la bobina y un voltímetro que salta.",
+   "urgencia": "Baja",
+   "angulo": "Formato A: de la voz del locutor a la antena y al altavoz del coche, con la onda modulada en pantalla.",
+   "titulo": "Así llega la radio a tu coche 📻 Sin cables",
+   "gancho": "Cada mañana, en el coche, una voz viaja por el aire hasta tu radio.",
+   "primer_segundo": "Antena del coche con ondas llegando y el dial girando.",
    "cifras": [
-    "Faraday, 1831",
-    "30 s → 5 min de luz"
+    "Frecuencia en megahercios del dial (comprobar)",
+    "Oscilaciones por segundo (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho",
+    "Micrófono",
+    "Onda portadora",
+    "Modulación",
+    "Antena",
+    "Sintonizar",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "primer_segundo": 7,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Mucha gente escucha la radio en el coche a diario.",
+   "competencia": "Poca competencia en shorts.",
+   "riesgos": "Explicación abstracta; hay que enseñar la onda que cambia.",
+   "mejor_hora": "10:00",
+   "hashtags": [
+    "radio",
+    "ondas",
+    "coche",
+    "tecnologia",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "cadera",
+   "tema": "Así te ponen una cadera nueva",
+   "tipo": "nicho",
+   "puntuacion": 48,
+   "por_que": "Los shorts de operaciones en 3D están fuertes esta semana: stent 771 mil, cataratas 509 mil y cadera 149 mil vistas (todos del mismo canal).",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo te ponen un stent en el corazón?», 771.269 vistas"
+    },
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Así es cómo te ponen una cadera nueva», 148.992 vistas"
+    }
+   ],
+   "urgencia": "Baja",
+   "angulo": "Formato B: inventar una articulación de bola y copa que dure años.",
+   "titulo": "Si tuvieras que inventar una cadera… 🦴",
+   "gancho": "Cada paso que das, tu cadera gira sobre una bola.",
+   "primer_segundo": "Una pierna caminando con la articulación en corte.",
+   "cifras": [
+    "Fuerza en la cadera al andar en veces tu peso (comprobar)",
+    "Años que dura una prótesis (comprobar)"
    ],
    "formato": "B",
    "estructura": [
-    "Gancho: apagón",
-    "Imán + bobina",
-    "Diodos",
-    "Condensador",
-    "Led",
+    "Gancho",
+    "Bola y copa",
+    "Desgaste",
+    "Materiales",
+    "Dato",
     "Cierre"
    ],
    "reglas": {
     "cotidiano": 6,
     "primer_segundo": 8,
-    "ensenar": 9
+    "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Conecta con una noticia práctica y un principio físico muy visual.",
-   "competencia": "Poca en español.",
-   "riesgos": "Tono práctico, sin alarmismo.",
-   "mejor_hora": "13:00",
+   "por_que_funcionaria": "El nicho médico en 3D está funcionando.",
+   "competencia": "Un canal domina el tema con el mismo estilo.",
+   "riesgos": "Evitar imágenes quirúrgicas o sangre; no dar consejo médico.",
+   "mejor_hora": "21:00",
    "hashtags": [
-    "linterna",
-    "electricidad",
-    "iman",
-    "inventos",
+    "cuerpohumano",
+    "cadera",
+    "huesos",
+    "medicina",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "arroba",
+   "tema": "Por qué los correos llevan @",
+   "tipo": "nicho",
+   "puntuacion": 42,
+   "por_que": "«Arroba (símbolo)» tiene 9.545 lecturas en Wikipedia en español en un día, la entrada técnica más leída de la lista.",
+   "senales": [
+    {
+     "fuente": "Wikipedia (es)",
+     "dato": "«Arroba (símbolo)», 9.545 lecturas",
+     "url": "https://es.wikipedia.org/wiki/Arroba_(s%C3%ADmbolo)"
+    }
+   ],
+   "urgencia": "Media",
+   "angulo": "Formato A: el viaje de un correo, donde la @ separa el usuario del servidor.",
+   "titulo": "Por qué tu correo lleva una @ 📧",
+   "gancho": "La escribes cada semana… ¿por qué una @?",
+   "primer_segundo": "Dedo pulsando la tecla @ y el correo saliendo.",
+   "cifras": [
+    "Año del primer correo con @ (comprobar)",
+    "Saltos entre servidores (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Gancho",
+    "Usuario y servidor",
+    "La @ separa",
+    "Viaje del correo",
+    "Dato histórico",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "primer_segundo": 7,
+    "ensenar": 5
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Símbolo que todo el mundo usa.",
+   "competencia": "Poca.",
+   "riesgos": "Es más historia que mecanismo (regla 3 floja).",
+   "mejor_hora": "12:00",
+   "hashtags": [
+    "correo",
+    "internet",
+    "arroba",
+    "tecnologia",
     "comofunciona"
    ]
   },
@@ -234,12 +362,12 @@
    "id": "submarino",
    "tema": "Cómo se hunde y sale a flote un submarino",
    "tipo": "nicho",
-   "puntuacion": 44,
-   "por_que": "«¿Cómo funciona un submarino?» (Casco Amarillo) suma 142 mil vistas. Buen mecanismo (tanques de lastre, aire comprimido), pero lejos de lo cotidiano.",
+   "puntuacion": 42,
+   "por_que": "«¿Cómo funciona un submarino?» (Casco Amarillo) ya suma 162.822 vistas. Buen mecanismo (tanques de lastre, aire comprimido), pero lejos de lo cotidiano.",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona un submarino?», 142.039 vistas"
+     "dato": "«¿Cómo funciona un submarino?», 162.822 vistas"
     }
    ],
    "urgencia": "Baja",
@@ -277,108 +405,44 @@
     "ingenieria",
     "comofunciona"
    ]
-  },
-  {
-   "id": "paracaidas",
-   "tema": "Cómo funciona un paracaídas",
-   "tipo": "nicho",
-   "puntuacion": 40,
-   "por_que": "«¿Cómo funciona el paracaídas?» suma 82 mil vistas en la semana. Física clara (resistencia del aire, velocidad límite), pero poca gente lo usa.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona el paracaídas?», 82.200 vistas"
-    }
-   ],
-   "urgencia": "Baja",
-   "angulo": "Formato A: caída con velocímetro que se estabiliza y baja al abrir.",
-   "titulo": "¿Por qué un paracaídas te frena? 🪂",
-   "gancho": "Caes a doscientos kilómetros por hora… y en tres segundos bajas a veinte (comprobar).",
-   "primer_segundo": "Una persona cayendo con el velocímetro subiendo.",
-   "cifras": [
-    "Velocidad límite (comprobar)",
-    "Velocidad con el paracaídas abierto (comprobar)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gancho",
-    "Caída libre",
-    "Velocidad límite",
-    "Apertura",
-    "Aterrizaje",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 3,
-    "primer_segundo": 9,
-    "ensenar": 9
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Velocímetros muy enseñables.",
-   "competencia": "Algún short en español esta semana.",
-   "riesgos": "Regla 1 floja; evitar accidentes.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "paracaidas",
-    "aire",
-    "fisica",
-    "caida",
-    "comofunciona"
-   ]
   }
  ],
  "descartadas": [
   {
-   "tema": "Suelo infinito (espejos enfrentados)",
-   "motivo": "Rechazado hoy en el panel («espejos»)."
+   "tema": "Santiago Peña, Partido Colorado y la crisis de Paraguay (78.543 lecturas)",
+   "motivo": "Política."
   },
   {
-   "tema": "Ratón óptico",
-   "motivo": "Ya en producción: «raton» está renderizándose."
+   "tema": "León XIV, Sebastián Lelio, Bobby Pulido, Russell Brand, Meghan Markle…",
+   "motivo": "Famosos."
   },
   {
-   "tema": "TDT y La Séptima (25.728 lecturas en Wikipedia)",
-   "motivo": "Ya en producción: «tdt» está renderizándose."
+   "tema": "Selección española, Mikel Arteta, Taylor Fritz, Unicaja",
+   "motivo": "Deporte y famosos; sin mecanismo que explicar."
   },
   {
-   "tema": "Luces de Navidad, ventanas empañadas, caldera, detector de humo, nieve artificial",
-   "motivo": "Ya en producción esta semana (escenas entregadas)."
+   "tema": "Delincuencia organizada",
+   "motivo": "Sucesos."
   },
   {
-   "tema": "Bolígrafo (4,4 M vistas) y cargador (16 M vistas)",
-   "motivo": "Ya hechos: «boligrafo» y «cargador» están en produccion/escenas/."
+   "tema": "«Cómo funciona el legendario Phalanx» (886 mil) y «Si caen bombas en tu ciudad»",
+   "motivo": "Armas y guerra."
   },
   {
-   "tema": "Cargar el móvil toda la noche (1,4 M) y placas solares en un apagón (1,3 M)",
-   "motivo": "Ya hechos: «bateria» y «placas»."
+   "tema": "Tokens de Fortnite y Brawl Stars",
+   "motivo": "Videojuegos, fuera del nicho."
   },
   {
-   "tema": "Phalanx y cazacarros M18 Hellcat",
-   "motivo": "Armas."
+   "tema": "Brazo, velcro, molinos y linterna sin pilas",
+   "motivo": "Ya en producción: escenas entregadas hoy, renderizándose."
   },
   {
-   "tema": "Stent, piedra de riñón, cadera nueva, «caneta que emagrece»",
-   "motivo": "Salud y medicamentos: fuera de la línea del canal y con riesgo de consejo médico."
+   "tema": "Tabla periódica (7.969 lecturas)",
+   "motivo": "No es un mecanismo cotidiano que se pueda enseñar en 60 s."
   },
   {
-   "tema": "Santiago Peña, crisis de Paraguay, Ueno Bank, «quiebra», Rusia",
-   "motivo": "Política y sucesos."
-  },
-  {
-   "tema": "Iniesta, Altuna, Girona, Cristiano, famosos varios",
-   "motivo": "Famosos y deportes: no hay mecanismo."
-  },
-  {
-   "tema": "«epicentro»",
-   "motivo": "Probable suceso (terremoto) con posibles víctimas."
-  },
-  {
-   "tema": "«burbuja de la IA»",
-   "motivo": "Finanzas y opinión, no un mecanismo."
-  },
-  {
-   "tema": "Arroba (9.545 lecturas)",
-   "motivo": "Es historia de un símbolo, no un mecanismo que enseñar."
+   "tema": "Espejos y suelo infinito",
+   "motivo": "Rechazado en el panel."
   }
  ]
 }
