@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | [✅ publicado](https://youtube.com/shorts/50hYL5a-HZo) |
 | vie 06/11 | 13:00 | tiktok | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://youtube.com/shorts/Bx98_RsXlu0) |
 | vie 06/11 | 18:00 | instagram | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://www.instagram.com/reel/DfaJOHhCO66/) |
@@ -30,7 +29,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 09/11 | 01:02 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://www.instagram.com/reel/DfgAIVvjS74/) |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://www.instagram.com/reel/DfhCwhSDQD7/) |
 | lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | 📲 en tu bandeja de TikTok |
-| lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
+| lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://youtube.com/shorts/-zj5Kr0MBFk) |
 | lun 09/11 | 13:00 | tiktok | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
 | lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
 | lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | ⏳ pendiente |
@@ -77,6 +76,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
+| sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
@@ -131,3 +131,5 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 27/11 | 12:00 | youtube | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
 | vie 27/11 | 16:00 | youtube | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
 | vie 27/11 | 18:00 | instagram | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
+| sáb 28/11 | 10:00 | instagram | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
+| sáb 28/11 | 12:00 | youtube | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
