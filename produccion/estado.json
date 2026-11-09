@@ -2041,6 +2041,182 @@
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T09:25:56.204Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "sifon",
+   "formato": "A",
+   "titulo": "Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a alcantarilla",
+   "texto": "Un tapón de agua de cinco centímetros es lo único que separa tu cocina de la alcantarilla. ¿Sabías que se puede secar? 👇",
+   "tags": [
+    "fontaneria",
+    "casa",
+    "cocina",
+    "agua",
+    "comofunciona"
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Todas las casas tienen uno bajo el fregadero y el lavabo",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El chorro del grifo cayendo por el desagüe y el agua girando en la U, en corte",
+    "ensenar": 9,
+    "ensenar_nota": "Regla de altura del tapón de agua (5-7 cm), nivel que baja de 5 a 0 cm en vacaciones, flechas del gas que empuja y no pasa"
+   },
+   "ganchos": [
+    "Abre el armario de debajo de tu fregadero… ¿Ves ese tubo con forma de U?",
+    "Ese tubo raro de debajo de tu fregadero… te protege de la alcantarilla.",
+    "Si te vas un mes de vacaciones, tu casa huele mal al volver. ¿Por qué?"
+   ],
+   "guion": "Abre el armario de debajo de tu fregadero… ¿Ves ese tubo con forma de U? Parece un error de fontanero. Pero sin él, tu cocina olería a alcantarilla. Vamos a abrirlo. El desagüe baja directo a la red de saneamiento. Y desde ahí sube aire con gases de las cloacas. Huele fatal… y no hay ninguna puerta que lo pare. Así que el tubo baja, hace una curva… y vuelve a subir. Cuando el agua se va, una parte se queda atrapada en el fondo de la curva. Ese tapón de agua es la puerta. El gas empuja… pero no puede atravesar el agua. Y aquí viene lo curioso… La norma pide que ese tapón tenga entre cinco y siete centímetros de alto. Si es más bajo, cualquier soplido del desagüe lo vacía. Cada vez que abres el grifo, el agua nueva empuja a la vieja hacia abajo. El tapón se renueva solo, una y otra vez. Pero si te vas de vacaciones un mes, el agua se evapora poco a poco. El nivel baja de cinco centímetros… a cero. La puerta se abre, y al volver, la casa huele mal. Por eso, al volver, basta con abrir el grifo diez segundos. Y la U también atrapa anillos, pendientes y restos de comida. Por eso se desenrosca: para poder limpiarla. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "ticket",
+   "formato": "A",
+   "titulo": "El ticket del súper no lleva tinta 🧾 Así se escribe… y por eso se borra",
+   "texto": "Ni una gota de tinta: solo calor. ¿Tienes algún ticket viejo que ya esté en blanco? 👇",
+   "tags": [
+    "ticket",
+    "papeltermico",
+    "supermercado",
+    "quimica",
+    "comofunciona"
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Todo el mundo lleva tickets del súper en la cartera o el bolso",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El ticket saliendo de la impresora en primer plano y las letras apareciendo negras línea a línea",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetro del punto que sube a ~100 °C y se vuelve negro, contador de 8 puntos/mm y 576 puntos, contador de líneas por segundo, letra que se desvanece"
+   },
+   "ganchos": [
+    "El ticket del súper que tienes en la cartera… no lleva ni una gota de tinta.",
+    "Rasca un ticket con la uña… y se pone negro. ¿Por qué?",
+    "¿Por qué los tickets se quedan en blanco con el tiempo?"
+   ],
+   "guion": "El ticket del súper que tienes en la cartera… no lleva ni una gota de tinta. Entonces, ¿cómo se escribe? Vamos a abrir la impresora. El papel tiene una capa especial por encima. Dentro hay dos polvos mezclados, pero quietos. Uno es un tinte sin color. El otro, un ácido que lo despierta. Mientras estén separados, el papel sigue blanco. Ahora, el cabezal. Es una fila de puntos diminutos que se calientan. Hay ocho puntos en cada milímetro. Más de quinientos en todo el ancho del ticket. Cuando un punto pasa de unos cien grados, la capa se derrite justo ahí. El tinte y el ácido se tocan… y el punto se vuelve negro. Y aquí viene lo curioso… El cabezal no se mueve. Es el papel el que avanza, línea a línea, más de mil líneas por segundo. Por eso los tickets salen tan rápido y la impresora casi no hace ruido. Pero esa reacción tiene marcha atrás. El sol, el calor del coche o la crema de manos la deshacen. El tinte vuelve a su forma sin color… y la letra desaparece. Por eso tu ticket de hace un año ya está casi en blanco. Y si lo rascas fuerte con la uña, se pone negro: lo calientas tú. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "paracaidas",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h",
+   "texto": "Una mochila, un paracaídas pequeñito y un ala de tela: así se frena una caída a 200 km/h. ¿Saltarías? 👇",
+   "tags": [
+    "paracaidas",
+    "fisica",
+    "aire",
+    "inventos",
+    "comofunciona"
+   ],
+   "tendencia": "Cómo frena un paracaídas",
+   "reglas": {
+    "cotidiano": 4,
+    "cotidiano_nota": "Poca gente salta, pero todo el mundo ha visto uno; tirón de tendencia en el nicho",
+    "primer_segundo": 10,
+    "primer_segundo_nota": "Un paracaidista cayendo hacia la cámara con el velocímetro subiendo a 200 km/h",
+    "ensenar": 9,
+    "ensenar_nota": "Velocímetro 200 → 22 km/h, flechas de aire que empujan, celdas que se hinchan, altímetro de 3 m al frenar"
+   },
+   "ganchos": [
+    "Saltas de un avión… y en unos doce segundos vas a doscientos kilómetros por hora.",
+    "Caes a doscientos kilómetros por hora. Tienes una mochila. ¿Cómo frenas?",
+    "Un paracaídas moderno no es una cúpula… es un ala."
+   ],
+   "guion": "Saltas de un avión… y en unos doce segundos vas a doscientos kilómetros por hora. Vamos a inventar algo que te frene. Necesitas que el aire te empuje hacia arriba. Cuanto más grande la superficie, más aire frena. Así que coges una tela enorme y la atas con cuerdas a tu espalda. Pero si se abre de golpe a esa velocidad, el tirón te haría daño de verdad. Así que la doblas dentro de una mochila. Y la sacas con un paracaídas pequeñito, del tamaño de un paraguas. Ese pequeño tira del grande y lo saca despacio. Pero aún se abriría demasiado rápido. Así que pones un trozo de tela con anillas en las cuerdas. Se queda arriba y frena la apertura unos segundos. Y aquí viene lo curioso… El paracaídas moderno no es una cúpula. Es un ala. Tiene celdas abiertas por delante. El aire entra, las hincha… y la tela se pone rígida como un colchón. Así no solo bajas: también avanzas y giras tirando de dos asas. La velocidad baja de doscientos… a unos veintidós kilómetros por hora. Pero para tocar el suelo aún es mucho. Así que, a unos tres metros del suelo, tiras de las dos asas a la vez. El ala se levanta, frena… y aterrizas andando. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "cintametrica",
+   "formato": "B",
+   "titulo": "La punta de tu cinta métrica está suelta a propósito 📏",
+   "texto": "Ese milímetro que baila no es un fallo: es lo que hace que la medida salga exacta. ¿Lo sabías? 👇",
+   "tags": [
+    "herramientas",
+    "bricolaje",
+    "medir",
+    "inventos",
+    "comofunciona"
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "Casi todas las casas tienen una cinta métrica en un cajón",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "La cinta saliendo disparada hacia la cámara y el gancho de la punta bailando adelante y atrás",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de medida que acierta o falla 1 mm, regla del grosor del gancho, cinta en voladizo que aguanta más de 1 m"
+   },
+   "ganchos": [
+    "Tira de tu cinta métrica y mira la punta. Esa pieza de metal está suelta…",
+    "¿Por qué la punta de la cinta métrica baila?",
+    "Tu cinta métrica tiene una pieza suelta… y es a propósito."
+   ],
+   "guion": "Tira de tu cinta métrica y mira la punta. Esa pieza de metal está suelta… y no es un defecto. Vamos a inventar la cinta métrica. Necesitas medir varios metros y guardarlo en el bolsillo. Así que haces una cinta fina de acero y la enrollas. Pero luego, ¿quién la recoge? Así que pones dentro un muelle en espiral. Al sacar la cinta, el muelle se enrolla más y más. Al soltarla… ¡zas! Vuelve sola. Pero una cinta plana se dobla en cuanto la sacas un palmo. Así que la curvas, como una teja. Esa curva la pone rígida, y aguanta en el aire más de un metro. Ahora necesitas que se enganche al borde de la mesa. Así que pones un gancho de metal en la punta. Pero el gancho tiene grosor: más o menos un milímetro. Y aquí viene lo curioso… Si mides por fuera, el gancho te robaría ese milímetro. Si empujas contra la pared, te lo sumaría. Así que lo dejas suelto. Al tirar, sale un milímetro. Al empujar, entra un milímetro. Justo su grosor. La medida sale exacta las dos veces. Por eso al principio de la cinta faltan las primeras marcas: ocupa ese hueco el gancho. Y un botón la frena para que no se recoja sola. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "submarino",
+   "formato": "B",
+   "titulo": "Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vuelve a salir",
+   "texto": "Tanques que se llenan de agua y aire comprimido que la saca: así sube y baja. ¿Te meterías en uno? 👇",
+   "tags": [
+    "submarino",
+    "mar",
+    "presion",
+    "inventos",
+    "comofunciona"
+   ],
+   "tendencia": "Cómo se hunde y sale a flote un submarino",
+   "reglas": {
+    "cotidiano": 3,
+    "cotidiano_nota": "Nadie lo usa, pero es un clásico de curiosidad con demanda en el nicho",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El submarino hundiéndose en corte con el agua entrando a chorro en los tanques",
+    "ensenar": 10,
+    "ensenar_nota": "Profundímetro y manómetro (cada 10 m, +1 atm; 31 atm a 300 m), nivel de agua en los tanques, flechas de peso y empuje"
+   },
+   "ganchos": [
+    "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse?",
+    "Para subir, un submarino no usa ningún motor. Usa aire.",
+    "A trescientos metros bajo el mar, el agua aprieta treinta y una veces más."
+   ],
+   "guion": "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse? Vamos a inventar el submarino. Un barco flota porque pesa menos que el agua que aparta. Para hundirlo, tienes que hacerlo más pesado. Así que le pones tanques a los lados. Abres unas compuertas por abajo, el agua entra… y el aire sale por arriba. El submarino pesa más… y baja. Pero cuanto más bajas, más aprieta el agua. Cada diez metros de profundidad, la presión sube una atmósfera más. A trescientos metros, son treinta y una. Así que el casco donde viaja la gente es un tubo grueso de acero. Un tubo redondo reparte la presión por todas partes. Ahora, ¿cómo te quedas quieto a una profundidad? Así que pones tanques pequeños dentro, y mueves agua de uno a otro. Delante, detrás… hasta que el submarino ni sube ni baja. Y aletas, como un avión, para inclinarlo mientras avanza. Y aquí viene lo curioso… Para subir no hay ningún motor que tire hacia arriba. Abres botellas de aire comprimido. El aire empuja el agua de los tanques hacia fuera. El submarino pesa menos que el agua… y sube solo, como un corcho. Por eso, al subir, suena ese soplido tan fuerte. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
+  },
+  {
+   "id": "estadio",
+   "formato": "C",
+   "titulo": "¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el césped",
+   "texto": "Capas de grava, tubos de calefacción e hilos de plástico a 20 cm: así aguanta el césped. ¿Lo habías imaginado? 👇",
+   "tags": [
+    "futbol",
+    "estadio",
+    "cesped",
+    "ingenieria",
+    "comofunciona"
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "El fútbol se ve cada semana en casi todas las casas, y el césped se ve en cada partido",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Un balón botando sobre el césped y la cámara bajando en corte bajo tierra",
+    "ensenar": 9,
+    "ensenar_nota": "Profundidad de excavación (casi 2 m), capas que se apilan, hilos de 20 cm, contador del 5 % de plástico, termómetro de las raíces"
+   },
+   "ganchos": [
+    "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo.",
+    "Bajo el césped de un estadio hay casi dos metros de secretos.",
+    "El césped de muchos estadios… no es del todo natural."
+   ],
+   "guion": "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo. ¿Y si tuvieras que construir tú ese campo? Vamos a cavar. Si plantas hierba sobre la tierra, la lluvia se queda arriba. A los diez minutos, el campo es un barrizal. Así que bajas el suelo casi dos metros. Y lo rellenas por capas: piedras gordas abajo, grava y arena arriba. Bajo todo, una red de tubos con agujeros que se lleva el agua. Pero en invierno, la hierba deja de crecer con el frío. Así que metes más tubos bajo las raíces, con agua caliente. Como una calefacción, pero para el césped. Pero los tacos de los jugadores arrancan la hierba a trozos. Y aquí viene lo curioso… El césped de muchos estadios no es del todo natural. Una máquina clava hilos de plástico en el suelo, uno a uno. Cada hilo baja veinte centímetros. Las raíces de la hierba se enredan en esos hilos, y ya no se arrancan. Solo un cinco por ciento es plástico. El resto, hierba de verdad. Pero dentro del estadio, las gradas tapan el sol. Así que, por la noche, acercan unas rampas de luz enormes. La hierba cree que es de día… y sigue creciendo. Sígueme para más.",
+   "estado": "propuesto",
+   "creado": "2026-11-09"
   }
  ]
 }

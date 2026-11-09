@@ -1,294 +1,199 @@
 {
- "actualizado": "2026-11-09T12:00:00+01:00",
- "resumen": "Trends y Wikipedia siguen dominados por fútbol, famosos y la crisis de Paraguay: nada aprovechable. Brazo, velcro, molinos y linterna salen de la lista porque hoy se han entregado sus escenas. Lo más fuerte del nicho es el paracaídas (3,18 millones de vistas en un short), seguido de las operaciones en 3D (stent 771 mil). Nuevos guiones propuestos: «giro» (cómo sabe el móvil girar la pantalla), «cerilla» y «montanarusa».",
+ "actualizado": "2026-11-09T21:00:00+01:00",
+ "resumen": "Trends y Wikipedia siguen con política, famosos y fútbol de selecciones: lo único aprovechable es el fútbol, con el ángulo de lo que hay bajo el césped. En el nicho manda el paracaídas (3,2 millones) y las operaciones en 3D (stent 800 mil, cataratas 513 mil). Hoy se han propuesto «paracaidas», «estadio» y «submarino» desde aquí, más tres evergreen cotidianos (sifón, ticket y cinta métrica). Las escenas de acelerómetro, cerilla y montaña rusa ya están entregadas.",
  "tendencias": [
   {
-   "id": "giro",
-   "tema": "Cómo sabe tu móvil hacia dónde girar la pantalla",
-   "tipo": "evergreen",
-   "puntuacion": 76,
-   "por_que": "Sin pico de búsquedas, pero es el objeto que el espectador tiene en la mano (regla 1 al máximo). Los shorts de «por dentro» de aparatos siguen funcionando: «Cómo un botón con cable se convierte en un mando inalámbrico» suma 57 mil vistas en una semana. Ya convertido en el guion «giro».",
+   "id": "paracaidas",
+   "tema": "Cómo frena un paracaídas",
+   "tipo": "nicho",
+   "puntuacion": 64,
+   "por_que": "Sigue siendo el short más visto del nicho esta semana (3,2 millones en portugués) y hay otro en castellano con 173 mil. Guion propuesto hoy («paracaidas»).",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Cómo un botón con cable se convierte en un mando inalámbrico», 57.220 vistas"
+     "dato": "«Como um paraquedas freia uma queda? O poder do ar» (Desmontando o Mundo). 3.227.128 vistas",
+     "url": "https://youtube.com/shorts/GzG4Y9wHbho"
+    },
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona el paracaídas?» (mecanica_oculta). 172.993 vistas",
+     "url": "https://youtube.com/shorts/6M7EMTgaCg8"
     }
    ],
-   "urgencia": "Media",
-   "angulo": "Formato A: abrir el chip acelerómetro y ver el bloque de silicio moverse con la gravedad.",
-   "titulo": "Giras el móvil y la pantalla gira 📱 Así sabe dónde está el suelo",
-   "gancho": "Giras el móvil ahora mismo… y la pantalla gira contigo.",
-   "primer_segundo": "Mano girando el móvil en primer plano y la pantalla rotando.",
+   "urgencia": "Media: la ola lleva ya cinco días",
+   "angulo": "Formato B: mochila, extractor, slider, ala de celdas y frenada final.",
+   "titulo": "Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h",
+   "gancho": "Saltas de un avión… y en unos doce segundos vas a doscientos kilómetros por hora.",
+   "primer_segundo": "Paracaidista cayendo hacia la cámara con el velocímetro subiendo.",
    "cifras": [
-    "Gravedad por eje: 1 → 0 y 0 → 1",
-    "Desplazamiento de unos pocos nanómetros",
-    "Cientos de lecturas por segundo"
+    "Caída libre: unos 200 km/h",
+    "Con la vela abierta: unos 22 km/h",
+    "Frenada final a unos 3 m del suelo"
    ],
-   "formato": "A",
+   "formato": "B",
    "estructura": [
-    "Gancho: giras el móvil",
-    "El chip acelerómetro",
-    "Bloque colgado de muelles y peine",
-    "La gravedad mueve el bloque",
-    "Dato: unos nanómetros",
-    "Tres direcciones y giro de pantalla",
+    "Velocímetro a 200",
+    "Tela y cuerdas",
+    "Mochila + extractor",
+    "Slider",
+    "Dato: es un ala con celdas",
+    "Frenada final",
     "Cierre"
    ],
    "reglas": {
-    "cotidiano": 10,
-    "primer_segundo": 9,
+    "cotidiano": 4,
+    "primer_segundo": 10,
     "ensenar": 9
    },
    "potencial": "alto",
-   "por_que_funcionaria": "Lo está haciendo con la mano mientras lo ve; la explicación cabe en un medidor que pasa de 1 a 0.",
-   "competencia": "Poca en castellano con este enfoque.",
-   "riesgos": "Que el movimiento microscópico se entienda; usar reglas de escala.",
+   "por_que_funcionaria": "Velocímetro bajando de 200 a 22: cifra enorme que cambia en pantalla.",
+   "competencia": "Dos shorts recientes; el más visto es en portugués, en castellano hay hueco.",
+   "riesgos": "Regla 1 floja.",
    "mejor_hora": "21:00",
    "hashtags": [
-    "movil",
-    "acelerometro",
-    "gravedad",
-    "tecnologia",
+    "paracaidas",
+    "fisica",
+    "inventos",
     "comofunciona"
    ]
   },
   {
-   "id": "montanarusa",
-   "tema": "¿Y si construyes una montaña rusa?",
-   "tipo": "evergreen",
-   "puntuacion": 64,
-   "por_que": "El formato «construcción en corte» funciona esta semana: «Cómo un hoyo se convierte en los túneles de Cu Chi» suma 1,9 millones de vistas. La montaña rusa tiene problema-solución claro y cifras que se ven (altura, velocidad, veces tu peso). Ya convertido en el guion «montanarusa».",
+   "id": "estadio",
+   "tema": "Lo que hay bajo el césped de un estadio",
+   "tipo": "actualidad",
+   "puntuacion": 58,
+   "por_que": "Semana de selecciones: «nations league» con más de 500 búsquedas en Google Trends España; el fútbol domina Wikipedia (Alcaraz aparte, Boca, Primera argentina 11.677 lecturas). El mecanismo del césped híbrido no lo explica nadie del nicho. Guion propuesto hoy («estadio»).",
    "senales": [
     {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Cómo un hoyo se convierte en los túneles de Cu Chi», 1.911.671 vistas"
+     "fuente": "Google Trends España",
+     "dato": "«nations league», 500+ búsquedas"
+    },
+    {
+     "fuente": "Wikipedia",
+     "dato": "Primera División de Argentina, 11.421 lecturas"
     }
    ],
-   "urgencia": "Baja",
-   "angulo": "Formato C: subida con cadena, seguros clac-clac, ruedas por debajo, rizo en lágrima y frenos magnéticos.",
-   "titulo": "¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no son redondos",
-   "gancho": "Ese clac, clac, clac de la montaña rusa… te está salvando.",
-   "primer_segundo": "El vagón cayendo en picado hacia la cámara.",
+   "urgencia": "Media: aprovechar el parón de selecciones",
+   "angulo": "Formato C: excavar, capas de drenaje, calefacción, hilos de plástico cosidos y lámparas de crecimiento.",
+   "titulo": "¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el césped",
+   "gancho": "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo.",
+   "primer_segundo": "Balón botando sobre el césped y la cámara hundiéndose en corte.",
    "cifras": [
-    "Altura 30 m",
-    "Casi 90 km/h",
-    "6 veces tu peso en rizo redondo → unas 4 en lágrima"
+    "Excavación de casi 2 m",
+    "Hilos sintéticos a 20 cm",
+    "Solo un 5 % de plástico"
    ],
    "formato": "C",
    "estructura": [
-    "Gancho",
-    "Cadena",
-    "Seguros",
-    "Bajada",
-    "Ruedas bajo el raíl",
-    "Rizo en lágrima",
-    "Frenos magnéticos",
+    "Barrizal",
+    "Capas de grava y arena",
+    "Tubos de drenaje",
+    "Calefacción",
+    "Dato: hilos de plástico",
+    "Lámparas",
     "Cierre"
    ],
    "reglas": {
-    "cotidiano": 6,
-    "primer_segundo": 9,
+    "cotidiano": 7,
+    "primer_segundo": 8,
     "ensenar": 9
    },
    "potencial": "alto",
-   "por_que_funcionaria": "Mucho movimiento y un dato que sorprende (los rizos no son círculos).",
-   "competencia": "Hay vídeos largos de física de montañas rusas, pocos shorts en castellano.",
-   "riesgos": "No mostrar parques ni marcas reales.",
+   "por_que_funcionaria": "Fútbol = audiencia enorme y curiosidad de «lo que no se ve».",
+   "competencia": "Nada reciente en el nicho.",
+   "riesgos": "No nombrar estadios ni clubes en pantalla.",
    "mejor_hora": "18:00",
    "hashtags": [
-    "montanarusa",
-    "fisica",
-    "gravedad",
+    "futbol",
+    "cesped",
+    "estadio",
     "ingenieria",
     "comofunciona"
    ]
   },
   {
-   "id": "paracaidas",
-   "tema": "Cómo frena un paracaídas",
+   "id": "stent",
+   "tema": "Cómo te ponen un stent en el corazón",
    "tipo": "nicho",
-   "puntuacion": 62,
-   "por_que": "El short más visto de la semana del nicho es «Como um paraquedas freia uma queda?» con 3,18 millones de vistas, y «¿Cómo funciona el paracaídas?» (mecanica_oculta) suma 95 mil. Mucho interés, pero poca gente lo usa.",
+   "puntuacion": 52,
+   "por_que": "Operaciones en 3D funcionan: stent 800 mil vistas y cataratas 513 mil, del mismo canal, en una semana.",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Como um paraquedas freia uma queda? O poder do ar», 3.178.357 vistas"
+     "dato": "«¿Cómo te ponen un stent en el corazón? 🫀 #cuerpohumano  #curiosidades  #3d  #ciencia» (Por Dentro De Todo). 800.156 vistas",
+     "url": "https://youtube.com/shorts/SP1ETdB4Ezw"
     },
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona el paracaídas?», 94.935 vistas"
+     "dato": "«¿Cómo es realmente una operación de cataratas? 👁️ #cuerpohumano  #curiosidades  #3d  #cien» (Por Dentro De Todo). 513.494 vistas",
+     "url": "https://youtube.com/shorts/hh7rdjCWRZw"
     }
    ],
-   "urgencia": "Media",
-   "angulo": "Formato B: inventar el paracaídas pieza a pieza (tela, celdas que se inflan, cuerdas, el paracaídas pequeño que saca al grande).",
-   "titulo": "Si tuvieras que inventar un paracaídas… 🪂",
-   "gancho": "Caes a doscientos kilómetros por hora… y en tres segundos vas a veinte (comprobar).",
-   "primer_segundo": "Un cuerpo en caída libre en primer plano con el velocímetro girando.",
+   "urgencia": "Baja: evergreen médico",
+   "angulo": "Formato A: arteria en corte, globo que se hincha y malla que se queda abierta.",
+   "titulo": "Así te abren una arteria sin abrirte el pecho 🫀",
+   "gancho": "Una arteria de tu corazón se cierra… y te la abren entrando por la muñeca.",
+   "primer_segundo": "Un catéter avanzando por dentro de una arteria en primer plano.",
    "cifras": [
-    "Velocidad de caída libre (comprobar)",
-    "Velocidad al aterrizar (comprobar)",
-    "Superficie de la tela (comprobar)"
-   ],
-   "formato": "B",
-   "estructura": [
-    "Gancho: velocímetro",
-    "Resistencia del aire",
-    "Tela grande",
-    "Celdas que se inflan",
-    "Paracaídas extractor",
-    "Dato sorprendente",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 3,
-    "primer_segundo": 10,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "El formato ya ha demostrado millones de vistas esta semana.",
-   "competencia": "Dos shorts recientes, uno con 3 millones.",
-   "riesgos": "Regla 1 muy floja; llegar tarde a una ola ya aprovechada.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "paracaidas",
-    "fisica",
-    "aire",
-    "inventos",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "cerilla",
-   "tema": "Por qué una cerilla solo se enciende contra su caja",
-   "tipo": "evergreen",
-   "puntuacion": 58,
-   "por_que": "Sin señal directa esta semana; se propone porque la química se puede enseñar con un termómetro y flechas, y está en casi todas las casas. Ya convertido en el guion «cerilla».",
-   "senales": [
-    {
-     "fuente": "Banco propio",
-     "dato": "Sin señal en Trends ni Wikipedia esta semana"
-    }
-   ],
-   "urgencia": "Baja",
-   "angulo": "Formato B: separar la receta en dos (cabeza y caja) para que no prenda sola.",
-   "titulo": "Si tuvieras que inventar la cerilla… 🔥",
-   "gancho": "La mitad de tu cerilla… está en la caja.",
-   "primer_segundo": "Macro de la cabeza rascando la tira y la llama naciendo.",
-   "cifras": [
-    "Fósforo blanco: unos 30 °C",
-    "Menos de 1 segundo frente a minutos",
-    "1844"
-   ],
-   "formato": "B",
-   "estructura": [
-    "Gancho",
-    "Frotar palos",
-    "Fósforo blanco",
-    "Problema: arde solo y es venenoso",
-    "Caja y cabeza",
-    "Dato: el roce lo vuelve blanco",
-    "Parafina",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 7,
-    "primer_segundo": 9,
-    "ensenar": 8
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Plano macro de la llama muy llamativo.",
-   "competencia": "Pocos shorts recientes.",
-   "riesgos": "Evitar que parezca un tutorial para hacer fuego peligroso.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "cerilla",
-    "fuego",
-    "quimica",
-    "inventos",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "radio",
-   "tema": "Cómo llega la radio a tu coche",
-   "tipo": "evergreen",
-   "puntuacion": 50,
-   "por_que": "«radio online» aparece en Google Trends España con más de 500 búsquedas. La radio FM del coche es cotidiana y la onda que sube y baja se puede enseñar.",
-   "senales": [
-    {
-     "fuente": "Google Trends España",
-     "dato": "«radio online», 500+ búsquedas"
-    }
-   ],
-   "urgencia": "Baja",
-   "angulo": "Formato A: de la voz del locutor a la antena y al altavoz del coche, con la onda modulada en pantalla.",
-   "titulo": "Así llega la radio a tu coche 📻 Sin cables",
-   "gancho": "Cada mañana, en el coche, una voz viaja por el aire hasta tu radio.",
-   "primer_segundo": "Antena del coche con ondas llegando y el dial girando.",
-   "cifras": [
-    "Frecuencia en megahercios del dial (comprobar)",
-    "Oscilaciones por segundo (comprobar)"
+    "Diámetro de la arteria (comprobar)",
+    "Presión del globo en atmósferas (comprobar)",
+    "Flujo de sangre que sube de 20 % a 100 % (comprobar)"
    ],
    "formato": "A",
    "estructura": [
-    "Gancho",
-    "Micrófono",
-    "Onda portadora",
-    "Modulación",
-    "Antena",
-    "Sintonizar",
+    "Arteria cerrada",
+    "Catéter por la muñeca",
+    "Globo",
+    "Malla",
+    "Dato: se queda para siempre",
     "Cierre"
    ],
    "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 7,
-    "ensenar": 8
+    "cotidiano": 5,
+    "primer_segundo": 9,
+    "ensenar": 9
    },
-   "potencial": "medio",
-   "por_que_funcionaria": "Mucha gente escucha la radio en el coche a diario.",
-   "competencia": "Poca competencia en shorts.",
-   "riesgos": "Explicación abstracta; hay que enseñar la onda que cambia.",
-   "mejor_hora": "10:00",
+   "potencial": "medio-alto",
+   "por_que_funcionaria": "Todo el mundo conoce a alguien con un stent.",
+   "competencia": "Un canal muy fuerte ya lo hizo esta semana.",
+   "riesgos": "Tema médico: cifras muy comprobadas y sin sangre explícita.",
+   "mejor_hora": "21:00",
    "hashtags": [
-    "radio",
-    "ondas",
-    "coche",
-    "tecnologia",
+    "corazon",
+    "medicina",
+    "cuerpohumano",
     "comofunciona"
    ]
   },
   {
-   "id": "cadera",
-   "tema": "Así te ponen una cadera nueva",
+   "id": "adblue",
+   "tema": "Qué es el AdBlue de los coches diésel",
    "tipo": "nicho",
    "puntuacion": 48,
-   "por_que": "Los shorts de operaciones en 3D están fuertes esta semana: stent 771 mil, cataratas 509 mil y cadera 149 mil vistas (todos del mismo canal).",
+   "por_que": "«Qué es y cómo funciona la UREA» suma 155 mil vistas y 59 comentarios en una semana; muchos conductores diésel en España rellenan AdBlue sin saber qué hace.",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo te ponen un stent en el corazón?», 771.269 vistas"
-    },
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Así es cómo te ponen una cadera nueva», 148.992 vistas"
+     "dato": "«Qué es y como funciona la UREA #camiones #traileros #adblue» (Kilómetros Recorridos ). 154.615 vistas",
+     "url": "https://youtube.com/shorts/BBiakYFT0fo"
     }
    ],
    "urgencia": "Baja",
-   "angulo": "Formato B: inventar una articulación de bola y copa que dure años.",
-   "titulo": "Si tuvieras que inventar una cadera… 🦴",
-   "gancho": "Cada paso que das, tu cadera gira sobre una bola.",
-   "primer_segundo": "Una pierna caminando con la articulación en corte.",
+   "angulo": "Formato A: tubo de escape en corte, el líquido se rocía y convierte los gases en nitrógeno y agua.",
+   "titulo": "El líquido azul que echas a tu coche diésel 🚗 qué hace en el escape",
+   "gancho": "Si tu coche es diésel, le echas un líquido que no es combustible… ¿Para qué?",
+   "primer_segundo": "Chorro del inyector rociando dentro del escape, en corte.",
    "cifras": [
-    "Fuerza en la cadera al andar en veces tu peso (comprobar)",
-    "Años que dura una prótesis (comprobar)"
+    "Proporción de urea (comprobar)",
+    "Reducción de óxidos de nitrógeno en % (comprobar)",
+    "Consumo por cada 1.000 km (comprobar)"
    ],
-   "formato": "B",
+   "formato": "A",
    "estructura": [
-    "Gancho",
-    "Bola y copa",
-    "Desgaste",
-    "Materiales",
-    "Dato",
+    "Gases sucios",
+    "Inyector",
+    "Catalizador",
+    "Dato: sale agua",
     "Cierre"
    ],
    "reglas": {
@@ -297,111 +202,205 @@
     "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "El nicho médico en 3D está funcionando.",
-   "competencia": "Un canal domina el tema con el mismo estilo.",
-   "riesgos": "Evitar imágenes quirúrgicas o sangre; no dar consejo médico.",
-   "mejor_hora": "21:00",
+   "por_que_funcionaria": "Duda real de conductores, buena para comentarios.",
+   "competencia": "Solo canales de camioneros.",
+   "riesgos": "No nombrar marcas (AdBlue es marca registrada: decir «líquido de urea»).",
+   "mejor_hora": "13:00",
    "hashtags": [
-    "cuerpohumano",
-    "cadera",
-    "huesos",
-    "medicina",
+    "coches",
+    "diesel",
+    "motor",
     "comofunciona"
    ]
   },
   {
-   "id": "arroba",
-   "tema": "Por qué los correos llevan @",
+   "id": "pelotasonora",
+   "tema": "Cómo juegan al fútbol o béisbol las personas ciegas",
    "tipo": "nicho",
-   "puntuacion": 42,
-   "por_que": "«Arroba (símbolo)» tiene 9.545 lecturas en Wikipedia en español en un día, la entrada técnica más leída de la lista.",
+   "puntuacion": 45,
+   "por_que": "«Cómo funciona el béisbol con pelota sonora» 508 mil vistas con solo 6 comentarios: interés alto y nadie lo explica bien.",
    "senales": [
     {
-     "fuente": "Wikipedia (es)",
-     "dato": "«Arroba (símbolo)», 9.545 lecturas",
-     "url": "https://es.wikipedia.org/wiki/Arroba_(s%C3%ADmbolo)"
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Cómo funciona el beisbol con pelota sonora 🤔» (CURION). 508.406 vistas",
+     "url": "https://youtube.com/shorts/PJ70VthO3BI"
     }
    ],
-   "urgencia": "Media",
-   "angulo": "Formato A: el viaje de un correo, donde la @ separa el usuario del servidor.",
-   "titulo": "Por qué tu correo lleva una @ 📧",
-   "gancho": "La escribes cada semana… ¿por qué una @?",
-   "primer_segundo": "Dedo pulsando la tecla @ y el correo saliendo.",
+   "urgencia": "Baja",
+   "angulo": "Formato A: balón en corte con los cascabeles, el sonido que se mueve y el jugador que lo localiza.",
+   "titulo": "El balón que se oye 🔔 así juegan las personas ciegas",
+   "gancho": "Cierra los ojos… ¿podrías saber dónde está un balón?",
+   "primer_segundo": "Balón rodando hacia la cámara con ondas de sonido saliendo.",
    "cifras": [
-    "Año del primer correo con @ (comprobar)",
-    "Saltos entre servidores (comprobar)"
+    "Número de cascabeles (comprobar)",
+    "Tamaño del campo (comprobar)"
    ],
    "formato": "A",
    "estructura": [
-    "Gancho",
-    "Usuario y servidor",
-    "La @ separa",
-    "Viaje del correo",
-    "Dato histórico",
+    "El problema",
+    "Cascabeles dentro",
+    "Cómo se localiza el sonido",
+    "Dato",
     "Cierre"
    ],
    "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 7,
-    "ensenar": 5
+    "cotidiano": 5,
+    "primer_segundo": 8,
+    "ensenar": 7
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Símbolo que todo el mundo usa.",
-   "competencia": "Poca.",
-   "riesgos": "Es más historia que mecanismo (regla 3 floja).",
-   "mejor_hora": "12:00",
+   "por_que_funcionaria": "Curiosidad e inclusión.",
+   "competencia": "Un short sin profundidad.",
+   "riesgos": "Tratar la discapacidad con respeto.",
+   "mejor_hora": "18:00",
    "hashtags": [
-    "correo",
-    "internet",
-    "arroba",
-    "tecnologia",
+    "deporte",
+    "inclusion",
+    "sonido",
     "comofunciona"
    ]
   },
   {
    "id": "submarino",
    "tema": "Cómo se hunde y sale a flote un submarino",
-   "tipo": "nicho",
-   "puntuacion": 42,
-   "por_que": "«¿Cómo funciona un submarino?» (Casco Amarillo) ya suma 162.822 vistas. Buen mecanismo (tanques de lastre, aire comprimido), pero lejos de lo cotidiano.",
+   "tipo": "evergreen",
+   "puntuacion": 44,
+   "por_que": "«¿Cómo funciona un submarino?» 166 mil vistas esta semana. Guion propuesto hoy («submarino»).",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona un submarino?», 162.822 vistas"
+     "dato": "«¿Cómo funciona un submarino? 👷 #shorts» (Casco Amarillo). 165.519 vistas",
+     "url": "https://youtube.com/shorts/Qld0IOJO46g"
     }
    ],
    "urgencia": "Baja",
-   "angulo": "Formato B: inventar un barco que se hunde y vuelve a subir.",
+   "angulo": "Formato B: tanques de lastre, casco de presión, tanques de equilibrio y aire comprimido.",
    "titulo": "Si tuvieras que inventar un submarino… 🌊",
-   "gancho": "¿Cómo se hunde un barco a propósito… y vuelve a subir?",
-   "primer_segundo": "Agua entrando a chorro en los tanques en primer plano.",
+   "gancho": "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse?",
+   "primer_segundo": "Submarino hundiéndose en corte con el agua entrando en los tanques.",
    "cifras": [
-    "Profundidad (comprobar)",
-    "Presión: +1 atmósfera cada 10 m"
+    "+1 atmósfera cada 10 m",
+    "31 atmósferas a 300 m"
    ],
    "formato": "B",
    "estructura": [
-    "Gancho",
     "Flotar",
-    "Tanques de lastre",
-    "Aire comprimido",
+    "Tanques",
     "Presión",
+    "Casco",
+    "Equilibrio",
+    "Dato: sube con aire",
     "Cierre"
    ],
    "reglas": {
     "cotidiano": 3,
     "primer_segundo": 8,
-    "ensenar": 8
+    "ensenar": 10
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Visual y misterioso.",
-   "competencia": "Ya hay un short reciente con buenos números.",
-   "riesgos": "Regla 1 floja; evitar submarinos militares.",
+   "por_que_funcionaria": "Profundímetro y manómetro muy visuales.",
+   "competencia": "Un short reciente.",
+   "riesgos": "Regla 1 muy floja; no mostrar submarinos militares reales.",
    "mejor_hora": "21:00",
    "hashtags": [
     "submarino",
     "mar",
-    "flotar",
+    "presion",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "calentadorsolar",
+   "tema": "Calentador solar casero con botellas",
+   "tipo": "nicho",
+   "puntuacion": 40,
+   "por_que": "«Xóchitl explica cómo funciona el calentador solar que inventó con materiales reciclados»: 124 mil vistas y 325 comentarios (mucha conversación).",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Xóchitl explica cómo funciona el calentador solar que inventó con materiales reciclados» (La Jornada). 123.764 vistas",
+     "url": "https://youtube.com/shorts/OU-0xr2f0Os"
+    }
+   ],
+   "urgencia": "Baja",
+   "angulo": "Formato B: tubo negro, botellas como invernadero y el agua caliente que sube sola (termosifón).",
+   "titulo": "Si tuvieras que calentar agua solo con el sol… ☀️",
+   "gancho": "El agua de tu ducha podría calentarse sin gas ni luz… solo con el sol.",
+   "primer_segundo": "Agua corriendo por un tubo negro al sol con el termómetro subiendo.",
+   "cifras": [
+    "Temperatura que alcanza el agua (comprobar)",
+    "Litros al día (comprobar)"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Tubo negro",
+    "Botellas",
+    "Termosifón",
+    "Depósito",
+    "Dato",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 6,
+    "primer_segundo": 7,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Ahorro y bricolaje generan comentarios.",
+   "competencia": "Un vídeo de noticias, no del nicho.",
+   "riesgos": "Se parece a «caldera»/«termo» ya hechos.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "sol",
+    "energia",
+    "agua",
+    "inventos",
+    "comofunciona"
+   ]
+  },
+  {
+   "id": "chorroagua",
+   "tema": "Cortar acero con agua",
+   "tipo": "nicho",
+   "puntuacion": 36,
+   "por_que": "«Cómo funciona el corte con agua y abrasivo»: 177 mil vistas en dos días.",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«💧 COMO FUNCIONA O CORTE COM ÁGUA E ABRASIVO DE GRANADA  #engenharia #curiosidades #tecnolo» (INTRIGANTE.IA-80). 177.131 vistas",
+     "url": "https://youtube.com/shorts/4bQHPKA-QUU"
+    }
+   ],
+   "urgencia": "Baja",
+   "angulo": "Formato A: bomba, boquilla de diamante y arena que corta.",
+   "titulo": "Así corta el agua una plancha de acero 💧",
+   "gancho": "Un chorro de agua más fino que un pelo… atraviesa el acero.",
+   "primer_segundo": "El chorro cortando una plancha en primer plano con chispas de agua.",
+   "cifras": [
+    "Presión en bares (comprobar)",
+    "Velocidad del chorro (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Bomba",
+    "Boquilla",
+    "Arena abrasiva",
+    "Dato",
+    "Cierre"
+   ],
+   "reglas": {
+    "cotidiano": 2,
+    "primer_segundo": 10,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Muy hipnótico en el primer segundo.",
+   "competencia": "Vídeos en portugués.",
+   "riesgos": "Regla 1 muy floja.",
+   "mejor_hora": "21:00",
+   "hashtags": [
+    "agua",
+    "industria",
     "ingenieria",
     "comofunciona"
    ]
@@ -409,40 +408,56 @@
  ],
  "descartadas": [
   {
-   "tema": "Santiago Peña, Partido Colorado y la crisis de Paraguay (78.543 lecturas)",
-   "motivo": "Política."
+   "tema": "Adrián Barbón, Pablo Bustinduy, Javier Aguirre, James Gunn, León XIV, Carlos Alcaraz, Ben Shelton…",
+   "motivo": "Política y famosos."
   },
   {
-   "tema": "León XIV, Sebastián Lelio, Bobby Pulido, Russell Brand, Meghan Markle…",
-   "motivo": "Famosos."
+   "tema": "«Alice Huang espía china», policía, Toma del Palacio de Justicia, Arguineguín",
+   "motivo": "Sucesos, política o víctimas."
   },
   {
-   "tema": "Selección española, Mikel Arteta, Taylor Fritz, Unicaja",
-   "motivo": "Deporte y famosos; sin mecanismo que explicar."
+   "tema": "Nations League, Liga1 Perú, Boca Juniors, Primera argentina",
+   "motivo": "Deporte sin mecanismo; se aprovecha con el ángulo del césped (estadio)."
   },
   {
-   "tema": "Delincuencia organizada",
-   "motivo": "Sucesos."
+   "tema": "La Revuelta (horario)",
+   "motivo": "Programa de televisión, sin mecanismo."
   },
   {
-   "tema": "«Cómo funciona el legendario Phalanx» (886 mil) y «Si caen bombas en tu ciudad»",
-   "motivo": "Armas y guerra."
+   "tema": "«Si se va la luz, tus paneles solares también se apagan» (1,94 millones)",
+   "motivo": "Muy buen dato, pero las placas solares ya están hechas («placas»); se podría usar como segunda parte."
   },
   {
-   "tema": "Tokens de Fortnite y Brawl Stars",
+   "tema": "«Cargar el móvil toda la noche no arruina la batería» (1,68 millones) y «¿Qué pasa dentro de un cargador?» (16,4 millones)",
+   "motivo": "Ya hechos: «bateria» y «cargador»."
+  },
+  {
+   "tema": "Móviles plegables y iPhone dúo",
+   "motivo": "Ya hecho («plegable») y marcas reales."
+  },
+  {
+   "tema": "Túneles de Cu Chi, Phalanx, «Si caen bombas en tu ciudad»",
+   "motivo": "Guerra y armas."
+  },
+  {
+   "tema": "Tokens de Fortnite, Free Fire, Minecraft, Smash Bros",
    "motivo": "Videojuegos, fuera del nicho."
   },
   {
-   "tema": "Brazo, velcro, molinos y linterna sin pilas",
-   "motivo": "Ya en producción: escenas entregadas hoy, renderizándose."
+   "tema": "Resintonizar la TDT",
+   "motivo": "Ya hecho («tdt»)."
   },
   {
-   "tema": "Tabla periódica (7.969 lecturas)",
-   "motivo": "No es un mecanismo cotidiano que se pueda enseñar en 60 s."
+   "tema": "Suelo infinito",
+   "motivo": "Rechazado en el panel («espejos»)."
   },
   {
-   "tema": "Espejos y suelo infinito",
-   "motivo": "Rechazado en el panel."
+   "tema": "Acelerómetro, montaña rusa, cerilla, linterna, velcro, molinos, metro y brazo",
+   "motivo": "Ya en producción (escenas entregadas)."
+  },
+  {
+   "tema": "Bolígrafo para adelgazar",
+   "motivo": "Medicamento: riesgo de dar consejos de salud."
   }
  ]
 }
