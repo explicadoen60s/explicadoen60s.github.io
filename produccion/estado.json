@@ -1763,7 +1763,7 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-08",
    "reglas": {
     "cotidiano": 9,
@@ -1780,7 +1780,8 @@
    ],
    "aprobado": "2026-11-08T19:23:16.170Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 70.0
+   "duracion": 70,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "linterna",
