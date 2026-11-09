@@ -1243,25 +1243,6 @@
    "publicado": "2026-11-07T20:01:40.243197+00:00"
   },
   {
-   "id": "camara-instagram",
-   "red": "instagram",
-   "hora": "2026-11-08T10:00:00+01:00",
-   "video": "camara.mp4",
-   "titulo": "📸 Así ve la cámara de tu móvil: 50 millones de contadores de luz",
-   "texto": "La mitad de los píxeles de tu cámara solo ven verde. ¿Sabías por qué? 👇",
-   "tags": [
-    "camara",
-    "movil",
-    "tecnologia",
-    "ciencia",
-    "fotografia"
-   ],
-   "estado": "error",
-   "intentos": 3,
-   "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "504 Server Error: Gateway Time-out for url: https://github.com/explicadoen60s/explicadoen60s.github.io/releases/download/videos/camara.mp4"
-  },
-  {
    "id": "tostadora-tiktok",
    "red": "tiktok",
    "hora": "2026-11-08T10:00:00+01:00",
@@ -1449,6 +1430,25 @@
     "borrador": true
    },
    "publicado": "2026-11-08T20:23:26.516611+00:00"
+  },
+  {
+   "id": "camara-instagram",
+   "red": "instagram",
+   "hora": "2026-11-09T00:02:39+00:00",
+   "video": "camara.mp4",
+   "titulo": "📸 Así ve la cámara de tu móvil: 50 millones de contadores de luz",
+   "texto": "La mitad de los píxeles de tu cámara solo ven verde. ¿Sabías por qué? 👇",
+   "tags": [
+    "camara",
+    "movil",
+    "tecnologia",
+    "ciencia",
+    "fotografia"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "504 Server Error: Gateway Time-out for url: https://github.com/explicadoen60s/explicadoen60s.github.io/releases/download/videos/camara.mp4"
   },
   {
    "id": "plegable-instagram",
