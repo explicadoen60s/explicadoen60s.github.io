@@ -1657,9 +1657,15 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706267887761803286",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-09T20:18:45.864249+00:00"
   },
   {
    "id": "pozo-instagram",

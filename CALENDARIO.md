@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| vie 06/11 | 21:00 | tiktok | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://www.instagram.com/reel/Dfb1sYckf2k/) |
 | sáb 07/11 | 10:00 | tiktok | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://youtube.com/shorts/ZCux2KuTRmI) |
@@ -31,7 +30,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://youtube.com/shorts/dBlecn8ge7c) |
 | lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://www.instagram.com/reel/Dfh4U73FfqV/) |
 | lun 09/11 | 18:00 | tiktok | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | 📲 en tu bandeja de TikTok |
-| lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
+| lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
 | mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 10/11 | 12:00 | youtube | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
@@ -75,10 +74,16 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
+| sáb 14/11 | 18:00 | tiktok | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | ⏳ pendiente |
+| sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | ⏳ pendiente |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
+| dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ⏳ pendiente |
 | dom 15/11 | 12:00 | youtube | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
+| dom 15/11 | 13:00 | tiktok | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | ⏳ pendiente |
+| dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | ⏳ pendiente |
 | dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
 | dom 15/11 | 18:00 | instagram | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
+| dom 15/11 | 18:00 | tiktok | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
 | lun 16/11 | 10:00 | instagram | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
 | lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
@@ -129,3 +134,15 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 27/11 | 18:00 | instagram | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
 | sáb 28/11 | 10:00 | instagram | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
 | sáb 28/11 | 12:00 | youtube | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
+| sáb 28/11 | 16:00 | youtube | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | ⏳ pendiente |
+| sáb 28/11 | 18:00 | instagram | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | ⏳ pendiente |
+| dom 29/11 | 10:00 | instagram | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | ⏳ pendiente |
+| dom 29/11 | 12:00 | youtube | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | ⏳ pendiente |
+| dom 29/11 | 16:00 | youtube | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ⏳ pendiente |
+| dom 29/11 | 18:00 | instagram | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ⏳ pendiente |
+| lun 30/11 | 10:00 | instagram | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | ⏳ pendiente |
+| lun 30/11 | 12:00 | youtube | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | ⏳ pendiente |
+| lun 30/11 | 16:00 | youtube | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | ⏳ pendiente |
+| lun 30/11 | 18:00 | instagram | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | ⏳ pendiente |
+| mar 01/12 | 10:00 | instagram | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
+| mar 01/12 | 12:00 | youtube | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
