@@ -1469,9 +1469,14 @@
     "cristal",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18062491037547814",
+    "url": "https://www.instagram.com/reel/DfhCwhSDQD7/"
+   },
+   "publicado": "2026-11-09T09:47:37.387545+00:00"
   },
   {
    "id": "whatsapp-tiktok",
@@ -1487,9 +1492,15 @@
     "privacidad",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706105980370585622",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-09T09:48:06.767910+00:00"
   },
   {
    "id": "plegable-youtube",

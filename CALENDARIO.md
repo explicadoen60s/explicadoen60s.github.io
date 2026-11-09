@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| vie 06/11 | 10:00 | instagram | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | [✅ publicado](https://www.instagram.com/reel/DfZSjxzCgQ3/) |
-| vie 06/11 | 10:00 | tiktok | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 12:00 | youtube | Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes | [✅ publicado](https://youtube.com/shorts/50hYL5a-HZo) |
 | vie 06/11 | 13:00 | tiktok | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | 📲 en tu bandeja de TikTok |
 | vie 06/11 | 16:00 | youtube | Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las lám | [✅ publicado](https://youtube.com/shorts/Bx98_RsXlu0) |
@@ -30,8 +28,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 01:02 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://www.instagram.com/reel/DfgAIVvjS74/) |
-| lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
-| lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
+| lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://www.instagram.com/reel/DfhCwhSDQD7/) |
+| lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
 | lun 09/11 | 13:00 | tiktok | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
 | lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
