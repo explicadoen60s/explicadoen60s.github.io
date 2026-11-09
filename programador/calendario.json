@@ -1563,9 +1563,15 @@
     "energia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706194608967469078",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-09T15:31:44.863798+00:00"
   },
   {
    "id": "cargador-youtube",
@@ -1581,9 +1587,14 @@
     "bateria",
     "inventos"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "dBlecn8ge7c",
+    "url": "https://youtube.com/shorts/dBlecn8ge7c"
+   },
+   "publicado": "2026-11-09T15:31:47.850317+00:00"
   },
   {
    "id": "cargador-instagram",
