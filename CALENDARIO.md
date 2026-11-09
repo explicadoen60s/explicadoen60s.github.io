@@ -21,7 +21,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 07/11 | 18:00 | instagram | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | [✅ publicado](https://www.instagram.com/reel/DfcqxifHFcH/) |
 | sáb 07/11 | 18:00 | tiktok | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 21:00 | tiktok | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | 📲 en tu bandeja de TikTok |
-| dom 08/11 | 10:00 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | ❌ error |
 | dom 08/11 | 10:00 | tiktok | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://youtube.com/shorts/Xe_TjA2BluM) |
 | dom 08/11 | 13:00 | tiktok | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | 📲 en tu bandeja de TikTok |
@@ -30,6 +29,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | [✅ publicado](https://www.instagram.com/reel/DffPod3CS6S/) |
 | dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | 📲 en tu bandeja de TikTok |
+| lun 09/11 | 01:02 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://www.instagram.com/reel/DfgAIVvjS74/) |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
 | lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | ⏳ pendiente |
