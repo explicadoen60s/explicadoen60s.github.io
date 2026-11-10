@@ -1775,9 +1775,15 @@
     "magnetismo",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706566035373099030",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-10T15:33:15.473424+00:00"
   },
   {
    "id": "lavavajillas-youtube",
@@ -1793,9 +1799,14 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "WkeQNbG7Tyk",
+    "url": "https://youtube.com/shorts/WkeQNbG7Tyk"
+   },
+   "publicado": "2026-11-10T15:33:20.244483+00:00"
   },
   {
    "id": "lavavajillas-instagram",
