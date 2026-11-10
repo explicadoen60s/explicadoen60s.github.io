@@ -1681,9 +1681,14 @@
     "ingenieria",
     "ciencia"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18111895721223587",
+    "url": "https://www.instagram.com/reel/DfjmZjHjtwO/"
+   },
+   "publicado": "2026-11-10T09:37:40.412648+00:00"
   },
   {
    "id": "router-tiktok",
@@ -1699,9 +1704,15 @@
     "trucos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706474359543826454",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-10T09:38:20.945080+00:00"
   },
   {
    "id": "pozo-youtube",

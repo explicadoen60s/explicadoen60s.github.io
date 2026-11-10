@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| sáb 07/11 | 10:00 | instagram | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://www.instagram.com/reel/Dfb1sYckf2k/) |
-| sáb 07/11 | 10:00 | tiktok | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 12:00 | youtube | ¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del t | [✅ publicado](https://youtube.com/shorts/ZCux2KuTRmI) |
 | sáb 07/11 | 13:00 | tiktok | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 16:00 | tiktok | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | 📲 en tu bandeja de TikTok |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://www.instagram.com/reel/Dfh4U73FfqV/) |
 | lun 09/11 | 18:00 | tiktok | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | 📲 en tu bandeja de TikTok |
-| mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
-| mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
+| mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | [✅ publicado](https://www.instagram.com/reel/DfjmZjHjtwO/) |
+| mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 12:00 | youtube | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | ⏳ pendiente |
 | mar 10/11 | 13:00 | tiktok | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 10/11 | 16:00 | tiktok | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
