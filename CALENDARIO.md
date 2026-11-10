@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| sáb 07/11 | 18:00 | instagram | ¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo a | [✅ publicado](https://www.instagram.com/reel/DfcqxifHFcH/) |
-| sáb 07/11 | 18:00 | tiktok | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | 📲 en tu bandeja de TikTok |
 | sáb 07/11 | 21:00 | tiktok | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 10:00 | tiktok | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 12:00 | youtube | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://youtube.com/shorts/Xe_TjA2BluM) |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 10/11 | 13:00 | tiktok | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 16:00 | tiktok | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 16:00 | youtube | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | [✅ publicado](https://youtube.com/shorts/WkeQNbG7Tyk) |
-| mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | ⏳ pendiente |
-| mar 10/11 | 18:00 | tiktok | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
+| mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | [✅ publicado](https://www.instagram.com/reel/DfkbKTelOyj/) |
+| mar 10/11 | 18:00 | tiktok | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 21:00 | tiktok | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
 | mié 11/11 | 10:00 | instagram | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | ⏳ pendiente |
 | mié 11/11 | 10:00 | tiktok | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
