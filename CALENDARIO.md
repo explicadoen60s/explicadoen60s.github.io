@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 01:02 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://www.instagram.com/reel/DfgAIVvjS74/) |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://www.instagram.com/reel/DfhCwhSDQD7/) |
 | lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | 📲 en tu bandeja de TikTok |
@@ -32,7 +31,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://youtube.com/shorts/jKlLX1rjuJ0) |
 | mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://www.instagram.com/reel/DfnDFSTgERI/) |
 | mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | 📲 en tu bandeja de TikTok |
-| mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
+| mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
 | jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |

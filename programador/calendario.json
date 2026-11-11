@@ -2081,9 +2081,16 @@
     "agua",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707021985393936406",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true,
+    "aviso_web": "La sesión de TikTok ha caducado: vuelve a copiar la cookie a GitHub (ver programador/LEEME.md)."
+   },
+   "publicado": "2026-11-11T21:04:31.800722+00:00"
   },
   {
    "id": "tostadora-instagram",
