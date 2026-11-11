@@ -7,7 +7,7 @@ function videosDe(st,est){
   const out=[];
   for(const r of REDES){const vs=(st?.videos?.[r]||[]).filter(v=>v.vistas>0); /* sin vistas = la red aún no da el dato */const med=mediana(vs.map(v=>v.vistas))||1;
     for(const v of vs){const inter=v.vistas?((v.likes||0)+2*(v.comentarios||0)+3*(v.compartidos||0)+2*(v.guardados||0))/v.vistas:null;const m=meta[norm(v.titulo)];
-      out.push({...v,red:r,inter,rel:v.vistas/med,maduro:v.fecha&&Date.now()-new Date(v.fecha)>48*36e5,hora:v.fecha?horaMadrid(v.fecha):null,dia:v.fecha?diaSemana(v.fecha):null,formato:m?.formato,duracion:m?.duracion,guion:m?.guion,clave:r+":"+v.id})}}
+      out.push({...v,red:r,inter,rel:v.vistas/med,maduro:v.fecha&&Date.now()-new Date(v.fecha)>48*36e5,hora:v.fecha?horaMadrid(v.fecha):null,dia:v.fecha?diaSemana(v.fecha):null,formato:m?.formato,duracion:m?.duracion,guion:m?.guion,juego:!!m?.juego,clave:r+":"+v.id})}}
   return out;
 }
 const norm=t=>(t||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z0-9 ]/g,"").replace(/\s+/g," ").trim().slice(0,60);
@@ -37,9 +37,27 @@ async function vistaStats(sub){
 function statsGeneral(st,vids){
   const redes=FILTRO==="todas"?REDES:[FILTRO],sum=k=>vids.reduce((s,v)=>s+(v[k]||0),0);
   return `<div class="grid g4">${kpi("Seguidores",redes.reduce((s,r)=>s+(st.cuentas?.[r]?.seguidores||0),0),FILTRO==="todas"?"las tres redes":NOMBRE[FILTRO],"user")}${kpi("Visualizaciones",sum("vistas"),`${vids.length} vídeos`,"eye")}${kpi("Likes",sum("likes"),`interacción media ${pct(mediana(vids.map(v=>v.inter)))}`,"heart")}${kpi("Comentarios",sum("comentarios"),`${fmtN(sum("compartidos"))} compartidos`,"chat")}</div>
+  ${participacion(st,vids,redes)}
   <div class="grid g2"><div class="card fade"><div class="h3">${ic("user")}Seguidores en el tiempo</div><div class="chart" id="cLinea"></div></div>
   <div class="card fade"><div class="h3">${ic("eye")}Vídeos con más visualizaciones</div><div id="cBarras"></div></div></div>
   <div class="card fade"><div class="h3">${ic("list")}Todos los vídeos<span class="sub">${vids.length}</span></div><div class="tablewrap" id="tabla"></div></div>`;
+}
+// participación: lo que mide el juego de la cifra (comentarios y seguidores por cada mil vistas)
+function participacion(st,vids,redes){
+  const f=x=>x==null||!isFinite(x)?"—":x.toFixed(x<10?2:1).replace(".",",");
+  const kpiT=(lab,val,pie,icono)=>`<div class="card kpi fade"><div class="lab">${ic(icono,"s")}${lab}</div><div class="val">${val}</div><div class="pie">${pie}</div></div>`;
+  const vis=vids.reduce((s,v)=>s+(v.vistas||0),0),com=vids.reduce((s,v)=>s+(v.comentarios||0),0);
+  const seg=redes.reduce((s,r)=>s+(st.cuentas?.[r]?.seguidores||0),0),visC=redes.reduce((s,r)=>s+(st.cuentas?.[r]?.vistas||0),0);
+  // seguidores ganados por cada mil vistas nuevas en los últimos 7 días (historial diario)
+  const h=st.historial||[],ult=h[h.length-1],ant=h[Math.max(0,h.length-8)];let s7=null;
+  if(ult&&ant&&ult!==ant){const dv=redes.reduce((s,r)=>s+((ult[r+"_vistas"]||0)-(ant[r+"_vistas"]||0)),0),ds=redes.reduce((s,r)=>s+((ult[r+"_seguidores"]||0)-(ant[r+"_seguidores"]||0)),0);if(dv>0)s7=ds/dv*1000}
+  const grupo=g=>{const vs=g.filter(v=>v.vistas>0);const V=vs.reduce((s,v)=>s+v.vistas,0);return {n:vs.length,c:V?vs.reduce((s,v)=>s+(v.comentarios||0),0)/V*1000:null,sh:V?vs.reduce((s,v)=>s+(v.compartidos||0),0)/V*1000:null,med:mediana(vs.map(v=>v.rel))}};
+  const J=grupo(vids.filter(v=>v.juego)),N=grupo(vids.filter(v=>!v.juego));
+  return `<div class="card fade"><div class="h3">${ic("chat")}Participación<span class="sub">lo que mide el juego de la cifra</span></div>
+   <div class="grid g4">${kpiT("Comentarios / 1.000 vistas",f(vis?com/vis*1000:null),`${fmtN(com)} en ${fmtN(vis)} vistas`,"chat")}${kpiT("Seguidores / 1.000 vistas",f(visC?seg/visC*1000:null),"desde el principio","user")}${kpiT("Últimos 7 días",f(s7),"seguidores por cada 1.000 vistas nuevas","trend")}${kpiT("Vídeos con juego",J.n,J.n?"comparados abajo":"aún no se ha publicado ninguno","zap")}</div>
+   ${J.n?`<div class="tablewrap"><table><thead><tr><th></th><th>Vídeos</th><th>Comentarios / 1.000 vistas</th><th>Compartidos / 1.000 vistas</th><th>Vistas frente a la mediana</th></tr></thead><tbody>
+    <tr><td><b>Con juego</b></td><td>${J.n}</td><td><b>${f(J.c)}</b></td><td>${f(J.sh)}</td><td>${fmtX(J.med)}</td></tr>
+    <tr><td>Sin juego</td><td>${N.n}</td><td>${f(N.c)}</td><td>${f(N.sh)}</td><td>${fmtX(N.med)}</td></tr></tbody></table></div><p class="mut peq">Compara solo cuando haya al menos 8-10 vídeos con juego de más de 48 horas: con pocos, un viral lo descuadra todo.</p>`:`<p class="mut peq">Cuando se publiquen los primeros vídeos con juego, aquí verás si comentan y siguen más que con los demás.</p>`}</div>`;
 }
 function tablaVideos(vids){
   const cols=[["red","Red"],["titulo","Vídeo"],["fecha","Publicado"],["vistas","Vistas",1],["rel","vs su red",1],["likes","Likes",1],["comentarios","Coment.",1],["compartidos","Compart.",1],["inter","Interacción",1]];

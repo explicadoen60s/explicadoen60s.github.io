@@ -37,11 +37,22 @@ Formato visual de referencia:
 
 ## Línea editorial (sale de las estadísticas, 11-nov-2026)
 Los tres vídeos que hicieron crecer TikTok de 77 a 441 seguidores en 4 días fueron el tanque de tormentas de Madrid (50 mil vistas, 51 veces lo normal), la rueda de avión (40 mil) y el wifi en forma de donut (37 mil). En YouTube, «¿Y si construyes un pozo?» (17,7 mil, 12 veces lo normal). Lo que menos funciona: acertijos de probabilidad (cumpleaños, puertas) y temas abstractos (tarjeta, código de barras), con menos de 160 vistas.
-- **Fórmula del gancho:** una cifra enorme y exacta, comparada con algo del espectador. «Casi 6 veces la presión de tu coche», «400.000 m³ bajo tus pies». Va en la primera frase **y** en el título.
+- **Fórmula del gancho:** una cifra enorme y exacta, comparada con algo del espectador. «Casi 6 veces la presión de tu coche», «400.000 m³ bajo tus pies». Desde el 12-nov la cifra no se dice al principio: el título y la primera frase la plantean como pregunta («¿Cuánta agua cabe bajo Madrid?») y se descubre más tarde (ver «Juego de la cifra»). La comparación con algo del espectador sigue yendo al principio.
 - **Serie «Lo que esconde tu ciudad»:** grandes obras reales de España (depósitos, ríos desviados, autovías enterradas, túneles, canales), formato C, numerada en el título («… parte 2»). Pide en el pie que comenten su ciudad; esas respuestas van al banco de ideas.
 - **Segundas partes:** cuando un vídeo supera 10 veces la mediana de su red, propón una segunda parte (otro aspecto del mismo objeto) en la siguiente pasada, con «(parte 2)» en el título.
 - **Evita:** acertijos, probabilidad, objetos que no todo el mundo tiene y temas sin una cifra que se pueda enseñar.
 - **Instagram** no se trabaja aparte por ahora: recibe los mismos vídeos.
+
+## Juego de la cifra (obligatorio en todos los guiones nuevos desde el 12-nov-2026)
+Datos que lo justifican: 264.714 vistas en TikTok y solo 66 comentarios en toda la cuenta (uno cada 4.000 vistas), y 1 seguidor por cada 600 vistas. El único vídeo que preguntaba algo al espectador (la ruleta) se llevó 258 de los 520 compartidos. La gente mira, pero no participa: el juego le da un motivo para comentar y para quedarse hasta el final.
+- **Pregunta en las dos primeras frases:** después del gancho con el objeto en acción, una pregunta con número y la invitación a escribirlo. Ejemplo: «¿Cuánta agua cabe bajo Madrid? Escribe tu número antes de que acabe.» La cifra es la del gancho (fórmula de la cifra enorme): **el gancho no la dice**, la plantea.
+- **La cifra se descubre** en el momento del dato sorprendente, en mitad o en el último tercio del vídeo; nunca en los primeros 15 segundos.
+- **Cierre:** «¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.» (puede variar la redacción, no la idea; no prometas fechas).
+- **El pie del post** (`texto`) repite el reto: «¿Cuál era tu número? 👇».
+- **Campo `juego`** en la entrada de `estado.json`: `{"pregunta": "¿Cuánta agua cabe bajo Madrid?", "valor": 400000, "unidad": "m³ BAJO MADRID", "dec": 0, "pregunta_en": "<primeras palabras de la frase de la pregunta>", "revela_en": "<primeras palabras de la frase que dice la cifra>"}`. La unidad va en mayúsculas y corta (cabe en una línea).
+- **Vídeos pedidos por seguidores:** si el guion responde a un comentario (de `programador/comunidad.json` o del análisis de comunidad), añade `comentario: {"autor": "usuario", "texto": "la pregunta tal cual, corta"}` y empieza el guion respondiendo a esa persona («Me preguntas cómo…»). Solo comentarios reales; nunca te inventes uno.
+- **En la escena** (`_ov.py`): `C.cifra_juego(ctx, t, valor, unidad, T(pregunta_en), T(revela_en), T("sígueme"), dec=dec)` y, en `sfx_events`, `E += C.sfx_cifra(T(pregunta_en), T(revela_en))`. La tarjeta sale grande con «?», a los 2,6 s se encoge a una esquina (`mini=(x, y)`; elige un hueco que no tape el mecanismo), vuelve al centro en la revelación y la cifra sube contando. Coloca `grande=(x, y)` donde no tape el objeto del primer segundo. Si hay `comentario`: `C.comentario(ctx, t, autor, texto, 0.0, T(<segunda frase>))` en el primer segundo, sobre el objeto que ya se mueve (nunca en lugar de él).
+- **El panel** mide comentarios y seguidores por cada mil vistas, y compara los vídeos con juego frente a los demás (Estadísticas → General).
 
 ## Guiones (propuestas)
 Campos de cada entrada nueva en `estado.json`:
@@ -54,6 +65,7 @@ Campos de cada entrada nueva en `estado.json`:
 - `estado: "propuesto"` y `creado` (la fecha).
 - `reglas`: tu nota de 0 a 10 para cada una de las 3 reglas, con una frase que lo justifique: `{"cotidiano": 9, "cotidiano_nota": "…", "primer_segundo": 8, "primer_segundo_nota": "qué se verá en el primer segundo", "ensenar": 9, "ensenar_nota": "qué cifras cambian en pantalla"}`. El panel lo enseña como un semáforo.
 - `ganchos`: 3 primeras frases alternativas; la primera es la que va en `guion`. El usuario elige una en el panel.
+- `juego` (siempre) y `comentario` (si responde a un seguidor): ver «Juego de la cifra».
 
 Formatos (mezclarlos; uno de cada tres, más o menos):
 - **A · «Así funciona»**: un objeto cotidiano en corte (*cutaway*); se ve el mecanismo por dentro y se explica paso a paso. Ejemplos: `cisterna`, `semaforo`, `airbag`.
@@ -63,7 +75,7 @@ Formatos (mezclarlos; uno de cada tres, más o menos):
 Reglas del guion:
 - **Longitud:** 205-245 palabras (≈60-72 s: la voz va a unas 3,4 palabras por segundo). Escribe con gancho: preguntas, exclamaciones (¡…!) y puntos suspensivos antes de los datos sorprendentes; la puntuación da la entonación.
 - **Estilo:** tuteo, vocabulario de España, frases de 6-12 palabras, sin relleno. Números en letra.
-- **Estructura:** gancho en la primera frase (dato chocante o pregunta), conectado con el espectador (regla 1); un dato sorprendente en mitad del vídeo; cierre con «Sígueme para más.».
+- **Estructura:** gancho en la primera frase (dato chocante o pregunta), conectado con el espectador (regla 1); un dato sorprendente en mitad del vídeo; cierre con la frase del juego de la cifra (ver arriba) y «Sígueme para más.».
 - **Cifras que se puedan enseñar:** cada guion debe tener al menos 2 números que cambian y que la escena pueda mostrar como contador o medidor (regla 3).
 - **Datos:** comprueba con búsqueda web cada dato técnico, cifra o récord antes de proponerlo.
 - **Temas:** no repitas nada que ya esté en `estado.json` ni en `produccion/escenas/`. Nada de casinos ni apuestas, nada de marcas reales en pantalla.

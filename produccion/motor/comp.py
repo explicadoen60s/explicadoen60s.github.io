@@ -131,6 +131,97 @@ def build_sfx(dur, events, path):
     with wave.open(path, "wb") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767 * 0.8).astype(np.int16).tobytes())
 
+# ---------------- juego de la cifra ----------------
+# «¿Cuánto crees?»: al principio sale una tarjeta con «?» (el espectador escribe su número en comentarios);
+# se encoge a una esquina mientras dura la explicación y, en el dato sorprendente, la cifra real sube y se descubre.
+def miles(v, dec=0):
+    if dec: return f"{v:,.{dec}f}".replace(",", "X").replace(".", ",").replace("X", ".")
+    return f"{int(round(v)):,}".replace(",", ".")
+
+def s_tick():
+    n = int(0.03 * SR); t = np.arange(n) / SR; return np.sin(2 * np.pi * 2400 * t) * env(n, 0.001, 0.008) * 0.35
+
+def _tarjeta_cifra(ctx, cx, cy, sc, cab, num, unidad, num_col, pie=None, alpha=1.0):
+    if sc < 1e-3 or alpha <= 0: return
+    ctx.save(); ctx.translate(cx, cy); ctx.scale(sc, sc)
+    ys = {"cab": 66, "num": 222}; y = 222
+    if unidad: y += 62; ys["uni"] = y
+    if pie: y += 58; ys["pie"] = y
+    h = y + 40
+    anchos = [text_path(ctx, num, 150).x_advance, text_path(ctx, cab, 44).x_advance]
+    if unidad: anchos.append(text_path(ctx, unidad, 50).x_advance)
+    if pie: anchos.append(text_path(ctx, pie, 36).x_advance)
+    w = max(500, max(anchos) + 110); top = -h / 2
+    rrect(ctx, -w / 2 + 6, top + 10, w, h, 34); ctx.set_source_rgba(0, 0, 0, 0.3 * alpha); ctx.fill()
+    rrect(ctx, -w / 2, top, w, h, 34); ctx.set_source_rgba(0.09, 0.11, 0.16, 0.94 * alpha); ctx.fill_preserve()
+    ctx.set_line_width(5); ctx.set_source_rgba(*YL, 0.85 * alpha); ctx.stroke()
+    for clave, txt, size, col in (("cab", cab, 44, (1, 1, 1, 0.8)), ("num", num, 150, (*num_col, 1)), ("uni", unidad, 50, (1, 1, 1, 0.75)), ("pie", pie, 36, (*YL, 1))):
+        if clave not in ys: continue
+        e = text_path(ctx, txt, size); ctx.move_to(-e.x_advance / 2, top + ys[clave]); ctx.text_path(txt)
+        ctx.set_source_rgba(*col[:3], col[3] * alpha); ctx.fill()
+    ctx.restore()
+
+def cifra_juego(ctx, t, valor, unidad, t_preg, t_rev, t_fin, dec=0, cab="¿CUÁNTO CREES?", grande=(W / 2, H * 0.62),
+                mini=(W * 0.2, H * 0.70), t_mini=None, dur_rev=1.1):
+    """t_preg: cuando la voz hace la pregunta; t_rev: cuando dice la cifra; t_fin: cuando desaparece.
+    t_mini (por defecto t_preg+2,6 s): cuando la tarjeta se encoge a la esquina para dejar ver la escena."""
+    if t < t_preg or t > t_fin: return
+    t_mini = t_preg + 2.6 if t_mini is None else t_mini
+    a = min(1.0, (t_fin - t) / 0.3)
+    if t < t_rev - 0.5:
+        p = back((t - t_preg) / 0.35); m = ease((t - t_mini) / 0.45) if t > t_mini else 0.0
+        cx = grande[0] + (mini[0] - grande[0]) * m; cy = grande[1] + (mini[1] - grande[1]) * m
+        q = "?"
+        rot = 0.05 * math.sin(t * 5.5)   # se balancea: algo se mueve siempre
+        ctx.save(); ctx.translate(cx, cy); ctx.rotate(rot * (1 - m)); ctx.translate(-cx, -cy)
+        _tarjeta_cifra(ctx, cx, cy, p * (1 - 0.45 * m), cab if m < 0.5 else "TU NÚMERO", q, unidad, YL,
+                       pie="ESCRÍBELO EN COMENTARIOS" if m < 0.5 else None, alpha=a)
+        ctx.restore(); return
+    # vuelve al centro y la cifra sube
+    g = ease((t - (t_rev - 0.5)) / 0.45)
+    cx = mini[0] + (grande[0] - mini[0]) * g; cy = mini[1] + (grande[1] - mini[1]) * g
+    k = ease((t - t_rev) / dur_rev) if t > t_rev else 0.0
+    v = valor * k; listo = t >= t_rev + dur_rev
+    pop = 1 + 0.12 * math.sin(min(1, (t - t_rev - dur_rev) / 0.3) * math.pi) if listo and t < t_rev + dur_rev + 0.3 else 1
+    _tarjeta_cifra(ctx, cx, cy, (0.55 + 0.45 * g) * pop, "¿TE HAS ACERCADO?" if listo else cab, miles(v, dec) if t >= t_rev else "?", unidad,
+                   GREEN if listo else ((1, 1, 1) if t >= t_rev else YL), alpha=a)
+
+def sfx_cifra(t_preg, t_rev, dur_rev=1.1):
+    E = [(t_preg, s_pop(), 0.5)]
+    n = 14
+    for i in range(n): E.append((t_rev + dur_rev * (1 - (1 - i / n) ** 0.5), s_tick(), 0.5))
+    E.append((t_rev + dur_rev, s_win(), 0.45))
+    return E
+
+# ---------------- comentario en pantalla (vídeos que pidió un seguidor) ----------------
+def comentario(ctx, t, autor, texto, a, b, cx=W / 2, cy=H * 0.33):
+    p = win_simple(t, a, b)
+    if p <= 0: return
+    ctx.save(); sc = back(min(1, (t - a) / 0.35)); ctx.translate(cx, cy); ctx.scale(sc, sc)
+    ctx.select_font_face("Poppins", cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); ctx.set_font_size(46)
+    palabras, lineas, l = texto.split(), [], ""
+    for w in palabras:
+        if l and ctx.text_extents(l + " " + w).x_advance > 640: lineas.append(l); l = w
+        else: l = (l + " " + w).strip()
+    if l: lineas.append(l)
+    lineas = lineas[:3]
+    w = max([ctx.text_extents(x).x_advance for x in lineas] + [380]) + 190; h = 110 + 58 * len(lineas)
+    rrect(ctx, -w / 2 + 5, -h / 2 + 9, w, h, 30); ctx.set_source_rgba(0, 0, 0, 0.3 * p); ctx.fill()
+    rrect(ctx, -w / 2, -h / 2, w, h, 30); ctx.set_source_rgba(1, 1, 1, 0.97 * p); ctx.fill()
+    ax, ay = -w / 2 + 70, -h / 2 + 70
+    ctx.arc(ax, ay, 38, 0, math.tau); ctx.set_source_rgba(0.2, 0.55, 1.0, p); ctx.fill()
+    ini = (autor.lstrip("@")[:1] or "?").upper(); e = text_path(ctx, ini, 40)
+    ctx.move_to(ax - e.x_advance / 2, ay + 14); ctx.text_path(ini); ctx.set_source_rgba(1, 1, 1, p); ctx.fill()
+    cab = "Respuesta a @" + autor.lstrip("@"); text_path(ctx, cab, 32)
+    ctx.move_to(ax + 60, -h / 2 + 62); ctx.text_path(cab); ctx.set_source_rgba(0.45, 0.47, 0.52, p); ctx.fill()
+    for i, x in enumerate(lineas):
+        text_path(ctx, x, 46); ctx.move_to(ax + 60, -h / 2 + 122 + i * 58); ctx.text_path(x); ctx.set_source_rgba(0.08, 0.09, 0.12, p); ctx.fill()
+    ctx.restore()
+
+def win_simple(t, a, b, fi=0.2, fo=0.25):
+    if t < a or t > b: return 0.0
+    return min(1.0, (t - a) / fi, (b - t) / fo)
+
 # ---------------- subtítulo en frases (estilo «karaoke») ----------------
 # La frase se escribe palabra a palabra arriba; la palabra que suena va en blanco y las anteriores en gris.
 # Las palabras clave llevan un recuadro azul. Fondo oscuro suave para que se lea sobre cualquier escena.

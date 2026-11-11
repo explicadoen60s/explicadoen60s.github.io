@@ -79,7 +79,7 @@ addEventListener("keydown",e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()===
 $("#abrirPaleta").onclick=abrirPaleta;$("#abrirPaleta2").onclick=abrirPaleta;pintarIconos();
 
 // ── Arranque ──
-// (las versiones antiguas del panel buscan este texto para recargarse solas: const VERSION="2026-11-05.2")
+// (las versiones antiguas del panel buscan este texto para recargarse solas: const VERSION="2026-11-12.1")
 (async()=>{try{const t=await (await fetch(location.pathname+"?nv="+Date.now(),{cache:"no-store"})).text();const m=t.match(/window\.VERSION="([^"]+)"/);
   if(m&&m[1]!==window.VERSION&&!sessionStorage.getItem("rv"+m[1])){sessionStorage.setItem("rv"+m[1],1);location.replace(location.pathname+"?v="+m[1]+location.hash)}}catch(e){}})();
 setInterval(()=>{if(document.hidden||!tok||cerrarModalActual)return;const f=document.activeElement;if(f&&f.matches("input,textarea,select"))return;
