@@ -23,6 +23,46 @@
    "fecha": "2026-11-05T00:18:18.151Z",
    "estado": "usada",
    "guion": "plegable"
+  },
+  {
+   "id": "serie-m30",
+   "texto": "Madrid metió una autovía entera bajo tierra 🚗 y encima puso un parque (Lo que esconde tu ciudad)",
+   "prioridad": "alta",
+   "origen": "línea editorial 11-nov (serie)",
+   "notas": "M-30 soterrada y Madrid Río: kilómetros de túnel, tuneladoras gigantes, ventilación. Cifras a comprobar con búsqueda web.",
+   "por": "Claude",
+   "fecha": "2026-11-11T20:28:18.849811Z",
+   "estado": "pendiente"
+  },
+  {
+   "id": "serie-bcn-deposito",
+   "texto": "Bajo Barcelona hay depósitos que se tragan las tormentas 🌧️ (Lo que esconde tu ciudad)",
+   "prioridad": "alta",
+   "origen": "línea editorial 11-nov (serie)",
+   "notas": "Depósitos pluviales de Barcelona (por ejemplo, el de Joan Miró): capacidad y cuántos hay. Cifras a comprobar. No repetir el guion de Madrid: enfocarlo en la red entera y los sensores.",
+   "por": "Claude",
+   "fecha": "2026-11-11T20:28:18.849811Z",
+   "estado": "pendiente"
+  },
+  {
+   "id": "serie-ave-bcn",
+   "texto": "El AVE pasa por un túnel junto a la Sagrada Familia 🚄 ¿Cómo no la mueve ni un milímetro? (Lo que esconde tu ciudad)",
+   "prioridad": "alta",
+   "origen": "línea editorial 11-nov (serie)",
+   "notas": "Túnel del AVE bajo Barcelona: pantallas de pilotes y sensores que vigilan el templo. Cifras a comprobar.",
+   "por": "Claude",
+   "fecha": "2026-11-11T20:28:18.849811Z",
+   "estado": "pendiente"
+  },
+  {
+   "id": "serie-canal",
+   "texto": "¿De dónde sale el agua de tu grifo en Madrid? 💧 Kilómetros de tubos bajo tus pies (Lo que esconde tu ciudad)",
+   "prioridad": "alta",
+   "origen": "línea editorial 11-nov (serie)",
+   "notas": "Canal de Isabel II: embalses, kilómetros de red, depósitos enterrados. Cifras a comprobar.",
+   "por": "Claude",
+   "fecha": "2026-11-11T20:28:18.849811Z",
+   "estado": "pendiente"
   }
  ]
 }
