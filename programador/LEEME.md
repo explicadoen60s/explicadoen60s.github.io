@@ -6,7 +6,7 @@ Sustituto gratuito de Metricool. GitHub publica solo los vídeos a su hora, sin 
 - **Vídeos:** se guardan en el release [`videos`](https://github.com/explicadoen60s/explicadoen60s.github.io/releases/tag/videos) para no llenar el repositorio.
 - **Avisos:** cuando hay que hacer algo (un TikTok listo en tu bandeja o un error), se abre un *issue* y te llega una notificación de GitHub.
 - **YouTube e Instagram:** publicación automática.
-- **TikTok:** a su hora, el vídeo llega a tu bandeja de TikTok y el aviso trae el texto para pegar. Publicas con un toque. Cuando TikTok apruebe la app, pasará a ser automático.
+- **TikTok:** publicación automática con tu sesión de TikTok Studio (ver «TikTok automático»). Si la sesión caduca o algo falla, el vídeo va a tu bandeja como antes y el aviso trae el texto y el motivo.
 
 ## Configuración (una sola vez)
 
@@ -67,6 +67,15 @@ Ponlas en GitHub:
 `CLAVE_TOKENS` es una contraseña larga que te inventas (mínimo 20 caracteres) y que no hace falta recordar: cifra los permisos de las cuentas. Si algún día la cambias, tendrás que volver a conectar las tres redes.
 
 Además, el ID de cliente de YouTube, el ID de la app de Instagram y el client key de TikTok van en `docs/conectar.html`. No son secretos.
+
+### TikTok automático (una vez, y repetir si un aviso dice que la sesión caducó)
+TikTok no deja que una app de una sola cuenta pulse «Publicar» por API, así que el programador abre TikTok Studio con tu sesión y lo hace como tú.
+1. En el ordenador, entra en <https://www.tiktok.com> con la cuenta @explicadoen60s.
+2. Instala la extensión **Cookie-Editor** (Chrome o Edge), ábrela en tiktok.com y pulsa **Export → JSON**. Se copia al portapapeles.
+3. En GitHub: **Settings → Secrets and variables → Actions → New repository secret**. Nombre `TT_COOKIES`, valor: pega lo copiado.
+4. No cierres sesión en TikTok en ese navegador (cerrarla invalida la cookie). Si un día llega un aviso de «sesión caducada», repite los pasos 2 y 3.
+
+Alternativa más simple: solo la cookie `sessionid` (F12 → Application → Cookies → tiktok.com) en un secreto llamado `TT_SESSIONID`. Funciona, pero caduca antes.
 
 ### 5. Conectar las cuentas
 1. Abre <https://explicadoen60s.github.io/conectar.html> y pulsa una red.
