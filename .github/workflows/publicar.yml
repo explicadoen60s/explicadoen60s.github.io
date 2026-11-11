@@ -41,8 +41,6 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           TT_CLIENT_KEY: ${{ secrets.TT_CLIENT_KEY }}
           TT_CLIENT_SECRET: ${{ secrets.TT_CLIENT_SECRET }}
-          TT_SESSIONID: ${{ secrets.TT_SESSIONID }}
-          TT_COOKIES: ${{ secrets.TT_COOKIES }}
           GITHUB_TOKEN: ${{ github.token }}
           PROBAR: ${{ inputs.probar && '--probar' || '' }}
         run: python publicar.py $PROBAR
