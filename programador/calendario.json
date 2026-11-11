@@ -1987,9 +1987,15 @@
     "obras",
     "ingenieria"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706932292752918550",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-11T15:17:00.419753+00:00"
   },
   {
    "id": "tormentas-youtube",
@@ -2005,9 +2011,14 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "jKlLX1rjuJ0",
+    "url": "https://youtube.com/shorts/jKlLX1rjuJ0"
+   },
+   "publicado": "2026-11-11T15:17:03.264497+00:00"
   },
   {
    "id": "tormentas-instagram",

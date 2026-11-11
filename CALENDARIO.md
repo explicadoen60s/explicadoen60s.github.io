@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| dom 08/11 | 16:00 | tiktok | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | 📲 en tu bandeja de TikTok |
-| dom 08/11 | 16:00 | youtube | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | [✅ publicado](https://youtube.com/shorts/D-vXkFAmooU) |
 | dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | [✅ publicado](https://www.instagram.com/reel/DffPod3CS6S/) |
 | dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | 📲 en tu bandeja de TikTok |
@@ -32,8 +30,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 11/11 | 10:00 | tiktok | Si tuvieras que inventar el paraguas automático… ☔ el muelle | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 12:00 | youtube | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | [✅ publicado](https://youtube.com/shorts/NkZ5Wm0_7V4) |
 | mié 11/11 | 13:00 | tiktok | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | 📲 en tu bandeja de TikTok |
-| mié 11/11 | 16:00 | tiktok | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | ⏳ pendiente |
-| mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
+| mié 11/11 | 16:00 | tiktok | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | 📲 en tu bandeja de TikTok |
+| mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://youtube.com/shorts/jKlLX1rjuJ0) |
 | mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
 | mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
 | mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
