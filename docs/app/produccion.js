@@ -28,7 +28,7 @@ async function vistaProd(sub){
   acciones(`<button class="btn sec" onclick="nuevaIdea()">${ic("idea","s")}Nueva idea</button>`);
   let h=segmentos("prod",[["marcha","En marcha",mar.length],["guiones","Guiones",pro.length],["borradores","Borradores",rev.length],["ideas","Banco de ideas",ideas.filter(i=>i.estado!=="usada").length],["historial","Historial"]],sub);
   if(sub==="guiones")h+=await prodGuiones(pro);
-  else if(sub==="borradores")h+=prodBorradores(rev);
+  else if(sub==="borradores"){try{await cargarOficina()}catch(e){}h+=prodBorradores(rev)}
   else if(sub==="ideas")h+=prodIdeas(ideas);
   else if(sub==="historial")h+=prodHistorial();
   else h+=await prodMarcha(mar);
@@ -70,10 +70,12 @@ async function prodMarcha(mar){
 }
 
 async function prodGuiones(pro){
+  try{await cargarOficina()}catch(e){}
   if(!pro.length)return `<div class="card">${vacio("idea","No hay guiones esperando",`Claude propone nuevos en cada pasada (${fmtHora(proximaPasada())}). Puedes darle temas en el banco de ideas.`,`<a class="btn sec peq" href="#/prod/ideas">Banco de ideas</a>`)}</div>`;
   return pro.map(v=>{const pal=(v.guion||"").split(/\s+/).length;return `<div class="card fade">
    <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:flex-start"><div><b style="font-size:16.5px;font-family:'Space Grotesk'">${esc(v.titulo)}</b><div class="mut peq" style="margin-top:2px">Formato ${esc(v.formato||"?")} · ${pal} palabras · ≈${Math.round(pal/3.4)} s${v.tendencia?` · ${ic("flame","s")} viene de la tendencia «${esc(v.tendencia)}»`:""}${v.idea?` · ${ic("idea","s")} idea del banco`:""}</div></div>${(v.tags||[]).length?`<div class="chips">${v.tags.map(t=>`<span class="pill">#${esc(t)}</span>`).join("")}</div>`:""}</div>
    <div style="margin:12px 0 4px">${semaforo(v)}</div>
+   ${bloqueOficina(v)}
    ${v.juego?`<div class="msg info" style="margin:10px 0 0">${ic("zap","s")}<div><b>Juego de la cifra:</b> ${esc(v.juego.pregunta||"")} → <b>${typeof v.juego.valor==="number"?nf.format(v.juego.valor):esc(String(v.juego.valor??"?"))} ${esc(v.juego.unidad||"")}</b>${v.comentario?`<br>Responde al comentario de <b>@${esc(v.comentario.autor||"")}</b>: «${esc(v.comentario.texto||"")}»`:""}</div></div>`:""}
    ${v.ganchos?.length?`<label>Elige el gancho (primera frase)</label><div class="chips" id="gk_${v.id}">${v.ganchos.map((g,i)=>`<button class="chip ${i===0?"on":""}" onclick="elegirGancho('${v.id}',${i})">${esc(g)}</button>`).join("")}</div>`:""}
    <label>Guion (lo que dirá la voz). Puedes editarlo antes de aprobar.</label><textarea id="g_${v.id}" style="min-height:190px">${esc(v.guion)}</textarea>
@@ -90,6 +92,7 @@ function prodBorradores(rev){
    <div class="mut peq">${v.duracion?v.duracion+" s · ":""}formato ${esc(v.formato||"")}${v.aprobado_por?` · guion aprobado por ${esc(v.aprobado_por.split("_")[0])}`:""}</div>
    <video controls preload="metadata" playsinline src="${vid(v.id+".mp4")}"></video>
    <details><summary>Texto del post</summary><p class="peq">${esc(v.texto)}</p></details>
+   ${bloqueOficina(v)}
    <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px"><button class="btn ok" onclick="aprobarVideo('${v.id}')">${ic("check","s")}Aprobar y programar</button><button class="btn sec" onclick="rehacer('${v.id}')">${ic("edit","s")}Pedir cambios</button><button class="btn fantasma" onclick="descartar('${v.id}')">${ic("trash","s")}Descartar</button></div></div>`).join("")+`</div>`;
 }
 function prodHistorial(){
@@ -109,13 +112,13 @@ async function nuevaIdea(texto="",extra={}){
   await accion(()=>editarJson("produccion/ideas.json",d=>{d.ideas.push({id:"i"+Date.now().toString(36),texto:t,prioridad:extra.prioridad||"normal",origen:extra.origen||"manual",notas:extra.notas||"",por:usuario,fecha:new Date().toISOString(),estado:"pendiente"})},`Panel: idea nueva [skip ci]`,{crear:{ideas:[]}}),"Idea guardada. Claude la usará en la próxima pasada.",{recargar:RUTA.s==="prod"});
 }
 async function quitarIdea(id){if(!await confirmar("¿Quitar esta idea?","",{si:"Quitar",peligro:true}))return;await accion(()=>editarJson("produccion/ideas.json",d=>{d.ideas=d.ideas.filter(i=>i.id!==id)},"Panel: idea quitada [skip ci]"),"Idea quitada")}
-async function aprobarGuion(id){const g=$("#g_"+id).value.trim(),t=$("#t_"+id).value.trim();
-  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.guion=g;v.texto=t;v.estado="aprobado";v.aprobado=new Date().toISOString();v.aprobado_por=usuario;delete v.nota_guion},`Panel: guion aprobado ${id}`),"Guion aprobado. La voz se genera en unos minutos.")}
+async function aprobarGuion(id){const g=$("#g_"+id).value.trim(),t=$("#t_"+id).value.trim(),gk=$$(`#gk_${id} .chip`).findIndex(b=>b.classList.contains("on"));
+  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.guion=g;v.texto=t;if(gk>=0)v.gancho_elegido=gk;v.estado="aprobado";v.aprobado=new Date().toISOString();v.aprobado_por=usuario;delete v.nota_guion},`Panel: guion aprobado ${id}`),"Guion aprobado. La voz se genera en unos minutos.")}
 async function otraVersion(id){const n=await pedir("¿Qué cambiarías del guion?",{texto:"Claude lo reescribirá en la próxima pasada.",largo:true,chips:["Gancho más fuerte","Más cifras que se puedan enseñar","Menos palabras","Tema más cotidiano","Otro formato","Más sorpresa a mitad"]});if(!n)return;
   await accion(()=>editarJson("produccion/estado.json",d=>{d.videos.find(x=>x.id===id).nota_guion=n},`Panel: otra versión del guion ${id}`),"Anotado. Claude lo reescribirá en la próxima pasada.")}
 async function descartar(id){if(!await confirmar("¿Descartar este vídeo?","No se borra, pasa al historial como descartado.",{si:"Descartar",peligro:true}))return;await accion(()=>editarJson("produccion/estado.json",d=>{d.videos.find(x=>x.id===id).estado="rechazado"},`Panel: descartado ${id}`),"Descartado")}
 async function rehacer(id){const nota=await pedir("¿Qué hay que cambiar?",{texto:"Marca uno o varios cambios rápidos o escríbelo con tus palabras. Claude lo corregirá en la próxima pasada.",largo:true,chips:CAMBIOS_RAPIDOS});if(!nota)return;
-  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.estado="rehacer";v.nota=nota},`Panel: cambios en ${id}`),"Anotado. Claude lo corregirá en la próxima pasada.")}
+  await accion(()=>editarJson("produccion/estado.json",d=>{const v=d.videos.find(x=>x.id===id);v.estado="rehacer";v.nota=nota;v.rehacer_n=(v.rehacer_n||0)+1;(v.rehacer_notas=v.rehacer_notas||[]).push(nota)},`Panel: cambios en ${id}`),"Anotado. Claude lo corregirá en la próxima pasada.")}
 async function aprobarVideo(id){
   const v=PROD.find(x=>x.id===id);
   await accion(async()=>{
@@ -126,7 +129,7 @@ async function aprobarVideo(id){
       const tt=new Date(aIso(horas.tiktok));
       for(const r of ["youtube","instagram"]){let h,ex=[...ocup];
         while((h=siguienteHueco(r,ex))&&new Date(aIso(h))<=tt)ex.push({red:r,hora:aIso(h)});horas[r]=h}
-      for(const r of REDES)c.posts.push({id:`${id}-${r}`,red:r,hora:aIso(horas[r]),video:r==="tiktok"?`${id}_tiktok.mp4`:`${id}.mp4`,titulo:v.titulo,texto:v.texto,tags:v.tags||[],estado:"pendiente",intentos:0,por:usuario});
+      for(const r of REDES)c.posts.push({id:`${id}-${r}`,red:r,hora:aIso(horas[r]),video:r==="tiktok"?`${id}_tiktok.mp4`:`${id}.mp4`,titulo:v.seo?.[r]?.titulo||v.titulo,texto:v.seo?.[r]?.texto||v.texto,tags:v.seo?.[r]?.tags||v.tags||[],estado:"pendiente",intentos:0,por:usuario});
     },`Panel: programar ${id} (${usuario})`);
     await editarJson("produccion/estado.json",d=>{const q=d.videos.find(x=>x.id===id);q.estado="programado";q.programado_por=usuario},`Panel: vídeo aprobado ${id} [skip ci]`);
   },"Programado en TikTok, Instagram y YouTube.");

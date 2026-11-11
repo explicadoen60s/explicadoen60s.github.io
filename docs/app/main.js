@@ -2,6 +2,7 @@
 const SECCIONES=[
  {g:"General"},
  {k:"inicio",t:"Resumen",ic:"home",d:"Cómo va todo de un vistazo",fn:vistaInicio},
+ {k:"ofi",t:"Oficina",ic:"users",d:"Tu equipo de 9 puestos: quién hace qué, cómo se corrigen entre ellos y qué han aprendido",fn:vistaOfi,def:"equipo"},
  {g:"Contenido"},
  {k:"prod",t:"Producción",ic:"film",d:"Guiones, borradores y vídeos en marcha",fn:vistaProd,def:"marcha"},
  {k:"tend",t:"Tendencias",ic:"flame",d:"Qué se busca hoy en España y cómo convertirlo en un vídeo",fn:vistaTend,def:"analisis"},
@@ -21,7 +22,7 @@ let RUTA={s:"inicio",sub:null};
 
 function pintarNav(){
   $("#nav").innerHTML=SECCIONES.map(s=>s.g?`<div class="grupo">${s.g}</div>`:`<a href="#/${s.k}" class="${RUTA.s===s.k?"on":""}">${ic(s.ic)}${s.t}${CNT[s.k]?`<span class="badge ${s.k==="avisos"?"rojo":""}">${CNT[s.k]}</span>`:""}</a>`).join("");
-  const tb=["inicio","prod","pub","stats","tend"];
+  const tb=["inicio","ofi","prod","pub","stats","tend"];
   $("#tabbar").innerHTML=tb.map(k=>`<a href="#/${k}" class="${RUTA.s===k?"on":""}">${ic(SEC[k].ic)}${SEC[k].t}${CNT[k]?`<span class="badge">${CNT[k]}</span>`:""}</a>`).join("");
   $("#foot").innerHTML=usuario?`<div class="avatar">${iniciales(usuario)}</div><div style="flex:1;min-width:0"><b>${esc(usuario.replace("_"," "))}</b><small>v${esc(window.VERSION)}</small></div><button class="ib" title="Cerrar sesión" onclick="salir()">${ic("out","s")}</button>`:"";
 }
@@ -58,7 +59,7 @@ function opcionesPaleta(){
   for(const s of SECCIONES.filter(x=>x.k))o.push({t:s.t,d:s.d,ic:s.ic,go:()=>ir(s.k)});
   const subs=[["prod","guiones","Aprobar guiones"],["prod","borradores","Revisar borradores"],["prod","marcha","Vídeos en marcha"],["prod","ideas","Banco de ideas"],["pub","semana","Calendario semanal"],["pub","lista","Lista de publicaciones"],["pub","subir","Subir un vídeo propio"],["pub","tiktok","Borradores de TikTok"],
    ["stats","ranking","Ranking de vídeos"],["stats","comparar","Comparar dos vídeos"],["stats","horas","Mejor hora para publicar"],["stats","informe","Informe semanal"],["tend","analisis","Tendencias analizadas"],["tend","senales","Señales en bruto"],
-   ["com","bandeja","Bandeja de comentarios"],["com","ideas","Ideas que piden los seguidores"],["crec","objetivos","Objetivos"],["crec","despegan","Vídeos que despegan"],["crec","horas","Horas muertas"],["crec","competencia","Competencia"]];
+   ["ofi","equipo","Equipo de la oficina"],["ofi","manual","Manual vivo"],["ofi","reuniones","Actas de reuniones"],["ofi","encargos","Encargar algo a la oficina"],["ofi","promocion","Vídeos para promocionar"],["ofi","predicciones","Predicciones del equipo"],["ofi","actividad","Actividad del equipo"],["com","bandeja","Bandeja de comentarios"],["com","ideas","Ideas que piden los seguidores"],["crec","objetivos","Objetivos"],["crec","despegan","Vídeos que despegan"],["crec","horas","Horas muertas"],["crec","competencia","Competencia"]];
   for(const [s,k,t] of subs)o.push({t,d:SEC[s].t,ic:SEC[s].ic,go:()=>ir(s,k)});
   o.push({t:"Actualizar estadísticas ahora",d:"Acción",ic:"refresh",go:()=>accion(()=>lanzarFlujo("estadisticas.yml"),"Recogiendo estadísticas… tardan 1-2 minutos.",{recargar:false})});
   o.push({t:"Recoger tendencias ahora",d:"Acción",ic:"flame",go:()=>accion(()=>lanzarFlujo("tendencias.yml"),"Buscando tendencias… tardan 1-2 minutos.",{recargar:false})});

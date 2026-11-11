@@ -1,0 +1,50 @@
+name: Oficina
+
+# Recalcula produccion/oficina_datos.json (números de cada puesto, compuertas, evidencia del
+# Manual vivo, reputación, candidatos a promoción y segundas partes) con las estadísticas nuevas.
+on:
+  workflow_run:
+    workflows: ["Estadísticas"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - produccion/estado.json
+      - produccion/oficina.json
+      - produccion/oficina.py
+  schedule:
+    - cron: "41 5 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: oficina
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  oficina:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            produccion/*.json
+            produccion/oficina.py
+            programador/*.json
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Calcular
+        run: python produccion/oficina.py
+      - name: Guardar
+        run: |
+          git config user.name "programador-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add produccion/oficina_datos.json
+          git diff --cached --quiet && exit 0
+          git commit -qm "Oficina: datos actualizados [skip ci]"
+          for i in 1 2 3 4; do git pull -q --rebase && git push -q && exit 0; sleep 6; done
+          exit 1

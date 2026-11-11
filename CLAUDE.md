@@ -16,13 +16,16 @@ Cuenta @explicadoen60s (TikTok, Instagram, YouTube «explicadoen60s_shorts»). V
 Claude **nunca** aprueba vídeos ni los programa: eso lo hace el usuario en el panel.
 
 ## Pasada diaria de Claude (por este orden)
-1. `git pull`. Lee `produccion/estado.json`.
-2. **`rehacer`**: lee `nota`, corrige `escenas/<id>_scene.py` / `_ov.py`, revísalo (ver «Revisar antes de entregar») y ponlo en `escena`. Borra `nota`.
-3. **`voz`** (todos los que haya, hasta 8 por pasada, los más antiguos primero): escribe `escenas/<id>_scene.py` y `escenas/<id>_ov.py`, revísalos y pon `escena`. Haz un commit y un push por vídeo, para que el render empiece cuanto antes (cada push lanza el render de todos los que están en `escena`).
-4. **Guiones con `nota_guion`** (el usuario pidió «otra versión» desde el panel): reescribe `guion`/`texto`/`titulo` según la nota, deja el estado en `propuesto` y borra `nota_guion`.
+Trabajas como **la oficina**: los nueve puestos de la sección «La oficina» (más abajo). Cada paso lo firma el puesto que lo hace, y lo revisan sus compañeros.
+1. `git pull`. Lee `produccion/estado.json`. Ejecuta `python3 produccion/oficina.py` y lee `produccion/oficina_datos.json` (qué tiene cada puesto entre manos, compuertas, segundas partes, evidencia del Manual) y las **leyes** de `produccion/oficina.json` → `manual`.
+2. **`rehacer`**: lee `nota`, corrige `escenas/<id>_scene.py` / `_ov.py`, revísalo (ver «Revisar antes de entregar» y «Revisión cruzada de escenas») y ponlo en `escena`. Borra `nota` (el panel guarda el historial en `rehacer_notas`).
+3. **`voz`** (todos los que haya, hasta 8 por pasada, los más antiguos primero): escribe `escenas/<id>_scene.py` y `escenas/<id>_ov.py`, revísalos (incluida la «Revisión cruzada de escenas») y pon `escena`. Haz un commit y un push por vídeo, para que el render empiece cuanto antes (cada push lanza el render de todos los que están en `escena`).
+3b. **Encargos de la oficina** (`produccion/oficina.json` → `encargos` con `estado` distinto de `"hecho"`): hazlos (ver «Encargos»).
+4. **Guiones con `nota_guion`** (el usuario pidió «otra versión» desde el panel): reescribe `guion`/`texto`/`titulo` según la nota, pásalo otra vez por la «Revisión cruzada de guiones», deja el estado en `propuesto` y borra `nota_guion`.
 5. **Tendencias** (`produccion/tendencias.json`, lo enseña el panel en «Tendencias»): lee las señales de `programador/tendencias_raw.json` (Google Trends España, Wikipedia, YouTube España, shorts de «cómo funciona» de la semana, competencia) y escribe el análisis completo. Formato: `{actualizado, resumen, tendencias:[…], descartadas:[{tema, motivo}]}`. Cada tendencia lleva `id`, `tema`, `tipo` (`actualidad` | `evergreen` | `nicho`), `puntuacion` (0-100), `por_que` (con cifras de las señales), `senales:[{fuente, dato, url?}]`, `urgencia`, `angulo`, `titulo`, `gancho`, `primer_segundo`, `cifras:[…]`, `formato`, `estructura:[…]`, `reglas:{cotidiano, primer_segundo, ensenar}` (0-10), `potencial`, `por_que_funcionaria`, `competencia`, `riesgos`, `mejor_hora` y `hashtags`. Entre 6 y 10 tendencias, ordenadas por puntuación. Descarta, explicando el motivo, famosos, política, sucesos con víctimas, apuestas, armas y lo que ya está en `produccion/escenas/`. Comprueba con búsqueda web las cifras que propongas; si no puedes, márcalas «(comprobar)».
 6. **Comunidad** (`produccion/comunidad_analisis.json`): con `programador/comunidad.json`, escribe `{actualizado, resumen, respuestas:{<id del comentario>: "respuesta sugerida"}, ideas:[{tema, idea, menciones, ejemplos:[…]}]}`. Las respuestas sugeridas van en tuteo, son cortas y cercanas, y no prometen fechas. Las ideas son los temas que piden los seguidores.
-7. **Propuestas**: que haya siempre unos **8** vídeos entre `propuesto`, `aprobado`, `voz` y `escena`. Añade los que falten como `propuesto`. **Empieza por el banco de ideas** (`produccion/ideas.json`, las de `prioridad: "alta"` primero): cada idea que conviertas en guion se marca `estado: "usada"` con `guion: <id>`. **De cada tres propuestas, al menos una es de la serie «Lo que esconde tu ciudad»** (ver «Línea editorial»). Después, usa las mejores tendencias. Si el guion sale de una idea o de una tendencia, pon `idea: <id>` o `tendencia: <tema>` en la entrada.
+7. **Propuestas**: que haya siempre unos **8** vídeos entre `propuesto`, `aprobado`, `voz` y `escena`. Añade los que falten como `propuesto`. **Empieza por el banco de ideas** (`produccion/ideas.json`, las de `prioridad: "alta"` primero): cada idea que conviertas en guion se marca `estado: "usada"` con `guion: <id>`. **De cada tres propuestas, al menos una es de la serie «Lo que esconde tu ciudad»** (ver «Línea editorial»). Después, usa las mejores tendencias y las `segundas_partes` de `oficina_datos.json`. Si el guion sale de una idea o de una tendencia, pon `idea: <id>` o `tendencia: <tema>` en la entrada. **Cada guion nuevo pasa por la «Revisión cruzada de guiones»** (con `revisiones`, `seo` y predicciones) antes de quedarse en `propuesto`.
+7b. **Cierre de la oficina**: vuelve a ejecutar `python3 produccion/oficina.py` y súbelo junto con `produccion/oficina.json` (actividad, predicciones, encargos y Manual al día). Si alguna ley tiene evidencia `en_contra` en `oficina_datos.json`, deja un `aviso` en `actividad`.
 8. Si una entrada tiene `error`, intenta resolverlo. Si no puedes (falta un secreto, por ejemplo), déjalo anotado en `error` en palabras sencillas.
 
 ## Las 3 reglas que deciden si un vídeo funciona (obligatorias)
@@ -107,6 +110,64 @@ Calidad que exige el usuario:
 2. Vista previa barata: `RANGO="0 <N> 15" produccion/producir.sh <id>` (un fotograma de cada 15), donde N = duración × 30.
 3. Hoja de contactos de `produccion/trabajo/<id>/frames/<id>_prev/*.png` con ffmpeg (`tile`) y **mírala con Read**. Comprueba que se ve lo que dice la voz en cada momento, que nada se sale del encuadre, que la cámara no atraviesa nada y que los cortes muestran el interior.
 4. Corrige y repite hasta que esté bien. Solo entonces: `estado: "escena"`, commit y push. `produccion/trabajo/` no se sube (está en `.gitignore`).
+
+## La oficina (desde el 12-nov-2026)
+La producción la lleva un equipo de nueve puestos que **se revisan entre ellos, se proponen mejoras y aprenden de las estadísticas**. El usuario lo ve todo en el panel → «Oficina». Las fichas de cada puesto (misión, qué comprueba, cómo responde y «Lo que he aprendido») están en `.claude/agents/<id>.md`, y sus datos en `produccion/oficina.json` → `equipo`.
+
+| id | puesto | revisa a | le revisan |
+|---|---|---|---|
+| `director` | Director / Guionista (decide si no hay acuerdo) | estratega, editor | estratega, seo, motion |
+| `fotografia` | Videógrafo / Camarógrafo (cámara 3D, regla 2) | motion, director | editor, motion |
+| `sonido` | Técnico de sonido (voz, ritmo, sfx) | director, editor | editor |
+| `editor` | Editor de vídeo / Montador (sincronía, bucle) | fotografia, sonido, director | director, sonido |
+| `motion` | Motion graphics (regla 3, `_ov.py`) | director, fotografia | fotografia |
+| `estratega` | Estratega de contenidos | director | social, paid |
+| `social` | Social Media / Community Manager | estratega, director | seo |
+| `paid` | Paid Media (Traffic Manager) | estratega | estratega |
+| `seo` | SEO para vídeo | director, social | director |
+
+**Archivos**
+- `produccion/oficina.json`: lo escriben Claude y el panel. `equipo`, `actividad` (registro; añade al final y deja como mucho las 300 últimas), `manual`, `reuniones`, `predicciones`, `encargos`, `paid`. Cambia solo lo tuyo y conserva el resto.
+- `produccion/oficina_datos.json`: **no se edita a mano**. Lo calcula `python3 produccion/oficina.py` (el flujo «Oficina» lo ejecuta solo después de cada recogida de estadísticas y en cada push): número de cada puesto, compuertas, evidencia del Manual, señales automáticas, reputación, candidatos a promoción y segundas partes.
+- Entrada de `actividad`: `{"fecha": ISO, "rol": "<id>", "para": "<id>"?, "tipo": "revision|propuesta|mejora|analisis|reunion|aviso|encargo|prediccion", "video": "<id>"?, "texto": "una o dos frases", "estado": "aplicada|rechazada"?}`.
+
+**Revisión cruzada de guiones (todo guion nuevo o reescrito)**
+1. `director` lo escribe aplicando las reglas de este archivo y las **leyes** del Manual.
+2. **Compuertas:** `python3 produccion/oficina.py comprobar <id>` tiene que salir sin errores (longitud, juego de la cifra bien colocado, ≥2 cifras, reglas ≥7, título ≤100 con emoji, temas vetados). Si falla, corrígelo antes de seguir.
+3. **Revisan** `estratega`, `seo` y `motion`. Ponte en el papel de cada uno con su ficha de `.claude/agents/` (en la pasada diaria lo haces tú mismo, sin lanzar agentes, para ahorrar) y guarda en la entrada de `estado.json`: `revisiones: [{"rol", "fase": "guion", "veredicto": "ok|cambios", "nota", "propuesta", "aplicada": true|false, "respuesta"}]`. **No vale criticar sin proponer** un arreglo concreto. Revisiones de verdad: si todo está bien, di por qué en una frase; si algo falla, dilo.
+4. `director` aplica o rechaza cada propuesta y lo explica en `respuesta` (una frase). Como mucho **2 rondas**; después decide `director`.
+5. `seo` escribe `seo: {"tiktok": {"titulo", "texto", "tags"}, "instagram": {…}, "youtube": {…}}`. TikTok: título = gancho con la pregunta del juego (≤100, emoji). Instagram: pie algo más descriptivo y 5 hashtags. YouTube: título buscable ≤70 caracteres con «cómo funciona…» o la pregunta, y `#shorts` en el pie. `tags` sin `#`. El panel usa estos textos al programar cada red.
+6. **Predicciones:** los nueve puestos apuestan cuántas veces lo normal hará el vídeo (0,2-20) con una frase. Guárdalo en `oficina.json` → `predicciones["<id>"] = {"fecha", "roles": {"<rol>": {"rel": 1.4, "nota": "…"}}}`. Apuestas honestas y distintas según el puesto: el script las puntúa cuando el vídeo lleva 48 h publicado y el que acierta pesa más en las votaciones.
+7. Deja en `actividad` una línea por cada revisión con cambios (`tipo: "revision"`, `para: "director"`) y por cada mejora aplicada (`tipo: "mejora"`).
+
+**Revisión cruzada de escenas (al escribir o corregir `_scene.py`/`_ov.py`)**
+Con la hoja de contactos de «Revisar antes de entregar», mira el vídeo con los ojos de cada puesto y corrige antes de entregar:
+- `fotografia`: primer fotograma en acción y en primer plano, cámara sin atravesar nada, encuadre y zonas seguras.
+- `motion`: cada cifra se ve cambiar, etiquetas cortas que no tapan el mecanismo, `cifra_juego` en un hueco libre.
+- `editor`: cada acción cae en su palabra (`phr.py`), algo cambia cada 2 s, el final enlaza con el principio.
+- `sonido`: `sfx_events` sin pisar las cifras dichas en voz, duración dentro de lo previsto.
+
+Añade sus conclusiones a `revisiones` con `"fase": "escena"` (solo las que pidieron cambios, con lo que se cambió) y una línea en `actividad`. Si el vídeo vuelve de `rehacer`, el puesto responsable del fallo (según la `nota`) escribe en `actividad` qué ha aprendido, y si es una lección general, la añade a «Lo que he aprendido» de su ficha.
+
+**Encargos** (`oficina.json` → `encargos`): el usuario los deja desde el panel, para un puesto (`rol`) o para `"todos"`. Hazlos en la pasada, como el puesto indicado: un tema → idea o guion; una pregunta → análisis con datos; un cambio de proceso → cámbialo (ficha, este archivo o el Manual). Escribe `respuesta` (qué has hecho, en dos frases como mucho), `estado: "hecho"` y `hecho: <fecha>`, y una línea en `actividad` (`tipo: "encargo"`). Si el encargo es `tipo: "reunion"`, celebra una reunión extraordinaria (protocolo de abajo, con `tipo: "extraordinaria"` y el encargo como tema).
+
+**Manual vivo** (`oficina.json` → `manual`): `{"id", "texto", "estado": "ley|hipotesis|propuesta|descartada", "por": "<rol>", "creada", "origen", "filtro"?}`.
+- Las **leyes** son obligatorias en guiones y escenas, igual que este archivo.
+- Las reglas que se pueden medir llevan `filtro` (`{"campo": …, "igual"|"menor"|"mayor"|"contiene": valor}`, o una lista de varios; campos: `formato`, `juego`, `comentario`, `serie`, `titulo_pregunta`, `titulo_cifra`, `duracion`, `tendencia`, `idea`, `cotidiano`, `ensenar`, `primer_segundo`, `gancho`, `rehacer`). El script compara cada hora los vídeos que la cumplen con los que no y deja el veredicto en `oficina_datos.json` → `manual`.
+- Claude puede crear `hipotesis` cuando quiera. **Nunca crea una `ley` directamente**: si una hipótesis tiene veredicto `a_favor` con 3 o más vídeos a cada lado, pásala a `propuesta` y lo decide el usuario en el panel.
+- Cuando el usuario convierte una regla en ley (`decidida`, `decidida_por`) y cambia cómo se escriben guiones o escenas, añádela como un punto en «Línea editorial» con «(Manual, <fecha>)». Si una ley pasa a `descartada` o `hipotesis`, quita ese punto.
+
+**Promoción** (`paid`): Claude nunca gasta ni lanza anuncios. `oficina.py` calcula los candidatos (3 veces lo normal o más en sus primeros 5 días) y el usuario marca en el panel lo que lanza. En las reuniones, `paid` comenta el coste por 1.000 vistas de lo lanzado y si conviene repetir.
+
+**Reunión semanal** (lunes 11:37, tarea programada «Reunión semanal de la oficina», o un encargo `tipo: "reunion"`)
+1. `git pull` y `python3 produccion/oficina.py`.
+2. Lanza **los nueve agentes** de `.claude/agents/` en paralelo (herramienta Agent, `subagent_type` = el id). A cada uno dale el mismo encargo: «Reunión semanal de la oficina del <fecha>. Lee produccion/oficina_datos.json, programador/estadisticas.json, produccion/estado.json, produccion/ideas.json, produccion/tendencias.json, produccion/comunidad_analisis.json y produccion/oficina.json (manual, reuniones anteriores, paid). Devuelve solo tu JSON de reunión.» Si un agente falla, sigue con los demás y apúntalo en el acta.
+3. **Votación** (haces de moderador): cada puesto vota como mucho 3 ideas de otros, según su ficha y su regla de oro. `puntos = media(I, C, F) × (0,75 + 0,25 × peso de quien la propone) + 0,3 × suma de los pesos de quienes la votan`, con los pesos de `oficina_datos.json` → `reputacion` (1 si no hay). Redondea a un decimal.
+4. Las **3 ideas con más puntos** pasan a `produccion/ideas.json` con `prioridad: "alta"`, `origen: "reunión <fecha>"` y `notas` con el porqué; márcalas `elegida: true` en el acta.
+5. **Mejoras entre compañeros:** el puesto que la recibe la acepta o la rechaza con un motivo (`estado`, `respuesta`). Si una aceptada es una lección general, añádela a «Lo que he aprendido» de su ficha (como mucho 10 puntos: sustituye el menos útil). Si cambia el proceso, cámbialo aquí.
+6. **Manual:** las `regla` que propongan los puestos y las `senales` nuevas de `oficina_datos.json` entran como `hipotesis` (con `filtro` si se puede medir). Las hipótesis `a_favor` pasan a `propuesta`. Las leyes `en_contra` se comentan en `decisiones`.
+7. Guarda el acta en `oficina.json` → `reuniones`: `{"fecha", "tipo": "semanal|extraordinaria", "resumen": "una o dos frases", "repaso": [{"rol", "texto"}], "ideas": [{"rol", "idea", "por_que", "ice": {"i", "c", "f"}, "votos": [roles], "puntos", "elegida"}], "mejoras": [{"de", "para", "texto", "estado": "aceptada|rechazada", "respuesta"}], "decisiones": […], "reglas": […]}`. Una línea en `actividad` (`tipo: "reunion"`) y otra por cada mejora aceptada (`tipo: "mejora"`).
+8. Commit «Oficina: reunión semanal <fecha>» y push. Resumen de dos líneas al usuario.
 
 ## Publicación (no la toques salvo que se pida)
 - `programador/` + `.github/workflows/publicar.yml` publican cada 10 min lo que está en `programador/calendario.json`.

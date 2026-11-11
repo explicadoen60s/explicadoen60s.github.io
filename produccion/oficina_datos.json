@@ -1,0 +1,1992 @@
+{
+ "actualizado": "2026-11-11T23:22:17+00:00",
+ "medianas": {
+  "tiktok": 966,
+  "instagram": 1553,
+  "youtube": 1502.0
+ },
+ "maduros": 31,
+ "puestos": {
+  "director": {
+   "ahora": "0 guiones esperando tu visto bueno",
+   "pendiente": 0,
+   "kpi": {
+    "nombre": "Mediana de los últimos 14 días",
+    "valor": 1.47,
+    "fmt": "x",
+    "meta": 1.5,
+    "pie": "31 vídeos maduros, frente a lo normal"
+   }
+  },
+  "fotografia": {
+   "ahora": "6 escenas por plantear · 0 correcciones",
+   "pendiente": 6,
+   "kpi": {
+    "nombre": "Vídeos sin pedir cambios",
+    "valor": null,
+    "fmt": "pct",
+    "meta": 0.8,
+    "pie": "desde el 12-nov"
+   }
+  },
+  "sonido": {
+   "ahora": "3 voces generándose · 6 mezclas por hacer",
+   "pendiente": 6,
+   "kpi": {
+    "nombre": "Duración media",
+    "valor": 68.9,
+    "fmt": "s",
+    "meta": 70,
+    "pie": "18/20 entre 55 y 75 s"
+   }
+  },
+  "editor": {
+   "ahora": "0 en render · 0 esperando tu revisión",
+   "pendiente": 0,
+   "kpi": {
+    "nombre": "Compartidos por 1.000 vistas",
+    "valor": 1.94,
+    "fmt": "dec",
+    "meta": 3,
+    "pie": "TikTok, últimos 14 días"
+   }
+  },
+  "motion": {
+   "ahora": "6 capas de gráficos por montar",
+   "pendiente": 6,
+   "kpi": {
+    "nombre": "Nota media de «enséñalo»",
+    "valor": 9.0,
+    "fmt": "dec",
+    "meta": 9,
+    "pie": "últimos 20 guiones"
+   }
+  },
+  "estratega": {
+   "ahora": "4 ideas en el banco · tendencias sin actualizar · 4 segundas partes por proponer",
+   "pendiente": 4,
+   "kpi": {
+    "nombre": "Vídeos por encima de lo normal",
+    "valor": 0.77,
+    "fmt": "pct",
+    "meta": 0.5,
+    "pie": "últimos 14 días"
+   }
+  },
+  "social": {
+   "ahora": "2 comentarios leídos · 2 respuestas sugeridas",
+   "pendiente": 0,
+   "kpi": {
+    "nombre": "Comentarios por 1.000 vistas",
+    "valor": 0.24,
+    "fmt": "dec",
+    "meta": 1,
+    "pie": "TikTok, últimos 14 días"
+   }
+  },
+  "paid": {
+   "ahora": "6 vídeos candidatos a promocionar",
+   "pendiente": 6,
+   "kpi": {
+    "nombre": "Promociones lanzadas",
+    "valor": 0,
+    "fmt": "num",
+    "meta": null,
+    "pie": "0 € invertidos"
+   }
+  },
+  "seo": {
+   "ahora": "9 vídeos sin título por red",
+   "pendiente": 9,
+   "kpi": {
+    "nombre": "YouTube frente a lo normal",
+    "valor": 0.98,
+    "fmt": "x",
+    "meta": 1.2,
+    "pie": "la red que más vive de la búsqueda, últimos 14 días"
+   }
+  }
+ },
+ "manual": {
+  "m_juego": {
+   "n_si": 0,
+   "n_no": 31,
+   "med_si": null,
+   "med_no": 1.47,
+   "ratio": null,
+   "veredicto": "faltan_datos"
+  },
+  "m_ciudad": {
+   "n_si": 0,
+   "n_no": 31,
+   "med_si": null,
+   "med_no": 1.47,
+   "ratio": null,
+   "veredicto": "faltan_datos"
+  },
+  "m_formatoC": {
+   "n_si": 9,
+   "n_no": 22,
+   "med_si": 1.71,
+   "med_no": 1.45,
+   "ratio": 1.18,
+   "veredicto": "sin_efecto"
+  },
+  "m_tituloPregunta": {
+   "n_si": 26,
+   "n_no": 5,
+   "med_si": 1.65,
+   "med_no": 0.85,
+   "ratio": 1.94,
+   "veredicto": "a_favor"
+  },
+  "m_cotidiano": {
+   "n_si": 8,
+   "n_no": 23,
+   "med_si": 1.75,
+   "med_no": 1.43,
+   "ratio": 1.22,
+   "veredicto": "a_favor"
+  },
+  "m_corto": {
+   "n_si": 0,
+   "n_no": 31,
+   "med_si": null,
+   "med_no": 1.47,
+   "ratio": null,
+   "veredicto": "faltan_datos"
+  },
+  "m_comentario": {
+   "n_si": 0,
+   "n_no": 31,
+   "med_si": null,
+   "med_no": 1.47,
+   "ratio": null,
+   "veredicto": "faltan_datos"
+  }
+ },
+ "senales": [
+  {
+   "senal": "Sale de una tendencia",
+   "filtro": {
+    "campo": "tendencia",
+    "igual": true
+   },
+   "n_si": 7,
+   "n_no": 24,
+   "med_si": 4.66,
+   "med_no": 1.21,
+   "ratio": 3.84,
+   "veredicto": "a_favor"
+  },
+  {
+   "senal": "Título en forma de pregunta",
+   "filtro": {
+    "campo": "titulo_pregunta",
+    "igual": true
+   },
+   "n_si": 26,
+   "n_no": 5,
+   "med_si": 1.65,
+   "med_no": 0.85,
+   "ratio": 1.94,
+   "veredicto": "a_favor"
+  },
+  {
+   "senal": "Formato A «Así funciona»",
+   "filtro": {
+    "campo": "formato",
+    "igual": "A"
+   },
+   "n_si": 12,
+   "n_no": 19,
+   "med_si": 1.09,
+   "med_no": 1.71,
+   "ratio": 0.64,
+   "veredicto": "en_contra"
+  },
+  {
+   "senal": "Formato B «Si tuvieras que inventar…»",
+   "filtro": {
+    "campo": "formato",
+    "igual": "B"
+   },
+   "n_si": 10,
+   "n_no": 21,
+   "med_si": 1.75,
+   "med_no": 1.25,
+   "ratio": 1.4,
+   "veredicto": "a_favor"
+  },
+  {
+   "senal": "Regla «cotidiano» con 9 o más",
+   "filtro": {
+    "campo": "cotidiano",
+    "mayor": 8
+   },
+   "n_si": 8,
+   "n_no": 23,
+   "med_si": 1.75,
+   "med_no": 1.43,
+   "ratio": 1.22,
+   "veredicto": "a_favor"
+  }
+ ],
+ "reputacion": {
+  "director": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "fotografia": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "sonido": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "editor": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "motion": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "estratega": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "social": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "paid": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  },
+  "seo": {
+   "n": 0,
+   "aciertos": 0,
+   "acierto": null,
+   "error_medio": null,
+   "peso": 1.0
+  }
+ },
+ "predicciones": {},
+ "paid_candidatos": [
+  {
+   "red": "tiktok",
+   "id": "7705581427290688800",
+   "video": "tormentas",
+   "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
+   "url": "https://www.tiktok.com/@explicadoen60s/video/7705581427290688800?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+   "vistas": 51564,
+   "rel": 53.38,
+   "inter": 0.0342,
+   "horas": 96,
+   "presupuesto": 20,
+   "objetivo": "seguidores",
+   "decidido": null
+  },
+  {
+   "red": "tiktok",
+   "id": "7705903138942848289",
+   "video": "ruedas",
+   "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
+   "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+   "vistas": 40501,
+   "rel": 41.93,
+   "inter": 0.0292,
+   "horas": 75,
+   "presupuesto": 20,
+   "objetivo": "seguidores",
+   "decidido": null
+  },
+  {
+   "red": "tiktok",
+   "id": "7705580609954958624",
+   "video": "cargador",
+   "titulo": "Dentro de tu cargador hay un interruptor que corta la corriente cientos de miles de veces ",
+   "url": "https://www.tiktok.com/@explicadoen60s/video/7705580609954958624?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+   "vistas": 6045,
+   "rel": 6.26,
+   "inter": 0.0316,
+   "horas": 96,
+   "presupuesto": 10,
+   "objetivo": "seguidores",
+   "decidido": null
+  },
+  {
+   "red": "tiktok",
+   "id": "7705580869041376545",
+   "video": "lavavajillas",
+   "titulo": "La sal del lavavajillas no lava los platos: limpia unas bolitas que atrapan la cal. ¿Tú se",
+   "url": "https://www.tiktok.com/@explicadoen60s/video/7705580869041376545?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+   "vistas": 4864,
+   "rel": 5.04,
+   "inter": 0.0292,
+   "horas": 96,
+   "presupuesto": 10,
+   "objetivo": "seguidores",
+   "decidido": null
+  },
+  {
+   "red": "tiktok",
+   "id": "7705902861821037857",
+   "video": "tostadora",
+   "titulo": "La palanca de tu tostadora solo se queda abajo si está enchufada. ¿Lo habías probado? 👇 #c",
+   "url": "https://www.tiktok.com/@explicadoen60s/video/7705902861821037857?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+   "vistas": 4204,
+   "rel": 4.35,
+   "inter": 0.0304,
+   "horas": 75,
+   "presupuesto": 5,
+   "objetivo": "seguidores",
+   "decidido": null
+  },
+  {
+   "red": "tiktok",
+   "id": "7706572627279645985",
+   "video": "induccion",
+   "titulo": "Una placa de inducción aprovecha en torno al 90 % de la energía; el gas, en torno al 40 %.",
+   "url": "https://www.tiktok.com/@explicadoen60s/video/7706572627279645985?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
+   "vistas": 2985,
+   "rel": 3.09,
+   "inter": 0.0332,
+   "horas": 31,
+   "presupuesto": 5,
+   "objetivo": "seguidores",
+   "decidido": null
+  }
+ ],
+ "paid_resultados": [],
+ "segundas_partes": [
+  {
+   "video": "tormentas",
+   "red": "tiktok",
+   "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
+   "rel": 53.38,
+   "vistas": 51564
+  },
+  {
+   "video": "router",
+   "red": "tiktok",
+   "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
+   "rel": 44.94,
+   "vistas": 43408
+  },
+  {
+   "video": "ruedas",
+   "red": "tiktok",
+   "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
+   "rel": 41.93,
+   "vistas": 40501
+  },
+  {
+   "video": "pozo",
+   "red": "youtube",
+   "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
+   "rel": 12.59,
+   "vistas": 18910
+  }
+ ],
+ "compuertas": {
+  "sifon": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "223 palabras (≈66 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "8 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "ticket": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "214 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "9 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "paracaidas": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "216 palabras (≈64 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "9 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "error",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano» con 4/10: tiene que llegar a 7"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "cintametrica": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "216 palabras (≈64 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "4 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "submarino": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "210 palabras (≈62 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "7 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "error",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano» con 3/10: tiene que llegar a 7"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 10/10"
+   }
+  ],
+  "estadio": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "210 palabras (≈62 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "10 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "turia": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "240 palabras (≈71 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "15 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "repetidor": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "238 palabras (≈70 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "frenoavion": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "227 palabras (≈67 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "8 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "error",
+    "rol": "director",
+    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ]
+ },
+ "videos": [
+  {
+   "id": "spray",
+   "titulo": "Si tuvieras que inventar el spray… 💨 ¿por qué el bote se queda helado?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 76.2,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 236,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-07",
+   "rel": null,
+   "maduro": false,
+   "vistas": 387,
+   "rel_red": {
+    "tiktok": 0.4
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-11T21:11:18+00:00"
+  },
+  {
+   "id": "carretera",
+   "titulo": "¿Y si construyes una carretera? 🛣️ El agua es su peor enemigo",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 76.8,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 236,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-07",
+   "rel": null,
+   "maduro": false,
+   "vistas": 895,
+   "rel_red": {
+    "tiktok": 0.93
+   },
+   "com_mil": 0.0,
+   "comp_mil": 2.23,
+   "publicado": "2026-11-11T17:42:05+00:00"
+  },
+  {
+   "id": "pistahielo",
+   "titulo": "¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción debajo",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 79,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 239,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 7,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-07",
+   "rel": null,
+   "maduro": false,
+   "vistas": 1604,
+   "rel_red": {
+    "tiktok": 1.66
+   },
+   "com_mil": 0.62,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-11T13:18:01+00:00"
+  },
+  {
+   "id": "paraguas",
+   "titulo": "Si tuvieras que inventar el paraguas automático… ☔ el muelle lo cargas tú",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": false,
+   "duracion": 62.1,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 213,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 8,
+   "primer_segundo": 10,
+   "estado": "programado",
+   "creado": "2026-11-07",
+   "rel": null,
+   "maduro": false,
+   "vistas": 378,
+   "rel_red": {
+    "tiktok": 0.39
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-11T13:16:49+00:00"
+  },
+  {
+   "id": "v16",
+   "titulo": "Adiós a los triángulos: esta luz avisa a Tráfico de dónde estás 🚨 Así funciona la baliza V16",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": true,
+   "duracion": 68.2,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 223,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 8,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-07",
+   "rel": null,
+   "maduro": false,
+   "vistas": 432,
+   "rel_red": {
+    "tiktok": 0.45
+   },
+   "com_mil": 2.31,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-11T13:16:45+00:00"
+  },
+  {
+   "id": "lavadora",
+   "titulo": "Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bloque de hormigón?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69.5,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 227,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": null,
+   "maduro": false,
+   "vistas": 4079,
+   "rel_red": {
+    "tiktok": 4.22
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.25,
+   "publicado": "2026-11-11T13:15:22+00:00"
+  },
+  {
+   "id": "induccion",
+   "titulo": "Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué el cristal no quema?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 70.9,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 230,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": null,
+   "maduro": false,
+   "vistas": 2985,
+   "rel_red": {
+    "tiktok": 3.09
+   },
+   "com_mil": 0.0,
+   "comp_mil": 1.68,
+   "publicado": "2026-11-10T15:57:53+00:00"
+  },
+  {
+   "id": "qr",
+   "titulo": "Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aunque esté roto?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 76,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 238,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": null,
+   "maduro": false,
+   "vistas": 830,
+   "rel_red": {
+    "tiktok": 0.86
+   },
+   "com_mil": 1.2,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-10T13:15:33+00:00"
+  },
+  {
+   "id": "router",
+   "titulo": "¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de verdad el wifi",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69.8,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 238,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 10,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": null,
+   "maduro": false,
+   "vistas": 43408,
+   "rel_red": {
+    "tiktok": 44.94
+   },
+   "com_mil": 0.18,
+   "comp_mil": 1.22,
+   "publicado": "2026-11-10T12:05:01+00:00"
+  },
+  {
+   "id": "depuradora",
+   "titulo": "¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando tiras de la cadena",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 74.3,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 225,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 0.43,
+   "maduro": true,
+   "vistas": 416,
+   "rel_red": {
+    "tiktok": 0.43
+   },
+   "com_mil": 2.4,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-09T20:34:10+00:00"
+  },
+  {
+   "id": "parking",
+   "titulo": "¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás de sus paredes",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 71.8,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 228,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 7,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 4.16,
+   "maduro": true,
+   "vistas": 4022,
+   "rel_red": {
+    "tiktok": 4.16
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.25,
+   "publicado": "2026-11-09T17:57:41+00:00"
+  },
+  {
+   "id": "gps",
+   "titulo": "Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el GPS (y Einstein)",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": false,
+   "duracion": 71.9,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 230,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 10,
+   "ensenar": 10,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 0.85,
+   "maduro": true,
+   "vistas": 824,
+   "rel_red": {
+    "tiktok": 0.85
+   },
+   "com_mil": 3.64,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-09T15:10:31+00:00"
+  },
+  {
+   "id": "whatsapp",
+   "titulo": "Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor puede leer tus mensajes?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 70.7,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 227,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 10,
+   "ensenar": 8,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 1.03,
+   "maduro": true,
+   "vistas": 995,
+   "rel_red": {
+    "tiktok": 1.03
+   },
+   "com_mil": 1.01,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-09T10:08:19+00:00"
+  },
+  {
+   "id": "mando",
+   "titulo": "Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la luz no se ve?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 70.9,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 226,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 1.5,
+   "maduro": true,
+   "vistas": 1452,
+   "rel_red": {
+    "tiktok": 1.5
+   },
+   "com_mil": 0.69,
+   "comp_mil": 2.07,
+   "publicado": "2026-11-08T20:42:33+00:00"
+  },
+  {
+   "id": "deposito",
+   "titulo": "¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué sale con fuerza del grifo",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 66,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 240,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 8,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 4.81,
+   "maduro": true,
+   "vistas": 4651,
+   "rel_red": {
+    "tiktok": 4.81
+   },
+   "com_mil": 0.22,
+   "comp_mil": 0.22,
+   "publicado": "2026-11-08T20:41:38+00:00"
+  },
+  {
+   "id": "teclado",
+   "titulo": "¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el teclado por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 70.7,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 228,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 8,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 4.51,
+   "maduro": true,
+   "vistas": 4352,
+   "rel_red": {
+    "tiktok": 4.51
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.46,
+   "publicado": "2026-11-08T20:40:50+00:00"
+  },
+  {
+   "id": "ruedas",
+   "titulo": "¿Por qué no revientan las ruedas de un avión? ✈️ Así funcionan por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 65.7,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 206,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 6,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 41.93,
+   "maduro": true,
+   "vistas": 40501,
+   "rel_red": {
+    "tiktok": 41.93
+   },
+   "com_mil": 0.12,
+   "comp_mil": 1.28,
+   "publicado": "2026-11-08T20:39:54+00:00"
+  },
+  {
+   "id": "tostadora",
+   "titulo": "Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo saltar?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 74.4,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 227,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-06",
+   "rel": 4.35,
+   "maduro": true,
+   "vistas": 4204,
+   "rel_red": {
+    "tiktok": 4.35
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.95,
+   "publicado": "2026-11-08T20:38:50+00:00"
+  },
+  {
+   "id": "camara",
+   "titulo": "📸 Así ve la cámara de tu móvil: 50 millones de contadores de luz",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": true,
+   "duracion": 70.5,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 221,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-04",
+   "rel": 1.47,
+   "maduro": true,
+   "vistas": 4454,
+   "rel_red": {
+    "instagram": 1.0,
+    "youtube": 1.93
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-08T11:11:58Z"
+  },
+  {
+   "id": "tormentas",
+   "titulo": "¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la lluvia de tu calle",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 70.3,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 233,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 7,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 53.38,
+   "maduro": true,
+   "vistas": 55237,
+   "rel_red": {
+    "tiktok": 53.38,
+    "instagram": 1.12,
+    "youtube": 1.28
+   },
+   "com_mil": 0.36,
+   "comp_mil": 1.52,
+   "publicado": "2026-11-07T23:51:32+00:00"
+  },
+  {
+   "id": "arroz",
+   "titulo": "¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱 Así funciona por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 72.8,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 236,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 10,
+   "ensenar": 8,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 4.66,
+   "maduro": true,
+   "vistas": 7235,
+   "rel_red": {
+    "tiktok": 4.66,
+    "instagram": 1.12,
+    "youtube": 0.66
+   },
+   "com_mil": 0.14,
+   "comp_mil": 1.66,
+   "publicado": "2026-11-07T23:50:48+00:00"
+  },
+  {
+   "id": "pozo",
+   "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 66.4,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 208,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": 6,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 4.67,
+   "maduro": true,
+   "vistas": 25320,
+   "rel_red": {
+    "tiktok": 4.67,
+    "instagram": 1.22,
+    "youtube": 12.59
+   },
+   "com_mil": 0.12,
+   "comp_mil": 0.04,
+   "publicado": "2026-11-07T23:50:10+00:00"
+  },
+  {
+   "id": "lavavajillas",
+   "titulo": "Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve la sal?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 66,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 215,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 9,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 5.04,
+   "maduro": true,
+   "vistas": 8147,
+   "rel_red": {
+    "tiktok": 5.04,
+    "instagram": 1.15,
+    "youtube": 0.99
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.86,
+   "publicado": "2026-11-07T23:49:21+00:00"
+  },
+  {
+   "id": "cargador",
+   "titulo": "Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué ahora es tan pequeño?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 66.1,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 207,
+   "tendencia": true,
+   "idea": false,
+   "cotidiano": 10,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 1.99,
+   "maduro": true,
+   "vistas": 11128,
+   "rel_red": {
+    "tiktok": 6.26,
+    "instagram": 1.34,
+    "youtube": 1.99
+   },
+   "com_mil": 0.18,
+   "comp_mil": 0.63,
+   "publicado": "2026-11-07T23:48:17+00:00"
+  },
+  {
+   "id": "plegable",
+   "titulo": "Este cristal se dobla 200.000 veces sin romperse 🤯 Así funciona una pantalla plegable",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": true,
+   "duracion": 65.8,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 209,
+   "tendencia": false,
+   "idea": true,
+   "cotidiano": 6,
+   "ensenar": 9,
+   "primer_segundo": 9,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 1.18,
+   "maduro": true,
+   "vistas": 7408,
+   "rel_red": {
+    "tiktok": 4.55,
+    "instagram": 1.18,
+    "youtube": 0.79
+   },
+   "com_mil": 0.13,
+   "comp_mil": 0.13,
+   "publicado": "2026-11-06T21:37:46+00:00"
+  },
+  {
+   "id": "chatgpt",
+   "titulo": "ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 Así funciona",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": false,
+   "duracion": 72.2,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 217,
+   "tendencia": false,
+   "idea": true,
+   "cotidiano": 8,
+   "ensenar": 9,
+   "primer_segundo": 8,
+   "estado": "programado",
+   "creado": "2026-11-05",
+   "rel": 0.72,
+   "maduro": true,
+   "vistas": 1947,
+   "rel_red": {
+    "tiktok": 0.88,
+    "instagram": 0.01,
+    "youtube": 0.72
+   },
+   "com_mil": 0.51,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-06T17:32:26+00:00"
+  },
+  {
+   "id": "presa",
+   "titulo": "¿Y si construyes una presa? 🌊 Por qué el muro es tan gordo abajo",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69.6,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 226,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.03,
+   "maduro": true,
+   "vistas": 4582,
+   "rel_red": {
+    "tiktok": 0.93,
+    "instagram": 1.03,
+    "youtube": 1.38
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-06T11:44:38+00:00"
+  },
+  {
+   "id": "piscina",
+   "titulo": "¿Y si construyes una piscina? 🏊 Por qué nunca se vacía del todo",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69.6,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 231,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.25,
+   "maduro": true,
+   "vistas": 6333,
+   "rel_red": {
+    "tiktok": 3.01,
+    "instagram": 1.0,
+    "youtube": 1.25
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.32,
+   "publicado": "2026-11-06T05:15:50+00:00"
+  },
+  {
+   "id": "enchufe",
+   "titulo": "Si tuvieras que inventar el enchufe… 🔌 ¿para qué son las láminas de los lados?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 65.9,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 230,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.43,
+   "maduro": true,
+   "vistas": 12676,
+   "rel_red": {
+    "tiktok": 9.28,
+    "instagram": 1.01,
+    "youtube": 1.43
+   },
+   "com_mil": 0.79,
+   "comp_mil": 0.39,
+   "publicado": "2026-11-05T20:17:44+00:00"
+  },
+  {
+   "id": "auriculares",
+   "titulo": "Si tuvieras que inventar los auriculares… 🎧 ¿cómo conviertes electricidad en sonido?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69.2,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 222,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.15,
+   "maduro": true,
+   "vistas": 4246,
+   "rel_red": {
+    "tiktok": 1.46,
+    "instagram": 1.15,
+    "youtube": 0.7
+   },
+   "com_mil": 0.94,
+   "comp_mil": 0.24,
+   "publicado": "2026-11-05T15:42:16+00:00"
+  },
+  {
+   "id": "bombilla",
+   "titulo": "Si tuvieras que inventar la bombilla… 💡 ¿por qué la de antes quemaba?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 223,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 3.99,
+   "maduro": true,
+   "vistas": 12059,
+   "rel_red": {
+    "instagram": 1.12,
+    "youtube": 6.87
+   },
+   "com_mil": 0.17,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-05T15:41:21Z"
+  },
+  {
+   "id": "cafetera",
+   "titulo": "¿Cómo sube el café en la cafetera italiana? ☕ Así funciona por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 66.8,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 229,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.58,
+   "maduro": true,
+   "vistas": 6817,
+   "rel_red": {
+    "tiktok": 1.58,
+    "instagram": 1.1,
+    "youtube": 2.39
+   },
+   "com_mil": 0.88,
+   "comp_mil": 0.29,
+   "publicado": "2026-11-05T09:41:52+0000"
+  },
+  {
+   "id": "bateria",
+   "titulo": "¿Qué pasa dentro de la batería de tu móvil al cargarla? 🔋 Así funciona",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 73.3,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 230,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 0.87,
+   "maduro": true,
+   "vistas": 5368,
+   "rel_red": {
+    "tiktok": 0.87,
+    "instagram": 0.87,
+    "youtube": 2.11
+   },
+   "com_mil": 0.56,
+   "comp_mil": 0.37,
+   "publicado": "2026-11-04T23:37:25+0000"
+  },
+  {
+   "id": "pantalla",
+   "titulo": "¿Cómo sabe tu móvil dónde lo tocas? 👆📱 Así funciona la pantalla por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 66.5,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 214,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 0.94,
+   "maduro": true,
+   "vistas": 4846,
+   "rel_red": {
+    "tiktok": 0.94,
+    "instagram": 0.88,
+    "youtube": 1.71
+   },
+   "com_mil": 1.24,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-04T23:35:13+0000"
+  },
+  {
+   "id": "frigorifico",
+   "titulo": "Tu nevera no fabrica frío 🧊 Así funciona por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": false,
+   "titulo_cifra": false,
+   "duracion": 71.3,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 228,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 0.85,
+   "maduro": true,
+   "vistas": 3508,
+   "rel_red": {
+    "tiktok": 0.84,
+    "instagram": 0.85,
+    "youtube": 0.91
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.29,
+   "publicado": "2026-11-03T20:33:29+0000"
+  },
+  {
+   "id": "cerradura",
+   "titulo": "¿Cómo sabe la cerradura que es tu llave? 🔑 Así funciona por dentro",
+   "formato": "A",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 76.2,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 236,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.0,
+   "maduro": true,
+   "vistas": 3874,
+   "rel_red": {
+    "tiktok": 0.84,
+    "instagram": 1.0,
+    "youtube": 1.01
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-03T19:06:20+0000"
+  },
+  {
+   "id": "lata",
+   "titulo": "Si tuvieras que inventar la lata de refresco… 🥫 ¿por qué el fondo es así?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 69.9,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 234,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 0.99,
+   "maduro": true,
+   "vistas": 3000,
+   "rel_red": {
+    "tiktok": 0.99,
+    "instagram": 0.11,
+    "youtube": 1.25
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.0,
+   "publicado": "2026-11-03T18:16:59+0000"
+  },
+  {
+   "id": "boligrafo",
+   "titulo": "Si tuvieras que inventar el bolígrafo… 🖊️ ¿para qué es el agujero del tapón?",
+   "formato": "B",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 68.9,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 234,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 2.65,
+   "maduro": true,
+   "vistas": 12480,
+   "rel_red": {
+    "tiktok": 2.65,
+    "instagram": 1.07,
+    "youtube": 5.5
+   },
+   "com_mil": 0.48,
+   "comp_mil": 0.16,
+   "publicado": "2026-11-03T18:15:02+0000"
+  },
+  {
+   "id": "rascacielos",
+   "titulo": "¿Y si construyes un rascacielos? 🏙️ El truco de la bola gigante",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 73.7,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 233,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.71,
+   "maduro": true,
+   "vistas": 8398,
+   "rel_red": {
+    "tiktok": 4.3,
+    "instagram": 1.08,
+    "youtube": 1.71
+   },
+   "com_mil": 0.24,
+   "comp_mil": 0.6,
+   "publicado": "2026-11-03T17:30:06+0000"
+  },
+  {
+   "id": "tunel",
+   "titulo": "¿Y si construyes un túnel bajo un río? 🌊🚇 Paso a paso",
+   "formato": "C",
+   "juego": false,
+   "comentario": false,
+   "serie": false,
+   "parte2": false,
+   "titulo_pregunta": true,
+   "titulo_cifra": false,
+   "duracion": 72.1,
+   "gancho": null,
+   "rehacer": 0,
+   "palabras": 243,
+   "tendencia": false,
+   "idea": false,
+   "cotidiano": null,
+   "ensenar": null,
+   "primer_segundo": null,
+   "estado": "programado",
+   "creado": "2026-11-03",
+   "rel": 1.08,
+   "maduro": true,
+   "vistas": 8152,
+   "rel_red": {
+    "tiktok": 0.95,
+    "instagram": 1.08,
+    "youtube": 3.7
+   },
+   "com_mil": 0.0,
+   "comp_mil": 0.37,
+   "publicado": "2026-11-03T15:25:05+00:00"
+  }
+ ]
+}

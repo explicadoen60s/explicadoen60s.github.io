@@ -250,3 +250,48 @@ video{width:100%;max-width:280px;display:block;margin:12px auto;border-radius:14
 .login{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:24px 0}.login-card{max-width:420px;width:100%;margin:0 auto}
 body.sinsesion aside#side,body.sinsesion .topbar,body.sinsesion .tabbar{display:none!important}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ── Oficina ── */
+.ofi-av{display:inline-grid;place-items:center;border-radius:50%;flex:none;color:var(--c);background:color-mix(in srgb,var(--c) 18%,var(--s2));box-shadow:inset 0 0 0 1.5px color-mix(in srgb,var(--c) 55%,transparent)}
+.ofi-av+.ofi-av{margin-left:-6px}
+.ofi-av.tu{--c:var(--acc);width:26px;height:26px;background:var(--acc);color:var(--acc-fg)}
+.ofi-equipo{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:16px}
+@media (max-width:1150px){.ofi-equipo{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:700px){.ofi-equipo{grid-template-columns:1fr}}
+.ofi-tarj{all:unset;box-sizing:border-box;display:flex;flex-direction:column;gap:12px;cursor:pointer;margin:0!important;border-top:3px solid var(--c)!important;transition:transform .15s,border-color .15s}
+.ofi-tarj:hover{transform:translateY(-2px);border-color:var(--bd2)}
+.ofi-tarj:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.ofi-cab{display:flex;align-items:center;gap:12px}
+.ofi-cab b{display:block;font:700 16px "Space Grotesk";color:var(--fg)}.ofi-cab small{display:block;color:var(--mut);font-size:12.5px;line-height:1.35}
+.ofi-ahora{display:flex;gap:8px;align-items:flex-start;font-size:13px;color:var(--fg2);background:var(--bg2);border-radius:10px;padding:8px 10px}
+.ofi-ahora .ico{margin-top:2px;color:var(--mut)}
+.ofi-kpi small{font-size:12px;color:var(--mut)}.ofi-kpi b{font:700 22px "Space Grotesk";margin-right:4px}
+.ofi-kpi b.ok{color:var(--ok)}.ofi-kpi b.warn{color:var(--warn)}.ofi-kpi b.err{color:var(--err)}
+.ofi-kpi .barra{margin:6px 0 4px;height:6px}.barra>i.ok{background:var(--ok)}.barra>i.warn{background:var(--warn)}.barra>i.err{background:var(--err)}
+.barra.gris>i{background:var(--bd2)}
+.ofi-pie{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:12px;color:var(--mut)}
+.ofi-pie span{display:inline-flex;align-items:center;gap:5px}.ofi-revisa{margin-left:auto}
+.ofi-ult{font-size:12.5px;color:var(--fg2);border-top:1px solid var(--bd);padding-top:10px;font-style:italic}
+.ofi-ult small{display:block;font-style:normal;color:var(--faint);margin-top:3px}
+.ofi-flujo{display:flex;align-items:flex-start;gap:4px;overflow-x:auto;padding:4px 2px 8px}
+.ofi-paso{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:74px;text-align:center}
+.ofi-paso small{font-size:11.5px;color:var(--fg2);line-height:1.25}
+.ofi-paso.tu small{color:var(--acc);font-weight:700}
+.ofi-avs{display:flex;height:28px;align-items:center}
+.ofi-flecha{color:var(--faint);padding-top:6px}
+.ofi-txt{display:block;font-size:13.5px;color:var(--fg);line-height:1.45}
+.ofi-de{font-weight:700;display:inline!important;white-space:normal!important}
+.ofi-act .t b.ofi-de{display:inline}
+.ofi-regla{display:flex;gap:12px;padding:12px 0;border-top:1px solid var(--bd)}.ofi-regla:first-of-type{border-top:0}
+.ofi-regla b{font-weight:600}.ofi-regla small{display:block;margin-top:2px}
+.ofi-ev{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px;max-width:520px}
+.ofi-ev small{font-size:11.5px;color:var(--mut)}.ofi-ev .barra{height:6px;margin:4px 0}.ofi-ev b{font-size:13px}
+.ofi-lista{margin:0;padding-left:20px;font-size:13.5px}.ofi-lista li{margin:4px 0}
+.ofi-preds{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.ofi-pred{display:inline-flex;align-items:center;gap:5px;font-size:12px;background:var(--s3);border-radius:999px;padding:2px 9px 2px 3px}
+.ofi-pred.ok{background:var(--ok-soft);color:var(--ok)}.ofi-pred.err{background:var(--err-soft);color:var(--err)}
+.ofi-bloque{margin:12px 0 0;background:var(--bg2);border:1px solid var(--bd);border-radius:12px;padding:10px 12px}
+.ofi-bloque summary{cursor:pointer;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ofi-bloque .fila{padding:8px 0}
+.ofi-kpi>div:first-child>small:first-child{display:block;margin-bottom:2px}
+@media (max-width:700px){.ofi-flujo-card .h3{flex-wrap:wrap}.ofi-flujo-card .h3 .sub{flex-basis:100%;margin-left:0;text-align:left}}
