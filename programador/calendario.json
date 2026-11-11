@@ -1893,9 +1893,14 @@
     "agua",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18116792156026974",
+    "url": "https://www.instagram.com/reel/DfmJ0BBATXh/"
+   },
+   "publicado": "2026-11-11T09:25:43.731766+00:00"
   },
   {
    "id": "paraguas-tiktok",
@@ -1911,9 +1916,15 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706842589299197955",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-11T09:26:13.543741+00:00"
   },
   {
    "id": "arroz-youtube",
