@@ -2,66 +2,304 @@
  "version": 1,
  "actualizado": "2026-11-12T00:00:00+01:00",
  "equipo": [
-  {"id": "director", "nombre": "Dirección y guion", "puesto": "Director / Guionista", "icono": "edit", "color": "#ffd23f",
+  {
+   "id": "director",
+   "nombre": "Dirección y guion",
+   "puesto": "Director / Guionista",
+   "icono": "edit",
+   "color": "#ffd23f",
    "mision": "Escribe los guiones con gancho, juego de la cifra y cierre en bucle. Tiene la última palabra cuando el equipo no se pone de acuerdo.",
-   "entrega": ["guion", "ganchos", "juego", "titulo"], "revisa": ["estratega", "editor"], "le_revisan": ["estratega", "seo", "motion"],
-   "regla_de_oro": "Cada frase se gana el segundo siguiente; si se puede quitar sin perder nada, se quita."},
-  {"id": "fotografia", "nombre": "Cámara", "puesto": "Videógrafo / Camarógrafo (dirección de fotografía 3D)", "icono": "eye", "color": "#5aa2ff",
+   "entrega": [
+    "guion",
+    "ganchos",
+    "juego",
+    "titulo"
+   ],
+   "revisa": [
+    "estratega",
+    "editor"
+   ],
+   "le_revisan": [
+    "estratega",
+    "seo",
+    "motion"
+   ],
+   "regla_de_oro": "Cada frase se gana el segundo siguiente; si se puede quitar sin perder nada, se quita."
+  },
+  {
+   "id": "fotografia",
+   "nombre": "Cámara",
+   "puesto": "Videógrafo / Camarógrafo (dirección de fotografía 3D)",
+   "icono": "eye",
+   "color": "#5aa2ff",
    "mision": "Decide planos, encuadres y movimientos de cámara de la escena 3D. Guardián de la regla 2: el objeto en acción y en primer plano en el primer segundo.",
-   "entrega": ["CAM de _scene.py", "hoja de contactos"], "revisa": ["motion", "director"], "le_revisan": ["editor", "motion"],
-   "regla_de_oro": "Si en el fotograma 1 no se mueve nada, el vídeo ya ha perdido."},
-  {"id": "sonido", "nombre": "Sonido", "puesto": "Técnico de sonido", "icono": "mic", "color": "#34c77b",
+   "entrega": [
+    "CAM de _scene.py",
+    "hoja de contactos"
+   ],
+   "revisa": [
+    "motion",
+    "director"
+   ],
+   "le_revisan": [
+    "editor",
+    "motion"
+   ],
+   "regla_de_oro": "Si en el fotograma 1 no se mueve nada, el vídeo ya ha perdido."
+  },
+  {
+   "id": "sonido",
+   "nombre": "Sonido",
+   "puesto": "Técnico de sonido",
+   "icono": "mic",
+   "color": "#34c77b",
    "mision": "Cuida la voz (longitud, ritmo, entonación por puntuación), los efectos de sfx_events y la versión con música de TikTok. Que nada tape la voz.",
-   "entrega": ["sfx_events", "duración", "puntuación del guion"], "revisa": ["director", "editor"], "le_revisan": ["editor"],
-   "regla_de_oro": "Un efecto por idea, nunca encima de una cifra dicha en voz."},
-  {"id": "editor", "nombre": "Montaje", "puesto": "Editor de vídeo (montador)", "icono": "film", "color": "#f5a524",
+   "entrega": [
+    "sfx_events",
+    "duración",
+    "puntuación del guion"
+   ],
+   "revisa": [
+    "director",
+    "editor"
+   ],
+   "le_revisan": [
+    "editor"
+   ],
+   "regla_de_oro": "Un efecto por idea, nunca encima de una cifra dicha en voz."
+  },
+  {
+   "id": "editor",
+   "nombre": "Montaje",
+   "puesto": "Editor de vídeo (montador)",
+   "icono": "film",
+   "color": "#f5a524",
    "mision": "Sincroniza cada acción con la palabra que suena, cuida el ritmo (algo cambia cada 2 s), los subtítulos y que el final enlace con el principio.",
-   "entrega": ["sincronía con _words.json", "subtítulos", "bucle final"], "revisa": ["fotografia", "sonido", "director"], "le_revisan": ["director", "sonido"],
-   "regla_de_oro": "Lo que se oye, se ve en ese mismo instante."},
-  {"id": "motion", "nombre": "Gráficos", "puesto": "Motion graphics / Animador", "icono": "spark", "color": "#d55181",
+   "entrega": [
+    "sincronía con _words.json",
+    "subtítulos",
+    "bucle final"
+   ],
+   "revisa": [
+    "fotografia",
+    "sonido",
+    "director"
+   ],
+   "le_revisan": [
+    "director",
+    "sonido"
+   ],
+   "regla_de_oro": "Lo que se oye, se ve en ese mismo instante."
+  },
+  {
+   "id": "motion",
+   "nombre": "Gráficos",
+   "puesto": "Motion graphics / Animador",
+   "icono": "spark",
+   "color": "#d55181",
    "mision": "Convierte cada cifra en algo que cambia en pantalla: contadores, medidores, flechas, etiquetas. Guardián de la regla 3: enséñalo, no lo cuentes.",
-   "entrega": ["_ov.py", "cifra_juego", "etiquetas"], "revisa": ["director", "fotografia"], "le_revisan": ["fotografia"],
-   "regla_de_oro": "Si una cifra no se mueve en pantalla, sobra en el guion."},
-  {"id": "estratega", "nombre": "Estrategia", "puesto": "Estratega de contenidos", "icono": "target", "color": "#9b87f5",
+   "entrega": [
+    "_ov.py",
+    "cifra_juego",
+    "etiquetas"
+   ],
+   "revisa": [
+    "director",
+    "fotografia"
+   ],
+   "le_revisan": [
+    "fotografia"
+   ],
+   "regla_de_oro": "Si una cifra no se mueve en pantalla, sobra en el guion."
+  },
+  {
+   "id": "estratega",
+   "nombre": "Estrategia",
+   "puesto": "Estratega de contenidos",
+   "icono": "target",
+   "color": "#9b87f5",
    "mision": "Elige temas y series con los datos: tendencias, banco de ideas, objetivos y lo que funcionó. Mantiene la mezcla de formatos y la serie «Lo que esconde tu ciudad».",
-   "entrega": ["tendencias.json", "ideas.json", "plan semanal"], "revisa": ["director"], "le_revisan": ["social", "paid"],
-   "regla_de_oro": "Algo que el espectador tiene en la mano, con una cifra enorme que se pueda enseñar."},
-  {"id": "social", "nombre": "Comunidad", "puesto": "Social Media / Community Manager", "icono": "chat", "color": "#3987e5",
+   "entrega": [
+    "tendencias.json",
+    "ideas.json",
+    "plan semanal"
+   ],
+   "revisa": [
+    "director"
+   ],
+   "le_revisan": [
+    "social",
+    "paid"
+   ],
+   "regla_de_oro": "Algo que el espectador tiene en la mano, con una cifra enorme que se pueda enseñar."
+  },
+  {
+   "id": "social",
+   "nombre": "Comunidad",
+   "puesto": "Social Media / Community Manager",
+   "icono": "chat",
+   "color": "#3987e5",
    "mision": "Escucha comentarios, propone respuestas, convierte preguntas de seguidores en vídeos y cuida pie del post, portada y llamada a comentar.",
-   "entrega": ["comunidad_analisis.json", "texto", "comentario"], "revisa": ["estratega", "director"], "le_revisan": ["seo"],
-   "regla_de_oro": "Cada vídeo da un motivo para escribir un comentario."},
-  {"id": "paid", "nombre": "Promoción", "puesto": "Paid Media (Traffic Manager / Media Buyer)", "icono": "rocket", "color": "#c98500",
+   "entrega": [
+    "comunidad_analisis.json",
+    "texto",
+    "comentario"
+   ],
+   "revisa": [
+    "estratega",
+    "director"
+   ],
+   "le_revisan": [
+    "seo"
+   ],
+   "regla_de_oro": "Cada vídeo da un motivo para escribir un comentario."
+  },
+  {
+   "id": "paid",
+   "nombre": "Promoción",
+   "puesto": "Paid Media (Traffic Manager / Media Buyer)",
+   "icono": "rocket",
+   "color": "#c98500",
    "mision": "Detecta vídeos que despegan solos y propone promocionarlos con poco dinero; mide el coste por seguidor y avisa cuando no compensa gastar.",
-   "entrega": ["candidatos a promoción", "resultado de cada promoción"], "revisa": ["estratega"], "le_revisan": ["estratega"],
-   "regla_de_oro": "Solo se paga para empujar lo que ya funciona; nunca para salvar un vídeo flojo."},
-  {"id": "seo", "nombre": "SEO", "puesto": "SEO para vídeo / Posicionamiento", "icono": "search", "color": "#2fb5a8",
+   "entrega": [
+    "candidatos a promoción",
+    "resultado de cada promoción"
+   ],
+   "revisa": [
+    "estratega"
+   ],
+   "le_revisan": [
+    "estratega"
+   ],
+   "regla_de_oro": "Solo se paga para empujar lo que ya funciona; nunca para salvar un vídeo flojo."
+  },
+  {
+   "id": "seo",
+   "nombre": "SEO",
+   "puesto": "SEO para vídeo / Posicionamiento",
+   "icono": "search",
+   "color": "#2fb5a8",
    "mision": "Títulos, pies y hashtags distintos para TikTok, Instagram y YouTube, con la palabra que la gente busca dicha en voz en los 3 primeros segundos.",
-   "entrega": ["seo por red", "tags"], "revisa": ["director", "social"], "le_revisan": ["director"],
-   "regla_de_oro": "La palabra que se busca, en el título, en el pie y en la primera frase."}
+   "entrega": [
+    "seo por red",
+    "tags"
+   ],
+   "revisa": [
+    "director",
+    "social"
+   ],
+   "le_revisan": [
+    "director"
+   ],
+   "regla_de_oro": "La palabra que se busca, en el título, en el pie y en la primera frase."
+  }
  ],
  "actividad": [
-  {"fecha": "2026-11-12T00:00:00+01:00", "rol": "director", "tipo": "reunion", "texto": "Abre la oficina: a partir de ahora cada guion pasa por la revisión cruzada del equipo antes de llegar al panel, y cada lunes hay reunión con los datos de la semana."}
+  {
+   "fecha": "2026-11-12T00:00:00+01:00",
+   "rol": "director",
+   "tipo": "reunion",
+   "texto": "Abre la oficina: a partir de ahora cada guion pasa por la revisión cruzada del equipo antes de llegar al panel, y cada lunes hay reunión con los datos de la semana."
+  }
  ],
  "manual": [
-  {"id": "m_juego", "texto": "El juego de la cifra (pregunta al principio, la cifra se descubre después) da más comentarios y más vistas.", "estado": "ley", "por": "social", "creada": "2026-11-12",
-   "origen": "Línea editorial del 12-nov: 1 comentario cada 4.000 vistas; la ruleta, único vídeo con pregunta, se llevó la mitad de los compartidos.", "filtro": {"campo": "juego", "igual": true}},
-  {"id": "m_ciudad", "texto": "La serie «Lo que esconde tu ciudad» (grandes obras reales de España en corte) rinde por encima de lo normal.", "estado": "ley", "por": "estratega", "creada": "2026-11-12",
-   "origen": "Tanque de tormentas de Madrid: 50 mil vistas, 51 veces lo normal.", "filtro": {"campo": "serie", "igual": true}},
-  {"id": "m_formatoC", "texto": "El formato C («¿Y si construyes…?») es el que más crece.", "estado": "hipotesis", "por": "estratega", "creada": "2026-11-12",
-   "origen": "Tanque de tormentas y pozo, los dos mejores, son formato C.", "filtro": {"campo": "formato", "igual": "C"}},
-  {"id": "m_tituloPregunta", "texto": "Un título en forma de pregunta funciona mejor que uno afirmativo.", "estado": "hipotesis", "por": "seo", "creada": "2026-11-12",
-   "origen": "Desde el 12-nov la cifra se plantea como pregunta en título y primera frase.", "filtro": {"campo": "titulo_pregunta", "igual": true}},
-  {"id": "m_cotidiano", "texto": "Los temas con nota 9 o más en «cotidiano» (algo que tienes en la mano) rinden más.", "estado": "ley", "por": "estratega", "creada": "2026-11-12",
-   "origen": "Regla 1: 60 mil frente a 10,5 millones de visualizaciones con el mismo tipo de vídeo.", "filtro": {"campo": "cotidiano", "mayor": 8}},
-  {"id": "m_corto", "texto": "Los vídeos de menos de 65 segundos retienen mejor y rinden más.", "estado": "hipotesis", "por": "sonido", "creada": "2026-11-12",
-   "origen": "Propuesta de Sonido y Montaje para probar el ritmo.", "filtro": {"campo": "duracion", "menor": 65}},
-  {"id": "m_comentario", "texto": "Los vídeos que responden a un comentario real de un seguidor consiguen más comentarios.", "estado": "hipotesis", "por": "social", "creada": "2026-11-12",
-   "origen": "Comunidad: si la gente ve que se le hace caso, participa más.", "filtro": {"campo": "comentario", "igual": true}},
-  {"id": "m_acertijos", "texto": "Nada de acertijos de probabilidad ni temas abstractos (tarjeta, código de barras): menos de 160 vistas.", "estado": "ley", "por": "estratega", "creada": "2026-11-12",
-   "origen": "Estadísticas del 11-nov."}
+  {
+   "id": "m_juego",
+   "texto": "El juego de la cifra (pregunta al principio, la cifra se descubre después) da más comentarios y más vistas.",
+   "estado": "ley",
+   "por": "social",
+   "creada": "2026-11-12",
+   "origen": "Línea editorial del 12-nov: 1 comentario cada 4.000 vistas; la ruleta, único vídeo con pregunta, se llevó la mitad de los compartidos.",
+   "filtro": {
+    "campo": "juego",
+    "igual": true
+   }
+  },
+  {
+   "id": "m_ciudad",
+   "texto": "La serie «Lo que esconde tu ciudad» (grandes obras reales de España en corte) rinde por encima de lo normal.",
+   "estado": "ley",
+   "por": "estratega",
+   "creada": "2026-11-12",
+   "origen": "Tanque de tormentas de Madrid: 50 mil vistas, 51 veces lo normal.",
+   "filtro": {
+    "campo": "serie",
+    "igual": true
+   }
+  },
+  {
+   "id": "m_formatoC",
+   "texto": "El formato C («¿Y si construyes…?») es el que más crece.",
+   "estado": "hipotesis",
+   "por": "estratega",
+   "creada": "2026-11-12",
+   "origen": "Tanque de tormentas y pozo, los dos mejores, son formato C.",
+   "filtro": {
+    "campo": "formato",
+    "igual": "C"
+   }
+  },
+  {
+   "id": "m_tituloPregunta",
+   "texto": "Un título en forma de pregunta funciona mejor que uno afirmativo.",
+   "estado": "hipotesis",
+   "por": "seo",
+   "creada": "2026-11-12",
+   "origen": "Desde el 12-nov la cifra se plantea como pregunta en título y primera frase.",
+   "filtro": {
+    "campo": "titulo_pregunta",
+    "igual": true
+   }
+  },
+  {
+   "id": "m_cotidiano",
+   "texto": "Los temas con nota 9 o más en «cotidiano» (algo que tienes en la mano) rinden más.",
+   "estado": "ley",
+   "por": "estratega",
+   "creada": "2026-11-12",
+   "origen": "Regla 1: 60 mil frente a 10,5 millones de visualizaciones con el mismo tipo de vídeo.",
+   "filtro": {
+    "campo": "cotidiano",
+    "mayor": 8
+   }
+  },
+  {
+   "id": "m_corto",
+   "texto": "Los vídeos de menos de 65 segundos retienen mejor y rinden más.",
+   "estado": "hipotesis",
+   "por": "sonido",
+   "creada": "2026-11-12",
+   "origen": "Propuesta de Sonido y Montaje para probar el ritmo.",
+   "filtro": {
+    "campo": "duracion",
+    "menor": 65
+   }
+  },
+  {
+   "id": "m_comentario",
+   "texto": "Los vídeos que responden a un comentario real de un seguidor consiguen más comentarios.",
+   "estado": "hipotesis",
+   "por": "social",
+   "creada": "2026-11-12",
+   "origen": "Comunidad: si la gente ve que se le hace caso, participa más.",
+   "filtro": {
+    "campo": "comentario",
+    "igual": true
+   }
+  },
+  {
+   "id": "m_acertijos",
+   "texto": "Nada de acertijos de probabilidad ni temas abstractos (tarjeta, código de barras): menos de 160 vistas.",
+   "estado": "ley",
+   "por": "estratega",
+   "creada": "2026-11-12",
+   "origen": "Estadísticas del 11-nov."
+  }
  ],
  "reuniones": [],
  "predicciones": {},
  "encargos": [],
- "paid": []
+ "paid": [],
+ "experimentos": [],
+ "diario": []
 }

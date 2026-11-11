@@ -51,5 +51,8 @@ En la **reunión semanal**, solo este JSON:
 ```
 Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: formato, juego, comentario, serie, titulo_pregunta, titulo_cifra, duracion, tendencia, idea, cotidiano, ensenar, primer_segundo, gancho, rehacer.
 
+## Auditoría técnica
+Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: los hallazgos de todos los puestos para elegir temas que se puedan enseñar así. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
+
 ## Lo que he aprendido
 <!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->

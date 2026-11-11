@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T23:31:14+00:00",
+ "actualizado": "2026-11-11T23:47:05+00:00",
  "medianas": {
   "tiktok": 966,
   "instagram": 1553,
@@ -12,7 +12,7 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
-    "valor": 1.47,
+    "valor": 1.11,
     "fmt": "x",
     "meta": 1.5,
     "pie": "31 vídeos maduros, frente a lo normal"
@@ -27,7 +27,8 @@
     "fmt": "pct",
     "meta": 0.8,
     "pie": "desde el 12-nov"
-   }
+   },
+   "foco": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 2,6× lo normal, frente a 0,98× los demás."
   },
   "sonido": {
    "ahora": "0 voces generándose · 9 mezclas por hacer",
@@ -38,7 +39,8 @@
     "fmt": "s",
     "meta": 70,
     "pie": "18/20 entre 55 y 75 s"
-   }
+   },
+   "foco": "Tipos de efecto distintos: los vídeos con más de 7 rinden 2,6× lo normal, frente a 1,05× los demás."
   },
   "editor": {
    "ahora": "0 en render · 0 esperando tu revisión",
@@ -49,7 +51,8 @@
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
-   }
+   },
+   "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,60× lo normal, frente a 1,03× los demás."
   },
   "motion": {
    "ahora": "9 capas de gráficos por montar",
@@ -60,14 +63,15 @@
     "fmt": "dec",
     "meta": 9,
     "pie": "últimos 20 guiones"
-   }
+   },
+   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 2,6× lo normal, frente a 1,05× los demás."
   },
   "estratega": {
-   "ahora": "4 ideas en el banco · tendencias sin actualizar · 4 segundas partes por proponer",
-   "pendiente": 4,
+   "ahora": "4 ideas en el banco · tendencias sin actualizar · 3 segundas partes por proponer",
+   "pendiente": 3,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
-    "valor": 0.77,
+    "valor": 0.68,
     "fmt": "pct",
     "meta": 0.5,
     "pie": "últimos 14 días"
@@ -85,8 +89,8 @@
    }
   },
   "paid": {
-   "ahora": "6 vídeos candidatos a promocionar",
-   "pendiente": 6,
+   "ahora": "4 vídeos candidatos a promocionar",
+   "pendiente": 4,
    "kpi": {
     "nombre": "Promociones lanzadas",
     "valor": 0,
@@ -100,7 +104,7 @@
    "pendiente": 9,
    "kpi": {
     "nombre": "YouTube frente a lo normal",
-    "valor": 0.98,
+    "valor": 1.0,
     "fmt": "x",
     "meta": 1.2,
     "pie": "la red que más vive de la búsqueda, últimos 14 días"
@@ -112,7 +116,7 @@
    "n_si": 0,
    "n_no": 31,
    "med_si": null,
-   "med_no": 1.47,
+   "med_no": 1.11,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
@@ -120,39 +124,39 @@
    "n_si": 0,
    "n_no": 31,
    "med_si": null,
-   "med_no": 1.47,
+   "med_no": 1.11,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m_formatoC": {
    "n_si": 9,
    "n_no": 22,
-   "med_si": 1.71,
-   "med_no": 1.45,
-   "ratio": 1.18,
-   "veredicto": "sin_efecto"
+   "med_si": 1.75,
+   "med_no": 1.07,
+   "ratio": 1.64,
+   "veredicto": "a_favor"
   },
   "m_tituloPregunta": {
    "n_si": 26,
    "n_no": 5,
-   "med_si": 1.65,
+   "med_si": 1.44,
    "med_no": 0.85,
-   "ratio": 1.94,
+   "ratio": 1.69,
    "veredicto": "a_favor"
   },
   "m_cotidiano": {
    "n_si": 8,
    "n_no": 23,
-   "med_si": 1.75,
-   "med_no": 1.43,
-   "ratio": 1.22,
-   "veredicto": "a_favor"
+   "med_si": 1.17,
+   "med_no": 1.11,
+   "ratio": 1.05,
+   "veredicto": "sin_efecto"
   },
   "m_corto": {
    "n_si": 0,
    "n_no": 31,
    "med_si": null,
-   "med_no": 1.47,
+   "med_no": 1.11,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
@@ -160,7 +164,7 @@
    "n_si": 0,
    "n_no": 31,
    "med_si": null,
-   "med_no": 1.47,
+   "med_no": 1.11,
    "ratio": null,
    "veredicto": "faltan_datos"
   }
@@ -174,9 +178,9 @@
    },
    "n_si": 7,
    "n_no": 24,
-   "med_si": 4.66,
-   "med_no": 1.21,
-   "ratio": 3.84,
+   "med_si": 2.95,
+   "med_no": 1.05,
+   "ratio": 2.81,
    "veredicto": "a_favor"
   },
   {
@@ -187,9 +191,22 @@
    },
    "n_si": 26,
    "n_no": 5,
-   "med_si": 1.65,
+   "med_si": 1.44,
    "med_no": 0.85,
-   "ratio": 1.94,
+   "ratio": 1.69,
+   "veredicto": "a_favor"
+  },
+  {
+   "senal": "Formato C «¿Y si construyes…?»",
+   "filtro": {
+    "campo": "formato",
+    "igual": "C"
+   },
+   "n_si": 9,
+   "n_no": 22,
+   "med_si": 1.75,
+   "med_no": 1.07,
+   "ratio": 1.64,
    "veredicto": "a_favor"
   },
   {
@@ -200,36 +217,10 @@
    },
    "n_si": 12,
    "n_no": 19,
-   "med_si": 1.09,
-   "med_no": 1.71,
-   "ratio": 0.64,
+   "med_si": 1.05,
+   "med_no": 1.42,
+   "ratio": 0.74,
    "veredicto": "en_contra"
-  },
-  {
-   "senal": "Formato B «Si tuvieras que inventar…»",
-   "filtro": {
-    "campo": "formato",
-    "igual": "B"
-   },
-   "n_si": 10,
-   "n_no": 21,
-   "med_si": 1.75,
-   "med_no": 1.25,
-   "ratio": 1.4,
-   "veredicto": "a_favor"
-  },
-  {
-   "senal": "Regla «cotidiano» con 9 o más",
-   "filtro": {
-    "campo": "cotidiano",
-    "mayor": 8
-   },
-   "n_si": 8,
-   "n_no": 23,
-   "med_si": 1.75,
-   "med_no": 1.43,
-   "ratio": 1.22,
-   "veredicto": "a_favor"
   }
  ],
  "reputacion": {
@@ -306,7 +297,7 @@
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705581427290688800?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
    "vistas": 51564,
-   "rel": 53.38,
+   "rel": 33.79,
    "inter": 0.0342,
    "horas": 96,
    "presupuesto": 20,
@@ -320,7 +311,7 @@
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
    "vistas": 40501,
-   "rel": 41.93,
+   "rel": 25.25,
    "inter": 0.0292,
    "horas": 75,
    "presupuesto": 20,
@@ -334,10 +325,10 @@
    "titulo": "Dentro de tu cargador hay un interruptor que corta la corriente cientos de miles de veces ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705580609954958624?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
    "vistas": 6045,
-   "rel": 6.26,
+   "rel": 3.96,
    "inter": 0.0316,
    "horas": 96,
-   "presupuesto": 10,
+   "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
   },
@@ -348,37 +339,9 @@
    "titulo": "La sal del lavavajillas no lava los platos: limpia unas bolitas que atrapan la cal. ¿Tú se",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705580869041376545?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
    "vistas": 4864,
-   "rel": 5.04,
+   "rel": 3.19,
    "inter": 0.0292,
    "horas": 96,
-   "presupuesto": 10,
-   "objetivo": "seguidores",
-   "decidido": null
-  },
-  {
-   "red": "tiktok",
-   "id": "7705902861821037857",
-   "video": "tostadora",
-   "titulo": "La palanca de tu tostadora solo se queda abajo si está enchufada. ¿Lo habías probado? 👇 #c",
-   "url": "https://www.tiktok.com/@explicadoen60s/video/7705902861821037857?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 4204,
-   "rel": 4.35,
-   "inter": 0.0304,
-   "horas": 75,
-   "presupuesto": 5,
-   "objetivo": "seguidores",
-   "decidido": null
-  },
-  {
-   "red": "tiktok",
-   "id": "7706572627279645985",
-   "video": "induccion",
-   "titulo": "Una placa de inducción aprovecha en torno al 90 % de la energía; el gas, en torno al 40 %.",
-   "url": "https://www.tiktok.com/@explicadoen60s/video/7706572627279645985?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 2985,
-   "rel": 3.09,
-   "inter": 0.0332,
-   "horas": 32,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -390,29 +353,22 @@
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 53.38,
+   "rel": 33.79,
    "vistas": 51564
-  },
-  {
-   "video": "router",
-   "red": "tiktok",
-   "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 44.94,
-   "vistas": 43408
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 41.93,
+   "rel": 25.25,
    "vistas": 40501
   },
   {
-   "video": "pozo",
-   "red": "youtube",
-   "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 12.59,
-   "vistas": 18910
+   "video": "router",
+   "red": "tiktok",
+   "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
+   "rel": 14.54,
+   "vistas": 43408
   }
  ],
  "compuertas": {
@@ -705,6 +661,2272 @@
    }
   ]
  },
+ "mejora": {
+  "hallazgos": [
+   {
+    "metrica": "cam_cada",
+    "nombre": "Un movimiento de cámara cada",
+    "rol": "fotografia",
+    "unidad": "s",
+    "umbral": 3.05,
+    "direccion": "menos",
+    "ratio": 2.7,
+    "n_si": 14,
+    "n_no": 15,
+    "fuerza": 3.72,
+    "sorpresa": false,
+    "texto": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 2,6× lo normal, frente a 0,98× los demás."
+   },
+   {
+    "metrica": "ov_contadores",
+    "nombre": "Contadores y medidores",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 3,
+    "direccion": "mas",
+    "ratio": 2.5,
+    "n_si": 13,
+    "n_no": 18,
+    "fuerza": 3.3,
+    "sorpresa": false,
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 2,6× lo normal, frente a 1,05× los demás."
+   },
+   {
+    "metrica": "sfx_variedad",
+    "nombre": "Tipos de efecto distintos",
+    "rol": "sonido",
+    "unidad": "",
+    "umbral": 7,
+    "direccion": "mas",
+    "ratio": 2.5,
+    "n_si": 11,
+    "n_no": 20,
+    "fuerza": 3.04,
+    "sorpresa": false,
+    "texto": "Tipos de efecto distintos: los vídeos con más de 7 rinden 2,6× lo normal, frente a 1,05× los demás."
+   },
+   {
+    "metrica": "cam_claves",
+    "nombre": "Claves de cámara",
+    "rol": "fotografia",
+    "unidad": "",
+    "umbral": 22.5,
+    "direccion": "mas",
+    "ratio": 1.76,
+    "n_si": 15,
+    "n_no": 15,
+    "fuerza": 2.19,
+    "sorpresa": false,
+    "texto": "Claves de cámara: los vídeos con más de 22 rinden 1,78× lo normal, frente a 1,01× los demás."
+   },
+   {
+    "metrica": "sfx_min",
+    "nombre": "Efectos de sonido por minuto",
+    "rol": "sonido",
+    "unidad": "/min",
+    "umbral": 19.7,
+    "direccion": "mas",
+    "ratio": 1.7,
+    "n_si": 15,
+    "n_no": 16,
+    "fuerza": 2.06,
+    "sorpresa": false,
+    "texto": "Efectos de sonido por minuto: los vídeos con más de 19,7 /min rinden 1,78× lo normal, frente a 1,05× los demás."
+   },
+   {
+    "metrica": "obj_animaciones",
+    "nombre": "Animaciones en la escena",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 15,
+    "direccion": "mas",
+    "ratio": 1.66,
+    "n_si": 15,
+    "n_no": 16,
+    "fuerza": 1.96,
+    "sorpresa": false,
+    "texto": "Animaciones en la escena: los vídeos con más de 15 rinden 1,78× lo normal, frente a 1,07× los demás."
+   },
+   {
+    "metrica": "cam_inicio_dist",
+    "nombre": "Distancia de cámara en el primer segundo",
+    "rol": "fotografia",
+    "unidad": "m",
+    "umbral": 7.1,
+    "direccion": "menos",
+    "ratio": 2.17,
+    "n_si": 5,
+    "n_no": 6,
+    "fuerza": 1.74,
+    "sorpresa": false,
+    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,1 m rinden 2,2× lo normal, frente a 1,03× los demás."
+   },
+   {
+    "metrica": "ov_palabras_clave",
+    "nombre": "Palabras clave resaltadas",
+    "rol": "editor",
+    "unidad": "",
+    "umbral": 27,
+    "direccion": "mas",
+    "ratio": 1.55,
+    "n_si": 14,
+    "n_no": 17,
+    "fuerza": 1.64,
+    "sorpresa": false,
+    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,60× lo normal, frente a 1,03× los demás."
+   },
+   {
+    "metrica": "cam_lente_max",
+    "nombre": "Lente más larga (primeros planos)",
+    "rol": "fotografia",
+    "unidad": "mm",
+    "umbral": 36,
+    "direccion": "mas",
+    "ratio": 1.48,
+    "n_si": 14,
+    "n_no": 17,
+    "fuerza": 1.47,
+    "sorpresa": false,
+    "texto": "Lente más larga (primeros planos): los vídeos con más de 36 mm rinden 1,58× lo normal, frente a 1,07× los demás."
+   },
+   {
+    "metrica": "duracion",
+    "nombre": "Duración",
+    "rol": "editor",
+    "unidad": "s",
+    "umbral": 71.1,
+    "direccion": "menos",
+    "ratio": 1.33,
+    "n_si": 14,
+    "n_no": 17,
+    "fuerza": 1.08,
+    "sorpresa": false,
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,42× lo normal, frente a 1,07× los demás."
+   },
+   {
+    "metrica": "obj_piezas",
+    "nombre": "Piezas 3D",
+    "rol": "fotografia",
+    "unidad": "",
+    "umbral": 27,
+    "direccion": "mas",
+    "ratio": 1.3,
+    "n_si": 15,
+    "n_no": 16,
+    "fuerza": 1.02,
+    "sorpresa": false,
+    "texto": "Piezas 3D: los vídeos con más de 27 rinden 1,42× lo normal, frente a 1,09× los demás."
+   },
+   {
+    "metrica": "ov_graficos_min",
+    "nombre": "Gráficos por minuto",
+    "rol": "motion",
+    "unidad": "/min",
+    "umbral": 17.9,
+    "direccion": "mas",
+    "ratio": 1.3,
+    "n_si": 15,
+    "n_no": 16,
+    "fuerza": 1.02,
+    "sorpresa": false,
+    "texto": "Gráficos por minuto: los vídeos con más de 17,9 /min rinden 1,42× lo normal, frente a 1,09× los demás."
+   },
+   {
+    "metrica": "voz_pausa_max",
+    "nombre": "Pausa más larga",
+    "rol": "sonido",
+    "unidad": "s",
+    "umbral": 0.58,
+    "direccion": "menos",
+    "ratio": 1.18,
+    "n_si": 15,
+    "n_no": 16,
+    "fuerza": 0.63,
+    "sorpresa": false,
+    "texto": "Pausa más larga: los vídeos con menos de 0,58 s rinden 1,27× lo normal, frente a 1,07× los demás."
+   },
+   {
+    "metrica": "voz_lufs",
+    "nombre": "Volumen de la voz",
+    "rol": "sonido",
+    "unidad": "LUFS",
+    "umbral": -15.6,
+    "direccion": "menos",
+    "ratio": 1.23,
+    "n_si": 7,
+    "n_no": 24,
+    "fuerza": 0.56,
+    "sorpresa": false,
+    "texto": "Volumen de la voz: los vídeos con menos de -15,6 LUFS rinden 1,27× lo normal, frente a 1,03× los demás."
+   }
+  ],
+  "recomendaciones": {
+   "cafetera": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 0,00. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 6. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 11,6 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 4. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 5,5 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "bombilla": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 6. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 26, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 17,4 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 22, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 3,6 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "auriculares": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 4,1 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 17. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 12 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 16, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 6 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 25. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "enchufe": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 6. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 22 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 25. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "piscina": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 6. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 22. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 16,4 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 16, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 32 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "presa": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,3 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 21. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 18 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 13. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 34, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 30 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "camara": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,0 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 6. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 16,9 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 13. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "chatgpt": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 20. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 16,3 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 29, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "plegable": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 25 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "obj_piezas",
+     "texto": "Piezas 3D: 28, en el lado bueno. Mantenlo."
+    }
+   ],
+   "cargador": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 22 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 8,8 m. Los que funcionan van por debajo de 7,1 m (2,2× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 28, en el lado bueno. Mantenlo."
+    }
+   ],
+   "lavavajillas": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 23, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 26 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 39, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "pozo": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 19,7 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "arroz": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,79 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 41, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 23 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 22 m. Los que funcionan van por debajo de 7,1 m (2,2× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 22. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "whatsapp": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 23, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 22 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 30, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 6,6 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 21. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "tormentas": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 22 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 5,3 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
+    }
+   ],
+   "tostadora": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 26, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 24 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 26, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 80 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "mando": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,99 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 28 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 4. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "teclado": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 27, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 19,9 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 9. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 29, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "ruedas": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,0 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 22. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 21 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 26, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 7,1 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 28, en el lado bueno. Mantenlo."
+    }
+   ],
+   "deposito": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,5 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 19. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 21 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 10. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "router": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 19. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 27 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "gps": [
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 2. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 23 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 0,00. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,33× más vistas)."
+    }
+   ],
+   "induccion": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 25, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 19,4 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 8,4 m. Los que funcionan van por debajo de 7,1 m (2,2× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 20. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "qr": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 27, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 24 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 11,6 m. Los que funcionan van por debajo de 7,1 m (2,2× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
+    }
+   ],
+   "lavadora": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 22. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 22 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "depuradora": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 35, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 27 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 37, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 29, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "parking": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 27 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 16, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 34, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "v16": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (2,5× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 7 (2,5× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 20. Los que funcionan van por encima de 22 (1,76× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 25 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 22, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "paraguas": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,73 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 19,2 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 0,50 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,55× más vistas)."
+    }
+   ],
+   "spray": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 30, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 14,7 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 15 (1,66× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 2,7 m, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 34, en el lado bueno. Mantenlo."
+    }
+   ],
+   "pistahielo": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 29, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 16,6 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 21, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_inicio_dist",
+     "texto": "Distancia de cámara en el primer segundo: 7,8 m. Los que funcionan van por debajo de 7,1 m (2,2× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 38, en el lado bueno. Mantenlo."
+    }
+   ],
+   "carretera": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (2,7× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 18,7 /min. Los que funcionan van por encima de 19,7 /min (1,70× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 23, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 37, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,48× más vistas)."
+    }
+   ],
+   "sifon": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 63 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,55 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,8 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "ticket": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 63 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,53 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,7 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "paracaidas": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,53 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,7 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "cintametrica": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 65 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,55 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,5 LUFS. Los que funcionan van por debajo de -15,6 LUFS (1,23× más vistas)."
+    }
+   ],
+   "submarino": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,56 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,8 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "estadio": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 63 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,67 s. Los que funcionan van por debajo de 0,58 s (1,18× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,6 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "turia": [
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 74 s. Los que funcionan van por debajo de 71 s (1,33× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,47 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,8 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "repetidor": [
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,33× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,61 s. Los que funcionan van por debajo de 0,58 s (1,18× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,8 LUFS, en el lado bueno. Mantenlo."
+    }
+   ],
+   "frenoavion": [
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,33× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,54 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_lufs",
+     "texto": "Volumen de la voz: -15,5 LUFS. Los que funcionan van por debajo de -15,6 LUFS (1,23× más vistas)."
+    }
+   ]
+  },
+  "experimentos": {},
+  "foco": {
+   "fotografia": {
+    "metrica": "cam_cada",
+    "nombre": "Un movimiento de cámara cada",
+    "rol": "fotografia",
+    "unidad": "s",
+    "umbral": 3.05,
+    "direccion": "menos",
+    "ratio": 2.7,
+    "n_si": 14,
+    "n_no": 15,
+    "fuerza": 3.72,
+    "sorpresa": false,
+    "texto": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 2,6× lo normal, frente a 0,98× los demás."
+   },
+   "motion": {
+    "metrica": "ov_contadores",
+    "nombre": "Contadores y medidores",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 3,
+    "direccion": "mas",
+    "ratio": 2.5,
+    "n_si": 13,
+    "n_no": 18,
+    "fuerza": 3.3,
+    "sorpresa": false,
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 2,6× lo normal, frente a 1,05× los demás."
+   },
+   "sonido": {
+    "metrica": "sfx_variedad",
+    "nombre": "Tipos de efecto distintos",
+    "rol": "sonido",
+    "unidad": "",
+    "umbral": 7,
+    "direccion": "mas",
+    "ratio": 2.5,
+    "n_si": 11,
+    "n_no": 20,
+    "fuerza": 3.04,
+    "sorpresa": false,
+    "texto": "Tipos de efecto distintos: los vídeos con más de 7 rinden 2,6× lo normal, frente a 1,05× los demás."
+   },
+   "editor": {
+    "metrica": "ov_palabras_clave",
+    "nombre": "Palabras clave resaltadas",
+    "rol": "editor",
+    "unidad": "",
+    "umbral": 27,
+    "direccion": "mas",
+    "ratio": 1.55,
+    "n_si": 14,
+    "n_no": 17,
+    "fuerza": 1.64,
+    "sorpresa": false,
+    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,60× lo normal, frente a 1,03× los demás."
+   }
+  },
+  "referencia": {
+   "voz_ritmo": {
+    "top": 3.59,
+    "resto": 3.57
+   },
+   "voz_silencio": {
+    "top": 11.65,
+    "resto": 10.2
+   },
+   "voz_pausas_min": {
+    "top": 19.0,
+    "resto": 17.1
+   },
+   "voz_pausa_max": {
+    "top": 0.58,
+    "resto": 0.53
+   },
+   "voz_arranque": {
+    "top": 0.0,
+    "resto": 0.0
+   },
+   "voz_lufs": {
+    "top": -15.7,
+    "resto": -15.6
+   },
+   "voz_expresividad": {
+    "top": 2.5,
+    "resto": 2.2
+   },
+   "voz_gancho": {
+    "top": 0.25,
+    "resto": 0.1
+   },
+   "duracion": {
+    "top": 68.0,
+    "resto": 71.2
+   },
+   "cam_claves": {
+    "top": 26.5,
+    "resto": 21.0
+   },
+   "cam_cada": {
+    "top": 2.67,
+    "resto": 3.18
+   },
+   "cam_inicio_dist": {
+    "top": 6.2,
+    "resto": 7.5
+   },
+   "cam_lente_max": {
+    "top": 38.0,
+    "resto": 36
+   },
+   "obj_piezas": {
+    "top": 42.5,
+    "resto": 27
+   },
+   "obj_animaciones": {
+    "top": 23.5,
+    "resto": 13
+   },
+   "obj_cortes": {
+    "top": 1.0,
+    "resto": 0
+   },
+   "ov_etiquetas": {
+    "top": 9.0,
+    "resto": 9
+   },
+   "ov_contadores": {
+    "top": 5.0,
+    "resto": 3
+   },
+   "ov_graficos_min": {
+    "top": 24.2,
+    "resto": 16.9
+   },
+   "ov_palabras_clave": {
+    "top": 28.5,
+    "resto": 25
+   },
+   "sfx_min": {
+    "top": 20.75,
+    "resto": 16.4
+   },
+   "sfx_variedad": {
+    "top": 8.0,
+    "resto": 6
+   }
+  },
+  "metricas": {
+   "voz_ritmo": {
+    "nombre": "Ritmo de la voz",
+    "unidad": "palabras/s",
+    "rol": "sonido",
+    "mejor": null
+   },
+   "voz_silencio": {
+    "nombre": "Silencio en la voz",
+    "unidad": "%",
+    "rol": "sonido",
+    "mejor": null
+   },
+   "voz_pausas_min": {
+    "nombre": "Pausas por minuto",
+    "unidad": "/min",
+    "rol": "sonido",
+    "mejor": null
+   },
+   "voz_pausa_max": {
+    "nombre": "Pausa más larga",
+    "unidad": "s",
+    "rol": "sonido",
+    "mejor": "menos"
+   },
+   "voz_arranque": {
+    "nombre": "Tarda en empezar a hablar",
+    "unidad": "s",
+    "rol": "sonido",
+    "mejor": "menos"
+   },
+   "voz_lufs": {
+    "nombre": "Volumen de la voz",
+    "unidad": "LUFS",
+    "rol": "sonido",
+    "mejor": null
+   },
+   "voz_expresividad": {
+    "nombre": "Expresividad (rango dinámico)",
+    "unidad": "LU",
+    "rol": "sonido",
+    "mejor": "mas"
+   },
+   "voz_gancho": {
+    "nombre": "Energía del gancho frente al resto",
+    "unidad": "dB",
+    "rol": "sonido",
+    "mejor": "mas"
+   },
+   "duracion": {
+    "nombre": "Duración",
+    "unidad": "s",
+    "rol": "editor",
+    "mejor": null
+   },
+   "cam_claves": {
+    "nombre": "Claves de cámara",
+    "unidad": "",
+    "rol": "fotografia",
+    "mejor": "mas"
+   },
+   "cam_cada": {
+    "nombre": "Un movimiento de cámara cada",
+    "unidad": "s",
+    "rol": "fotografia",
+    "mejor": "menos"
+   },
+   "cam_inicio_dist": {
+    "nombre": "Distancia de cámara en el primer segundo",
+    "unidad": "m",
+    "rol": "fotografia",
+    "mejor": "menos"
+   },
+   "cam_lente_max": {
+    "nombre": "Lente más larga (primeros planos)",
+    "unidad": "mm",
+    "rol": "fotografia",
+    "mejor": null
+   },
+   "obj_piezas": {
+    "nombre": "Piezas 3D",
+    "unidad": "",
+    "rol": "fotografia",
+    "mejor": null
+   },
+   "obj_animaciones": {
+    "nombre": "Animaciones en la escena",
+    "unidad": "",
+    "rol": "motion",
+    "mejor": "mas"
+   },
+   "obj_cortes": {
+    "nombre": "Cortes que enseñan el interior",
+    "unidad": "",
+    "rol": "fotografia",
+    "mejor": null
+   },
+   "ov_etiquetas": {
+    "nombre": "Etiquetas sobre las piezas",
+    "unidad": "",
+    "rol": "motion",
+    "mejor": null
+   },
+   "ov_contadores": {
+    "nombre": "Contadores y medidores",
+    "unidad": "",
+    "rol": "motion",
+    "mejor": "mas"
+   },
+   "ov_graficos_min": {
+    "nombre": "Gráficos por minuto",
+    "unidad": "/min",
+    "rol": "motion",
+    "mejor": null
+   },
+   "ov_palabras_clave": {
+    "nombre": "Palabras clave resaltadas",
+    "unidad": "",
+    "rol": "editor",
+    "mejor": null
+   },
+   "sfx_min": {
+    "nombre": "Efectos de sonido por minuto",
+    "unidad": "/min",
+    "rol": "sonido",
+    "mejor": null
+   },
+   "sfx_variedad": {
+    "nombre": "Tipos de efecto distintos",
+    "unidad": "",
+    "rol": "sonido",
+    "mejor": "mas"
+   }
+  },
+  "medidos": 83
+ },
  "videos": [
   {
    "id": "spray",
@@ -716,7 +2938,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 76.2,
+   "duracion": 77.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 236,
@@ -725,13 +2947,37 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.48,
+   "voz_silencio": 12.2,
+   "voz_pausas_min": 18.6,
+   "voz_pausa_max": 0.59,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.5,
+   "voz_gancho": -0.1,
+   "cam_claves": 30,
+   "cam_cada": 2.58,
+   "cam_inicio_dist": 2.7,
+   "cam_lente_max": 36,
+   "obj_piezas": 19,
+   "obj_animaciones": 15,
+   "obj_cortes": 1,
+   "ov_etiquetas": 6,
+   "ov_contadores": 4,
+   "ov_graficos_min": 12.4,
+   "ov_palabras_clave": 34,
+   "sfx_min": 14.7,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
    "vistas": 387,
    "rel_red": {
-    "tiktok": 0.4
+    "tiktok": 0.1
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -747,7 +2993,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 76.8,
+   "duracion": 77.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 236,
@@ -756,13 +3002,36 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.41,
+   "voz_silencio": 10.3,
+   "voz_pausas_min": 17.9,
+   "voz_pausa_max": 0.54,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.2,
+   "voz_gancho": -0.1,
+   "cam_claves": 24,
+   "cam_cada": 3.21,
+   "cam_lente_max": 36,
+   "obj_piezas": 22,
+   "obj_animaciones": 23,
+   "obj_cortes": 0,
+   "ov_etiquetas": 7,
+   "ov_contadores": 6,
+   "ov_graficos_min": 18.7,
+   "ov_palabras_clave": 37,
+   "sfx_min": 18.7,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
    "vistas": 895,
    "rel_red": {
-    "tiktok": 0.93
+    "tiktok": 0.22
    },
    "com_mil": 0.0,
    "comp_mil": 2.23,
@@ -778,7 +3047,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 79,
+   "duracion": 79.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 239,
@@ -787,13 +3056,37 @@
    "cotidiano": 7,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.34,
+   "voz_silencio": 9.7,
+   "voz_pausas_min": 16.6,
+   "voz_pausa_max": 0.5,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.3,
+   "voz_gancho": 0.6,
+   "cam_claves": 29,
+   "cam_cada": 2.73,
+   "cam_inicio_dist": 7.8,
+   "cam_lente_max": 34,
+   "obj_piezas": 36,
+   "obj_animaciones": 21,
+   "obj_cortes": 0,
+   "ov_etiquetas": 5,
+   "ov_contadores": 8,
+   "ov_graficos_min": 19.7,
+   "ov_palabras_clave": 38,
+   "sfx_min": 16.6,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
    "vistas": 1604,
    "rel_red": {
-    "tiktok": 1.66
+    "tiktok": 0.4
    },
    "com_mil": 0.62,
    "comp_mil": 0.0,
@@ -809,7 +3102,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": false,
-   "duracion": 62.1,
+   "duracion": 62.4,
    "gancho": null,
    "rehacer": 0,
    "palabras": 213,
@@ -818,13 +3111,37 @@
    "cotidiano": 9,
    "ensenar": 8,
    "primer_segundo": 10,
+   "voz_ritmo": 3.7,
+   "voz_silencio": 7.7,
+   "voz_pausas_min": 13.5,
+   "voz_pausa_max": 0.47,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.5,
+   "voz_expresividad": 2.1,
+   "voz_gancho": -0.1,
+   "cam_claves": 36,
+   "cam_cada": 1.73,
+   "cam_inicio_dist": 0.5,
+   "cam_lente_max": 45,
+   "obj_piezas": 21,
+   "obj_animaciones": 15,
+   "obj_cortes": 1,
+   "ov_etiquetas": 5,
+   "ov_contadores": 5,
+   "ov_graficos_min": 15.4,
+   "ov_palabras_clave": 26,
+   "sfx_min": 19.2,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
    "vistas": 378,
    "rel_red": {
-    "tiktok": 0.39
+    "tiktok": 0.09
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -840,7 +3157,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": true,
-   "duracion": 68.2,
+   "duracion": 68.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 223,
@@ -849,13 +3166,36 @@
    "cotidiano": 8,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.58,
+   "voz_silencio": 8.7,
+   "voz_pausas_min": 14.9,
+   "voz_pausa_max": 0.64,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 3.0,
+   "voz_gancho": 0.3,
+   "cam_claves": 20,
+   "cam_cada": 3.42,
+   "cam_lente_max": 50,
+   "obj_piezas": 38,
+   "obj_animaciones": 22,
+   "obj_cortes": 0,
+   "ov_etiquetas": 8,
+   "ov_contadores": 3,
+   "ov_graficos_min": 19.3,
+   "ov_palabras_clave": 26,
+   "sfx_min": 24.6,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
    "vistas": 432,
    "rel_red": {
-    "tiktok": 0.45
+    "tiktok": 0.11
    },
    "com_mil": 2.31,
    "comp_mil": 0.0,
@@ -880,13 +3220,36 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.57,
+   "voz_silencio": 8.5,
+   "voz_pausas_min": 15.5,
+   "voz_pausa_max": 0.62,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.5,
+   "cam_claves": 22,
+   "cam_cada": 3.16,
+   "cam_lente_max": 34,
+   "obj_piezas": 33,
+   "obj_animaciones": 15,
+   "obj_cortes": 3,
+   "ov_etiquetas": 5,
+   "ov_contadores": 5,
+   "ov_graficos_min": 14.7,
+   "ov_palabras_clave": 30,
+   "sfx_min": 21.6,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
    "vistas": 4079,
    "rel_red": {
-    "tiktok": 4.22
+    "tiktok": 1.01
    },
    "com_mil": 0.0,
    "comp_mil": 0.25,
@@ -902,7 +3265,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 70.9,
+   "duracion": 71.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 230,
@@ -911,13 +3274,37 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.62,
+   "voz_silencio": 10.9,
+   "voz_pausas_min": 17.7,
+   "voz_pausa_max": 0.59,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.3,
+   "voz_gancho": 0.6,
+   "cam_claves": 25,
+   "cam_cada": 2.85,
+   "cam_inicio_dist": 8.4,
+   "cam_lente_max": 35,
+   "obj_piezas": 32,
+   "obj_animaciones": 24,
+   "obj_cortes": 1,
+   "ov_etiquetas": 5,
+   "ov_contadores": 2,
+   "ov_graficos_min": 12.6,
+   "ov_palabras_clave": 20,
+   "sfx_min": 19.4,
+   "sfx_variedad": 9,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
    "vistas": 2985,
    "rel_red": {
-    "tiktok": 3.09
+    "tiktok": 0.85
    },
    "com_mil": 0.0,
    "comp_mil": 1.68,
@@ -933,7 +3320,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 76,
+   "duracion": 76.7,
    "gancho": null,
    "rehacer": 0,
    "palabras": 238,
@@ -942,13 +3329,37 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.52,
+   "voz_silencio": 11.7,
+   "voz_pausas_min": 18.8,
+   "voz_pausa_max": 0.56,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.4,
+   "cam_claves": 27,
+   "cam_cada": 2.84,
+   "cam_inicio_dist": 11.6,
+   "cam_lente_max": 40,
+   "obj_piezas": 24,
+   "obj_animaciones": 20,
+   "obj_cortes": 0,
+   "ov_etiquetas": 7,
+   "ov_contadores": 5,
+   "ov_graficos_min": 18.0,
+   "ov_palabras_clave": 31,
+   "sfx_min": 23.5,
+   "sfx_variedad": 9,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
    "vistas": 830,
    "rel_red": {
-    "tiktok": 0.86
+    "tiktok": 0.28
    },
    "com_mil": 1.2,
    "comp_mil": 0.0,
@@ -964,7 +3375,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 69.8,
+   "duracion": 70.0,
    "gancho": null,
    "rehacer": 0,
    "palabras": 238,
@@ -973,13 +3384,36 @@
    "cotidiano": 10,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.77,
+   "voz_silencio": 9.9,
+   "voz_pausas_min": 17.1,
+   "voz_pausa_max": 0.64,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 1.8,
+   "voz_gancho": 0.6,
+   "cam_claves": 19,
+   "cam_cada": 3.68,
+   "cam_lente_max": 40,
+   "obj_piezas": 49,
+   "obj_animaciones": 25,
+   "obj_cortes": 0,
+   "ov_etiquetas": 8,
+   "ov_contadores": 3,
+   "ov_graficos_min": 19.7,
+   "ov_palabras_clave": 31,
+   "sfx_min": 27.4,
+   "sfx_variedad": 9,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
    "vistas": 43408,
    "rel_red": {
-    "tiktok": 44.94
+    "tiktok": 14.54
    },
    "com_mil": 0.18,
    "comp_mil": 1.22,
@@ -995,7 +3429,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 74.3,
+   "duracion": 75.5,
    "gancho": null,
    "rehacer": 0,
    "palabras": 225,
@@ -1004,13 +3438,36 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.4,
+   "voz_silencio": 12.3,
+   "voz_pausas_min": 19.1,
+   "voz_pausa_max": 0.66,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.8,
+   "voz_expresividad": 2.2,
+   "voz_gancho": -0.2,
+   "cam_claves": 35,
+   "cam_cada": 2.16,
+   "cam_lente_max": 35,
+   "obj_piezas": 84,
+   "obj_animaciones": 37,
+   "obj_cortes": 1,
+   "ov_etiquetas": 13,
+   "ov_contadores": 7,
+   "ov_graficos_min": 26.2,
+   "ov_palabras_clave": 29,
+   "sfx_min": 27.0,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.43,
+   "rel": 0.18,
    "maduro": true,
    "vistas": 416,
    "rel_red": {
-    "tiktok": 0.43
+    "tiktok": 0.18
    },
    "com_mil": 2.4,
    "comp_mil": 0.0,
@@ -1026,7 +3483,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 71.8,
+   "duracion": 71.9,
    "gancho": null,
    "rehacer": 0,
    "palabras": 228,
@@ -1035,13 +3492,36 @@
    "cotidiano": 7,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.49,
+   "voz_silencio": 9.0,
+   "voz_pausas_min": 15.9,
+   "voz_pausa_max": 0.5,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 1.8,
+   "voz_gancho": -0.8,
+   "cam_claves": 28,
+   "cam_cada": 2.57,
+   "cam_lente_max": 35,
+   "obj_piezas": 81,
+   "obj_animaciones": 16,
+   "obj_cortes": 0,
+   "ov_etiquetas": 9,
+   "ov_contadores": 7,
+   "ov_graficos_min": 23.4,
+   "ov_palabras_clave": 34,
+   "sfx_min": 26.7,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 4.16,
+   "rel": 1.78,
    "maduro": true,
    "vistas": 4022,
    "rel_red": {
-    "tiktok": 4.16
+    "tiktok": 1.78
    },
    "com_mil": 0.0,
    "comp_mil": 0.25,
@@ -1057,7 +3537,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": false,
-   "duracion": 71.9,
+   "duracion": 72.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 230,
@@ -1066,13 +3546,35 @@
    "cotidiano": 10,
    "ensenar": 10,
    "primer_segundo": 8,
+   "voz_ritmo": 3.61,
+   "voz_silencio": 11.9,
+   "voz_pausas_min": 19.9,
+   "voz_pausa_max": 0.53,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.4,
+   "voz_expresividad": 2.6,
+   "voz_gancho": 0.3,
+   "cam_claves": 2,
+   "cam_lente_max": 40,
+   "obj_piezas": 36,
+   "obj_animaciones": 0,
+   "obj_cortes": 0,
+   "ov_etiquetas": 5,
+   "ov_contadores": 7,
+   "ov_graficos_min": 26.6,
+   "ov_palabras_clave": 23,
+   "sfx_min": 23.2,
+   "sfx_variedad": 9,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.85,
+   "rel": 0.37,
    "maduro": true,
    "vistas": 824,
    "rel_red": {
-    "tiktok": 0.85
+    "tiktok": 0.37
    },
    "com_mil": 3.64,
    "comp_mil": 0.0,
@@ -1088,7 +3590,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 70.7,
+   "duracion": 71.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 227,
@@ -1097,13 +3599,37 @@
    "cotidiano": 10,
    "ensenar": 8,
    "primer_segundo": 8,
+   "voz_ritmo": 3.6,
+   "voz_silencio": 11.2,
+   "voz_pausas_min": 18.6,
+   "voz_pausa_max": 0.5,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.5,
+   "voz_expresividad": 2.1,
+   "voz_gancho": 0.2,
+   "cam_claves": 23,
+   "cam_cada": 3.09,
+   "cam_inicio_dist": 6.6,
+   "cam_lente_max": 38,
+   "obj_piezas": 17,
+   "obj_animaciones": 30,
+   "obj_cortes": 0,
+   "ov_etiquetas": 10,
+   "ov_contadores": 3,
+   "ov_graficos_min": 16.9,
+   "ov_palabras_clave": 21,
+   "sfx_min": 21.9,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.03,
+   "rel": 0.44,
    "maduro": true,
    "vistas": 995,
    "rel_red": {
-    "tiktok": 1.03
+    "tiktok": 0.44
    },
    "com_mil": 1.01,
    "comp_mil": 0.0,
@@ -1119,7 +3645,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 70.9,
+   "duracion": 71.6,
    "gancho": null,
    "rehacer": 0,
    "palabras": 226,
@@ -1128,13 +3654,36 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.53,
+   "voz_silencio": 10.5,
+   "voz_pausas_min": 17.6,
+   "voz_pausa_max": 0.51,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.3,
+   "voz_gancho": 0.3,
+   "cam_claves": 36,
+   "cam_cada": 1.99,
+   "cam_lente_max": 40,
+   "obj_piezas": 40,
+   "obj_animaciones": 4,
+   "obj_cortes": 0,
+   "ov_etiquetas": 7,
+   "ov_contadores": 1,
+   "ov_graficos_min": 14.2,
+   "ov_palabras_clave": 31,
+   "sfx_min": 27.7,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.5,
+   "rel": 0.91,
    "maduro": true,
    "vistas": 1452,
    "rel_red": {
-    "tiktok": 1.5
+    "tiktok": 0.91
    },
    "com_mil": 0.69,
    "comp_mil": 2.07,
@@ -1150,7 +3699,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 66,
+   "duracion": 66.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 240,
@@ -1159,13 +3708,36 @@
    "cotidiano": 8,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 4.06,
+   "voz_silencio": 10.6,
+   "voz_pausas_min": 19.1,
+   "voz_pausa_max": 0.55,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 3.0,
+   "voz_gancho": -0.4,
+   "cam_claves": 19,
+   "cam_cada": 3.48,
+   "cam_lente_max": 35,
+   "obj_piezas": 34,
+   "obj_animaciones": 10,
+   "obj_cortes": 1,
+   "ov_etiquetas": 6,
+   "ov_contadores": 10,
+   "ov_graficos_min": 29.0,
+   "ov_palabras_clave": 33,
+   "sfx_min": 20.9,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 4.81,
+   "rel": 2.9,
    "maduro": true,
    "vistas": 4651,
    "rel_red": {
-    "tiktok": 4.81
+    "tiktok": 2.9
    },
    "com_mil": 0.22,
    "comp_mil": 0.22,
@@ -1181,7 +3753,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 70.7,
+   "duracion": 72.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 228,
@@ -1190,13 +3762,36 @@
    "cotidiano": 8,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.63,
+   "voz_silencio": 13.2,
+   "voz_pausas_min": 19.1,
+   "voz_pausa_max": 0.71,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.7,
+   "voz_gancho": 0.1,
+   "cam_claves": 27,
+   "cam_cada": 2.68,
+   "cam_lente_max": 36,
+   "obj_piezas": 23,
+   "obj_animaciones": 9,
+   "obj_cortes": 1,
+   "ov_etiquetas": 9,
+   "ov_contadores": 5,
+   "ov_graficos_min": 22.4,
+   "ov_palabras_clave": 29,
+   "sfx_min": 19.9,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 4.51,
+   "rel": 2.71,
    "maduro": true,
    "vistas": 4352,
    "rel_red": {
-    "tiktok": 4.51
+    "tiktok": 2.71
    },
    "com_mil": 0.0,
    "comp_mil": 0.46,
@@ -1212,7 +3807,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 65.7,
+   "duracion": 67.0,
    "gancho": null,
    "rehacer": 0,
    "palabras": 206,
@@ -1221,13 +3816,37 @@
    "cotidiano": 6,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.55,
+   "voz_silencio": 13.4,
+   "voz_pausas_min": 20.6,
+   "voz_pausa_max": 0.57,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.5,
+   "voz_gancho": 0.7,
+   "cam_claves": 22,
+   "cam_cada": 3.05,
+   "cam_inicio_dist": 7.1,
+   "cam_lente_max": 40,
+   "obj_piezas": 17,
+   "obj_animaciones": 26,
+   "obj_cortes": 2,
+   "ov_etiquetas": 9,
+   "ov_contadores": 3,
+   "ov_graficos_min": 17.9,
+   "ov_palabras_clave": 28,
+   "sfx_min": 20.6,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 41.93,
+   "rel": 25.25,
    "maduro": true,
    "vistas": 40501,
    "rel_red": {
-    "tiktok": 41.93
+    "tiktok": 25.25
    },
    "com_mil": 0.12,
    "comp_mil": 1.28,
@@ -1243,7 +3862,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 74.4,
+   "duracion": 74.9,
    "gancho": null,
    "rehacer": 0,
    "palabras": 227,
@@ -1252,13 +3871,36 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.41,
+   "voz_silencio": 11.0,
+   "voz_pausas_min": 18.4,
+   "voz_pausa_max": 0.66,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.3,
+   "voz_gancho": -1.1,
+   "cam_claves": 26,
+   "cam_cada": 2.88,
+   "cam_lente_max": 80,
+   "obj_piezas": 49,
+   "obj_animaciones": 26,
+   "obj_cortes": 0,
+   "ov_etiquetas": 8,
+   "ov_contadores": 4,
+   "ov_graficos_min": 19.2,
+   "ov_palabras_clave": 30,
+   "sfx_min": 24.0,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 4.35,
+   "rel": 2.62,
    "maduro": true,
    "vistas": 4204,
    "rel_red": {
-    "tiktok": 4.35
+    "tiktok": 2.62
    },
    "com_mil": 0.0,
    "comp_mil": 0.95,
@@ -1274,7 +3916,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": true,
-   "duracion": 70.5,
+   "duracion": 71.2,
    "gancho": null,
    "rehacer": 0,
    "palabras": 221,
@@ -1283,14 +3925,37 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.34,
+   "voz_silencio": 7.1,
+   "voz_pausas_min": 10.1,
+   "voz_pausa_max": 0.66,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.5,
+   "voz_expresividad": 2.7,
+   "voz_gancho": -0.1,
+   "cam_claves": 24,
+   "cam_cada": 2.97,
+   "cam_lente_max": 50,
+   "obj_piezas": 27,
+   "obj_animaciones": 13,
+   "obj_cortes": 0,
+   "ov_etiquetas": 10,
+   "ov_contadores": 3,
+   "ov_graficos_min": 17.7,
+   "ov_palabras_clave": 35,
+   "sfx_min": 16.9,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-04",
-   "rel": 1.47,
+   "rel": 1.14,
    "maduro": true,
    "vistas": 4454,
    "rel_red": {
-    "instagram": 1.0,
-    "youtube": 1.93
+    "instagram": 0.9,
+    "youtube": 1.37
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -1306,7 +3971,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 70.3,
+   "duracion": 71.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 233,
@@ -1315,15 +3980,39 @@
    "cotidiano": 7,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.79,
+   "voz_silencio": 13.5,
+   "voz_pausas_min": 21.9,
+   "voz_pausa_max": 0.69,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.9,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 1.0,
+   "cam_claves": 28,
+   "cam_cada": 2.54,
+   "cam_inicio_dist": 5.3,
+   "cam_lente_max": 35,
+   "obj_piezas": 79,
+   "obj_animaciones": 25,
+   "obj_cortes": 0,
+   "ov_etiquetas": 13,
+   "ov_contadores": 8,
+   "ov_graficos_min": 27.0,
+   "ov_palabras_clave": 32,
+   "sfx_min": 21.9,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 53.38,
+   "rel": 33.79,
    "maduro": true,
    "vistas": 55237,
    "rel_red": {
-    "tiktok": 53.38,
-    "instagram": 1.12,
-    "youtube": 1.28
+    "tiktok": 33.79,
+    "instagram": 1.0,
+    "youtube": 1.01
    },
    "com_mil": 0.36,
    "comp_mil": 1.52,
@@ -1339,7 +4028,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 72.8,
+   "duracion": 73.2,
    "gancho": null,
    "rehacer": 0,
    "palabras": 236,
@@ -1348,15 +4037,39 @@
    "cotidiano": 10,
    "ensenar": 8,
    "primer_segundo": 9,
+   "voz_ritmo": 3.5,
+   "voz_silencio": 8.0,
+   "voz_pausas_min": 13.1,
+   "voz_pausa_max": 0.68,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.8,
+   "voz_expresividad": 2.5,
+   "voz_gancho": 0.5,
+   "cam_claves": 41,
+   "cam_cada": 1.79,
+   "cam_inicio_dist": 21.6,
+   "cam_lente_max": 42,
+   "obj_piezas": 51,
+   "obj_animaciones": 25,
+   "obj_cortes": 1,
+   "ov_etiquetas": 9,
+   "ov_contadores": 2,
+   "ov_graficos_min": 13.1,
+   "ov_palabras_clave": 22,
+   "sfx_min": 23.0,
+   "sfx_variedad": 9,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 4.66,
+   "rel": 2.95,
    "maduro": true,
    "vistas": 7235,
    "rel_red": {
-    "tiktok": 4.66,
-    "instagram": 1.12,
-    "youtube": 0.66
+    "tiktok": 2.95,
+    "instagram": 1.0,
+    "youtube": 0.52
    },
    "com_mil": 0.14,
    "comp_mil": 1.66,
@@ -1372,7 +4085,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 66.4,
+   "duracion": 66.9,
    "gancho": null,
    "rehacer": 0,
    "palabras": 208,
@@ -1381,15 +4094,38 @@
    "cotidiano": 6,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.5,
+   "voz_silencio": 11.2,
+   "voz_pausas_min": 17.9,
+   "voz_pausa_max": 0.59,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.4,
+   "voz_expresividad": 2.3,
+   "voz_gancho": -0.1,
+   "cam_claves": 28,
+   "cam_cada": 2.39,
+   "cam_lente_max": 40,
+   "obj_piezas": 56,
+   "obj_animaciones": 20,
+   "obj_cortes": 0,
+   "ov_etiquetas": 16,
+   "ov_contadores": 5,
+   "ov_graficos_min": 26.0,
+   "ov_palabras_clave": 27,
+   "sfx_min": 19.7,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 4.67,
+   "rel": 2.96,
    "maduro": true,
    "vistas": 25320,
    "rel_red": {
-    "tiktok": 4.67,
-    "instagram": 1.22,
-    "youtube": 12.59
+    "tiktok": 2.96,
+    "instagram": 1.09,
+    "youtube": 9.44
    },
    "com_mil": 0.12,
    "comp_mil": 0.04,
@@ -1405,7 +4141,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 66,
+   "duracion": 66.6,
    "gancho": null,
    "rehacer": 0,
    "palabras": 215,
@@ -1414,15 +4150,38 @@
    "cotidiano": 9,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.67,
+   "voz_silencio": 12.1,
+   "voz_pausas_min": 18.9,
+   "voz_pausa_max": 0.58,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.8,
+   "voz_expresividad": 2.7,
+   "voz_gancho": 0.1,
+   "cam_claves": 23,
+   "cam_cada": 2.9,
+   "cam_lente_max": 42,
+   "obj_piezas": 58,
+   "obj_animaciones": 39,
+   "obj_cortes": 0,
+   "ov_etiquetas": 16,
+   "ov_contadores": 5,
+   "ov_graficos_min": 27.0,
+   "ov_palabras_clave": 32,
+   "sfx_min": 26.1,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 5.04,
+   "rel": 3.19,
    "maduro": true,
    "vistas": 8147,
    "rel_red": {
-    "tiktok": 5.04,
-    "instagram": 1.15,
-    "youtube": 0.99
+    "tiktok": 3.19,
+    "instagram": 1.03,
+    "youtube": 0.77
    },
    "com_mil": 0.0,
    "comp_mil": 0.86,
@@ -1447,15 +4206,39 @@
    "cotidiano": 10,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.51,
+   "voz_silencio": 10.8,
+   "voz_pausas_min": 19.1,
+   "voz_pausa_max": 0.52,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.4,
+   "cam_claves": 24,
+   "cam_cada": 2.75,
+   "cam_inicio_dist": 8.8,
+   "cam_lente_max": 40,
+   "obj_piezas": 35,
+   "obj_animaciones": 15,
+   "obj_cortes": 0,
+   "ov_etiquetas": 12,
+   "ov_contadores": 5,
+   "ov_graficos_min": 24.5,
+   "ov_palabras_clave": 28,
+   "sfx_min": 21.8,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.99,
+   "rel": 1.42,
    "maduro": true,
    "vistas": 11128,
    "rel_red": {
-    "tiktok": 6.26,
-    "instagram": 1.34,
-    "youtube": 1.99
+    "tiktok": 3.96,
+    "instagram": 1.22,
+    "youtube": 1.42
    },
    "com_mil": 0.18,
    "comp_mil": 0.63,
@@ -1471,7 +4254,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": true,
-   "duracion": 65.8,
+   "duracion": 66.6,
    "gancho": null,
    "rehacer": 0,
    "palabras": 209,
@@ -1480,15 +4263,36 @@
    "cotidiano": 6,
    "ensenar": 9,
    "primer_segundo": 9,
+   "voz_ritmo": 3.57,
+   "voz_silencio": 12.0,
+   "voz_pausas_min": 18.9,
+   "voz_pausa_max": 0.6,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 1.9,
+   "voz_gancho": 0.0,
+   "cam_lente_max": 35,
+   "obj_piezas": 28,
+   "obj_animaciones": 24,
+   "obj_cortes": 0,
+   "ov_etiquetas": 12,
+   "ov_contadores": 3,
+   "ov_graficos_min": 21.6,
+   "ov_palabras_clave": 35,
+   "sfx_min": 25.2,
+   "sfx_variedad": 8,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.18,
+   "rel": 1.07,
    "maduro": true,
    "vistas": 7408,
    "rel_red": {
-    "tiktok": 4.55,
-    "instagram": 1.18,
-    "youtube": 0.79
+    "tiktok": 2.81,
+    "instagram": 1.07,
+    "youtube": 0.56
    },
    "com_mil": 0.13,
    "comp_mil": 0.13,
@@ -1504,7 +4308,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": false,
-   "duracion": 72.2,
+   "duracion": 73.7,
    "gancho": null,
    "rehacer": 0,
    "palabras": 217,
@@ -1513,15 +4317,38 @@
    "cotidiano": 8,
    "ensenar": 9,
    "primer_segundo": 8,
+   "voz_ritmo": 3.39,
+   "voz_silencio": 13.1,
+   "voz_pausas_min": 18.7,
+   "voz_pausa_max": 0.68,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.5,
+   "voz_gancho": -0.5,
+   "cam_claves": 20,
+   "cam_cada": 3.69,
+   "cam_lente_max": 35,
+   "obj_piezas": 15,
+   "obj_animaciones": 29,
+   "obj_cortes": 0,
+   "ov_etiquetas": 3,
+   "ov_contadores": 2,
+   "ov_graficos_min": 9.8,
+   "ov_palabras_clave": 27,
+   "sfx_min": 16.3,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 0.72,
+   "rel": 0.51,
    "maduro": true,
    "vistas": 1947,
    "rel_red": {
-    "tiktok": 0.88,
+    "tiktok": 0.53,
     "instagram": 0.01,
-    "youtube": 0.72
+    "youtube": 0.51
    },
    "com_mil": 0.51,
    "comp_mil": 0.0,
@@ -1537,7 +4364,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 69.6,
+   "duracion": 69.9,
    "gancho": null,
    "rehacer": 0,
    "palabras": 226,
@@ -1546,15 +4373,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.49,
+   "voz_silencio": 7.4,
+   "voz_pausas_min": 12.9,
+   "voz_pausa_max": 0.47,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.0,
+   "voz_gancho": 0.2,
+   "cam_claves": 21,
+   "cam_cada": 3.33,
+   "cam_lente_max": 30,
+   "obj_piezas": 40,
+   "obj_animaciones": 13,
+   "obj_cortes": 0,
+   "ov_etiquetas": 11,
+   "ov_contadores": 3,
+   "ov_graficos_min": 19.7,
+   "ov_palabras_clave": 34,
+   "sfx_min": 18.0,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.03,
+   "rel": 0.95,
    "maduro": true,
    "vistas": 4582,
    "rel_red": {
-    "tiktok": 0.93,
-    "instagram": 1.03,
-    "youtube": 1.38
+    "tiktok": 0.61,
+    "instagram": 0.95,
+    "youtube": 0.97
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -1579,15 +4429,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.66,
+   "voz_silencio": 9.3,
+   "voz_pausas_min": 16.4,
+   "voz_pausa_max": 0.53,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.4,
+   "voz_expresividad": 2.2,
+   "voz_gancho": -0.1,
+   "cam_claves": 22,
+   "cam_cada": 3.16,
+   "cam_lente_max": 32,
+   "obj_piezas": 62,
+   "obj_animaciones": 16,
+   "obj_cortes": 4,
+   "ov_etiquetas": 10,
+   "ov_contadores": 4,
+   "ov_graficos_min": 22.4,
+   "ov_palabras_clave": 33,
+   "sfx_min": 16.4,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.25,
+   "rel": 0.92,
    "maduro": true,
    "vistas": 6333,
    "rel_red": {
-    "tiktok": 3.01,
-    "instagram": 1.0,
-    "youtube": 1.25
+    "tiktok": 1.95,
+    "instagram": 0.92,
+    "youtube": 0.89
    },
    "com_mil": 0.0,
    "comp_mil": 0.32,
@@ -1603,7 +4476,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 65.9,
+   "duracion": 65.8,
    "gancho": null,
    "rehacer": 0,
    "palabras": 230,
@@ -1612,15 +4485,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.85,
+   "voz_silencio": 9.2,
+   "voz_pausas_min": 16.4,
+   "voz_pausa_max": 0.45,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.4,
+   "voz_gancho": 0.1,
+   "cam_claves": 24,
+   "cam_cada": 2.74,
+   "cam_lente_max": 40,
+   "obj_piezas": 58,
+   "obj_animaciones": 20,
+   "obj_cortes": 1,
+   "ov_etiquetas": 9,
+   "ov_contadores": 3,
+   "ov_graficos_min": 21.0,
+   "ov_palabras_clave": 25,
+   "sfx_min": 21.9,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.43,
+   "rel": 1.0,
    "maduro": true,
    "vistas": 12676,
    "rel_red": {
-    "tiktok": 9.28,
-    "instagram": 1.01,
-    "youtube": 1.43
+    "tiktok": 7.28,
+    "instagram": 0.94,
+    "youtube": 1.0
    },
    "com_mil": 0.79,
    "comp_mil": 0.39,
@@ -1636,7 +4532,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 69.2,
+   "duracion": 70.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 222,
@@ -1645,15 +4541,39 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.56,
+   "voz_silencio": 11.1,
+   "voz_pausas_min": 18.0,
+   "voz_pausa_max": 0.64,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.7,
+   "voz_gancho": 0.5,
+   "cam_claves": 17,
+   "cam_cada": 4.12,
+   "cam_inicio_dist": 6.0,
+   "cam_lente_max": 35,
+   "obj_piezas": 17,
+   "obj_animaciones": 16,
+   "obj_cortes": 2,
+   "ov_etiquetas": 9,
+   "ov_contadores": 1,
+   "ov_graficos_min": 12.0,
+   "ov_palabras_clave": 25,
+   "sfx_min": 12.0,
+   "sfx_variedad": 7,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.15,
+   "rel": 1.07,
    "maduro": true,
    "vistas": 4246,
    "rel_red": {
-    "tiktok": 1.46,
-    "instagram": 1.15,
-    "youtube": 0.7
+    "tiktok": 1.34,
+    "instagram": 1.07,
+    "youtube": 0.45
    },
    "com_mil": 0.94,
    "comp_mil": 0.24,
@@ -1669,7 +4589,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 69,
+   "duracion": 69.0,
    "gancho": null,
    "rehacer": 0,
    "palabras": 223,
@@ -1678,14 +4598,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.48,
+   "voz_silencio": 7.2,
+   "voz_pausas_min": 13.0,
+   "voz_pausa_max": 0.47,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 1.7,
+   "voz_gancho": 0.4,
+   "cam_claves": 26,
+   "cam_cada": 2.65,
+   "cam_inicio_dist": 3.6,
+   "cam_lente_max": 30,
+   "obj_piezas": 26,
+   "obj_animaciones": 22,
+   "obj_cortes": 2,
+   "ov_etiquetas": 9,
+   "ov_contadores": 4,
+   "ov_graficos_min": 15.7,
+   "ov_palabras_clave": 26,
+   "sfx_min": 17.4,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 3.99,
+   "rel": 3.03,
    "maduro": true,
    "vistas": 12059,
    "rel_red": {
-    "instagram": 1.12,
-    "youtube": 6.87
+    "instagram": 1.08,
+    "youtube": 4.97
    },
    "com_mil": 0.17,
    "comp_mil": 0.0,
@@ -1701,7 +4645,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 66.8,
+   "duracion": 67.0,
    "gancho": null,
    "rehacer": 0,
    "palabras": 229,
@@ -1710,15 +4654,39 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.78,
+   "voz_silencio": 9.7,
+   "voz_pausas_min": 16.1,
+   "voz_pausa_max": 0.47,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.9,
+   "voz_gancho": 0.1,
+   "cam_claves": 24,
+   "cam_cada": 2.79,
+   "cam_inicio_dist": 5.5,
+   "cam_lente_max": 26,
+   "obj_piezas": 23,
+   "obj_animaciones": 4,
+   "obj_cortes": 1,
+   "ov_etiquetas": 12,
+   "ov_contadores": 0,
+   "ov_graficos_min": 12.5,
+   "ov_palabras_clave": 23,
+   "sfx_min": 11.6,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.58,
+   "rel": 1.45,
    "maduro": true,
    "vistas": 6817,
    "rel_red": {
-    "tiktok": 1.58,
-    "instagram": 1.1,
-    "youtube": 2.39
+    "tiktok": 1.45,
+    "instagram": 1.06,
+    "youtube": 1.7
    },
    "com_mil": 0.88,
    "comp_mil": 0.29,
@@ -1734,7 +4702,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 73.3,
+   "duracion": 74.0,
    "gancho": null,
    "rehacer": 0,
    "palabras": 230,
@@ -1743,15 +4711,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.58,
+   "voz_silencio": 13.1,
+   "voz_pausas_min": 21.9,
+   "voz_pausa_max": 0.62,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.4,
+   "voz_gancho": 0.1,
+   "cam_claves": 17,
+   "cam_cada": 4.35,
+   "cam_lente_max": 32,
+   "obj_piezas": 27,
+   "obj_animaciones": 8,
+   "obj_cortes": 0,
+   "ov_etiquetas": 11,
+   "ov_contadores": 5,
+   "ov_graficos_min": 18.6,
+   "ov_palabras_clave": 24,
+   "sfx_min": 9.7,
+   "sfx_variedad": 5,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 0.87,
+   "rel": 0.85,
    "maduro": true,
    "vistas": 5368,
    "rel_red": {
-    "tiktok": 0.87,
-    "instagram": 0.87,
-    "youtube": 2.11
+    "tiktok": 0.8,
+    "instagram": 0.85,
+    "youtube": 1.53
    },
    "com_mil": 0.56,
    "comp_mil": 0.37,
@@ -1767,7 +4758,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 66.5,
+   "duracion": 66.7,
    "gancho": null,
    "rehacer": 0,
    "palabras": 214,
@@ -1776,15 +4767,39 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.57,
+   "voz_silencio": 10.2,
+   "voz_pausas_min": 17.1,
+   "voz_pausa_max": 0.51,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.9,
+   "voz_expresividad": 1.9,
+   "voz_gancho": 0.0,
+   "cam_claves": 21,
+   "cam_cada": 3.18,
+   "cam_inicio_dist": 7.5,
+   "cam_lente_max": 35,
+   "obj_piezas": 16,
+   "obj_animaciones": 8,
+   "obj_cortes": 0,
+   "ov_etiquetas": 7,
+   "ov_contadores": 2,
+   "ov_graficos_min": 10.8,
+   "ov_palabras_clave": 21,
+   "sfx_min": 16.2,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 0.94,
+   "rel": 0.86,
    "maduro": true,
    "vistas": 4846,
    "rel_red": {
-    "tiktok": 0.94,
-    "instagram": 0.88,
-    "youtube": 1.71
+    "tiktok": 0.86,
+    "instagram": 0.86,
+    "youtube": 1.24
    },
    "com_mil": 1.24,
    "comp_mil": 0.0,
@@ -1800,7 +4815,7 @@
    "parte2": false,
    "titulo_pregunta": false,
    "titulo_cifra": false,
-   "duracion": 71.3,
+   "duracion": 72.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 228,
@@ -1809,15 +4824,39 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.57,
+   "voz_silencio": 11.5,
+   "voz_pausas_min": 19.1,
+   "voz_pausa_max": 0.73,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.4,
+   "cam_claves": 14,
+   "cam_cada": 5.15,
+   "cam_inicio_dist": 11.4,
+   "cam_lente_max": 36,
+   "obj_piezas": 16,
+   "obj_animaciones": 2,
+   "obj_cortes": 2,
+   "ov_etiquetas": 5,
+   "ov_contadores": 0,
+   "ov_graficos_min": 5.8,
+   "ov_palabras_clave": 17,
+   "sfx_min": 6.7,
+   "sfx_variedad": 5,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
    "estado": "programado",
    "creado": "2026-11-03",
    "rel": 0.85,
    "maduro": true,
    "vistas": 3508,
    "rel_red": {
-    "tiktok": 0.84,
+    "tiktok": 0.78,
     "instagram": 0.85,
-    "youtube": 0.91
+    "youtube": 0.93
    },
    "com_mil": 0.0,
    "comp_mil": 0.29,
@@ -1833,7 +4872,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 76.2,
+   "duracion": 76.9,
    "gancho": null,
    "rehacer": 0,
    "palabras": 236,
@@ -1842,15 +4881,39 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.4,
+   "voz_silencio": 9.8,
+   "voz_pausas_min": 15.6,
+   "voz_pausa_max": 0.67,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.4,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.4,
+   "cam_claves": 8,
+   "cam_cada": 9.61,
+   "cam_inicio_dist": 9.0,
+   "cam_lente_max": 38,
+   "obj_piezas": 18,
+   "obj_animaciones": 7,
+   "obj_cortes": 4,
+   "ov_etiquetas": 6,
+   "ov_contadores": 0,
+   "ov_graficos_min": 9.4,
+   "ov_palabras_clave": 18,
+   "sfx_min": 7.0,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.0,
+   "rel": 1.03,
    "maduro": true,
    "vistas": 3874,
    "rel_red": {
-    "tiktok": 0.84,
-    "instagram": 1.0,
-    "youtube": 1.01
+    "tiktok": 0.85,
+    "instagram": 1.04,
+    "youtube": 1.03
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -1866,7 +4929,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 69.9,
+   "duracion": 70.3,
    "gancho": null,
    "rehacer": 0,
    "palabras": 234,
@@ -1875,15 +4938,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.59,
+   "voz_silencio": 7.1,
+   "voz_pausas_min": 12.0,
+   "voz_pausa_max": 0.73,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.8,
+   "voz_expresividad": 2.4,
+   "voz_gancho": 0.0,
+   "cam_claves": 16,
+   "cam_cada": 4.39,
+   "cam_lente_max": 35,
+   "obj_piezas": 18,
+   "obj_animaciones": 14,
+   "obj_cortes": 1,
+   "ov_etiquetas": 4,
+   "ov_contadores": 0,
+   "ov_graficos_min": 8.5,
+   "ov_palabras_clave": 17,
+   "sfx_min": 7.7,
+   "sfx_variedad": 6,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 0.99,
+   "rel": 1.01,
    "maduro": true,
    "vistas": 3000,
    "rel_red": {
-    "tiktok": 0.99,
+    "tiktok": 1.01,
     "instagram": 0.11,
-    "youtube": 1.25
+    "youtube": 1.27
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -1899,7 +4985,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 68.9,
+   "duracion": 69.1,
    "gancho": null,
    "rehacer": 0,
    "palabras": 234,
@@ -1908,15 +4994,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.73,
+   "voz_silencio": 9.2,
+   "voz_pausas_min": 15.6,
+   "voz_pausa_max": 0.53,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.8,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.5,
+   "cam_claves": 16,
+   "cam_cada": 4.32,
+   "cam_lente_max": 46,
+   "obj_piezas": 22,
+   "obj_animaciones": 9,
+   "obj_cortes": 1,
+   "ov_etiquetas": 3,
+   "ov_contadores": 0,
+   "ov_graficos_min": 8.7,
+   "ov_palabras_clave": 21,
+   "sfx_min": 6.1,
+   "sfx_variedad": 4,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 2.65,
+   "rel": 2.7,
    "maduro": true,
    "vistas": 12480,
    "rel_red": {
-    "tiktok": 2.65,
-    "instagram": 1.07,
-    "youtube": 5.5
+    "tiktok": 2.7,
+    "instagram": 1.12,
+    "youtube": 5.62
    },
    "com_mil": 0.48,
    "comp_mil": 0.16,
@@ -1932,7 +5041,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 73.7,
+   "duracion": 74.5,
    "gancho": null,
    "rehacer": 0,
    "palabras": 233,
@@ -1941,15 +5050,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.46,
+   "voz_silencio": 9.7,
+   "voz_pausas_min": 15.3,
+   "voz_pausa_max": 0.69,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.5,
+   "voz_expresividad": 2.1,
+   "voz_gancho": 0.7,
+   "cam_claves": 18,
+   "cam_cada": 4.14,
+   "cam_lente_max": 46,
+   "obj_piezas": 22,
+   "obj_animaciones": 11,
+   "obj_cortes": 1,
+   "ov_etiquetas": 5,
+   "ov_contadores": 0,
+   "ov_graficos_min": 9.7,
+   "ov_palabras_clave": 20,
+   "sfx_min": 11.3,
+   "sfx_variedad": 5,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.71,
+   "rel": 1.75,
    "maduro": true,
    "vistas": 8398,
    "rel_red": {
-    "tiktok": 4.3,
-    "instagram": 1.08,
-    "youtube": 1.71
+    "tiktok": 4.43,
+    "instagram": 1.13,
+    "youtube": 1.75
    },
    "com_mil": 0.24,
    "comp_mil": 0.6,
@@ -1965,7 +5097,7 @@
    "parte2": false,
    "titulo_pregunta": true,
    "titulo_cifra": false,
-   "duracion": 72.1,
+   "duracion": 71.9,
    "gancho": null,
    "rehacer": 0,
    "palabras": 243,
@@ -1974,15 +5106,38 @@
    "cotidiano": null,
    "ensenar": null,
    "primer_segundo": null,
+   "voz_ritmo": 3.69,
+   "voz_silencio": 8.4,
+   "voz_pausas_min": 16.7,
+   "voz_pausa_max": 0.43,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.1,
+   "voz_gancho": 0.5,
+   "cam_claves": 17,
+   "cam_cada": 4.23,
+   "cam_lente_max": 36,
+   "obj_piezas": 23,
+   "obj_animaciones": 7,
+   "obj_cortes": 1,
+   "ov_etiquetas": 5,
+   "ov_contadores": 0,
+   "ov_graficos_min": 7.5,
+   "ov_palabras_clave": 23,
+   "sfx_min": 6.7,
+   "sfx_variedad": 5,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.08,
+   "rel": 1.11,
    "maduro": true,
    "vistas": 8152,
    "rel_red": {
-    "tiktok": 0.95,
-    "instagram": 1.08,
-    "youtube": 3.7
+    "tiktok": 0.98,
+    "instagram": 1.11,
+    "youtube": 3.77
    },
    "com_mil": 0.0,
    "comp_mil": 0.37,

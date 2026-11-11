@@ -21,7 +21,7 @@ const hoyISO=()=>new Date().toISOString();
 async function cargarOficina(){
   const [o,d]=await Promise.all([json("produccion/oficina.json",{opcional:true,ttl:15000}),json("produccion/oficina_datos.json",{opcional:true,ttl:30000})]);
   OFI=o||{equipo:[],actividad:[],manual:[],reuniones:[],predicciones:{},encargos:[],paid:[]};OFD=d||{};
-  for(const k of ["actividad","manual","reuniones","encargos","paid"])OFI[k]=OFI[k]||[];OFI.predicciones=OFI.predicciones||{};
+  for(const k of ["actividad","manual","reuniones","encargos","paid","experimentos","diario"])OFI[k]=OFI[k]||[];OFI.predicciones=OFI.predicciones||{};
   return [OFI,OFD];
 }
 function pendientesOficina(){
@@ -36,15 +36,18 @@ async function vistaOfi(sub){
   const pend=pendientesOficina();contarSeccion("ofi",pend.total);
   acciones(`<span class="mut peq" style="align-self:center">${OFD.actualizado?"Datos "+hace(OFD.actualizado):"Sin datos todavía"}</span><button class="btn" onclick="nuevoEncargo()">${ic("send","s")}Encargar algo</button>`);
   const nMan=OFI.manual.filter(m=>m.estado==="propuesta").length;
-  let h=segmentos("ofi",[["equipo","Equipo"],["manual","Manual vivo",nMan],["reuniones","Reuniones"],["encargos","Encargos",pend.enc],["promocion","Promoción",pend.paid],["predicciones","Predicciones"],["actividad","Actividad"]],sub);
+  const nExp=(OFI.experimentos||[]).filter(x=>x.estado==="activo").length;
+  let h=segmentos("ofi",[["equipo","Oficina 3D"],["mejora","Mejora diaria",nExp],["manual","Manual vivo",nMan],["reuniones","Reuniones"],["encargos","Encargos",pend.enc],["promocion","Promoción",pend.paid],["predicciones","Predicciones"],["actividad","Actividad"]],sub);
   if(sub==="manual")h+=ofiManual();
   else if(sub==="reuniones")h+=ofiReuniones();
   else if(sub==="encargos")h+=ofiEncargos();
   else if(sub==="promocion")h+=ofiPromocion();
   else if(sub==="predicciones")h+=ofiPredicciones();
   else if(sub==="actividad")h+=ofiActividad();
+  else if(sub==="mejora")h+=ofiMejora();
   else h+=ofiEquipo();
   app.innerHTML=h;animarKpis();
+  if(!sub||sub==="equipo")despuesDePintar=()=>mundo3d($("#ofi3d"));
 }
 
 // ── Equipo ──
@@ -57,14 +60,16 @@ function ofiEquipo(){
   const accs=Object.values(rep).filter(r=>r.n);const accMed=accs.length?accs.reduce((s,r)=>s+r.aciertos,0)/accs.reduce((s,r)=>s+r.n,0):null;
   let h=`<div class="grid g4">${kpi("Tareas en la mesa",pendTot,"sumando los 9 puestos","list")}${kpi("Reglas aprendidas",leyes,`${hip} más en prueba`,"book")}${kpi("Mejoras propuestas",OFI.actividad.filter(a=>a.tipo==="mejora"||a.tipo==="propuesta").length,"entre compañeros","idea")}
    <div class="card kpi fade"><div class="lab">${ic("users","s")}Próxima reunión</div><div class="val" style="font-size:22px">${fmtDiaC(pr)}</div><div class="pie">${ult?`Última: ${fmtDiaC(ult.fecha)}`:"Será la primera"}${accMed!=null?` · aciertan el ${pct(accMed,0)}`:""}</div></div></div>`;
+  h=mundoHTML()+h;
   h+=`<div class="card fade ofi-flujo-card"><div class="h3">${ic("refresh")}Cómo se pasa el trabajo<span class="sub">Cada entrega la revisan dos compañeros antes de llegarte; tú decides en los tres puntos amarillos</span></div>${flujoOficina()}</div>`;
-  h+=`<div class="ofi-equipo">`+OFI.equipo.map(e=>{const p=P_[e.id]||{},k=p.kpi,r=rep[e.id]||{},act=OFI.actividad.filter(a=>a.rol===e.id).slice(-1)[0];
+  h+=`<div class="h3 ofi-subt">${ic("users")}Fichas del equipo<span class="sub">Toca una para ver todo lo que hace</span></div><div class="ofi-equipo">`+OFI.equipo.map(e=>{const p=P_[e.id]||{},k=p.kpi,r=rep[e.id]||{},act=OFI.actividad.filter(a=>a.rol===e.id).slice(-1)[0];
     const niv=kpiNivel(k),ancho=k?.valor!=null&&k.meta?Math.min(100,k.valor/k.meta*100):0;
     return `<button class="card ofi-tarj fade" style="--c:${e.color}" onclick="verPuesto('${e.id}')">
      <div class="ofi-cab">${avatarRol(e.id,42)}<div style="min-width:0;flex:1"><b>${esc(e.nombre)}</b><small>${esc(e.puesto)}</small></div>${p.pendiente?`<span class="badge" title="Tareas pendientes">${p.pendiente}</span>`:""}</div>
      <div class="ofi-ahora">${ic("clock","s")}<span>${esc(p.ahora||"Esperando datos de la próxima pasada")}</span></div>
      ${k?`<div class="ofi-kpi"><div><small>${esc(k.nombre)}</small><b class="${niv}">${fmtKpi(k)}</b>${k.meta!=null?`<small> / objetivo ${fmtKpi({...k,valor:k.meta})}</small>`:""}</div>${k.meta!=null?`<div class="barra"><i class="${niv}" style="width:${ancho}%"></i></div>`:""}<small class="mut">${esc(k.pie||"")}</small></div>`:""}
      <div class="ofi-pie"><span title="Peso de su voto en las reuniones (sube si acierta sus predicciones)">${ic("star","s")}voto ×${String(r.peso??1).replace(".",",")}</span><span>${r.n?`acierta ${r.aciertos}/${r.n}`:"sin predicciones aún"}</span><span class="ofi-revisa">revisa a ${(e.revisa||[]).map(x=>avatarRol(x,20)).join("")}</span></div>
+     ${p.foco?`<div class="ofi-foco">${ic("spark","s")}<span>${esc(p.foco)}</span></div>`:""}
      ${act?`<div class="ofi-ult">«${esc(act.texto.slice(0,140))}${act.texto.length>140?"…":""}»<small>${hace(act.fecha)}</small></div>`:""}
     </button>`}).join("")+`</div>`;
   if((OFD.segundas_partes||[]).length)h+=`<div class="card fade"><div class="h3">${ic("rocket")}Piden segunda parte<span class="sub">Más de 10 veces lo normal: el equipo de Estrategia la propondrá en la próxima pasada</span></div>${OFD.segundas_partes.map(s=>`<div class="fila">${redPill(s.red)}<span class="t"><b>${esc(s.titulo||s.video)}</b><small>${fmtX(s.rel)} lo normal · ${fmtN(s.vistas)} vistas</small></span></div>`).join("")}</div>`;
@@ -215,3 +220,30 @@ function bloqueOficina(v){
    ${seo?`<label>Títulos por red (SEO)</label>${REDES.filter(r=>seo[r]).map(r=>`<div class="fila">${redPill(r)}<span class="t"><span class="ofi-txt"><b class="ofi-de">${esc(seo[r].titulo||v.titulo)}</b> ${esc(seo[r].texto||"")}</span>${(seo[r].tags||[]).length?`<small>${seo[r].tags.map(t=>"#"+esc(t)).join(" ")}</small>`:""}</span></div>`).join("")}`:""}
   </details>`;
 }
+
+// ── Mejora diaria ──
+function ofiMejora(){
+  const M=OFD.mejora||{},hall=M.hallazgos||[],recs=M.recomendaciones||{},evx=M.experimentos||{},ref=M.referencia||{},met=M.metricas||{};
+  const exps=[...(OFI.experimentos||[])].reverse(),diario=[...(OFI.diario||[])].reverse();
+  let h=`<div class="msg info">${ic("spark","s")}<div><b>Así se mejora sola la oficina, cada día.</b> El auditor mide la voz (ritmo, pausas, energía del gancho), la escena 3D (cámara, primeros planos, animaciones), los gráficos (contadores, etiquetas) y el sonido (efectos) de los ${M.medidos||0} vídeos, y lo cruza con las vistas frente a lo normal de su semana. Cada pasada, los puestos aplican lo que funciona, prueban un cambio nuevo y apuntan lo aprendido.</div></div>`;
+  // diario
+  h+=`<div class="card fade"><div class="h3">${ic("report")}Diario de mejora<span class="sub">Lo que la oficina aprende y cambia en cada pasada</span></div>${diario.length?diario.slice(0,7).map((d,k)=>`<details ${k===0?"open":""} class="ofi-diario"><summary><b>${fmtDiaC(d.fecha)}</b> · ${esc(d.resumen||"")}</summary>
+    ${(d.aprendido||[]).length?`<label>Aprendido</label><ul class="ofi-lista">${d.aprendido.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+    ${(d.cambios||[]).length?`<label>Cambios aplicados</label>${d.cambios.map(c=>`<div class="fila">${avatarRol(c.rol,26)}<span class="t"><span class="ofi-txt">${esc(c.texto)}</span></span></div>`).join("")}`:""}</details>`).join(""):`<p class="mut peq">La primera entrada llegará con la próxima pasada (${fmtHora(proximaPasada())}).</p>`}</div>`;
+  // hallazgos
+  h+=`<div class="card fade"><div class="h3">${ic("eye")}Lo que tienen los vídeos que funcionan<span class="sub">Mitad por encima de la mediana frente a mitad por debajo · se recalcula con cada recogida</span></div>${hall.length?hall.map((x,i)=>{const r=rolDe(x.rol);const ya=OFI.manual.some(m=>m.filtro?.campo===x.metrica);return `<div class="ofi-hall">${avatarRol(x.rol,32)}<div style="flex:1;min-width:0"><span class="ofi-txt">${esc(x.texto)}</span><small class="mut">${esc(r.nombre)} · ${x.n_si}+${x.n_no} vídeos${x.sorpresa?` · <span class="pill warn">sorpresa</span>`:""}</small><div class="barra" style="margin-top:6px;max-width:360px"><i style="width:${Math.min(100,(x.ratio-1)/2*100)}%"></i></div></div><b class="num">${fmtX(x.ratio)}</b>${ya?`<span class="pill ok">en el Manual</span>`:`<button class="btn sec peq" onclick="hallazgoARegla(${i})">${ic("plus","s")}Probar como regla</button>`}</div>`}).join(""):vacio("eye","Aún no hay hallazgos","Hacen falta al menos 8 vídeos medidos con 48 h publicados.")}</div>`;
+  // experimentos
+  h+=`<div class="card fade"><div class="h3">${ic("dice")}Experimentos<span class="sub">Un cambio concreto que se prueba en los próximos vídeos y se juzga solo con los datos</span></div>${exps.length?exps.map(x=>{const e=evx[x.id]||{},est=x.estado==="activo"?(e.veredicto||"esperando"):x.estado;const cl={ganado:"ok",perdido:"err",neutro:"warn"}[est]||"";
+    return `<div class="fila">${avatarRol(x.rol,30)}<span class="t"><span class="ofi-txt"><b class="ofi-de">${esc(x.cambio||"")}</b>${x.hipotesis?` · ${esc(x.hipotesis)}`:""}</span><small>${esc(rolDe(x.rol).nombre)} · desde ${x.desde?fmtDiaC(x.desde):"—"} · ${(x.videos||[]).length} vídeos${e.maduros?` · ${e.maduros} con datos, mediana ${fmtX(e.mediana)}`:""}${x.conclusion?` · ${esc(x.conclusion)}`:""}</small></span><span class="pill ${cl}">${{activo:"En marcha",esperando:"Esperando datos",ganado:"Funciona",perdido:"No funciona",neutro:"Sin efecto"}[est]||esc(est)}</span></div>`}).join(""):`<p class="mut peq">La próxima pasada abrirá el primero con el hallazgo más fuerte.</p>`}</div>`;
+  // por vídeo
+  const vivos=Object.keys(recs).map(id=>({v:PROD.find(x=>x.id===id),id,r:recs[id]})).filter(x=>x.v).sort((a,b)=>(["propuesto","aprobado","voz","rehacer","escena","revision"].indexOf(a.v.estado)+1||9)-(["propuesto","aprobado","voz","rehacer","escena","revision"].indexOf(b.v.estado)+1||9));
+  h+=`<div class="card fade"><div class="h3">${ic("film")}Qué potenciar y qué corregir, vídeo a vídeo<span class="sub">Vídeos en marcha y publicados esta semana</span></div>${vivos.length?vivos.slice(0,14).map(({v,r})=>{const mal=r.filter(x=>x.tipo==="mejorar"),bien=r.filter(x=>x.tipo==="potenciar");
+    return `<details class="ofi-diario"><summary><b>${esc(v.titulo)}</b> <span class="pill">${esc(FASES[v.estado]||v.estado)}</span> <span class="pill ${mal.length?"warn":"ok"}">${mal.length} por mejorar</span> <span class="pill ok">${bien.length} bien</span></summary>${[...mal,...bien].map(x=>`<div class="fila">${avatarRol(x.rol,26)}<span class="t"><span class="ofi-txt"><span class="pill ${x.tipo==="mejorar"?"warn":"ok"}">${x.tipo==="mejorar"?"Mejorar":"Potenciar"}</span> ${esc(x.texto)}</span></span></div>`).join("")}</details>`}).join(""):`<p class="mut peq">Sin vídeos que revisar ahora mismo.</p>`}</div>`;
+  // referencia
+  const filas=Object.entries(ref).filter(([k])=>met[k]);
+  if(filas.length)h+=`<div class="card fade"><div class="h3">${ic("star")}Así son tus mejores vídeos<span class="sub">Mediana del mejor cuarto frente al resto</span></div><div class="tablewrap"><table><thead><tr><th>Medida</th><th>Puesto</th><th>Mejor cuarto</th><th>Resto</th></tr></thead><tbody>${filas.map(([k,v])=>`<tr><td>${esc(met[k].nombre)}</td><td>${avatarRol(met[k].rol,22)} ${esc(rolDe(met[k].rol).nombre)}</td><td><b>${String(v.top).replace(".",",")}</b> ${esc(met[k].unidad||"")}</td><td>${String(v.resto).replace(".",",")} ${esc(met[k].unidad||"")}</td></tr>`).join("")}</tbody></table></div></div>`;
+  return h;
+}
+async function hallazgoARegla(i){const x=(OFD.mejora?.hallazgos||[])[i];if(!x)return;
+  const filtro=x.umbral==null?{campo:x.metrica,igual:x.direccion==="mas"}:{campo:x.metrica,[x.direccion==="mas"?"mayor":"menor"]:x.umbral};
+  await accion(()=>editarJson("produccion/oficina.json",d=>{(d.manual=d.manual||[]).push({id:"m"+Date.now().toString(36),texto:x.texto,estado:"hipotesis",por:x.rol,creada:hoyISO().slice(0,10),origen:`Auditoría técnica: ${fmtX(x.ratio)} con ${x.n_si}+${x.n_no} vídeos`,filtro})},"Panel: hallazgo técnico al Manual [skip ci]"),"En prueba en el Manual vivo.")}

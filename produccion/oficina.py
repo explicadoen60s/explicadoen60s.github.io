@@ -190,7 +190,7 @@ def buscar(idx, texto):
     return None
 
 
-def unir(est, st, cal=()):
+def unir(est, st, cal=(), aud=None):
     """Une cada vídeo de estado.json con sus publicaciones en las 3 redes (por título, pie o calendario)."""
     idx = indice(est, cal)
     medianas, inter_med = {}, {}
@@ -199,6 +199,14 @@ def unir(est, st, cal=()):
         vs = [x for x in (st.get("videos") or {}).get(r, []) if (x.get("vistas") or 0) > 0]
         medianas[r] = mediana([x["vistas"] for x in vs]) or 1
         ints = []
+        fechas = [(fecha(x.get("fecha")), x["vistas"]) for x in vs]
+
+        def normal(f0):
+            """«Lo normal» para un vídeo: mediana de su red entre los publicados ±5 días (la cuenta crece rápido)."""
+            if not f0:
+                return medianas[r]
+            cerca = [vv for ff, vv in fechas if ff and abs((ff - f0).total_seconds()) <= 5 * 86400]
+            return (mediana(cerca) if len(cerca) >= 5 else None) or medianas[r]
         for x in vs:
             i = ((x.get("likes") or 0) + 2 * (x.get("comentarios") or 0) + 3 * (x.get("compartidos") or 0) + 2 * (x.get("guardados") or 0)) / x["vistas"]
             ints.append(i)
@@ -206,7 +214,7 @@ def unir(est, st, cal=()):
             pubs.append({"red": r, "id": x.get("id"), "titulo": x.get("titulo"), "url": x.get("url"), "fecha": x.get("fecha"),
                          "vistas": x["vistas"], "comentarios": x.get("comentarios") or 0, "compartidos": x.get("compartidos") or 0,
                          "guardados": x.get("guardados") or 0, "likes": x.get("likes") or 0, "inter": i,
-                         "rel": x["vistas"] / medianas[r], "horas": (AHORA - f).total_seconds() / 3600 if f else None,
+                         "rel": x["vistas"] / normal(f), "horas": (AHORA - f).total_seconds() / 3600 if f else None,
                          "video": buscar(idx, x.get("titulo"))})
         inter_med[r] = mediana(ints)
     vids = []
@@ -215,7 +223,9 @@ def unir(est, st, cal=()):
         mad = [p for p in ps if p["horas"] is not None and p["horas"] >= MADURO_H]
         rel = mediana([p["rel"] for p in mad])
         V = sum(p["vistas"] for p in ps)
+        tec = {k: x for k, x in ((aud or {}).get(v["id"]) or {}).items() if k != "huella"}
         vids.append(rasgos(v, {
+            **tec,
             "estado": v.get("estado"), "creado": v.get("creado"),
             "rel": r2(rel), "maduro": bool(mad), "vistas": V,
             "rel_red": {p["red"]: r2(p["rel"]) for p in ps},
@@ -279,6 +289,101 @@ SENALES = [  # rasgos que se prueban solos cada hora para dar ideas de reglas a 
     ("Regla «cotidiano» con 9 o más", {"campo": "cotidiano", "mayor": 8}),
     ("Necesitó correcciones", {"campo": "rehacer", "mayor": 0}),
 ]
+
+
+# ───────────────────────── Mejora continua: qué tienen los vídeos que funcionan ─────────────────────────
+MIN_LADO = 4   # vídeos mínimos a cada lado de la mediana para dar un hallazgo
+
+
+def fmt_num(x, u=""):
+    if x is None:
+        return "—"
+    if float(x).is_integer() and abs(x) >= 1:
+        x = int(x)
+        return f"{x}" + (f" {u}" if u and u != "%" else u)
+    t = (f"{x:.0f}" if abs(x) >= 20 else f"{x:.1f}" if abs(x) >= 2 else f"{x:.2f}").replace(".", ",")
+    return t + (f" {u}" if u and u not in ("%",) else u)
+
+
+def hallazgos(maduros, metricas, banderas):
+    """Para cada medida técnica: ¿rinden más los vídeos por encima o por debajo de la mediana?"""
+    out = []
+    for k, m in metricas.items():
+        xs = [v[k] for v in maduros if isinstance(v.get(k), (int, float))]
+        if len(xs) < 2 * MIN_LADO:
+            continue
+        med = mediana(xs)
+        if med is None or len(set(xs)) < 3:
+            continue
+        e = evidencia([v for v in maduros if isinstance(v.get(k), (int, float))], {"campo": k, "mayor": med})
+        if e["n_si"] < MIN_LADO or e["n_no"] < MIN_LADO or e["ratio"] is None:
+            continue
+        if e["ratio"] >= 1.2:
+            dire = "mas"
+        elif e["ratio"] <= 0.85:
+            dire = "menos"
+        else:
+            continue
+        fuerza = abs(math.log(e["ratio"])) * math.sqrt(min(e["n_si"], e["n_no"]))
+        lado = "más de" if dire == "mas" else "menos de"
+        mejor = e["med_si"] if dire == "mas" else e["med_no"]
+        peor = e["med_no"] if dire == "mas" else e["med_si"]
+        sorpresa = m.get("mejor") and m["mejor"] != dire
+        out.append({"metrica": k, "nombre": m["nombre"], "rol": m["rol"], "unidad": m.get("unidad", ""), "umbral": r2(med),
+                    "direccion": dire, "ratio": r2(max(e["ratio"], 1 / e["ratio"])), "n_si": e["n_si"], "n_no": e["n_no"],
+                    "fuerza": r2(fuerza), "sorpresa": bool(sorpresa),
+                    "texto": f"{m['nombre']}: los vídeos con {lado} {fmt_num(med, m.get('unidad', ''))} rinden "
+                             f"{fmt_num(mejor)}× lo normal, frente a {fmt_num(peor)}× los demás"
+                             + (" (al revés de lo que se esperaba)" if sorpresa else "") + "."})
+    for k, (nom, rol) in banderas.items():
+        e = evidencia(maduros, {"campo": k, "igual": True})
+        if e["veredicto"] in ("a_favor", "en_contra"):
+            dire = "mas" if e["veredicto"] == "a_favor" else "menos"
+            out.append({"metrica": k, "nombre": nom, "rol": rol, "unidad": "", "umbral": None, "direccion": dire,
+                        "ratio": r2(max(e["ratio"], 1 / e["ratio"])), "n_si": e["n_si"], "n_no": e["n_no"],
+                        "fuerza": r2(abs(math.log(e["ratio"])) * math.sqrt(min(e["n_si"], e["n_no"]))), "sorpresa": False,
+                        "texto": f"{nom}: {'rinde' if dire == 'mas' else 'no rinde'} ({fmt_num(e['med_si'])}× frente a {fmt_num(e['med_no'])}×)."})
+    out.sort(key=lambda h: -h["fuerza"])
+    return out
+
+
+def recomendaciones(vids, hall, metricas):
+    """Qué mejorar en los vídeos en marcha y recién publicados, y qué potenciar del mejor de la semana."""
+    rec = {}
+    vivos = [v for v in vids if v.get("estado") in ("propuesto", "aprobado", "voz", "escena", "rehacer", "revision")
+             or (v.get("publicado") and fecha(v["publicado"]) and fecha(v["publicado"]) > AHORA - timedelta(days=7))]
+    for v in vivos:
+        items = []
+        for h in hall:
+            x = v.get(h["metrica"])
+            if h["umbral"] is None or not isinstance(x, (int, float)):
+                continue
+            malo = x <= h["umbral"] if h["direccion"] == "mas" else x > h["umbral"]
+            u = h["unidad"]
+            if malo:
+                items.append({"rol": h["rol"], "tipo": "mejorar", "metrica": h["metrica"],
+                              "texto": f"{h['nombre']}: {fmt_num(x, u)}. Los que funcionan van {'por encima' if h['direccion'] == 'mas' else 'por debajo'} de {fmt_num(h['umbral'], u)} ({fmt_num(h['ratio'])}× más vistas)."})
+            else:
+                items.append({"rol": h["rol"], "tipo": "potenciar", "metrica": h["metrica"],
+                              "texto": f"{h['nombre']}: {fmt_num(x, u)}, en el lado bueno. Mantenlo."})
+        if items:
+            rec[v["id"]] = items[:8]
+    return rec
+
+
+def evaluar_experimentos(exps, por_id):
+    """Un experimento compara sus vídeos con lo normal (1×) cuando ya llevan 48 h publicados."""
+    out = {}
+    for x in exps or []:
+        vs = [por_id[i] for i in x.get("videos", []) if i in por_id]
+        mad = [v["rel"] for v in vs if v.get("maduro") and v.get("rel") is not None]
+        if not mad:
+            out[x["id"]] = {"maduros": 0, "total": len(vs), "veredicto": "esperando"}
+            continue
+        m = mediana(mad)
+        ver = "esperando" if len(mad) < 2 else "ganado" if m >= 1.2 else "perdido" if m < 0.85 else "neutro"
+        out[x["id"]] = {"maduros": len(mad), "total": len(vs), "mediana": r2(m), "veredicto": ver}
+    return out
 
 
 # ───────────────────────── Predicciones y reputación ─────────────────────────
@@ -379,9 +484,10 @@ def calcular():
     com = leer("programador/comunidad.json", {})
     coman = leer("produccion/comunidad_analisis.json", {})
     cal = leer("programador/calendario.json", {"posts": []}).get("posts", [])
+    aud = leer("produccion/auditoria.json", {})
     equipo = ofi.get("equipo", [])
 
-    vids, pubs, medianas, inter_med = unir(est, st, cal)
+    vids, pubs, medianas, inter_med = unir(est, st, cal, aud.get("videos"))
     por_id = {v["id"]: v for v in vids}
     maduros = [v for v in vids if v["maduro"] and v["rel"] is not None]
 
@@ -439,12 +545,35 @@ def calcular():
             vistos.add(s["video"])
             segundas_u.append(s)
 
+    hall = hallazgos(maduros, aud.get("metricas") or {}, {k: (b["nombre"], b["rol"]) for k, b in (aud.get("banderas") or {}).items()})
+    recs = recomendaciones(vids, hall, aud.get("metricas") or {})
+    exps = evaluar_experimentos(ofi.get("experimentos"), por_id)
+    # foco de cada puesto: su hallazgo más fuerte
+    foco = {}
+    for h in hall:
+        foco.setdefault(h["rol"], h)
+    # referencia técnica: mediana de cada medida en el mejor cuarto de vídeos frente al resto
+    ref = {}
+    if len(maduros) >= 8:
+        corte = sorted(v["rel"] for v in maduros)[int(len(maduros) * 0.75)]
+        top = [v for v in maduros if v["rel"] >= corte]
+        resto = [v for v in maduros if v["rel"] < corte]
+        for k in (aud.get("metricas") or {}):
+            a = mediana([v[k] for v in top if isinstance(v.get(k), (int, float))])
+            b = mediana([v[k] for v in resto if isinstance(v.get(k), (int, float))])
+            if a is not None and b is not None:
+                ref[k] = {"top": r2(a), "resto": r2(b)}
+
     comp = {v["id"]: compuertas(v) for v in est if v.get("estado") in ("propuesto", "aprobado", "voz", "escena", "rehacer")}
 
+    pst = puestos(est, vids, pubs, medianas, inter_med, ofi, ideas, tend, com, coman, paid_cand, segundas_u)
+    for rol, h in foco.items():
+        if rol in pst:
+            pst[rol]["foco"] = h["texto"]
     datos = {
         "medianas": {r: r2(medianas[r], 0) for r in REDES},
         "maduros": len(maduros),
-        "puestos": puestos(est, vids, pubs, medianas, inter_med, ofi, ideas, tend, com, coman, paid_cand, segundas_u),
+        "puestos": pst,
         "manual": manual,
         "senales": senales,
         "reputacion": rep,
@@ -453,6 +582,8 @@ def calcular():
         "paid_resultados": paid_res,
         "segundas_partes": segundas_u[:6],
         "compuertas": comp,
+        "mejora": {"hallazgos": hall[:14], "recomendaciones": recs, "experimentos": exps, "foco": foco,
+                   "referencia": ref, "metricas": aud.get("metricas") or {}, "medidos": len(aud.get("videos") or {})},
         "videos": sorted([v for v in vids if v["vistas"]], key=lambda v: v.get("publicado") or "", reverse=True)[:60],
     }
     ruta = P("produccion/oficina_datos.json")
