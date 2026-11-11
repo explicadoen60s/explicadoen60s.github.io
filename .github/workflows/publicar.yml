@@ -29,7 +29,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install -q requests cryptography
+      - run: pip install -q requests cryptography playwright
       - name: Publicar lo que toca
         working-directory: programador
         env:
@@ -41,9 +41,18 @@ jobs:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
           TT_CLIENT_KEY: ${{ secrets.TT_CLIENT_KEY }}
           TT_CLIENT_SECRET: ${{ secrets.TT_CLIENT_SECRET }}
+          TT_SESSIONID: ${{ secrets.TT_SESSIONID }}
+          TT_COOKIES: ${{ secrets.TT_COOKIES }}
           GITHUB_TOKEN: ${{ github.token }}
           PROBAR: ${{ inputs.probar && '--probar' || '' }}
         run: python publicar.py $PROBAR
+      - name: Captura si TikTok falló
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-captura
+          path: /tmp/tiktok_fallo.png
+          if-no-files-found: ignore
       - name: Guardar estado
         if: always()
         run: |

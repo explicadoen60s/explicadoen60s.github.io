@@ -74,10 +74,15 @@ def main():
             res = red.publicar(p, nuevo)
             p["resultado"] = res
             p["publicado"] = ahora().isoformat()
+            if res.get("web") and not res.get("confirmado"):
+                issue(f"👀 Comprueba este TikTok: {p['titulo']}",
+                      f"{AVISAR_A} Se pulsó «Publicar» en TikTok Studio pero no llegó la confirmación. Mira tu perfil: "
+                      f"si no está, súbelo a mano con este texto:\n\n```\n{texto_completo(p)}\n```\n\nVídeo: {url_video(p['video'])}")
             if res.get("borrador"):
                 p["estado"] = "borrador"
+                motivo = (f"\n\n⚠️ No pude publicarlo solo: {res['aviso_web']}\n" if res.get("aviso_web") else "")
                 issue(f"📲 TikTok listo para publicar: {p['titulo']}",
-                      f"{AVISAR_A} El vídeo ya está en tu bandeja de TikTok (notificaciones → borradores).\n"
+                      f"{AVISAR_A} El vídeo ya está en tu bandeja de TikTok (notificaciones → borradores).{motivo}\n"
                       f"Ábrelo, pega este texto y publica:\n\n```\n{texto_completo(p)}\n```\n\n"
                       f"Vídeo: {url_video(p['video'])}\n\nCierra este aviso cuando lo hayas publicado.")
             else:
@@ -85,6 +90,8 @@ def main():
             print(f"OK {p['red']} {p['titulo']}: {res}")
         except Exception as e:
             p["intentos"] = p.get("intentos", 0) + 1
+            if type(e).__name__ == "TrasPulsar":   # puede haber salido: no se reintenta para no duplicarlo
+                p["intentos"] = MAX_INTENTOS
             p["ultimo_error"] = str(e)[:400]
             traceback.print_exc()
             if p["intentos"] >= MAX_INTENTOS:

@@ -1,0 +1,31 @@
+name: Probar TikTok web
+on: workflow_dispatch
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: programador}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q requests cryptography playwright
+      - working-directory: programador
+        env:
+          TT_SESSIONID: ${{ secrets.TT_SESSIONID || 'falso' }}
+          TT_COOKIES: ${{ secrets.TT_COOKIES }}
+        run: |
+          python - <<'PY'
+          import tiktok_web, re
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as p:
+              try: nav = p.chromium.launch(channel="chrome", headless=True); print("chrome ok")
+              except Exception as e: print("sin chrome", e); nav = p.chromium.launch(headless=True)
+              ctx = nav.new_context(user_agent=tiktok_web.UA, locale="es-ES", viewport={"width":1440,"height":960})
+              ctx.add_cookies(tiktok_web._cookies())
+              pg = ctx.new_page(); pg.goto(tiktok_web.URL_SUBIR, wait_until="domcontentloaded", timeout=90000); pg.wait_for_timeout(8000)
+              print("URL:", pg.url, "| inputs file:", pg.locator('input[type="file"]').count(), "| post btn:", pg.locator('button[data-e2e="post_video_button"]').count())
+              pg.screenshot(path="/tmp/tiktok_fallo.png")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with: {name: captura, path: /tmp/tiktok_fallo.png}

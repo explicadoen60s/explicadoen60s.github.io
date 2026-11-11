@@ -4,6 +4,7 @@ import json, os, time, urllib.parse, datetime as dt
 import requests
 
 from comun import secreto, descargar_video, url_directa, texto_completo, ahora
+import tiktok_web
 
 CALLBACK = "https://explicadoen60s.github.io/callback.html"
 IG_VERSION = "v23.0"
@@ -144,7 +145,7 @@ class InstagramSistema(Instagram):
 
 # ───────────────────────────── TikTok ─────────────────────────────
 class TikTok:
-    """Sube el vídeo a la bandeja de TikTok (borrador). Con la app auditada, cambiar a publicación directa."""
+    """Publica en TikTok con tu sesión en TikTok Studio (tiktok_web.py). Si no hay sesión o falla, lo deja en tu bandeja."""
     nombre = "tiktok"
 
     def _token(self, data):
@@ -166,6 +167,18 @@ class TikTok:
 
     def publicar(self, post, tok):
         ruta = descargar_video(post["video"])
+        aviso_web = None
+        if tiktok_web.hay_sesion():
+            try:
+                return tiktok_web.publicar_web(ruta, texto_completo(post))
+            except tiktok_web.TrasPulsar:
+                raise
+            except Exception as e:   # sesión caducada, TikTok cambió la web…: se manda a la bandeja como antes
+                aviso_web = str(e)[:300]
+                print("TikTok web falló, paso a la bandeja:", aviso_web)
+        return {**self._bandeja(ruta, tok), **({"aviso_web": aviso_web} if aviso_web else {})}
+
+    def _bandeja(self, ruta, tok):
         tam = ruta.stat().st_size
         h = {"Authorization": f"Bearer {tok['access_token']}", "Content-Type": "application/json; charset=UTF-8"}
         r = _ok(requests.post("https://open.tiktokapis.com/v2/post/publish/inbox/video/init/", headers=h, json={
