@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| dom 08/11 | 18:00 | instagram | ChatGPT no piensa la frase entera: elige palabra a palabra 🤖 | [✅ publicado](https://www.instagram.com/reel/DffPod3CS6S/) |
-| dom 08/11 | 18:00 | tiktok | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | 📲 en tu bandeja de TikTok |
 | dom 08/11 | 21:00 | tiktok | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 01:02 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://www.instagram.com/reel/DfgAIVvjS74/) |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://www.instagram.com/reel/DfhCwhSDQD7/) |
@@ -32,8 +30,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 11/11 | 13:00 | tiktok | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 16:00 | tiktok | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://youtube.com/shorts/jKlLX1rjuJ0) |
-| mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | ⏳ pendiente |
-| mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
+| mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://www.instagram.com/reel/DfnDFSTgERI/) |
+| mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
 | jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |

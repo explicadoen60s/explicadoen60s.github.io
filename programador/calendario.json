@@ -2034,9 +2034,14 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18108568949204064",
+    "url": "https://www.instagram.com/reel/DfnDFSTgERI/"
+   },
+   "publicado": "2026-11-11T17:46:12.270803+00:00"
   },
   {
    "id": "spray-tiktok",
@@ -2052,9 +2057,15 @@
     "quimica",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7706971550877255702",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-11T17:46:53.781507+00:00"
   },
   {
    "id": "grifo-tiktok",
