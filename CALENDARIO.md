@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://www.instagram.com/reel/Dfh4U73FfqV/) |
-| lun 09/11 | 18:00 | tiktok | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | [✅ publicado](https://www.instagram.com/reel/DfjmZjHjtwO/) |
 | mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | 📲 en tu bandeja de TikTok |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://youtube.com/shorts/6IBJzgMPnr8) |
-| jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
-| jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | ⏳ pendiente |
+| jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://www.instagram.com/reel/DfpijJ9FCxD/) |
+| jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
 | jue 12/11 | 19:00 | tiktok | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
 | jue 12/11 | 19:00 | youtube | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |

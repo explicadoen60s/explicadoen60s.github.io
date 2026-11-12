@@ -2247,9 +2247,14 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18117037907031351",
+    "url": "https://www.instagram.com/reel/DfpijJ9FCxD/"
+   },
+   "publicado": "2026-11-12T16:59:38.233813+00:00"
   },
   {
    "id": "luces-tiktok",
@@ -2265,9 +2270,15 @@
     "casa",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707330418634639382",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-12T17:02:27.843815+00:00"
   },
   {
    "id": "repetidor-instagram",
