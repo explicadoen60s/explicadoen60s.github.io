@@ -2566,10 +2566,48 @@
     "Tenías cien megas. Pones un repetidor… y te quedan cincuenta."
    ],
    "guion": "Ese repetidor wifi que pusiste en el pasillo… puede estar cortándote la velocidad a la mitad. Vamos a ver por qué. Tu router lanza ondas hacia toda la casa. Pero cada pared se come parte de la señal. En la habitación del fondo, el móvil apenas recibe nada. Así que pones un repetidor a medio camino. Recoge la señal del router… y la vuelve a lanzar. Pero aquí está la trampa. Muchos repetidores tienen una sola radio. Y una radio puede escuchar o hablar, pero no las dos cosas a la vez. Primero recibe los datos de tu móvil. Luego se calla, y se los manda al router. Por el mismo canal, por turnos. Así que cada dato viaja dos veces por el aire. Si tenías cien megas, en el mejor caso te quedan unos cincuenta. Y aquí viene lo curioso… Si lo pones donde ya no llega el wifi, es todavía peor. El repetidor recibe una señal débil, y solo puede repetir lo poco que le llega. ¿Entonces dónde va? En un punto intermedio, donde el wifi aún llegue con fuerza. ¿Y si no quieres perder nada? Hay dos trucos. Uno: un repetidor que habla con el router por una banda… y contigo por la otra. Así no hay turnos. Dos: llevar la señal por cable hasta un segundo punto de acceso. Por el cable no hay esperas… y la velocidad llega casi entera. Sígueme para más.",
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-11",
    "aprobado": "2026-11-11T20:29:46.160Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "revisiones": [
+    {
+     "rol": "fotografia",
+     "veredicto": "cambios",
+     "nota": "Tres planos se quedaban mirando un tabique: el del repetidor en la habitación del fondo (la pared tapaba el aparato), la vuelta de la habitación al pasillo y el del cable, tapado por la planta.",
+     "propuesta": "Mirar el repetidor lejano desde dentro de la habitación, añadir un plano alto de paso entre la habitación y el pasillo, y subir el plano del cable por encima de la planta.",
+     "aplicada": true,
+     "respuesta": "Hecho; 37 claves de cámara (una cada 2,0 s), arranque a 2,5 m del repetidor emitiendo y la última clave igual a la primera.",
+     "fase": "escena"
+    },
+    {
+     "rol": "motion",
+     "veredicto": "cambios",
+     "nota": "Los anillos de onda eran toros escalados: a 7 m se volvían bandas gruesas marrones; y las caras que miran a +x salían oscuras con la luz por defecto.",
+     "propuesta": "Anillos fijos de radio creciente que se encienden al pasar el frente de onda (más débiles tras cada pared) y luz girada a -60°.",
+     "aplicada": true,
+     "respuesta": "Hecho; 10 contadores (100→50 Mb/s, % de señal tras las paredes, 2 viajes por dato, 15 % y 80 % de señal del repetidor, 95 y 97 Mb/s).",
+     "fase": "escena"
+    },
+    {
+     "rol": "editor",
+     "veredicto": "cambios",
+     "nota": "El repetidor aparecía 0,6 s tarde en «Así que pones un repetidor» y atravesaba el tabique al cambiarlo de sitio.",
+     "propuesta": "Que salte con el clic justo en «pones» y que pase por encima del tabique al moverse.",
+     "aplicada": true,
+     "respuesta": "Hecho; dura 72,8 s porque la voz ya estaba generada (el recorte acordado se aplica a los guiones nuevos).",
+     "fase": "escena"
+    },
+    {
+     "rol": "sonido",
+     "veredicto": "ok",
+     "nota": "42 efectos (34,6/min) de 10 tipos; los pitidos de escucha/habla siguen los turnos de la radio.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "",
+     "fase": "escena"
+    }
+   ]
   },
   {
    "id": "frenoavion",
