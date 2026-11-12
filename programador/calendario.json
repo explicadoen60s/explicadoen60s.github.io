@@ -2459,9 +2459,14 @@
     "obraspublicas",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18123819974284062",
+    "url": "https://www.instagram.com/reel/DfqBWpoFMi8/"
+   },
+   "publicado": "2026-11-12T21:28:53.471801+00:00"
   },
   {
    "id": "turia-tiktok",
@@ -2478,8 +2483,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261112212853F6DAB777A258F6E9BC16\"}}"
   },
   {
    "id": "turia-youtube",
@@ -2495,9 +2501,14 @@
     "obraspublicas",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "b84J1UrDbbQ",
+    "url": "https://youtube.com/shorts/b84J1UrDbbQ"
+   },
+   "publicado": "2026-11-12T21:28:56.020425+00:00"
   },
   {
    "id": "teclado-instagram",
