@@ -3513,7 +3513,7 @@
     "https://www.comunidad.madrid/node/60501",
     "https://www.comunidad.madrid/node/108977"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3551,6 +3551,42 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": "Cambiado a «casi siete millones de personas en la Comunidad de Madrid», que además corrige la cifra."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "A los 3,3 s la pared de la cocina tapaba medio plano; el globo salía cortado y la cámara se iba antes de «Australia».",
+     "propuesta": "Plano frontal de la cocina; globo más lejos y bajo la tarjeta; plano del globo hasta el final de «Australia».",
+     "aplicada": true,
+     "respuesta": "Cambiado y vuelto a renderizar."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "El agua del embalse parpadeaba, las flechas de presión se veían de frente y en «no se puede beber» solo se veía el muro.",
+     "propuesta": "Subir el embalse, ver las flechas de lado y hacer el plano más alto.",
+     "aplicada": true,
+     "respuesta": "Corregido."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Las pastillas de 180.000 m³ y 13 presas chocaban con la mini tarjeta y la de 7 millones quedaba bajo la tarjeta grande.",
+     "propuesta": "Ninguna pastilla a la izquierda de x=600 con la mini tarjeta; la de 7 millones fija a H*0,405.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "El auditor no veía los contadores porque la función se llamaba P().",
+     "propuesta": "Llamarla pastilla().",
+     "aplicada": true,
+     "respuesta": "Renombrada: 7 contadores."
     }
    ],
    "seo": {
