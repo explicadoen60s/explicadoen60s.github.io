@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T08:23:33+00:00",
+ "actualizado": "2026-11-12T09:12:33+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1553,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "8 escenas por plantear · 0 correcciones",
-   "pendiente": 8,
+   "ahora": "7 escenas por plantear · 0 correcciones",
+   "pendiente": 7,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": null,
@@ -31,8 +31,8 @@
    "foco": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,98× lo normal, frente a 0,97× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 8 mezclas por hacer",
-   "pendiente": 8,
+   "ahora": "0 voces generándose · 7 mezclas por hacer",
+   "pendiente": 7,
    "kpi": {
     "nombre": "Duración media",
     "valor": 68.9,
@@ -43,8 +43,8 @@
    "foco": "Tipos de efecto distintos: los vídeos con más de 7 rinden 1,98× lo normal, frente a 1,05× los demás."
   },
   "editor": {
-   "ahora": "1 en render · 0 esperando tu revisión",
-   "pendiente": 0,
+   "ahora": "1 en render · 1 esperando tu revisión",
+   "pendiente": 1,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
     "valor": 2.64,
@@ -55,8 +55,8 @@
    "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,50× lo normal, frente a 1,03× los demás."
   },
   "motion": {
-   "ahora": "8 capas de gráficos por montar",
-   "pendiente": 8,
+   "ahora": "7 capas de gráficos por montar",
+   "pendiente": 7,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.0,
@@ -347,7 +347,7 @@
    "vistas": 235993,
    "rel": 78.32,
    "inter": 0.0324,
-   "horas": 44,
+   "horas": 45,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -375,7 +375,7 @@
    "vistas": 40793,
    "rel": 19.17,
    "inter": 0.0292,
-   "horas": 84,
+   "horas": 85,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -434,38 +434,6 @@
   }
  ],
  "compuertas": {
-  "sifon": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "223 palabras (≈66 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "8 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
   "ticket": [
    {
     "nivel": "ok",
@@ -2561,16 +2529,52 @@
    ],
    "ticket": [
     {
-     "rol": "editor",
+     "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 63 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_lufs",
-     "texto": "Volumen de la voz: -15,7 LUFS, en el lado bueno. Mantenlo."
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 26, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 34 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 12. Los que funcionan van por encima de 15 (1,50× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 44 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
     }
    ],
    "paracaidas": [
