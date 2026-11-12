@@ -55,4 +55,7 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: comentarios por 1.000 vistas y comentario_en_escena. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Con vistas altas no llegan los comentarios solos: router (236.000 vistas, 0,11 comentarios/mil), tormentas (0,42) y ruedas (0,12) comparten muchas veces el vídeo (3,22 compartidos/mil en router) pero no escriben. El cierre debe pedir una respuesta concreta y corta, no solo '¿Te lo imaginabas?'. (2026-11-12)
+- Un vídeo muy compartido y poco comentado (router: 3,22 compartidos frente a 0,11 comentarios por 1.000 vistas) necesita un comentario fijado con una pregunta concreta, no solo la llamada del pie. (2026-11-12)
+- No hay datos de guardados ni envíos de Instagram en comunidad.json: para juzgar Instagram solo se pueden usar comentarios hasta que haya otra fuente. (2026-11-12)

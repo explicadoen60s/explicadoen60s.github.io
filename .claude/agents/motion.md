@@ -56,4 +56,9 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: ov_contadores, ov_etiquetas, ov_graficos_min, obj_animaciones. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Contadores y medidores: más de 3 por vídeo da 1,98× lo normal (1,05× con 3 o menos). Los mejores tienen 4,5 de media y más de 21,9 gráficos/min. No sirve acumularlos si el gancho es flojo: pistahielo tiene 8 contadores y hizo 0,53×. (2026-11-12)
+- Animaciones en escena: los mejores vídeos tienen 23,5 frente a 13 del resto, y el umbral es 15 (1,61× frente a 1,07×). Planifica al menos 15 animaciones por escena y apunta a 23. (2026-11-12)
+- Los vídeos con más de 3 contadores rinden 1,98× lo normal frente a 1,05×: el mínimo por escena pasa a 4. (2026-11-12)
+- Las pastillas van en el tercio superior, cerca de su pieza y fuera del eje central, para no chocar con el encuadre cerrado de fotografía. (2026-11-12)
+- KEYWORDS debe cubrir todas las piezas y cifras de la voz; el objetivo es llegar a 28 sin añadir palabras de relleno. (2026-11-12)

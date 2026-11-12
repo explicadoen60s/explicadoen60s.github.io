@@ -54,4 +54,6 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: palabras clave resaltadas y títulos. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- YouTube: pozo (pregunta con el objeto, 9,58×) y tormentas (2,63×) superan a los títulos de formato B («Si tuvieras que inventar…», mediana unos 0,8×). El título de YouTube debe empezar por la pregunta con el objeto, no por el formato. (2026-11-12)
+- Los vídeos con duración inferior a 71 s rinden 1,39× lo normal y los de 71 s o más, 1,07×. Los títulos de YouTube de los vídeos largos (turia 73,9 s, repetidor 72,8 s) necesitan la palabra buscada aún antes, porque el gancho tiene menos margen. (2026-11-12)

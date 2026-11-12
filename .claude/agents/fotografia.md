@@ -56,4 +56,7 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: cam_claves, cam_cada, cam_inicio_dist, cam_lente_max, obj_piezas, obj_cortes. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Cámara: objetivo por escena nueva de cam_cada ≤2,8 s (los mejores van a 2,77 s; menos de 3,05 s rinden 1,98×), más de 22 claves (los mejores, 24,5) y lente máxima de 40 mm o más. Arranque entre 2 y 6 m: `paraguas` a 0,5 m hizo 0,11×, así que muy cerca no basta si el objeto no se reconoce. (2026-11-12)
+- Techo de cam_cada 2,8 s y más de 22 claves por escena: los vídeos con menos de 3,0 s rinden 1,98× frente a 0,97×. (2026-11-12)
+- Cada cambio de plano debe documentarse (tiempo, pieza en primer plano, esquina libre) para que Gráficos y Sonido coloquen pastillas y whooshes sin tapar el mecanismo. (2026-11-12)

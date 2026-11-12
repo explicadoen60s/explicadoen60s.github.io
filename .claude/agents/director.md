@@ -56,4 +56,10 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: duración y palabras clave. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Los tres mayores éxitos (router 78,3×, tormentas 34,4×, ruedas 19,2×) abren con un objeto o lugar del espectador y una creencia o cifra comparada con algo suyo. Los B inventar-objeto de la última semana quedan en 0,11-0,28×. Empieza por la creencia equivocada, no por «Si tuvieras que inventar…». (2026-11-12)
+- Duración: los vídeos con menos de 71 s rinden 1,39× lo normal frente a 1,07×. Apunta a 205-225 palabras, no a 245, y quita cualquier frase que no se gane la siguiente. (2026-11-12)
+- Los guiones de menos de 71 s rinden 1,39× lo normal frente a 1,07×. Apunto a 205-220 palabras y nunca paso de 235. (2026-11-12)
+- Los C de ciudad y los A con una creencia que se desmonta superan 10×. Los B genéricos tienen una mediana de 0,28×, así que como máximo hago uno cada 8 guiones. (2026-11-12)
+- Los vídeos con más de 3 contadores rinden 1,98× frente a 1,05×. Cada guion lleva al menos 4 cifras que cambian. (2026-11-12)
+- La primera frase nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos, sin decir la cifra. (2026-11-12)

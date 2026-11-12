@@ -55,4 +55,7 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: voz_ritmo, voz_pausas_min, voz_pausa_max, voz_gancho, voz_expresividad, sfx_min, sfx_variedad. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Duración: los vídeos de menos de 71 s rinden 1,39× lo normal frente a 1,07×; con 4 de los últimos 9 por encima de 75 s, el tope del guion es 225 palabras. (2026-11-12)
+- Tipos de efecto distintos: más de 7 rinden 1,98× lo normal frente a 1,05×; más de 19,7 efectos/min, 1,61× frente a 1,05×. (2026-11-12)
+- Los vídeos con voz lenta (spray 3,48, carretera 3,41, pistahielo 3,34 palabras/s) fueron también los más largos: la duración depende del ritmo de voz tanto como del número de palabras. (2026-11-12)

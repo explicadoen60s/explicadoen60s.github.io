@@ -55,4 +55,8 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: los hallazgos de todos los puestos para elegir temas que se puedan enseñar así. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Los vídeos de mayor éxito (78×, 34×, 19×) corrigen una creencia sobre un objeto que el espectador tiene delante, o enseñan una infraestructura de su ciudad, y ponen una comparación con su coche o su casa. Un B genérico de 'si tuvieras que inventar' rinde por debajo de 1× (mediana 0,28× en los cinco últimos). (2026-11-12)
+- Hasta el 12-nov ningún vídeo publicado usaba el juego de la cifra (juego=false en los 31 maduros), así que la ley m_juego no puede evaluarse aún. No hay que tocarla antes de tener 3 vídeos con juego y 48 h de datos. (2026-11-12)
+- Los B «Si tuvieras que inventar…» hicieron 0,11-0,28× frente a 78,3× del router: priorizar A y C con creencia equivocada de un objeto de casa. (2026-11-12)
+- Las peticiones de seguidores se comprueban contra estado.json y escenas/ y se verifican con búsqueda web antes de entrar al banco de ideas. (2026-11-12)

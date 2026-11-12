@@ -200,6 +200,201 @@
    "rol": "director",
    "tipo": "reunion",
    "texto": "Abre la oficina: a partir de ahora cada guion pasa por la revisión cruzada del equipo antes de llegar al panel, y cada lunes hay reunión con los datos de la semana."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,3× en TikTok con la cámara lenta (cam_cada 3,68 s), así que aquí no la explica el ritmo de cámara. Lo explica el gancho: el título dice «¿Tus antenas del router apuntan a tu cuarto?», que es un objeto que el espectador tiene en casa y una creencia que se le desmonta. Solo hay 3 contadores, y aun así supera a los vídeos con 8-10. Pide segunda parte con la misma estructura de creencia equivocada."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "video": "tormentas",
+   "texto": "34,4× con 8 contadores y la cifra enorme comparada con algo suyo («400.000 m³ bajo tu calle»). Duró 71,1 s, justo en el umbral. Es la prueba de que la serie «Lo que esconde tu ciudad» funciona cuando la cifra se compara con la calle del espectador."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "video": "paraguas",
+   "texto": "0,11× con cam_cada 1,73 s y cam_inicio_dist 0,5 m: la cámara era buena, así que el fallo es el tema. Los B recientes (paraguas 0,11×, spray 0,19×, qr 0,28×) quedan por debajo de los A y C con objeto o cifra reconocibles. El título no plantea ninguna pregunta que el espectador ya se haga."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "Hizo 78,3× con cam_cada 3,68 s, peor que la media de los mejores (2,77 s), así que su éxito viene del gancho (el wifi como donut) y no de la cámara. No saco ninguna regla de cámara de un solo atípico: copio el gancho visual (forma 3D que se expande desde el primer fotograma) y mantengo el ritmo de cámara aparte."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "video": "paraguas",
+   "texto": "Tiene el mejor arranque técnico (cam_inicio_dist 0,5 m, cam_cada 1,73 s) y hizo 0,11×. Un primer plano a 0,5 m puede ser demasiado pegado para entender qué objeto es. Propongo arrancar entre 2 y 6 m, con el objeto reconocible a la primera y moviéndose."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "video": "arroz",
+   "texto": "Hizo 2,94× con cam_inicio_dist 21,6 m, justo al revés que mi hallazgo. Con 2 contadores y cam_cada 1,79 s, el ritmo de planos compensó un arranque lejano. El umbral de 7,1 m es una correlación débil con pocos casos y lo trato como objetivo, no como ley."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,3× lo normal, con voz_ritmo 3,77 (los demás top rondan 3,61), 70,0 s y sfx_variedad 9. Es un ritmo de voz algo más vivo que el resto y una duración clavada en el objetivo; su cam_cada fue de 3,68 s, así que lo que lo explica no es la cámara. Con una sola muestra no es causa probada, pero conviene copiar duración ≈70 s y variedad ≥9."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "video": "pistahielo",
+   "texto": "0,53× lo normal con 79,3 s y voz_ritmo 3,34, el más lento y el más largo de la semana. Duración por encima de 75 s y voz lenta van juntas, y los vídeos de menos de 71 s rinden 1,39×. Hay que recortar unas 15 palabras del guion para volver a 70 s."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "video": "deposito",
+   "texto": "2,19× lo normal con voz_ritmo 4,06 (el más rápido) y 66,1 s. Ritmo alto y duración corta no le han perjudicado; no hay motivo para frenar la voz por debajo de 3,5 palabras/s."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "editor",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,3× lo normal con 70,0 s y cam_cada 3,68 (peor que el umbral de 3,0 s), así que el ritmo de cámara no lo explica. Lo que lo diferencia es un gancho visual muy claro (el wifi como donut) y 3,22 compartidos por 1.000 vistas. No copies el ritmo de este vídeo como modelo de montaje."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "editor",
+   "tipo": "analisis",
+   "video": "spray",
+   "texto": "0,19× lo normal, 77,3 s y 0 compartidos por 1.000 vistas. Es el segundo vídeo más largo de la semana. Con 8 tipos de efecto y 4 contadores el montaje no era pobre, así que la duración pesa más que el resto. Había que recortar al menos 6 s."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "editor",
+   "tipo": "analisis",
+   "video": "pistahielo",
+   "texto": "0,53× lo normal con 79,3 s, el más largo del lote, y con 8 contadores y cam_cada 2,73. Con ritmo y contadores en regla, la duración sigue castigando. Cada frase que sobra cuesta retención."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,3× lo normal con 3 contadores, 9 tipos de sfx y cam_cada 3,68 s. La cámara no es lo que lo explica. Lo que enseña es un mecanismo cotidiano que el espectador puede comprobar: el wifi sale como un donut y no como una linterna. Lo copiable es una forma 3D que se ve y desmonta una creencia, no la cantidad de contadores."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "video": "tormentas",
+   "texto": "34,4× con 8 contadores y cam_inicio_dist de 5,3 m. Es el caso en que el hallazgo encaja: cifra enorme (400.000 m³) con varios medidores que suben. Para las próximas escenas de la serie ciudad, cada cifra de volumen debe llevar un depósito que se llena a escala visible."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "video": "pistahielo",
+   "texto": "0,53× con 8 contadores, 79,3 s de duración y juego en false. Contar mucho no basta: sin gancho cotidiano y con duración por encima de 71 s los contadores no compensan. No uses el número de contadores como excusa para alargar el vídeo."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,3× en TikTok (236 mil vistas) con formato A, cam_cada 3,68 s y solo 3 contadores. Las medidas técnicas no explican el éxito, que viene del tema: un objeto que tienes a la vista y una creencia que se corrige ('¿tus antenas apuntan a tu cuarto?'). Ahí está la receta que hay que copiar."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "video": "tormentas",
+   "texto": "34,4× en TikTok, pero solo 1,01× en Instagram y 2,63× en YouTube. Es la infraestructura de la ciudad con una cifra enorme (400.000 m³), con 8 contadores y cam_cada 2,54 s. Es el único que mezcla bien tema, cifra y ritmo, y pide una segunda parte en la serie «Lo que esconde tu ciudad»."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "video": "ruedas",
+   "texto": "19,2× en TikTok con cam_inicio_dist 7,1 m y cam_cada 3,05 s. Gana por la comparación con tu coche (6 veces la presión), no por la técnica. Esa comparación es lo que hay que repetir."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "social",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,32× lo normal y 235.993 vistas, pero solo 0,11 comentarios por mil (unos 26) frente a 3,22 compartidos por mil. El título pregunta '¿Tus antenas del router apuntan a tu cuarto?', pero no pide responder. En la parte 2 (repetidor) hay que pedir una respuesta concreta como '¿Cómo tienes puestas tus antenas, vertical u horizontal? Escríbelo'."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "social",
+   "tipo": "analisis",
+   "video": "tormentas",
+   "texto": "34,38× lo normal y 0,42 comentarios por mil, sin juego de la cifra. Es de la serie ciudad, que debería pedir 'comenta tu ciudad' en el pie. Con 52.704 vistas, eso son unos 22 comentarios. Pedir la ciudad convierte el vídeo en fuente directa de ideas para el banco."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "social",
+   "tipo": "analisis",
+   "video": "ruedas",
+   "texto": "19,17× lo normal, 40.793 vistas y 0,12 comentarios por mil, unos 5 comentarios. Es el peor ratio de los tres grandes, con muchas vistas y casi sin conversación. Un reto de cifra ('¿cuántas veces la presión de tu coche?') daba un motivo claro para escribir."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "paid",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "78,3× lo normal en TikTok (235.993 vistas, 44 h, interacción 3,24 %, 3,22 compartidos por 1.000 vistas). Es el candidato prioritario: propongo 20 € con objetivo seguidores mientras sigue en la ventana de 5 días (le quedan unas 76 h). Si el coste por 1.000 vistas extra sale por encima del orgánico de la cuenta, no se repite."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "paid",
+   "tipo": "analisis",
+   "video": "tormentas",
+   "texto": "34,4× en TikTok (52.704 vistas, interacción 3,44 %), pero lleva 104 h y la ventana de 5 días (120 h) se cierra en unas 16 h. Hay que decidir hoy: 20 € o nada. En YouTube hizo 2,63× y en Instagram 1,01×, así que la promoción solo tiene sentido en TikTok."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "paid",
+   "tipo": "analisis",
+   "video": "ruedas",
+   "texto": "19,2× en TikTok (40.793 vistas, 83 h, interacción 2,92 %, la más baja de los tres). Propongo 10 € en vez de 20 € y que se lance después de router, para poder comparar el coste por 1.000 vistas entre los dos."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "seo",
+   "tipo": "analisis",
+   "video": "pozo",
+   "texto": "YouTube 9,58× frente a 2,95× en TikTok y 1,09× en Instagram. El título es una pregunta con el objeto en la primera palabra útil («pozo»), y es el único caso en que YouTube supera a TikTok. Con un solo vídeo no es concluyente, pero encaja con la hipótesis m_tituloPregunta."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "seo",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "TikTok 78,32× (235.993 vistas) con título de pregunta cotidiana («¿Tus antenas del router apuntan a tu cuarto?»). En los datos del día solo aparece rel_red de TikTok. Si ya está en YouTube e Instagram, falta la cifra para saber si la pregunta también funciona allí."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "seo",
+   "tipo": "analisis",
+   "video": "auriculares",
+   "texto": "YouTube 0,45×, igual que chatgpt (0,47×) y plegable (0,5×). Ninguno de los tres lleva «cómo funciona» ni una pregunta buscable al principio: abren con «Si tuvieras que inventar…» o con una afirmación. Los formatos B de la cuenta tienen una mediana en YouTube de unos 0,8×."
+  },
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "rol": "director",
+   "tipo": "reunion",
+   "texto": "Jornada del 2026-11-12: 25 mensajes entre puestos, 23 acuerdos nuevos, 0 guiones mejorados y 32 lecciones a las fichas."
   }
  ],
  "manual": [
@@ -294,6 +489,86 @@
    "por": "estratega",
    "creada": "2026-11-12",
    "origen": "Estadísticas del 11-nov."
+  },
+  {
+   "id": "m261112dir8",
+   "texto": "Los vídeos de menos de 71 segundos rinden más que los de más de 71.",
+   "estado": "hipotesis",
+   "por": "director",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12",
+   "filtro": {
+    "campo": "duracion",
+    "menor": 71
+   }
+  },
+  {
+   "id": "m261112fot9",
+   "texto": "Los vídeos con un movimiento de cámara cada menos de 3 s rinden más que los demás.",
+   "estado": "hipotesis",
+   "por": "fotografia",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12",
+   "filtro": {
+    "campo": "cam_cada",
+    "menor": 3
+   }
+  },
+  {
+   "id": "m261112fot10",
+   "texto": "Los vídeos con la cámara a menos de 7 m en el primer segundo rinden más que los que empiezan más lejos.",
+   "estado": "hipotesis",
+   "por": "fotografia",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12",
+   "filtro": {
+    "campo": "cam_inicio_dist",
+    "menor": 7
+   }
+  },
+  {
+   "id": "m261112son11",
+   "texto": "Los vídeos con 8 o más tipos de efecto distintos rinden más que los que tienen 7.",
+   "estado": "hipotesis",
+   "por": "sonido",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12",
+   "filtro": {
+    "campo": "sfx_variedad",
+    "mayor": 7
+   }
+  },
+  {
+   "id": "m261112mot12",
+   "texto": "Los vídeos con más de 3 contadores y medidores rinden más que los que tienen 3 o menos.",
+   "estado": "hipotesis",
+   "por": "motion",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12",
+   "filtro": {
+    "campo": "ov_contadores",
+    "mayor": 3
+   }
+  },
+  {
+   "id": "m261112mot13",
+   "texto": "Los vídeos con más de 15 animaciones en la escena rinden más que los demás.",
+   "estado": "hipotesis",
+   "por": "motion",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12",
+   "filtro": {
+    "campo": "obj_animaciones",
+    "mayor": 15
+   }
+  },
+  {
+   "id": "m261112pai14",
+   "texto": "Los vídeos que superan 10× lo normal en TikTok tienen mejor coste por 1.000 vistas al promocionarlos que los de 3-5×.",
+   "estado": "hipotesis",
+   "por": "paid",
+   "creada": "2026-11-12",
+   "origen": "Jornada del 2026-11-12"
   }
  ],
  "reuniones": [],
@@ -341,14 +616,837 @@
   }
  ],
  "paid": [],
- "experimentos": [],
- "diario": [],
- "canal": [],
- "acuerdos": [],
+ "experimentos": [
+  {
+   "id": "x261112son",
+   "rol": "sonido",
+   "cambio": "En los próximos 3 vídeos, poner «…» antes de cada dato sorprendente y una exclamación en la primera frase, para subir voz_gancho (los mejores tienen 0,45 y el resto 0,1). Los guiones serán de 215-225 palabras.",
+   "hipotesis": "Una voz más expresiva en los primeros segundos retiene más y suena más natural, que es lo que pide el dueño en el encargo «que suene más real». La voz la genera voz.py, así que primero se prueba con la puntuación del guion.",
+   "desde": "2026-11-12",
+   "videos": [],
+   "estado": "activo",
+   "metrica": "voz_gancho"
+  }
+ ],
+ "diario": [
+  {
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "autor": "jornada",
+   "resumen": "25 mensajes, 23 acuerdos, 0 revisiones y 32 lecciones nuevas.",
+   "aprendido": [
+    "director: Los tres mayores éxitos (router 78,3×, tormentas 34,4×, ruedas 19,2×) abren con un objeto o lugar del espectador y una creencia o cifra comparada con algo suyo. Los B inventar-objeto de la última semana quedan en 0,11-0,28×. Empieza por la creencia equivocada, no por «Si tuvieras que inventar…».",
+    "director: Duración: los vídeos con menos de 71 s rinden 1,39× lo normal frente a 1,07×. Apunta a 205-225 palabras, no a 245, y quita cualquier frase que no se gane la siguiente.",
+    "director: Los guiones de menos de 71 s rinden 1,39× lo normal frente a 1,07×. Apunto a 205-220 palabras y nunca paso de 235.",
+    "director: Los C de ciudad y los A con una creencia que se desmonta superan 10×. Los B genéricos tienen una mediana de 0,28×, así que como máximo hago uno cada 8 guiones.",
+    "director: Los vídeos con más de 3 contadores rinden 1,98× frente a 1,05×. Cada guion lleva al menos 4 cifras que cambian.",
+    "director: La primera frase nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos, sin decir la cifra.",
+    "fotografia: Cámara: objetivo por escena nueva de cam_cada ≤2,8 s (los mejores van a 2,77 s; menos de 3,05 s rinden 1,98×), más de 22 claves (los mejores, 24,5) y lente máxima de 40 mm o más. Arranque entre 2 y 6 m: `paraguas` a 0,5 m hizo 0,11×, así que muy cerca no basta si el objeto no se reconoce.",
+    "fotografia: Techo de cam_cada 2,8 s y más de 22 claves por escena: los vídeos con menos de 3,0 s rinden 1,98× frente a 0,97×.",
+    "fotografia: Cada cambio de plano debe documentarse (tiempo, pieza en primer plano, esquina libre) para que Gráficos y Sonido coloquen pastillas y whooshes sin tapar el mecanismo.",
+    "sonido: Duración: los vídeos de menos de 71 s rinden 1,39× lo normal frente a 1,07×; con 4 de los últimos 9 por encima de 75 s, el tope del guion es 225 palabras."
+   ],
+   "cambios": [
+    {
+     "rol": "estratega",
+     "texto": "Acuerdo con director: Desde mañana, de cada 3 propuestas ninguna es B salvo que el Director lo pida; al menos 2 son A o C con título «¿Tus X hacen Y?» sobre un objeto de casa, y la serie ciudad (M30, depósitos de Barcelona) va primero en el banco de ideas."
+    },
+    {
+     "rol": "editor",
+     "texto": "Acuerdo con director: Al revisar cada vídeo con phr.py, si dura más de 71 s o hay una pausa de más de 0,6 s, aviso al director con la frase concreta a quitar (la menos ligada a una cifra) antes de generar la voz."
+    },
+    {
+     "rol": "sonido",
+     "texto": "Acuerdo con director: Desde mañana reviso cada guion para que tenga 205-225 palabras, frases de 6-10 palabras y un máximo de un «…» por cada 40 palabras, solo antes de datos. Mido palabras/s en cada voz generada (voz_ritmo). Si un vídeo queda por debajo de 3,5 palabras/s, propongo recortar el guion hasta 205 palabras y dejo un aviso en actividad para ajustar la velocidad en voz.py."
+    },
+    {
+     "rol": "motion",
+     "texto": "Acuerdo con fotografia: En cada _ov.py, cada pastilla o contador va en el tercio superior (y < H*0.33 contando desde arriba, fuera de los 150 px de zona segura), a menos de 150 px de su pieza y con x desplazada al menos 120 px del eje central del objeto. Dejo un comentario al inicio del _ov.py con las posiciones (x, y) previstas de cada pastilla para que fotografia ajuste el encuadre."
+    },
+    {
+     "rol": "editor",
+     "texto": "Acuerdo con fotografia: En cada escena nueva anoto en la revisión el segundo exacto de la última palabra y compruebo que el último fotograma coincide con el primero (misma acción en movimiento) y sin corte a negro."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con fotografia: Todo guion en voz o propuesto que supere 71 s (más de unas 235 palabras) se recorta a 68-70 s quitando la frase de transición antes del dato central."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con sonido: Guiones nuevos de 205-225 palabras, frases de 6-10 palabras, «…» antes de cada dato y máximo 2 incisos por frase."
+    },
+    {
+     "rol": "editor",
+     "texto": "Acuerdo con sonido: Cada sfx_events debe tener ≥21 efectos/min y ≥8 tipos (whoosh en cada corte, pop en cada aparición, golpe en cada impacto); ningún efecto cae dentro de la palabra de una cifra: se adelanta 0,3 s."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Acuerdo con sonido: En cada escena nueva, cam_cada medio ≤2,8 s (un movimiento o cambio de plano cada 2,8 s como máximo), y te aviso en la nota de la escena de las marcas de tiempo de los cortes para que coloques los whoosh."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con editor: Objetivo de 205-220 palabras por guion. Antes de pasar la compuerta, borro toda frase de transición que no aporte cifra ni pieza nueva."
+    },
+    {
+     "rol": "motion",
+     "texto": "Acuerdo con editor: En cada _ov.py, KEYWORDS incluye todas las piezas nombradas por la voz, todas las cifras y las variantes de plural y género, con el objetivo de llegar a 28 cuando el guion lo permita. Si el guion da menos, no añado palabras de relleno y lo anoto en un comentario del _ov.py. Sigo con un único rótulo a la vez."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Acuerdo con editor: Cada _scene.py nuevo lleva más de 22 claves de cámara Catmull-Rom y ningún tramo sin cambio de plano o movimiento superior a 2,8 s; lo compruebo con auditoria.py (cam_cada ≤2,8, cam_claves >22) antes de pasar a escena."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con motion: Todo guion nuevo lleva al menos 4 cifras que cambian, escritas como «de X a Y» con unidad, que la escena pueda mostrar con pastilla o medidor. Si una cifra no se puede enseñar, la sustituyo por otra que sí."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Acuerdo con motion: Junto a cada escena entrego un comentario al inicio de _scene.py con una línea por plano: tiempo, pieza en primer plano y esquina libre (arriba-izquierda por defecto); en cada plano nuevo dejo el mecanismo visible desde 0,5 s para que los gráficos entren en ese margen."
+    }
+   ],
+   "experimentos": [
+    "x261112son"
+   ]
+  }
+ ],
+ "canal": [
+  {
+   "id": "c261112001",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "director",
+   "para": "estratega",
+   "tipo": "peticion",
+   "asunto": "Más temas tipo router: creencia equivocada sobre algo de casa",
+   "texto": "El router hizo 78,3× y los B «Si tuvieras que inventar…» de ayer hicieron 0,11-0,28×. Prioriza temas A y C que desmonten algo que el espectador cree de un objeto que usa a diario (antenas, cargador, enchufe). El título debe ser una pregunta del tipo «¿Tus X hacen Y?». Del banco de ideas, la serie con cifra comparada con la calle (M30, depósitos de Barcelona) va primero. Propón la parte 2 del router: otro aspecto del mismo wifi que no sea el repetidor, que ya está en marcha.",
+   "video": "router",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "acepto",
+     "texto": "Con 78,3× frente a 0,11-0,28× de los B, priorizo A y C con creencia equivocada y serie ciudad primero (M30, depósitos BCN). Parte 2 del router: otro aspecto del wifi que no sea el repetidor, p. ej. por qué el wifi de 5 GHz no atraviesa paredes y el de 2,4 sí (cifra enseñable: alcance en metros contra paredes).",
+     "compromiso": "Desde mañana, de cada 3 propuestas ninguna es B salvo que el Director lo pida; al menos 2 son A o C con título «¿Tus X hacen Y?» sobre un objeto de casa, y la serie ciudad (M30, depósitos de Barcelona) va primero en el banco de ideas.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112002",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "director",
+   "para": "editor",
+   "tipo": "aviso",
+   "asunto": "Duración: 5 de los 9 vídeos recientes pasan de 73 s",
+   "texto": "Los vídeos con menos de 71 s rinden 1,39× lo normal frente a 1,07×. Los últimos duran 77,3 s (spray), 77,1 s (carretera) y 79,3 s (pistahielo), y de los que están en marcha turia (73,9 s), repetidor (72,8 s) y frenoavion (71,3 s) también pasan. Pide a quien monte que recorte pausas largas (la pausa máxima de los mejores es 0,57 s) y que me avise de las frases que sobran. Yo cortaré esas frases del guion antes de generar la voz, no después.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "acepto",
+     "texto": "Recortaré pausas y te marcaré las frases que sobran con sus tiempos antes de montar, para que cortes en el guion y no en el montaje.",
+     "compromiso": "Al revisar cada vídeo con phr.py, si dura más de 71 s o hay una pausa de más de 0,6 s, aviso al director con la frase concreta a quitar (la menos ligada a una cifra) antes de generar la voz.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112003",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "director",
+   "para": "sonido",
+   "tipo": "peticion",
+   "asunto": "Ritmo de voz con el guion corto",
+   "texto": "Mis guiones nuevos irán a 205-225 palabras para bajar de 71 s. Con la voz a 3,57 palabras/s (la media de los demás) eso da 57-63 s. Pido que la voz no baje de 3,6 palabras/s ni se alargue con pausas, porque spray (3,48), carretera (3,41) y pistahielo (3,34) fueron los lentos y también los más largos.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "sonido",
+     "decision": "matizo",
+     "texto": "Acepto el objetivo (≥3,6 palabras/s y sin pausas de relleno), pero la velocidad la fija voz.py, no el guion. Desde el guion controlo la longitud de las frases y las pausas: frases de 6-10 palabras, solo un «…» antes de cada dato sorprendente y sin «…» decorativos. Si tras los tres primeros vídeos la voz sigue por debajo de 3,5 palabras/s, aviso al usuario en actividad (tipo aviso) para que suba la velocidad en voz.py.",
+     "compromiso": "Desde mañana reviso cada guion para que tenga 205-225 palabras, frases de 6-10 palabras y un máximo de un «…» por cada 40 palabras, solo antes de datos. Mido palabras/s en cada voz generada (voz_ritmo). Si un vídeo queda por debajo de 3,5 palabras/s, propongo recortar el guion hasta 205 palabras y dejo un aviso en actividad para ajustar la velocidad en voz.py.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112004",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "fotografia",
+   "para": "motion",
+   "tipo": "peticion",
+   "asunto": "Contadores fuera del mecanismo en los primeros planos",
+   "texto": "Los vídeos con más de 3 contadores rinden 1,98×, y yo voy a subir la lente a 40 mm o más, con lo que la pieza ocupa casi todo el encuadre. Pon cada pastilla o contador en el tercio superior, a menos de 150 px de la pieza a la que se refiere, y nunca encima del eje central del objeto. Si me das la posición prevista de cada pastilla en `_ov.py`, ajusto el encuadre para que no la tape.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "motion",
+     "decision": "acepto",
+     "texto": "Vale, pastillas en el tercio superior, cerca de la pieza y fuera del eje central. Te paso las posiciones previstas para que ajustes el encuadre.",
+     "compromiso": "En cada _ov.py, cada pastilla o contador va en el tercio superior (y < H*0.33 contando desde arriba, fuera de los 150 px de zona segura), a menos de 150 px de su pieza y con x desplazada al menos 120 px del eje central del objeto. Dejo un comentario al inicio del _ov.py con las posiciones (x, y) previstas de cada pastilla para que fotografia ajuste el encuadre.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112005",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "fotografia",
+   "para": "editor",
+   "tipo": "propuesta",
+   "asunto": "Cierre circular desde la cámara",
+   "texto": "Para el encargo del cierre circular: en cada escena nueva dejo la última clave de cámara con la misma posición, target y lente que la primera, de modo que el último fotograma enlace con el primero. Necesito que la última frase de la voz termine en la acción del fotograma 1 (objeto en movimiento) y que no haya un corte de 0,3 s o más de negro o título al final. Con `phr.py` confírmame en cada vídeo en qué segundo termina la última palabra.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "acepto",
+     "texto": "Con phr.py te confirmo en qué segundo termina la última palabra y vigilo que no haya negro ni título de 0,3 s o más al final.",
+     "compromiso": "En cada escena nueva anoto en la revisión el segundo exacto de la última palabra y compruebo que el último fotograma coincide con el primero (misma acción en movimiento) y sin corte a negro.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112006",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "fotografia",
+   "para": "director",
+   "tipo": "aviso",
+   "asunto": "Tres guiones superan los 71 s",
+   "texto": "Turia (73,9 s), repetidor (72,8 s) y frenoavion (71,3 s) están por encima del umbral de 71 s, y los de menos de 71 s rinden 1,39× lo normal. Más tiempo también obliga a más claves de cámara y más render. Recorta unas 10 palabras en cada uno (a 3,4 palabras/s son unos 3 s) quitando la frase de transición antes del dato central, sin tocar el gancho ni el cierre del juego.",
+   "video": "turia",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Turia, repetidor y frenoavion se recortan quitando la frase de transición sin cifra ni pieza nueva. El gancho y el cierre del juego no se tocan.",
+     "compromiso": "Todo guion en voz o propuesto que supere 71 s (más de unas 235 palabras) se recorta a 68-70 s quitando la frase de transición antes del dato central.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112007",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "sonido",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Guiones más cortos: tope de 225 palabras",
+   "texto": "4 de los 9 últimos vídeos pasan de 75 s (79,3, 77,3, 77,1 y 76,7) y turia, repetidor y frenoavion ya van en 71-74 s. Los de menos de 71 s rinden 1,39× lo normal frente a 1,07×. Pide guiones de 205-225 palabras (no 245) y frases de 6-10 palabras. Con «…» antes de cada dato y no más de 2 incisos por frase, la voz respira sin alargar.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "Acepto el tope de 225 palabras y las frases de 6-10 palabras. Mantengo el suelo de 205, que es el de la compuerta, y los «…» antes de cada dato.",
+     "compromiso": "Guiones nuevos de 205-225 palabras, frases de 6-10 palabras, «…» antes de cada dato y máximo 2 incisos por frase.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112008",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "sonido",
+   "para": "editor",
+   "tipo": "peticion",
+   "asunto": "Más efectos y cortes en las pausas",
+   "texto": "Los vídeos con más de 19,7 efectos/min rinden 1,61× lo normal y los de más de 7 tipos distintos, 1,98×. Los mejores llevan 20,75 efectos/min y 7,5 tipos de media; los demás, 16,9. Apunta a ≥21 efectos/min y ≥8 tipos: whoosh en cada corte, pop en cada aparición, golpe en cada impacto. Ningún efecto debe pisar una cifra dicha en voz; si coincide, muévelo 0,3 s antes de la palabra.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "matizo",
+     "texto": "Apunto a más efectos y variedad, pero sin saturar ni pisar cifras habladas; el objetivo es por vídeo, no por tramo.",
+     "compromiso": "Cada sfx_events debe tener ≥21 efectos/min y ≥8 tipos (whoosh en cada corte, pop en cada aparición, golpe en cada impacto); ningún efecto cae dentro de la palabra de una cifra: se adelanta 0,3 s.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112009",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "sonido",
+   "para": "fotografia",
+   "tipo": "dato",
+   "asunto": "Tu cam_cada afecta a mi mezcla",
+   "texto": "Con un movimiento de cámara cada menos de 3,0 s, los vídeos rinden 1,98× lo normal. Router, el mejor, tuvo 3,68 s, así que no es la única causa. Cada corte de cámara me da un sitio para un whoosh. Si bajas a ≈2,8 s de media, puedo repartir ≥21 efectos/min sin amontonarlos.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "fotografia",
+     "decision": "acepto",
+     "texto": "Bajo la media a 2,8 s o menos; cada cambio de plano será un hueco claro para tu whoosh.",
+     "compromiso": "En cada escena nueva, cam_cada medio ≤2,8 s (un movimiento o cambio de plano cada 2,8 s como máximo), y te aviso en la nota de la escena de las marcas de tiempo de los cortes para que coloques los whoosh.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112010",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "editor",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Guiones a 205-220 palabras, no a 245",
+   "texto": "Los vídeos con menos de 71 s rinden 1,39× lo normal frente a 1,07× (hallazgo de duración, fuerza 0,98). Los últimos vídeos publicados (spray 77,3 s, carretera 77,1 s, pistahielo 79,3 s) rinden entre 0,19× y 0,53×. En marcha, turia (73,9 s), repetidor (72,8 s) y frenoavion (71,3 s) superan el umbral. Propongo que apuntes a 205-220 palabras (unos 62-68 s a 3,4 palabras/s) y que quites en turia, repetidor y frenoavion la frase de transición entre pasos que no lleve cifra ni pieza nueva, hasta bajar de 71 s.",
+   "video": "turia",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Apunto a 205-220 palabras (62-68 s). En turia, repetidor y frenoavion quito las transiciones sin cifra ni pieza nueva hasta bajar de 71 s.",
+     "compromiso": "Objetivo de 205-220 palabras por guion. Antes de pasar la compuerta, borro toda frase de transición que no aporte cifra ni pieza nueva.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112011",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "editor",
+   "para": "motion",
+   "tipo": "peticion",
+   "asunto": "Más palabras clave resaltadas: 28 o más",
+   "texto": "Los vídeos con más de 27 palabras clave resaltadas rinden 1,50× lo normal frente a 1,03× (media de los mejores 27,5, resto 25). Pido que en cada _ov.py las KEYWORDS incluyan todas las piezas nombradas por la voz y todas las cifras, hasta 28 o más, sin tocar el límite de un rótulo cada vez.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "motion",
+     "decision": "matizo",
+     "texto": "Incluyo en KEYWORDS todas las piezas nombradas por la voz y todas las cifras. No fijo 28 como mínimo porque forzar palabras que no son piezas ni cifras diluye el amarillo y deja de señalar lo importante. Mantengo un rótulo cada vez.",
+     "compromiso": "En cada _ov.py, KEYWORDS incluye todas las piezas nombradas por la voz, todas las cifras y las variantes de plural y género, con el objetivo de llegar a 28 cuando el guion lo permita. Si el guion da menos, no añado palabras de relleno y lo anoto en un comentario del _ov.py. Sigo con un único rótulo a la vez.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112012",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "editor",
+   "para": "fotografia",
+   "tipo": "dato",
+   "asunto": "Meta de cambio de plano: menos de 3,0 s y fijar una media de 2,8",
+   "texto": "Los mejores vídeos tienen cam_cada de 2,77 s; los vídeos con menos de 3,0 s rinden 1,98× frente a 0,97×. En los últimos publicados, v16 (3,42 s), carretera (3,21 s) y router (3,68 s) se quedan fuera. Pido un cambio de plano de cámara cada 2,8 s como máximo en cada escena nueva, con claves de cámara por encima de 22, que es el segundo hallazgo tuyo.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "fotografia",
+     "decision": "acepto",
+     "texto": "Dato correcto: v16, carretera y router se quedaron por encima de 3 s. Fijo 2,8 s como techo y más de 22 claves.",
+     "compromiso": "Cada _scene.py nuevo lleva más de 22 claves de cámara Catmull-Rom y ningún tramo sin cambio de plano o movimiento superior a 2,8 s; lo compruebo con auditoria.py (cam_cada ≤2,8, cam_claves >22) antes de pasar a escena.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112013",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "motion",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Cifras enseñables en los 9 guiones en voz",
+   "texto": "En los vídeos recientes, auriculares y mando tienen 1 contador, y induccion, arroz y chatgpt tienen 2. Los de más de 3 rinden 1,98× frente a 1,05×. En sifon, ticket, paracaidas, cintametrica, submarino, estadio, turia, repetidor y frenoavion, marca en cada guion 4 cifras que cambian (de X a Y, con unidad) y que la escena pueda mostrar con pastilla o medidor. Si una cifra no se puede enseñar, cámbiala por otra que sí.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "Acepto marcar 4 cifras que cambian (de X a Y, con unidad). En los 9 guiones que ya están en voz no puedo añadir cifras sin reescribir y volver a generar la voz. Lo aplico en los guiones nuevos y en los que estén en propuesto.",
+     "compromiso": "Todo guion nuevo lleva al menos 4 cifras que cambian, escritas como «de X a Y» con unidad, que la escena pueda mostrar con pastilla o medidor. Si una cifra no se puede enseñar, la sustituyo por otra que sí.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112014",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "motion",
+   "para": "fotografia",
+   "tipo": "peticion",
+   "asunto": "Hueco libre para pastillas y cifra_juego",
+   "texto": "Para llegar a 4 o más contadores sin tapar el mecanismo, pásame en cada escena qué pieza queda en primer plano en cada cambio de plano. Así coloco las pastillas encima de la pieza y la mini del juego en la esquina libre de arriba. Con cam_cada por debajo de 3 s, que es lo que pides, los gráficos deben entrar en los primeros 0,5 s de cada plano.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "fotografia",
+     "decision": "acepto",
+     "texto": "Te paso la lista de piezas en primer plano por plano para que ubiques pastillas y la mini del juego.",
+     "compromiso": "Junto a cada escena entrego un comentario al inicio de _scene.py con una línea por plano: tiempo, pieza en primer plano y esquina libre (arriba-izquierda por defecto); en cada plano nuevo dejo el mecanismo visible desde 0,5 s para que los gráficos entren en ese margen.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112015",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "motion",
+   "para": "editor",
+   "tipo": "aviso",
+   "asunto": "Tres vídeos pasan de 71 s con gráficos de más",
+   "texto": "turia (73,9 s), repetidor (72,8 s) y frenoavion (71,3 s) están por encima de los 71 s del umbral (1,30× más vistas por debajo de él). Al montar los gráficos recortaré las pastillas repetidas. Pídele al director que quite una frase de datos a cada uno para que bajen de 71 s.",
+   "video": "turia",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "respondo",
+     "texto": "Recibido: turia, repetidor y frenoavion superan 71 s. Ya lo he trasladado al director junto con el aviso de duración; quien recorta las frases es él, yo marco cuáles.",
+     "compromiso": "",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112016",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "estratega",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Recorta a 70 s los tres guiones largos en cola",
+   "texto": "Los vídeos de menos de 71 s rinden 1,39× lo normal y los últimos publicados duran 77-79 s (carretera 77,1, pistahielo 79,3, spray 77,3). En voz esperan turia (73,9 s), repetidor (72,8 s) y frenoavion (71,3 s). Quita una frase de relleno a cada uno hasta 68-70 s (unas 235 palabras como máximo) antes de que se generen las voces.",
+   "video": "turia",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Coincide con la petición de fotografía, sonido y editor. Recorto turia, repetidor y frenoavion a 68-70 s. Para eso hace falta que se haga antes de generar las voces.",
+     "compromiso": "Máximo 235 palabras en cualquier guion y objetivo de 68-70 s. Los recortes se hacen antes de generar la voz.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112017",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "estratega",
+   "para": "director",
+   "tipo": "propuesta",
+   "asunto": "Más formato A con objeto en la mano y menos B/C genéricos",
+   "texto": "Los tres vídeos que pasan de 10× son A (router, ruedas) o C de ciudad (tormentas). Los últimos cinco B están en 0,11-1,02× (mediana 0,28×) y los C sin serie en 0,17-0,53× (depuradora, carretera, pistahielo). Para los próximos 8 guiones: mínimo 3 de la serie «Lo que esconde tu ciudad» (empieza por serie-bcn-deposito como parte 2 de tormentas) y 2 A de un objeto de casa con una creencia que se desmonta, al estilo del router. Reduce los B a uno.",
+   "video": "tormentas",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Los datos de formato apoyan la propuesta: los C de ciudad y los A con una creencia que se desmonta son los que superan 10×. Los B genéricos están en una mediana de 0,28×.",
+     "compromiso": "En los próximos 8 guiones: al menos 3 de la serie «Lo que esconde tu ciudad», empezando por serie-bcn-deposito como parte 2 de tormentas. Al menos 2 formato A de un objeto de casa con una creencia que se desmonta, y como máximo 1 formato B.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112018",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "estratega",
+   "para": "motion",
+   "tipo": "peticion",
+   "asunto": "Mínimo 4 contadores en cada escena",
+   "texto": "Los vídeos con más de 3 contadores rinden 1,98× lo normal frente a 1,05×. Mando (1), auriculares (1), induccion (2), chatgpt (2) y arroz (2) se quedaron por debajo. En las nueve escenas en cola pon al menos 4 contadores o medidores que cambien de valor, empezando por sifon, ticket y cintametrica.",
+   "video": "sifon",
+   "respuestas": [
+    {
+     "de": "motion",
+     "decision": "acepto",
+     "texto": "Mínimo 4 contadores o medidores con valor cambiante por escena, empezando por sifon, ticket y cintametrica. Si el guion no da 4 cifras que se puedan enseñar, se lo pido al director.",
+     "compromiso": "Cada _ov.py nuevo o rehecho lleva al menos 4 contadores, pastillas o medidores que cambian de valor (cifra_juego cuenta como uno), empezando por sifon, ticket y cintametrica. Si el guion solo permite 3, aviso al director con una propuesta de cifra extra que se pueda enseñar antes de entregar la escena.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112019",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "social",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Pie con reto y orden de comentar en cada guion nuevo",
+   "texto": "Mi número está en 0,19 comentarios por mil (meta 1) y ninguno de los últimos 30 vídeos tiene juego. Pido que en los guiones que salgan desde hoy el pie (texto) acabe con el reto concreto ('¿Cuál era tu número? 👇') y la frase de envío ('Envíaselo a ese amigo que…'). Para el repetidor, la segunda parte del router, que su cierre pregunte '¿Vertical u horizontal? Dime cómo tienes tus antenas'.",
+   "video": "repetidor",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "El pie repite el reto y añade la orden de envío. En el repetidor, que es la segunda parte del router, el cierre pregunta por la orientación de las antenas.",
+     "compromiso": "Todo `texto` de guion nuevo termina con «¿Cuál era tu número? 👇» y una frase de envío («Envíaselo a ese amigo que…»). El cierre del repetidor pregunta «¿Vertical u horizontal? Dime cómo tienes tus antenas».",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112020",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "social",
+   "para": "estratega",
+   "tipo": "propuesta",
+   "asunto": "Dos temas de seguidores que no están en el banco de ideas",
+   "texto": "Hay dos peticiones reales en comunidad_analisis: el termo con pajita (un seguidor cuenta que al abrirlo el líquido sale disparado por la presión, lo llama 'efecto greca') y los inventos cotidianos de origen argentino (una mención, sobre la lapicera). Ninguno aparece en el banco (4 ideas, todas de la serie ciudad). Propongo meter el termo con pajita como formato A con un manómetro que sube, citando el comentario en el campo comentario. Comprueba antes que no choque con un guion de termo ya existente.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "matizo",
+     "texto": "El termo con pajita encaja con la petición real, pero antes compruebo que no choque con el guion de termo existente (escenas/ y estado.json) y verifico la cifra de presión con búsqueda web. Lo planteo como A (no B) con un manómetro que sube y cito el comentario en el campo comentario. Los inventos argentinos son abstractos y sin cifra enseñable: los dejo como nicho sin prioridad.",
+     "compromiso": "Desde mañana, antes de pasar a ideas.json cualquier tema pedido por seguidores, compruebo duplicados en estado.json y escenas/ y verifico la cifra con búsqueda web; el termo con pajita entra como A con campo comentario real y prioridad media; los inventos argentinos no entran hasta tener cifra enseñable.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112021",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "social",
+   "para": "estratega",
+   "tipo": "propuesta",
+   "asunto": "Segundas partes que piden comentar la ciudad",
+   "texto": "Las 3 segundas partes por proponer (router 78×, tormentas 34×, ruedas 19×) deberían cerrar con pregunta. Para tormentas, 'Dime en qué ciudad vives y te digo qué esconde' llevaría las respuestas al banco de ideas. Esa pregunta no necesita juego de cifra y se puede medir con el campo serie.",
+   "video": "tormentas",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "matizo",
+     "texto": "Acepto cerrar las segundas partes con pregunta de ciudad para llevar respuestas al banco, pero solo en las de la serie ciudad (tormentas). El resto (router, ruedas) mantiene el cierre del juego de la cifra, que es obligatorio. En tormentas la pregunta va en el pie del post, no sustituye al juego.",
+     "compromiso": "Desde mañana, toda parte 2 de la serie «Lo que esconde tu ciudad» lleva en el pie «Dime en qué ciudad vives y te digo qué esconde» además del juego de la cifra, con serie: true para medirlo; router y ruedas no cambian el cierre.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112022",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "paid",
+   "para": "estratega",
+   "tipo": "peticion",
+   "asunto": "Segundas partes de lo que ya despega, dentro de la ventana de promoción",
+   "texto": "Router (78,3×), tormentas (34,4×) y ruedas (19,2×) están en segundas_partes. Ya hay en marcha repetidor (Wifi parte 2) y frenoavion (Avión parte 2), ambos en estado voz y ambos con duración por encima de 71 s (73 s y 71 s). Pido que repetidor y frenoavion salgan los primeros en cuanto pasen por el panel: así la promoción de router y ruedas empuja también el perfil con el siguiente vídeo ya publicado. Falta además una parte 2 de tormentas: la idea serie-bcn-deposito del banco encaja y es 'alta'.",
+   "video": "router",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "acepto",
+     "texto": "Repetidor y frenoavion ya están en voz, así que les doy prioridad en la cola. No puedo moverlos en el panel (lo hace el usuario), pero lo dejo señalado. Tormentas parte 2 sale de serie-bcn-deposito, que es alta y se hace primero, ajustando la duración a 60-70 s por la preocupación de los 71-73 s.",
+     "compromiso": "Desde mañana, las segundas partes de vídeos con más de 10× lo normal se proponen antes que cualquier tema nuevo; tormentas parte 2 se escribe desde serie-bcn-deposito como primera propuesta, y señalo en actividad que repetidor y frenoavion conviene aprobarlos primero.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112023",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "paid",
+   "para": "social",
+   "tipo": "peticion",
+   "asunto": "Responde y fija comentarios en el router antes de pagar",
+   "texto": "Router tiene 0,11 comentarios por 1.000 vistas frente a 3,22 compartidos por 1.000: la gente lo manda pero no escribe. Antes de gastar 20 € conviene dejar un comentario fijado con una pregunta ('¿hacia dónde apuntas tus antenas?') y responder los comentarios que haya. Así el dinero llega a un vídeo con conversación y no solo con vistas. Mide cuántos comentarios por 1.000 vistas tiene router tras 24 h con el comentario fijado.",
+   "video": "router",
+   "respuestas": [
+    {
+     "de": "social",
+     "decision": "acepto",
+     "texto": "Tienes razón: router se comparte (3,22 por 1.000) pero casi no se comenta (0,11). Pondré un comentario fijado con pregunta y responderé a los comentarios reales antes de gastar nada. Mediré los comentarios por 1.000 vistas a las 24 h del fijado.",
+     "compromiso": "Desde mañana, en router dejo un comentario fijado con la pregunta '¿Hacia dónde apuntas tus antenas? 👇', respondo en tuteo cada comentario real en menos de 12 h, y registro en actividad los comentarios por 1.000 vistas a las 24 h para que paid decida el gasto de 20 €. En los vídeos nuevos, el pie del post termina en pregunta concreta.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112024",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "seo",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Palabra buscada en la primera frase de los 9 vídeos en voz",
+   "texto": "En YouTube, pozo (pregunta con el objeto) hizo 9,58× y tormentas 2,63×, mientras que los formatos B con «Si tuvieras que inventar…» rondan 0,8×. En sifon, ticket, cintametrica, paracaidas, submarino, estadio, turia, repetidor y frenoavion, la primera frase debería nombrar el objeto y plantear la pregunta («¿Cómo funciona el sifón bajo tu fregadero?») dentro de los 3 primeros segundos de voz. Si el gancho actual no nombra el objeto, cambia solo esa frase sin tocar el resto.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "Acepto que la primera frase nombre el objeto y plantee la pregunta en los 3 primeros segundos. Solo lo cambio en guiones que aún no tienen voz. Los que ya están en voz se quedan como están para no regenerar el audio. El gancho sigue sin decir la cifra.",
+     "compromiso": "La primera frase de todo guion nuevo nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos de voz, por ejemplo «¿Cómo funciona el sifón bajo tu fregadero?». No digo la cifra en esa frase.",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261112025",
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "jornada": "2026-11-12",
+   "de": "seo",
+   "para": "social",
+   "tipo": "pregunta",
+   "asunto": "Instagram no despega: ¿qué ves en comentarios y guardados?",
+   "texto": "Los vídeos en Instagram se quedan entre 0,9× y 1,22× en casi todos (el peor, chatgpt, 0,01×), mientras que TikTok va de 0,11× a 78×. Eso sugiere que Instagram no distribuye según el gancho. Para el encargo del dueño sobre Instagram necesito saber si hay señal de guardados o envíos que podamos usar. Si la hay, pasaré a poner en el pie de Instagram la palabra buscada en la primera línea y 5 hashtags de tema concreto, no genéricos.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "social",
+     "decision": "respondo",
+     "texto": "Con lo que tengo no puedo darte señal de guardados ni envíos en Instagram: comunidad.json solo recoge comentarios y no hay un número fiable de guardados por vídeo. Lo que sí veo en toda la cuenta es poco comentario (66 en 264.714 vistas de TikTok), y en Instagram menos aún. Mi propuesta: cambia el pie de Instagram a una primera línea con la palabra buscada y una pregunta directa al final ('¿Cuál era tu número? 👇'), más 5 hashtags concretos. Yo mediré si suben los comentarios por 1.000 vistas con ese pie.",
+     "compromiso": "",
+     "fecha": "2026-11-12T08:02:34+00:00"
+    }
+   ]
+  }
+ ],
+ "acuerdos": [
+  {
+   "id": "a261112001est",
+   "rol": "estratega",
+   "pedido_por": "director",
+   "texto": "Desde mañana, de cada 3 propuestas ninguna es B salvo que el Director lo pida; al menos 2 son A o C con título «¿Tus X hacen Y?» sobre un objeto de casa, y la serie ciudad (M30, depósitos de Barcelona) va primero en el banco de ideas.",
+   "desde": "2026-11-12",
+   "origen": "c261112001",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112002edi",
+   "rol": "editor",
+   "pedido_por": "director",
+   "texto": "Al revisar cada vídeo con phr.py, si dura más de 71 s o hay una pausa de más de 0,6 s, aviso al director con la frase concreta a quitar (la menos ligada a una cifra) antes de generar la voz.",
+   "desde": "2026-11-12",
+   "origen": "c261112002",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112003son",
+   "rol": "sonido",
+   "pedido_por": "director",
+   "texto": "Desde mañana reviso cada guion para que tenga 205-225 palabras, frases de 6-10 palabras y un máximo de un «…» por cada 40 palabras, solo antes de datos. Mido palabras/s en cada voz generada (voz_ritmo). Si un vídeo queda por debajo de 3,5 palabras/s, propongo recortar el guion hasta 205 palabras y dejo un aviso en actividad para ajustar la velocidad en voz.py.",
+   "desde": "2026-11-12",
+   "origen": "c261112003",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112004mot",
+   "rol": "motion",
+   "pedido_por": "fotografia",
+   "texto": "En cada _ov.py, cada pastilla o contador va en el tercio superior (y < H*0.33 contando desde arriba, fuera de los 150 px de zona segura), a menos de 150 px de su pieza y con x desplazada al menos 120 px del eje central del objeto. Dejo un comentario al inicio del _ov.py con las posiciones (x, y) previstas de cada pastilla para que fotografia ajuste el encuadre.",
+   "desde": "2026-11-12",
+   "origen": "c261112004",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112005edi",
+   "rol": "editor",
+   "pedido_por": "fotografia",
+   "texto": "En cada escena nueva anoto en la revisión el segundo exacto de la última palabra y compruebo que el último fotograma coincide con el primero (misma acción en movimiento) y sin corte a negro.",
+   "desde": "2026-11-12",
+   "origen": "c261112005",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112006dir",
+   "rol": "director",
+   "pedido_por": "fotografia",
+   "texto": "Todo guion en voz o propuesto que supere 71 s (más de unas 235 palabras) se recorta a 68-70 s quitando la frase de transición antes del dato central.",
+   "desde": "2026-11-12",
+   "origen": "c261112006",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112007dir",
+   "rol": "director",
+   "pedido_por": "sonido",
+   "texto": "Guiones nuevos de 205-225 palabras, frases de 6-10 palabras, «…» antes de cada dato y máximo 2 incisos por frase.",
+   "desde": "2026-11-12",
+   "origen": "c261112007",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112008edi",
+   "rol": "editor",
+   "pedido_por": "sonido",
+   "texto": "Cada sfx_events debe tener ≥21 efectos/min y ≥8 tipos (whoosh en cada corte, pop en cada aparición, golpe en cada impacto); ningún efecto cae dentro de la palabra de una cifra: se adelanta 0,3 s.",
+   "desde": "2026-11-12",
+   "origen": "c261112008",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112009fot",
+   "rol": "fotografia",
+   "pedido_por": "sonido",
+   "texto": "En cada escena nueva, cam_cada medio ≤2,8 s (un movimiento o cambio de plano cada 2,8 s como máximo), y te aviso en la nota de la escena de las marcas de tiempo de los cortes para que coloques los whoosh.",
+   "desde": "2026-11-12",
+   "origen": "c261112009",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112010dir",
+   "rol": "director",
+   "pedido_por": "editor",
+   "texto": "Objetivo de 205-220 palabras por guion. Antes de pasar la compuerta, borro toda frase de transición que no aporte cifra ni pieza nueva.",
+   "desde": "2026-11-12",
+   "origen": "c261112010",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112011mot",
+   "rol": "motion",
+   "pedido_por": "editor",
+   "texto": "En cada _ov.py, KEYWORDS incluye todas las piezas nombradas por la voz, todas las cifras y las variantes de plural y género, con el objetivo de llegar a 28 cuando el guion lo permita. Si el guion da menos, no añado palabras de relleno y lo anoto en un comentario del _ov.py. Sigo con un único rótulo a la vez.",
+   "desde": "2026-11-12",
+   "origen": "c261112011",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112012fot",
+   "rol": "fotografia",
+   "pedido_por": "editor",
+   "texto": "Cada _scene.py nuevo lleva más de 22 claves de cámara Catmull-Rom y ningún tramo sin cambio de plano o movimiento superior a 2,8 s; lo compruebo con auditoria.py (cam_cada ≤2,8, cam_claves >22) antes de pasar a escena.",
+   "desde": "2026-11-12",
+   "origen": "c261112012",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112013dir",
+   "rol": "director",
+   "pedido_por": "motion",
+   "texto": "Todo guion nuevo lleva al menos 4 cifras que cambian, escritas como «de X a Y» con unidad, que la escena pueda mostrar con pastilla o medidor. Si una cifra no se puede enseñar, la sustituyo por otra que sí.",
+   "desde": "2026-11-12",
+   "origen": "c261112013",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112014fot",
+   "rol": "fotografia",
+   "pedido_por": "motion",
+   "texto": "Junto a cada escena entrego un comentario al inicio de _scene.py con una línea por plano: tiempo, pieza en primer plano y esquina libre (arriba-izquierda por defecto); en cada plano nuevo dejo el mecanismo visible desde 0,5 s para que los gráficos entren en ese margen.",
+   "desde": "2026-11-12",
+   "origen": "c261112014",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112016dir",
+   "rol": "director",
+   "pedido_por": "estratega",
+   "texto": "Máximo 235 palabras en cualquier guion y objetivo de 68-70 s. Los recortes se hacen antes de generar la voz.",
+   "desde": "2026-11-12",
+   "origen": "c261112016",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112017dir",
+   "rol": "director",
+   "pedido_por": "estratega",
+   "texto": "En los próximos 8 guiones: al menos 3 de la serie «Lo que esconde tu ciudad», empezando por serie-bcn-deposito como parte 2 de tormentas. Al menos 2 formato A de un objeto de casa con una creencia que se desmonta, y como máximo 1 formato B.",
+   "desde": "2026-11-12",
+   "origen": "c261112017",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112018mot",
+   "rol": "motion",
+   "pedido_por": "estratega",
+   "texto": "Cada _ov.py nuevo o rehecho lleva al menos 4 contadores, pastillas o medidores que cambian de valor (cifra_juego cuenta como uno), empezando por sifon, ticket y cintametrica. Si el guion solo permite 3, aviso al director con una propuesta de cifra extra que se pueda enseñar antes de entregar la escena.",
+   "desde": "2026-11-12",
+   "origen": "c261112018",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112019dir",
+   "rol": "director",
+   "pedido_por": "social",
+   "texto": "Todo `texto` de guion nuevo termina con «¿Cuál era tu número? 👇» y una frase de envío («Envíaselo a ese amigo que…»). El cierre del repetidor pregunta «¿Vertical u horizontal? Dime cómo tienes tus antenas».",
+   "desde": "2026-11-12",
+   "origen": "c261112019",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112020est",
+   "rol": "estratega",
+   "pedido_por": "social",
+   "texto": "Desde mañana, antes de pasar a ideas.json cualquier tema pedido por seguidores, compruebo duplicados en estado.json y escenas/ y verifico la cifra con búsqueda web; el termo con pajita entra como A con campo comentario real y prioridad media; los inventos argentinos no entran hasta tener cifra enseñable.",
+   "desde": "2026-11-12",
+   "origen": "c261112020",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112021est",
+   "rol": "estratega",
+   "pedido_por": "social",
+   "texto": "Desde mañana, toda parte 2 de la serie «Lo que esconde tu ciudad» lleva en el pie «Dime en qué ciudad vives y te digo qué esconde» además del juego de la cifra, con serie: true para medirlo; router y ruedas no cambian el cierre.",
+   "desde": "2026-11-12",
+   "origen": "c261112021",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112022est",
+   "rol": "estratega",
+   "pedido_por": "paid",
+   "texto": "Desde mañana, las segundas partes de vídeos con más de 10× lo normal se proponen antes que cualquier tema nuevo; tormentas parte 2 se escribe desde serie-bcn-deposito como primera propuesta, y señalo en actividad que repetidor y frenoavion conviene aprobarlos primero.",
+   "desde": "2026-11-12",
+   "origen": "c261112022",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112023soc",
+   "rol": "social",
+   "pedido_por": "paid",
+   "texto": "Desde mañana, en router dejo un comentario fijado con la pregunta '¿Hacia dónde apuntas tus antenas? 👇', respondo en tuteo cada comentario real en menos de 12 h, y registro en actividad los comentarios por 1.000 vistas a las 24 h para que paid decida el gasto de 20 €. En los vídeos nuevos, el pie del post termina en pregunta concreta.",
+   "desde": "2026-11-12",
+   "origen": "c261112023",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261112024dir",
+   "rol": "director",
+   "pedido_por": "seo",
+   "texto": "La primera frase de todo guion nuevo nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos de voz, por ejemplo «¿Cómo funciona el sifón bajo tu fregadero?». No digo la cifra en esa frase.",
+   "desde": "2026-11-12",
+   "origen": "c261112024",
+   "estado": "vigente"
+  }
+ ],
  "jornadas": [
   {
-   "fecha": "2026-11-12T07:38:42+00:00",
-   "estado": "sin_clave"
+   "fecha": "2026-11-12T08:02:34+00:00",
+   "estado": "hecha",
+   "modelo": "agentes de Claude Code",
+   "llamadas": null,
+   "tokens": null,
+   "euros": null,
+   "errores": [],
+   "resumenes": {
+    "director": "El router hizo 78,3× lo normal (236.000 vistas) con un título que desmonta una creencia del espectador, y tormentas y ruedas hicieron 34× y 19× con una cifra enorme comparada con algo suyo. Mi mediana a 14 días es 1,11× frente a la meta de 1,5×, y los últimos vídeos duran 77-79 s cuando los que funcionan bajan de 71 s.",
+    "fotografia": "Los vídeos con un movimiento de cámara cada menos de 3,0 s rinden 1,98× lo normal (frente a 0,97×), y los que arrancan a menos de 7,1 m rinden 2,2×. Hay 9 escenas en `voz` por plantear, y las aplico todas con cam_cada ≤2,8 s, más de 22 claves, lente máxima de 40 mm o más y primer plano de menos de 6 m. La cámara es condición necesaria, no suficiente: `paraguas` tiene cam_inicio_dist 0,5 m y cam_cada 1,73 s y solo hizo 0,11×.",
+    "sonido": "4 de los 9 últimos vídeos publicados pasan de 75 s (pistahielo 79,3, spray 77,3, carretera 77,1, qr 76,7), y los que bajan de 71 s rinden 1,39× lo normal frente a 1,07×. Los 9 vídeos en marcha usan 7 o más tipos de efecto, pero no tengo la medida de sfx_min de los pendientes para saber si pasan de 19,7/min.",
+    "editor": "Mi KPI (compartidos por 1.000 vistas en TikTok) está en 2,64 frente a la meta de 3. Los últimos 8 vídeos duran de media más de 71 s (spray 77,3, carretera 77,1, pistahielo 79,3) y rinden 0,1-0,5× lo normal. Con menos de 71 s se rinde 1,39×. Tres de los 9 vídeos en marcha ya pasan de 71 s (turia 73,9, repetidor 72,8, frenoavion 71,3).",
+    "motion": "Los vídeos con más de 3 contadores rinden 1,98× lo normal frente a 1,05× (fuerza 2,3), pero el router, que es el mayor éxito con 78,3×, tiene solo 3. Los contadores ayudan, pero no explican por sí solos el éxito: pistahielo (8 contadores) hizo 0,53× y carretera (6) hizo 0,35×. Mis 9 escenas por montar deben llegar a 4 o más contadores y a 23 o más animaciones, que es lo que tienen los mejores (4,5 y 23,5 frente a 3 y 13).",
+    "estratega": "Tres vídeos concentran el éxito: router 78,3× (236 mil vistas), tormentas 34,4× y ruedas 19,2×. Los cinco B/C de los últimos tres días van por debajo de lo normal (spray 0,19×, paraguas 0,11×, carretera 0,35×, pistahielo 0,53×, QR 0,28×), así que el 68 % de vídeos por encima de lo normal depende de pocos aciertos y no de un patrón estable.",
+    "social": "Comentarios por 1.000 vistas en TikTok: 0,19 (meta 1). Ningún vídeo reciente lleva juego de la cifra (juego=false en los 30). El router hizo 235.993 vistas (78× lo normal) y solo 0,11 comentarios por mil, unos 26 comentarios: el público mira y comparte (3,22 compartidos por mil) pero no escribe.",
+    "paid": "Hay 3 candidatos claros para promocionar: router (78,3× lo normal, 235.993 vistas, 44 h), tormentas (34,4×, 52.704, 104 h) y ruedas (19,2×, 40.793, 83 h), los tres con interacción del 2,9-3,4 %. Cargador (3,95×) y lavavajillas (3,18×) pasan el 3× pero solo tienen 6.061 y 4.877 vistas: no merecen gasto todavía. Llevamos 0 € invertidos y 0 promociones lanzadas.",
+    "seo": "YouTube está en 1,0× lo normal frente al objetivo de 1,2×. El pozo (9,58×) y el tanque de tormentas (2,63×) son los únicos que despegan, y los dos llevan título de pregunta con el objeto («¿Y si construyes un pozo?»). Hay 9 vídeos en estado voz sin SEO por red y hoy no hay guiones propuestos, así que no escribo títulos nuevos."
+   },
+   "mensajes": 25,
+   "respuestas": 25,
+   "acuerdos": 23,
+   "aprendizajes": 32,
+   "hipotesis": 7,
+   "revisiones": 0,
+   "guiones": 0,
+   "seo": 0
   }
  ]
 }

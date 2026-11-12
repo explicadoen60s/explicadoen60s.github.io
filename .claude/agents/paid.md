@@ -55,4 +55,6 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: los vídeos que despegan y su perfil técnico. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Ventana de promoción: los candidatos solo cuentan en sus primeros 5 días (120 h). A partir de las 100 h hay que decidirlo ese mismo día; tormentas está en 104 h. (2026-11-12)
+- Un 3× sobre una base pequeña no basta: cargador (3,95×) tiene 6.061 vistas y lavavajillas (3,18×) 4.877. Pago solo si el vídeo supera unas 20.000 vistas y 10× lo normal; por debajo de eso, 5 € no compensan. (2026-11-12)

@@ -56,4 +56,8 @@ Entre 2 y 3 ideas y entre 1 y 2 mejoras para compañeros. Campos de `filtro`: fo
 Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos.json` → `mejora` dice qué medidas separan los vídeos que funcionan. Lo tuyo: duracion, ov_palabras_clave, cam_cada. Mira tus `hallazgos`, la `referencia` (cómo son los mejores vídeos) y las `recomendaciones` de cada vídeo en marcha, y propón cambios concretos con esas cifras.
 
 ## Lo que he aprendido
-<!-- Lo amplían las reuniones semanales: máximo 10 puntos, los más útiles. -->
+<!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
+- Duración: por debajo de 71 s rinde 1,39× lo normal (1,07× el resto). Los últimos vídeos de 77-79 s rinden 0,19-0,53×. Objetivo de montaje: 62-68 s. (2026-11-12)
+- Palabras clave resaltadas: más de 27 por vídeo rinde 1,50× lo normal (1,03× el resto). Objetivo 28 o más. (2026-11-12)
+- Menos de 71 s rinde 1,30-1,39× lo normal: marcar al director las frases sobrantes antes de generar la voz, no recortar después. (2026-11-12)
+- Más de 19,7 efectos/min (1,61×) y más de 7 tipos (1,98×): objetivo ≥21 y ≥8. (2026-11-12)
