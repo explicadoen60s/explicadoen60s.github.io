@@ -524,6 +524,120 @@
    "estado": "aplicada",
    "fecha": "2026-11-12T09:11:44+00:00",
    "video": "repetidor"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "m30tunel",
+   "texto": "Pregunta y respuesta no casan: el guion dice «la máquina medía 148 m de largo» antes de revelar 15,2 m, y quien escriba 148 pensará que acertó o falló sin saber por qué. Además 15,2 m es poco «enorme» sin comparación inm",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "avesagrada",
+   "texto": "El título habla de «cómo pasó el AVE sin moverla» pero el juego pregunta la profundidad del muro: el espectador no reconoce la pregunta al llegar al vídeo. La Sagrada Familia es un icono, pero no algo que el espectador t",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "wifi5ghz",
+   "texto": "Tema ideal (el router donut hizo 78 veces lo normal; regla 1 al máximo), pero la cifra del juego, 16 % para ladrillo macizo, y «el pladur se come la mitad» no son datos estándar y varían muchísimo (según grosor y banda);",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "canalmadrid",
+   "texto": "Mezcla ciudad y región: 6,5 millones es la Comunidad de Madrid (la ciudad tiene ~3,3 M) y los 17.000 km de red también son de toda la Comunidad. El título pregunta «kilómetros que recorre el agua» y el juego «kilómetros ",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "seo",
+   "para": "director",
+   "tipo": "revision",
+   "video": "m30tunel",
+   "texto": "El título y la primera frase dicen «máquina», pero nadie busca así: se busca «tuneladora» y «túnel de la M-30». La palabra tuneladora no suena hasta el segundo 20.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "seo",
+   "para": "director",
+   "tipo": "revision",
+   "video": "avesagrada",
+   "texto": "El título del post pregunta «¿Cómo pasó el AVE…?», pero el juego pregunta la profundidad del muro. El gancho de TikTok no coincide con la pregunta del juego. Además, el pie de `texto` ya revela 240 m, un dato que el guio",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "seo",
+   "para": "director",
+   "tipo": "revision",
+   "video": "wifi5ghz",
+   "texto": "«Una acaba en cinco ge» se oirá raro con la voz sintética y deja el término buscable («5 GHz») sin decir bien en voz. Además, el 16 % de señal que atraviesa el ladrillo es la cifra del juego y varía mucho según el materi",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "wifi5ghz",
+   "texto": "Sí hay cifras que cambian (2.400 millones/s, barra 100→50→16 %, alcance 45 m frente a 15 m), pero «cinco ge» lo leerá mal la voz. Falta número para la banda de 5 GHz en ladrillo («todavía menos»): es una cifra que se per",
+   "estado": "rechazada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "bombacalor",
+   "texto": "Salen 5 cifras (gas a −50 °C que sube al comprimirlo, calle a 5 °C, 1 kWh de luz → 4 de calor, radiador 1→1), pero la cifra del juego es un 4 pequeño y se enseña peor que una cifra enorme: no tiene el efecto de subir con",
+   "estado": "rechazada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "canalmadrid",
+   "texto": "Hay 6 cifras que cambian (presas 1→13, embalse llenándose, 34 + ~300 depósitos, 180.000 m³, 17.000 km sobre un mapa, 6,5 millones), pero el dato de Bravo Murillo y los 34 depósitos no están comprobados y 17.000 km de tub",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "m30tunel",
+   "texto": "La pregunta del juego («¿Cuántos metros medía la máquina?») choca con el dato «medía ciento cuarenta y ocho metros de largo», que se dice antes de la revelación. El espectador escribirá 148 y fallará, y la voz pronuncia ",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "wifi5ghz",
+   "texto": "«una acaba en cinco ge» sonará mal en la voz sintética. La frase «La de dos coma cuatro gigahercios vibra dos mil cuatrocientos millones de veces por segundo» tiene 14 palabras y se atropella. El cierre repite preguntas ",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "rol": "director",
+   "tipo": "propuesta",
+   "texto": "6 guiones nuevos: 4 de «Lo que esconde tu ciudad» (bcnpluvial, m30tunel, avesagrada, canalmadrid) y 2 formato A de creencia equivocada (wifi5ghz, bombacalor), de 212-222 palabras, revisados por estratega, seo, motion y sonido."
   }
  ],
  "manual": [
@@ -701,7 +815,254 @@
   }
  ],
  "reuniones": [],
- "predicciones": {},
+ "predicciones": {
+  "bcnpluvial": {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 2.5,
+     "nota": "Réplica de la fórmula del tanque de Madrid con 190 piscinas como comparación, pero Barcelona dispersa audiencia y no es primer plano de objeto."
+    },
+    "seo": {
+     "rel": 1.5,
+     "nota": "Es la parte 3 de una serie que funciona y tiene cifra enorme, pero Barcelona es un público más pequeño que Madrid."
+    },
+    "motion": {
+     "rel": 2.0,
+     "nota": "Misma fórmula que el tanque de tormentas de Madrid (51 veces lo normal), con una cifra enorme y piscinas olímpicas que se ven, aunque Barcelona acota el público."
+    },
+    "sonido": {
+     "rel": 3.0,
+     "nota": "Es el mismo tipo que el tanque de tormentas de Madrid (51 veces lo normal), con una cifra grande y ritmo limpio."
+    },
+    "director": {
+     "rel": 1.5,
+     "nota": "Es la parte 3 de la serie que mejor funciona (tanque de tormentas, 51x), con 477.000 m³ como cifra enorme, pero Barcelona pesa menos que Madrid en la audiencia."
+    },
+    "fotografia": {
+     "rel": 2.2,
+     "nota": "Es el mismo patrón del tanque de tormentas de Madrid (51 veces lo normal): lluvia cayendo y agua entrando a chorro por la rejilla es movimiento claro en el fotograma 1, con corte y cifra grande."
+    },
+    "editor": {
+     "rel": 3.0,
+     "nota": "Es la parte 3 de la serie que ya funcionó (tanque de tormentas de Madrid, 51×), con cifra grande y fácil de enseñar como contador; riesgo: Barcelona fuera de Madrid."
+    },
+    "social": {
+     "rel": 2.2,
+     "nota": "Serie ciudad con cifra enorme y pie 'envíaselo a ese amigo de Barcelona' más comentar tu ciudad: es el mejor imán de comentarios, aunque la cuenta tiene solo 0,19 comentarios por 1.000 vistas."
+    },
+    "paid": {
+     "rel": 3.0,
+     "nota": "Tormentas de Madrid hizo 51x; esta es su gemela en Barcelona, ciudad grande, cifra enorme y cotidiana, aunque la novedad baja en la parte 3."
+    }
+   }
+  },
+  "m30tunel": {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 1.8,
+     "nota": "Tuneladora gigante que gira es muy visual y la M-30 la conoce mucha gente, pero la pregunta confusa resta comentarios."
+    },
+    "seo": {
+     "rel": 2.2,
+     "nota": "La M-30 es algo que mucha gente de Madrid usa a diario y la cifra de 15,2 m se puede enseñar; Madrid ya demostró funcionar con el tanque de tormentas."
+    },
+    "motion": {
+     "rel": 2.6,
+     "nota": "Máquina gigante junto a un edificio de cinco pisos: es la comparación más visual del lote, y Madrid es el mercado donde la serie ya funcionó."
+    },
+    "sonido": {
+     "rel": 2.0,
+     "nota": "La tuneladora gigante es visual y atractiva, pero la pregunta ambigua puede restar comentarios."
+    },
+    "director": {
+     "rel": 1.3,
+     "nota": "La M-30 es muy reconocible y la máquina de 15,2 m se puede enseñar, pero la pregunta es de un solo objeto y no de agua o volumen como los virales."
+    },
+    "fotografia": {
+     "rel": 2.0,
+     "nota": "La rueda de corte girando en primer plano y mordiendo tierra cumple la regla 2 y el corte enseña el interior. El riesgo es que el plano se vuelva repetitivo, porque el top de referencia tiene 24 claves de cámara y un cambio cada 2,8 s."
+    },
+    "editor": {
+     "rel": 1.8,
+     "nota": "Máquina gigante y túnel conocido dan imágenes potentes para el montaje, pero la pregunta del tamaño de la máquina es menos universal que el agua."
+    },
+    "social": {
+     "rel": 2.0,
+     "nota": "Madrid y coche cotidiano, el gancho con la tuneladora es visual y '¿cuántos metros medía?' invita a adivinar, pero el público de Madrid ya vio el tanque de tormentas y el tema es algo menos universal."
+    },
+    "paid": {
+     "rel": 2.2,
+     "nota": "Primer segundo muy fuerte y tuneladora gigante, pero la cifra (metros de la máquina) engancha menos que el volumen de agua y el tema es solo de Madrid."
+    }
+   }
+  },
+  "avesagrada": {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 1.4,
+     "nota": "Gancho con icono mundial, pero tema poco cotidiano y titulo desalineado con el juego."
+    },
+    "seo": {
+     "rel": 1.8,
+     "nota": "La Sagrada Familia atrae búsquedas de todo el país, pero el tema del muro es más técnico y menos cotidiano."
+    },
+    "motion": {
+     "rel": 1.8,
+     "nota": "Sagrada Familia atrae, la cifra de 40 m baja en pantalla y el ‘ningún daño’ cierra bien, pero es tema local de Barcelona."
+    },
+    "sonido": {
+     "rel": 2.5,
+     "nota": "Tiene el conflicto «cavar junto a la Sagrada Familia», un tema con tirón y una cifra clara de 40 m."
+    },
+    "director": {
+     "rel": 1.6,
+     "nota": "Reúne el AVE, la Sagrada Familia y una tuneladora que se acerca: tiene tensión y un monumento famoso, y el muro de 40 m es una cifra visual."
+    },
+    "fotografia": {
+     "rel": 1.6,
+     "nota": "El gancho con la Sagrada Familia es potente. Pero el primer plano es una rueda bajo tierra y cuesta dar escala con una maqueta de torres, y el muro de contención es una cifra menos tangible."
+    },
+    "editor": {
+     "rel": 2.2,
+     "nota": "Sagrada Familia da tirón enorme y la tensión de la tuneladora acercándose permite cortes de ritmo claros; la cifra del muro es algo abstracta."
+    },
+    "social": {
+     "rel": 1.5,
+     "nota": "La Sagrada Familia atrae, pero el AVE no es algo cotidiano para todos y un muro de pantalla de profundidad cuesta imaginarlo como número a comentar."
+    },
+    "paid": {
+     "rel": 2.6,
+     "nota": "La Sagrada Familia es un icono mundial y el riesgo de derrumbe da tensión; el muro de profundidad es una cifra enseñable, y el tema es más de nicho."
+    }
+   }
+  },
+  "wifi5ghz": {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 4.0,
+     "nota": "El wifi en forma de donut hizo 78 veces lo normal: audiencia probada y todos miran su lista de redes."
+    },
+    "seo": {
+     "rel": 1.6,
+     "nota": "El wifi cotidiano funcionó (donut, 37 mil), aunque el 16 % es discutible y es la parte 3."
+    },
+    "motion": {
+     "rel": 2.3,
+     "nota": "Es lo más cotidiano (la lista de redes de tu móvil) y el wifi en donut ya hizo 37 mil, aunque la cifra del juego (16 %) es menos espectacular que un metro cúbico."
+    },
+    "sonido": {
+     "rel": 1.8,
+     "nota": "El wifi cotidiano funcionó con el donut (37 mil), pero los gigahercios son más abstractos."
+    },
+    "director": {
+     "rel": 1.2,
+     "nota": "Es muy cotidiano (tu router), pero es la tercera entrega del wifi y la pregunta del 16 % es abstracta, parecida a los temas que menos funcionan."
+    },
+    "fotografia": {
+     "rel": 1.0,
+     "nota": "El router emitiendo ondas es algo cotidiano, pero es el tema más abstracto de los seis: las ondas son difíciles de enseñar como objeto en acción y la serie wifi ya ha dado lo suyo, así que lo apuesto a lo normal."
+    },
+    "editor": {
+     "rel": 2.0,
+     "nota": "El wifi en forma de donut hizo 37 mil y es tema de móvil que el espectador tiene en la mano; pared y ondas se sincronizan bien, aunque la pregunta de porcentaje es menos visual."
+    },
+    "social": {
+     "rel": 1.3,
+     "nota": "Es cotidiano (tu router), pero el wifi ya tiene partes anteriores y '¿qué parte de la señal atraviesa una pared?' es un porcentaje abstracto con poco motivo para discutir."
+    },
+    "paid": {
+     "rel": 2.8,
+     "nota": "El donut del router hizo 78x en TikTok y este es el cotidiano más puro (tu router, ahora mismo); la comparación 2,4 frente a 5 GHz no es tan visual como el donut."
+    }
+   }
+  },
+  "bombacalor": {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 2.2,
+     "nota": "Aparato de casa y cifra clara (4 frente a 1), aunque el tema es de invierno y la cifra no es enorme."
+    },
+    "seo": {
+     "rel": 2.0,
+     "nota": "Aire acondicionado y ahorro en calefacción es una búsqueda muy alta en invierno, con una creencia falsa que corregir."
+    },
+    "motion": {
+     "rel": 1.5,
+     "nota": "Muy cotidiano y con mecanismo visual claro, pero la cifra de 4 es pequeña y el ciclo del gas es largo de seguir en 70 s."
+    },
+    "sonido": {
+     "rel": 1.5,
+     "nota": "Es un tema cotidiano y de temporada, con un dato de 4 a 1 que gusta, pero es difícil de ver en pantalla."
+    },
+    "director": {
+     "rel": 1.7,
+     "nota": "Hay una sorpresa que engancha: no es una resistencia y da 4 kWh por cada 1 kWh. Es tema universal con mucho interés en invierno, y el dato mueve compartidos."
+    },
+    "fotografia": {
+     "rel": 1.3,
+     "nota": "Es un objeto del hogar, y el ventilador del split con flechas rojas se mueve desde el fotograma 1. El corte del compresor es difícil de rodar y el tema es técnico, así que no espero un pico."
+    },
+    "editor": {
+     "rel": 1.5,
+     "nota": "Aire acondicionado cotidiano y dato sorprendente (más calor que la luz gastada), pero 218 palabras de explicación técnica con pocos elementos que cambien cada 2 s."
+    },
+    "social": {
+     "rel": 1.1,
+     "nota": "Muy cotidiano y con cifra sorprendente (más de 1 kWh de calor por cada kWh de luz), pero en noviembre sirve, y el formato A sin obra grande rinde menos que la serie ciudad."
+    },
+    "paid": {
+     "rel": 2.0,
+     "nota": "Muy cotidiano y con cifra clara (cuánto calor por kWh), pero es un tema de eficiencia con menos imagen para el primer segundo y hay competencia de otros canales."
+    }
+   }
+  },
+  "canalmadrid": {
+   "fecha": "2026-11-12T09:26:13+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 1.3,
+     "nota": "Cifra grande y local, pero tubos enterrados difíciles de enseñar y sin objeto en acción en el primer segundo salvo el grifo."
+    },
+    "seo": {
+     "rel": 1.7,
+     "nota": "El grifo es lo más cotidiano posible, pero la narración es larga y sin una pieza concreta que se vea."
+    },
+    "motion": {
+     "rel": 1.6,
+     "nota": "Grifo del espectador y cifra enorme, pero tiene demasiados datos en cadena y la tubería enterrada es menos espectacular que un depósito o una tuneladora."
+    },
+    "sonido": {
+     "rel": 1.8,
+     "nota": "Es la serie con la que ya funciona la cuenta y un tema que toca a todos, pero tiene muchas cifras y una revelación abstracta (17.000 km)."
+    },
+    "director": {
+     "rel": 1.1,
+     "nota": "Abrir el grifo es muy cotidiano, pero 17.000 km de tuberías y la historia de 1858 son una cifra y un relato menos visuales que un depósito enterrado."
+    },
+    "fotografia": {
+     "rel": 1.8,
+     "nota": "Abrir el grifo es lo más universal de los seis y el corte de la tubería bajo la calle se ve bien. Cae en la serie de la ciudad, que es la que mejor funciona. El primer segundo, con un chorro y una tubería, es algo menos espectacular que una tuneladora."
+    },
+    "editor": {
+     "rel": 2.5,
+     "nota": "Grifo de casa más serie de ciudad con historia de 1858 y tramos que cambian de escenario; encaja con el tanque de Madrid, pero es un recorrido largo y difícil de mantener con cambios cada 2 s."
+    },
+    "social": {
+     "rel": 1.6,
+     "nota": "El grifo es lo más cotidiano y la rivalidad 'madrileño que presume del agua' empuja a compartir, pero '17.000 km de tuberías' es una cifra menos visual que un depósito o un túnel."
+    },
+    "paid": {
+     "rel": 1.8,
+     "nota": "Cotidiano total (tu grifo) y buena cifra, pero los kilómetros de tubería son más difíciles de enseñar que un depósito y el cierre por serie arrastra menos."
+    }
+   }
+  }
+ },
  "encargos": [
   {
    "id": "emwcxbjqh",

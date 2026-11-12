@@ -2641,6 +2641,697 @@
    "creado": "2026-11-11",
    "aprobado": "2026-11-11T20:29:43.989Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "bcnpluvial",
+   "formato": "C",
+   "serie": "Lo que esconde tu ciudad",
+   "idea": "serie-bcn-deposito",
+   "titulo": "¿Cuánta agua de tormenta cabe bajo Barcelona? 🌧️ (Lo que esconde tu ciudad, parte 3)",
+   "guion": "Llueve a cántaros en Barcelona… y el agua corre calle abajo. ¿Cuánta agua de tormenta cabe bajo la ciudad? Escribe tu número antes de que acabe. Barcelona está entre la montaña y el mar. Cuando cae una tormenta, el agua baja por las calles en cuesta. Pero las alcantarillas no dan abasto… y el agua sale por las tapas. Así que cavas una caja de hormigón gigante bajo un parque. Enterrada y vacía, esperando la lluvia. Cuando llueve fuerte, el agua de la calle cae dentro. El depósito Joan Miró, por ejemplo, guarda cincuenta y cinco mil metros cúbicos. Pero uno solo no basta para toda la ciudad. Así que construyes más… y los conectas entre sí. Sensores en las tuberías miden cuánta agua llega. Y unas compuertas deciden qué depósito se llena primero. Cuando pasa la tormenta, el agua sale poco a poco hacia la depuradora. Así no se desborda nada. Hoy Barcelona tiene quince depósitos. Juntos guardan… cuatrocientos setenta y siete mil metros cúbicos. Unas ciento noventa piscinas olímpicas bajo tus pies. Y en dos mil veintiocho llegará otro, de sesenta mil. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.",
+   "texto": "Barcelona esconde 15 depósitos gigantes para las tormentas. Envíaselo a ese amigo de Barcelona que se queja de la lluvia. ¿Cuál era tu número? 👇",
+   "tags": [
+    "barcelona",
+    "lo que esconde tu ciudad",
+    "tormentas",
+    "ingenieria",
+    "como funciona"
+   ],
+   "juego": {
+    "pregunta": "¿Cuánta agua de tormenta cabe bajo Barcelona?",
+    "valor": 477000,
+    "unidad": "m³ BAJO BARCELONA",
+    "dec": 0,
+    "pregunta_en": "¿Cuánta agua de tormenta cabe",
+    "revela_en": "Juntos guardan…"
+   },
+   "ganchos": [
+    "Llueve a cántaros en Barcelona… y el agua corre calle abajo.",
+    "Bajo un parque de Barcelona hay una caja de hormigón vacía esperando la lluvia.",
+    "Cuando diluvia en Barcelona, el agua de tu calle desaparece bajo tierra."
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "La calle por la que caminas cuando llueve, en una ciudad de 1,6 millones de habitantes (serie que funciona: tormentas 34×).",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Lluvia cayendo sobre una calle en cuesta en corte, con el agua entrando a chorro por la rejilla hacia el depósito.",
+    "ensenar": 9,
+    "ensenar_nota": "Depósito que se llena (0 → 55.000 m³), contador de depósitos 1 → 15, total 477.000 m³ y piscinas olímpicas que se apilan (≈190)."
+   },
+   "fuentes": [
+    "https://www.moncloa.com/2026/10/22/barcelona-deposito-pluvial-licitacion-3453606/",
+    "https://www.iagua.es/blogs/jordi-oliveras/deposito-regulador-pluviales-joan-miro-barcelona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Es la fórmula del tanque de tormentas de Madrid (34 veces lo normal) aplicada a otra ciudad, con cifra enorme (477.000 m³ ≈ 190 piscinas), pregunta al principio y revelación en el último tercio. 477.000 y 15 depósitos salen de fuentes municipales, pero márcalos «(comprobar)» en la nota.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "Las dos cifras están comprobadas en la prensa de octubre de 2026 (15 depósitos, 477.000 m³); no hace falta marcarlas."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "La palabra buscable (depósitos de tormenta, Barcelona) suena en la primera frase y está en título y pie. La cifra de 477.000 m³ se revela a mitad, no antes de 15 s, y el cierre es el del juego.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Sale con 6 cifras que cambian (depósito 0→55.000 m³, depósitos 1→15, 477.000 m³, ≈190 piscinas, sensores, 60.000 m³ de 2028), así que cumple el mínimo de 4 y todo se ve, nada de metáforas. Es la fórmula del tanque de tormentas de Madrid.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "215 palabras, 4 «…» (una cada 54 palabras), la cifra de 477.000 se descubre en «Juntos guardan…» hacia el 70 % y el efecto cae en el «…» antes del dato. La cifra de piscinas (190) cuadra.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu número 🌧️",
+     "texto": "Barcelona esconde 15 depósitos gigantes para las tormentas. Envíaselo a ese amigo de Barcelona que se queja de la lluvia. ¿Cuál era tu número? 👇",
+     "tags": [
+      "barcelona",
+      "lo que esconde tu ciudad",
+      "tormentas",
+      "ingenieria",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Cuánta agua de tormenta cabe bajo Barcelona? 🌧️",
+     "texto": "Así funcionan los depósitos pluviales de Barcelona: cajas de hormigón enterradas que guardan la lluvia para que no se desborde nada. ¿Cuál era tu número? 👇 Envíaselo a ese amigo de Barcelona. #barcelona #depositospluviales #comofunciona #ingenieria #loqueesconde",
+     "tags": [
+      "barcelona",
+      "depositospluviales",
+      "comofunciona",
+      "ingenieria",
+      "loqueesconde"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el depósito de tormentas de Barcelona",
+     "texto": "Cuánta agua de tormenta cabe bajo Barcelona y cómo funcionan sus 15 depósitos pluviales. ¿Cuál era tu número? #shorts #barcelona #comofunciona",
+     "tags": [
+      "comofunciona",
+      "depositos de tormenta",
+      "barcelona",
+      "ingenieria",
+      "lo que esconde tu ciudad"
+     ]
+    }
+   }
+  },
+  {
+   "id": "m30tunel",
+   "formato": "C",
+   "serie": "Lo que esconde tu ciudad",
+   "idea": "serie-m30",
+   "titulo": "¿Cuántos metros de diámetro tenía la tuneladora de la M-30? 🚗 (Lo que esconde tu ciudad)",
+   "guion": "Vas en coche por Madrid… y de repente la eme treinta se mete bajo tierra. ¿Cuántos metros de diámetro tenía la tuneladora que cavó ese túnel? Escribe tu número antes de que acabe. Antes, la eme treinta iba al aire libre junto al río Manzanares. Ruido, humo y coches cortando la ciudad en dos. Así que decides meterla bajo tierra. Pero cavar a mano bajo una ciudad es lentísimo. Así que traes una tuneladora. Delante lleva una rueda que gira llena de cuchillas. Muerde la tierra… y una cinta la saca hacia atrás. Detrás, unos brazos colocan anillos de hormigón. Así el túnel nunca se queda sin paredes. La tuneladora del túnel sur pesaba tres mil doscientas toneladas. Y su rueda de corte medía… quince coma dos metros de diámetro. Más alta que un edificio de cinco pisos. Y de largo, ciento cuarenta y ocho metros. Avanzaba hasta cuarenta y seis metros al día. Así cavó más de tres kilómetros y medio. Dentro, cada tubo lleva tres carriles. Y arriba, donde antes rugían los coches… ahora hay un parque junto al río. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.",
+   "texto": "Bajo el parque de Madrid Río pasa una autovía entera. Envíaselo a ese amigo que se mete cada día en el túnel de la M-30. ¿Cuál era tu número? 👇",
+   "tags": [
+    "madrid",
+    "lo que esconde tu ciudad",
+    "m30",
+    "tuneladora",
+    "ingenieria"
+   ],
+   "juego": {
+    "pregunta": "¿Cuántos metros de diámetro tenía la tuneladora de la M-30?",
+    "valor": 15.2,
+    "unidad": "METROS DE DIÁMETRO",
+    "dec": 1,
+    "pregunta_en": "¿Cuántos metros de diámetro tenía",
+    "revela_en": "Y su rueda de corte medía…"
+   },
+   "ganchos": [
+    "Vas en coche por Madrid… y de repente la eme treinta se mete bajo tierra.",
+    "Bajo este parque de Madrid pasan miles de coches cada hora.",
+    "Una rueda de cuchillas más alta que tu edificio cavó bajo Madrid."
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Una autovía que usan cada día cientos de miles de madrileños y un parque que todo Madrid conoce.",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "La rueda de corte de la tuneladora girando en primer plano y mordiendo la tierra, con coches pasando por encima.",
+    "ensenar": 9,
+    "ensenar_nota": "Diámetro que sube hasta 15,2 m junto a un edificio de 5 pisos, 3.200 t, 148 m de largo, contador de 46 m/día y km excavados."
+   },
+   "fuentes": [
+    "https://tunnelbuilder.com/News/Tunnelling-Ends-on-the-M-30-South-Bypass-in-Madrid.aspx"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Pregunta y respuesta no casan: el guion dice «la máquina medía 148 m de largo» antes de revelar 15,2 m, y quien escriba 148 pensará que acertó o falló sin saber por qué. Además 15,2 m es poco «enorme» sin comparación inmediata.",
+     "propuesta": "Cambia la pregunta (guion, juego.pregunta y título) por «¿Cuántos metros de diámetro tenía la rueda que cavó el túnel de la M-30?» y quita «Medía ciento cuarenta y ocho metros de largo» o muévelo después de la revelación. Añade la comparación en la revelación: «más que un autobús de dos pisos, puesto de pie, tres veces»; deja los 46 m/día y las 3.200 t como «(comprobar)».",
+     "aplicada": true,
+     "respuesta": "Aplicado: la pregunta ahora es el diámetro y los 148 m van después de la revelación; la comparación ya está («más alta que un edificio de cinco pisos») y 3.200 t y 46 m/día están comprobados en la fuente de la obra."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "El título y la primera frase dicen «máquina», pero nadie busca así: se busca «tuneladora» y «túnel de la M-30». La palabra tuneladora no suena hasta el segundo 20.",
+     "propuesta": "Cambia la frase 2 por: «¿Cuántos metros medía la tuneladora que cavó ese túnel?» y el título del juego por «¿Cuánto medía la tuneladora que metió la M-30 bajo tierra?». Cambia también `pregunta_en` a «¿Cuántos metros medía la tuneladora».",
+     "aplicada": true,
+     "respuesta": "Aplicado junto con la revisión de sonido y estrategia: «¿Cuántos metros de diámetro tenía la tuneladora…?» en guion, juego y título."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Hay 6 cifras que se pueden mover: diámetro hasta 15,2 m junto a un edificio de 5 pisos, 3.200 t, 148 m, 46 m/día y km excavados. Es el mejor guion para el juego, porque el diámetro crece en pantalla contra un edificio real. Dato técnico de peso y largo de la tuneladora: márcalo «(comprobar)» antes de renderizar.",
+     "propuesta": "Comprueba 3.200 t y 148 m en una fuente de la obra. Si no cuadran, cambia la frase 12 por «Pesaba más que… » con la cifra verificada.",
+     "aplicada": true,
+     "respuesta": "Comprobado: 3.200 t y 148 m salen de la fuente de la obra (Tunnelbuilder)."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "La pregunta del juego («¿Cuántos metros medía la máquina?») choca con el dato «medía ciento cuarenta y ocho metros de largo», que se dice antes de la revelación. El espectador escribirá 148 y fallará, y la voz pronuncia «M-30» sin pista de cómo leerlo.",
+     "propuesta": "Cambia la pregunta por «¿Cuántos metros de diámetro tenía la rueda que cavó ese túnel?» (y pregunta_en: «¿Cuántos metros de diámetro»). Escribe «la eme treinta» en vez de «la M-30» en las dos apariciones. Quita los metros de largo (148) o muévelos después de la revelación, para no pisar la cifra.",
+     "aplicada": true,
+     "respuesta": "Aplicado todo: pregunta por el diámetro, «eme treinta» en las dos apariciones y los 148 m después de la revelación."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗",
+     "texto": "Bajo el parque de Madrid Río pasa una autovía entera. Envíaselo a ese amigo que se mete cada día en el túnel de la M-30. ¿Cuál era tu número? 👇",
+     "tags": [
+      "madrid",
+      "lo que esconde tu ciudad",
+      "m30",
+      "tuneladora",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Cuánto medía la tuneladora de la M-30? 🚗",
+     "texto": "Cómo se enterró la M-30 de Madrid: una tuneladora gigante, anillos de hormigón y un parque donde antes había coches. ¿Cuál era tu número? 👇 Envíaselo a quien cruza el túnel cada día. #m30 #madrid #tuneladora #comofunciona #madridrio",
+     "tags": [
+      "m30",
+      "madrid",
+      "tuneladora",
+      "comofunciona",
+      "madridrio"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo se hizo el túnel de la M-30 bajo Madrid",
+     "texto": "Cómo funciona una tuneladora y cuánto medía la que cavó el túnel de la M-30. ¿Cuál era tu número? #shorts #m30 #tuneladora",
+     "tags": [
+      "comofunciona",
+      "tuneladora",
+      "m30",
+      "madrid",
+      "ingenieria"
+     ]
+    }
+   }
+  },
+  {
+   "id": "avesagrada",
+   "formato": "C",
+   "serie": "Lo que esconde tu ciudad",
+   "idea": "serie-ave-bcn",
+   "titulo": "¿Qué profundidad tiene el muro que protege la Sagrada Familia del AVE? 🚄 (Lo que esconde tu ciudad)",
+   "guion": "Una tuneladora avanza bajo Barcelona… directa hacia la Sagrada Familia. ¿Qué profundidad tiene el muro que la protege? Escribe tu número antes de que acabe. El AVE tenía que cruzar la ciudad bajo tierra. De la estación de Sants a la de la Sagrera. Casi seis kilómetros de túnel. Pero el camino pasa por la calle Mallorca… justo al lado del templo. Si el suelo se mueve un poco, la piedra se puede agrietar. Así que, antes de cavar, construyes un muro bajo tierra. Haces agujeros enormes, uno pegado al otro. Cada uno mide metro y medio de ancho. Los rellenas de hormigón y acero: son los pilotes. Juntos forman una pantalla de doscientos cuarenta metros de largo. Y esa pantalla baja hasta… cuarenta metros de profundidad. Como un edificio de trece pisos, pero hacia abajo. Así, si la tierra se mueve, empuja el muro… y no el templo. Después llega la tuneladora, de doce metros de diámetro. En octubre de dos mil diez pasó junto a la fachada. Los sensores vigilaban cada milímetro del edificio. ¿Y el resultado? Ningún daño. Hoy los trenes pasan por ahí cada día. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.",
+   "texto": "Un muro invisible protege la Sagrada Familia del AVE. Envíaselo a ese amigo que ha ido en AVE a Barcelona. ¿Cuál era tu número? 👇",
+   "tags": [
+    "barcelona",
+    "lo que esconde tu ciudad",
+    "sagrada familia",
+    "ave",
+    "tuneles"
+   ],
+   "juego": {
+    "pregunta": "¿Qué profundidad tiene el muro que protege la Sagrada Familia?",
+    "valor": 40,
+    "unidad": "METROS BAJO TIERRA",
+    "dec": 0,
+    "pregunta_en": "¿Qué profundidad tiene el muro",
+    "revela_en": "Y esa pantalla baja hasta…"
+   },
+   "ganchos": [
+    "Una tuneladora avanza bajo Barcelona… directa hacia la Sagrada Familia.",
+    "El AVE pasa por debajo de Barcelona a pocos metros de la Sagrada Familia.",
+    "Si el suelo se mueve un centímetro, la Sagrada Familia se agrieta."
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "El monumento más visitado de España y un tren que usan millones de personas.",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "La rueda de la tuneladora girando bajo tierra en corte, avanzando hacia las torres de la basílica de maqueta.",
+    "ensenar": 9,
+    "ensenar_nota": "Pilotes que bajan hasta 40 m (contador de profundidad), 240 m de pantalla, 1,5 m por pilote, 12 m de tuneladora y medidor de milímetros que se queda en verde."
+   },
+   "fuentes": [
+    "https://en.wikipedia.org/wiki/Tunnel_of_Proven%C3%A7a"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "El título habla de «cómo pasó el AVE sin moverla» pero el juego pregunta la profundidad del muro: el espectador no reconoce la pregunta al llegar al vídeo. La Sagrada Familia es un icono, pero no algo que el espectador tenga en la mano (regla 1 floja). Los 40 m y los 240 m de pantalla hay que comprobarlos.",
+     "propuesta": "Título: «¿Qué profundidad tiene el muro que salvó a la Sagrada Familia del AVE? 🚄». Primera frase: «Cada día pasas junto a un muro que no ves…» si el espectador es de Barcelona, o conecta con el tren: «Si viajas en AVE por Barcelona, pasas bajo un muro de hormigón». Verifica 40 m, 240 m y octubre de 2010 con búsqueda y márcalos «(comprobar)» si no salen.",
+     "aplicada": true,
+     "respuesta": "Aplico el título con la pregunta del juego; la primera frase se queda con la tuneladora en marcha (regla 2), y 40 m, 240 m y octubre de 2010 están comprobados."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "El título del post pregunta «¿Cómo pasó el AVE…?», pero el juego pregunta la profundidad del muro. El gancho de TikTok no coincide con la pregunta del juego. Además, el pie de `texto` ya revela 240 m, un dato que el guion usa para el juego.",
+     "propuesta": "Pon en el título la pregunta del juego: «¿Qué profundidad tiene el muro que protege la Sagrada Familia del AVE?». En el pie, quita «240 metros» y deja «Un muro invisible protege la Sagrada Familia del AVE».",
+     "aplicada": true,
+     "respuesta": "Aplicados el título y el pie."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Cumple con 6 cifras: pilotes hasta 40 m con contador de profundidad, 240 m de pantalla, 1,5 m por pilote, 12 m de tuneladora, ~6 km y un medidor de milímetros que se queda en verde. La profundidad del juego (40 m) se enseña bien, con pilotes que bajan.",
+     "propuesta": "En el _ov.py la pastilla de 40 m va a ≥120 px del eje del muro, y el medidor de milímetros es el cuarto contador que exige el acuerdo vigente. Comprueba 240 m y 40 m en fuente (comprobar).",
+     "aplicada": true,
+     "respuesta": "Las cifras están comprobadas; la colocación de la pastilla queda para la escena."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "220 palabras, 4 «…», ritmo bueno, la revelación «Y esa pantalla baja hasta…» cae en el último tercio. Hay varias cifras seguidas (240 m, 40 m, 12 m), pero la clave va aislada tras la pausa.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Qué profundidad tiene el muro que protege la Sagrada Familia del AVE? 🚄",
+     "texto": "Un muro invisible protege la Sagrada Familia del AVE. Envíaselo a ese amigo que ha ido en AVE a Barcelona. ¿Cuál era tu número? 👇",
+     "tags": [
+      "barcelona",
+      "lo que esconde tu ciudad",
+      "sagrada familia",
+      "ave",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Cómo pasó el AVE junto a la Sagrada Familia sin moverla? 🚄",
+     "texto": "Así protegieron la Sagrada Familia cuando el túnel del AVE pasó a su lado: un muro de pilotes bajo tierra y sensores que vigilan cada milímetro. ¿Cuál era tu número? 👇 #sagradafamilia #barcelona #ave #tuneladora #comofunciona",
+     "tags": [
+      "sagradafamilia",
+      "barcelona",
+      "ave",
+      "tuneladora",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo pasó el AVE junto a la Sagrada Familia",
+     "texto": "Cómo funciona el muro de pilotes que protegió la Sagrada Familia del túnel del AVE en Barcelona. ¿Cuál era tu número? #shorts #sagradafamilia #ave",
+     "tags": [
+      "comofunciona",
+      "sagrada familia",
+      "ave",
+      "barcelona",
+      "tuneladora"
+     ]
+    }
+   }
+  },
+  {
+   "id": "wifi5ghz",
+   "formato": "A",
+   "serie": "Wifi",
+   "titulo": "¿Hasta dónde llega tu wifi de 5 GHz? 📶 Lo que le pasa al cruzar una pared (Wifi, parte 3)",
+   "guion": "Tu router está emitiendo ahora mismo… en dos frecuencias a la vez. ¿Hasta cuántos metros llega dentro de casa la de cinco gigahercios? Escribe tu número antes de que acabe. Mira la lista de redes de tu móvil. Muchas veces tu wifi sale dos veces: una acaba en cinco gigahercios. La de dos coma cuatro vibra dos mil cuatrocientos millones de veces cada segundo. La de cinco, más del doble. Más vibraciones… y caben más datos. Por eso la de cinco va más rápida. Pero hay una trampa. Cuanto más rápido vibra la onda, peor atraviesa las cosas. El pladur, el ladrillo, el hormigón, tu nevera. Cada obstáculo se queda con una parte de la señal. Un tabique de pladur ya se come la mitad. Y una pared de ladrillo macizo… deja pasar menos de una quinta parte. Y en cinco gigahercios, todavía menos. Por eso, dentro de casa, la de dos coma cuatro llega a unos cuarenta y cinco metros. La de cinco, solo a unos quince. Entonces, ¿cuál usas? En la misma habitación que el router, la de cinco. Con dos paredes de por medio, la de dos coma cuatro. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.",
+   "texto": "Tu wifi de 5 GHz va más rápido… hasta que hay una pared. Envíaselo a ese amigo que tiene el router en el pasillo. ¿Cuál era tu número? 👇",
+   "tags": [
+    "wifi",
+    "router",
+    "5ghz",
+    "tecnologia",
+    "como funciona"
+   ],
+   "juego": {
+    "pregunta": "¿Hasta cuántos metros llega el wifi de 5 GHz dentro de casa?",
+    "valor": 15,
+    "unidad": "METROS EN 5 GHz",
+    "dec": 0,
+    "pregunta_en": "¿Hasta cuántos metros llega",
+    "revela_en": "La de cinco, solo a unos quince."
+   },
+   "ganchos": [
+    "Tu router está emitiendo ahora mismo… en dos frecuencias a la vez.",
+    "Tu wifi sale dos veces en la lista: una acaba en cinco ge. ¿Cuál es mejor?",
+    "El wifi de 5 GHz es más rápido… hasta que hay una pared."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "El router y la lista de redes del móvil que el espectador tiene ahora mismo (segunda parte de la serie del router, 78×).",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Router de maqueta emitiendo dos ondas de colores distintos que chocan contra una pared en corte.",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de vibraciones (2.400 millones/s), barra de señal que baja al cruzar pladur (50 %) y ladrillo (menos del 20 %), alcance que sube a 45 m en 2,4 GHz y se queda en 15 m en 5 GHz."
+   },
+   "fuentes": [
+    "https://www.jjlmoya.es/utilidades/simulador-de-alcance-wifi/",
+    "https://www.xatakahome.com/la-red-local/a-partir-que-distancia-al-router-wifi-2-4ghz-5ghz-comienza-a-dar-problemas"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Tema ideal (el router donut hizo 78 veces lo normal; regla 1 al máximo), pero la cifra del juego, 16 % para ladrillo macizo, y «el pladur se come la mitad» no son datos estándar y varían muchísimo (según grosor y banda); un comentario correcto los desmontaría. «Una acaba en cinco ge» suena raro en voz. El título pregunta otra cosa que el juego.",
+     "propuesta": "Usa una cifra defendible, p. ej. «cada pared de ladrillo le quita en 5 GHz más de la mitad de la señal (unos 6-10 dB)», o pon «(comprobar)» y cambia a «¿Cuántas paredes aguanta tu wifi de 5 GHz?» con la revelación en metros reales. Cambia «una acaba en cinco ge» por «una acaba en cinco gigahercios». Título: «¿Qué parte de tu wifi atraviesa una pared de ladrillo? 📶».",
+     "aplicada": true,
+     "respuesta": "Aplicado: el juego pasa al alcance en metros (15 m en 5 GHz), el ladrillo queda en «menos de una quinta parte», «cinco gigahercios» y el título pregunta lo mismo que el juego."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "«Una acaba en cinco ge» se oirá raro con la voz sintética y deja el término buscable («5 GHz») sin decir bien en voz. Además, el 16 % de señal que atraviesa el ladrillo es la cifra del juego y varía mucho según el material.",
+     "propuesta": "Cambia la frase por «una se llama cinco gigahercios». Marca el 16 % como «(comprobar)» o redondéalo a «solo una quinta parte»; si no se puede comprobar, cambia el juego al alcance en metros (45 frente a 15).",
+     "aplicada": true,
+     "respuesta": "Aplicado: «cinco gigahercios», ladrillo en «menos de una quinta parte» y juego en metros (15 m)."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Sí hay cifras que cambian (2.400 millones/s, barra 100→50→16 %, alcance 45 m frente a 15 m), pero «cinco ge» lo leerá mal la voz. Falta número para la banda de 5 GHz en ladrillo («todavía menos»): es una cifra que se perdería sin contador.",
+     "propuesta": "Cambia la frase 4 por «una acaba en cinco gigahercios». Cambia «Y en cinco gigahercios, todavía menos.» por «Y en cinco gigahercios, solo el cinco por ciento (comprobar).» para que la segunda barra baje también en pantalla. Muestra las ondas como ondas reales que se aprietan, sin metáfora.",
+     "aplicada": false,
+     "respuesta": "Aplico «cinco gigahercios», pero no pongo un 5 % que no está comprobado: la barra de 5 GHz puede bajar más sin número."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "«una acaba en cinco ge» sonará mal en la voz sintética. La frase «La de dos coma cuatro gigahercios vibra dos mil cuatrocientos millones de veces por segundo» tiene 14 palabras y se atropella. El cierre repite preguntas («¿Te has acercado? ¿Y tú cuál usas?»), y la segunda estorba al cierre acordado.",
+     "propuesta": "Cambia «una acaba en cinco ge» por «una acaba en cinco gigahercios». Parte la frase larga: «La de dos coma cuatro gigahercios vibra… dos mil cuatrocientos millones de veces por segundo.» pasa a «La de dos coma cuatro vibra dos mil cuatrocientos millones de veces cada segundo.» (11 palabras). Borra «¿Y tú cuál usas?» del cierre, ya que «Entonces, ¿cuál usas?» lo cubre, y deja «¿Te has acercado? Y si quieres…».",
+     "aplicada": true,
+     "respuesta": "Aplicados los tres cambios."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2,4 📶",
+     "texto": "Tu wifi de 5 GHz va más rápido… hasta que hay una pared. Envíaselo a ese amigo que tiene el router en el pasillo. ¿Cuál era tu número? 👇",
+     "tags": [
+      "wifi",
+      "router",
+      "5ghz",
+      "tecnologia",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Wifi de 5 GHz o 2,4 GHz: ¿cuál usar? 📶",
+     "texto": "La red de 5 GHz va más rápida, pero las paredes se comen su señal. Te explico cuándo usar cada una según dónde esté tu router. ¿Cuál era tu número? 👇 #wifi #router #5ghz #tecnologia #comofunciona",
+     "tags": [
+      "wifi",
+      "router",
+      "5ghz",
+      "tecnologia",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "Wifi 2,4 o 5 GHz: cuál es mejor y cómo funciona",
+     "texto": "Cómo funciona el wifi de 5 GHz frente al de 2,4 GHz y qué pasa cuando cruza una pared. ¿Cuál era tu número? #shorts #wifi #5ghz",
+     "tags": [
+      "comofunciona",
+      "wifi",
+      "5ghz",
+      "router",
+      "tecnologia"
+     ]
+    }
+   }
+  },
+  {
+   "id": "bombacalor",
+   "formato": "A",
+   "titulo": "¿Cuánto calor saca tu aire acondicionado de cada kWh de luz? 🔥❄️ No lleva resistencia",
+   "guion": "Hace frío fuera… y enciendes el aire acondicionado en modo calor. ¿Cuánto calor te da por cada kilovatio de luz que gasta? Escribe tu número antes de que acabe. Parece magia: ¿cómo saca calor de una calle a cinco grados? Mucha gente cree que lleva una resistencia, como un radiador. Pero no. Dentro hay un circuito cerrado con un gas especial. Ese gas hierve a unos cincuenta grados bajo cero. Fuera, en la máquina del balcón, el gas está más frío que la calle. Así que el aire de la calle, aunque esté frío, le pasa calor. El gas se lo lleva dentro del tubo. Luego, un compresor lo aprieta con fuerza. Al apretarlo, el gas se calienta muchísimo. Y ese gas caliente llega a la máquina de tu salón. Un ventilador sopla… y el calor sale a la habitación. El gas, ya frío, vuelve a la calle. Y empieza otra vuelta. La luz solo mueve el compresor y los ventiladores. No fabrica calor: lo traslada de fuera a dentro. Por eso, por cada kilovatio de luz… te da unos cuatro de calor. Un radiador eléctrico te da solo uno. En verano hace lo mismo, pero al revés. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.",
+   "texto": "Tu aire acondicionado no fabrica calor: lo saca de la calle. Envíaselo a ese amigo que pone el radiador eléctrico. ¿Cuál era tu número? 👇",
+   "tags": [
+    "aire acondicionado",
+    "bomba de calor",
+    "calefaccion",
+    "ahorro",
+    "como funciona"
+   ],
+   "juego": {
+    "pregunta": "¿Cuánto calor te da el aire acondicionado por cada kWh de luz?",
+    "valor": 4,
+    "unidad": "kWh DE CALOR POR 1 DE LUZ",
+    "dec": 0,
+    "pregunta_en": "¿Cuánto calor te da por cada",
+    "revela_en": "Por eso, por cada kilovatio"
+   },
+   "ganchos": [
+    "Hace frío fuera… y enciendes el aire acondicionado en modo calor.",
+    "Tu aire acondicionado saca calor de una calle a cinco grados. Te enseño cómo.",
+    "Tu aire acondicionado no lleva resistencia. Entonces, ¿de dónde sale el calor?"
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "El split del salón que casi todo el mundo tiene y enciende en noviembre; desmonta la creencia de que calienta con una resistencia.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "El ventilador del split girando y soplando aire caliente (flechas rojas) en un salón de maqueta con la unidad exterior en el balcón.",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetro del gas a -50 °C que sube al comprimirlo, flechas de calor de la calle al salón, contador 1 kWh de luz → 4 kWh de calor frente a 1 → 1 del radiador."
+   },
+   "fuentes": [
+    "https://www.xatakahome.com/hogar/quiero-aire-acondicionado-que-caliente-casa-gaste-poco-que-scop-que-conviene-mirarlo",
+    "https://www.endesa.com/es/conoce-la-energia/blog/bomba-calor-aire-acondicionado"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Regla 1 muy fuerte (el aire acondicionado de casa), cifra comparable con un radiador (4 kWh frente a 1) y revelación a mitad-final; sin serie, pero equilibra la mezcla con formato A. Pequeño ajuste de precisión: R32/R410A hierven a unos -52 °C, no «más de cincuenta bajo cero» (ambiguo).",
+     "propuesta": "Cambia «a más de cincuenta grados bajo cero» por «a unos cincuenta grados bajo cero». Añade en el pie «Envíaselo a ese amigo que aún usa la estufa».",
+     "aplicada": true,
+     "respuesta": "Aplicada la precisión de la temperatura; el pie ya invita a enviarlo al amigo del radiador eléctrico."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "El gancho conecta con el espectador («enciendes el aire acondicionado») y la cifra del 4 se revela cerca del final. «Bomba de calor» y «aire acondicionado» sonarían mejor juntas en la primera frase.",
+     "propuesta": "Opcional: cambia la frase 1 por «…enciendes el aire acondicionado en modo calor, la bomba de calor de tu casa.»",
+     "aplicada": false,
+     "respuesta": "No lo aplico: alarga la primera frase y la voz llega más tarde a la pregunta; «bomba de calor» va en etiquetas y en el pie de Instagram."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Salen 5 cifras (gas a −50 °C que sube al comprimirlo, calle a 5 °C, 1 kWh de luz → 4 de calor, radiador 1→1), pero la cifra del juego es un 4 pequeño y se enseña peor que una cifra enorme: no tiene el efecto de subir contando hasta un número grande. Además el guion tiene tramo largo sin cifra dicha (frases 9-14).",
+     "propuesta": "Añade en la frase del compresor «a más de ochenta grados» (comprobar) para tener un termómetro que sube de −50 a +80 °C, y deja el 4 como barras de calor que se apilan (1 de luz, 4 de calor) al lado de un radiador con 1. Así la revelación se ve como cuatro bloques que aparecen.",
+     "aplicada": false,
+     "respuesta": "No añado los 80 °C sin fuente; las barras de calor que se apilan (1 frente a 4) quedan apuntadas para la escena."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "218 palabras, 3 «…» bien colocados; la revelación «por cada kilovatio de luz… te da unos cuatro» deja una pausa antes de la cifra. Hay dos preguntas seguidas al inicio (juego y «¿cómo saca calor…?»), lo que diluye algo el gancho, pero no rompe nada. Sugerencia menor de claridad.",
+     "propuesta": "Cambia «Un radiador eléctrico, solo uno.» por «Un radiador eléctrico te da solo uno.», para que no suene a fragmento suelto.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánto calor te da el aire acondicionado por cada kWh de luz? 🔥❄️",
+     "texto": "Tu aire acondicionado no fabrica calor: lo saca de la calle. Envíaselo a ese amigo que pone el radiador eléctrico. ¿Cuál era tu número? 👇",
+     "tags": [
+      "aire acondicionado",
+      "bomba de calor",
+      "calefaccion",
+      "ahorro",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Tu aire acondicionado no lleva resistencia 🔥❄️",
+     "texto": "Cómo funciona una bomba de calor: el aire acondicionado en modo calor traslada el calor de la calle a tu salón y rinde unas cuatro veces más que un radiador eléctrico. ¿Cuál era tu número? 👇 #aireacondicionado #bombadecalor #ahorro #calefaccion #comofunciona",
+     "tags": [
+      "aireacondicionado",
+      "bombadecalor",
+      "ahorro",
+      "calefaccion",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el aire acondicionado en modo calor",
+     "texto": "Cómo funciona una bomba de calor y por qué da unos 4 kWh de calor por cada 1 kWh de luz. ¿Cuál era tu número? #shorts #aireacondicionado #bombadecalor",
+     "tags": [
+      "comofunciona",
+      "aire acondicionado",
+      "bomba de calor",
+      "calefaccion",
+      "ahorro"
+     ]
+    }
+   }
+  },
+  {
+   "id": "canalmadrid",
+   "formato": "C",
+   "serie": "Lo que esconde tu ciudad",
+   "idea": "serie-canal",
+   "titulo": "¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Madrid? 💧 (Lo que esconde tu ciudad)",
+   "guion": "Abres el grifo en Madrid… y el agua sale al momento. ¿Cuántos kilómetros de tubos hay para que llegue hasta ti? Escribe tu número antes de que acabe. Madrid no tiene un gran río al lado. Así que, en mil ochocientos cincuenta y ocho, la traen del río Lozoya, en la sierra. Construyes presas en los ríos de la montaña. Hoy son trece, y guardan casi mil millones de metros cúbicos. Pero el agua del embalse no se puede beber así. Así que la mandas a una planta potabilizadora. Allí la filtran y la desinfectan. Luego viaja hacia la ciudad por canales y tuberías enormes. Pero en Madrid todos abren el grifo a la vez. Por la mañana… y a la hora de la cena. Así que guardas agua cerca, en depósitos enterrados. Más de trescientos, grandes y pequeños. Uno de ellos, en Bravo Murillo, guarda ciento ochenta mil metros cúbicos. Y desde ahí, el agua baja por tubos bajo cada calle. Si los pones en fila, miden… más de diecisiete mil kilómetros. Casi la distancia de Madrid a Australia. Para casi siete millones de personas en la Comunidad de Madrid. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más.",
+   "texto": "Bajo la Comunidad de Madrid hay 17.000 km de tuberías para que salga agua de tu grifo. Envíaselo a ese amigo madrileño que presume del agua del Canal. ¿Cuál era tu número? 👇",
+   "tags": [
+    "madrid",
+    "lo que esconde tu ciudad",
+    "agua",
+    "canal de isabel ii",
+    "ingenieria"
+   ],
+   "juego": {
+    "pregunta": "¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Madrid?",
+    "valor": 17000,
+    "unidad": "KM DE TUBERÍAS",
+    "dec": 0,
+    "pregunta_en": "¿Cuántos kilómetros de tubos hay",
+    "revela_en": "Si los pones en fila"
+   },
+   "ganchos": [
+    "Abres el grifo en Madrid… y el agua sale al momento.",
+    "El agua de tu grifo en Madrid ha viajado desde la sierra para llegar hasta ti.",
+    "Bajo cada calle de Madrid corre un río dentro de un tubo."
+   ],
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "El grifo de tu cocina, que abres varias veces al día, en la región más poblada de España (6,8 millones).",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Grifo abierto con el chorro cayendo y, en corte bajo la calle, el agua corriendo por la tubería que llega al edificio.",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de presas 1 → 13, embalse que se llena, depósito de 180.000 m³, más de 300 depósitos y contador de km que sube a 17.000 sobre un mapa Madrid → Australia."
+   },
+   "fuentes": [
+    "https://www.comunidad.madrid/node/60501",
+    "https://www.comunidad.madrid/node/108977"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Mezcla ciudad y región: 6,5 millones es la Comunidad de Madrid (la ciudad tiene ~3,3 M) y los 17.000 km de red también son de toda la Comunidad. El título pregunta «kilómetros que recorre el agua» y el juego «kilómetros de tubos»: no coinciden. Cifra de 13 presas y 34 depósitos grandes por comprobar.",
+     "propuesta": "Pon en guion y pie «en la Comunidad de Madrid» y título: «¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Madrid? 💧». Verifica 17.000 km, 13 presas, 34 depósitos y 180.000 m³ de Bravo Murillo; lo que no salga, márcalo «(comprobar)». Visualmente es lo más difícil de enseñar: propón en la escena un contador de km y la fila de tubos hasta Australia como comparación.",
+     "aplicada": true,
+     "respuesta": "Aplicado: «Comunidad de Madrid» en guion y pie, título igual que el juego y cifras comprobadas en la nota de prensa de la Comunidad (17.000 km, 13 presas, 34 depósitos, 180.000 m³)."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Abre con el grifo del espectador, la palabra «grifo» está en título y pie, y la cifra de 17.000 km se descubre en el último tercio. La comparación con Australia es visual y fácil de enseñar.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Hay 6 cifras que cambian (presas 1→13, embalse llenándose, 34 + ~300 depósitos, 180.000 m³, 17.000 km sobre un mapa, 6,5 millones), pero el dato de Bravo Murillo y los 34 depósitos no están comprobados y 17.000 km de tuberías puede ser la red total, no la de un solo grifo. Es el vídeo con más datos sin enseñar a la vez.",
+     "propuesta": "Comprueba los 180.000 m³ del depósito de Bravo Murillo y las 13 presas. Cambia «Treinta y cuatro grandes, y casi trescientos pequeños» por una sola cifra: «Más de trescientos depósitos» para no repartir el contador. Muestra los 17.000 km como una línea que sale de Madrid hacia Australia en el mapa.",
+     "aplicada": true,
+     "respuesta": "Aplicado «más de trescientos»; 180.000 m³ y 13 presas están comprobados en la nota de la Comunidad."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "222 palabras (en el límite alto del acuerdo), 3 «…», frases cortas y revelación en «miden… más de diecisiete mil kilómetros» tras la pausa. Termina con «Para más de seis millones y medio de personas.», que es un cierre algo flojo, pero no pisa la cifra.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "Cambiado a «casi siete millones de personas en la Comunidad de Madrid», que además corrige la cifra."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Madrid? 💧",
+     "texto": "Bajo Madrid hay más de 17.000 km de tuberías para que salga agua de tu grifo. Envíaselo a ese amigo madrileño que presume del agua del Canal. ¿Cuál era tu número? 👇",
+     "tags": [
+      "madrid",
+      "lo que esconde tu ciudad",
+      "agua",
+      "canal de isabel ii",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Cuántos kilómetros de tubos hay bajo Madrid? 💧",
+     "texto": "Del río Lozoya a tu grifo: presas, potabilizadoras, depósitos enterrados y miles de kilómetros de tuberías. Así llega el agua a Madrid. ¿Cuál era tu número? 👇 #madrid #canaldeisabelii #agua #comofunciona #loqueesconde",
+     "tags": [
+      "madrid",
+      "canaldeisabelii",
+      "agua",
+      "comofunciona",
+      "loqueesconde"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo llega el agua a tu grifo en Madrid",
+     "texto": "Cómo funciona el agua potable de Madrid, de las presas del Lozoya hasta tu grifo. ¿Cuál era tu número? #shorts #madrid #canaldeisabelii",
+     "tags": [
+      "comofunciona",
+      "agua",
+      "madrid",
+      "canal de isabel ii",
+      "ingenieria"
+     ]
+    }
+   }
   }
  ]
 }
