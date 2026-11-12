@@ -2897,7 +2897,7 @@
    "fuentes": [
     "https://tunnelbuilder.com/News/Tunnelling-Ends-on-the-M-30-South-Bypass-in-Madrid.aspx"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -2935,6 +2935,42 @@
      "propuesta": "Cambia la pregunta por «¿Cuántos metros de diámetro tenía la rueda que cavó ese túnel?» (y pregunta_en: «¿Cuántos metros de diámetro»). Escribe «la eme treinta» en vez de «la M-30» en las dos apariciones. Quita los metros de largo (148) o muévelos después de la revelación, para no pisar la cifra.",
      "aplicada": true,
      "respuesta": "Aplicado todo: pregunta por el diámetro, «eme treinta» en las dos apariciones y los 148 m después de la revelación."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los planos amplios eran casi horizontales (pared marrón enorme y el túnel como una tira) y el de la pregunta casi no se movía.",
+     "propuesta": "Subir la cámara a unos 35° y añadir claves en la pregunta y en el cierre.",
+     "aplicada": true,
+     "respuesta": "Planos amplios elevados y claves nuevas en «diámetro», «acabe» y «dime en»."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "En «cavar a mano» no se veía al obrero y a los 18 s y 50,5 s salía un fotograma todo de tierra.",
+     "propuesta": "Obrero y hueco más grandes, clave intermedia apuntando al hueco y sin hueco sin túnel en el cambio de plano.",
+     "aplicada": true,
+     "respuesta": "Corregido y comprobado con fotogramas nuevos."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "El anillo nuevo se colocaba dentro del escudo y no se veía.",
+     "propuesta": "El último anillo baja en crema detrás del escudo y el brazo rojo sale fuera.",
+     "aplicada": true,
+     "respuesta": "Ya se ve caer el anillo, con chispas en «colocan»."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "En el plano de la cinta el escudo amarillo ocupaba medio encuadre.",
+     "propuesta": "Alejar la cámara en «y una cinta» y en «detrás».",
+     "aplicada": true,
+     "respuesta": "Cámara más lejos; se ven la cinta con tierra y los anillos."
     }
    ],
    "seo": {

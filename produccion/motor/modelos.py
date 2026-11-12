@@ -286,3 +286,50 @@ def tele(loc, s=1.0, parent=None, rot=0.0, pantalla=(0.12, 0.14, 0.2)):
     caja((0.96 * s, 0.05 * s, 0.56 * s), (0, 0, 0.72 * s), (0.15, 0.15, 0.17), e, r=0.02 * s)
     caja((0.9 * s, 0.01 * s, 0.5 * s), (0, -0.026 * s, 0.72 * s), pantalla, e, r=0)
     return e
+
+# ---------------- obras ----------------
+def tuneladora(loc, s=1.0, parent=None, rot=0.0, vagones=4, color=None):
+    """Tuneladora (TBM) de maqueta, avanza hacia +X: rueda de corte con radios y cuchillas delante, escudo amarillo,
+    brazo que coloca los anillos de hormigón y tren de remolques con la cinta que saca la tierra hacia atrás.
+    `s` es el radio del escudo. Hijos para animar: `tuneladora_pieza(e, "rueda")` (gira en su eje X local),
+    `tuneladora_pieza(e, "brazo")` (gira en X). Largo total ≈ 1.5*s + vagones * 1.25*s."""
+    e = empty(loc, parent); e.rotation_euler = (0, 0, rot)
+    am = color or PAL["amarillo"]; acero = (0.74, 0.76, 0.80); oscuro = (0.22, 0.23, 0.26); R = s; L = 1.4 * s
+    ry = (0, math.pi / 2, 0)
+    cilindro(R, L, (-L / 2, 0, 0), am, e, rot=ry, r=0.06 * s)                           # escudo
+    for k in range(3):                                                                    # aros del escudo
+        cilindro(R * 1.01, 0.06 * s, (-0.2 * s - k * 0.45 * s, 0, 0), tuple(v * 0.82 for v in am), e, rot=ry, r=0.01 * s)
+    # rueda de corte (gira)
+    ru = empty((0.06 * s, 0, 0), e); ru.name = "rueda"; e["rueda"] = ru.name
+    cilindro(R * 0.98, 0.1 * s, (0, 0, 0), acero, ru, rot=ry, r=0.03 * s)
+    cilindro(R * 0.22, 0.2 * s, (0.06 * s, 0, 0), oscuro, ru, rot=ry, r=0.04 * s)
+    for i in range(6):
+        a = i * math.tau / 6
+        b = caja((0.1 * s, 0.16 * s, R * 0.95), (0.08 * s, math.cos(a) * R * 0.47, math.sin(a) * R * 0.47), (0.35, 0.36, 0.40), ru, r=0.02 * s)
+        b.rotation_euler = (a - math.pi / 2, 0, 0)
+        for j in range(4):
+            d = R * (0.3 + 0.18 * j)
+            cilindro(0.045 * s, 0.05 * s, (0.15 * s, math.cos(a + 0.12) * d, math.sin(a + 0.12) * d), (0.85, 0.86, 0.9), ru, rot=ry, r=0.01 * s)
+    # brazo erector de anillos (gira)
+    br = empty((-L - 0.12 * s, 0, 0), e); br.name = "brazo"; e["brazo"] = br.name
+    caja((0.12 * s, 0.12 * s, R * 0.75), (0, 0, R * 0.4), PAL["rojo"], br, r=0.03 * s)
+    caja((0.18 * s, 0.3 * s, 0.1 * s), (0, 0, R * 0.78), oscuro, br, r=0.03 * s)
+    # remolques con plataformas y cinta transportadora
+    x = -L
+    for k in range(vagones):
+        lv = 1.15 * s; cx = x - 0.1 * s - lv / 2
+        caja((lv, R * 1.1, 0.08 * s), (cx, 0, -R * 0.35), (0.85, 0.86, 0.88), e, r=0.02 * s)   # plataforma
+        for sx in (-1, 1):
+            for sy in (-1, 1):
+                caja((0.06 * s, 0.06 * s, R * 0.75), (cx + sx * lv * 0.42, sy * R * 0.48, 0.0), am, e, r=0.015 * s)
+        caja((lv, R * 1.0, 0.06 * s), (cx, 0, R * 0.38), am, e, r=0.02 * s)                     # techo
+        caja((lv * 0.5, R * 0.4, R * 0.35), (cx, -R * 0.2, -R * 0.12), (0.30, 0.55, 0.85) if k % 2 else (0.92, 0.92, 0.94), e, r=0.04 * s)
+        for sx in (-1, 1): cilindro(0.1 * s, 0.06 * s, (cx + sx * lv * 0.35, R * 0.4, -R * 0.5), oscuro, e, rot=(math.pi / 2, 0, 0), r=0.02 * s)
+        x = cx - lv / 2
+    largo_cinta = -L - x
+    caja((largo_cinta + L * 0.6, 0.22 * s, 0.05 * s), (-(L * 0.4) - largo_cinta / 2 + 0.0, R * 0.25, R * 0.48), oscuro, e, r=0.015 * s)  # cinta
+    e["largo"] = L + largo_cinta
+    return e
+
+def tuneladora_pieza(e, nombre):
+    return bpy.data.objects[e[nombre]]
