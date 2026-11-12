@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 01:02 | instagram | 📸 Así ve la cámara de tu móvil: 50 millones de contadores de | [✅ publicado](https://www.instagram.com/reel/DfgAIVvjS74/) |
 | lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://www.instagram.com/reel/DfhCwhSDQD7/) |
 | lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://youtube.com/shorts/-zj5Kr0MBFk) |
