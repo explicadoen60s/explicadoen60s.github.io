@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T15:21:08+00:00",
+ "actualizado": "2026-11-12T15:34:37+00:00",
  "medianas": {
   "tiktok": 1012.0,
   "instagram": 1552.0,
@@ -9,7 +9,7 @@
  "puestos": {
   "director": {
    "ahora": "0 guiones esperando tu visto bueno",
-   "pendiente": 4,
+   "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
     "valor": 1.11,
@@ -64,11 +64,11 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Animaciones en la escena: los vídeos con más de 16 rinden 1,98× lo normal, frente a 1,07× los demás."
+   "foco": "Animaciones en la escena: los vídeos con más de 16 rinden 1,67× lo normal, frente a 1,07× los demás."
   },
   "estratega": {
-   "ahora": "0 ideas en el banco · tendencias sin actualizar · 3 segundas partes por proponer",
-   "pendiente": 7,
+   "ahora": "5 ideas en el banco · tendencias sin actualizar · 3 segundas partes por proponer",
+   "pendiente": 3,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
     "valor": 0.67,
@@ -226,9 +226,9 @@
    },
    "n_si": 8,
    "n_no": 25,
-   "med_si": 2.41,
+   "med_si": 2.01,
    "med_no": 1.03,
-   "ratio": 2.33,
+   "ratio": 1.95,
    "veredicto": "a_favor"
   },
   {
@@ -361,7 +361,7 @@
    "vistas": 53080,
    "rel": 27.18,
    "inter": 0.0349,
-   "horas": 111,
+   "horas": 112,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -648,20 +648,6 @@
  "mejora": {
   "hallazgos": [
    {
-    "metrica": "obj_animaciones",
-    "nombre": "Animaciones en la escena",
-    "rol": "motion",
-    "unidad": "",
-    "umbral": 16,
-    "direccion": "mas",
-    "ratio": 1.85,
-    "n_si": 14,
-    "n_no": 19,
-    "fuerza": 2.3,
-    "sorpresa": false,
-    "texto": "Animaciones en la escena: los vídeos con más de 16 rinden 1,98× lo normal, frente a 1,07× los demás."
-   },
-   {
     "metrica": "cam_inicio_dist",
     "nombre": "Distancia de cámara en el primer segundo",
     "rol": "fotografia",
@@ -688,6 +674,20 @@
     "fuerza": 1.79,
     "sorpresa": false,
     "texto": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,61× lo normal, frente a 1,01× los demás."
+   },
+   {
+    "metrica": "obj_animaciones",
+    "nombre": "Animaciones en la escena",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 16,
+    "direccion": "mas",
+    "ratio": 1.56,
+    "n_si": 14,
+    "n_no": 19,
+    "fuerza": 1.66,
+    "sorpresa": false,
+    "texto": "Animaciones en la escena: los vídeos con más de 16 rinden 1,67× lo normal, frente a 1,07× los demás."
    },
    {
     "metrica": "sfx_variedad",
@@ -847,12 +847,6 @@
   "recomendaciones": {
    "bombilla": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 22, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -863,6 +857,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 22, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -897,12 +897,6 @@
    ],
    "auriculares": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 16. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -913,6 +907,12 @@
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 4,1 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 16. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -947,16 +947,16 @@
    ],
    "enchufe": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -997,16 +997,16 @@
    ],
    "piscina": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 16. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 16. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1047,16 +1047,16 @@
    ],
    "presa": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 13. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,3 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 13. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1097,16 +1097,16 @@
    ],
    "camara": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 13. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,0 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 13. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1147,16 +1147,16 @@
    ],
    "chatgpt": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 29, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 29, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1247,12 +1247,6 @@
    ],
    "cargador": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
@@ -1263,6 +1257,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1297,16 +1297,16 @@
    ],
    "lavavajillas": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 39, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 39, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1347,16 +1347,16 @@
    ],
    "pozo": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1397,12 +1397,6 @@
    ],
    "arroz": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
@@ -1413,6 +1407,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 1,79 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1447,12 +1447,6 @@
    ],
    "whatsapp": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 30, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -1463,6 +1457,12 @@
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 30, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1497,12 +1497,6 @@
    ],
    "tormentas": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -1513,6 +1507,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1547,16 +1547,16 @@
    ],
    "tostadora": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 26, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 26, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1597,16 +1597,16 @@
    ],
    "mando": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 4. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 1,99 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 4. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1647,16 +1647,16 @@
    ],
    "teclado": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 9. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 9. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1697,12 +1697,6 @@
    ],
    "ruedas": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 26, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -1713,6 +1707,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,0 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 26, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1747,16 +1747,16 @@
    ],
    "deposito": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 10. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,5 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 10. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1797,16 +1797,16 @@
    ],
    "router": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 25, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1850,7 +1850,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 0,00. Los que funcionan van por encima de 16 (1,85× más vistas)."
+     "texto": "Animaciones en la escena: 0,00. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1897,12 +1897,6 @@
    ],
    "induccion": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 24, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
@@ -1913,6 +1907,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 24, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1947,12 +1947,6 @@
    ],
    "qr": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
@@ -1963,6 +1957,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 20, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -1997,16 +1997,16 @@
    ],
    "lavadora": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -2047,16 +2047,16 @@
    ],
    "depuradora": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 37, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 37, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -2097,16 +2097,16 @@
    ],
    "parking": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 16. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 16. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -2147,16 +2147,16 @@
    ],
    "v16": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 22, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 22, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -2197,12 +2197,6 @@
    ],
    "ollaexpres": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -2213,6 +2207,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -2247,12 +2247,6 @@
    ],
    "huella": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 21, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -2263,6 +2257,12 @@
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 21, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -2297,12 +2297,6 @@
    ],
    "paraguas": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -2313,6 +2307,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 1,73 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -2347,12 +2347,6 @@
    ],
    "grifo": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 3. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -2363,6 +2357,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 3. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -2397,12 +2397,6 @@
    ],
    "spray": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,85× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_inicio_dist",
@@ -2413,6 +2407,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 15. Los que funcionan van por encima de 16 (1,56× más vistas)."
     },
     {
      "rol": "sonido",
@@ -2447,12 +2447,6 @@
    ],
    "pistahielo": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 21, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
@@ -2463,6 +2457,12 @@
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 21, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -2497,16 +2497,16 @@
    ],
    "carretera": [
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 23, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,59× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 23, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -2736,20 +2736,6 @@
    }
   },
   "foco": {
-   "motion": {
-    "metrica": "obj_animaciones",
-    "nombre": "Animaciones en la escena",
-    "rol": "motion",
-    "unidad": "",
-    "umbral": 16,
-    "direccion": "mas",
-    "ratio": 1.85,
-    "n_si": 14,
-    "n_no": 19,
-    "fuerza": 2.3,
-    "sorpresa": false,
-    "texto": "Animaciones en la escena: los vídeos con más de 16 rinden 1,98× lo normal, frente a 1,07× los demás."
-   },
    "fotografia": {
     "metrica": "cam_inicio_dist",
     "nombre": "Distancia de cámara en el primer segundo",
@@ -2763,6 +2749,20 @@
     "fuerza": 2.12,
     "sorpresa": false,
     "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,3 m rinden 2,2× lo normal, frente a 0,95× los demás."
+   },
+   "motion": {
+    "metrica": "obj_animaciones",
+    "nombre": "Animaciones en la escena",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 16,
+    "direccion": "mas",
+    "ratio": 1.56,
+    "n_si": 14,
+    "n_no": 19,
+    "fuerza": 1.66,
+    "sorpresa": false,
+    "texto": "Animaciones en la escena: los vídeos con más de 16 rinden 1,67× lo normal, frente a 1,07× los demás."
    },
    "sonido": {
     "metrica": "sfx_variedad",
@@ -2795,20 +2795,20 @@
   },
   "referencia": {
    "voz_ritmo": {
-    "top": 3.67,
-    "resto": 3.56
+    "top": 3.55,
+    "resto": 3.57
    },
    "voz_silencio": {
-    "top": 10.6,
-    "resto": 10.65
+    "top": 9.9,
+    "resto": 10.9
    },
    "voz_pausas_min": {
-    "top": 17.9,
-    "resto": 17.8
+    "top": 17.1,
+    "resto": 18.2
    },
    "voz_pausa_max": {
-    "top": 0.58,
-    "resto": 0.58
+    "top": 0.59,
+    "resto": 0.57
    },
    "voz_arranque": {
     "top": 0.0,
@@ -2819,24 +2819,24 @@
     "resto": -15.6
    },
    "voz_expresividad": {
-    "top": 2.3,
-    "resto": 2.2
+    "top": 2.2,
+    "resto": 2.25
    },
    "voz_gancho": {
     "top": 0.5,
     "resto": 0.1
    },
    "duracion": {
-    "top": 69.0,
-    "resto": 71.75
+    "top": 69.1,
+    "resto": 71.4
    },
    "cam_claves": {
-    "top": 23,
-    "resto": 22
+    "top": 22,
+    "resto": 23
    },
    "cam_cada": {
-    "top": 2.9,
-    "resto": 3.12
+    "top": 3.05,
+    "resto": 3.03
    },
    "cam_inicio_dist": {
     "top": 6.2,
@@ -2847,12 +2847,12 @@
     "resto": 36.0
    },
    "obj_piezas": {
-    "top": 49,
-    "resto": 25.5
+    "top": 34,
+    "resto": 27.0
    },
    "obj_animaciones": {
-    "top": 25,
-    "resto": 13.5
+    "top": 22,
+    "resto": 14.5
    },
    "obj_cortes": {
     "top": 1,
@@ -2863,23 +2863,23 @@
     "resto": 9.0
    },
    "ov_contadores": {
-    "top": 4,
+    "top": 3,
     "resto": 3.0
    },
    "ov_graficos_min": {
-    "top": 19.7,
-    "resto": 17.85
+    "top": 17.9,
+    "resto": 18.3
    },
    "ov_palabras_clave": {
-    "top": 28,
-    "resto": 26.0
+    "top": 27,
+    "resto": 27.5
    },
    "sfx_min": {
-    "top": 20.9,
-    "resto": 17.45
+    "top": 20.6,
+    "resto": 18.95
    },
    "sfx_variedad": {
-    "top": 8,
+    "top": 7,
     "resto": 7.0
    }
   },
@@ -4434,7 +4434,7 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 2.5,
+   "rel": 1.69,
    "maduro": true,
    "vistas": 8405,
    "rel_red": {
