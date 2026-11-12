@@ -2200,9 +2200,15 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707308033893943318",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-12T15:32:40.415538+00:00"
   },
   {
    "id": "ruedas-youtube",
@@ -2218,9 +2224,14 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "6IBJzgMPnr8",
+    "url": "https://youtube.com/shorts/6IBJzgMPnr8"
+   },
+   "publicado": "2026-11-12T15:32:43.506582+00:00"
   },
   {
    "id": "ruedas-instagram",
@@ -2259,10 +2270,10 @@
    "por": "Christian_Civico"
   },
   {
-   "id": "repetidor-tiktok",
-   "red": "tiktok",
+   "id": "repetidor-instagram",
+   "red": "instagram",
    "hora": "2026-11-12T19:00:00+01:00",
-   "video": "repetidor_tiktok.mp4",
+   "video": "repetidor.mp4",
    "titulo": "Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 (Wifi, parte 2)",
    "texto": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo tienes puesto? 👇",
    "tags": [
@@ -2277,10 +2288,10 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "repetidor-instagram",
-   "red": "instagram",
+   "id": "repetidor-tiktok",
+   "red": "tiktok",
    "hora": "2026-11-12T19:00:00+01:00",
-   "video": "repetidor.mp4",
+   "video": "repetidor_tiktok.mp4",
    "titulo": "Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 (Wifi, parte 2)",
    "texto": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo tienes puesto? 👇",
    "tags": [
@@ -2306,6 +2317,24 @@
     "repetidor",
     "internet",
     "tecnologia",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "paracaidas-instagram",
+   "red": "instagram",
+   "hora": "2026-11-12T20:30:00+01:00",
+   "video": "paracaidas.mp4",
+   "titulo": "Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h",
+   "texto": "Una mochila, un paracaídas pequeñito y un ala de tela: así se frena una caída a 200 km/h. ¿Saltarías? 👇",
+   "tags": [
+    "paracaidas",
+    "fisica",
+    "aire",
+    "inventos",
     "comofunciona"
    ],
    "estado": "pendiente",
@@ -2349,24 +2378,6 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "paracaidas-instagram",
-   "red": "instagram",
-   "hora": "2026-11-12T20:30:00+01:00",
-   "video": "paracaidas.mp4",
-   "titulo": "Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h",
-   "texto": "Una mochila, un paracaídas pequeñito y un ala de tela: así se frena una caída a 200 km/h. ¿Saltarías? 👇",
-   "tags": [
-    "paracaidas",
-    "fisica",
-    "aire",
-    "inventos",
-    "comofunciona"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
    "id": "caldera-tiktok",
    "red": "tiktok",
    "hora": "2026-11-12T21:00:00+01:00",
@@ -2383,6 +2394,24 @@
    "estado": "pendiente",
    "intentos": 0,
    "por": "Christian_Civico"
+  },
+  {
+   "id": "turia-instagram",
+   "red": "instagram",
+   "hora": "2026-11-12T22:30:00+01:00",
+   "video": "turia.mp4",
+   "titulo": "Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que esconde tu ciudad, parte 2)",
+   "texto": "El parque más largo de Valencia era un río: lo sacaron de la ciudad con un cauce de 12 km. ¿Qué obra escondida tiene la tuya? 👇",
+   "tags": [
+    "valencia",
+    "rio",
+    "ingenieria",
+    "obraspublicas",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
   },
   {
    "id": "turia-tiktok",
@@ -2405,24 +2434,6 @@
   {
    "id": "turia-youtube",
    "red": "youtube",
-   "hora": "2026-11-12T22:30:00+01:00",
-   "video": "turia.mp4",
-   "titulo": "Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que esconde tu ciudad, parte 2)",
-   "texto": "El parque más largo de Valencia era un río: lo sacaron de la ciudad con un cauce de 12 km. ¿Qué obra escondida tiene la tuya? 👇",
-   "tags": [
-    "valencia",
-    "rio",
-    "ingenieria",
-    "obraspublicas",
-    "comofunciona"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
-   "id": "turia-instagram",
-   "red": "instagram",
    "hora": "2026-11-12T22:30:00+01:00",
    "video": "turia.mp4",
    "titulo": "Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que esconde tu ciudad, parte 2)",
@@ -3141,24 +3152,6 @@
    "por": "Nikoloz_Lekishvili"
   },
   {
-   "id": "submarino-tiktok",
-   "red": "tiktok",
-   "hora": "2026-11-17T18:00:00+01:00",
-   "video": "submarino_tiktok.mp4",
-   "titulo": "Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vuelve a salir",
-   "texto": "Tanques que se llenan de agua y aire comprimido que la saca: así sube y baja. ¿Te meterías en uno? 👇",
-   "tags": [
-    "submarino",
-    "mar",
-    "presion",
-    "inventos",
-    "comofunciona"
-   ],
-   "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
-  },
-  {
    "id": "qr-instagram",
    "red": "instagram",
    "hora": "2026-11-17T18:00:00+01:00",
@@ -3169,6 +3162,24 @@
     "codigoqr",
     "movil",
     "tecnologia",
+    "inventos",
+    "comofunciona"
+   ],
+   "estado": "pendiente",
+   "intentos": 0,
+   "por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "submarino-tiktok",
+   "red": "tiktok",
+   "hora": "2026-11-17T18:00:00+01:00",
+   "video": "submarino_tiktok.mp4",
+   "titulo": "Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vuelve a salir",
+   "texto": "Tanques que se llenan de agua y aire comprimido que la saca: así sube y baja. ¿Te meterías en uno? 👇",
+   "tags": [
+    "submarino",
+    "mar",
+    "presion",
     "inventos",
     "comofunciona"
    ],

@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | 📲 en tu bandeja de TikTok |
-| lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://youtube.com/shorts/dBlecn8ge7c) |
 | lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://www.instagram.com/reel/Dfh4U73FfqV/) |
 | lun 09/11 | 18:00 | tiktok | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | 📲 en tu bandeja de TikTok |
@@ -31,11 +29,20 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://youtube.com/shorts/VAGc0pL2gUQ) |
 | jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | 📲 en tu bandeja de TikTok |
-| jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |
-| jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
+| jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | 📲 en tu bandeja de TikTok |
+| jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://youtube.com/shorts/6IBJzgMPnr8) |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
 | jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | ⏳ pendiente |
+| jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
+| jue 12/11 | 19:00 | tiktok | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
+| jue 12/11 | 19:00 | youtube | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
+| jue 12/11 | 20:30 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
+| jue 12/11 | 20:30 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
+| jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
 | jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | ⏳ pendiente |
+| jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
+| jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
+| jue 12/11 | 22:30 | youtube | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
 | vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
 | vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | ⏳ pendiente |
 | vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
@@ -70,11 +77,13 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
-| lun 16/11 | 18:00 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
+| lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
+| mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
 | mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
+| mar 17/11 | 18:00 | tiktok | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
 | mié 18/11 | 10:00 | instagram | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
 | mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
 | mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
@@ -137,5 +146,9 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 02/12 | 18:00 | instagram | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
 | jue 03/12 | 10:00 | instagram | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | jue 03/12 | 12:00 | youtube | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
-| jue 03/12 | 16:00 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
-| jue 03/12 | 18:00 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
+| vie 04/12 | 10:00 | instagram | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
+| vie 04/12 | 12:00 | youtube | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
+| sáb 05/12 | 16:00 | youtube | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
+| sáb 05/12 | 18:00 | instagram | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
+| dom 06/12 | 10:00 | instagram | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
+| dom 06/12 | 12:00 | youtube | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
