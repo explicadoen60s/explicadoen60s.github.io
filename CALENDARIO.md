@@ -31,9 +31,9 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://youtube.com/shorts/6IBJzgMPnr8) |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://www.instagram.com/reel/DfpijJ9FCxD/) |
 | jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | 📲 en tu bandeja de TikTok |
-| jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
-| jue 12/11 | 19:00 | tiktok | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
-| jue 12/11 | 19:00 | youtube | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | ⏳ pendiente |
+| jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://www.instagram.com/reel/DfppUHrAQYy/) |
+| jue 12/11 | 19:00 | tiktok | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | 📲 en tu bandeja de TikTok |
+| jue 12/11 | 19:00 | youtube | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://youtube.com/shorts/BghX9g3T_vw) |
 | jue 12/11 | 20:30 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
 | jue 12/11 | 20:30 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
 | jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
