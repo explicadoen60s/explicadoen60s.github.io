@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T19:59:16+00:00",
+ "actualizado": "2026-11-12T20:01:42+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1551,
@@ -8,7 +8,7 @@
  "maduros": 34,
  "puestos": {
   "director": {
-   "ahora": "0 guiones esperando tu visto bueno",
+   "ahora": "1 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -67,7 +67,7 @@
    "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,56× lo normal, frente a 1,05× los demás."
   },
   "estratega": {
-   "ahora": "5 ideas en el banco · tendencias sin actualizar · 4 segundas partes por proponer",
+   "ahora": "4 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
    "pendiente": 4,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
@@ -399,7 +399,40 @@
    "vistas": 20997
   }
  ],
- "compuertas": {},
+ "compuertas": {
+  "microcentro": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "223 palabras (≈66 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "15 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ]
+ },
  "mejora": {
   "hallazgos": [
    {
@@ -2192,7 +2225,7 @@
   "experimentos": {
    "x261112son": {
     "maduros": 0,
-    "total": 0,
+    "total": 1,
     "veredicto": "esperando"
    }
   },

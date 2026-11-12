@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-11-12T00:00:00+01:00",
+ "actualizado": "2026-11-12T20:45:00+01:00",
  "equipo": [
   {
    "id": "director",
@@ -668,6 +668,168 @@
    "rol": "social",
    "tipo": "encargo",
    "texto": "Instagram reparte a cada reel un lote de prueba de ~1.500 vistas y ninguno lo supera porque casi nadie lo envía (0,6 por mil). Desde hoy recibe la versión con música, los pies terminan con invitación a enviarlo y los éxitos de TikTok se adelantan en Instagram (propuesto al usuario para el router)."
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia: escena de frenoavion con la rueda gigante en corte (rotores, estátores, calor hasta 1.000 °C y ABS), 41 claves; la hoja obligó a sacar la cámara del motor y del ala y a girar el corte hacia la luz.",
+   "video": "frenoavion"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia/motion: escena de bcnpluvial entregada; la hoja obligó a rehacer el plano montaña-mar, el de los sensores y a recolocar las pastillas tras la revelación.",
+   "video": "bcnpluvial"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia/motion: escena de la tuneladora de la M-30 (modelo nuevo `tuneladora` en modelos.py); la hoja obligó a subir los planos amplios, enseñar al obrero y ver caer cada anillo.",
+   "video": "m30tunel"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia/motion: escena del muro de pilotes junto al templo; la hoja obligó a quitar fotogramas de tierra, sacar la fila de pilotes y dar la vuelta al edificio de 13 pisos.",
+   "video": "avesagrada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia/motion/editor: piso en corte con pladur, ladrillo, nevera y anillos de 45 y 15 m; la hoja obligó a abrir el frente, girar la luz y acercar el salto del móvil.",
+   "video": "wifi5ghz"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia/motion: circuito en corte con el gas que cambia de color y 10 pastillas; la hoja obligó a cortar la fachada para que la cámara no la cruzara y a sacar la pastilla de 4 kWh de debajo de la tarjeta.",
+   "video": "bombacalor"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "texto": "fotografia/motion: del embalse al grifo con globo de 17.000 km; la hoja corrigió la cocina, el globo, el agua del embalse y la colocación de las pastillas; bucle grifo→grifo.",
+   "video": "canalmadrid"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "motion",
+   "tipo": "mejora",
+   "texto": "En 5 escenas la ayuda de las pastillas se llamaba P() o pas() y el auditor no las contaba; renombrada a pastilla() en todas (6-11 contadores por vídeo).",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "sonido",
+   "tipo": "aviso",
+   "texto": "avesagrada: la energía del gancho de la voz ya generada sale en -0,5 dB (los que funcionan, >0,2 dB). No se puede arreglar en la escena; si quieres, regenera la voz con más energía en la primera frase.",
+   "video": "avesagrada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "director",
+   "tipo": "propuesta",
+   "texto": "Guion nuevo microcentro (idea error-microondas, patrón «lo estás haciendo mal»): comida en el centro del plato, puntos calientes cada 6 cm. Ojo: hubo un «microondas» genérico rechazado el 3-nov; este es otro ángulo.",
+   "video": "microcentro"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "seo",
+   "tipo": "revision",
+   "texto": "Pie con «microondas» y tag comofunciona; la frase «Así funciona» en voz se rechaza por longitud.",
+   "video": "microcentro",
+   "para": "director",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "texto": "Pie con «microondas» y tag comofunciona; la frase «Así funciona» en voz se rechaza por longitud.",
+   "video": "microcentro",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "motion",
+   "tipo": "revision",
+   "texto": "«La mitad de una onda: doce» estaba al revés: ahora «Una onda entera mide doce: la mitad, seis».",
+   "video": "microcentro",
+   "para": "director",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "texto": "«La mitad de una onda: doce» estaba al revés: ahora «Una onda entera mide doce: la mitad, seis».",
+   "video": "microcentro",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "sonido",
+   "tipo": "revision",
+   "texto": "Fuera un «…» que no iba antes de un dato y dos exclamaciones nuevas (experimento x261112son).",
+   "video": "microcentro",
+   "para": "director",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "texto": "Fuera un «…» que no iba antes de un dato y dos exclamaciones nuevas (experimento x261112son).",
+   "video": "microcentro",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "texto": "408.824 vistas en TikTok (≈411× lo normal): el patrón «lo estás haciendo mal» manda aunque la cámara fue lenta (cam_cada 3,68 s, 19 claves) y solo 3 contadores.",
+   "video": "router"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "texto": "21.000 vistas en YouTube (≈14×): cam_cada 2,39 s y 28 claves, del lado bueno; formato C con cifra visible.",
+   "video": "pozo"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "texto": "3.054 vistas en TikTok (≈3×) con solo 2 contadores y arranque a 8,4 m: funcionó por el tema, no por los gráficos.",
+   "video": "induccion"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "editor",
+   "tipo": "analisis",
+   "texto": "893 vistas en TikTok (≈0,9×): 76,7 s, arranque a 11,6 m y tema abstracto; confirma el tope de 71 s y evitar temas sin objeto en la mano.",
+   "video": "qr"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "texto": "1.883 vistas en YouTube y 1.793 en Instagram (≈1,2×): formato B; sfx 26/min y 8 tipos no bastan para sacarlo del lote normal.",
+   "video": "lavavajillas"
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "rol": "director",
+   "tipo": "propuesta",
+   "texto": "Pasan a «propuesta» (veredicto a favor con ≥3 vídeos a cada lado): m_formatoC, m_tituloPregunta, m261112dir8, m261112fot9, m261112fot10, m261112son11, m261112mot12. Lo decides tú en el panel."
   }
  ],
  "manual": [
@@ -698,7 +860,7 @@
   {
    "id": "m_formatoC",
    "texto": "El formato C («¿Y si construyes…?») es el que más crece.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "estratega",
    "creada": "2026-11-12",
    "origen": "Tanque de tormentas y pozo, los dos mejores, son formato C.",
@@ -710,7 +872,7 @@
   {
    "id": "m_tituloPregunta",
    "texto": "Un título en forma de pregunta funciona mejor que uno afirmativo.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "seo",
    "creada": "2026-11-12",
    "origen": "Desde el 12-nov la cifra se plantea como pregunta en título y primera frase.",
@@ -766,7 +928,7 @@
   {
    "id": "m261112dir8",
    "texto": "Los vídeos de menos de 71 segundos rinden más que los de más de 71.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "director",
    "creada": "2026-11-12",
    "origen": "Jornada del 2026-11-12",
@@ -778,7 +940,7 @@
   {
    "id": "m261112fot9",
    "texto": "Los vídeos con un movimiento de cámara cada menos de 3 s rinden más que los demás.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "fotografia",
    "creada": "2026-11-12",
    "origen": "Jornada del 2026-11-12",
@@ -790,7 +952,7 @@
   {
    "id": "m261112fot10",
    "texto": "Los vídeos con la cámara a menos de 7 m en el primer segundo rinden más que los que empiezan más lejos.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "fotografia",
    "creada": "2026-11-12",
    "origen": "Jornada del 2026-11-12",
@@ -802,7 +964,7 @@
   {
    "id": "m261112son11",
    "texto": "Los vídeos con 8 o más tipos de efecto distintos rinden más que los que tienen 7.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "sonido",
    "creada": "2026-11-12",
    "origen": "Jornada del 2026-11-12",
@@ -814,7 +976,7 @@
   {
    "id": "m261112mot12",
    "texto": "Los vídeos con más de 3 contadores y medidores rinden más que los que tienen 3 o menos.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "motion",
    "creada": "2026-11-12",
    "origen": "Jornada del 2026-11-12",
@@ -1091,6 +1253,47 @@
      "nota": "Cotidiano total (tu grifo) y buena cifra, pero los kilómetros de tubería son más difíciles de enseñar que un depósito y el cierre por serie arrastra menos."
     }
    }
+  },
+  "microcentro": {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "roles": {
+    "estratega": {
+     "rel": 2.5,
+     "nota": "Error cotidiano con acción inmediata y muy enviable, pero la cifra (6 cm) es modesta y el router (354×) fue un caso extremo, así que apuesto por encima de lo normal sin llegar a viral."
+    },
+    "seo": {
+     "rel": 1.3,
+     "nota": "Objeto de uso diario, error común que se puede compartir y consulta muy buscada («microondas»), pero la cifra de 6 cm es poco impactante comparada con las obras grandes."
+    },
+    "motion": {
+     "rel": 1.8,
+     "nota": "Objeto de casa con error común y acción inmediata (poner el táper en anillo) es el patrón del router, y la cinta métrica sobre el chocolate se enseña bien; lo frena que el microondas es un tema muy visto y la cifra del juego (6 cm) no impacta como las cifras enormes."
+    },
+    "sonido": {
+     "rel": 1.3,
+     "nota": "Encaja con la fórmula «lo estás haciendo mal» y con un objeto de casa que se usa a diario, pero la cifra del juego (6 cm) es menos impactante que las de las obras grandes."
+    },
+    "director": {
+     "rel": 1.6,
+     "nota": "Es un A del tipo «lo estás haciendo mal» con un objeto que usa todo el mundo, cosa que ha funcionado en cuentas parecidas (router, ruedas), con acción para hacer al terminar y ganas de enviarlo; no pasa de 1,6 porque la pregunta del juego (cada cuántos centímetros) es técnica y el guion llega a unas 240 palabras, por encima de las 205-225 que rinden mejor."
+    },
+    "fotografia": {
+     "rel": 1.8,
+     "nota": "Es el patrón «lo estás haciendo mal» con un objeto de casa (microondas) y plato girando en primer plano en el segundo 1, fácil de rodar en 3D, con muchos contadores y el chocolate como prueba visible; lo frena que la pregunta de los centímetros es abstracta y no tengo medido el arranque de cámara."
+    },
+    "editor": {
+     "rel": 1.8,
+     "nota": "Microondas y táper son cotidianos y el patrón «lo estás haciendo mal» (como el router) se comparte mucho, pero si el montaje pasa de 71 s o no llega a 28 palabras clave resaltadas, el ritmo lo frenaría."
+    },
+    "paid": {
+     "rel": 2.5,
+     "nota": "Encaja con el patrón del router (objeto de casa + error común + qué hacer) y es muy cotidiano, pero sin ser una obra enorme y con cifra pequeña (6 cm) el techo es bajo; lo normal en la cuenta es 1-3× salvo golpe de suerte, y como candidato a promoción solo me interesaría si pasa de 10× y 20.000 vistas."
+    },
+    "social": {
+     "rel": 1.8,
+     "nota": "Microondas cotidiano con el patrón «lo estás haciendo mal» y reto de centímetros que invita a comentar, pero sin la rareza visual del router, así que apuesto por encima de lo normal sin llegar a viral."
+    }
+   }
   }
  },
  "encargos": [
@@ -1153,7 +1356,9 @@
    "cambio": "En los próximos 3 vídeos, poner «…» antes de cada dato sorprendente y una exclamación en la primera frase, para subir voz_gancho (los mejores tienen 0,45 y el resto 0,1). Los guiones serán de 215-225 palabras.",
    "hipotesis": "Una voz más expresiva en los primeros segundos retiene más y suena más natural, que es lo que pide el dueño en el encargo «que suene más real». La voz la genera voz.py, así que primero se prueba con la puntuación del guion.",
    "desde": "2026-11-12",
-   "videos": [],
+   "videos": [
+    "microcentro"
+   ],
    "estado": "activo",
    "metrica": "voz_gancho"
   }
@@ -1231,6 +1436,33 @@
     {
      "rol": "fotografia",
      "texto": "Acuerdo con motion: Junto a cada escena entrego un comentario al inicio de _scene.py con una línea por plano: tiempo, pieza en primer plano y esquina libre (arriba-izquierda por defecto); en cada plano nuevo dejo el mecanismo visible desde 0,5 s para que los gráficos entren en ese margen."
+    }
+   ],
+   "experimentos": [
+    "x261112son"
+   ]
+  },
+  {
+   "fecha": "2026-11-12T20:45:00+01:00",
+   "autor": "pasada",
+   "resumen": "7 escenas en estilo maqueta entregadas, 1 guion nuevo (microcentro) y 7 hipótesis pasan a propuesta.",
+   "aprendido": [
+    "motion: el auditor solo cuenta contadores con la ayuda llamada pastilla(); con nombres propios (P, pas) las escenas parecían tener 0-3.",
+    "fotografia: con el estilo maqueta, el fallo más repetido en las hojas de contactos fue la cámara entrando en paredes o en caras de tierra sin túnel; hay que mirar cada cambio de plano con un fotograma intermedio.",
+    "editor: el qr (76,7 s, 0,9×) frente al pozo (66,9 s, 14×) vuelve a apoyar el tope de 71 s."
+   ],
+   "cambios": [
+    {
+     "rol": "motion",
+     "texto": "Ayuda pastilla() renombrada en 5 escenas para que el auditor la mida."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Modelo nuevo tuneladora() en modelos.py (rueda y brazo animables)."
+    },
+    {
+     "rol": "sonido",
+     "texto": "microcentro entra en el experimento x261112son con «¡…!» al principio."
     }
    ],
    "experimentos": [

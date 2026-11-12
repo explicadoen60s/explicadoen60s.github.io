@@ -1,463 +1,468 @@
 {
- "actualizado": "2026-11-09T21:00:00+01:00",
- "resumen": "Trends y Wikipedia siguen con política, famosos y fútbol de selecciones: lo único aprovechable es el fútbol, con el ángulo de lo que hay bajo el césped. En el nicho manda el paracaídas (3,2 millones) y las operaciones en 3D (stent 800 mil, cataratas 513 mil). Hoy se han propuesto «paracaidas», «estadio» y «submarino» desde aquí, más tres evergreen cotidianos (sifón, ticket y cinta métrica). Las escenas de acelerómetro, cerilla y montaña rusa ya están entregadas.",
+ "actualizado": "2026-11-12T20:30:00+01:00",
+ "resumen": "Trends y Wikipedia vuelven a ser política (huelga general, elecciones), papa, famosos y fútbol: nada aprovechable. El nicho (shorts «cómo funciona») da mecanismos domésticos y de coche; funicular (75 mil) y tuneladora (84 mil) apoyan la serie de ciudad. Esta pasada propone cinturón, desaladora de Barcelona, freidora de aire y tapa de alcantarilla. Las búsquedas online no devolvieron cifras citables: las cifras técnicas van marcadas «(comprobar)».",
  "tendencias": [
   {
-   "id": "paracaidas",
-   "tema": "Cómo frena un paracaídas",
-   "tipo": "nicho",
-   "puntuacion": 64,
-   "por_que": "Sigue siendo el short más visto del nicho esta semana (3,2 millones en portugués) y hay otro en castellano con 173 mil. Guion propuesto hoy («paracaidas»).",
+   "id": "cinturon",
+   "tema": "Tu cinturón de seguridad se bloquea y se tensa solo",
+   "tipo": "evergreen",
+   "puntuacion": 72,
+   "por_que": "Patrón «lo estás haciendo mal» con un objeto que el espectador usa cada día. En el nicho funcionan los mecanismos de coche (motor 117 mil, camiones 88 mil) y nadie lo cuenta con el pretensor y el bloqueo por inercia. Búsquedas de seguridad vial constantes (evergreen).",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Como um paraquedas freia uma queda? O poder do ar» (Desmontando o Mundo). 3.227.128 vistas",
-     "url": "https://youtube.com/shorts/GzG4Y9wHbho"
-    },
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona el paracaídas?» (mecanica_oculta). 172.993 vistas",
-     "url": "https://youtube.com/shorts/6M7EMTgaCg8"
+     "dato": "«Como funciona o motor do carro» (AiCar Tech), 116.855 vistas; mecánica de coche repite en la semana"
     }
    ],
-   "urgencia": "Media: la ola lleva ya cinco días",
-   "angulo": "Formato B: mochila, extractor, slider, ala de celdas y frenada final.",
-   "titulo": "Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h",
-   "gancho": "Saltas de un avión… y en unos doce segundos vas a doscientos kilómetros por hora.",
-   "primer_segundo": "Paracaidista cayendo hacia la cámara con el velocímetro subiendo.",
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato A: carrete con péndulo que bloquea la correa, pretensor pirotécnico y limitador de fuerza. Error común: llevar la banda floja, torcida o con la mochila detrás sin atar.",
+   "titulo": "Tu cinturón es una trampa mecánica 🚗 Cómo se bloquea en milisegundos",
+   "gancho": "Tiras despacio del cinturón… y sale. ¿Por qué se bloquea de golpe?",
+   "primer_segundo": "Mano gigante tirando despacio de la correa; un tirón brusco y el carrete se clava con rayitas de clic.",
    "cifras": [
-    "Caída libre: unos 200 km/h",
-    "Con la vela abierta: unos 22 km/h",
-    "Frenada final a unos 3 m del suelo"
-   ],
-   "formato": "B",
-   "estructura": [
-    "Velocímetro a 200",
-    "Tela y cuerdas",
-    "Mochila + extractor",
-    "Slider",
-    "Dato: es un ala con celdas",
-    "Frenada final",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 4,
-    "primer_segundo": 10,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Velocímetro bajando de 200 a 22: cifra enorme que cambia en pantalla.",
-   "competencia": "Dos shorts recientes; el más visto es en portugués, en castellano hay hueco.",
-   "riesgos": "Regla 1 floja.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "paracaidas",
-    "fisica",
-    "inventos",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "estadio",
-   "tema": "Lo que hay bajo el césped de un estadio",
-   "tipo": "actualidad",
-   "puntuacion": 58,
-   "por_que": "Semana de selecciones: «nations league» con más de 500 búsquedas en Google Trends España; el fútbol domina Wikipedia (Alcaraz aparte, Boca, Primera argentina 11.677 lecturas). El mecanismo del césped híbrido no lo explica nadie del nicho. Guion propuesto hoy («estadio»).",
-   "senales": [
-    {
-     "fuente": "Google Trends España",
-     "dato": "«nations league», 500+ búsquedas"
-    },
-    {
-     "fuente": "Wikipedia",
-     "dato": "Primera División de Argentina, 11.421 lecturas"
-    }
-   ],
-   "urgencia": "Media: aprovechar el parón de selecciones",
-   "angulo": "Formato C: excavar, capas de drenaje, calefacción, hilos de plástico cosidos y lámparas de crecimiento.",
-   "titulo": "¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el césped",
-   "gancho": "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo.",
-   "primer_segundo": "Balón botando sobre el césped y la cámara hundiéndose en corte.",
-   "cifras": [
-    "Excavación de casi 2 m",
-    "Hilos sintéticos a 20 cm",
-    "Solo un 5 % de plástico"
-   ],
-   "formato": "C",
-   "estructura": [
-    "Barrizal",
-    "Capas de grava y arena",
-    "Tubos de drenaje",
-    "Calefacción",
-    "Dato: hilos de plástico",
-    "Lámparas",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 7,
-    "primer_segundo": 8,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Fútbol = audiencia enorme y curiosidad de «lo que no se ve».",
-   "competencia": "Nada reciente en el nicho.",
-   "riesgos": "No nombrar estadios ni clubes en pantalla.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "futbol",
-    "cesped",
-    "estadio",
-    "ingenieria",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "stent",
-   "tema": "Cómo te ponen un stent en el corazón",
-   "tipo": "nicho",
-   "puntuacion": 52,
-   "por_que": "Operaciones en 3D funcionan: stent 800 mil vistas y cataratas 513 mil, del mismo canal, en una semana.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo te ponen un stent en el corazón? 🫀 #cuerpohumano  #curiosidades  #3d  #ciencia» (Por Dentro De Todo). 800.156 vistas",
-     "url": "https://youtube.com/shorts/SP1ETdB4Ezw"
-    },
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo es realmente una operación de cataratas? 👁️ #cuerpohumano  #curiosidades  #3d  #cien» (Por Dentro De Todo). 513.494 vistas",
-     "url": "https://youtube.com/shorts/hh7rdjCWRZw"
-    }
-   ],
-   "urgencia": "Baja: evergreen médico",
-   "angulo": "Formato A: arteria en corte, globo que se hincha y malla que se queda abierta.",
-   "titulo": "Así te abren una arteria sin abrirte el pecho 🫀",
-   "gancho": "Una arteria de tu corazón se cierra… y te la abren entrando por la muñeca.",
-   "primer_segundo": "Un catéter avanzando por dentro de una arteria en primer plano.",
-   "cifras": [
-    "Diámetro de la arteria (comprobar)",
-    "Presión del globo en atmósferas (comprobar)",
-    "Flujo de sangre que sube de 20 % a 100 % (comprobar)"
+    "Pretensor: actúa en unas 10-20 milésimas de segundo (comprobar)",
+    "Bloqueo con deceleración de ~0,4 g (comprobar)",
+    "Fuerza sobre el pecho de un adulto en choque a 50 km/h: varias toneladas (comprobar)"
    ],
    "formato": "A",
    "estructura": [
-    "Arteria cerrada",
-    "Catéter por la muñeca",
-    "Globo",
-    "Malla",
-    "Dato: se queda para siempre",
-    "Cierre"
+    "Tirón lento: la correa sale",
+    "Tirón brusco: el péndulo se inclina y bloquea",
+    "Pretensor: carga pirotécnica recoge la holgura",
+    "Limitador de fuerza: cede un poco",
+    "Error: correa floja o torcida",
+    "Juego: ¿cuántos kg pesas en un choque a 50?"
    ],
    "reglas": {
-    "cotidiano": 5,
-    "primer_segundo": 9,
-    "ensenar": 9
-   },
-   "potencial": "medio-alto",
-   "por_que_funcionaria": "Todo el mundo conoce a alguien con un stent.",
-   "competencia": "Un canal muy fuerte ya lo hizo esta semana.",
-   "riesgos": "Tema médico: cifras muy comprobadas y sin sangre explícita.",
-   "mejor_hora": "21:00",
-   "hashtags": [
-    "corazon",
-    "medicina",
-    "cuerpohumano",
-    "comofunciona"
-   ]
-  },
-  {
-   "id": "adblue",
-   "tema": "Qué es el AdBlue de los coches diésel",
-   "tipo": "nicho",
-   "puntuacion": 48,
-   "por_que": "«Qué es y cómo funciona la UREA» suma 155 mil vistas y 59 comentarios en una semana; muchos conductores diésel en España rellenan AdBlue sin saber qué hace.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Qué es y como funciona la UREA #camiones #traileros #adblue» (Kilómetros Recorridos ). 154.615 vistas",
-     "url": "https://youtube.com/shorts/BBiakYFT0fo"
-    }
-   ],
-   "urgencia": "Baja",
-   "angulo": "Formato A: tubo de escape en corte, el líquido se rocía y convierte los gases en nitrógeno y agua.",
-   "titulo": "El líquido azul que echas a tu coche diésel 🚗 qué hace en el escape",
-   "gancho": "Si tu coche es diésel, le echas un líquido que no es combustible… ¿Para qué?",
-   "primer_segundo": "Chorro del inyector rociando dentro del escape, en corte.",
-   "cifras": [
-    "Proporción de urea (comprobar)",
-    "Reducción de óxidos de nitrógeno en % (comprobar)",
-    "Consumo por cada 1.000 km (comprobar)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Gases sucios",
-    "Inyector",
-    "Catalizador",
-    "Dato: sale agua",
-    "Cierre"
-   ],
-   "reglas": {
-    "cotidiano": 6,
+    "cotidiano": 10,
     "primer_segundo": 8,
     "ensenar": 8
    },
-   "potencial": "medio",
-   "por_que_funcionaria": "Duda real de conductores, buena para comentarios.",
-   "competencia": "Solo canales de camioneros.",
-   "riesgos": "No nombrar marcas (AdBlue es marca registrada: decir «líquido de urea»).",
-   "mejor_hora": "13:00",
+   "potencial": "alto",
+   "por_que_funcionaria": "Objeto que usas cada día + error corregible (poner la correa bien) + cifra enorme: la fuerza en kg que sentirías, comparada con un coche. Muy enviable a quien conduce.",
+   "competencia": "No hay un short claro en castellano sobre el mecanismo interno en el nicho esta semana.",
+   "riesgos": "Cifras de pretensor y g varían por fabricante: verificar antes del guion. No mostrar choques con víctimas.",
+   "mejor_hora": "18:00",
    "hashtags": [
-    "coches",
-    "diesel",
-    "motor",
-    "comofunciona"
+    "cinturon",
+    "coche",
+    "seguridad",
+    "comofunciona",
+    "fisica"
    ]
   },
   {
-   "id": "pelotasonora",
-   "tema": "Cómo juegan al fútbol o béisbol las personas ciegas",
+   "id": "desaladora",
+   "tema": "Lo que esconde Barcelona: la desaladora que le da agua",
    "tipo": "nicho",
-   "puntuacion": 45,
-   "por_que": "«Cómo funciona el béisbol con pelota sonora» 508 mil vistas con solo 6 comentarios: interés alto y nadie lo explica bien.",
+   "puntuacion": 69,
+   "por_que": "Serie «Lo que esconde tu ciudad» con depósito, canal y túnel ya hechos: toca una obra de agua distinta y cercana al espectador (cada vaso de agua). La sequía catalana de 2023-2025 la hizo conocida. El tema agua gana en la cuenta (tanque de tormentas 51 veces lo normal).",
+   "senales": [
+    {
+     "fuente": "Banco de la cuenta",
+     "dato": "Tanque de tormentas Madrid: 50 mil vistas, 51 veces lo normal; serie-bcn-deposito ya usada"
+    },
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«Por qué el 12 % del aceite de oliva no se puede vender» (36.801): la gente ve procesos industriales cercanos"
+    }
+   ],
+   "urgencia": "Media: la serie pide ritmo",
+   "angulo": "Formato C: «¿Y si construyes una desaladora?». Bombeo de mar, filtros, membranas a presión altísima y vuelta de la salmuera. Pregunta de juego: cuántos vasos de agua sale cada segundo.",
+   "titulo": "Barcelona saca agua del mar 🌊 ¿Cuántos vasos por segundo? Lo que esconde tu ciudad (parte 4)",
+   "gancho": "Este vaso de agua… ¿era mar hace una hora?",
+   "primer_segundo": "Vaso llenándose de grifo y la cámara cae por la tubería hasta el mar con el agua moviéndose.",
+   "cifras": [
+    "Desaladora del Llobregat: ~60 hm³ al año (comprobar)",
+    "Presión de ósmosis inversa: ~60-70 bar, unas 30 veces la de tu rueda de coche (comprobar)",
+    "Agua de mar: unos 35 g de sal por litro (comprobar)"
+   ],
+   "formato": "C",
+   "estructura": [
+    "Bombeas agua de mar",
+    "Pero hay arena: prefiltros",
+    "Pero la sal no pasa: membrana",
+    "Pero hace falta presión enorme: bomba",
+    "Salmuera de vuelta",
+    "Cifra revelada: vasos por segundo",
+    "Pie: comenta tu ciudad"
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "primer_segundo": 8,
+    "ensenar": 9
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Cifra enorme que se compara con el vaso y con la rueda del coche; la presión sube en un medidor. Serie con comentarios de ciudades.",
+   "competencia": "Poco contenido en castellano; el de aceite de oliva muestra que el proceso industrial se ve.",
+   "riesgos": "Dato de capacidad y presión por verificar; evitar la polémica política del agua y del trasvase.",
+   "mejor_hora": "13:00",
+   "hashtags": [
+    "leesconde",
+    "barcelona",
+    "desaladora",
+    "agua",
+    "ingenieria"
+   ]
+  },
+  {
+   "id": "freidora",
+   "tema": "Tu freidora de aire no fríe con aire",
+   "tipo": "evergreen",
+   "puntuacion": 66,
+   "por_que": "Objeto de cocina muy común y patrón «lo estás haciendo mal» (no apilar, no llenar el cesto). Nicho: los vídeos sobre electrodomésticos reales rinden (lavadora 38 mil, calentador solar 628 mil con comentarios 1.325). No está en escenas ni estado.",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Cómo funciona el beisbol con pelota sonora 🤔» (CURION). 508.406 vistas",
-     "url": "https://youtube.com/shorts/PJ70VthO3BI"
+     "dato": "«Xóchitl explica cómo funciona el calentador solar…» (La Jornada) 628.453 vistas y 1.325 comentarios"
+    },
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona una lavadora?» 38.021 vistas"
     }
    ],
-   "urgencia": "Baja",
-   "angulo": "Formato A: balón en corte con los cascabeles, el sonido que se mueve y el jugador que lo localiza.",
-   "titulo": "El balón que se oye 🔔 así juegan las personas ciegas",
-   "gancho": "Cierra los ojos… ¿podrías saber dónde está un balón?",
-   "primer_segundo": "Balón rodando hacia la cámara con ondas de sonido saliendo.",
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato A: corte con resistencia, ventilador y cesto agujereado. Error: llenar el cesto hasta arriba y tapar el flujo. Mecanismo: es un horno de convección pequeño; el aire caliente barre la humedad de la superficie.",
+   "titulo": "Tu freidora de aire es un horno con turbo 🍟 ¿A cuántos grados corre el aire?",
+   "gancho": "Llenas el cesto hasta arriba… ¿y sale blando?",
+   "primer_segundo": "Cesto girando con patatas y flechas rojas de aire caliente que sube por los agujeros.",
    "cifras": [
-    "Número de cascabeles (comprobar)",
-    "Tamaño del campo (comprobar)"
+    "Temperatura: hasta ~200 °C (comprobar)",
+    "Aire dando varias vueltas por segundo (comprobar)",
+    "Humedad que sale: contador de gramos de agua evaporada"
    ],
    "formato": "A",
    "estructura": [
-    "El problema",
-    "Cascabeles dentro",
-    "Cómo se localiza el sonido",
-    "Dato",
-    "Cierre"
+    "Resistencia calienta",
+    "Ventilador empuja el aire",
+    "El aire pasa por el cesto",
+    "Capa seca y crujiente",
+    "Error: cesto lleno bloquea el flujo",
+    "Qué hacer: una sola capa y agitar"
    ],
    "reglas": {
-    "cotidiano": 5,
+    "cotidiano": 9,
+    "primer_segundo": 9,
+    "ensenar": 8
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Error que el espectador comete esta noche y solución accionable; ideal para enviar a quien tiene una.",
+   "competencia": "Muchos recetarios, casi nadie explica el flujo de aire en 3D.",
+   "riesgos": "«Sin aceite» tiene matices; no prometer salud ni marcas.",
+   "mejor_hora": "20:00",
+   "hashtags": [
+    "freidoradeaire",
+    "cocina",
+    "hogar",
+    "comofunciona",
+    "trucos"
+   ]
+  },
+  {
+   "id": "tapa",
+   "tema": "Por qué las tapas de alcantarilla son redondas",
+   "tipo": "evergreen",
+   "puntuacion": 63,
+   "por_que": "Cotidiano y callejero: todo el que sale de casa pisa una. Es el tipo de dato-creencia que se comparte («no lo había pensado»). Sin competencia directa en el nicho esta semana. Enlaza con la serie del subsuelo de la ciudad.",
+   "senales": [
+    {
+     "fuente": "Banco de la cuenta",
+     "dato": "Mejores vídeos: creencia corregida sobre un objeto que el espectador tiene delante (78×, 34×, 19×)"
+    }
+   ],
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato A: corte del pozo bajo la calle; una tapa cuadrada se cuela en diagonal y la redonda no. Mecanismo: el diámetro es igual en todas las direcciones. Añade el peso de la tapa y cuántos coches pasan encima.",
+   "titulo": "No es casualidad 🕳️ La tapa de la calle que nunca se cae",
+   "gancho": "Pisas una tapa de alcantarilla cada día… ¿por qué es redonda?",
+   "primer_segundo": "Rueda de un coche pasando sobre la tapa y la cámara baja por el pozo.",
+   "cifras": [
+    "Tapa tipo: unos 40-60 kg (comprobar)",
+    "Diagonal de un cuadrado: 1,41 veces el lado",
+    "Un camión de 18 t pasa encima"
+   ],
+   "formato": "A",
+   "estructura": [
+    "Tapa cuadrada y diagonal",
+    "La cuela por el agujero",
+    "Tapa redonda: mismo ancho en todas partes",
+    "Lo que hay debajo",
+    "Peso y coches",
+    "Pregunta de juego: diámetro"
+   ],
+   "reglas": {
+    "cotidiano": 10,
     "primer_segundo": 8,
     "ensenar": 7
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Curiosidad e inclusión.",
-   "competencia": "Un short sin profundidad.",
-   "riesgos": "Tratar la discapacidad con respeto.",
-   "mejor_hora": "18:00",
+   "por_que_funcionaria": "Dato que sorprende con demostración visual sencilla.",
+   "competencia": "Existe en otros idiomas; en castellano casi todo es texto.",
+   "riesgos": "Dato muy conocido, la cifra enorme es floja.",
+   "mejor_hora": "12:00",
    "hashtags": [
-    "deporte",
-    "inclusion",
-    "sonido",
-    "comofunciona"
+    "alcantarilla",
+    "ciudad",
+    "curiosidades",
+    "comofunciona",
+    "geometria"
    ]
   },
   {
-   "id": "submarino",
-   "tema": "Cómo se hunde y sale a flote un submarino",
+   "id": "aspiradora",
+   "tema": "Tu aspiradora no chupa: empuja el aire",
    "tipo": "evergreen",
-   "puntuacion": 44,
-   "por_que": "«¿Cómo funciona un submarino?» 166 mil vistas esta semana. Guion propuesto hoy («submarino»).",
+   "puntuacion": 62,
+   "por_que": "Corrige una creencia sobre un objeto de casa (patrón del router). Mecanismo claro (presión) y comparación con tu entorno. No está en escenas.",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona un submarino? 👷 #shorts» (Casco Amarillo). 165.519 vistas",
-     "url": "https://youtube.com/shorts/Qld0IOJO46g"
+     "dato": "Tendencia de mecanismos domésticos: lavadora 38 mil, brazo 525 mil, calentador solar 628 mil"
     }
    ],
-   "urgencia": "Baja",
-   "angulo": "Formato B: tanques de lastre, casco de presión, tanques de equilibrio y aire comprimido.",
-   "titulo": "Si tuvieras que inventar un submarino… 🌊",
-   "gancho": "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse?",
-   "primer_segundo": "Submarino hundiéndose en corte con el agua entrando en los tanques.",
+   "urgencia": "Baja: evergreen",
+   "angulo": "Formato A: ventilador baja la presión dentro y el aire de fuera empuja la suciedad. Error: llevar el filtro lleno o tapar la entrada.",
+   "titulo": "Tu aspiradora no chupa nada 🌀 La que empuja es la habitación",
+   "gancho": "Tu aspiradora no chupa… ¿entonces qué hace?",
+   "primer_segundo": "Boquilla pasando sobre migas con flechas rojas de aire.",
    "cifras": [
-    "+1 atmósfera cada 10 m",
-    "31 atmósferas a 300 m"
+    "Depresión interna: contador de presión",
+    "Aire que entra: litros por segundo (comprobar)",
+    "Rpm del motor (comprobar)"
    ],
-   "formato": "B",
+   "formato": "A",
    "estructura": [
-    "Flotar",
-    "Tanques",
-    "Presión",
-    "Casco",
-    "Equilibrio",
-    "Dato: sube con aire",
-    "Cierre"
+    "Motor y ventilador",
+    "Baja presión",
+    "Empuja el aire exterior",
+    "Filtro lleno: pierde fuerza",
+    "Qué hacer"
    ],
    "reglas": {
-    "cotidiano": 3,
-    "primer_segundo": 8,
-    "ensenar": 10
+    "cotidiano": 10,
+    "primer_segundo": 9,
+    "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Profundímetro y manómetro muy visuales.",
-   "competencia": "Un short reciente.",
-   "riesgos": "Regla 1 muy floja; no mostrar submarinos militares reales.",
-   "mejor_hora": "21:00",
+   "por_que_funcionaria": "Giro de creencia con flechas visibles.",
+   "competencia": "Mucho contenido genérico.",
+   "riesgos": "Mecanismo mejor conocido; la cifra enorme no destaca.",
+   "mejor_hora": "19:00",
    "hashtags": [
-    "submarino",
-    "mar",
-    "presion",
-    "comofunciona"
+    "aspiradora",
+    "hogar",
+    "fisica",
+    "comofunciona",
+    "trucos"
    ]
   },
   {
-   "id": "calentadorsolar",
-   "tema": "Calentador solar casero con botellas",
+   "id": "funicular",
+   "tema": "Cómo funciona un funicular y por qué no chocan",
    "tipo": "nicho",
-   "puntuacion": 40,
-   "por_que": "«Xóchitl explica cómo funciona el calentador solar que inventó con materiales reciclados»: 124 mil vistas y 325 comentarios (mucha conversación).",
+   "puntuacion": 57,
+   "por_que": "Señal directa del nicho: «Cómo funciona un funicular (y por qué no chocan)» 74.912 vistas y también tuneladora (84 mil). Obras de ciudad con cifra (cabinas que se contrapesan).",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Xóchitl explica cómo funciona el calentador solar que inventó con materiales reciclados» (La Jornada). 123.764 vistas",
-     "url": "https://youtube.com/shorts/OU-0xr2f0Os"
+     "dato": "«Cómo funciona un funicular…» (mecanica_oculta) 74.912 vistas",
+     "url": "https://youtube.com/shorts/ZGsEMWcOItc"
+    },
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona una TUNELADORA gigante?» 84.015 vistas",
+     "url": "https://youtube.com/shorts/hMOHZCVy-Z0"
     }
    ],
-   "urgencia": "Baja",
-   "angulo": "Formato B: tubo negro, botellas como invernadero y el agua caliente que sube sola (termosifón).",
-   "titulo": "Si tuvieras que calentar agua solo con el sol… ☀️",
-   "gancho": "El agua de tu ducha podría calentarse sin gas ni luz… solo con el sol.",
-   "primer_segundo": "Agua corriendo por un tubo negro al sol con el termómetro subiendo.",
+   "urgencia": "Media",
+   "angulo": "Formato C o A: dos cabinas unidas por un cable, la que baja sube a la otra. Serie ciudad si usamos un funicular de Barcelona o Valencia.",
+   "titulo": "¿Y si construyes un funicular? 🚠 La cabina que sube sin motor",
+   "gancho": "Una cabina baja… y la otra sube sola.",
+   "primer_segundo": "Dos cabinas cruzándose en plano cercano con el cable moviéndose.",
    "cifras": [
-    "Temperatura que alcanza el agua (comprobar)",
-    "Litros al día (comprobar)"
+    "Pendiente: hasta ~50 % (comprobar)",
+    "Contrapeso: cabina llena de agua baja y sube a la otra (kg en contador)"
    ],
-   "formato": "B",
+   "formato": "C",
    "estructura": [
-    "Tubo negro",
-    "Botellas",
-    "Termosifón",
-    "Depósito",
-    "Dato",
-    "Cierre"
+    "Cable y dos cabinas",
+    "Una baja, otra sube",
+    "Agua de lastre",
+    "Motor solo compensa",
+    "Cruce"
    ],
    "reglas": {
-    "cotidiano": 6,
+    "cotidiano": 5,
+    "primer_segundo": 9,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Contrapeso visible con kg que cambian.",
+   "competencia": "Un solo short de 75 mil.",
+   "riesgos": "Regla 1 floja: pocos tienen funicular al lado.",
+   "mejor_hora": "17:00",
+   "hashtags": [
+    "funicular",
+    "ciudad",
+    "fisica",
+    "comofunciona",
+    "transporte"
+   ]
+  },
+  {
+   "id": "tunelmadrid",
+   "tema": "Lo que esconde Madrid: el túnel del tren bajo el centro",
+   "tipo": "nicho",
+   "puntuacion": 55,
+   "por_que": "Serie «Lo que esconde tu ciudad» con la línea de Cercanías que cruza Madrid bajo el centro; los viajeros de cada día la usan sin verla. Tunelación en el nicho (84 mil).",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "Tuneladora gigante 84.015 vistas"
+    },
+    {
+     "fuente": "Banco de la cuenta",
+     "dato": "serie-m30 y serie-canal ya usados: Madrid funciona bien"
+    }
+   ],
+   "urgencia": "Media",
+   "angulo": "Formato C: «¿Y si construyes un túnel ferroviario bajo una ciudad?» sin cerrar la ciudad. Cifra de juego: cuántos trenes por hora pasan.",
+   "titulo": "Un túnel de trenes bajo el centro de Madrid 🚆 Lo que esconde tu ciudad (parte 5)",
+   "gancho": "Pisas el centro de Madrid… ¿y bajo tus pies pasa un tren?",
+   "primer_segundo": "Tren Cercanías entrando en el túnel con la calle encima.",
+   "cifras": [
+    "Longitud del túnel Atocha-Chamartín: ~7 km (comprobar)",
+    "Trenes por hora en hora punta (comprobar)"
+   ],
+   "formato": "C",
+   "estructura": [
+    "Calle sobre el túnel",
+    "Cut and cover",
+    "Cimientos",
+    "Cifra",
+    "Pie: comenta tu ciudad"
+   ],
+   "reglas": {
+    "cotidiano": 7,
     "primer_segundo": 7,
     "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Ahorro y bricolaje generan comentarios.",
-   "competencia": "Un vídeo de noticias, no del nicho.",
-   "riesgos": "Se parece a «caldera»/«termo» ya hechos.",
-   "mejor_hora": "13:00",
+   "por_que_funcionaria": "Serie con comentarios por ciudad.",
+   "competencia": "Sin shorts del tema en la lista.",
+   "riesgos": "Datos del túnel por comprobar; muy parecido al metro ya hecho.",
+   "mejor_hora": "19:00",
    "hashtags": [
-    "sol",
-    "energia",
-    "agua",
-    "inventos",
-    "comofunciona"
+    "leesconde",
+    "madrid",
+    "tren",
+    "ciudad",
+    "ingenieria"
    ]
   },
   {
-   "id": "chorroagua",
-   "tema": "Cortar acero con agua",
-   "tipo": "nicho",
-   "puntuacion": 36,
-   "por_que": "«Cómo funciona el corte con agua y abrasivo»: 177 mil vistas en dos días.",
+   "id": "abs",
+   "tema": "Frenas a fondo y el pedal vibra: es el ABS",
+   "tipo": "evergreen",
+   "puntuacion": 52,
+   "por_que": "Coche cotidiano con error corregible: «no bombees el pedal». Mecánicas de coche tienen demanda en el nicho.",
    "senales": [
     {
      "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«💧 COMO FUNCIONA O CORTE COM ÁGUA E ABRASIVO DE GRANADA  #engenharia #curiosidades #tecnolo» (INTRIGANTE.IA-80). 177.131 vistas",
-     "url": "https://youtube.com/shorts/4bQHPKA-QUU"
+     "dato": "Motor del coche pieza a pieza (116.855 vistas) y camiones eléctricos (87.869)"
     }
    ],
    "urgencia": "Baja",
-   "angulo": "Formato A: bomba, boquilla de diamante y arena que corta.",
-   "titulo": "Así corta el agua una plancha de acero 💧",
-   "gancho": "Un chorro de agua más fino que un pelo… atraviesa el acero.",
-   "primer_segundo": "El chorro cortando una plancha en primer plano con chispas de agua.",
+   "angulo": "Formato A: sensor de rueda y válvulas que sueltan y aprietan el freno decenas de veces por segundo.",
+   "titulo": "Si frenas a fondo, el pedal vibra 🚗 Y está bien",
+   "gancho": "Frenas a fondo y el pedal tiembla… ¿lo estás haciendo mal?",
+   "primer_segundo": "Rueda girando con el disco y la pastilla apretando.",
    "cifras": [
-    "Presión en bares (comprobar)",
-    "Velocidad del chorro (comprobar)"
+    "Hasta ~15 pulsos por segundo (comprobar)",
+    "Distancia de frenado a 100 km/h (comprobar)"
    ],
    "formato": "A",
    "estructura": [
-    "Bomba",
-    "Boquilla",
-    "Arena abrasiva",
-    "Dato",
-    "Cierre"
+    "Rueda se bloquea",
+    "Sensor detecta",
+    "Válvula suelta",
+    "Vuelve a apretar",
+    "Qué hacer"
    ],
    "reglas": {
-    "cotidiano": 2,
-    "primer_segundo": 10,
+    "cotidiano": 9,
+    "primer_segundo": 8,
     "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Muy hipnótico en el primer segundo.",
-   "competencia": "Vídeos en portugués.",
-   "riesgos": "Regla 1 muy floja.",
-   "mejor_hora": "21:00",
+   "por_que_funcionaria": "Error común con acción clara.",
+   "competencia": "Muchos vídeos de autoescuela.",
+   "riesgos": "Cifras técnicas por verificar.",
+   "mejor_hora": "18:00",
    "hashtags": [
-    "agua",
-    "industria",
-    "ingenieria",
+    "abs",
+    "coche",
+    "frenos",
+    "seguridad",
     "comofunciona"
    ]
   }
  ],
  "descartadas": [
   {
-   "tema": "Adrián Barbón, Pablo Bustinduy, Javier Aguirre, James Gunn, León XIV, Carlos Alcaraz, Ben Shelton…",
-   "motivo": "Política y famosos."
+   "tema": "Huelga general, elecciones, CIS, Feijóo, Abascal, Colau, Pedro Sánchez",
+   "motivo": "Política."
   },
   {
-   "tema": "«Alice Huang espía china», policía, Toma del Palacio de Justicia, Arguineguín",
-   "motivo": "Sucesos, política o víctimas."
+   "tema": "León XIV, Francisco, Juan Pablo II, Benedicto XVI",
+   "motivo": "Religión y personas; sin mecanismo cotidiano."
   },
   {
-   "tema": "Nations League, Liga1 Perú, Boca Juniors, Primera argentina",
-   "motivo": "Deporte sin mecanismo; se aprovecha con el ángulo del césped (estadio)."
+   "tema": "Jordi Wild, Broncano, Jon Kortajarena, Samantha Hudson, Jensen Huang, Rubius",
+   "motivo": "Famosos."
   },
   {
-   "tema": "La Revuelta (horario)",
-   "motivo": "Programa de televisión, sin mecanismo."
+   "tema": "Barcelona-Arsenal, Betis-Navalcarnero, España-Chequia",
+   "motivo": "Fútbol de actualidad; el campo de fútbol ya está en «estadio»."
   },
   {
-   "tema": "«Si se va la luz, tus paneles solares también se apagan» (1,94 millones)",
-   "motivo": "Muy buen dato, pero las placas solares ya están hechas («placas»); se podría usar como segunda parte."
+   "tema": "Asesinato de Carlos Palomino, Toma del Palacio de Justicia",
+   "motivo": "Sucesos con víctimas."
   },
   {
-   "tema": "«Cargar el móvil toda la noche no arruina la batería» (1,68 millones) y «¿Qué pasa dentro de un cargador?» (16,4 millones)",
-   "motivo": "Ya hechos: «bateria» y «cargador»."
+   "tema": "Si caen bombas en tu ciudad haz esto (738 mil)",
+   "motivo": "Contenido bélico."
   },
   {
-   "tema": "Móviles plegables y iPhone dúo",
-   "motivo": "Ya hecho («plegable») y marcas reales."
+   "tema": "Cómo funciona el paracaídas",
+   "motivo": "Ya propuesto en «paracaidas»."
   },
   {
-   "tema": "Túneles de Cu Chi, Phalanx, «Si caen bombas en tu ciudad»",
-   "motivo": "Guerra y armas."
+   "tema": "Cómo funciona tu brazo",
+   "motivo": "Ya existe «brazo»."
   },
   {
-   "tema": "Tokens de Fortnite, Free Fire, Minecraft, Smash Bros",
-   "motivo": "Videojuegos, fuera del nicho."
+   "tema": "Calentador solar casero",
+   "motivo": "Muy cercano a «placas»; objeto que casi nadie tiene."
   },
   {
-   "tema": "Resintonizar la TDT",
-   "motivo": "Ya hecho («tdt»)."
+   "tema": "Microondas",
+   "motivo": "Ya en estado.json (microondas y microcentro)."
   },
   {
-   "tema": "Suelo infinito",
-   "motivo": "Rechazado en el panel («espejos»)."
+   "tema": "Tuneladora gigante",
+   "motivo": "Repite «tunel» y «metro»."
   },
   {
-   "tema": "Acelerómetro, montaña rusa, cerilla, linterna, velcro, molinos, metro y brazo",
-   "motivo": "Ya en producción (escenas entregadas)."
+   "tema": "Lavadora, ChatGPT, tabla periódica, arroba",
+   "motivo": "Lavadora y ChatGPT ya hechos; tabla periódica y arroba son abstractos."
   },
   {
-   "tema": "Bolígrafo para adelgazar",
-   "motivo": "Medicamento: riesgo de dar consejos de salud."
+   "tema": "Cajón de madera a avión, Minecraft, Free Fire, anime, videojuegos",
+   "motivo": "Entretenimiento o ficción sin objeto cotidiano."
+  },
+  {
+   "tema": "GTA VI, Marvel, música",
+   "motivo": "Famosos y ocio; sin mecanismo."
   }
  ]
 }

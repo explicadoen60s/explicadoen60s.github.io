@@ -3627,6 +3627,117 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:48.100Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "microcentro",
+   "formato": "A",
+   "titulo": "¿Pones la comida en el centro del microondas? 🍲 Por eso se queda fría por dentro",
+   "guion": "¿Pones la comida en el centro del microondas? ¡Por eso se queda fría por dentro! ¿Cada cuántos centímetros hay un punto caliente? Escribe tu número antes de que acabe. Pulsas el botón y el magnetrón lanza ondas invisibles. Vibran dos mil cuatrocientos cincuenta millones de veces por segundo. Rebotan en las paredes de metal. Y al cruzarse… En unos sitios se suman y calientan. En otros se anulan… y no calientan. Tu microondas tiene puntos calientes y puntos fríos. Siempre en el mismo sitio. Por eso gira el plato: unas seis vueltas por minuto. Así cada trozo pasa por los puntos calientes. Pero hay una trampa. El centro del plato no viaja: solo gira sobre sí mismo. Si ahí cae un punto frío… ¡tu comida se queda fría en el medio! Además, las ondas solo entran unos dos o tres centímetros. ¿Y a qué distancia están esos puntos? Quita el plato y mete una tableta de chocolate. Se derrite a trozos, cada… seis centímetros. Una onda entera mide doce: la mitad, seis. ¿Qué haces? Ponla en anillo, pegada al borde, y deja el centro vacío. Y a mitad, remueve. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Ya sabes qué pasa si pones la comida… en el centro del microondas.",
+   "texto": "El centro del plato de tu microondas no se mueve: por eso la comida sale fría en el medio. Envíaselo a ese amigo que siempre pone el táper en el centro. ¿Cuál era tu número? 👇",
+   "tags": [
+    "microondas",
+    "cocina",
+    "trucos de casa",
+    "ciencia",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-12",
+   "idea": "error-microondas",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "El microondas lo usa casi todo el mundo a diario y el error (comida en el centro) lo comete casi todo el mundo.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Primer plano de un plato de comida girando en el microondas encendido, con luz y ondas saliendo del magnetrón.",
+    "ensenar": 9,
+    "ensenar_nota": "Contadores de 2.450 millones de vibraciones/s, 6 vueltas/min, 2-3 cm de penetración, chocolate derretido cada 6 cm y onda de 12 cm; mapa de puntos calientes y fríos en el plato."
+   },
+   "ganchos": [
+    "¿Pones la comida en el centro del microondas?",
+    "Tu microondas tiene un punto frío fijo.",
+    "¿Tu comida sale fría por dentro? Mira el plato."
+   ],
+   "juego": {
+    "pregunta": "¿Cada cuántos centímetros hay un punto caliente en tu microondas?",
+    "valor": 6,
+    "unidad": "CM ENTRE PUNTOS CALIENTES",
+    "dec": 0,
+    "pregunta_en": "¿Cada cuántos centímetros hay",
+    "revela_en": "Se derrite a trozos"
+   },
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Cumple el patrón «lo estás haciendo mal»: objeto de casa que todos usan, error común (comida en el centro), mecanismo (ondas estacionarias, el centro del plato solo gira sobre sí mismo) y acción final (anillo en el borde y remover). El gancho tiene 8 palabras y la cifra se descubre pasado el primer tercio. Los datos físicos cuadran: 2,45 GHz da una onda de unos 12 cm y puntos calientes cada ~6 cm. Fallo menor: el 6 de la revelación es pequeño y no es la «cifra enorme» de la fórmula del gancho.",
+     "propuesta": "Opcional, no bloquea: cambia «Vibran dos mil cuatrocientos cincuenta millones de veces por segundo» por «… más que los latidos de todo un pueblo en un año», si se puede comprobar. Si no, déjalo así y que la escena enseñe en grande el contador de 2.450 millones junto al plato. Asegura también que la escena compare el chocolate a trozos con la mano del espectador (regla 3) y que el primer segundo sea el plato girando con la comida en el centro.",
+     "aplicada": false,
+     "respuesta": "No añado la comparación de los latidos porque no está comprobada y alargaría el guion por encima de 225 palabras; lo de la mano junto al chocolate y el primer segundo con el plato girando queda para la escena."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "«Microondas» suena en la primera frase y está en el título, pero el pie no lo lleva y el tag «como funciona» va con espacio, cuando debe ser «comofunciona». La frase de búsqueda «cómo funciona» tampoco aparece en voz.",
+     "propuesta": "Cambia el pie por: «El centro del plato de tu microondas no se mueve: por eso la comida sale fría en el medio. Envíaselo a ese amigo que siempre pone el táper en el centro. ¿Cuál era tu número? 👇». Sustituye el tag «como funciona» por «comofunciona» y ponlo el último, con «microondas» el primero. Para meter la búsqueda en voz sin alargar el gancho, pon en la frase 6 «Así funciona tu microondas: tiene puntos calientes y puntos fríos».",
+     "aplicada": true,
+     "respuesta": "Aplico el pie y los tags; no meto «Así funciona» en la voz porque pasaría de 225 palabras, y la búsqueda ya va en el título de YouTube."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Hay 5 cifras que se pueden mover (2.450 millones/s, 6 vueltas/min, 2-3 cm de penetración, chocolate cada 6 cm, onda de 12 cm) y el mapa caliente/frío es un mecanismo real, no una metáfora. Pero el microondas es un objeto pequeño y muy cargado: 5 pastillas más cifra_juego en un plato corto saturan, y la cifra de 2.450 millones no se puede contar en pantalla sin que se convierta en un borrón de dígitos. Además, 'la mitad de una onda: doce' está al revés (la onda mide 12 cm y la mitad, 6) y el orden confunde el contador.",
+     "propuesta": "Cambia 'La mitad de una onda: doce.' por 'Una onda entera mide doce: la mitad, seis.' para que el contador de la regla pase de 12 a 6 en el mismo orden en que se oye. Mantén 4 contadores claros: vueltas/min (0 a 6), cm de penetración (0 a 3), onda de 12 cm (cinta métrica que se parte en dos mitades de 6) y cifra_juego. La cifra de 2.450 millones se enseña como etiqueta fija 2,45 GHz sobre el magnetrón con la onda vibrando, sin contador. Pastillas en el tercio superior, desplazadas del eje. Rótulos de pieza solo MAGNETRÓN y PLATO, uno cada vez.",
+     "aplicada": true,
+     "respuesta": "Cambiada la frase de la onda; el plan de contadores y la etiqueta fija de 2,45 GHz quedan como guía para la escena."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Longitud correcta y frases cortas, pero hay seis «…» (el tope es uno cada 40 palabras), uno en «Pulsas el botón…», que no va antes de ningún dato. Además no hay ninguna «¡!», y el experimento x261112son pide una exclamación al principio para subir voz_gancho.",
+     "propuesta": "1) «Pulsas el botón y el magnetrón lanza ondas invisibles.», sin puntos suspensivos. 2) La segunda frase como «¡Por eso se queda fría por dentro!». 3) «Si ahí cae un punto frío… ¡tu comida se queda fría en el medio!». 4) En sfx_events, nada encima de «seis centímetros» ni de «doce»: el pop o sfx_cifra en «Se derrite a trozos».",
+     "aplicada": true,
+     "respuesta": "Aplicados los tres cambios del guion; lo de los efectos queda anotado para la escena. El vídeo entra en el experimento x261112son."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲",
+     "texto": "El centro del plato de tu microondas no se mueve: por eso la comida sale fría en el medio. Envíaselo a ese amigo que siempre pone el táper en el centro. ¿Cuál era tu número? 👇",
+     "tags": [
+      "microondas",
+      "trucosdecocina",
+      "calentarcomida",
+      "ciencia",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Tu microondas calienta a trozos: ¿cada cuántos cm? 🍲",
+     "texto": "Cómo funciona el microondas: las ondas se suman en unos puntos y se anulan en otros, y el centro del plato solo gira sobre sí mismo. Por eso tu comida sale fría en el medio. Truco: ponla en anillo, pegada al borde, y remueve a mitad. Envíaselo a quien siempre pone el táper en el centro. ¿Cuál era tu número? 👇 #microondas #comofunciona #trucosdecocina #ciencia #cocina",
+     "tags": [
+      "microondas",
+      "comofunciona",
+      "trucosdecocina",
+      "ciencia",
+      "cocina"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el microondas: ¿por qué sale frío por dentro?",
+     "texto": "Cómo funciona el microondas y por qué la comida se queda fría en el centro del plato: puntos calientes cada 6 cm, ondas de 12 cm y un plato que gira sobre sí mismo. ¿Cuál era tu número? 👇 #shorts #microondas #comofunciona",
+     "tags": [
+      "microondas",
+      "comofunciona",
+      "comida fria en el centro",
+      "puntos calientes",
+      "trucos de cocina"
+     ]
+    }
+   }
   }
  ]
 }
