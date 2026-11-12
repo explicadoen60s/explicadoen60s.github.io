@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 21:00 | tiktok | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | [✅ publicado](https://www.instagram.com/reel/DfjmZjHjtwO/) |
 | mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 12:00 | youtube | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | [✅ publicado](https://youtube.com/shorts/U0acTThOb0o) |
@@ -37,7 +36,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 20:30 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://www.instagram.com/reel/DfpznasgiGj/) |
 | jue 12/11 | 20:30 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://youtube.com/shorts/2syr9NBeMco) |
-| jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | ⏳ pendiente |
+| jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
 | jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
 | jue 12/11 | 22:30 | youtube | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
