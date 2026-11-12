@@ -70,6 +70,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
+| lun 16/11 | 18:00 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
@@ -136,3 +137,5 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 02/12 | 18:00 | instagram | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
 | jue 03/12 | 10:00 | instagram | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | jue 03/12 | 12:00 | youtube | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
+| jue 03/12 | 16:00 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
+| jue 03/12 | 18:00 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
