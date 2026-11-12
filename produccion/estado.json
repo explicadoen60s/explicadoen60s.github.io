@@ -3275,7 +3275,7 @@
     "https://www.comunidad.madrid/node/60501",
     "https://www.comunidad.madrid/node/108977"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3349,7 +3349,10 @@
       "ingenieria"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-12T11:32:43.550Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
