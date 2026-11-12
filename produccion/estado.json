@@ -2651,7 +2651,7 @@
     "Cuando aterrizas, ese empujón hacia delante no lo hacen solo los frenos."
    ],
    "guion": "Tu avión toca la pista a doscientos cincuenta kilómetros por hora… y tiene que pararse en segundos. ¿Cómo frena algo de sesenta toneladas? Vamos a verlo. Lo primero ni siquiera son los frenos. Nada más tocar el suelo, se levantan unas placas encima de las alas. Rompen la sustentación, y todo el peso cae sobre las ruedas. Así las ruedas agarran de verdad. Luego, los motores. Se abren unas compuertas y desvían el aire hacia delante. El motor sigue empujando… pero al revés. Y por último, los frenos. Pero no son como los de tu coche. Dentro de cada rueda hay una pila de discos de carbono. Unos giran con la rueda, otros están quietos. Al frenar, se aprietan todos a la vez. Y aquí viene lo curioso… El carbono pesa un cuarenta por ciento menos que el acero, y aguanta un calor brutal. En un despegue abortado, los discos pueden pasar de mil grados. ¡Se ponen al rojo vivo! Y el calor no se va enseguida. Después de frenar, la temperatura sigue subiendo… hasta media hora. ¿Y si una rueda se bloquea en la pista? Un ordenador lo nota en milésimas de segundo. Suelta un poco el freno… y vuelve a apretar. Muchas veces por segundo, como el ABS de tu coche. Por eso no notas tirones: solo ese empujón suave hacia delante. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-11",
    "aprobado": "2026-11-11T20:29:43.989Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2701,7 +2701,8 @@
      "aplicada": true,
      "respuesta": "Renombrada: el auditor cuenta 6 contadores."
     }
-   ]
+   ],
+   "duracion": 71.2
   },
   {
    "id": "bcnpluvial",
@@ -2743,7 +2744,7 @@
     "https://www.moncloa.com/2026/10/22/barcelona-deposito-pluvial-licitacion-3453606/",
     "https://www.iagua.es/blogs/jordi-oliveras/deposito-regulador-pluviales-joan-miro-barcelona"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -2856,7 +2857,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:04.463Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "m30tunel",
@@ -2897,7 +2899,7 @@
    "fuentes": [
     "https://tunnelbuilder.com/News/Tunnelling-Ends-on-the-M-30-South-Bypass-in-Madrid.aspx"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3010,7 +3012,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:15.495Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "avesagrada",
@@ -3051,7 +3054,7 @@
    "fuentes": [
     "https://en.wikipedia.org/wiki/Tunnel_of_Proven%C3%A7a"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3173,7 +3176,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:25.012Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "wifi5ghz",
@@ -3214,7 +3218,7 @@
     "https://www.jjlmoya.es/utilidades/simulador-de-alcance-wifi/",
     "https://www.xatakahome.com/la-red-local/a-partir-que-distancia-al-router-wifi-2-4ghz-5ghz-comienza-a-dar-problemas"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3336,7 +3340,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:33.837Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "bombacalor",
@@ -3376,7 +3381,7 @@
     "https://www.xatakahome.com/hogar/quiero-aire-acondicionado-que-caliente-casa-gaste-poco-que-scop-que-conviene-mirarlo",
     "https://www.endesa.com/es/conoce-la-energia/blog/bomba-calor-aire-acondicionado"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3471,7 +3476,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:33:02.871Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "canalmadrid",
@@ -3513,7 +3519,7 @@
     "https://www.comunidad.madrid/node/60501",
     "https://www.comunidad.madrid/node/108977"
    ],
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3626,7 +3632,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:48.100Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "microcentro",
