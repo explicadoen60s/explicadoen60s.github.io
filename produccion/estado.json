@@ -2566,7 +2566,7 @@
     "Tenías cien megas. Pones un repetidor… y te quedan cincuenta."
    ],
    "guion": "Ese repetidor wifi que pusiste en el pasillo… puede estar cortándote la velocidad a la mitad. Vamos a ver por qué. Tu router lanza ondas hacia toda la casa. Pero cada pared se come parte de la señal. En la habitación del fondo, el móvil apenas recibe nada. Así que pones un repetidor a medio camino. Recoge la señal del router… y la vuelve a lanzar. Pero aquí está la trampa. Muchos repetidores tienen una sola radio. Y una radio puede escuchar o hablar, pero no las dos cosas a la vez. Primero recibe los datos de tu móvil. Luego se calla, y se los manda al router. Por el mismo canal, por turnos. Así que cada dato viaja dos veces por el aire. Si tenías cien megas, en el mejor caso te quedan unos cincuenta. Y aquí viene lo curioso… Si lo pones donde ya no llega el wifi, es todavía peor. El repetidor recibe una señal débil, y solo puede repetir lo poco que le llega. ¿Entonces dónde va? En un punto intermedio, donde el wifi aún llegue con fuerza. ¿Y si no quieres perder nada? Hay dos trucos. Uno: un repetidor que habla con el router por una banda… y contigo por la otra. Así no hay turnos. Dos: llevar la señal por cable hasta un segundo punto de acceso. Por el cable no hay esperas… y la velocidad llega casi entera. Sígueme para más.",
-   "estado": "escena",
+   "estado": "renderizando",
    "creado": "2026-11-11",
    "aprobado": "2026-11-11T20:29:46.160Z",
    "aprobado_por": "Nikoloz_Lekishvili",
