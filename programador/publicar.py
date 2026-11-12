@@ -1,5 +1,5 @@
 """Lo ejecuta GitHub Actions cada 10 minutos: publica lo que toca y actualiza el calendario."""
-import os, sys, traceback, datetime as dt
+import os, sys, time, subprocess, traceback, datetime as dt
 
 import requests
 
@@ -132,5 +132,61 @@ def probar():
     print("\n".join(lineas))
 
 
+# GitHub no lanza el flujo cada 10 minutos de verdad (a veces pasa una hora entre una ejecución y otra), así que cada
+# ejecución se queda esperando las publicaciones de la próxima hora y las saca a su hora exacta.
+ESPERA_MAX = dt.timedelta(minutes=62)
+
+
+def git(*args):
+    return subprocess.run(["git", *args], cwd=RAIZ.parent, capture_output=True, text=True)
+
+
+def subir_estado():
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return
+    git("config", "user.name", "programador-explicadoen60s")
+    git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
+    for f in ("programador/calendario.json", "programador/tokens.enc", "CALENDARIO.md", "CONEXIONES.md"):
+        if (RAIZ.parent / f).exists():
+            git("add", f)
+    if git("diff", "--cached", "--quiet").returncode == 0:
+        return
+    git("commit", "-qm", "Programador: estado actualizado [skip ci]")
+    for _ in range(3):
+        if git("pull", "-q", "--rebase").returncode == 0 and git("push", "-q").returncode == 0:
+            return
+        time.sleep(5)
+
+
+def siguiente(inicio):
+    """Hora de la próxima publicación pendiente que cae dentro de esta ejecución (o None)."""
+    t = ahora(); horas = []
+    for p in leer_calendario()["posts"]:
+        if p["estado"] != "pendiente":
+            continue
+        h = dt.datetime.fromisoformat(p["hora"])
+        if h - ADELANTO > t and h - inicio <= ESPERA_MAX:
+            horas.append(h)
+    return min(horas) if horas else None
+
+
+def en_bucle():
+    inicio = ahora()
+    while True:
+        main(); subir_estado()
+        h = siguiente(inicio)
+        if not h:
+            break
+        espera = (h - ADELANTO - ahora()).total_seconds() + 5
+        print(f"Espero {espera / 60:.1f} min a la publicación de las {h.astimezone(MADRID):%H:%M}")
+        time.sleep(max(5, espera))
+        git("pull", "-q", "--rebase")   # por si el panel ha cambiado el calendario mientras tanto
+
+
 if __name__ == "__main__":
-    probar() if "--probar" in sys.argv else main()
+    if "--probar" in sys.argv:
+        probar()
+    elif os.environ.get("GITHUB_ACTIONS"):
+        en_bucle()
+    else:
+        main()
