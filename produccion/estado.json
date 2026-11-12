@@ -3648,7 +3648,7 @@
     "ciencia",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-12",
    "idea": "error-microondas",
    "reglas": {
@@ -3744,7 +3744,10 @@
       "trucos de cocina"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-12T22:51:36.102Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
