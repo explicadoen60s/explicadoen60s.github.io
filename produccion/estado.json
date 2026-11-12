@@ -2806,7 +2806,7 @@
    "fuentes": [
     "https://tunnelbuilder.com/News/Tunnelling-Ends-on-the-M-30-South-Bypass-in-Madrid.aspx"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -2880,7 +2880,10 @@
       "ingenieria"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-12T11:32:10.778Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "avesagrada",
