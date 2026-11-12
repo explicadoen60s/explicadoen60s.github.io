@@ -144,7 +144,7 @@ def medir_escena(src, dur):
         "cam_cada": round(dur / claves, 2) if claves and dur and claves >= 3 else None,
         "cam_inicio_dist": dist,
         "cam_lente_max": max(lentes),
-        "obj_piezas": len(re.findall(r"\b(box|cyl|sph|torus|rounded_slab|text3d|bar_obj|bx)\(", build or src)),
+        "obj_piezas": len(re.findall(r"\b(box|cyl|sph|torus|rounded_slab|text3d|bar_obj|bx|caja|cilindro|bola|casa|edificio|coche|persona|arbol|arbusto|planta|sofa|cama|mesita|tele|inodoro|lavabo|cocina|olla|farola|calle)\(", build or src)),
         "obj_animaciones": len(re.findall(r"\b(keyed|seg|mix)\(", pose or src)),
         "obj_cortes": len(re.findall(r"BOOLEAN", src)),
         "estilo_dia": "entorno_claro(" in src,

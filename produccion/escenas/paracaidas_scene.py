@@ -8,6 +8,7 @@
 import bpy, bmesh, math, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib3d import *
+from modelos import *
 from maqueta import *
 from marcas import cargar
 from mathutils import Vector, Matrix, Euler
@@ -59,25 +60,24 @@ def build():
     S["suelo"] = empty((0, 0, -300))
     for col, g, z in ((PAL["cesped"], 0.25, -0.125), (PAL["tierra"], 0.8, -0.65), (PAL["tierra2"], 1.0, -1.55)):
         box((10, 10, g), (0, 3, z), col, S["suelo"])
-    box((1.6, 1.4, 1.2), (-2.6, 6.0, 0.6), PAL["pared"], S["suelo"]); box((1.8, 1.6, 0.15), (-2.6, 6.0, 1.3), C1, S["suelo"])
-    box((0.35, 0.05, 0.6), (-2.6, 5.28, 0.3), PAL["madera"], S["suelo"])
+    casa((-2.6, 6.0, 0), 1.0, parent=S["suelo"])
     for x, y in ((2.6, 5.5), (3.4, 2.2), (-3.6, 1.5), (1.0, 7.0)):
-        cyl(0.1, 0.8, (x, y, 0.4), PAL["madera"], S["suelo"]); sph(0.55, (x, y, 1.1), PAL["planta"], S["suelo"], seg=10)
+        arbol((x, y, 0), 1.4, parent=S["suelo"], seed=int(x * 10))
     box((0.9, 0.9, 0.02), (0.8, -0.2, 0.01), (1.0, 1.0, 1.0), S["suelo"])   # diana blanca
     box((0.5, 0.5, 0.025), (0.8, -0.2, 0.01), C1, S["suelo"])
     # todo el equipo cuelga del «rig»
     S["rig"] = empty((0, 0, 0))
     S["diver"] = empty((0, 0, 0), S["rig"])
     d = S["diver"]
-    box((0.4, 0.26, 0.6), (0, 0, 0), SUIT, d)
+    caja((0.4, 0.26, 0.6), (0, 0, 0), SUIT, d, r=0.1)
     sph(0.13, (0, -0.02, 0.45), SKIN, d); sph(0.145, (0, 0.02, 0.48), HELM, d, scale=(1, 1, 0.85))
-    box((0.2, 0.03, 0.06), (0, -0.14, 0.47), DARK, d)
-    S["pack"] = box((0.36, 0.16, 0.48), (0, 0.2, 0.02), PACK, d)
+    caja((0.2, 0.04, 0.07), (0, -0.14, 0.47), DARK, d, r=0.018)
+    S["pack"] = caja((0.36, 0.16, 0.48), (0, 0.2, 0.02), PACK, d, r=0.06)
     S["piernas"] = [bar_obj(SUIT, 0.075) for _ in range(2)]
     S["brazos"] = [bar_obj(SUIT, 0.06) for _ in range(2)]
     for o in S["piernas"] + S["brazos"]: o.parent = d
     for sx in (-1, 1):
-        box((0.04, 0.27, 0.62), (sx * 0.12, 0, 0), (0.15, 0.15, 0.18), d)   # arnés
+        caja((0.04, 0.27, 0.62), (sx * 0.12, 0, 0), (0.15, 0.15, 0.18), d, r=0.015)   # arnés
     # tela de prueba (superficie que crece)
     S["tela"] = box((1, 1, 0.03), (0, 0, 0), (0.95, 0.95, 0.98), S["rig"], unique=True)
     # cúpula redonda, extractor y bolsa

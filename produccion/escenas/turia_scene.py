@@ -10,6 +10,7 @@
 import bpy, math, sys, os, random
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib3d import *
+from modelos import *
 from maqueta import *
 from marcas import cargar
 from mathutils import Vector
@@ -63,8 +64,9 @@ def build():
         y = -1.9
         while y < 3.3:
             if abs(y - yr(x)) > 0.8 and all(dseg((x, y), a, b) > 0.95 for a, b in zip(NUEVO, NUEVO[1:])):
-                h = rnd.uniform(0.14, 0.42); c = rnd.choice(cols)
-                box((0.42, 0.42, h), (x, y, h / 2), c); box((0.44, 0.44, 0.04), (x, y, h + 0.02), (0.85, 0.45, 0.35) if rnd.random() < 0.5 else PLAZA)
+                h = rnd.uniform(0.14, 0.42); c = rnd.choice(cols); giro = rnd.choice((0, math.pi / 2, math.pi, -math.pi / 2))
+                if h < 0.2: casa((x, y, 0), 0.25, pared=c, rot=giro, plantas=1)
+                else: edificio((x, y, 0), pisos=max(2, round(h / 0.105)), s=0.25, color=c, rot=giro, ancho=1.6, fondo=1.6)
             y += 0.55
         x += 0.55
     # cauce viejo: lecho, orillas y agua
@@ -79,7 +81,7 @@ def build():
     S["arboles"] = []
     for k in range(16):
         xx = -2.9 + k * 0.42; e = empty((xx, yr(xx) + (0.2 if k % 2 else -0.2), 0.03))
-        cyl(0.025, 0.18, (0, 0, 0.09), (0.55, 0.38, 0.22), parent=e, v=8); sph(0.12, (0, 0, 0.24), PAL["planta"], parent=e, seg=8)
+        arbol((0, 0, 0), 0.28, parent=e, seed=k)
         S["arboles"].append(e)
     S["campo"] = empty((1.0, yr(1.0), 0.03))
     box((0.55, 0.34, 0.012), (0, 0, 0), (0.35, 0.72, 0.3), parent=S["campo"])
@@ -89,7 +91,7 @@ def build():
     S["autopista"] = [unit(PAL["asfalto"]) for _ in range(len(RIO) - 3)]
     S["rayas"] = [box((0.12, 0.025, 0.012), LEJOS, (1, 1, 1)) for _ in range(18)]
     S["paseante"] = empty(LEJOS)
-    cyl(0.03, 0.1, (0, 0, 0.05), (0.25, 0.45, 0.85), parent=S["paseante"], v=10); sph(0.028, (0, 0, 0.13), (0.95, 0.75, 0.6), parent=S["paseante"], seg=10)
+    persona((0, 0, 0), 0.16, parent=S["paseante"])
     # cauce nuevo (se excava): lecho, orillas, agua
     S["nbed"], S["nbk"], S["nw"] = [], [], []
     for a, b in zip(NUEVO, NUEVO[1:]):
@@ -112,7 +114,7 @@ def build():
         box((0.36, 1.6, 0.06), (0, 0, 0.21), (0.92, 0.92, 0.9), parent=pe)
         for yy in (-0.45, 0.0, 0.45): box((0.1, 0.1, 0.2), (0, yy, 0.09), (0.75, 0.75, 0.75), parent=pe)
         box((0.26, 1.6, 0.012), (0, 0, 0.245), col, parent=pe)
-    S["coches"] = [box((0.1, 0.16, 0.07), LEJOS, c) for c in (PAL["rojo"], (0.2, 0.45, 0.85), PAL["amarillo"], (0.95, 0.95, 0.95))]
+    S["coches"] = [coche(LEJOS, 0.1, color=c, rot=math.pi / 2) for c in (PAL["rojo"], (0.2, 0.45, 0.85), PAL["amarillo"], (0.95, 0.95, 0.95))]
     S["tren"] = [box((0.12, 0.3, 0.1), LEJOS, (0.85, 0.2, 0.2)) for _ in range(3)]
     # riada: agua que cubre la ciudad
     S["inund"] = box((7.6, 5.4, 1.0), LEJOS, WATER, unique=True)
@@ -232,7 +234,7 @@ def pose(t, S):
         x = ROADS[k % 2][0]
         if t > T("levantas puentes") + 0.7 * (k % 2) + 0.4:
             yy = -4.8 + ((t * 0.5 + k * 0.37) % 1.0) * 3.3; zz = 0.06 + (0.21 if -4.05 < yy < -2.45 else 0.0)
-            c.location = (x + (0.06 if k < 2 else -0.06), yy, zz)
+            c.location = (x + (0.06 if k < 2 else -0.06), yy, zz - 0.035)
         else: c.location = LEJOS
     for k, c in enumerate(S["tren"]):
         if t > T("uno tras") + 0.2:

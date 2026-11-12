@@ -8,6 +8,7 @@
 import bpy, bmesh, math, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib3d import *
+from modelos import *
 from maqueta import *
 from marcas import cargar
 from mathutils import Vector
@@ -60,7 +61,7 @@ def build():
     for sx, sy in ((-1.4, -0.35), (-1.4, 0.65), (0.98, -0.35), (0.98, 0.65)): box((0.07, 0.07, 0.84), (sx, sy, 0.42), (0.75, 0.52, 0.3))
     # detalles: lápiz, tablón, maceta y caja de herramientas
     box((0.5, 0.025, 0.025), (0.5, 0.45, 0.915), (1.0, 0.75, 0.2), rot=(0, 0, 0.4)); box((0.9, 0.25, 0.05), (0.4, -0.25, 0.925), (0.95, 0.8, 0.55))
-    cyl(0.12, 0.2, (-2.9, 1.15, 0.1), PAL["maceta"]); sph(0.2, (-2.9, 1.15, 0.38), PAL["planta"], scale=(1, 1, 1.3), seg=10)
+    planta((-2.9, 1.15, 0), 1.2)
     box((0.6, 0.35, 0.3), (0.8, 0.9, 0.15), (0.25, 0.45, 0.8)); box((0.3, 0.05, 0.05), (0.8, 0.9, 0.34), DARK)
     # carcasa de la cinta, abierta por delante (cantos en crema)
     S["casco"] = empty((0, 0, 0))

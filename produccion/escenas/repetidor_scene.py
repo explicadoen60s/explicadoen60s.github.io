@@ -9,6 +9,7 @@
 import bpy, math, sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from lib3d import *
+from modelos import *
 from maqueta import *
 from marcas import cargar
 from mathutils import Vector
@@ -51,7 +52,7 @@ def build():
     S = {"cam": cam}
     nubes(10, (0, 12, 3.0), 10, 2.0, 1.0, s=1.6, seed=5)
     isla(4.6, 10.6, (0, 0, 0), capas=[(PAL["cesped"], 0.15), (PAL["tierra"], 0.45), (PAL["tierra2"], 0.5)])
-    for k in range(6): cyl(0.22, 0.6, (1.95, -4.6 + 1.8 * k, 0.3), PAL["planta"], v=8)   # setos
+    for k in range(6): arbusto((1.95, -4.6 + 1.8 * k, 0.12), 1.6, seed=k)   # setos
     # casa en corte: suelo, muros (sin el frente) y tabiques con hueco de puerta
     box((3.3, 9.2, 0.06), (0, 0, 0.03), WOOD)
     pared((0.12, 9.2, HWALL), (-1.6, 0, HWALL / 2)); pared((3.3, 0.12, HWALL), (0, 4.6, HWALL / 2))
@@ -60,10 +61,10 @@ def build():
         pared((2.3, 0.12, HWALL), (-0.45, y, HWALL / 2)); pared((0.25, 0.12, HWALL), (1.48, y, HWALL / 2))
         box((0.9, 0.13, 0.15), (0.92, y, HWALL - 0.075), WALL)
     # salón: mesita con el router, sofá y tele
-    box((0.6, 0.4, 0.5), (-0.8, -3.4, 0.25), PAL["madera"])
-    box((1.4, 0.55, 0.35), (0.6, -2.4, 0.2), PAL["rosa"]); box((1.4, 0.15, 0.4), (0.6, -2.12, 0.5), PAL["rosa"])
-    box((0.9, 0.06, 0.5), (0.55, -4.45, 0.65), DARK); box((1.0, 0.3, 0.3), (0.55, -4.35, 0.15), PAL["madera"])
-    cyl(0.12, 0.3, (-1.3, -2.0, 0.15), PAL["maceta"]); sph(0.2, (-1.3, -2.0, 0.45), PAL["planta"], seg=10)
+    mesita((-0.8, -3.4, 0.06), 1.0, ancho=0.6, alto=0.44)
+    sofa((0.6, -2.35, 0.06), 1.0, ancho=1.4)
+    tele((0.55, -4.35, 0.06), 1.0, rot=math.pi)
+    planta((-1.3, -2.0, 0.06), 1.5)
     # router
     S["router"] = empty(ROUTER)
     rounded_slab(0.42, 0.26, 0.05, 0.07, (0, 0, 0), WHITE, parent=S["router"])
@@ -91,8 +92,8 @@ def build():
     S["cable"] = tubo(CAB, 0.02, CABLE)
     S["pcable"] = [sph(0.03, LEJOS, YEL, seg=10) for _ in range(8)]
     # habitación del fondo: cama, mesilla y el móvil con sus barras
-    box((1.3, 1.9, 0.35), (0.6, 3.5, 0.18), WHITE); box((1.3, 1.2, 0.08), (0.6, 3.25, 0.39), PAL["turquesa"])
-    box((0.5, 0.3, 0.1), (0.6, 4.25, 0.42), WHITE); box((0.4, 0.4, 0.45), (-1.1, 4.2, 0.22), PAL["madera"])
+    cama((0.6, 3.5, 0.06), 1.0)
+    mesita((-1.1, 4.2, 0.06), 1.0, ancho=0.4, alto=0.4)
     S["phone"] = empty(PHONE)
     rounded_slab(0.13, 0.26, 0.02, 0.018, (0, 0, 0), DARK, parent=S["phone"]).rotation_euler = (math.pi / 2, 0, 0)
     box((0.11, 0.003, 0.22), (0, -0.02, 0.13), (0.35, 0.6, 0.95), parent=S["phone"])

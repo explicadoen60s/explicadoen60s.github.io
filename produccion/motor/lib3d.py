@@ -64,7 +64,7 @@ def text3d(s, loc, size, color, parent=None, extrude=0.02, rot=(0, 0, 0), align=
     return setup(o, color, parent, unique=unique)
 
 def bar_obj(color, r=0.006, parent=None, unique=False):
-    bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=1, location=(0, 0, 0), vertices=12); o = bpy.context.object
+    bpy.ops.mesh.primitive_cylinder_add(radius=1, depth=1, location=(0, 0, 0), vertices=20 if DIA else 12); o = bpy.context.object
     for vv in o.data.vertices: vv.co.z += 0.5
     setup(o, color, parent, True, unique); o["r"] = r; return o
 
@@ -138,6 +138,7 @@ def join_static(dyn_objs):
             dyn.add(o); [add(c) for c in o.children]
         elif isinstance(o, (list, tuple)): [add(x) for x in o]
     for o in dyn_objs: add(o)
+    if DIA: redondear(dyn)
     stat = [o for o in bpy.context.scene.objects if o.type == 'MESH' and o not in dyn and o.parent is None]
     if len(stat) < 2: return
     bpy.ops.object.select_all(action='DESELECT')
@@ -169,8 +170,43 @@ PAL = {
     "amarillo": (1.0, 0.80, 0.18), "rosa": (0.97, 0.55, 0.66), "planta": (0.36, 0.70, 0.30), "maceta": (0.24, 0.46, 0.80),
 }
 
+DIA = False   # estilo maqueta de día activo: join_static redondea las aristas de las cajas y cilindros estáticos
+
+def redondear(dyn=()):
+    """Redondea las aristas de las cajas y cilindros quietos (los que se mueven o tienen modificadores no se tocan):
+    así cualquier escena hecha con box()/cyl() gana el aspecto suave de maqueta sin reescribirla."""
+    for o in list(bpy.context.scene.objects):
+        if o.type != 'MESH' or o in dyn or o.modifiers or o.children or o.data.users > 1: continue
+        me = o.data; nv = len(me.vertices)
+        zs = sorted({round(v.co.z, 5) for v in me.vertices})
+        cubo = nv == 8; cil = nv >= 16 and nv % 2 == 0 and len(zs) == 2 and len(me.polygons) == nv // 2 + 2
+        if not (cubo or cil): continue
+        sx, sy, sz = o.scale
+        if min(sx, sy, sz) < 1e-6: continue
+        bm = bmesh.new(); bm.from_mesh(me)
+        for v in bm.verts: v.co.x *= sx; v.co.y *= sy; v.co.z *= sz
+        dims = [max(v.co[i] for v in bm.verts) - min(v.co[i] for v in bm.verts) for i in range(3)]
+        try:
+            if cubo:
+                r = min(dims) * 0.12
+                if r > 0.002: bmesh.ops.bevel(bm, geom=list(bm.edges) + list(bm.verts), offset=r, segments=3 if min(dims) > 0.05 else 1, profile=0.5, affect='EDGES')
+            else:
+                z0, z1 = min(v.co.z for v in bm.verts), max(v.co.z for v in bm.verts)
+                rad = max(dims[0], dims[1]) / 2; r = min(rad, z1 - z0) * 0.14
+                bordes = [e for e in bm.edges if all(abs(v.co.z - e.verts[0].co.z) < 1e-6 for v in e.verts) and
+                          abs(abs(e.verts[0].co.z - (z0 + z1) / 2) - (z1 - z0) / 2) < 1e-6 and e.verts[0].co.xy.length > rad * 0.9 and len(e.link_faces) == 2
+                          and any(len(f.verts) > 4 for f in e.link_faces)]
+                if r > 1e-4 and bordes: bmesh.ops.bevel(bm, geom=bordes, offset=r, segments=3, profile=0.5, affect='EDGES')
+        except Exception:
+            bm.free(); continue
+        bm.to_mesh(me); bm.free(); o.scale = (1, 1, 1)
+        me.shade_smooth()
+        try: me.set_sharp_from_angle(angle=math.radians(35))
+        except Exception: pass
+
 def entorno_claro(sc, cielo=None):
     """Fondo celeste (sustituye al fondo oscuro). Llamar después de scene_setup."""
+    global DIA; DIA = True
     sc.world.color = lin(cielo or PAL["cielo"])
     sh = sc.display.shading; sh.shadow_intensity = 0.22; sh.cavity_ridge_factor = 0.45; sh.cavity_valley_factor = 0.6
 
