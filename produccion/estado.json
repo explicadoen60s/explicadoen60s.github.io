@@ -3042,7 +3042,7 @@
     "https://www.jjlmoya.es/utilidades/simulador-de-alcance-wifi/",
     "https://www.xatakahome.com/la-red-local/a-partir-que-distancia-al-router-wifi-2-4ghz-5ghz-comienza-a-dar-problemas"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3116,7 +3116,10 @@
       "tecnologia"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-12T11:32:33.837Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "bombacalor",
