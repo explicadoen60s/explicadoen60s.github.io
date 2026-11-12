@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 13:00 | tiktok | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://youtube.com/shorts/dBlecn8ge7c) |
 | lun 09/11 | 18:00 | instagram | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://www.instagram.com/reel/Dfh4U73FfqV/) |
@@ -31,7 +30,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://www.instagram.com/reel/DfowLLaCRxJ/) |
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://youtube.com/shorts/VAGc0pL2gUQ) |
-| jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
+| jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
@@ -67,6 +66,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 10:00 | instagram | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
 | lun 16/11 | 10:00 | tiktok | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
 | lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
+| lun 16/11 | 13:00 | tiktok | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
+| lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
@@ -131,3 +132,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 01/12 | 18:00 | instagram | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | ⏳ pendiente |
 | mié 02/12 | 10:00 | instagram | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
 | mié 02/12 | 12:00 | youtube | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
+| mié 02/12 | 16:00 | youtube | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
+| mié 02/12 | 18:00 | instagram | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
+| jue 03/12 | 10:00 | instagram | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
+| jue 03/12 | 12:00 | youtube | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
