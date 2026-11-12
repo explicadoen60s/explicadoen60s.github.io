@@ -2426,10 +2426,48 @@
     "El césped de muchos estadios… no es del todo natural."
    ],
    "guion": "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo. ¿Y si tuvieras que construir tú ese campo? Vamos a cavar. Si plantas hierba sobre la tierra, la lluvia se queda arriba. A los diez minutos, el campo es un barrizal. Así que bajas el suelo casi dos metros. Y lo rellenas por capas: piedras gordas abajo, grava y arena arriba. Bajo todo, una red de tubos con agujeros que se lleva el agua. Pero en invierno, la hierba deja de crecer con el frío. Así que metes más tubos bajo las raíces, con agua caliente. Como una calefacción, pero para el césped. Pero los tacos de los jugadores arrancan la hierba a trozos. Y aquí viene lo curioso… El césped de muchos estadios no es del todo natural. Una máquina clava hilos de plástico en el suelo, uno a uno. Cada hilo baja veinte centímetros. Las raíces de la hierba se enredan en esos hilos, y ya no se arrancan. Solo un cinco por ciento es plástico. El resto, hierba de verdad. Pero dentro del estadio, las gradas tapan el sol. Así que, por la noche, acercan unas rampas de luz enormes. La hierba cree que es de día… y sigue creciendo. Sígueme para más.",
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:19.217Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "revisiones": [
+    {
+     "rol": "motion",
+     "veredicto": "cambios",
+     "nota": "El rótulo RAÍCES salía en «bajo las raíces» (26,5 s) y se quedaba 9 s, pisando TUBOS DE AGUA CALIENTE y el plano de la bota.",
+     "propuesta": "Sincronizar RAÍCES con «Las raíces de la hierba se enredan» (44,3 s), uno solo cada vez.",
+     "aplicada": true,
+     "respuesta": "Hecho; 8 contadores (10 min, 1,8 m, % del agua, termómetro, trozos, 20 cm, 5 % → 95 %, % luz) y 39 palabras clave.",
+     "fase": "escena"
+    },
+    {
+     "rol": "fotografia",
+     "veredicto": "cambios",
+     "nota": "Las gradas escondidas asomaban por debajo de la isla mientras se cava (13-16 s).",
+     "propuesta": "Sacar las gradas de la escena cuando no se ven y subirlas desde abajo en «Pero dentro del estadio».",
+     "aplicada": true,
+     "respuesta": "Hecho. Arranque con el balón botando a 2,8 m, 34 claves (una cada 1,85 s), lente hasta 45 mm y la última clave igual a la primera.",
+     "fase": "escena"
+    },
+    {
+     "rol": "editor",
+     "veredicto": "ok",
+     "nota": "Cada capa entra en su palabra (piedras, grava, arena), el hoyo baja en «casi dos metros», los hilos se clavan uno a uno en «uno a uno» y la bota vuelve a pisar en «ya no se arrancan»; 63 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "",
+     "fase": "escena"
+    },
+    {
+     "rol": "sonido",
+     "veredicto": "ok",
+     "nota": "52 efectos (41/min) de 10 tipos; los tics de cifra van 0,3 s antes de «diez», «casi» y «veinte».",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "",
+     "fase": "escena"
+    }
+   ]
   },
   {
    "id": "turia",
