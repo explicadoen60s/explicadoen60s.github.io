@@ -3214,7 +3214,7 @@
     "https://www.jjlmoya.es/utilidades/simulador-de-alcance-wifi/",
     "https://www.xatakahome.com/la-red-local/a-partir-que-distancia-al-router-wifi-2-4ghz-5ghz-comienza-a-dar-problemas"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3252,6 +3252,51 @@
      "propuesta": "Cambia «una acaba en cinco ge» por «una acaba en cinco gigahercios». Parte la frase larga: «La de dos coma cuatro gigahercios vibra… dos mil cuatrocientos millones de veces por segundo.» pasa a «La de dos coma cuatro vibra dos mil cuatrocientos millones de veces cada segundo.» (11 palabras). Borra «¿Y tú cuál usas?» del cierre, ya que «Entonces, ¿cuál usas?» lo cubre, y deja «¿Te has acercado? Y si quieres…».",
      "aplicada": true,
      "respuesta": "Aplicados los tres cambios."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "En 3,7-7 s la cámara quedaba detrás de la fachada y en el plano general el piso salía cortado por la derecha.",
+     "propuesta": "Dejar en murete el frente y poner los planos generales en diagonal desde la esquina, con lente de 28 mm.",
+     "aplicada": true,
+     "respuesta": "Hecho: el piso se ve entero y la cámara no atraviesa nada."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Con la luz a -35° las paredes de cara a la cámara salían granate oscuro.",
+     "propuesta": "Girar la luz de estudio a 145° y aclarar el ladrillo.",
+     "aplicada": true,
+     "respuesta": "Hecho: paredes claras y el ladrillo se lee bien."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los discos de alcance oscurecían el barrio y el anillo de 45 m salía tarde.",
+     "propuesta": "Quitar los discos, engrosar los anillos y hacer crecer el de 45 m con la voz.",
+     "aplicada": true,
+     "respuesta": "Hecho: anillos amarillo (45 m) y azul (15 m) sobre el césped."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "En «con dos paredes» no se veía el móvil cambiar de habitación.",
+     "propuesta": "Acercar el plano y poner encima del móvil una luz que pasa de azul a amarillo.",
+     "aplicada": true,
+     "respuesta": "Hecho."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Las ondas iban a la altura de la cámara en los primeros planos del router y lo tapaban.",
+     "propuesta": "Bajar los frentes de onda a 0,74 m y 0,90 m.",
+     "aplicada": true,
+     "respuesta": "Hecho: el router se ve limpio con los anillos saliendo de él."
     }
    ],
    "seo": {
