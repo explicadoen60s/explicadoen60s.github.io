@@ -2148,10 +2148,48 @@
     "¿Por qué los tickets se quedan en blanco con el tiempo?"
    ],
    "guion": "El ticket del súper que tienes en la cartera… no lleva ni una gota de tinta. Entonces, ¿cómo se escribe? Vamos a abrir la impresora. El papel tiene una capa especial por encima. Dentro hay dos polvos mezclados, pero quietos. Uno es un tinte sin color. El otro, un ácido que lo despierta. Mientras estén separados, el papel sigue blanco. Ahora, el cabezal. Es una fila de puntos diminutos que se calientan. Hay ocho puntos en cada milímetro. Más de quinientos en todo el ancho del ticket. Cuando un punto pasa de unos cien grados, la capa se derrite justo ahí. El tinte y el ácido se tocan… y el punto se vuelve negro. Y aquí viene lo curioso… El cabezal no se mueve. Es el papel el que avanza, línea a línea, más de mil líneas por segundo. Por eso los tickets salen tan rápido y la impresora casi no hace ruido. Pero esa reacción tiene marcha atrás. El sol, el calor del coche o la crema de manos la deshacen. El tinte vuelve a su forma sin color… y la letra desaparece. Por eso tu ticket de hace un año ya está casi en blanco. Y si lo rascas fuerte con la uña, se pone negro: lo calientas tú. Sígueme para más.",
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:24.032Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "revisiones": [
+    {
+     "rol": "fotografia",
+     "veredicto": "cambios",
+     "nota": "El corte gigante del papel salía lejos (sobraba cielo y las partículas eran diminutas) y los viajes de cámara entre la caja y el corte cruzaban la estantería; el punto negro se perdía porque la cámara se iba antes de «negro».",
+     "propuesta": "Capa térmica más gruesa con bolas grandes, cámaras a 1-1,5 m del corte, cortes secos entre islas y sostener el plano hasta que el punto se pone negro.",
+     "aplicada": true,
+     "respuesta": "Hecho: 26 claves (una cada 2,4 s), lente hasta 44 mm, cortes secos en los 8 cambios de isla y el plano del punto se queda hasta «negro».",
+     "fase": "escena"
+    },
+    {
+     "rol": "motion",
+     "veredicto": "ok",
+     "nota": "7 contadores en pastillas junto a su pieza (5→0 ml de tinta, 8 puntos/mm con cota de 1 mm, 576 puntos, 20→100 °C, 1.000 líneas/s, 20→60 °C en el coche, 0→12 meses) y 4 rótulos (capa térmica, tinte, ácido, cabezal).",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "33 palabras clave; las letras del ticket se van aclarando de verdad mientras el tinte vuelve a ser incoloro.",
+     "fase": "escena"
+    },
+    {
+     "rol": "editor",
+     "veredicto": "ok",
+     "nota": "Cada acción cae en su frase: el cabezal baja en «el cabezal», el punto se calienta en «cien grados», las bolas se juntan en «se tocan» y se ponen negras en «negro»; la uña raya en «se pone negro». La última clave repite la primera para el bucle.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "La auditoría cuenta 12 animaciones porque el ticket, el borrado y el derretido van en funciones aparte de pose(): no se cambia.",
+     "fase": "escena"
+    },
+    {
+     "rol": "sonido",
+     "veredicto": "ok",
+     "nota": "36 efectos (34/min) de 10 tipos; zumbido de impresora mientras sale el papel y tics 0,3 s antes de «ocho» y «mil».",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "",
+     "fase": "escena"
+    }
+   ]
   },
   {
    "id": "paracaidas",
