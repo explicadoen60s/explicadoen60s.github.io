@@ -38,7 +38,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://youtube.com/shorts/2syr9NBeMco) |
 | jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://www.instagram.com/reel/DfqBWpoFMi8/) |
-| jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
+| jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ❌ error |
 | jue 12/11 | 22:30 | youtube | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://youtube.com/shorts/b84J1UrDbbQ) |
 | vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
 | vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | ⏳ pendiente |
@@ -74,6 +74,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
+| lun 16/11 | 18:00 | tiktok | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | ⏳ pendiente |
 | lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
@@ -143,6 +144,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 02/12 | 18:00 | instagram | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
 | jue 03/12 | 10:00 | instagram | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | jue 03/12 | 12:00 | youtube | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
+| jue 03/12 | 16:00 | youtube | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | ⏳ pendiente |
+| jue 03/12 | 18:00 | instagram | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | ⏳ pendiente |
 | vie 04/12 | 10:00 | instagram | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
 | vie 04/12 | 12:00 | youtube | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
 | sáb 05/12 | 16:00 | youtube | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |

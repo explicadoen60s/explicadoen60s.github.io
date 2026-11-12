@@ -2482,10 +2482,10 @@
     "obraspublicas",
     "comofunciona"
    ],
-   "estado": "pendiente",
-   "intentos": 2,
+   "estado": "error",
+   "intentos": 3,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261112221211F643159EC137D1040922\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261112225747E4AF4BA293B5E406BD89\"}}"
   },
   {
    "id": "turia-youtube",
