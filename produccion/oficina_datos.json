@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T10:29:20+00:00",
+ "actualizado": "2026-11-12T11:32:50+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1552.0,
@@ -8,7 +8,7 @@
  "maduros": 31,
  "puestos": {
   "director": {
-   "ahora": "6 guiones esperando tu visto bueno",
+   "ahora": "5 guiones esperando tu visto bueno",
    "pendiente": 4,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -31,7 +31,7 @@
    "foco": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,73× lo normal, frente a 0,97× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 1 mezclas por hacer",
+   "ahora": "1 voces generándose · 1 mezclas por hacer",
    "pendiente": 1,
    "kpi": {
     "nombre": "Duración media",
@@ -347,7 +347,7 @@
    "vistas": 258330,
    "rel": 85.6,
    "inter": 0.0331,
-   "horas": 46,
+   "horas": 47,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -361,7 +361,7 @@
    "vistas": 52844,
    "rel": 27.87,
    "inter": 0.0347,
-   "horas": 107,
+   "horas": 108,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -375,7 +375,7 @@
    "vistas": 40833,
    "rel": 16.74,
    "inter": 0.0291,
-   "horas": 86,
+   "horas": 87,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -389,7 +389,7 @@
    "vistas": 6065,
    "rel": 3.2,
    "inter": 0.0315,
-   "horas": 107,
+   "horas": 108,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -3055,20 +3055,20 @@
   },
   "referencia": {
    "voz_ritmo": {
-    "top": 3.65,
-    "resto": 3.56
+    "top": 3.61,
+    "resto": 3.57
    },
    "voz_silencio": {
-    "top": 11.35,
+    "top": 10.9,
     "resto": 10.5
    },
    "voz_pausas_min": {
-    "top": 19.0,
+    "top": 18.4,
     "resto": 17.6
    },
    "voz_pausa_max": {
     "top": 0.57,
-    "resto": 0.59
+    "resto": 0.6
    },
    "voz_arranque": {
     "top": 0.0,
@@ -3079,7 +3079,7 @@
     "resto": -15.6
    },
    "voz_expresividad": {
-    "top": 2.5,
+    "top": 2.4,
     "resto": 2.2
    },
    "voz_gancho": {
@@ -3087,15 +3087,15 @@
     "resto": 0.1
    },
    "duracion": {
-    "top": 69.05,
-    "resto": 71.2
+    "top": 68.0,
+    "resto": 71.6
    },
    "cam_claves": {
     "top": 24.5,
     "resto": 21.5
    },
    "cam_cada": {
-    "top": 2.79,
+    "top": 2.77,
     "resto": 3.16
    },
    "cam_inicio_dist": {
@@ -3103,16 +3103,16 @@
     "resto": 7.5
    },
    "cam_lente_max": {
-    "top": 38.0,
+    "top": 40.0,
     "resto": 36
    },
    "obj_piezas": {
-    "top": 30.0,
+    "top": 42.5,
     "resto": 27
    },
    "obj_animaciones": {
     "top": 23.5,
-    "resto": 14
+    "resto": 13
    },
    "obj_cortes": {
     "top": 1.0,
@@ -3127,11 +3127,11 @@
     "resto": 3
    },
    "ov_graficos_min": {
-    "top": 20.15,
+    "top": 21.95,
     "resto": 17.7
    },
    "ov_palabras_clave": {
-    "top": 28.5,
+    "top": 27.5,
     "resto": 25
    },
    "sfx_min": {
@@ -3139,7 +3139,7 @@
     "resto": 16.9
    },
    "sfx_variedad": {
-    "top": 8.0,
+    "top": 7.5,
     "resto": 7
    }
   },
@@ -4472,7 +4472,7 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.74,
+   "rel": 2.39,
    "maduro": true,
    "vistas": 26767,
    "rel_red": {
