@@ -44,6 +44,8 @@ BANDERAS = {
     "juego_en_escena": ("Juego de la cifra en pantalla", "motion"),
     "comentario_en_escena": ("Comentario de un seguidor en pantalla", "social"),
     "sub_frase": ("Subtítulos en frase", "editor"),
+    "sub_centro": ("Subtítulo de una palabra en el centro (maqueta de día)", "editor"),
+    "estilo_dia": ("Estilo maqueta de día (fondo claro, isla, azulejos)", "fotografia"),
 }
 
 
@@ -145,16 +147,18 @@ def medir_escena(src, dur):
         "obj_piezas": len(re.findall(r"\b(box|cyl|sph|torus|rounded_slab|text3d|bar_obj|bx)\(", build or src)),
         "obj_animaciones": len(re.findall(r"\b(keyed|seg|mix)\(", pose or src)),
         "obj_cortes": len(re.findall(r"BOOLEAN", src)),
+        "estilo_dia": "entorno_claro(" in src,
+        "obj_flechas": len(re.findall(r"\bflecha3d\(", src)),
     }
 
 
 def medir_ov(src, dur):
     ov = bloque(src, "overlay")
     sfx = bloque(src, "sfx_events")
-    etiquetas = len(re.findall(r"\blabel\(", ov))
+    etiquetas = len(re.findall(r"\b(?:label|rotulo)\(", ov))
     badges = len(re.findall(r"\bbadge\(", ov))
     # contador = una cifra que cambia en pantalla: badge/label con texto calculado (f"…{v}…" o "…%d…")
-    contadores = len(re.findall(r"\b(?:badge|label)\(\s*(?:C\s*,\s*)?ctx\s*,\s*(?:t\s*,[^,]*,[^,]*,\s*)?(?:f[\"'][^\"']*\{|[\"'][^\"']*%[\d.]*[dfs]|miles\(|str\(|fmt)", ov)) + len(re.findall(r"cifra_juego\(", ov))
+    contadores = len(re.findall(r"\bpastilla\(", ov)) + len(re.findall(r"\b(?:badge|label)\(\s*(?:C\s*,\s*)?ctx\s*,\s*(?:t\s*,[^,]*,[^,]*,\s*)?(?:f[\"'][^\"']*\{|[\"'][^\"']*%[\d.]*[dfs]|miles\(|str\(|fmt)", ov)) + len(re.findall(r"cifra_juego\(", ov))
     kw = re.search(r"KEYWORDS\s*=\s*\{(.*?)\}", src, re.S)
     tipos = re.findall(r"C\.s_([a-z_]+)\(", sfx)
     return {
@@ -167,6 +171,7 @@ def medir_ov(src, dur):
         "juego_en_escena": "cifra_juego(" in src,
         "comentario_en_escena": "C.comentario(" in src,
         "sub_frase": bool(re.search(r'SUB_ESTILO\s*=\s*"frase"', src)),
+        "sub_centro": bool(re.search(r'SUB_ESTILO\s*=\s*"centro"', src)),
     }
 
 

@@ -161,8 +161,8 @@ def _tarjeta_cifra(ctx, cx, cy, sc, cab, num, unidad, num_col, pie=None, alpha=1
         ctx.set_source_rgba(*col[:3], col[3] * alpha); ctx.fill()
     ctx.restore()
 
-def cifra_juego(ctx, t, valor, unidad, t_preg, t_rev, t_fin, dec=0, cab="¿CUÁNTO CREES?", grande=(W / 2, H * 0.62),
-                mini=(W * 0.2, H * 0.70), t_mini=None, dur_rev=1.1):
+def cifra_juego(ctx, t, valor, unidad, t_preg, t_rev, t_fin, dec=0, cab="¿CUÁNTO CREES?", grande=(W / 2, H * 0.33),
+                mini=(W * 0.21, H * 0.205), t_mini=None, dur_rev=1.1):
     """t_preg: cuando la voz hace la pregunta; t_rev: cuando dice la cifra; t_fin: cuando desaparece.
     t_mini (por defecto t_preg+2,6 s): cuando la tarjeta se encoge a la esquina para dejar ver la escena."""
     if t < t_preg or t > t_fin: return
@@ -221,6 +221,64 @@ def comentario(ctx, t, autor, texto, a, b, cx=W / 2, cy=H * 0.33):
 def win_simple(t, a, b, fi=0.2, fo=0.25):
     if t < a or t > b: return 0.0
     return min(1.0, (t - a) / fi, (b - t) / fo)
+
+# ---------------- estilo «maqueta de día» (referencia @conrazon_es) ----------------
+AMARILLO_ROT = (1.0, 0.80, 0.12)
+
+def rotulo(ctx, t, texto, a, b, cx=W / 2, cy=H * 0.60, size=92, rot=-0.07):
+    """Nombre de la pieza en grande: amarillo, cursiva, mayúsculas, con contorno. Sale cuando la voz lo dice."""
+    if t < a or t > b: return
+    p = back(min(1, (t - a) / 0.3)); al = min(1.0, (b - t) / 0.2)
+    lineas = _partir(texto.upper(), 2)
+    for i, l in enumerate(lineas):
+        outlined(ctx, l, cx, cy + (i - (len(lineas) - 1) / 2) * size * 0.92, size, fill=AMARILLO_ROT, stroke=14, italic=True,
+                 scale=p, rot=rot, alpha=al)
+
+def _partir(txt, maxl):
+    w = txt.split()
+    if len(w) < 2 or len(txt) < 13 or maxl < 2: return [txt]
+    mejor = min(range(1, len(w)), key=lambda i: abs(len(" ".join(w[:i])) - len(" ".join(w[i:]))))
+    return [" ".join(w[:mejor]), " ".join(w[mejor:])]
+
+def pastilla(ctx, t, valor, unidad, a, b, cx, cy, desde=None, dec=0, dur=0.7, size=70):
+    """Contador pequeño en una pastilla oscura («9 litros», «120 °C»). Con `desde`, el número cuenta hasta `valor`."""
+    if t < a or t > b: return
+    al = min(1.0, (t - a) / 0.15, (b - t) / 0.2); sc = back(min(1, (t - a) / 0.3))
+    v = valor if desde is None else desde + (valor - desde) * ease(min(1, (t - a) / dur))
+    num = miles(v, dec)
+    ctx.save(); ctx.translate(cx, cy); ctx.scale(sc, sc)
+    e1 = text_path(ctx, num, size); e2 = text_path(ctx, unidad, size * 0.42) if unidad else None
+    w = e1.x_advance + (e2.x_advance + 14 if e2 else 0) + 56; h = size * 1.25
+    rrect(ctx, -w / 2 + 3, -h / 2 + 6, w, h, h * 0.32); ctx.set_source_rgba(0, 0, 0, 0.25 * al); ctx.fill()
+    rrect(ctx, -w / 2, -h / 2, w, h, h * 0.32); ctx.set_source_rgba(0.17, 0.18, 0.21, 0.92 * al); ctx.fill()
+    x = -w / 2 + 28; text_path(ctx, num, size); ctx.move_to(x, size * 0.36); ctx.text_path(num); ctx.set_source_rgba(1, 1, 1, al); ctx.fill()
+    if e2:
+        text_path(ctx, unidad, size * 0.42); ctx.move_to(x + e1.x_advance + 12, size * 0.36); ctx.text_path(unidad); ctx.set_source_rgba(0.82, 0.85, 0.9, al); ctx.fill()
+    ctx.restore()
+
+def chispa(ctx, t, cx, cy, a, r=60, n=7, col=(1, 1, 1)):
+    """Rayitas de «clic» o golpe (cierre que encaja, botón que se pulsa)."""
+    u = (t - a) / 0.35
+    if u < 0 or u > 1: return
+    ctx.save(); ctx.set_line_cap(cairo.LINE_CAP_ROUND)
+    for i in range(n):
+        ang = -math.pi / 2 + (i - (n - 1) / 2) * 0.32
+        r0, r1 = r * (0.6 + 0.6 * u), r * (1.0 + 0.7 * u)
+        ctx.move_to(cx + math.cos(ang) * r0, cy + math.sin(ang) * r0); ctx.line_to(cx + math.cos(ang) * r1, cy + math.sin(ang) * r1)
+        ctx.set_line_width(7); ctx.set_source_rgba(0, 0, 0, 0.35 * (1 - u)); ctx.stroke_preserve()
+        ctx.set_line_width(4); ctx.set_source_rgba(*col, 1 - u); ctx.stroke()
+    ctx.restore()
+
+def subtitulo_centro(ctx, t, ws, kws, y):
+    """Una palabra en el centro de la pantalla, encima del mecanismo: blanca, o amarilla si es palabra clave."""
+    for i, (ta, tb, w) in enumerate(ws):
+        nxt = ws[i + 1][0] if i + 1 < len(ws) else tb + 0.5
+        end = nxt if nxt - tb < 0.35 else tb + 0.25
+        if ta - 0.03 <= t < end:
+            s = clean(w); kw = s.lower() in kws
+            outlined(ctx, s[:1].upper() + s[1:], W / 2, y, 66, fill=(AMARILLO_ROT if kw else (1, 1, 1)), stroke=10,
+                     scale=0.85 + 0.15 * min(1, (t - ta + 0.03) / 0.08))
+            return
 
 # ---------------- subtítulo en frases (estilo «karaoke») ----------------
 # La frase se escribe palabra a palabra arriba; la palabra que suena va en blanco y las anteriores en gris.
@@ -305,6 +363,9 @@ def main(name, t0=None, t1=None):
         a = anc.get(f, last_anchor); last_anchor = a
         A = (lambda k: (a[k][0] * W, a[k][1] * H)) if a else (lambda k: (W / 2, H / 2))
         spec.overlay(ctx, t, A, sys.modules[__name__])
+        if estilo == "centro":
+            subtitulo_centro(ctx, t, ws, kws, H * getattr(spec, "SUB_Y", 0.50))
+            surf.flush(); enc.stdin.write(bytes(buf)); continue
         if estilo == "frase":
             subtitulo_frase(ctx, t, FR, kws, H * getattr(spec, "SUB_Y_FRASE", 0.12))
             surf.flush(); enc.stdin.write(bytes(buf)); continue

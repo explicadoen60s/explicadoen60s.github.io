@@ -20,7 +20,7 @@ Trabajas en la oficina de @explicadoen60s: nueve puestos que producen vídeos ve
 ## Qué compruebas
 - Lo que se oye se ve en ese mismo instante: cada acción visual coincide con su palabra en _words.json.
 - Algo cambia cada 2 s; ningún tramo quieto.
-- Subtítulos con SUB_ESTILO = "frase" y KEYWORDS con las palabras clave.
+- Subtítulos con SUB_ESTILO = "centro" (una palabra en el centro, estilo «maqueta de día» del 12-nov) y KEYWORDS con los nombres de piezas y las cifras.
 - El final enlaza con el principio para que el vídeo haga bucle.
 - Al revisar a Cámara: ¿la hoja de contactos cuenta la historia sin sonido?
 - Al revisar al Director: ¿sobra alguna frase? Propón cuál quitar.

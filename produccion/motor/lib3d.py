@@ -156,3 +156,65 @@ def run(name, build, pose, anchors):
         sc.render.filepath = p; bpy.ops.render.render(write_still=True)
     json.dump(anc, open(os.path.join(HERE, "frames", f"anchors_{name}_{f0}_{f1}_{step}.json"), "w"))
     print("DONE", f0, f1)
+
+# ---------- estilo «maqueta de día» (referencia @conrazon_es, 12-nov-2026) ----------
+# Mundo claro y alegre: cielo celeste con nubes low-poly, el objeto en su sitio real (baño, cocina, calle)
+# sobre una «isla» de terreno cortada que enseña las capas de tierra. Colores planos, saturados y suaves.
+PAL = {
+    "cielo": (0.70, 0.85, 0.96), "nube": (1.0, 1.0, 1.0),
+    "menta": (0.58, 0.84, 0.74), "turquesa": (0.42, 0.78, 0.80), "junta": (0.97, 0.98, 0.98),
+    "cesped": (0.47, 0.80, 0.36), "cesped2": (0.40, 0.72, 0.31), "tierra": (0.55, 0.36, 0.22), "tierra2": (0.42, 0.27, 0.17),
+    "hormigon": (0.78, 0.78, 0.76), "asfalto": (0.30, 0.31, 0.34), "encimera": (0.98, 0.74, 0.47), "madera": (0.86, 0.62, 0.36),
+    "pared": (0.97, 0.94, 0.86), "corte": (0.99, 0.96, 0.88), "agua": (0.40, 0.68, 0.95), "rojo": (0.92, 0.24, 0.20),
+    "amarillo": (1.0, 0.80, 0.18), "rosa": (0.97, 0.55, 0.66), "planta": (0.36, 0.70, 0.30), "maceta": (0.24, 0.46, 0.80),
+}
+
+def entorno_claro(sc, cielo=None):
+    """Fondo celeste (sustituye al fondo oscuro). Llamar después de scene_setup."""
+    sc.world.color = lin(cielo or PAL["cielo"])
+    sh = sc.display.shading; sh.shadow_intensity = 0.22; sh.cavity_ridge_factor = 0.45; sh.cavity_valley_factor = 0.6
+
+def nube(loc, s=1.0, parent=None, seed=0):
+    """Nube low-poly: varias esferas facetadas blancas."""
+    import random; r = random.Random(seed); out = []
+    for i in range(5):
+        dx = (i - 2) * 0.55 * s + r.uniform(-0.1, 0.1) * s; rad = s * (0.55 + 0.35 * (1 - abs(i - 2) / 2) + r.uniform(-0.08, 0.08))
+        bpy.ops.mesh.primitive_ico_sphere_add(subdivisions=1, radius=rad, location=(loc[0] + dx, loc[1] + r.uniform(-0.2, 0.2) * s, loc[2] + r.uniform(-0.1, 0.25) * s))
+        o = bpy.context.object; setup(o, PAL["nube"], parent); o.scale.z = 0.75; out.append(o)
+    return out
+
+def nubes(n, centro, ancho, alto, prof=0.0, s=1.0, seed=1):
+    import random; r = random.Random(seed)
+    return [nube((centro[0] + r.uniform(-ancho, ancho), centro[1] + r.uniform(-prof, prof), centro[2] + r.uniform(-alto, alto)), s * r.uniform(0.7, 1.3), seed=seed + i) for i in range(n)]
+
+def isla(w, d, loc, capas=None, top="cesped", parent=None):
+    """Bloque de terreno cortado tipo maqueta: superficie arriba y capas de tierra debajo.
+    capas: [(color, grosor), …] de arriba abajo. Devuelve la cota de la superficie."""
+    capas = capas or [(PAL[top], 0.12), (PAL["tierra"], 0.35), (PAL["tierra2"], 0.45)]
+    z = loc[2]
+    for col, g in capas:
+        box((w, d, g), (loc[0], loc[1], z - g / 2), col, parent); z -= g
+    return loc[2]
+
+def azulejos(w, h, loc, rot=(0, 0, 0), color=None, paso=0.22, junta=0.012, parent=None):
+    """Pared de azulejos: placa de color con juntas blancas en cuadrícula (pared en el plano XZ antes de rotar)."""
+    e = empty(loc, parent); e.rotation_euler = rot
+    box((w, 0.04, h), (0, 0, 0), color or PAL["menta"], e)
+    nx, nz = int(w / paso), int(h / paso)
+    for i in range(1, nx + 1):
+        x = -w / 2 + i * paso
+        if x < w / 2: box((junta, 0.05, h), (x, -0.005, 0), PAL["junta"], e)
+    for j in range(1, nz + 1):
+        z = -h / 2 + j * paso
+        if z < h / 2: box((w, 0.05, junta), (0, -0.005, z), PAL["junta"], e)
+    return e
+
+def flecha3d(base, direccion, largo=1.0, grosor=0.08, color=None, parent=None):
+    """Flecha gruesa (fuerza, presión, corriente). Devuelve un empty padre: muévelo, escálalo o gíralo para animarla."""
+    d = Vector(direccion).normalized(); e = empty(base, parent)
+    e.rotation_mode = 'QUATERNION'; e.rotation_quaternion = Vector((0, 0, 1)).rotation_difference(d)
+    col = color or PAL["rojo"]; cuerpo = largo * 0.62
+    cyl(grosor, cuerpo, (0, 0, cuerpo / 2), col, e, v=16)
+    bpy.ops.mesh.primitive_cone_add(vertices=16, radius1=grosor * 2.3, depth=largo * 0.38, location=(0, 0, cuerpo + largo * 0.19))
+    setup(bpy.context.object, col, e)
+    return e
