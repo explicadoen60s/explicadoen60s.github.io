@@ -34,9 +34,9 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://www.instagram.com/reel/DfppUHrAQYy/) |
 | jue 12/11 | 19:00 | tiktok | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 19:00 | youtube | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://youtube.com/shorts/BghX9g3T_vw) |
-| jue 12/11 | 20:30 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
-| jue 12/11 | 20:30 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
-| jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | ⏳ pendiente |
+| jue 12/11 | 20:30 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://www.instagram.com/reel/DfpznasgiGj/) |
+| jue 12/11 | 20:30 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | 📲 en tu bandeja de TikTok |
+| jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://youtube.com/shorts/2syr9NBeMco) |
 | jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | ⏳ pendiente |
 | jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
 | jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ⏳ pendiente |
