@@ -438,6 +438,23 @@
    "estado": "aplicada",
    "fecha": "2026-11-12T09:11:32+00:00",
    "video": "paracaidas"
+  },
+  {
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "texto": "Cinta métrica: cámara más alta y más cerca para que se lean la cinta y las marcas; la pata de la mesa ya no tapa los planos del gancho.",
+   "estado": "aplicada",
+   "fecha": "2026-11-12T09:11:34+00:00",
+   "video": "cintametrica"
+  },
+  {
+   "rol": "motion",
+   "tipo": "mejora",
+   "texto": "Cinta métrica: 9 contadores (metros, vueltas, metros en el aire, 1 mm y lecturas de 999, 1.001 y 1.000 mm) sobre la pieza a la que se refieren.",
+   "estado": "aplicada",
+   "fecha": "2026-11-12T09:11:34+00:00",
+   "video": "cintametrica"
   }
  ],
  "manual": [

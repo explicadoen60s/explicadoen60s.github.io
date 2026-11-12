@@ -2287,10 +2287,48 @@
     "Tu cinta métrica tiene una pieza suelta… y es a propósito."
    ],
    "guion": "Tira de tu cinta métrica y mira la punta. Esa pieza de metal está suelta… y no es un defecto. Vamos a inventar la cinta métrica. Necesitas medir varios metros y guardarlo en el bolsillo. Así que haces una cinta fina de acero y la enrollas. Pero luego, ¿quién la recoge? Así que pones dentro un muelle en espiral. Al sacar la cinta, el muelle se enrolla más y más. Al soltarla… ¡zas! Vuelve sola. Pero una cinta plana se dobla en cuanto la sacas un palmo. Así que la curvas, como una teja. Esa curva la pone rígida, y aguanta en el aire más de un metro. Ahora necesitas que se enganche al borde de la mesa. Así que pones un gancho de metal en la punta. Pero el gancho tiene grosor: más o menos un milímetro. Y aquí viene lo curioso… Si mides por fuera, el gancho te robaría ese milímetro. Si empujas contra la pared, te lo sumaría. Así que lo dejas suelto. Al tirar, sale un milímetro. Al empujar, entra un milímetro. Justo su grosor. La medida sale exacta las dos veces. Por eso al principio de la cinta faltan las primeras marcas: ocupa ese hueco el gancho. Y un botón la frena para que no se recoja sola. Sígueme para más.",
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:10.291Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "revisiones": [
+    {
+     "rol": "fotografia",
+     "veredicto": "cambios",
+     "nota": "En la primera vista previa la cámara iba casi a ras de la cinta: la cinta se veía como una raya fina y, en los planos del gancho, la pata de la mesa tapaba media pantalla.",
+     "propuesta": "Subir la cámara para mirar la cinta desde arriba (unos 30°), acercar los planos de la punta a 1-1,5 m y despejar la pata de la mesa en los planos del gancho.",
+     "aplicada": true,
+     "respuesta": "Hecho: 31 claves de cámara (una cada 2,1 s), lente de hasta 46 mm en el gancho y la última clave igual que la primera para el bucle.",
+     "fase": "escena"
+    },
+    {
+     "rol": "motion",
+     "veredicto": "cambios",
+     "nota": "La bobina salía como una bola dorada por el sombreado suave y el eje se quedaba flotando cuando la carcasa desaparecía.",
+     "propuesta": "Bobina con sombreado plano y eje que aparece y desaparece con ella; cinta más ancha para que se lean las marcas.",
+     "aplicada": true,
+     "respuesta": "Hecho. 9 contadores: 5 metros, vueltas del muelle, 1,2 m en el aire, 1 mm de grosor, lectura de 999, 1.001 y 1.000 mm, más 1 mm fuera y 1 mm dentro.",
+     "fase": "escena"
+    },
+    {
+     "rol": "editor",
+     "veredicto": "ok",
+     "nota": "Cada acción cae en su frase: el muelle se carga con «más y más», la cinta vuelve en «¡zas!», se dobla en «un palmo», se curva en «teja», el gancho sale en «sale un milímetro» y entra en «entra un milímetro». Dura 64,9 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "La auditoría solo cuenta 2 animaciones porque la mayoría están en funciones fuera de pose(): cinta, curvatura, flexión y holgura del gancho. No se cambia.",
+     "fase": "escena"
+    },
+    {
+     "rol": "sonido",
+     "veredicto": "ok",
+     "nota": "Hay 38 efectos (35 por minuto) de 10 tipos. El golpe de «¡zas!» llega 0,25 s después, con el clic de la carcasa, y no pisa ninguna cifra dicha en voz.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "",
+     "fase": "escena"
+    }
+   ]
   },
   {
    "id": "submarino",
