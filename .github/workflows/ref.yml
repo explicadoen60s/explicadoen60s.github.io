@@ -1,0 +1,36 @@
+name: Analizar referencia
+on: {push: {branches: [analisis-referencia]}}
+permissions: {contents: write}
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q -U yt-dlp && sudo apt-get -qq install -y ffmpeg >/dev/null
+      - name: Descargar últimos vídeos
+        run: |
+          mkdir -p out v
+          yt-dlp --flat-playlist -J "https://www.tiktok.com/@conrazon_es" > out/lista.json 2> out/err.txt || true
+          python3 - <<'PY'
+          import json
+          try: d=json.load(open("out/lista.json"))
+          except Exception as e: print("sin lista", e); d={"entries":[]}
+          es=d.get("entries") or []
+          print(len(es))
+          es=sorted(es,key=lambda e:-(e.get("view_count") or 0))
+          open("out/resumen.txt","w").write("\n".join(f'{e.get("view_count")}\t{e.get("like_count")}\t{e.get("comment_count")}\t{e.get("duration")}\t{e.get("url")}\t{(e.get("title") or e.get("description") or "")[:120]}' for e in es))
+          open("urls.txt","w").write("\n".join(e["url"] for e in es[:6]))
+          PY
+          head -40 out/resumen.txt; tail -5 out/err.txt
+          i=0; while read u; do i=$((i+1)); yt-dlp -q -o "v/$i.%(ext)s" "$u" || true; done < urls.txt
+          ls -la v
+      - name: Hojas de contactos
+        run: |
+          for f in v/*; do n=$(basename $f | cut -d. -f1)
+            d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f"); echo "$n $d" >> out/duraciones.txt
+            ffmpeg -loglevel error -y -i "$f" -vf "fps=1/2,scale=270:-1,tile=6x4" -frames:v 1 out/hoja_$n.jpg
+            ffmpeg -loglevel error -y -ss 0 -t 3 -i "$f" -vf "fps=4,scale=360:-1,tile=6x2" -frames:v 1 out/inicio_$n.jpg
+          done
+      - run: |
+          git config user.name explicadoen60s; git config user.email explicadoen60s.cxn@gmail.com
+          git add out && git commit -qm "Resultado análisis referencia" && git push
