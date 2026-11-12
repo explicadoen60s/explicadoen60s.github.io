@@ -3376,7 +3376,7 @@
     "https://www.xatakahome.com/hogar/quiero-aire-acondicionado-que-caliente-casa-gaste-poco-que-scop-que-conviene-mirarlo",
     "https://www.endesa.com/es/conoce-la-energia/blog/bomba-calor-aire-acondicionado"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3414,6 +3414,24 @@
      "propuesta": "Cambia «Un radiador eléctrico, solo uno.» por «Un radiador eléctrico te da solo uno.», para que no suene a fragmento suelto.",
      "aplicada": true,
      "respuesta": "Aplicado."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "La cámara se metía en la pared entre salón y balcón (1,5 s, 13 s, 45 s) y los primeros planos estaban demasiado cerca.",
+     "propuesta": "Cortar la fachada más atrás, suelos en y ≥ −1,0 y lente de 42-48 mm en los primeros planos.",
+     "aplicada": true,
+     "respuesta": "Hecho: la cámara ya no atraviesa nada."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Las flechas de aire de la máquina exterior salían enormes delante de la cámara y la pastilla de 4 kWh quedaba bajo la tarjeta del juego.",
+     "propuesta": "Flechas de 0,24 m dentro del hueco de la máquina; pastillas de kWh y radiador por debajo de y = 820 px.",
+     "aplicada": true,
+     "respuesta": "Hecho y comprobado con comp.py en el segundo 54,7."
     }
    ],
    "seo": {
