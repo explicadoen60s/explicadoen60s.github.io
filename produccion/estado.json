@@ -2364,7 +2364,7 @@
     "A trescientos metros bajo el mar, el agua aprieta treinta y una veces más."
    ],
    "guion": "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse? Vamos a inventar el submarino. Un barco flota porque pesa menos que el agua que aparta. Para hundirlo, tienes que hacerlo más pesado. Así que le pones tanques a los lados. Abres unas compuertas por abajo, el agua entra… y el aire sale por arriba. El submarino pesa más… y baja. Pero cuanto más bajas, más aprieta el agua. Cada diez metros de profundidad, la presión sube una atmósfera más. A trescientos metros, son treinta y una. Así que el casco donde viaja la gente es un tubo grueso de acero. Un tubo redondo reparte la presión por todas partes. Ahora, ¿cómo te quedas quieto a una profundidad? Así que pones tanques pequeños dentro, y mueves agua de uno a otro. Delante, detrás… hasta que el submarino ni sube ni baja. Y aletas, como un avión, para inclinarlo mientras avanza. Y aquí viene lo curioso… Para subir no hay ningún motor que tire hacia arriba. Abres botellas de aire comprimido. El aire empuja el agua de los tanques hacia fuera. El submarino pesa menos que el agua… y sube solo, como un corcho. Por eso, al subir, suena ese soplido tan fuerte. Sígueme para más.",
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:14.489Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2406,7 +2406,8 @@
      "fase": "escena"
     }
    ],
-   "duracion": 66.7
+   "duracion": 66.7,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "estadio",
