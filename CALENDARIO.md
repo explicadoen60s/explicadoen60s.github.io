@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 10:00 | instagram | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://www.instagram.com/reel/DfhCwhSDQD7/) |
-| lun 09/11 | 10:00 | tiktok | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://youtube.com/shorts/-zj5Kr0MBFk) |
 | lun 09/11 | 13:00 | tiktok | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | 📲 en tu bandeja de TikTok |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://www.instagram.com/reel/DfnDFSTgERI/) |
 | mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | 📲 en tu bandeja de TikTok |
-| jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
-| jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | ⏳ pendiente |
+| jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://www.instagram.com/reel/DfowLLaCRxJ/) |
+| jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
 | jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
 | jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |

@@ -2106,9 +2106,14 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17989469054886589",
+    "url": "https://www.instagram.com/reel/DfowLLaCRxJ/"
+   },
+   "publicado": "2026-11-12T09:39:40.543855+00:00"
   },
   {
    "id": "ollaexpres-tiktok",
@@ -2124,9 +2129,15 @@
     "vapor",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707216845673662466",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-12T09:40:25.874977+00:00"
   },
   {
    "id": "tostadora-youtube",
