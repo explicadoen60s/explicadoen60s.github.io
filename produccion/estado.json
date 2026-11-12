@@ -3051,7 +3051,7 @@
    "fuentes": [
     "https://en.wikipedia.org/wiki/Tunnel_of_Proven%C3%A7a"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -3089,6 +3089,51 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "A los 9 s y 48,5 s salían fotogramas todo de tierra: la cámara se acercaba a una cara sin túnel.",
+     "propuesta": "Pasar al túnel acabado al final de «escribe» y alejar las claves de «el ave», «hoy los» y «después llega».",
+     "aplicada": true,
+     "respuesta": "Corregido y comprobado entre los 8 y los 10 s."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "La fila de pilotes (240 m) no se veía y el edificio de 13 pisos boca abajo salía sin ventanas.",
+     "propuesta": "Subir las tapas por encima de la acera y girar el edificio sobre el eje Y.",
+     "aplicada": true,
+     "respuesta": "Ya se ven la fila de pilotes y las ventanas del edificio."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los sensores apenas se veían y el rosetón era demasiado llamativo.",
+     "propuesta": "Sensores el doble de grandes y rosetón más pequeño y claro.",
+     "aplicada": true,
+     "respuesta": "Hecho."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los planos de la pregunta casi no se movían.",
+     "propuesta": "Añadir claves en «la protege» y «dime en».",
+     "aplicada": true,
+     "respuesta": "Hecho."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "El auditor marca la energía del gancho en -0,5 dB (los que funcionan van por encima de 0,2 dB).",
+     "propuesta": "Es de la voz ya generada; en la escena se refuerza el arranque con whoosh y zumbido de tuneladora desde 0 s.",
+     "aplicada": false,
+     "respuesta": "No se puede corregir sin regenerar la voz; queda anotado en actividad para el usuario."
     }
    ],
    "seo": {
