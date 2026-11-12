@@ -699,7 +699,7 @@
    "sub_frase": true
   },
   "cintametrica": {
-   "huella": "e03f25bf526d4f22",
+   "huella": "96a183747c718edd",
    "duracion": 64.8,
    "voz_ritmo": 3.71,
    "voz_silencio": 10.3,
@@ -725,8 +725,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "cisterna": {
    "huella": "c2c983ff287f0236",
@@ -918,7 +918,7 @@
    "sub_frase": false
   },
   "estadio": {
-   "huella": "3d44c1fbf9261b2c",
+   "huella": "da5b56695c1fd904",
    "duracion": 62.9,
    "voz_ritmo": 3.69,
    "voz_silencio": 9.5,
@@ -944,8 +944,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "frenoavion": {
    "huella": "089f96480dc61f6e",
@@ -1521,7 +1521,7 @@
    "sub_frase": true
   },
   "paracaidas": {
-   "huella": "bd9849a33764c239",
+   "huella": "7f29c2821ddd9c2a",
    "duracion": 66.2,
    "voz_ritmo": 3.59,
    "voz_silencio": 9.1,
@@ -1547,8 +1547,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "paraguas": {
    "huella": "115f1628aafbf884",
@@ -1877,7 +1877,7 @@
    "sub_frase": true
   },
   "repetidor": {
-   "huella": "4212938ff9d40eb2",
+   "huella": "57aa9b4967170f9b",
    "duracion": 72.7,
    "voz_ritmo": 3.72,
    "voz_silencio": 12.0,
@@ -1903,8 +1903,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "router": {
    "huella": "f66f6619dc6ccc27",
@@ -2017,11 +2017,11 @@
    "sub_frase": false
   },
   "sifon": {
-   "huella": "efc153c01953bec6",
-   "duracion": 63.4,
-   "voz_ritmo": 3.84,
+   "huella": "627044f83d2b7b34",
+   "duracion": 63.3,
+   "voz_ritmo": 3.85,
    "voz_silencio": 8.5,
-   "voz_pausas_min": 13.2,
+   "voz_pausas_min": 13.3,
    "voz_pausa_max": 0.55,
    "voz_arranque": 0.0,
    "voz_lufs": -15.8,
@@ -2039,12 +2039,12 @@
    "ov_contadores": 7,
    "ov_graficos_min": 10.4,
    "ov_palabras_clave": 30,
-   "sfx_min": 33.1,
+   "sfx_min": 33.2,
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "spray": {
    "huella": "98025e2ad912bbb2",
@@ -2075,7 +2075,7 @@
    "sub_frase": true
   },
   "submarino": {
-   "huella": "1b1c3991b8705505",
+   "huella": "ef3b7f8c588d8c70",
    "duracion": 66.9,
    "voz_ritmo": 3.49,
    "voz_silencio": 10.0,
@@ -2102,8 +2102,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "tarjeta": {
    "huella": "b559600e51fe0c07",
@@ -2215,11 +2215,11 @@
    "sub_frase": false
   },
   "ticket": {
-   "huella": "18e850231b07232e",
-   "duracion": 63.0,
-   "voz_ritmo": 3.67,
+   "huella": "ea762daa5bc0489d",
+   "duracion": 62.9,
+   "voz_ritmo": 3.68,
    "voz_silencio": 7.5,
-   "voz_pausas_min": 13.3,
+   "voz_pausas_min": 13.4,
    "voz_pausa_max": 0.53,
    "voz_arranque": 0.0,
    "voz_lufs": -15.7,
@@ -2241,8 +2241,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "tormentas": {
    "huella": "e2bc895c9a33dbbd",
@@ -2327,7 +2327,7 @@
    "sub_frase": false
   },
   "turia": {
-   "huella": "0bb00988eef3ee2d",
+   "huella": "f218abe4f8ce665d",
    "duracion": 73.9,
    "voz_ritmo": 3.59,
    "voz_silencio": 9.5,
@@ -2353,8 +2353,8 @@
    "sfx_variedad": 10,
    "juego_en_escena": false,
    "comentario_en_escena": false,
-   "sub_frase": true,
-   "sub_centro": false
+   "sub_frase": false,
+   "sub_centro": true
   },
   "v16": {
    "huella": "192a138809ff94b4",

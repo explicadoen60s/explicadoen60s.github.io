@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T13:41:51+00:00",
+ "actualizado": "2026-11-12T14:53:35+00:00",
  "medianas": {
   "tiktok": 1009.0,
   "instagram": 1552.0,
@@ -35,7 +35,7 @@
    "pendiente": 7,
    "kpi": {
     "nombre": "Duración media",
-    "valor": 67.6,
+    "valor": 67.4,
     "fmt": "s",
     "meta": 70,
     "pie": "20/20 entre 55 y 75 s"
@@ -43,7 +43,7 @@
    "foco": "Tipos de efecto distintos: los vídeos con más de 7 rinden 1,95× lo normal, frente a 1,05× los demás."
   },
   "editor": {
-   "ahora": "6 en render · 0 esperando tu revisión",
+   "ahora": "0 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -100,8 +100,8 @@
    }
   },
   "seo": {
-   "ahora": "7 vídeos sin título por red",
-   "pendiente": 7,
+   "ahora": "1 vídeos sin título por red",
+   "pendiente": 1,
    "kpi": {
     "nombre": "YouTube frente a lo normal",
     "valor": 1.0,
@@ -347,7 +347,7 @@
    "vistas": 328271,
    "rel": 116.55,
    "inter": 0.0373,
-   "horas": 50,
+   "horas": 51,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -361,7 +361,7 @@
    "vistas": 52976,
    "rel": 28.92,
    "inter": 0.0348,
-   "horas": 110,
+   "horas": 111,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -375,7 +375,7 @@
    "vistas": 40894,
    "rel": 18.85,
    "inter": 0.0292,
-   "horas": 89,
+   "horas": 90,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -389,7 +389,7 @@
    "vistas": 6076,
    "rel": 3.32,
    "inter": 0.0314,
-   "horas": 110,
+   "horas": 111,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -420,198 +420,6 @@
   }
  ],
  "compuertas": {
-  "paracaidas": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "216 palabras (≈64 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "9 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "error",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano» con 4/10: tiene que llegar a 7"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "cintametrica": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "216 palabras (≈64 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "4 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "submarino": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "210 palabras (≈62 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "7 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "error",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano» con 3/10: tiene que llegar a 7"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 10/10"
-   }
-  ],
-  "estadio": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "210 palabras (≈62 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "10 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "turia": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "240 palabras (≈71 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "15 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "repetidor": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "238 palabras (≈70 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
   "frenoavion": [
    {
     "nivel": "ok",
@@ -2735,306 +2543,6 @@
      "tipo": "potenciar",
      "metrica": "ov_graficos_min",
      "texto": "Gráficos por minuto: 18,7 /min, en el lado bueno. Mantenlo."
-    }
-   ],
-   "paracaidas": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,95 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 33, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_graficos_min",
-     "texto": "Gráficos por minuto: 13,6 /min. Los que funcionan van por encima de 18 /min (1,59× más vistas)."
-    }
-   ],
-   "cintametrica": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 2. Los que funcionan van por encima de 16 (2,1× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 31, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 23. Los que funcionan van por encima de 27 (1,59× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_graficos_min",
-     "texto": "Gráficos por minuto: 13 /min. Los que funcionan van por encima de 18 /min (1,59× más vistas)."
-    }
-   ],
-   "submarino": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 1. Los que funcionan van por encima de 16 (2,1× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,86 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 3,1 m, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 29, en el lado bueno. Mantenlo."
-    }
-   ],
-   "estadio": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 18, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,85 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 39, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_graficos_min",
-     "texto": "Gráficos por minuto: 15,3 /min. Los que funcionan van por encima de 18 /min (1,59× más vistas)."
-    }
-   ],
-   "turia": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 14. Los que funcionan van por encima de 16 (2,1× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,0 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 37, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 28, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_graficos_min",
-     "texto": "Gráficos por minuto: 13 /min. Los que funcionan van por encima de 18 /min (1,59× más vistas)."
-    }
-   ],
-   "repetidor": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "obj_animaciones",
-     "texto": "Animaciones en la escena: 7. Los que funcionan van por encima de 16 (2,1× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,96 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 37, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 36, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_graficos_min",
-     "texto": "Gráficos por minuto: 14 /min. Los que funcionan van por encima de 18 /min (1,59× más vistas)."
     }
    ],
    "frenoavion": [
