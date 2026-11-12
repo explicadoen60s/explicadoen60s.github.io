@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T08:21:50+00:00",
+ "actualizado": "2026-11-12T08:23:33+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1553,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "9 escenas por plantear · 0 correcciones",
-   "pendiente": 9,
+   "ahora": "8 escenas por plantear · 0 correcciones",
+   "pendiente": 8,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": null,
@@ -31,8 +31,8 @@
    "foco": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,98× lo normal, frente a 0,97× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 9 mezclas por hacer",
-   "pendiente": 9,
+   "ahora": "0 voces generándose · 8 mezclas por hacer",
+   "pendiente": 8,
    "kpi": {
     "nombre": "Duración media",
     "valor": 68.9,
@@ -43,7 +43,7 @@
    "foco": "Tipos de efecto distintos: los vídeos con más de 7 rinden 1,98× lo normal, frente a 1,05× los demás."
   },
   "editor": {
-   "ahora": "0 en render · 0 esperando tu revisión",
+   "ahora": "1 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -55,8 +55,8 @@
    "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,50× lo normal, frente a 1,03× los demás."
   },
   "motion": {
-   "ahora": "9 capas de gráficos por montar",
-   "pendiente": 9,
+   "ahora": "8 capas de gráficos por montar",
+   "pendiente": 8,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.0,
@@ -2511,6 +2511,12 @@
    ],
    "sifon": [
     {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,92 s, en el lado bueno. Mantenlo."
+    },
+    {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_contadores",
@@ -2521,6 +2527,12 @@
      "tipo": "potenciar",
      "metrica": "sfx_variedad",
      "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 33, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
@@ -2545,18 +2557,6 @@
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 63 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_piezas",
-     "texto": "Piezas 3D: 38, en el lado bueno. Mantenlo."
     }
    ],
    "ticket": [
