@@ -2149,7 +2149,7 @@
     "¿Por qué los tickets se quedan en blanco con el tiempo?"
    ],
    "guion": "El ticket del súper que tienes en la cartera… no lleva ni una gota de tinta. Entonces, ¿cómo se escribe? Vamos a abrir la impresora. El papel tiene una capa especial por encima. Dentro hay dos polvos mezclados, pero quietos. Uno es un tinte sin color. El otro, un ácido que lo despierta. Mientras estén separados, el papel sigue blanco. Ahora, el cabezal. Es una fila de puntos diminutos que se calientan. Hay ocho puntos en cada milímetro. Más de quinientos en todo el ancho del ticket. Cuando un punto pasa de unos cien grados, la capa se derrite justo ahí. El tinte y el ácido se tocan… y el punto se vuelve negro. Y aquí viene lo curioso… El cabezal no se mueve. Es el papel el que avanza, línea a línea, más de mil líneas por segundo. Por eso los tickets salen tan rápido y la impresora casi no hace ruido. Pero esa reacción tiene marcha atrás. El sol, el calor del coche o la crema de manos la deshacen. El tinte vuelve a su forma sin color… y la letra desaparece. Por eso tu ticket de hace un año ya está casi en blanco. Y si lo rascas fuerte con la uña, se pone negro: lo calientas tú. Sígueme para más.",
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:24.032Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2191,7 +2191,8 @@
      "fase": "escena"
     }
    ],
-   "duracion": 62.9
+   "duracion": 62.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "paracaidas",
