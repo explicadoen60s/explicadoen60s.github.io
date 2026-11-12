@@ -2743,7 +2743,7 @@
     "https://www.moncloa.com/2026/10/22/barcelona-deposito-pluvial-licitacion-3453606/",
     "https://www.iagua.es/blogs/jordi-oliveras/deposito-regulador-pluviales-joan-miro-barcelona"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -2781,6 +2781,42 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "El plano de «Barcelona está entre la montaña y el mar» no enseñaba la montaña y el mar a la vez; el de los sensores no veía ningún sensor.",
+     "propuesta": "Plano frontal alto con lente de 22 mm; plano de sensores a la altura del tubo con el objetivo en un sensor.",
+     "aplicada": true,
+     "respuesta": "Hecho: montaña a la izquierda, mar a la derecha y el sensor con su luz verde en primer plano."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Tras la revelación la tarjeta del juego tapaba las pastillas de 190 piscinas y 60.000 m³; la de «% lleno» chocaba con la tarjeta pequeña.",
+     "propuesta": "Pastillas de después de la revelación bajo la tarjeta (H·0,435) y nunca a la izquierda de x=580 en la franja de arriba.",
+     "aplicada": true,
+     "respuesta": "Hecho: ninguna pastilla pisa la tarjeta ni el subtítulo."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "La flecha de corriente de la calle atravesaba un coche en el primer segundo.",
+     "propuesta": "Separar los carriles de los coches del eje de las flechas.",
+     "aplicada": true,
+     "respuesta": "Hecho: agua, flecha y coche sin cruzarse."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los sensores y las chinchetas de los 15 depósitos eran demasiado pequeños para leerse.",
+     "propuesta": "Sensor de 16 cm con luz de 4 cm y chincheta de 22 cm.",
+     "aplicada": true,
+     "respuesta": "Hecho."
     }
    ],
    "seo": {
