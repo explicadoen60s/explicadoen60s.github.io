@@ -489,6 +489,24 @@
    "estado": "aplicada",
    "fecha": "2026-11-12T09:11:39+00:00",
    "video": "estadio"
+  },
+  {
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "texto": "Turia: cámara de maqueta desde arriba (unos 50°) y edificios más bajos para que el cauce no quede tapado; una clave cada 2 s.",
+   "estado": "aplicada",
+   "fecha": "2026-11-12T09:11:42+00:00",
+   "video": "turia"
+  },
+  {
+   "rol": "editor",
+   "para": "director",
+   "tipo": "revision",
+   "texto": "Turia dura 73,9 s (más de 71 s): en la serie, los próximos guiones a 205-220 palabras antes de generar la voz.",
+   "estado": "rechazada",
+   "fecha": "2026-11-12T09:11:42+00:00",
+   "video": "turia"
   }
  ],
  "manual": [
