@@ -2148,7 +2148,7 @@
     "¿Por qué los tickets se quedan en blanco con el tiempo?"
    ],
    "guion": "El ticket del súper que tienes en la cartera… no lleva ni una gota de tinta. Entonces, ¿cómo se escribe? Vamos a abrir la impresora. El papel tiene una capa especial por encima. Dentro hay dos polvos mezclados, pero quietos. Uno es un tinte sin color. El otro, un ácido que lo despierta. Mientras estén separados, el papel sigue blanco. Ahora, el cabezal. Es una fila de puntos diminutos que se calientan. Hay ocho puntos en cada milímetro. Más de quinientos en todo el ancho del ticket. Cuando un punto pasa de unos cien grados, la capa se derrite justo ahí. El tinte y el ácido se tocan… y el punto se vuelve negro. Y aquí viene lo curioso… El cabezal no se mueve. Es el papel el que avanza, línea a línea, más de mil líneas por segundo. Por eso los tickets salen tan rápido y la impresora casi no hace ruido. Pero esa reacción tiene marcha atrás. El sol, el calor del coche o la crema de manos la deshacen. El tinte vuelve a su forma sin color… y la letra desaparece. Por eso tu ticket de hace un año ya está casi en blanco. Y si lo rascas fuerte con la uña, se pone negro: lo calientas tú. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:24.032Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2189,7 +2189,8 @@
      "respuesta": "",
      "fase": "escena"
     }
-   ]
+   ],
+   "duracion": 62.9
   },
   {
    "id": "paracaidas",
@@ -2218,7 +2219,7 @@
     "Un paracaídas moderno no es una cúpula… es un ala."
    ],
    "guion": "Saltas de un avión… y en unos doce segundos vas a doscientos kilómetros por hora. Vamos a inventar algo que te frene. Necesitas que el aire te empuje hacia arriba. Cuanto más grande la superficie, más aire frena. Así que coges una tela enorme y la atas con cuerdas a tu espalda. Pero si se abre de golpe a esa velocidad, el tirón te haría daño de verdad. Así que la doblas dentro de una mochila. Y la sacas con un paracaídas pequeñito, del tamaño de un paraguas. Ese pequeño tira del grande y lo saca despacio. Pero aún se abriría demasiado rápido. Así que pones un trozo de tela con anillas en las cuerdas. Se queda arriba y frena la apertura unos segundos. Y aquí viene lo curioso… El paracaídas moderno no es una cúpula. Es un ala. Tiene celdas abiertas por delante. El aire entra, las hincha… y la tela se pone rígida como un colchón. Así no solo bajas: también avanzas y giras tirando de dos asas. La velocidad baja de doscientos… a unos veintidós kilómetros por hora. Pero para tocar el suelo aún es mucho. Así que, a unos tres metros del suelo, tiras de las dos asas a la vez. El ala se levanta, frena… y aterrizas andando. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:08.264Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2259,7 +2260,8 @@
      "respuesta": "",
      "fase": "escena"
     }
-   ]
+   ],
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "cintametrica",
@@ -2287,7 +2289,7 @@
     "Tu cinta métrica tiene una pieza suelta… y es a propósito."
    ],
    "guion": "Tira de tu cinta métrica y mira la punta. Esa pieza de metal está suelta… y no es un defecto. Vamos a inventar la cinta métrica. Necesitas medir varios metros y guardarlo en el bolsillo. Así que haces una cinta fina de acero y la enrollas. Pero luego, ¿quién la recoge? Así que pones dentro un muelle en espiral. Al sacar la cinta, el muelle se enrolla más y más. Al soltarla… ¡zas! Vuelve sola. Pero una cinta plana se dobla en cuanto la sacas un palmo. Así que la curvas, como una teja. Esa curva la pone rígida, y aguanta en el aire más de un metro. Ahora necesitas que se enganche al borde de la mesa. Así que pones un gancho de metal en la punta. Pero el gancho tiene grosor: más o menos un milímetro. Y aquí viene lo curioso… Si mides por fuera, el gancho te robaría ese milímetro. Si empujas contra la pared, te lo sumaría. Así que lo dejas suelto. Al tirar, sale un milímetro. Al empujar, entra un milímetro. Justo su grosor. La medida sale exacta las dos veces. Por eso al principio de la cinta faltan las primeras marcas: ocupa ese hueco el gancho. Y un botón la frena para que no se recoja sola. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:10.291Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2328,7 +2330,8 @@
      "respuesta": "",
      "fase": "escena"
     }
-   ]
+   ],
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "submarino",
@@ -2357,7 +2360,7 @@
     "A trescientos metros bajo el mar, el agua aprieta treinta y una veces más."
    ],
    "guion": "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse? Vamos a inventar el submarino. Un barco flota porque pesa menos que el agua que aparta. Para hundirlo, tienes que hacerlo más pesado. Así que le pones tanques a los lados. Abres unas compuertas por abajo, el agua entra… y el aire sale por arriba. El submarino pesa más… y baja. Pero cuanto más bajas, más aprieta el agua. Cada diez metros de profundidad, la presión sube una atmósfera más. A trescientos metros, son treinta y una. Así que el casco donde viaja la gente es un tubo grueso de acero. Un tubo redondo reparte la presión por todas partes. Ahora, ¿cómo te quedas quieto a una profundidad? Así que pones tanques pequeños dentro, y mueves agua de uno a otro. Delante, detrás… hasta que el submarino ni sube ni baja. Y aletas, como un avión, para inclinarlo mientras avanza. Y aquí viene lo curioso… Para subir no hay ningún motor que tire hacia arriba. Abres botellas de aire comprimido. El aire empuja el agua de los tanques hacia fuera. El submarino pesa menos que el agua… y sube solo, como un corcho. Por eso, al subir, suena ese soplido tan fuerte. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:14.489Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2398,7 +2401,8 @@
      "respuesta": "La auditoría cuenta 1 animación porque solo mira seg/mix dentro de pose(); el movimiento está en subz, lastre, trim y cabeceo: no se cambia.",
      "fase": "escena"
     }
-   ]
+   ],
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "estadio",
@@ -2426,7 +2430,7 @@
     "El césped de muchos estadios… no es del todo natural."
    ],
    "guion": "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo. ¿Y si tuvieras que construir tú ese campo? Vamos a cavar. Si plantas hierba sobre la tierra, la lluvia se queda arriba. A los diez minutos, el campo es un barrizal. Así que bajas el suelo casi dos metros. Y lo rellenas por capas: piedras gordas abajo, grava y arena arriba. Bajo todo, una red de tubos con agujeros que se lleva el agua. Pero en invierno, la hierba deja de crecer con el frío. Así que metes más tubos bajo las raíces, con agua caliente. Como una calefacción, pero para el césped. Pero los tacos de los jugadores arrancan la hierba a trozos. Y aquí viene lo curioso… El césped de muchos estadios no es del todo natural. Una máquina clava hilos de plástico en el suelo, uno a uno. Cada hilo baja veinte centímetros. Las raíces de la hierba se enredan en esos hilos, y ya no se arrancan. Solo un cinco por ciento es plástico. El resto, hierba de verdad. Pero dentro del estadio, las gradas tapan el sol. Así que, por la noche, acercan unas rampas de luz enormes. La hierba cree que es de día… y sigue creciendo. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:19.217Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2467,7 +2471,8 @@
      "respuesta": "",
      "fase": "escena"
     }
-   ]
+   ],
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "turia",
@@ -2496,7 +2501,7 @@
     "Si has paseado por el jardín del Turia… estabas caminando por el fondo de un río."
    ],
    "guion": "En Valencia hay un parque de nueve kilómetros… que antes era un río. ¿Cómo se mueve un río entero? Vamos a verlo. El Turia cruzaba la ciudad por el medio. Casi siempre llevaba poca agua. Pero en mil novecientos cincuenta y siete llovió muchísimo río arriba. Llegaron tres mil setecientos metros cúbicos por segundo. El cauce no podía con tanto… y el agua se metió en la ciudad. En algunas calles subió más de cinco metros. Podrías hacer muros más altos. Pero el río seguiría pasando por el centro. Así que decides lo más difícil: sacarlo de la ciudad. Excavas un cauce nuevo por el sur. Doce kilómetros de largo. ¡Ciento setenta y cinco metros de ancho! Pero el agua siempre sigue su camino de siempre. Así que, río arriba, cierras el cauce viejo con un muro de tierra, y el agua gira hacia el nuevo. Pero por encima pasan carreteras y vías de tren. Así que levantas puentes, uno tras otro. Y aquí viene lo curioso… El cauce nuevo traga hasta cinco mil metros cúbicos por segundo. Más que aquella riada. Y casi todo el año… está seco, esperando. ¿Y el cauce viejo? Se quedó vacío, cruzando toda la ciudad. Querían hacer una autopista. Pero los vecinos pidieron otra cosa. Así que hoy es un jardín enorme, con campos, carriles bici y árboles. Si has paseado por ahí… estabas caminando por el fondo de un río. Sígueme para más.",
-   "estado": "renderizando",
+   "estado": "escena",
    "creado": "2026-11-11",
    "aprobado": "2026-11-11T20:29:41.691Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2537,7 +2542,8 @@
      "respuesta": "",
      "fase": "escena"
     }
-   ]
+   ],
+   "error": "Falló el renderizado (ver Actions → Renderizar vídeos)"
   },
   {
    "id": "repetidor",
