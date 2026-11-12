@@ -2924,7 +2924,7 @@
    "fuentes": [
     "https://en.wikipedia.org/wiki/Tunnel_of_Proven%C3%A7a"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -2998,7 +2998,10 @@
       "tuneladora"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-12T11:32:20.767Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "wifi5ghz",
