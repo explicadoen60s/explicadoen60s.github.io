@@ -21,7 +21,7 @@ const hoyISO=()=>new Date().toISOString();
 async function cargarOficina(){
   const [o,d]=await Promise.all([json("produccion/oficina.json",{opcional:true,ttl:15000}),json("produccion/oficina_datos.json",{opcional:true,ttl:30000})]);
   OFI=o||{equipo:[],actividad:[],manual:[],reuniones:[],predicciones:{},encargos:[],paid:[]};OFD=d||{};
-  for(const k of ["actividad","manual","reuniones","encargos","paid","experimentos","diario"])OFI[k]=OFI[k]||[];OFI.predicciones=OFI.predicciones||{};
+  for(const k of ["actividad","manual","reuniones","encargos","paid","experimentos","diario","canal","acuerdos","jornadas"])OFI[k]=OFI[k]||[];OFI.predicciones=OFI.predicciones||{};
   return [OFI,OFD];
 }
 function pendientesOficina(){
@@ -37,7 +37,8 @@ async function vistaOfi(sub){
   acciones(`<span class="mut peq" style="align-self:center">${OFD.actualizado?"Datos "+hace(OFD.actualizado):"Sin datos todavía"}</span><button class="btn" onclick="nuevoEncargo()">${ic("send","s")}Encargar algo</button>`);
   const nMan=OFI.manual.filter(m=>m.estado==="propuesta").length;
   const nExp=(OFI.experimentos||[]).filter(x=>x.estado==="activo").length;
-  let h=segmentos("ofi",[["equipo","Oficina 3D"],["mejora","Mejora diaria",nExp],["manual","Manual vivo",nMan],["reuniones","Reuniones"],["encargos","Encargos",pend.enc],["promocion","Promoción",pend.paid],["predicciones","Predicciones"],["actividad","Actividad"]],sub);
+  const ultJ=OFI.jornadas[OFI.jornadas.length-1],nCanal=OFI.canal.filter(m=>ultJ&&m.jornada===(ultJ.fecha||"").slice(0,10)).length;
+  let h=segmentos("ofi",[["equipo","Centro de control"],["canal","Canal",nCanal],["mejora","Mejora diaria",nExp],["manual","Manual vivo",nMan],["reuniones","Reuniones"],["encargos","Encargos",pend.enc],["promocion","Promoción",pend.paid],["predicciones","Predicciones"],["actividad","Actividad"]],sub);
   if(sub==="manual")h+=ofiManual();
   else if(sub==="reuniones")h+=ofiReuniones();
   else if(sub==="encargos")h+=ofiEncargos();
@@ -45,6 +46,7 @@ async function vistaOfi(sub){
   else if(sub==="predicciones")h+=ofiPredicciones();
   else if(sub==="actividad")h+=ofiActividad();
   else if(sub==="mejora")h+=ofiMejora();
+  else if(sub==="canal")h+=ofiCanal();
   else h+=ofiEquipo();
   app.innerHTML=h;animarKpis();
   if(!sub||sub==="equipo")despuesDePintar=()=>mundo3d($("#ofi3d"));
@@ -247,3 +249,44 @@ function ofiMejora(){
 async function hallazgoARegla(i){const x=(OFD.mejora?.hallazgos||[])[i];if(!x)return;
   const filtro=x.umbral==null?{campo:x.metrica,igual:x.direccion==="mas"}:{campo:x.metrica,[x.direccion==="mas"?"mayor":"menor"]:x.umbral};
   await accion(()=>editarJson("produccion/oficina.json",d=>{(d.manual=d.manual||[]).push({id:"m"+Date.now().toString(36),texto:x.texto,estado:"hipotesis",por:x.rol,creada:hoyISO().slice(0,10),origen:`Auditoría técnica: ${fmtX(x.ratio)} con ${x.n_si}+${x.n_no} vídeos`,filtro})},"Panel: hallazgo técnico al Manual [skip ci]"),"En prueba en el Manual vivo.")}
+
+// ── Canal: lo que se escriben los agentes ──
+const TIPO_MSG={peticion:["Petición","acc"],propuesta:["Propuesta","info"],aviso:["Aviso","warn"],pregunta:["Pregunta",""],dato:["Dato",""]};
+const DECISION={acepto:["Acepta","ok"],matizo:["Matiza","info"],rechazo:["Rechaza","err"],respondo:["Responde",""]};
+let CANAL_FILTRO="todos";
+function estadoJornada(){
+  const j=OFI.jornadas[OFI.jornadas.length-1];
+  const btn=`<button class="btn sec peq" onclick="accion(()=>lanzarFlujo('jornada.yml'),'Jornada en marcha: los nueve agentes tardan 3-6 minutos.',{recargar:false})">${ic("play","s")}Lanzar jornada ahora</button>`;
+  if(!j)return `<div class="card fade"><div class="h3">${ic("users")}Jornada diaria<span class="sub">Cada día a las 07:17</span></div><p class="mut peq">Todavía no ha habido ninguna jornada.</p>${btn}</div>`;
+  if(j.estado==="sin_clave")return `<div class="card fade"><div class="h3">${ic("alert")}La jornada necesita una clave<span class="sub">${hace(j.fecha)}</span></div>
+    <div class="msg warn">${ic("info","s")}<div>Para que los nueve agentes trabajen solos cada día en GitHub, añade tu clave de la API de Claude como secreto <b>ANTHROPIC_API_KEY</b> en GitHub → el repositorio → <i>Settings → Secrets and variables → Actions → New repository secret</i>. Mientras tanto, la jornada la hace la pasada de la mañana con los agentes de Claude Code.</div></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn sec peq" href="https://github.com/${O}/${R}/settings/secrets/actions/new" target="_blank" rel="noopener">${ic("ext","s")}Abrir los secretos de GitHub</a>${btn}</div></div>`;
+  const t=j.tokens||{};
+  return `<div class="card fade"><div class="h3">${ic("users")}Última jornada · ${fmtDiaC(j.fecha)} a las ${fmtHora(j.fecha)}<span class="sub">${esc(j.modelo||"")}${j.llamadas?` · ${j.llamadas} llamadas`:""}${j.euros!=null?` · ${String(j.euros).replace(".",",")} €`:""}</span></div>
+   <div class="grid g4" style="margin-bottom:10px">${[["Mensajes",j.mensajes],["Acuerdos nuevos",j.acuerdos],["Revisiones",j.revisiones],["Lecciones a las fichas",j.aprendizajes]].map(([a,b])=>`<div class="ofi-mini"><b>${b??0}</b><small>${a}</small></div>`).join("")}</div>
+   ${(j.errores||[]).length?`<div class="msg warn">${ic("alert","s")}<div>${j.errores.map(esc).join("<br>")}</div></div>`:""}
+   <details><summary class="peq">Lo que vio cada agente</summary>${Object.entries(j.resumenes||{}).filter(([,t])=>t).map(([r,t])=>`<div class="fila">${avatarRol(r,26)}<span class="t"><span class="ofi-txt"><b class="ofi-de">${esc(rolDe(r).nombre)}</b> ${esc(t)}</span></span></div>`).join("")}</details>
+   <div style="margin-top:10px">${btn}</div></div>`;
+}
+function ofiCanal(){
+  const vig=OFI.acuerdos.filter(a=>a.estado==="vigente").reverse();
+  const msgs=OFI.canal.filter(m=>CANAL_FILTRO==="todos"||m.de===CANAL_FILTRO||m.para===CANAL_FILTRO||(m.respuestas||[]).some(r=>r.de===CANAL_FILTRO)).slice().reverse();
+  const porDia={};for(const m of msgs)(porDia[m.jornada||m.fecha.slice(0,10)]=porDia[m.jornada||m.fecha.slice(0,10)]||[]).push(m);
+  let h=estadoJornada();
+  h+=`<div class="card fade"><div class="h3">${ic("check")}Acuerdos vigentes<span class="sub">Lo que un agente se ha comprometido a hacer porque otro se lo pidió. La producción los cumple como normas.</span></div>
+   ${vig.length?vig.map(a=>`<div class="fila">${avatarRol(a.rol,30)}<span class="t"><span class="ofi-txt"><b class="ofi-de">${esc(rolDe(a.rol).nombre)}</b> ${esc(a.texto)}</span><small>pedido por ${esc(rolDe(a.pedido_por).nombre)} · desde ${fmtDiaC(a.desde)}</small></span><button class="btn fantasma peq" onclick="retirarAcuerdo('${esc(a.id)}')">${ic("x","s")}Retirar</button></div>`).join(""):`<p class="mut peq">Aún no hay acuerdos. Saldrán de la primera jornada.</p>`}</div>`;
+  h+=`<div class="chips" style="margin-bottom:14px"><button class="chip ${CANAL_FILTRO==="todos"?"on":""}" onclick="CANAL_FILTRO='todos';ir('ofi','canal',true)">Todos</button>${OFI.equipo.map(e=>`<button class="chip ${CANAL_FILTRO===e.id?"on":""}" onclick="CANAL_FILTRO='${e.id}';ir('ofi','canal',true)"><i style="background:${e.color}"></i>${esc(e.nombre)}</button>`).join("")}</div>`;
+  if(!msgs.length)return h+`<div class="card">${vacio("chat","El canal está vacío","Aquí aparecerá todo lo que los agentes se escriben en cada jornada, con sus respuestas.")}</div>`;
+  for(const [dia,ms] of Object.entries(porDia).slice(0,10)){
+    h+=`<div class="card fade"><div class="h3">${ic("chat")}Jornada del ${fmtDiaC(dia)}<span class="sub">${ms.length} mensajes · ${ms.reduce((s,m)=>s+(m.respuestas||[]).length,0)} respuestas</span></div>${ms.map(mensajeCanal).join("")}</div>`;
+  }
+  return h;
+}
+function mensajeCanal(m){
+  const t=TIPO_MSG[m.tipo]||[m.tipo,""],v=m.video?PROD.find(x=>x.id===m.video):null;
+  return `<div class="ofi-msg"><div class="ofi-msg-cab">${avatarRol(m.de,30)}<b>${esc(rolDe(m.de).nombre)}</b>${ic("right","s")}${m.para==="todos"?`<b>Todo el equipo</b>`:`${avatarRol(m.para,22)}<b>${esc(rolDe(m.para).nombre)}</b>`}<span class="pill ${t[1]}">${t[0]}</span>${v?`<span class="pill">${esc(v.titulo.slice(0,40))}</span>`:""}<small class="mut">${fmtHora(m.fecha)}</small></div>
+   <div class="ofi-msg-cuerpo"><b>${esc(m.asunto||"")}</b><p>${esc(m.texto)}</p></div>
+   ${(m.respuestas||[]).map(r=>{const d=DECISION[r.decision]||[r.decision,""];return `<div class="ofi-resp">${avatarRol(r.de,24)}<div><div><b>${esc(rolDe(r.de).nombre)}</b> <span class="pill ${d[1]}">${d[0]}</span></div><p>${esc(r.texto)}</p>${r.compromiso?`<div class="ofi-comp">${ic("check","s")}<span><b>Se compromete:</b> ${esc(r.compromiso)}</span></div>`:""}</div></div>`}).join("")}</div>`;
+}
+async function retirarAcuerdo(id){if(!await confirmar("¿Retirar este acuerdo?","La producción dejará de aplicarlo.",{si:"Retirar",peligro:true}))return;
+  await accion(()=>editarJson("produccion/oficina.json",d=>{const a=(d.acuerdos||[]).find(x=>x.id===id);if(a){a.estado="retirado";a.retirado_por=usuario}},"Panel: acuerdo retirado [skip ci]"),"Retirado")}

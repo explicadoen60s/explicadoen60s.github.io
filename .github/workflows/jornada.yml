@@ -1,0 +1,57 @@
+name: Jornada de la oficina
+
+# Cada día, los nueve agentes de la oficina trabajan por separado con la API de Claude:
+# analizan, revisan guiones, se escriben, se responden y dejan acuerdos y mejoras.
+# Necesita el secreto ANTHROPIC_API_KEY (Settings → Secrets and variables → Actions).
+# Sin él, deja constancia y la jornada la hace la pasada diaria de Claude Code.
+on:
+  schedule:
+    - cron: "17 6 * * *"   # 07:17 en Madrid en invierno (08:17 en verano), antes de la pasada de las 08:56
+  workflow_dispatch:
+
+concurrency:
+  group: jornada
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  jornada:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            produccion/*.json
+            produccion/*.py
+            programador/*.json
+            .claude/agents/*.md
+          sparse-checkout-cone-mode: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q "anthropic>=2.8,<3"
+      - name: Trabajar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python produccion/jornada.py --guardar "$RUNNER_TEMP/jornada.json"
+      - name: Guardar
+        run: |
+          git config user.name "oficina-explicadoen60s"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add produccion/oficina.json produccion/oficina_datos.json produccion/estado.json .claude/agents
+          git diff --cached --quiet && exit 0
+          git commit -qm "Oficina: jornada $(date +%F)"
+          for i in 1 2 3 4; do
+            git pull -q --rebase && git push -q && exit 0
+            # conflicto: se vuelve a aplicar lo que dijeron los agentes sobre la versión más nueva
+            git rebase --abort 2>/dev/null; git fetch -q origin main; git reset -q --hard origin/main
+            python produccion/jornada.py --aplicar "$RUNNER_TEMP/jornada.json"
+            git add produccion/oficina.json produccion/oficina_datos.json produccion/estado.json .claude/agents
+            git diff --cached --quiet && exit 0
+            git commit -qm "Oficina: jornada $(date +%F)"
+            sleep 5
+          done
+          exit 1
