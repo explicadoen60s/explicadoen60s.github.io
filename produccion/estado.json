@@ -2078,7 +2078,7 @@
     "Si te vas un mes de vacaciones, tu casa huele mal al volver. ¿Por qué?"
    ],
    "guion": "Abre el armario de debajo de tu fregadero… ¿Ves ese tubo con forma de U? Parece un error de fontanero. Pero sin él, tu cocina olería a alcantarilla. Vamos a abrirlo. El desagüe baja directo a la red de saneamiento. Y desde ahí sube aire con gases de las cloacas. Huele fatal… y no hay ninguna puerta que lo pare. Así que el tubo baja, hace una curva… y vuelve a subir. Cuando el agua se va, una parte se queda atrapada en el fondo de la curva. Ese tapón de agua es la puerta. El gas empuja… pero no puede atravesar el agua. Y aquí viene lo curioso… La norma pide que ese tapón tenga entre cinco y siete centímetros de alto. Si es más bajo, cualquier soplido del desagüe lo vacía. Cada vez que abres el grifo, el agua nueva empuja a la vieja hacia abajo. El tapón se renueva solo, una y otra vez. Pero si te vas de vacaciones un mes, el agua se evapora poco a poco. El nivel baja de cinco centímetros… a cero. La puerta se abre, y al volver, la casa huele mal. Por eso, al volver, basta con abrir el grifo diez segundos. Y la U también atrapa anillos, pendientes y restos de comida. Por eso se desenrosca: para poder limpiarla. Sígueme para más.",
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:01.123Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2120,7 +2120,8 @@
      "fase": "escena"
     }
    ],
-   "duracion": 62.9
+   "duracion": 62.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "ticket",
