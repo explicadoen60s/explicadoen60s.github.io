@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T08:02:34+00:00",
+ "actualizado": "2026-11-12T08:21:50+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1553,
@@ -361,7 +361,7 @@
    "vistas": 52704,
    "rel": 34.38,
    "inter": 0.0344,
-   "horas": 104,
+   "horas": 105,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -375,7 +375,7 @@
    "vistas": 40793,
    "rel": 19.17,
    "inter": 0.0292,
-   "horas": 83,
+   "horas": 84,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -389,7 +389,7 @@
    "vistas": 6061,
    "rel": 3.95,
    "inter": 0.0315,
-   "horas": 104,
+   "horas": 105,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -403,7 +403,7 @@
    "vistas": 4877,
    "rel": 3.18,
    "inter": 0.0291,
-   "horas": 104,
+   "horas": 105,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -2511,16 +2511,52 @@
    ],
    "sifon": [
     {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 33 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 4. Los que funcionan van por encima de 15 (1,50× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
+    },
+    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 63 s, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "voz_lufs",
-     "texto": "Volumen de la voz: -15,8 LUFS, en el lado bueno. Mantenlo."
+     "metrica": "obj_piezas",
+     "texto": "Piezas 3D: 38, en el lado bueno. Mantenlo."
     }
    ],
    "ticket": [

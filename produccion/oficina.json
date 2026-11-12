@@ -395,6 +395,23 @@
    "rol": "director",
    "tipo": "reunion",
    "texto": "Jornada del 2026-11-12: 25 mensajes entre puestos, 23 acuerdos nuevos, 0 guiones mejorados y 32 lecciones a las fichas."
+  },
+  {
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "texto": "Sifón: arranque abierto a 2 m con chorro y puertas en movimiento, y bajada a la alcantarilla sin pasar por el forjado.",
+   "estado": "aplicada",
+   "fecha": "2026-11-12T08:22:33+00:00",
+   "video": "sifon"
+  },
+  {
+   "rol": "motion",
+   "tipo": "mejora",
+   "texto": "Nueva ayuda medio_tubo en motor/maqueta.py: tubos ya cortados por la mitad con canto crema, sin booleanas (más rápido y sin fallos). Agua del sifón siempre azul.",
+   "estado": "aplicada",
+   "fecha": "2026-11-12T08:22:33+00:00",
+   "video": "sifon"
   }
  ],
  "manual": [
