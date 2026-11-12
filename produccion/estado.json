@@ -2357,10 +2357,48 @@
     "A trescientos metros bajo el mar, el agua aprieta treinta y una veces más."
    ],
    "guion": "¿Cómo se hunde un barco de miles de toneladas… y vuelve a salir sin romperse? Vamos a inventar el submarino. Un barco flota porque pesa menos que el agua que aparta. Para hundirlo, tienes que hacerlo más pesado. Así que le pones tanques a los lados. Abres unas compuertas por abajo, el agua entra… y el aire sale por arriba. El submarino pesa más… y baja. Pero cuanto más bajas, más aprieta el agua. Cada diez metros de profundidad, la presión sube una atmósfera más. A trescientos metros, son treinta y una. Así que el casco donde viaja la gente es un tubo grueso de acero. Un tubo redondo reparte la presión por todas partes. Ahora, ¿cómo te quedas quieto a una profundidad? Así que pones tanques pequeños dentro, y mueves agua de uno a otro. Delante, detrás… hasta que el submarino ni sube ni baja. Y aletas, como un avión, para inclinarlo mientras avanza. Y aquí viene lo curioso… Para subir no hay ningún motor que tire hacia arriba. Abres botellas de aire comprimido. El aire empuja el agua de los tanques hacia fuera. El submarino pesa menos que el agua… y sube solo, como un corcho. Por eso, al subir, suena ese soplido tan fuerte. Sígueme para más.",
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:14.489Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "revisiones": [
+    {
+     "rol": "fotografia",
+     "veredicto": "cambios",
+     "nota": "Los planos enteros cortaban proa y popa en vertical (el submarino mide 2,6 m y el encuadre es estrecho).",
+     "propuesta": "Alejar los planos de conjunto a 5-5,5 m y dejar los primeros planos (tanques, casco, trimado, hélice) a 1,6-2 m.",
+     "aplicada": true,
+     "respuesta": "Hecho en «vamos a inventar», «un barco flota» y «pesa más»; 36 claves, una cada 1,9 s, y la última repite el plano de inicio.",
+     "fase": "escena"
+    },
+    {
+     "rol": "motion",
+     "veredicto": "cambios",
+     "nota": "Las flechas de presión tapaban el casco resistente en los primeros planos y las de peso/empuje se quedaban gigantes al acercarse a los tanques; el «✗ motor hacia arriba» chocaba con el subtítulo.",
+     "propuesta": "Quitar las flechas de presión mientras se habla del casco y volverlas a poner en «un tubo redondo»; cortar peso/empuje al terminar la frase; aviso del motor fijo en H*0,30.",
+     "aplicada": true,
+     "respuesta": "Hecho. 6 contadores: % de lastre lleno y vacío, metros, atmósferas (1→2→31) y % de los tanques de trimado.",
+     "fase": "escena"
+    },
+    {
+     "rol": "sonido",
+     "veredicto": "cambios",
+     "nota": "Con el submarino en superficie las burbujas de aire bajaban dentro del tanque en vez de salir hacia arriba.",
+     "propuesta": "Que el aire salga siempre por las válvulas hacia arriba (mínimo 0,8 m), igual que el soplido final.",
+     "aplicada": true,
+     "respuesta": "Hecho; 39 efectos (35/min) de 10 tipos, los tics van 0,35 s antes de «diez» y «trescientos».",
+     "fase": "escena"
+    },
+    {
+     "rol": "editor",
+     "veredicto": "ok",
+     "nota": "Cada acción cae en su frase: compuertas en «abres unas», baja en «y baja», 31 atm en «son treinta y una», trimado delante/detrás, sube en «y sube solo» y soplido en «suena ese». 67 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "La auditoría cuenta 1 animación porque solo mira seg/mix dentro de pose(); el movimiento está en subz, lastre, trim y cabeceo: no se cambia.",
+     "fase": "escena"
+    }
+   ]
   },
   {
    "id": "estadio",
