@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T19:56:17+00:00",
+ "actualizado": "2026-11-12T19:59:16+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1551,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "6 escenas por plantear · 0 correcciones",
-   "pendiente": 6,
+   "ahora": "Al día: sin escenas pendientes",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": null,
@@ -31,8 +31,8 @@
    "foco": "Claves de cámara: los vídeos con más de 23 rinden 1,53× lo normal, frente a 1,02× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 6 mezclas por hacer",
-   "pendiente": 6,
+   "ahora": "0 voces generándose · 0 mezclas por hacer",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.4,
@@ -43,7 +43,7 @@
    "foco": "Efectos de sonido por minuto: los vídeos con más de 19,8 /min rinden 1,53× lo normal, frente a 1,03× los demás."
   },
   "editor": {
-   "ahora": "1 en render · 0 esperando tu revisión",
+   "ahora": "7 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -55,8 +55,8 @@
    "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,36× lo normal, frente a 1,02× los demás."
   },
   "motion": {
-   "ahora": "6 capas de gráficos por montar",
-   "pendiente": 6,
+   "ahora": "Al día",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.0,
@@ -100,8 +100,8 @@
    }
   },
   "seo": {
-   "ahora": "1 vídeos sin título por red",
-   "pendiente": 1,
+   "ahora": "Títulos por red al día",
+   "pendiente": 0,
    "kpi": {
     "nombre": "YouTube frente a lo normal",
     "valor": 1.0,
@@ -399,232 +399,7 @@
    "vistas": 20997
   }
  ],
- "compuertas": {
-  "frenoavion": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "227 palabras (≈67 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "8 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "error",
-    "rol": "director",
-    "texto": "Falta el campo «juego» (juego de la cifra, obligatorio)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "bcnpluvial": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "215 palabras (≈63 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "16 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "m30tunel": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "213 palabras (≈63 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "19 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "avesagrada": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "220 palabras (≈65 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "wifi5ghz": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "213 palabras (≈63 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "29 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "bombacalor": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "219 palabras (≈64 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "7 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "canalmadrid": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "222 palabras (≈65 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ]
- },
+ "compuertas": {},
  "mejora": {
   "hallazgos": [
    {
@@ -2411,140 +2186,6 @@
      "tipo": "potenciar",
      "metrica": "sfx_variedad",
      "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
-    }
-   ],
-   "frenoavion": [
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_min",
-     "texto": "Efectos de sonido por minuto: 41 /min, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 41, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,74 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 42, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
-    }
-   ],
-   "bcnpluvial": [
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 69 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "m30tunel": [
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "avesagrada": [
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,50 dB. Los que funcionan van por encima de 0,20 dB (1,32× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
-    }
-   ],
-   "wifi5ghz": [
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "bombacalor": [
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "canalmadrid": [
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 69 s, en el lado bueno. Mantenlo."
     }
    ]
   },

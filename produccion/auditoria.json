@@ -269,7 +269,7 @@
    "sub_frase": true
   },
   "avesagrada": {
-   "huella": "e22c1bebb6f45fab",
+   "huella": "ed6cb245307d562c",
    "duracion": 72.8,
    "voz_ritmo": 3.45,
    "voz_silencio": 12.5,
@@ -278,7 +278,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.7,
    "voz_expresividad": 2.0,
-   "voz_gancho": -0.5
+   "voz_gancho": -0.5,
+   "cam_claves": 40,
+   "cam_cada": 1.82,
+   "cam_lente_max": 40,
+   "obj_piezas": 32,
+   "obj_animaciones": 9,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 3,
+   "ov_etiquetas": 8,
+   "ov_contadores": 6,
+   "ov_graficos_min": 11.5,
+   "ov_palabras_clave": 42,
+   "sfx_min": 30.5,
+   "sfx_variedad": 10,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "barras": {
    "huella": "6ebc4945b094baaa",
@@ -336,7 +354,7 @@
    "sub_frase": true
   },
   "bcnpluvial": {
-   "huella": "6297154cad34771b",
+   "huella": "d0ca477527a3d04b",
    "duracion": 69.2,
    "voz_ritmo": 3.62,
    "voz_silencio": 14.2,
@@ -345,7 +363,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.7,
    "voz_expresividad": 2.2,
-   "voz_gancho": 0.5
+   "voz_gancho": 0.5,
+   "cam_claves": 44,
+   "cam_cada": 1.57,
+   "cam_lente_max": 42,
+   "obj_piezas": 22,
+   "obj_animaciones": 35,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 5,
+   "ov_etiquetas": 6,
+   "ov_contadores": 9,
+   "ov_graficos_min": 13.0,
+   "ov_palabras_clave": 38,
+   "sfx_min": 34.7,
+   "sfx_variedad": 9,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "boligrafo": {
    "huella": "ad582396ca778c3d",
@@ -375,7 +411,7 @@
    "sub_frase": false
   },
   "bombacalor": {
-   "huella": "1088a3b98ef960aa",
+   "huella": "b0796bc71126336b",
    "duracion": 67.1,
    "voz_ritmo": 3.75,
    "voz_silencio": 12.9,
@@ -384,7 +420,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.6,
    "voz_expresividad": 1.9,
-   "voz_gancho": 0.3
+   "voz_gancho": 0.3,
+   "cam_claves": 38,
+   "cam_cada": 1.77,
+   "cam_lente_max": 48,
+   "obj_piezas": 39,
+   "obj_animaciones": 8,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 5,
+   "ov_etiquetas": 8,
+   "ov_contadores": 11,
+   "ov_graficos_min": 17.0,
+   "ov_palabras_clave": 32,
+   "sfx_min": 34.0,
+   "sfx_variedad": 10,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "bombilla": {
    "huella": "6ff896e83db28406",
@@ -525,7 +579,7 @@
    "sub_frase": true
   },
   "canalmadrid": {
-   "huella": "c6798d880cbb0d8f",
+   "huella": "aec590e50259df7e",
    "duracion": 69.1,
    "voz_ritmo": 3.61,
    "voz_silencio": 11.0,
@@ -534,7 +588,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.8,
    "voz_expresividad": 2.6,
-   "voz_gancho": 0.6
+   "voz_gancho": 0.6,
+   "cam_claves": 35,
+   "cam_cada": 1.97,
+   "cam_lente_max": 40,
+   "obj_piezas": 62,
+   "obj_animaciones": 23,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 4,
+   "ov_etiquetas": 8,
+   "ov_contadores": 7,
+   "ov_graficos_min": 13.0,
+   "ov_palabras_clave": 35,
+   "sfx_min": 34.7,
+   "sfx_variedad": 10,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "cargador": {
    "huella": "fd732c7923383682",
@@ -1307,7 +1379,7 @@
    "sub_frase": true
   },
   "m30tunel": {
-   "huella": "2428ce41c3d1aad0",
+   "huella": "6e9bb8b52769b3c0",
    "duracion": 67.8,
    "voz_ritmo": 3.5,
    "voz_silencio": 10.1,
@@ -1316,7 +1388,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.7,
    "voz_expresividad": 2.1,
-   "voz_gancho": 0.4
+   "voz_gancho": 0.4,
+   "cam_claves": 41,
+   "cam_cada": 1.65,
+   "cam_lente_max": 40,
+   "obj_piezas": 21,
+   "obj_animaciones": 5,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 4,
+   "ov_etiquetas": 8,
+   "ov_contadores": 7,
+   "ov_graficos_min": 13.3,
+   "ov_palabras_clave": 44,
+   "sfx_min": 31.0,
+   "sfx_variedad": 10,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "mando": {
    "huella": "f3e62d79f9607d53",
@@ -2510,7 +2600,7 @@
    "sub_frase": true
   },
   "wifi5ghz": {
-   "huella": "f4e09d6d8e14ea69",
+   "huella": "9537498e1e85b57a",
    "duracion": 67.0,
    "voz_ritmo": 3.57,
    "voz_silencio": 11.0,
@@ -2519,7 +2609,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.7,
    "voz_expresividad": 2.7,
-   "voz_gancho": 0.4
+   "voz_gancho": 0.4,
+   "cam_claves": 36,
+   "cam_cada": 1.86,
+   "cam_lente_max": 40,
+   "obj_piezas": 28,
+   "obj_animaciones": 8,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 2,
+   "ov_etiquetas": 6,
+   "ov_contadores": 7,
+   "ov_graficos_min": 11.6,
+   "ov_palabras_clave": 33,
+   "sfx_min": 31.3,
+   "sfx_variedad": 10,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   }
  }
 }
