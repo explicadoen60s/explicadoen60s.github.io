@@ -67,6 +67,56 @@
    "fecha": "2026-11-11T20:28:18.849811Z",
    "estado": "usada",
    "guion": "canalmadrid"
+  },
+  {
+   "id": "error-cargador",
+   "texto": "¿Dejas el cargador enchufado sin el móvil? 🔌 Esto es lo que gasta de verdad",
+   "prioridad": "alta",
+   "origen": "encargo: por qué funcionó el router (12-nov)",
+   "notas": "Patrón «lo estás haciendo mal»: consumo en vacío del cargador (cifras a comprobar).",
+   "por": "Claude",
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "error-nevera",
+   "texto": "¿Guardas la leche en la puerta de la nevera? 🥛 Es el peor sitio",
+   "prioridad": "alta",
+   "origen": "encargo: por qué funcionó el router (12-nov)",
+   "notas": "Patrón «lo estás haciendo mal»: temperaturas por zonas de la nevera (comprobar).",
+   "por": "Claude",
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "error-lavadora",
+   "texto": "¿Lavas a 60 grados? 🌡️ El 90 % de lo que gasta tu lavadora es calentar agua",
+   "prioridad": "alta",
+   "origen": "encargo: por qué funcionó el router (12-nov)",
+   "notas": "Patrón «lo estás haciendo mal»: energía de calentar el agua frente al motor (comprobar cifra).",
+   "por": "Claude",
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "error-microondas",
+   "texto": "¿Pones la comida en el centro del microondas? 🍲 Por eso se queda fría por dentro",
+   "prioridad": "alta",
+   "origen": "encargo: por qué funcionó el router (12-nov)",
+   "notas": "Patrón «lo estás haciendo mal»: ondas estacionarias y puntos fríos, por qué el plato gira (comprobar).",
+   "por": "Claude",
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "estado": "pendiente"
+  },
+  {
+   "id": "error-movil100",
+   "texto": "¿Cargas el móvil al 100 % cada noche? 🔋 Así envejece la batería",
+   "prioridad": "alta",
+   "origen": "encargo: por qué funcionó el router (12-nov)",
+   "notas": "Patrón «lo estás haciendo mal»: ciclos y tensión de la batería de litio (comprobar).",
+   "por": "Claude",
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "estado": "pendiente"
   }
  ]
 }

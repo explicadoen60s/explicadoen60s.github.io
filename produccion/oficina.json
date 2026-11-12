@@ -638,6 +638,36 @@
    "rol": "director",
    "tipo": "propuesta",
    "texto": "6 guiones nuevos: 4 de «Lo que esconde tu ciudad» (bcnpluvial, m30tunel, avesagrada, canalmadrid) y 2 formato A de creencia equivocada (wifi5ghz, bombacalor), de 212-222 palabras, revisados por estratega, seo, motion y sonido."
+  },
+  {
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "rol": "sonido",
+   "tipo": "encargo",
+   "texto": "Voz más natural en produccion/voz.py: pausas según la puntuación (más largas tras «?» y «…»), se recortan los silencios raros de cada trozo, temperatura 0,85, menos acelerada (1,05 en vez de 1,08), de-esser, graves más cálidos y un poco de sala. La mayor mejora vendría de una referencia más larga y "
+  },
+  {
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "rol": "estratega",
+   "tipo": "encargo",
+   "texto": "El router va por 357.807 vistas (354× lo normal) y se comparte 14 veces más que la media: corrige un error que el espectador comete en su casa y le da algo que hacer al acabar. Queda como regla «Lo estás haciendo mal» en la Línea editorial (1 de cada 3 guiones) y hay 5 ideas nuevas con ese patrón en"
+  },
+  {
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "rol": "director",
+   "tipo": "encargo",
+   "texto": "Primera frase de como mucho 8 palabras, pregunta o «estás haciendo X», sin presentaciones y con el objeto ya moviéndose; títulos en pregunta y en YouTube con «¿Cómo funciona…?» (ya lo hace seo). Añadido a la Línea editorial y a la estructura del guion."
+  },
+  {
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "rol": "editor",
+   "tipo": "encargo",
+   "texto": "Cierre en bucle obligatorio: la última frase, tras «Sígueme para más», enlaza con la primera y el último plano repite el primero. Añadido a la Línea editorial y a la estructura del guion."
+  },
+  {
+   "fecha": "2026-11-12T16:34:01+01:00",
+   "rol": "social",
+   "tipo": "encargo",
+   "texto": "Instagram reparte a cada reel un lote de prueba de ~1.500 vistas y ninguno lo supera porque casi nadie lo envía (0,6 por mil). Desde hoy recibe la versión con música, los pies terminan con invitación a enviarlo y los éxitos de TikTok se adelantan en Instagram (propuesto al usuario para el router)."
   }
  ],
  "manual": [
@@ -1070,7 +1100,9 @@
    "texto": "Quiero una mejora en la voz, que suene mas real.",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-12T02:23:25.097Z",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "hecho": "2026-11-12T16:34:01+01:00",
+   "respuesta": "Voz más natural en produccion/voz.py: pausas según la puntuación (más largas tras «?» y «…»), se recortan los silencios raros de cada trozo, temperatura 0,85, menos acelerada (1,05 en vez de 1,08), de-esser, graves más cálidos y un poco de sala. La mayor mejora vendría de una referencia más larga y limpia (30-60 s): se lo propongo al usuario."
   },
   {
    "id": "emwcxhrxw",
@@ -1078,7 +1110,9 @@
    "texto": "Estudiamos porque el video del router tiene tanto exito y implementamos los resultados en los siguientes videos para que funcionen igual.",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-12T02:28:15.668Z",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "hecho": "2026-11-12T16:34:01+01:00",
+   "respuesta": "El router va por 357.807 vistas (354× lo normal) y se comparte 14 veces más que la media: corrige un error que el espectador comete en su casa y le da algo que hacer al acabar. Queda como regla «Lo estás haciendo mal» en la Línea editorial (1 de cada 3 guiones) y hay 5 ideas nuevas con ese patrón en el banco."
   },
   {
    "id": "emwcxy6dt",
@@ -1086,7 +1120,9 @@
    "texto": "Optimiza los primeros segundos: Como la mayor parte del público llega deslizándose por el feed de Shorts, los primeros dos o tres segundos son críticos para convencerles de quedarse y evitar que pasen de largo.\nApuesta por títulos basados en preguntas o curiosidades: Los temas cotidianos de funcionamiento mecánico o ingeniería generan interés de búsqueda orgánico continuo. Crear vídeos sobre \"¿Cómo funciona...?\" te ayudará a seguir captando espectadores que buscan respuestas inmediatas",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-12T02:41:00.881Z",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "hecho": "2026-11-12T16:34:01+01:00",
+   "respuesta": "Primera frase de como mucho 8 palabras, pregunta o «estás haciendo X», sin presentaciones y con el objeto ya moviéndose; títulos en pregunta y en YouTube con «¿Cómo funciona…?» (ya lo hace seo). Añadido a la Línea editorial y a la estructura del guion."
   },
   {
    "id": "emwcxydc5",
@@ -1094,7 +1130,9 @@
    "texto": "El cierre circular: Conecta la última frase del vídeo directamente con la primera para que el espectador que no se da cuenta vuelva a ver los primeros segundos, elevando la retención por encima del 100 %.",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-12T02:41:09.893Z",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "hecho": "2026-11-12T16:34:01+01:00",
+   "respuesta": "Cierre en bucle obligatorio: la última frase, tras «Sígueme para más», enlaza con la primera y el último plano repite el primero. Añadido a la Línea editorial y a la estructura del guion."
   },
   {
    "id": "emwcyayhz",
@@ -1102,7 +1140,9 @@
    "texto": "Averiguar porque instagram no se hacen virales los videos y ponerle solucion.",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-12T02:50:57.191Z",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "hecho": "2026-11-12T16:34:01+01:00",
+   "respuesta": "Instagram reparte a cada reel un lote de prueba de ~1.500 vistas y ninguno lo supera porque casi nadie lo envía (0,6 por mil). Desde hoy recibe la versión con música, los pies terminan con invitación a enviarlo y los éxitos de TikTok se adelantan en Instagram (propuesto al usuario para el router)."
   }
  ],
  "paid": [],

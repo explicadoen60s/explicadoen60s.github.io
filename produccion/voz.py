@@ -17,10 +17,14 @@ RAIZ = Path(__file__).resolve().parent
 ESCENAS = RAIZ / "escenas"
 REF = RAIZ / "voz" / "referencia.wav"
 REF_TXT = RAIZ / "voz" / "referencia.txt"
-ACABADO = "atempo=1.08,highpass=f=70,equalizer=f=3500:t=q:w=1:g=3,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,loudnorm=I=-15:TP=-1.5"
+# Acabado más natural (encargo de sonido, 12-nov): menos acelerado (1,05), sin agudos chillones (de-esser y menos realce),
+# graves cálidos y un poco de «sala» casi imperceptible para que no suene a voz seca de ordenador.
+ACABADO = ("atempo=1.05,highpass=f=70,equalizer=f=180:t=q:w=1:g=1.5,equalizer=f=3200:t=q:w=1.2:g=1.5,deesser=i=0.4:m=0.5:f=0.5,"
+           "aecho=0.9:0.25:18|31:0.05|0.03,acompressor=threshold=-20dB:ratio=2.5:attack=8:release=120,loudnorm=I=-15:TP=-1.5")
 MODELO = "Qwen/Qwen3-TTS-12Hz-1.7B-Base"
-PAUSA = 0.18          # segundos de silencio entre trozos
-MAX_CHARS = 260       # tamaño de cada trozo (frases completas)
+PAUSA = {".": 0.28, "?": 0.38, "!": 0.32, "…": 0.45, ":": 0.25}   # silencio tras cada trozo según cómo acaba (respira como una persona)
+TEMPERATURA = 0.85    # algo menos que 1: entonación más estable, menos sílabas raras
+MAX_CHARS = 200       # tamaño de cada trozo (frases completas): más corto = menos deriva de la voz
 
 _modelo = _prompt = None
 
@@ -49,14 +53,23 @@ def trozos(texto):
     return out
 
 
+def recortar(a, sr, umbral=0.012):
+    """Quita el silencio que el modelo deja al principio y al final de cada trozo (las pausas las pone PAUSA)."""
+    v = np.abs(a); idx = np.where(v > umbral * (v.max() or 1))[0]
+    if len(idx) == 0: return a
+    i0 = max(0, idx[0] - int(0.03 * sr)); i1 = min(len(a), idx[-1] + int(0.06 * sr))
+    return a[i0:i1]
+
+
 def generar(nombre):
     texto = (ESCENAS / f"{nombre}.txt").read_text(encoding="utf-8").strip()
     m, prompt = _cargar()
     partes, sr = [], 24000
     for t in trozos(texto):
-        wavs, sr = m.generate_voice_clone(text=t, language="Spanish", voice_clone_prompt=prompt, temperature=1.0)
-        a = np.asarray(wavs[0], dtype="float32").squeeze()
-        partes += [a, np.zeros(int(PAUSA * sr), dtype="float32")]
+        wavs, sr = m.generate_voice_clone(text=t, language="Spanish", voice_clone_prompt=prompt, temperature=TEMPERATURA)
+        a = recortar(np.asarray(wavs[0], dtype="float32").squeeze(), sr)
+        fin = t.rstrip()[-1:] if t.rstrip() else "."
+        partes += [a, np.zeros(int(PAUSA.get(fin, 0.25) * sr), dtype="float32")]
     audio = np.concatenate(partes[:-1])
     import soundfile as sf
     with tempfile.NamedTemporaryFile(suffix=".wav") as tmp:

@@ -3,7 +3,7 @@ import json, os, time, urllib.parse, datetime as dt
 
 import requests
 
-from comun import secreto, descargar_video, url_directa, texto_completo, ahora
+from comun import secreto, descargar_video, url_directa, url_video, texto_completo, ahora
 import tiktok_web
 
 CALLBACK = "https://explicadoen60s.github.io/callback.html"
@@ -82,6 +82,21 @@ class Instagram:
         return {"access_token": largo, "caduca": _caduca(r["expires_in"]), "user_id": yo["user_id"],
                 "usuario": yo.get("username"), "renovado": ahora().isoformat()}
 
+    @staticmethod
+    def _con_musica(video):
+        """En Instagram va la versión con música (la de TikTok): los reels mudos de fondo se pasan más rápido.
+        Si esa versión no existe, se usa la normal."""
+        if video.startswith("http") or video.endswith("_tiktok.mp4") or not video.endswith(".mp4"):
+            return video
+        alt = video[:-4] + "_tiktok.mp4"
+        try:
+            with requests.get(url_video(alt), stream=True, timeout=60) as r:   # GET: los enlaces firmados no siempre aceptan HEAD
+                if r.status_code == 200:
+                    return alt
+        except Exception:
+            pass
+        return video
+
     def refrescar(self, tok):
         # El token dura 60 días; se renueva cada semana para que nunca caduque.
         hace = ahora() - dt.datetime.fromisoformat(tok.get("renovado", "2000-01-01T00:00:00+00:00"))
@@ -93,6 +108,7 @@ class Instagram:
 
     def publicar(self, post, tok):
         uid, at = tok["user_id"], tok["access_token"]
+        post = {**post, "video": self._con_musica(post["video"])}
         base = {"media_type": "REELS", "caption": texto_completo(post), "share_to_feed": "true", "access_token": at}
         # 1º: subida directa del archivo (no depende de URLs externas); si falla, por URL.
         try:
