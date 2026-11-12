@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| lun 09/11 | 12:00 | youtube | Este cristal se dobla 200.000 veces sin romperse 🤯 Así funci | [✅ publicado](https://youtube.com/shorts/-zj5Kr0MBFk) |
 | lun 09/11 | 13:00 | tiktok | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | tiktok | Se va la luz y tus placas solares se apagan… aunque haga sol | 📲 en tu bandeja de TikTok |
 | lun 09/11 | 16:00 | youtube | Si tuvieras que inventar el cargador del móvil… 🔌 ¿por qué a | [✅ publicado](https://youtube.com/shorts/dBlecn8ge7c) |
@@ -31,7 +30,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://www.instagram.com/reel/DfowLLaCRxJ/) |
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | 📲 en tu bandeja de TikTok |
-| jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | ⏳ pendiente |
+| jue 12/11 | 12:00 | youtube | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://youtube.com/shorts/VAGc0pL2gUQ) |
 | jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | ⏳ pendiente |
 | jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | ⏳ pendiente |
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | ⏳ pendiente |
