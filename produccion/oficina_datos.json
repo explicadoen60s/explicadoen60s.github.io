@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T09:24:13+00:00",
+ "actualizado": "2026-11-12T09:26:50+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1553,
@@ -8,7 +8,7 @@
  "maduros": 31,
  "puestos": {
   "director": {
-   "ahora": "0 guiones esperando tu visto bueno",
+   "ahora": "6 guiones esperando tu visto bueno",
    "pendiente": 4,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -67,7 +67,7 @@
    "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,79× lo normal, frente a 1,05× los demás."
   },
   "estratega": {
-   "ahora": "4 ideas en el banco · tendencias sin actualizar · 3 segundas partes por proponer",
+   "ahora": "0 ideas en el banco · tendencias sin actualizar · 3 segundas partes por proponer",
    "pendiente": 7,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
@@ -477,6 +477,198 @@
     "nivel": "ok",
     "rol": "fotografia",
     "texto": "Regla «primer segundo»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "bcnpluvial": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "215 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "16 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "m30tunel": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "213 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "19 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "avesagrada": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "220 palabras (≈65 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "wifi5ghz": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "213 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "29 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "bombacalor": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "219 palabras (≈64 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "7 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "canalmadrid": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "222 palabras (≈65 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
    },
    {
     "nivel": "ok",
