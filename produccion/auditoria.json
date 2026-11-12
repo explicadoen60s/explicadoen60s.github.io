@@ -948,7 +948,7 @@
    "sub_centro": true
   },
   "frenoavion": {
-   "huella": "089f96480dc61f6e",
+   "huella": "5511a078ccb13de5",
    "duracion": 71.3,
    "voz_ritmo": 3.53,
    "voz_silencio": 9.8,
@@ -957,7 +957,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -15.5,
    "voz_expresividad": 2.0,
-   "voz_gancho": 0.4
+   "voz_gancho": 0.4,
+   "cam_claves": 41,
+   "cam_cada": 1.74,
+   "cam_lente_max": 42,
+   "obj_piezas": 14,
+   "obj_animaciones": 17,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 6,
+   "ov_etiquetas": 8,
+   "ov_contadores": 6,
+   "ov_graficos_min": 11.8,
+   "ov_palabras_clave": 42,
+   "sfx_min": 41.2,
+   "sfx_variedad": 10,
+   "juego_en_escena": false,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "frigorifico": {
    "huella": "8eb26d356ffab24f",

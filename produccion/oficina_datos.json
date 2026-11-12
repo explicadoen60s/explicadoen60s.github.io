@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T18:13:00+00:00",
+ "actualizado": "2026-11-12T19:56:17+00:00",
  "medianas": {
   "tiktok": 995,
   "instagram": 1551,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "7 escenas por plantear · 0 correcciones",
-   "pendiente": 7,
+   "ahora": "6 escenas por plantear · 0 correcciones",
+   "pendiente": 6,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": null,
@@ -31,8 +31,8 @@
    "foco": "Claves de cámara: los vídeos con más de 23 rinden 1,53× lo normal, frente a 1,02× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 7 mezclas por hacer",
-   "pendiente": 7,
+   "ahora": "0 voces generándose · 6 mezclas por hacer",
+   "pendiente": 6,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.4,
@@ -43,11 +43,11 @@
    "foco": "Efectos de sonido por minuto: los vídeos con más de 19,8 /min rinden 1,53× lo normal, frente a 1,03× los demás."
   },
   "editor": {
-   "ahora": "0 en render · 0 esperando tu revisión",
+   "ahora": "1 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 3.81,
+    "valor": 3.82,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
@@ -55,8 +55,8 @@
    "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,36× lo normal, frente a 1,02× los demás."
   },
   "motion": {
-   "ahora": "7 capas de gráficos por montar",
-   "pendiente": 7,
+   "ahora": "6 capas de gráficos por montar",
+   "pendiente": 6,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.0,
@@ -334,7 +334,7 @@
    "vistas": 408824,
    "rel": 140.3,
    "inter": 0.0428,
-   "horas": 54,
+   "horas": 56,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -348,7 +348,7 @@
    "vistas": 53273,
    "rel": 33.01,
    "inter": 0.0349,
-   "horas": 114,
+   "horas": 116,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -362,7 +362,7 @@
    "vistas": 6092,
    "rel": 3.77,
    "inter": 0.0314,
-   "horas": 114,
+   "horas": 116,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -2417,14 +2417,50 @@
     {
      "rol": "sonido",
      "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 41 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 41, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,74 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 42, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
      "metrica": "voz_gancho",
      "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
     }
    ],
    "bcnpluvial": [
