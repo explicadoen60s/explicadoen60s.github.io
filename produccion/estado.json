@@ -2433,7 +2433,7 @@
     "El césped de muchos estadios… no es del todo natural."
    ],
    "guion": "Ves un partido de fútbol… y el césped está perfecto aunque lleva semanas lloviendo. ¿Y si tuvieras que construir tú ese campo? Vamos a cavar. Si plantas hierba sobre la tierra, la lluvia se queda arriba. A los diez minutos, el campo es un barrizal. Así que bajas el suelo casi dos metros. Y lo rellenas por capas: piedras gordas abajo, grava y arena arriba. Bajo todo, una red de tubos con agujeros que se lleva el agua. Pero en invierno, la hierba deja de crecer con el frío. Así que metes más tubos bajo las raíces, con agua caliente. Como una calefacción, pero para el césped. Pero los tacos de los jugadores arrancan la hierba a trozos. Y aquí viene lo curioso… El césped de muchos estadios no es del todo natural. Una máquina clava hilos de plástico en el suelo, uno a uno. Cada hilo baja veinte centímetros. Las raíces de la hierba se enredan en esos hilos, y ya no se arrancan. Solo un cinco por ciento es plástico. El resto, hierba de verdad. Pero dentro del estadio, las gradas tapan el sol. Así que, por la noche, acercan unas rampas de luz enormes. La hierba cree que es de día… y sigue creciendo. Sígueme para más.",
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-09",
    "aprobado": "2026-11-09T19:51:19.217Z",
    "aprobado_por": "Nikoloz_Lekishvili",
@@ -2475,7 +2475,8 @@
      "fase": "escena"
     }
    ],
-   "duracion": 61.9
+   "duracion": 61.9,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "turia",
