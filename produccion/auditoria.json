@@ -268,6 +268,18 @@
    "comentario_en_escena": false,
    "sub_frase": true
   },
+  "avesagrada": {
+   "huella": "e22c1bebb6f45fab",
+   "duracion": 72.8,
+   "voz_ritmo": 3.45,
+   "voz_silencio": 12.5,
+   "voz_pausas_min": 19.8,
+   "voz_pausa_max": 0.51,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.0,
+   "voz_gancho": -0.5
+  },
   "barras": {
    "huella": "6ebc4945b094baaa",
    "duracion": 87.3,
@@ -323,6 +335,18 @@
    "comentario_en_escena": false,
    "sub_frase": true
   },
+  "bcnpluvial": {
+   "huella": "6297154cad34771b",
+   "duracion": 69.2,
+   "voz_ritmo": 3.62,
+   "voz_silencio": 14.2,
+   "voz_pausas_min": 23.4,
+   "voz_pausa_max": 0.52,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.2,
+   "voz_gancho": 0.5
+  },
   "boligrafo": {
    "huella": "ad582396ca778c3d",
    "duracion": 69.1,
@@ -349,6 +373,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": false
+  },
+  "bombacalor": {
+   "huella": "1088a3b98ef960aa",
+   "duracion": 67.1,
+   "voz_ritmo": 3.75,
+   "voz_silencio": 12.9,
+   "voz_pausas_min": 21.5,
+   "voz_pausa_max": 0.53,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.6,
+   "voz_expresividad": 1.9,
+   "voz_gancho": 0.3
   },
   "bombilla": {
    "huella": "6ff896e83db28406",
@@ -487,6 +523,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": true
+  },
+  "canalmadrid": {
+   "huella": "c6798d880cbb0d8f",
+   "duracion": 69.1,
+   "voz_ritmo": 3.61,
+   "voz_silencio": 11.0,
+   "voz_pausas_min": 16.5,
+   "voz_pausa_max": 0.55,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.8,
+   "voz_expresividad": 2.6,
+   "voz_gancho": 0.6
   },
   "cargador": {
    "huella": "fd732c7923383682",
@@ -1239,6 +1287,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": true
+  },
+  "m30tunel": {
+   "huella": "2428ce41c3d1aad0",
+   "duracion": 67.8,
+   "voz_ritmo": 3.5,
+   "voz_silencio": 10.1,
+   "voz_pausas_min": 16.8,
+   "voz_pausa_max": 0.75,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.1,
+   "voz_gancho": 0.4
   },
   "mando": {
    "huella": "f3e62d79f9607d53",
@@ -2430,6 +2490,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": true
+  },
+  "wifi5ghz": {
+   "huella": "f4e09d6d8e14ea69",
+   "duracion": 67.0,
+   "voz_ritmo": 3.57,
+   "voz_silencio": 11.0,
+   "voz_pausas_min": 17.0,
+   "voz_pausa_max": 0.56,
+   "voz_arranque": 0.0,
+   "voz_lufs": -15.7,
+   "voz_expresividad": 2.7,
+   "voz_gancho": 0.4
   }
  }
 }
