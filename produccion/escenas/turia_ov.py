@@ -4,7 +4,7 @@
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("turia")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"valencia", "parque", "nueve", "kilómetros", "río", "turia", "ciudad", "agua", "mil", "novecientos", "cincuenta", "siete",
             "tres", "setecientos", "metros", "cúbicos", "segundo", "cauce", "cinco", "muros", "doce", "ciento", "setenta", "ancho",
             "muro", "tierra", "carreteras", "tren", "puentes", "seco", "vacío", "autopista", "jardín", "campos", "bici", "árboles", "fondo"}

@@ -6,7 +6,7 @@ import math
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("ticket")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"ticket", "súper", "cartera", "tinta", "impresora", "papel", "capa", "polvos", "tinte", "ácido", "blanco", "cabezal",
             "puntos", "ocho", "milímetro", "quinientos", "cien", "grados", "derrite", "negro", "mil", "líneas", "segundo",
             "sol", "calor", "coche", "crema", "letra", "desaparece", "año", "uña", "rascas", "calientas"}

@@ -5,7 +5,7 @@ import math
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("estadio")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"fútbol", "césped", "campo", "cavar", "hierba", "tierra", "lluvia", "diez", "minutos", "barrizal", "dos", "metros", "capas",
             "piedras", "grava", "arena", "tubos", "agujeros", "agua", "invierno", "frío", "raíces", "caliente", "calefacción", "tacos",
             "natural", "máquina", "hilos", "plástico", "veinte", "centímetros", "cinco", "ciento", "gradas", "sol", "noche", "luz",

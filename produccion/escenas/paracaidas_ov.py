@@ -5,7 +5,7 @@ import math
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("paracaidas")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"avión", "doce", "segundos", "doscientos", "kilómetros", "hora", "aire", "arriba", "superficie", "tela", "cuerdas",
             "espalda", "tirón", "mochila", "paracaídas", "pequeñito", "paraguas", "anillas", "apertura", "cúpula", "ala", "celdas",
             "hincha", "rígida", "colchón", "asas", "veintidós", "tres", "metros", "suelo", "frena", "andando", "velocidad"}

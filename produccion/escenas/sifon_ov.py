@@ -5,7 +5,7 @@ import math
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("sifon")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"fregadero", "armario", "tubo", "u", "fontanero", "alcantarilla", "desagüe", "saneamiento", "cloacas", "gases", "puerta",
             "curva", "agua", "tapón", "gas", "cinco", "siete", "centímetros", "grifo", "vacaciones", "mes", "evapora", "cero",
             "diez", "segundos", "anillos", "pendientes", "comida", "desenrosca", "limpiarla"}

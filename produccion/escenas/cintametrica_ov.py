@@ -5,7 +5,7 @@ import math
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("cintametrica")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"cinta", "métrica", "punta", "metal", "suelta", "defecto", "metros", "bolsillo", "acero", "enrollas", "muelle", "espiral",
             "zas", "plana", "palmo", "curvas", "teja", "curva", "rígida", "metro", "mesa", "gancho", "grosor", "milímetro", "pared",
             "suelto", "exacta", "marcas", "botón", "frena"}

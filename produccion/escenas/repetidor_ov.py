@@ -5,7 +5,7 @@ import math
 from _ovbase import *
 from marcas import cargar
 T, DUR = cargar("repetidor")
-SUB_ESTILO = "frase"
+SUB_ESTILO = "centro"
 KEYWORDS = {"repetidor", "wifi", "pasillo", "velocidad", "mitad", "router", "ondas", "pared", "señal", "habitación", "móvil",
             "radio", "escuchar", "hablar", "datos", "canal", "turnos", "dos", "veces", "cien", "megas", "cincuenta", "débil",
             "intermedio", "fuerza", "trucos", "banda", "cable", "acceso", "entera", "uno"}

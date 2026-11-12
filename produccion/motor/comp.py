@@ -243,6 +243,8 @@ def _partir(txt, maxl):
 def pastilla(ctx, t, valor, unidad, a, b, cx, cy, desde=None, dec=0, dur=0.7, size=70):
     """Contador pequeño en una pastilla oscura («9 litros», «120 °C»). Con `desde`, el número cuenta hasta `valor`."""
     if t < a or t > b: return
+    if ESTILO_ACTUAL == "centro" and abs(cy - H * 0.5) < size * 1.35:   # no tapar el subtítulo del centro
+        cy = H * 0.5 - size * 1.35
     al = min(1.0, (t - a) / 0.15, (b - t) / 0.2); sc = back(min(1, (t - a) / 0.3))
     if sc < 1e-3 or al <= 0: return   # escala 0 = matriz no invertible en cairo
     v = valor if desde is None else desde + (valor - desde) * ease(min(1, (t - a) / dur))
