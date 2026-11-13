@@ -1031,6 +1031,18 @@
    "sub_frase": false,
    "sub_centro": true
   },
+  "freidoraire": {
+   "huella": "ea6ff6d318a528d3",
+   "duracion": 68.6,
+   "voz_ritmo": 3.74,
+   "voz_silencio": 18.8,
+   "voz_pausas_min": 27.1,
+   "voz_pausa_max": 0.73,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.2,
+   "voz_expresividad": 3.1,
+   "voz_gancho": 0.2
+  },
   "frenoavion": {
    "huella": "5511a078ccb13de5",
    "duracion": 71.3,
@@ -1308,6 +1320,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": true
+  },
+  "lavar30": {
+   "huella": "8214b738400fffd8",
+   "duracion": 71.6,
+   "voz_ritmo": 3.44,
+   "voz_silencio": 16.8,
+   "voz_pausas_min": 25.1,
+   "voz_pausa_max": 0.54,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 2.9,
+   "voz_gancho": 0.4
   },
   "lavavajillas": {
    "huella": "9ce5f7a48781c06a",
