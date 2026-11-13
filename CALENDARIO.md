@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 10/11 | 16:00 | tiktok | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | 📲 en tu bandeja de TikTok |
-| mar 10/11 | 16:00 | youtube | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | [✅ publicado](https://youtube.com/shorts/WkeQNbG7Tyk) |
 | mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | [✅ publicado](https://www.instagram.com/reel/DfkbKTelOyj/) |
 | mar 10/11 | 18:00 | tiktok | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 21:00 | tiktok | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | 📲 en tu bandeja de TikTok |
