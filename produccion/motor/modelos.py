@@ -247,6 +247,19 @@ def rollo_papel(loc, s=1.0, parent=None):
     cilindro(0.012 * s, 0.16 * s, (0, 0, 0), (0.82, 0.84, 0.88), e, rot=(0, math.pi / 2, 0), r=0.004 * s)
     return e
 
+def nevera(loc, s=1.0, parent=None, rot=0.0, color=None, unique=False):
+    """Frigorífico combi cerrado: cuerpo, puerta del congelador abajo, puerta grande arriba, tiradores y patas.
+    El frontal mira hacia -Y. La puerta grande se llama «puerta» (búscala en e.children para cambiarle el color)."""
+    e = empty(loc, parent); e.rotation_euler = (0, 0, rot); c = color or (0.95, 0.96, 0.97)
+    caja((0.6 * s, 0.62 * s, 1.75 * s), (0, 0.01 * s, 0.905 * s), tuple(v * 0.93 for v in c), e, r=0.03 * s)
+    p = caja((0.58 * s, 0.04 * s, 1.08 * s), (0, -0.31 * s, 1.21 * s), c, e, r=0.02 * s, unique=unique); p.name = "puerta"
+    caja((0.58 * s, 0.04 * s, 0.6 * s), (0, -0.31 * s, 0.35 * s), c, e, r=0.02 * s)
+    m = (0.70, 0.72, 0.76)
+    caja((0.025 * s, 0.03 * s, 0.32 * s), (0.24 * s, -0.345 * s, 1.0 * s), m, e, r=0.01 * s)
+    caja((0.025 * s, 0.03 * s, 0.2 * s), (0.24 * s, -0.345 * s, 0.52 * s), m, e, r=0.01 * s)
+    for x in (-0.24, 0.24): cilindro(0.025 * s, 0.03 * s, (x * s, -0.22 * s, 0.015 * s), (0.25, 0.25, 0.27), e)
+    return e
+
 # ---------------- salón y dormitorio ----------------
 def sofa(loc, s=1.0, parent=None, color=None, rot=0.0, ancho=1.4):
     """Sofá de tres plazas con respaldo, brazos y cojines. El respaldo queda en +Y."""

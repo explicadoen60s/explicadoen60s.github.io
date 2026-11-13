@@ -3798,7 +3798,7 @@
     "cocina",
     "comofunciona"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-13",
    "idea": "error-nevera",
    "reglas": {
@@ -3858,6 +3858,33 @@
      "propuesta": "Cambia la primera frase «¿Guardas la leche en la puerta de la nevera?» por «¡Guardas la leche… en la puerta!». Son 6 palabras, con exclamación y pausa antes del dato. Deja la segunda frase como está: «¡Es el peor sitio de toda la nevera!». Así el total baja a 218 palabras. Si el director quiere mantener la pregunta, vale «¿Guardas la leche… en la puerta?», también con 6 palabras.",
      "aplicada": true,
      "respuesta": "Director: aplicado con la pregunta: «¿Guardas la leche… en la puerta? ¡Es el peor sitio de tu nevera!» (217 palabras, primera frase de 6)."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los planos del cartón con la puerta cerrada ponían la cámara delante de la puerta y se veía su cara de fuera; la luz de estudio teñía de granate las caras que miran a la cámara.",
+     "propuesta": "Cámara detrás del plano de la puerta (y > 0) mirando por la pared cortada, luz girada a 60° y planos que se mantienen hasta 0,3-0,5 s antes de cada cambio.",
+     "aplicada": true,
+     "respuesta": "Aplicado: cartón, bacterias y termómetro de la puerta se ven por el corte; cam_cada 1,94 s."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "La tarjeta del juego se quedaba en el centro desde la revelación (36,6 s) hasta el final y tapaba las pastillas de 6 de 10, días y °C; la de 1,9 °C chocaba con el mini.",
+     "propuesta": "La tarjeta se va al empezar «seis de cada diez» y vuelve en «¿Te has acercado?»; pastillas por debajo de y=560 junto a la esquina del mini.",
+     "aplicada": true,
+     "respuesta": "Aplicado con dos llamadas a cifra_juego; 12 contadores en total."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "Los viajes de cámara entre la nevera y la isla de las 200 neveras duraban 2 s y pasaban por la planta y la mesita.",
+     "propuesta": "Mantener el plano y hacer el viaje en 0,3-0,5 s, como un barrido.",
+     "aplicada": true,
+     "respuesta": "Aplicado con hold en las claves de 26,1, 28,7, 33,9 y 47,7 s."
     }
    ],
    "seo": {
@@ -3898,6 +3925,814 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-13T17:28:31.860Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "cargadorvacio",
+   "formato": "A",
+   "titulo": "¿Tu cargador gasta luz sin el móvil enchufado? 🔌 Mira cuántos vatios",
+   "guion": "¿Cuántos vatios gasta tu cargador enchufado sin móvil? Escribe tu número antes de que acabe. ¡Míralo… ahí, en la pared! Dentro, un interruptor electrónico corta la corriente miles de veces por segundo. Así baja… de doscientos treinta voltios a cinco voltios. Con tu móvil puesto, pasa de casi nada a tres vatios. Pero sin móvil, el interruptor casi no trabaja. Así que apenas se calienta. Un cargador es un pequeño transformador, y si no alimenta nada, descansa. Y aquí viene lo curioso… Gasta unos cero coma dos vatios. En todo un año… menos de dos kilovatios hora. Menos de un euro al año. Una bombilla led de diez vatios gasta eso en una semana. Pero ojo… Un cargador inalámbrico puede gastar hasta ocho veces más: de cero coma dos a casi dos vatios. Y los viejos, los que notas templados, todavía más. Porque pierden energía en forma de calor, sin cargar nada. ¿Qué haces? Los modernos, déjalos en paz. Enchufa el inalámbrico y los viejos a una regleta con interruptor, y apágala esta noche. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Y ahora ya sabes cuánto gasta… el cargador de tu pared.",
+   "texto": "Un cargador moderno enchufado sin móvil gasta unos 0,2 vatios: menos de 2 kWh al año. El inalámbrico y los viejos, bastante más: regleta con interruptor. Envíaselo a ese amigo que desenchufa todos los cargadores por miedo a la factura. ¿Cuál era tu número? 👇",
+   "tags": [
+    "cargador",
+    "consumo",
+    "ahorro luz",
+    "trucos de casa",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "idea": "error-cargador",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo tiene un cargador enchufado en la pared de casa y se pregunta si gasta.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Primer plano del cargador en la pared con el interruptor interno chispeando y un vatímetro que baja de 3 a 0,2 W cuando se saca el móvil.",
+    "ensenar": 9,
+    "ensenar_nota": "Contadores de 230 a 5 V, de 3 W a 0,2 W, kWh al año (de 0 a menos de 2), inalámbrico de 0,2 a casi 2 W y bombilla de 10 W encendida una semana."
+   },
+   "ganchos": [
+    "¿Cuántos vatios gasta tu cargador enchufado sin móvil?",
+    "¿Tu cargador gasta luz aunque no cargue nada?",
+    "Desenchufas el cargador por miedo a la factura… ¿sirve de algo?"
+   ],
+   "juego": {
+    "pregunta": "¿Cuántos vatios gasta tu cargador enchufado sin móvil?",
+    "valor": 0.2,
+    "unidad": "W SIN MÓVIL",
+    "dec": 1,
+    "pregunta_en": "¿Cuántos vatios gasta tu cargador",
+    "revela_en": "Gasta unos cero coma dos vatios"
+   },
+   "fuentes": [
+    "https://www.xataka.com/energia/consumo-fantasma-mitos-verdades-y-soluciones/amp",
+    "https://www.idealista.com/news/node/903920"
+   ],
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Objeto de pared que todos tienen, pero la cifra (0,2 W) es minúscula, justo lo contrario de la cifra enorme, y la creencia que corrige («gasta mucho») no la tiene casi nadie con fuerza. El gancho es de 8 palabras y está en el límite.",
+     "propuesta": "Pon la cifra enorme en la revelación: tras «cero coma dos vatios» añade «Sumando todos los cargadores de España, la factura se multiplica por millones», o cambia el juego a «¿Cuántos euros al año?» (menos de uno) para que el contraste con tus 10 W de bombilla sea la sorpresa. Recorta el gancho a «¿Cuánto gasta tu cargador sin móvil?».",
+     "aplicada": false,
+     "respuesta": "Mantengo los vatios: sin unidad la pregunta del juego queda ambigua, y no tengo una cifra comprobada de todos los cargadores de España; el contraste con la bombilla ya está y he añadido «al año» al euro."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«Cargador» suena en la primera frase y está en título y pie. «Consumo en espera» es lo que la gente teclea; no aparece en el guion, pero va en el pie de Instagram.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Hay mecanismo y cifras (230 V a 5 V, 3 W frente a 0,2 W, ocho veces más), pero 0,2 W es una cifra minúscula y sin escala en pantalla es difícil de ver. Los «cero coma dos» y «ocho veces» son comparaciones, no mecanismo.",
+     "propuesta": "Pon un vatímetro grande enchufado entre la pared y el cargador: con móvil sube a 3,0 W y sin móvil baja a 0,2 W con una barra casi vacía. Haz que la bombilla LED de 10 W se llene a la vez que el contador anual (menos de 2 kWh). Para la comparación inalámbrico/viejo, usa dos vatímetros lado a lado (0,2 W frente a 2 W) y colorea de rojo el calor del viejo con flecha de calor. Mini de cifra_juego arriba a la izquierda para no tapar el vatímetro.",
+     "aplicada": false,
+     "respuesta": "De acuerdo, pero es para la escena: queda anotado en `nota_escena` y se aplicará cuando tenga voz."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "207 palabras, unos 61-63 s: duración bien. La primera frase tiene 8 palabras, pero el gancho no lleva «¡!». «De cero a menos de dos kilovatios hora» y «de casi nada a tres vatios» se oyen raros. La voz tropieza con «cero coma dos» en la cifra del juego.",
+     "propuesta": "Cambia «Míralo, ahí, en la pared.» por «¡Míralo… ahí, en la pared!». Cambia «En todo un año, de cero a menos de dos kilovatios hora» por «En todo un año… menos de dos kilovatios hora». Escribe la cifra como «cero coma dos vatios» con «…» delante, sin efecto encima. Pon el sfx_cifra en la pausa antes de «Gasta», no sobre el número.",
+     "aplicada": true,
+     "respuesta": "Aplicados los dos cambios de texto; lo del efecto, en la escena."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuántos vatios gasta tu cargador enchufado sin móvil? 🔌",
+     "texto": "¿Cuántos vatios gasta tu cargador sin móvil? Escribe tu número y mira la respuesta. Envíaselo a ese amigo que desenchufa todos los cargadores. ¿Cuál era tu número? 👇",
+     "tags": [
+      "cargador",
+      "consumo",
+      "ahorro luz",
+      "trucos de casa",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Cargador enchufado sin móvil: cuánto gasta de verdad",
+     "texto": "Cargador enchufado sin móvil: ¿gasta luz? Un cargador moderno consume unos 0,2 vatios en espera, menos de 2 kWh al año. El inalámbrico y los viejos gastan bastante más, y ahí sí compensa una regleta con interruptor. Envíaselo a quien desenchufa el cargador por miedo a la factura. ¿Cuál era tu número? 👇 #cargador #consumo #ahorroluz #trucosdecasa #comofunciona",
+     "tags": [
+      "cargador",
+      "consumo",
+      "ahorroluz",
+      "trucosdecasa",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "¿Gasta luz un cargador sin móvil? Cómo funciona 🔌",
+     "texto": "Cómo funciona un cargador y cuánto consume enchufado sin móvil: unos 0,2 vatios. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "cargador",
+      "consumo en espera",
+      "ahorro luz",
+      "trucos de casa",
+      "comofunciona"
+     ]
+    }
+   },
+   "nota_escena": "Motion: vatímetro grande entre pared y cargador (3,0 W con móvil → 0,2 W sin él), bombilla de 10 W que se llena con el contador anual, dos vatímetros lado a lado (0,2 frente a 2 W) y flecha de calor roja en el viejo; sfx_cifra en la pausa antes de «Gasta»."
+  },
+  {
+   "id": "desaladora",
+   "formato": "C",
+   "serie": true,
+   "titulo": "¿Cómo funciona la desaladora del Llobregat de Barcelona? 💧",
+   "guion": "¿Cuánta agua bebible hace la desaladora del Llobregat? Escribe tus metros cúbicos al día antes de que acabe. Barcelona tiene pocos ríos y poca lluvia. Pero tiene el mar a un paso. Así que sacas el agua del mar. Pero lleva sal, y así no se puede beber. Así que usas una membrana tan fina que solo deja pasar el agua. Se llama ósmosis inversa. Pero el agua no la atraviesa sola. Así que una bomba la empuja… ¡hasta sesenta bar! ¡Más de veinticinco veces la presión de la rueda de tu coche! Pero de cada cien litros de mar, salen cuarenta y cinco de agua potable. Y el resto vuelve al mar, con más sal. Así que recuperas la presión de esa salmuera… y ahorras la mitad de la energía. Y aquí viene lo curioso… La planta, abierta en dos mil nueve, saca hasta doscientos mil metros cúbicos al día. Son… ochenta piscinas olímpicas cada día. Al año, sesenta hectómetros cúbicos. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes cuánta agua bebible hace… la desaladora del Llobregat.",
+   "texto": "La desaladora del Llobregat (El Prat) convierte agua de mar en potable: hasta 200.000 m³ al día, unas 80 piscinas olímpicas. Dime en qué ciudad vives y qué obra quieres ver. Envíaselo a ese amigo que vive en Barcelona. ¿Cuál era tu número? 👇",
+   "tags": [
+    "barcelona",
+    "desaladora",
+    "agua",
+    "ingenieria",
+    "lo que esconde tu ciudad"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "tendencia": "Lo que esconde Barcelona: la desaladora que le da agua",
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "El agua del grifo de Barcelona sale en parte de esa planta; el espectador conecta con su grifo.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Plano del mar entrando por una tubería y las bombas arrancando, con la maqueta de la planta sobre su isla cortada.",
+    "ensenar": 9,
+    "ensenar_nota": "Manómetro de 1 a 60 bar con una rueda de coche al lado, 100 litros que pasan a 45, contador de 0 a 200.000 m³ al día y 80 piscinas que se llenan."
+   },
+   "ganchos": [
+    "¿Cuánta agua bebible hace la desaladora del Llobregat?",
+    "El agua de tu grifo en Barcelona… ¿es de mar?",
+    "¿Cómo bebe Barcelona agua del mar?"
+   ],
+   "juego": {
+    "pregunta": "¿Cuánta agua bebible hace la desaladora del Llobregat?",
+    "valor": 200000,
+    "unidad": "M³ AL DÍA",
+    "dec": 0,
+    "pregunta_en": "¿Cuánta agua bebible hace",
+    "revela_en": "La planta, abierta en dos"
+   },
+   "fuentes": [
+    "https://pemb.cat/en/strategic-projects/conca_del_llobregat_desalination_plant/94",
+    "https://www.iagua.es/blogs/ignasi-servia-goixart/gracias-atl-producir-agua-desalada-visita-itam-y-nuevo-dataset"
+   ],
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Serie «Lo que esconde tu ciudad», formato C, con cifra enorme y comparable (200.000 m³/día = 80 piscinas; presión 25 veces la de la rueda del coche) y pide la ciudad del espectador. Datos coherentes con la planta del Llobregat (2009, 200.000 m³/día).",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«Desaladora del Llobregat» suena a los 2-3 s y el título de estado lleva «cómo funciona». Nicho local, pero «desaladora» y «ósmosis inversa» se buscan.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Todas las cifras se pueden enseñar: bomba de 1 a 60 bar con manómetro frente a rueda de coche, 100 L de mar que se parten en 45 potable y 55 salmuera, y 80 piscinas que se llenan para los 200.000 m³. Los datos principales cuadran con lo conocido sobre la planta: 200.000 m³/día, 60 hm³/año, 2009.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "206 palabras, unos 61 s: bien. Hay seis «Así que» o «Pero» seguidos, y la voz sintética los lee con el mismo tono. «De uno a sesenta bar» es un contador que suena torpe. No hay ninguna exclamación en las dos primeras frases.",
+     "propuesta": "Cambia «una bomba la empuja de uno a sesenta bar» por «una bomba la empuja… ¡a sesenta bar!». Cambia «Más de veinticinco veces» por «¡Más de veinticinco veces la presión de la rueda de tu coche!». Pon «…» antes de «ochenta piscinas olímpicas». En «saca hasta doscientos mil metros cúbicos al día», pon la pausa antes de la cifra y ningún efecto durante ella.",
+     "aplicada": true,
+     "respuesta": "Aplicado («¡hasta sesenta bar!», exclamación y «…» antes de las piscinas); los «pero/así que» son la estructura del formato C y se quedan."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánta agua bebible hace la desaladora del Llobregat? 💧",
+     "texto": "¿Cuánta agua bebible hace la desaladora del Llobregat? Escribe tus metros cúbicos al día. Dime en qué ciudad vives y te cuento qué esconde. ¿Cuál era tu número? 👇",
+     "tags": [
+      "barcelona",
+      "desaladora",
+      "agua",
+      "ingenieria",
+      "lo que esconde tu ciudad"
+     ]
+    },
+    "instagram": {
+     "titulo": "Desaladora del Llobregat: así convierte el mar en agua potable",
+     "texto": "Desaladora del Llobregat, en El Prat: convierte agua de mar en potable con ósmosis inversa, hasta 200.000 m³ al día, unas 80 piscinas olímpicas. Dime en qué ciudad vives y qué obra quieres ver. Envíaselo a quien viva en Barcelona. ¿Cuánta agua dijiste tú? 👇 #desaladora #barcelona #agua #ingenieria #loqueesconde",
+     "tags": [
+      "desaladora",
+      "barcelona",
+      "agua",
+      "ingenieria",
+      "loqueesconde"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona una desaladora: la del Llobregat, Barcelona 💧",
+     "texto": "Cómo funciona la desaladora del Llobregat (El Prat): ósmosis inversa y hasta 200.000 m³ de agua potable al día. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "desaladora",
+      "osmosis inversa",
+      "barcelona",
+      "agua potable",
+      "comofunciona"
+     ]
+    }
+   }
+  },
+  {
+   "id": "lavar30",
+   "formato": "A",
+   "titulo": "¿Lavas a 60 grados? 🌡️ ¿Cuánta luz de tu lavadora es solo calentar agua?",
+   "guion": "¿Cuánta luz gasta tu lavadora solo calentando agua? Escribe tu número antes de que acabe. Giras el mando y eliges sesenta grados. Dentro, una resistencia se pone al rojo bajo el agua. El motor, en cambio, gira con poca fuerza. Pero calentar agua es carísimo. Subir el agua de fría a sesenta grados cuesta muchísima energía. Mira una lavadora de ocho kilos, con algodón. De veinte a sesenta grados… el gasto se multiplica por más de cuatro: de cero coma treinta y tres a uno coma cinco kilovatios hora. Y aquí viene lo curioso… Entre el ochenta y el ochenta y cinco por ciento de la energía se va en calentar el agua. Casi todo lo que gastas es la resistencia. Si bajas de sesenta a cuarenta grados, ahorras unos sesenta y dos kilovatios hora al año. Con cuatro coladas por semana. Pero ¿y la limpieza? El calor también desinfecta. Así que guarda los sesenta para toallas o sábanas. ¿Qué haces? Gira ahora el mando a cuarenta grados. Mismo lavado, y menos luz. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Y ahora ya sabes cuánta luz gasta… tu lavadora calentando agua.",
+   "texto": "Entre el 80 y el 85 % de la energía de tu lavadora es calentar el agua. Bajar de 60 a 40 grados ahorra unos 62 kWh al año. Envíaselo a ese amigo que lava todo a 60. ¿Cuál era tu número? 👇",
+   "tags": [
+    "lavadora",
+    "ahorro luz",
+    "trucos de casa",
+    "consumo",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "idea": "error-lavadora",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "La lavadora se usa varias veces por semana y el mando de temperatura lo toca todo el mundo.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Primer plano de la mano girando el mando a 60 con la resistencia al rojo bajo el agua en el corte del tambor.",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de kWh de 0,33 (20 °C) a 1,5 (60 °C), ×4, barra de agua caliente al 80-85 % y ahorro anual de 62 kWh al bajar de 60 a 40."
+   },
+   "ganchos": [
+    "¿Cuánta luz gasta tu lavadora solo calentando agua?",
+    "¿Lavas a sesenta grados? Estás pagando una resistencia.",
+    "Tu lavadora gasta más en calentar que en lavar."
+   ],
+   "juego": {
+    "pregunta": "¿Cuánta luz gasta tu lavadora solo calentando agua?",
+    "valor": 80,
+    "unidad": "% EN CALENTAR AGUA",
+    "dec": 0,
+    "pregunta_en": "¿Cuánta luz gasta tu lavadora",
+    "revela_en": "Entre el ochenta y el ochenta"
+   },
+   "fuentes": [
+    "https://selectra.es/energia/noticias/lavadora-2026-30-40-grados-ahorro-temperatura",
+    "https://www.consumer.es/economia-domestica/servicios-y-hogar/consejos-para-ahorrar-energia-haciendo-la-colada.html"
+   ],
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Es el patrón ganador: mando de tu lavadora, error común (lavar a 60) y acción inmediata («gira el mando a cuarenta»), con cifras que cambian (0,33 a 1,51 kWh, 80 % en calentar). Se comparte con quien lava a 60.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«Lavadora» suena en la primera frase y «lavar a 60 grados» es una búsqueda real. Es patrón «lo estás haciendo mal», pero aplico la negación de TikTok a freidoraire y bateria100 (los dos próximos, según mi acuerdo).",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Es el mejor para regla 3: mando que gira de 60 a 40, resistencia al rojo, contador de kWh (0,33 / 1,21 / 1,51) y una barra de 80-85 % que se llena como cifra del juego. Todo se ve cambiar en pantalla y el objeto está en casa.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "206 palabras, unos 61 s: bien. La frase «de cero coma treinta y tres a uno coma cincuenta y uno kilovatios hora. A cuarenta, uno coma veintiuno» es la peor para la voz: muchos decimales seguidos, que se oyen como un trabalenguas y que nadie va a retener.",
+     "propuesta": "Cambia la frase por «De veinte a sesenta grados, el gasto se multiplica por cuatro y medio… de uno coma cincuenta kilovatios hora, frente a cero coma treinta y tres.» Quita «A cuarenta, uno coma veintiuno». Cambia «Entre el ochenta y el ochenta y cinco por ciento» por «¡Casi el ochenta por ciento de la energía se va en calentar el agua!». La revelación del juego es el ochenta, así que alinéala con esa frase.",
+     "aplicada": true,
+     "respuesta": "Aplicado el cambio de los decimales («se multiplica por más de cuatro»); mantengo «entre el ochenta y el ochenta y cinco», que es lo que dicen las fuentes, y «casi» lo rebajaría."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánta luz gasta tu lavadora solo calentando agua? 🌡️",
+     "texto": "¿Cuánta luz gasta tu lavadora solo calentando agua? Escribe tu número. Envíaselo a ese amigo que lava todo a 60. ¿Cuál era tu número? 👇",
+     "tags": [
+      "lavadora",
+      "ahorro luz",
+      "trucos de casa",
+      "consumo",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Lavadora a 60 grados: cuánta luz gasta de verdad",
+     "texto": "Lavadora a 60 grados: entre el 80 y el 85 % de su energía se va en calentar el agua. Bajar de 60 a 40 grados ahorra unos 62 kWh al año, y los 60 déjalos para toallas y sábanas. Envíaselo a quien lava todo a 60. ¿Cuánto creías que gastaba? 👇 #lavadora #ahorroluz #trucosdecasa #consumo #comofunciona",
+     "tags": [
+      "lavadora",
+      "ahorroluz",
+      "trucosdecasa",
+      "consumo",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "¿Lavar a 60 grados gasta más? Cómo funciona la lavadora 🌡️",
+     "texto": "Cómo funciona tu lavadora y por qué calentar el agua es el 80 % de su consumo: lavar a 40 grados ahorra unos 62 kWh al año. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "lavadora",
+      "lavar a 60 grados",
+      "ahorro luz",
+      "consumo",
+      "comofunciona"
+     ]
+    }
+   }
+  },
+  {
+   "id": "bateria100",
+   "formato": "A",
+   "titulo": "¿Cargas el móvil al 100 % cada noche? 🔋 ¿Cuánta batería pierde en un año?",
+   "guion": "¿Cuánta batería pierde tu móvil lleno cada noche? Escribe tu número, en porcentaje, antes de que acabe. Lo enchufas a las once de la noche. A las dos de la madrugada… ya está al cien por cien. ¡Y se queda ahí, apretado, horas y horas! Y lo repites trescientas sesenta y cinco noches. Dentro, el litio se aprieta contra el grafito. Cuanto más lleno, más tensión soporta la celda. Esa tensión alta machaca poco a poco el electrolito. En laboratorio, una celda cargada del todo, a cuatro coma dos voltios, aguanta unos quinientos ciclos… ¡Con cuatro voltios, más de mil! Y aquí viene lo curioso… Una celda guardada llena durante un año… pierde un veinte por ciento de capacidad. Guardada al cuarenta por ciento, pierde solo un cuatro. Pero ojo con el calor. A sesenta grados, una celda llena cae al sesenta por ciento en tres meses. Así que no la dejes cargando bajo la almohada. ¿Qué haces? Abre ahora los ajustes de batería y activa el límite de carga al ochenta por ciento. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Y ahora ya sabes cuánta batería pierde… tu móvil lleno cada noche.",
+   "texto": "Una batería de litio guardada al 100 % pierde un 20 % de capacidad en un año; al 40 %, solo un 4 %. Activa el límite de carga de tu móvil. Envíaselo a ese amigo que carga el móvil al 100 % cada noche. ¿Cuál era tu número? 👇",
+   "tags": [
+    "bateria",
+    "movil",
+    "litio",
+    "trucos de movil",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "idea": "error-movil100",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Casi todos cargan el móvil de noche hasta el cien por cien.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Primer plano del móvil conectado con el porcentaje subiendo a 100 y el corte de la celda con el litio apretándose en el grafito.",
+    "ensenar": 9,
+    "ensenar_nota": "Contadores de 300-500 a 850-1.500 ciclos, capacidad de 100 a 80 % (llena) frente a 96 % (al 40 %) y de 100 a 60 % a 60 °C en tres meses."
+   },
+   "ganchos": [
+    "¿Cuánta batería pierde tu móvil lleno cada noche?",
+    "¿Cargas el móvil al cien por cien? Mira lo que le haces.",
+    "Tu móvil duerme lleno… y su batería lo paga."
+   ],
+   "juego": {
+    "pregunta": "¿Cuánta batería pierde tu móvil lleno cada noche?",
+    "valor": 20,
+    "unidad": "% MENOS EN UN AÑO",
+    "dec": 0,
+    "pregunta_en": "¿Cuánta batería pierde tu móvil",
+    "revela_en": "Una celda guardada llena durante"
+   },
+   "fuentes": [
+    "https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries"
+   ],
+   "nota_escena": "Cifras de celdas en laboratorio: rótulo «SEGÚN LABORATORIO». Motion: celda en corte con iones (bolitas) contra el grafito, voltímetro 4,2 / 4,0 V, dos barras de ciclos, pastillas 80 % y 96 %; el 60 °C como termómetro sin pastilla.",
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Móvil en la mano, hábito diario (cargar a las 11 y dejarlo al 100 %) y acción concreta (límite del 80 %). Cifras que cambian: 20 % frente a 4 % de pérdida, 300-500 frente a 850-1.500 ciclos. Muy enviable.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«Móvil» y «batería» suenan en los primeros 2 s. «Cargar al 100 %» y «límite de carga» son búsquedas frecuentes y salen en pie y YouTube. Lleva negación en el título de TikTok (acuerdo vigente); el guion lo confirma.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Las cifras de ciclos (300-500 frente a 850-1.500) y de capacidad (20 % frente a 4 %) se pueden enseñar, pero la frase del 60 °C con el 60 % en tres meses y las tensiones 4,2 V / 4,0 V son muchas cifras seguidas, y el litio apretado en el grafito es difícil de ver.",
+     "propuesta": "Enseña una celda en corte con iones de litio como bolitas que se apretan contra el grafito y un voltímetro que marca 4,2 V frente a 4,0 V. Pon dos barras de vida (ciclos) lado a lado que se recortan en el momento de la voz. Para el año, pon el 100 % y el 40 % con una pastilla que baja a 80 % y 96 %. Quita el 60 °C de la escena o muéstralo como termómetro rojo sin pastilla de cifra, para que la pastilla del juego sea la más visible.",
+     "aplicada": true,
+     "respuesta": "Simplificada la frase de los ciclos (quinientos frente a más de mil); el resto es para la escena y queda en `nota_escena`."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "210 palabras, unos 62 s: bien. «Cuatro coma dos voltios» frente a «cuatro voltios» y «de trescientos a quinientos ciclos» frente a «de ochocientos cincuenta a mil quinientos» son demasiadas cifras en una sola frase. La voz las lee sin entonación y los efectos acabarían pisándolas.",
+     "propuesta": "Cambia las dos frases de los voltios por «Cargada del todo, a cuatro coma dos voltios, aguanta unos quinientos ciclos… ¡con un poco menos de carga, más de mil!». Pon «…» antes de «pierde un veinte por ciento» y deja esa cifra sin efecto. Escribe «ochenta por ciento» tal cual, sin símbolo. En el gancho, cambia «Y se queda ahí, apretado, horas y horas.» por «¡Y se queda ahí, apretado, horas y horas!».",
+     "aplicada": true,
+     "respuesta": "Aplicado, manteniendo «en laboratorio» y «con cuatro voltios» para no perder el dato."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánta batería pierde tu móvil lleno cada noche? No es tan inocente 🔋",
+     "texto": "¿Cuánta batería pierde tu móvil lleno cada noche? Escribe tu número en porcentaje. Envíaselo a ese amigo que carga el móvil al 100 % cada noche. ¿Cuál era tu número? 👇",
+     "tags": [
+      "bateria",
+      "movil",
+      "litio",
+      "trucos de movil",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Cargar el móvil al 100 % cada noche: lo que le hace a la batería",
+     "texto": "Cargar el móvil al 100 % cada noche castiga la batería: una celda de litio guardada llena pierde un 20 % de capacidad en un año, y al 40 %, solo un 4 %. Activa el límite de carga al 80 % en ajustes. Envíaselo a quien carga el móvil al 100 % cada noche. ¿Cuánto creías que perdía? 👇 #bateria #movil #litio #trucosdemovil #comofunciona",
+     "tags": [
+      "bateria",
+      "movil",
+      "litio",
+      "trucosdemovil",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "¿Cargar el móvil al 100 % estropea la batería? Cómo funciona 🔋",
+     "texto": "Cómo funciona la batería de litio de tu móvil y por qué conviene limitar la carga al 80 %: llena pierde un 20 % de capacidad al año. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "bateria movil",
+      "cargar al 100",
+      "litio",
+      "limite de carga",
+      "comofunciona"
+     ]
+    }
+   }
+  },
+  {
+   "id": "tunelave",
+   "formato": "C",
+   "serie": true,
+   "titulo": "¿Cómo funciona el túnel del AVE entre Atocha y Chamartín? 🚄",
+   "guion": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín? Escribe tu número antes de que acabe. Madrid tenía dos redes de alta velocidad. Los trenes del sur llegaban a Atocha. Los del norte, a Chamartín. Pero no se tocaban. Así que, para seguir viaje, tenías que cambiar de estación. Hay que unirlas por debajo. Pero bajo el centro hay metro, colectores y cimientos. Así que bajas… ¡hasta cincuenta y cinco metros! Más hondo que un edificio de dieciocho plantas. Pero la tierra es blanda y la calle no puede hundirse. Así que usas una tuneladora de presión de tierras, que sujeta el terreno mientras excava. Y aquí viene lo curioso… El túnel mide siete coma tres kilómetros. Y lleva vías de ancho internacional, como el AVE. Lo abrieron en julio de dos mil veintidós. Costó trescientos treinta y ocho millones de euros. Y los trenes lo cruzan a ciento veinte kilómetros por hora, como máximo. Ahora, de Galicia a Andalucía, ya no te bajas del tren. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes cuántos kilómetros de túnel unen… Atocha con Chamartín.",
+   "texto": "El túnel del AVE bajo Madrid mide 7,3 km, baja hasta 55 m y une por fin las líneas del sur y del norte. Dime en qué ciudad vives y qué obra quieres ver. Envíaselo a ese amigo que ha cambiado de estación en Madrid. ¿Cuál era tu número? 👇",
+   "tags": [
+    "madrid",
+    "tunel",
+    "ave",
+    "alta velocidad",
+    "lo que esconde tu ciudad"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "tendencia": "Lo que esconde Madrid: el túnel del tren bajo el centro",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Obra bajo el centro de Madrid que el espectador madrileño usa o ha oído nombrar; ciudad cercana a su experiencia.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Tuneladora girando en primer plano y avanzando bajo una maqueta de calle de Madrid cortada.",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de profundidad de 0 a 55 m, km del túnel hasta 7,3, euros hasta 338 millones y velocímetro hasta 120 km/h; dos redes de vías que se unen."
+   },
+   "ganchos": [
+    "¿Cuántos kilómetros de túnel unen Atocha con Chamartín?",
+    "Bajo el centro de Madrid pasa un AVE… ¿por dónde?",
+    "¿Cómo une Madrid sus dos redes de alta velocidad?"
+   ],
+   "juego": {
+    "pregunta": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín?",
+    "valor": 7.3,
+    "unidad": "KM DE TÚNEL",
+    "dec": 1,
+    "pregunta_en": "¿Cuántos kilómetros de túnel",
+    "revela_en": "El túnel mide siete coma"
+   },
+   "fuentes": [
+    "https://www.railwaygazette.com/infrastructure/madrid-tunnel-unites-spains-standard-gauge-high-speed-networks/62041.article",
+    "https://londonreconnections.com/e338m-madrid-high-speed-line-connector-tunnel-opens-railwaynews/"
+   ],
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Serie correcta y formato C, pero 7,3 km no es una cifra enorme comparable con algo del espectador, y solo toca a madrileños. Los datos (7,3 km, 1.435 mm, 338 M€, julio de 2022) hay que comprobarlos antes de salir.",
+     "propuesta": "Compara la cifra en la revelación: «Siete coma tres kilómetros: como ir desde Sol hasta Chamartín andando por debajo de la Castellana», o cambia el juego a «¿A cuántos metros bajo tus pies pasa el AVE?» (55 m, más profundo que un edificio de quince plantas). Verifica con búsqueda web el coste y la fecha de apertura antes de dejarlo en propuesto.",
+     "aplicada": true,
+     "respuesta": "Aplico la comparación de la profundidad con un edificio (dieciocho plantas, que cuadra con 55 m a 3 m por planta); coste, fecha y longitud ya estaban comprobados (Railway Gazette, London Reconnections). No uso Sol–Chamartín porque la distancia no coincide."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«Túnel», «Atocha» y «Chamartín» suenan a los 3 s y están en título y pie. Es un vídeo largo: la pregunta debe ir tal cual en la primera frase.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Hay buenas cifras (7,3 km, profundidad, 120 km/h), pero «el gasto sube de cero a 338 millones» y los 1.435 mm de ancho de vía son difíciles de enseñar como mecanismo. El túnel de 7,3 km no cabe entero en un plano si no se recorre.",
+     "propuesta": "Haz el túnel como un corte longitudinal con la tuneladora avanzando y un contador de km que sube a 7,3 sobre el trazado Atocha-Chamartín, y un perfil de profundidad que baja hasta el máximo. Para el dinero, usa una pastilla de euros pequeña junto a la tuneladora, o quítala del guion. Cambia la frase del ancho de vía por la del tren que cruza a 120 km/h con velocímetro. Comprueba con búsqueda web la profundidad máxima antes de entregar la escena, porque «cincuenta y cinco metros» no la he verificado.",
+     "aplicada": true,
+     "respuesta": "Quitados los milímetros del ancho de vía y el «de cero a» del coste; los 55 m vienen de Adif (Interempresas). El corte longitudinal queda para la escena."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "213 palabras, unos 63 s: bien. Hay contadores escritos como «de cero a cincuenta y cinco metros» y «sube de cero a trescientos treinta y ocho millones de euros», que la voz lee literalmente y suenan raros. Hay muchas cifras juntas en el bloque del dato.",
+     "propuesta": "Cambia «bajas de cero a cincuenta y cinco metros de profundidad» por «bajas… ¡cincuenta y cinco metros!». Cambia «El gasto sube de cero a trescientos treinta y ocho millones de euros» por «Costó trescientos treinta y ocho millones de euros». Quita la frase del ancho de vía. Pon «…» antes de «siete coma tres kilómetros».",
+     "aplicada": true,
+     "respuesta": "Aplicado; el ancho de vía queda sin cifra («vías de ancho internacional, como el AVE») porque explica por qué ahora no te bajas del tren."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín? 🚄",
+     "texto": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín? Escribe tu número. Dime en qué ciudad vives y te cuento qué esconde. ¿Cuál era tu número? 👇",
+     "tags": [
+      "madrid",
+      "tunel",
+      "ave",
+      "alta velocidad",
+      "lo que esconde tu ciudad"
+     ]
+    },
+    "instagram": {
+     "titulo": "Túnel del AVE Atocha-Chamartín: así se excavó bajo Madrid",
+     "texto": "Túnel del AVE entre Atocha y Chamartín: 7,3 km bajo el centro de Madrid, hasta 55 m de profundidad, excavado con una tuneladora de presión de tierras. Envíaselo a quien haya cambiado de estación en Madrid. ¿Cuántos km pensabas? 👇 #madrid #tunel #ave #altavelocidad #loqueesconde",
+     "tags": [
+      "madrid",
+      "tunel",
+      "ave",
+      "altavelocidad",
+      "loqueesconde"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el túnel del AVE entre Atocha y Chamartín 🚄",
+     "texto": "Cómo se construyó el túnel del AVE bajo Madrid: 7,3 km, hasta 55 m de profundidad y una tuneladora de presión de tierras. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "tunel AVE madrid",
+      "atocha chamartin",
+      "tuneladora",
+      "alta velocidad",
+      "comofunciona"
+     ]
+    }
+   },
+   "nota_escena": "Motion: corte longitudinal con la tuneladora avanzando, contador de km hasta 7,3 sobre el trazado Atocha-Chamartín y perfil de profundidad hasta 55 m; pastilla pequeña de euros; velocímetro a 120 km/h."
+  },
+  {
+   "id": "freidoraire",
+   "formato": "A",
+   "titulo": "¿Tu freidora de aire fríe con aire? 🍟 ¿A cuántos grados corre ese aire?",
+   "guion": "¿A cuántos grados sopla tu freidora de aire? Escribe tu número antes de que acabe. La llenas hasta arriba… y sale blanda. ¡Tu freidora no fríe con aire! Es un horno pequeño con turbo. Arriba, una resistencia de unos mil setecientos vatios calienta el aire. Un ventilador lo empuja contra la comida. Ese aire va rápido y barre el agua de la superficie. Por eso se dora y queda crujiente. Por eso el cesto lleva agujeros. Pero llenas el cesto hasta arriba. Cada patata necesita aire por todos lados. Las patatas se tapan unas a otras. Así que el aire no pasa y el agua no se va. Y en vez de dorarse… se cuecen en su propio vapor. Y aquí viene lo curioso… El aire sube de veinte a doscientos grados. Tu horno tarda de diez a quince minutos en calentarse. Tu freidora, de tres a cinco. Y si copias una receta del horno, baja quince o veinte grados. ¿Qué haces? Pon una sola capa, y sacude el cesto a mitad de cocción. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Y ahora ya sabes a cuántos grados sopla… la freidora de tu cocina.",
+   "texto": "Tu freidora es un horno pequeño con ventilador: el aire llega a unos 200 °C, pero solo dora si el aire pasa. Una sola capa y sacude el cesto a mitad. Envíaselo a ese amigo que llena el cesto hasta arriba. ¿Cuál era tu número? 👇",
+   "tags": [
+    "freidora de aire",
+    "cocina",
+    "trucos de cocina",
+    "airfryer",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "tendencia": "Tu freidora de aire no fríe con aire",
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Es uno de los electrodomésticos más comunes en las cocinas y todos la llenan demasiado.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Primer plano del cesto con patatas girando y flechas rojas de aire caliente subiendo por los agujeros.",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetro de 20 a 200 °C, minutos de precalentado del horno (10-15) frente a la freidora (3-5), vatios de la resistencia y flechas de aire que se bloquean al llenar el cesto."
+   },
+   "ganchos": [
+    "¿A cuántos grados sopla tu freidora de aire?",
+    "Llenas el cesto hasta arriba… ¿y sale blando?",
+    "Tu freidora no fríe con aire. Mira lo que hace."
+   ],
+   "juego": {
+    "pregunta": "¿A cuántos grados sopla tu freidora de aire?",
+    "valor": 200,
+    "unidad": "°C DE AIRE",
+    "dec": 0,
+    "pregunta_en": "¿A cuántos grados sopla",
+    "revela_en": "El aire sube de veinte"
+   },
+   "fuentes": [
+    "https://www.repsol.es/particulares/asesoramiento-consumo/como-funciona-freidora-de-aire/"
+   ],
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Objeto de cocina muy extendido, error común (llenar el cesto hasta arriba) y acción final (una sola capa y sacudir). Es el patrón router: corrige algo que el espectador hace hoy. Cifras enseñables: 1.700 W, 20 a 200 °C, 3-5 frente a 10-15 min.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«Freidora de aire» suena en la primera frase y es de las búsquedas más fuertes de cocina. Patrón «lo estás haciendo mal»: título de TikTok con negación corta, que el guion confirma («no fríe con aire»).",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Es un objeto de cocina que se enseña bien: corte con resistencia de 1.700 W, ventilador y flechas de aire, termómetro de 20 a 200 °C, cesto con una capa frente a lleno con vapor, y dos cronómetros 10-15 min frente a 3-5 min. Más de 4 contadores y mecanismo real.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "208 palabras, unos 61 s: bien. Tres frases seguidas empiezan con «Por eso» o con «Ese aire», y la voz les da el mismo tono. «El aire sube de veinte a doscientos grados» es un contador escrito que la voz lee raro.",
+     "propuesta": "Cambia «Tu freidora no fríe con aire.» por «¡Tu freidora no fríe con aire!». Cambia «El aire sube de veinte a doscientos grados» por «El aire llega… ¡a doscientos grados!» y deja la cifra sin efecto. Cambia «Tu horno tarda de diez a quince minutos» por «Tu horno tarda unos quince minutos» y «Tu freidora, de tres a cinco» por «Tu freidora, cinco».",
+     "aplicada": true,
+     "respuesta": "Aplicada la exclamación; mantengo «de veinte a doscientos» (es el contador del termómetro, acuerdo de las 4 cifras «de X a Y») y los rangos de la fuente."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿A cuántos grados sopla tu freidora de aire? Y no, no fríe con aire 🍟",
+     "texto": "¿A cuántos grados sopla tu freidora de aire? Escribe tu número. Envíaselo a ese amigo que llena el cesto hasta arriba. ¿Cuál era tu número? 👇",
+     "tags": [
+      "freidora de aire",
+      "cocina",
+      "trucos de cocina",
+      "airfryer",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "Freidora de aire: cómo funciona y por qué te sale blanda",
+     "texto": "Freidora de aire: en realidad es un horno pequeño con ventilador. El aire llega a unos 200 °C y solo dora si pasa entre la comida, así que pon una sola capa y sacude el cesto a mitad. Envíaselo a quien llena el cesto hasta arriba. ¿A cuántos grados creías que soplaba? 👇 #freidoradeaire #airfryer #trucosdecocina #cocina #comofunciona",
+     "tags": [
+      "freidoradeaire",
+      "airfryer",
+      "trucosdecocina",
+      "cocina",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona una freidora de aire (y por qué sale blanda) 🍟",
+     "texto": "Cómo funciona tu freidora de aire: un horno pequeño con ventilador a unos 200 °C. Una sola capa y sacude el cesto. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "freidora de aire",
+      "como funciona freidora de aire",
+      "airfryer",
+      "trucos de cocina",
+      "comofunciona"
+     ]
+    }
+   }
+  },
+  {
+   "id": "transbordador",
+   "formato": "C",
+   "serie": true,
+   "titulo": "¿Cómo funciona el puente de Vizcaya, que cuelga una barquilla? 🌉",
+   "guion": "¿A qué altura cuelga el puente de Vizcaya? Escribe tus metros antes de que acabe. Portugalete y Getxo se miran, a cada lado de la ría. Pero por la ría pasan barcos enormes hasta Bilbao. Así que un puente normal tendría que ser altísimo. Pero entonces los coches subirían por rampas larguísimas. Así que Alberto Palacio, en mil ochocientos noventa y tres, hace lo contrario. Levanta dos torres de hierro, de sesenta y un metros. Las une arriba con una viga de ciento sesenta metros. Y aquí viene lo curioso… La viga cuelga… a cuarenta y cinco metros sobre el agua: como un edificio de quince plantas. Pero tú tienes que cruzar. Así que de la viga cuelgan carriles, y por ellos rueda una barquilla. Va colgada de cables de acero, casi a ras de suelo. Caben seis coches y doscientos pasajeros. Cruza la ría en minuto y medio. Los barcos pasan por debajo de este puente colgante sin enterarse. En dos mil seis, la UNESCO lo hizo Patrimonio Mundial. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes a qué altura cuelga… el puente de Vizcaya.",
+   "texto": "El puente colgante de Vizcaya (Portugalete-Getxo) cuelga su viga a 45 m sobre la ría y una barquilla cruza coches y personas en minuto y medio. Dime en qué ciudad vives y qué obra quieres ver. Envíaselo a ese amigo que es de Bilbao. ¿Cuál era tu número? 👇",
+   "tags": [
+    "bilbao",
+    "puente de vizcaya",
+    "puentes",
+    "ingenieria",
+    "lo que esconde tu ciudad"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Obra icónica de la ría de Bilbao que la gente de Bizkaia usa a diario y el resto reconoce.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Barquilla colgada de la viga deslizándose en primer plano sobre el agua, con un barco pasando por debajo.",
+    "ensenar": 9,
+    "ensenar_nota": "Alturas que suben hasta 61 m (torres) y 45 m (viga), viga de 160 m, contador de coches (0 a 6) y pasajeros (0 a 200), cronómetro de 1,5 min."
+   },
+   "ganchos": [
+    "¿A qué altura cuelga el puente de Vizcaya?",
+    "Un puente que no estorba a ningún barco… ¿cómo?",
+    "¿Cómo cruzas la ría colgado de un puente?"
+   ],
+   "juego": {
+    "pregunta": "¿A qué altura cuelga el puente de Vizcaya?",
+    "valor": 45,
+    "unidad": "M SOBRE EL AGUA",
+    "dec": 0,
+    "pregunta_en": "¿A qué altura cuelga el puente",
+    "revela_en": "La viga cuelga… a cuarenta"
+   },
+   "fuentes": [
+    "https://puente-colgante.com/en/aspectos-tecnicos-e-innovacion/",
+    "https://en.wikipedia.org/wiki/Vizcaya_Bridge"
+   ],
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "Serie bien planteada (problema, solución, problema) y datos coherentes (1893, torres de 61 m, viga de 160 m, 45 m de altura, UNESCO 2006), pero 45 m no se compara con nada del espectador y la voz dice «cero a seis coches», que suena raro.",
+     "propuesta": "En la revelación cambia a «La viga cuelga a cuarenta y cinco metros: como un edificio de quince plantas». Sustituye «caben de cero a seis coches» por «caben seis coches y doscientos pasajeros» y mantén el contador en pantalla.",
+     "aplicada": true,
+     "respuesta": "Aplicadas las dos: comparación con un edificio de quince plantas y «caben seis coches y doscientos pasajeros»."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "En el guion solo dices «puente de Vizcaya»; quien busca escribe «puente colgante», «Puente Bizkaia» o «transbordador», y esas palabras no salen ni en voz ni en el pie.",
+     "propuesta": "Cambia «Los barcos pasan por debajo sin enterarse» por «Los barcos pasan por debajo de este puente colgante sin enterarse», y pon «puente colgante» en el pie.",
+     "aplicada": true,
+     "respuesta": "Aplicado en el guion y en el pie."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Es muy visual: torres que suben de 0 a 61 m, viga de 160 m, cota de 45 m sobre el agua, barquilla con carriles y cables, y de 0 a 6 coches. Las cifras del juego (45 m) salen en la mitad del vídeo, bien colocadas.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "211 palabras, unos 62 s: bien. «De cero a sesenta y un metros» y «de cero a seis coches» son contadores escritos que la voz lee literalmente y suenan raros. Hay muchas cifras seguidas al final.",
+     "propuesta": "Cambia «de cero a sesenta y un metros» por «de sesenta y un metros». Cambia «Caben de cero a seis coches y doscientos pasajeros» por «Caben seis coches y doscientos pasajeros». Quita «Cruza en minuto y medio, y sale cada ocho minutos» o deja solo «Cruza en minuto y medio». Pon «…» antes de «cuarenta y cinco metros» y deja esa cifra sin efecto.",
+     "aplicada": true,
+     "respuesta": "Aplicado todo: queda «Cruza la ría en minuto y medio» y «…» antes de los 45 m."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿A qué altura cuelga el puente de Vizcaya? 🌉",
+     "texto": "¿A qué altura cuelga el puente colgante de Vizcaya? Escribe tus metros. Dime en qué ciudad vives y te cuento qué esconde. ¿Cuál era tu número? 👇",
+     "tags": [
+      "bilbao",
+      "puente de vizcaya",
+      "puentes",
+      "ingenieria",
+      "lo que esconde tu ciudad"
+     ]
+    },
+    "instagram": {
+     "titulo": "Puente de Vizcaya: el puente colgante que cruza una barquilla",
+     "texto": "Puente de Vizcaya (Portugalete-Getxo): un puente colgante de 1893 cuya viga cuelga a 45 m sobre la ría y por donde una barquilla cruza coches y personas en minuto y medio. Es Patrimonio Mundial. Envíaselo a quien sea de Bilbao. ¿A qué altura pensabas? 👇 #puentedevizcaya #bilbao #puentes #ingenieria #loqueesconde",
+     "tags": [
+      "puentedevizcaya",
+      "bilbao",
+      "puentes",
+      "ingenieria",
+      "loqueesconde"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el puente de Vizcaya, que cuelga una barquilla 🌉",
+     "texto": "Cómo funciona el puente colgante de Vizcaya (Bilbao): una viga a 45 m y una barquilla que cruza la ría en minuto y medio. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "puente de vizcaya",
+      "puente colgante bilbao",
+      "transbordador",
+      "ingenieria",
+      "comofunciona"
+     ]
+    }
+   }
   }
  ]
 }
