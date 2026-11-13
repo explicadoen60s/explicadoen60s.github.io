@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:43:27+00:00",
+ "actualizado": "2026-11-13T19:43:53+00:00",
  "medianas": {
   "tiktok": 1082,
   "instagram": 1562.0,
@@ -66,7 +66,7 @@
    "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,30× lo normal, frente a 1,05× los demás."
   },
   "estratega": {
-   "ahora": "3 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
+   "ahora": "0 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
    "pendiente": 4,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
@@ -77,8 +77,8 @@
    }
   },
   "social": {
-   "ahora": "3 comentarios leídos · 2 respuestas sugeridas",
-   "pendiente": 1,
+   "ahora": "3 comentarios leídos · 3 respuestas sugeridas",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Comentarios por 1.000 vistas",
     "valor": 0.17,
@@ -418,38 +418,6 @@
   }
  ],
  "compuertas": {
-  "nevera": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "217 palabras (≈64 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
   "cargadorvacio": [
    {
     "nivel": "ok",
@@ -1973,38 +1941,6 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,19× más vistas)."
-    }
-   ],
-   "nevera": [
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,25× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 12, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,94 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 4. Los que funcionan van por encima de 8 (1,20× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,19× más vistas)."
     }
    ]
   },

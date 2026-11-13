@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-13T09:50:00+01:00",
- "resumen": "Trends y Wikipedia siguen en política, papa, famosos y sucesos (atraco en Cartagena): nada aprovechable. En el nicho, el cuerpo y los objetos de mano tiran (brazo 616 mil con 384 comentarios, paracaídas 766 mil). Se añade «tu brazo es una palanca» y se mantienen cinturón, desaladora de Barcelona, freidora de aire y tapa de alcantarilla; las cifras técnicas sin fuente van marcadas «(comprobar)».",
+ "actualizado": "2026-11-13T20:45:00+01:00",
+ "resumen": "Trends y Wikipedia siguen en política, papa, famosos y sucesos (atraco en Cartagena): nada aprovechable. En el nicho, el cuerpo y los objetos de mano tiran (brazo 616 mil con 384 comentarios, paracaídas 766 mil). Se añade «tu brazo es una palanca» y se mantienen cinturón, desaladora de Barcelona, freidora de aire y tapa de alcantarilla; las cifras técnicas sin fuente van marcadas «(comprobar)». Revisión de la tarde (13-nov): «tarifaluzhora» sigue con 500+ búsquedas (apoya lavar30 y cargadorvacio, ya propuestos), un short de tuneladora suma 168 mil vistas en 3 días (apoya tunelave) y entra «los LED rojos de las cámaras» (3,8 M vistas en YouTube España).",
  "tendencias": [
   {
    "id": "cinturon",
@@ -156,6 +156,55 @@
     "hogar",
     "comofunciona",
     "trucos"
+   ]
+  },
+  {
+   "id": "t261113ir",
+   "tema": "Los LED rojos alrededor de las cámaras de vigilancia: luz infrarroja",
+   "tipo": "actualidad",
+   "puntuacion": 64,
+   "por_que": "El short «Esos foquitos rojos alrededor de la cámara NO están de adorno» lleva 3.841.367 vistas y 175.670 me gusta en 5 días en Ciencia y tecnología de YouTube España.",
+   "senales": [
+    {
+     "fuente": "YouTube España · ciencia y tecnología",
+     "dato": "3.841.367 vistas, 175.670 me gusta (8-nov)",
+     "url": "https://www.youtube.com/watch?v=JYWtaI64t_I"
+    }
+   ],
+   "urgencia": "media: el tema está caliente esta semana",
+   "angulo": "Por qué las cámaras ven de noche en blanco y negro: un anillo de LED infrarrojos ilumina la calle y el sensor quita su filtro (un filtro que se mueve con un clic). No repetir el vídeo «mando» (luz del mando que no se ve).",
+   "titulo": "¿Por qué brillan en rojo las cámaras del portal? 🔴 Así ven de noche",
+   "gancho": "¿Ves esos puntitos rojos de la cámara?",
+   "primer_segundo": "Primer plano de la cámara del portal al anochecer con el anillo de LED encendiéndose y el filtro que se aparta con un clic.",
+   "cifras": [
+    "longitud de onda de 850 nm frente a 700 nm del rojo visible (comprobar)",
+    "alcance de visión nocturna de 20-30 m (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "gancho con la cámara encendiéndose al anochecer",
+    "pregunta del juego: ¿hasta cuántos metros ve de noche?",
+    "LED infrarrojos que iluminan sin que lo veas",
+    "el filtro que se aparta con un clic y la imagen pasa a blanco y negro",
+    "revelación de la cifra",
+    "acción: mira de noche la cámara de tu portal"
+   ],
+   "reglas": {
+    "cotidiano": 8,
+    "primer_segundo": 8,
+    "ensenar": 8
+   },
+   "potencial": "alto",
+   "por_que_funcionaria": "Objeto que se ve cada día en portales y tiendas, con un misterio visible (los puntitos rojos) y un mecanismo que se puede enseñar (filtro que se mueve, imagen que pasa a blanco y negro).",
+   "competencia": "El vídeo de 3,8 M es reciente; nuestro ángulo es el mando de la tele que todos tienen en casa.",
+   "riesgos": "Ya existe «mando» (infrarrojo del mando): centrarlo en la visión nocturna y el filtro, no en el truco del móvil. Sin marcas ni privacidad.",
+   "mejor_hora": "21 h",
+   "hashtags": [
+    "infrarrojos",
+    "camara",
+    "trucos de movil",
+    "comofunciona",
+    "ciencia"
    ]
   },
   {

@@ -64,3 +64,4 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Con cam_cada entre 1,5 y 2,0 s (las escenas en cola) cada plano dura menos de 2 s: las pastillas y los rótulos deben entrar en los primeros 0,5 s o se pierden en el plano siguiente. (2026-11-13)
 - Dejar 0,5 s de plano estable antes y después de cada cifra dicha en voz evita que el whoosh pise la palabra sin subir cam_cada por encima de 2,8 s. (2026-11-13)
 - Última clave de cámara igual a la primera (posición, target, lente) es lo que hace que el bucle no tenga salto visible. (2026-11-13)
+- En un objeto con puerta (nevera, horno, lavadora) visto por el corte lateral, la cámara va detrás del plano de la puerta (y > 0) o se ve su cara de fuera; con la cámara a la izquierda usa light_rot=60, que con -30 las caras salen granates. (2026-11-13, nevera)

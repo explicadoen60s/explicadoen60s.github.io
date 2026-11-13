@@ -1081,6 +1081,286 @@
    "rol": "estratega",
    "tipo": "propuesta",
    "texto": "Hipótesis m261113fot15 (más de 23 claves de cámara) y m261113son16 (voz de más de 3,6 palabras/s) pasan a propuesta: a favor con 15/19 y 12/22 vídeos. Decide tú en el panel."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cargadorvacio",
+   "texto": "Pon la cifra enorme en la revelación: tras «cero coma dos vatios» añade «Sumando todos los cargadores de España, la factura se multiplica por millones», o cambia el juego a «¿Cuántos euros al año?» (menos de uno) para qu",
+   "estado": "rechazada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cargadorvacio",
+   "texto": "Pon un vatímetro grande enchufado entre la pared y el cargador: con móvil sube a 3,0 W y sin móvil baja a 0,2 W con una barra casi vacía. Haz que la bombilla LED de 10 W se llene a la vez que el contador anual (menos de ",
+   "estado": "rechazada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cargadorvacio",
+   "texto": "Cambia «Míralo, ahí, en la pared.» por «¡Míralo… ahí, en la pared!». Cambia «En todo un año, de cero a menos de dos kilovatios hora» por «En todo un año… menos de dos kilovatios hora». Escribe la cifra como «cero coma do",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "cargadorvacio",
+   "texto": "Aplicados los dos cambios de texto; lo del efecto, en la escena."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "desaladora",
+   "texto": "Cambia «una bomba la empuja de uno a sesenta bar» por «una bomba la empuja… ¡a sesenta bar!». Cambia «Más de veinticinco veces» por «¡Más de veinticinco veces la presión de la rueda de tu coche!». Pon «…» antes de «ochen",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "desaladora",
+   "texto": "Aplicado («¡hasta sesenta bar!», exclamación y «…» antes de las piscinas); los «pero/así que» son la estructura del formato C y se quedan."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "lavar30",
+   "texto": "Cambia la frase por «De veinte a sesenta grados, el gasto se multiplica por cuatro y medio… de uno coma cincuenta kilovatios hora, frente a cero coma treinta y tres.» Quita «A cuarenta, uno coma veintiuno». Cambia «Entre",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "lavar30",
+   "texto": "Aplicado el cambio de los decimales («se multiplica por más de cuatro»); mantengo «entre el ochenta y el ochenta y cinco», que es lo que dicen las fuentes, y «casi» lo rebajaría."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "bateria100",
+   "texto": "Enseña una celda en corte con iones de litio como bolitas que se apretan contra el grafito y un voltímetro que marca 4,2 V frente a 4,0 V. Pon dos barras de vida (ciclos) lado a lado que se recortan en el momento de la v",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "bateria100",
+   "texto": "Simplificada la frase de los ciclos (quinientos frente a más de mil); el resto es para la escena y queda en `nota_escena`."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "bateria100",
+   "texto": "Cambia las dos frases de los voltios por «Cargada del todo, a cuatro coma dos voltios, aguanta unos quinientos ciclos… ¡con un poco menos de carga, más de mil!». Pon «…» antes de «pierde un veinte por ciento» y deja esa ",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "bateria100",
+   "texto": "Aplicado, manteniendo «en laboratorio» y «con cuatro voltios» para no perder el dato."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Compara la cifra en la revelación: «Siete coma tres kilómetros: como ir desde Sol hasta Chamartín andando por debajo de la Castellana», o cambia el juego a «¿A cuántos metros bajo tus pies pasa el AVE?» (55 m, más profun",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Aplico la comparación de la profundidad con un edificio (dieciocho plantas, que cuadra con 55 m a 3 m por planta); coste, fecha y longitud ya estaban comprobados (Railway Gazette, London Reconnections). No uso Sol–Chamartín porque la distancia no coincide."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Haz el túnel como un corte longitudinal con la tuneladora avanzando y un contador de km que sube a 7,3 sobre el trazado Atocha-Chamartín, y un perfil de profundidad que baja hasta el máximo. Para el dinero, usa una pasti",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Quitados los milímetros del ancho de vía y el «de cero a» del coste; los 55 m vienen de Adif (Interempresas). El corte longitudinal queda para la escena."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Cambia «bajas de cero a cincuenta y cinco metros de profundidad» por «bajas… ¡cincuenta y cinco metros!». Cambia «El gasto sube de cero a trescientos treinta y ocho millones de euros» por «Costó trescientos treinta y och",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Aplicado; el ancho de vía queda sin cifra («vías de ancho internacional, como el AVE») porque explica por qué ahora no te bajas del tren."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "freidoraire",
+   "texto": "Cambia «Tu freidora no fríe con aire.» por «¡Tu freidora no fríe con aire!». Cambia «El aire sube de veinte a doscientos grados» por «El aire llega… ¡a doscientos grados!» y deja la cifra sin efecto. Cambia «Tu horno tar",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "freidoraire",
+   "texto": "Aplicada la exclamación; mantengo «de veinte a doscientos» (es el contador del termómetro, acuerdo de las 4 cifras «de X a Y») y los rangos de la fuente."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "transbordador",
+   "texto": "En la revelación cambia a «La viga cuelga a cuarenta y cinco metros: como un edificio de quince plantas». Sustituye «caben de cero a seis coches» por «caben seis coches y doscientos pasajeros» y mantén el contador en pan",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "transbordador",
+   "texto": "Aplicadas las dos: comparación con un edificio de quince plantas y «caben seis coches y doscientos pasajeros»."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "seo",
+   "para": "director",
+   "tipo": "revision",
+   "video": "transbordador",
+   "texto": "Cambia «Los barcos pasan por debajo sin enterarse» por «Los barcos pasan por debajo de este puente colgante sin enterarse», y pon «puente colgante» en el pie.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "transbordador",
+   "texto": "Aplicado en el guion y en el pie."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "transbordador",
+   "texto": "Cambia «de cero a sesenta y un metros» por «de sesenta y un metros». Cambia «Caben de cero a seis coches y doscientos pasajeros» por «Caben seis coches y doscientos pasajeros». Quita «Cruza en minuto y medio, y sale cada",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "transbordador",
+   "texto": "Aplicado todo: queda «Cruza la ría en minuto y medio» y «…» antes de los 45 m."
+  },
+  {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "rol": "director",
+   "tipo": "propuesta",
+   "texto": "7 guiones nuevos: cargadorvacio, lavar30, bateria100 y freidoraire («lo estás haciendo mal») y desaladora, tunelave y transbordador (Lo que esconde tu ciudad), con datos comprobados por búsqueda web."
+  },
+  {
+   "fecha": "2026-11-13T19:42:44+00:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "video": "nevera",
+   "texto": "Escena de la nevera: la cámara va detrás del plano de la puerta para ver el cartón por la pared cortada; planos que se mantienen y barridos cortos (cam_cada 1,94 s).",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:42:44+00:00",
+   "rol": "motion",
+   "tipo": "revision",
+   "video": "nevera",
+   "texto": "La tarjeta del juego se retira tras la revelación y vuelve en «¿Te has acercado?», para que se vean las pastillas de 6 de 10, 17→14 días y 4→6 °C.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "texto": "Carretera: 0,86× en TikTok (2.691 vistas). Un movimiento de cámara cada 3,21 s, en el lado que peor funciona (los de menos de 3,0 s rinden 1,19×); sin juego de la cifra.",
+   "video": "carretera"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "texto": "Pista de hielo: 0,95× (2.902 vistas) pese a 8 contadores, cámara cada 2,73 s y gancho de voz +0,6. La técnica estaba bien: falló el tema, que el espectador no tiene en casa (regla 1).",
+   "video": "pistahielo"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "texto": "Paraguas: 0,2× (597 vistas). Otro B «Si tuvieras que inventar…» por debajo de 0,3×, con cámara rápida (1,73 s): el formato B sin error del espectador no engancha.",
+   "video": "paraguas"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "texto": "Baliza V16: 0,19× (589 vistas). Solo 3 contadores (el lado bueno empieza en más de 3) y cámara cada 3,42 s; tema de actualidad, pero sin cifra que cambie en pantalla en los primeros segundos.",
+   "video": "v16"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "texto": "Lavadora (B): 1,5× (4.556 vistas), el único B reciente por encima de lo normal: objeto de casa, gancho de voz +0,5 y 5 contadores. Apoya hacer lavar30 como A del patrón «lo estás haciendo mal».",
+   "video": "lavadora"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "sonido",
+   "tipo": "aviso",
+   "texto": "La voz de «nevera» mide voz_gancho −1,9 dB (los mejores, +0,45). La escena ya lleva golpe y whoosh en 0,0-0,3 s; si quieres más energía en el arranque, habría que subir la intensidad del gancho en produccion/voz.py (decisión del usuario).",
+   "video": "nevera"
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "rol": "director",
+   "tipo": "aviso",
+   "texto": "Duda de fuentes en dos guiones nuevos: la desaladora da 200.000 m³/día como capacidad máxima (otra fuente, 172.800) y el túnel del AVE 7,3 km (otras fuentes, 6,9). Van con la cifra oficial; revísalo al aprobar."
   }
  ],
  "manual": [
@@ -1642,6 +1922,293 @@
      "nota": "Es un «lo estás haciendo mal» cotidiano con juego de la cifra y 3,3 °C fáciles de enseñar, pero la leche en la nevera es un tema muy trillado."
     }
    }
+  },
+  "cargadorvacio": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 0.8,
+     "nota": "Cotidiano pero con cifra pequeña y mensaje de «déjalo, no pasa nada», que se comparte poco."
+    },
+    "seo": {
+     "rel": 1.3,
+     "nota": "Tema cotidiano y cifra que sorprende (0,2 W), pero el mensaje de «no pasa nada» da menos miedo y menos envíos que un error."
+    },
+    "motion": {
+     "rel": 1.3,
+     "nota": "Es un objeto cotidiano y el patrón «lo estás haciendo mal» ayuda, pero la cifra es pequeña y poco espectacular, así que el gancho es flojo."
+    },
+    "sonido": {
+     "rel": 1.2,
+     "nota": "Es un objeto de casa con un error común (el cargador enchufado), pero el dato final es flojo: casi no gasta."
+    },
+    "paid": {
+     "rel": 2.0,
+     "nota": "Error común de casa (cargador enchufado) con cifra que se puede enseñar, pero el tema es conocido y 'vatios' es poco visual; base moderada."
+    },
+    "fotografia": {
+     "rel": 1.8,
+     "nota": "El móvil que tienes en la mano es la regla 1 pura y el 'lo estás haciendo mal' encaja con el patrón del router; el dedo y el enchufe moviéndose dan un primer segundo fácil de rodar en 3D."
+    },
+    "director": {
+     "rel": 1.0,
+     "nota": "Cotidiano y con error común, pero el consumo en vacío es pequeño y la cifra poco chocante; A con pregunta, sin llegar al nivel del router."
+    },
+    "social": {
+     "rel": 1.3,
+     "nota": "Cotidiano y con afirmación discutible que provoca comentarios, pero 0,2 W es poco llamativo y el miedo a la factura engancha menos que un error visible."
+    },
+    "editor": {
+     "rel": 1.3,
+     "nota": "Objeto cotidiano y cifra enseñable (vatios), formato 'lo haces mal'; 206 palabras en el suelo del rango, pero tema algo menos visual."
+    }
+   }
+  },
+  "desaladora": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 1.2,
+     "nota": "Obra grande con comparaciones visibles, pero el espectador no la tiene en la mano; rinde como los C de serie, por encima de los B genéricos."
+    },
+    "seo": {
+     "rel": 0.9,
+     "nota": "Obra de Barcelona y tema técnico; la serie de ciudad suele quedar por debajo de lo normal hasta que alguien la comparte en su ciudad."
+    },
+    "motion": {
+     "rel": 1.6,
+     "nota": "Serie de obra de la ciudad con muchas cifras visuales, pero tema más local y sin objeto de casa en el primer segundo."
+    },
+    "sonido": {
+     "rel": 1.0,
+     "nota": "Está en la serie de la ciudad y el dato es grande, pero es local (Barcelona) y de lo que menos tocas a diario."
+    },
+    "paid": {
+     "rel": 1.3,
+     "nota": "Obra grande tipo 'Lo que esconde tu ciudad', pero Barcelona es un público más reducido y la desaladora no es algo que el espectador tenga en la mano."
+    },
+    "fotografia": {
+     "rel": 1.1,
+     "nota": "Es una obra grande de la serie ciudad y tiene cifras que se enseñan, pero muchos espectadores no han visto una desaladora. El plano general de tuberías cuesta más de rodar en primer plano y en movimiento."
+    },
+    "director": {
+     "rel": 0.9,
+     "nota": "C de ciudad con cifra grande, pero Barcelona limita el público y la desaladora es menos visual que un depósito bajo tus pies."
+    },
+    "social": {
+     "rel": 0.9,
+     "nota": "Serie ciudad con cifra grande (80 piscinas), pero es Barcelona, no universal, y los últimos C locales rinden por debajo del tanque de Madrid."
+    },
+    "editor": {
+     "rel": 1.0,
+     "nota": "Formato C de la serie ciudad, con gancho de cifra grande; obra menos cotidiana y 205 palabras, así que apuesto a lo normal."
+    }
+   }
+  },
+  "lavar30": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 2.8,
+     "nota": "Objeto de casa con error y acción clara; el 80 % es una cifra que sorprende y se enseña como medidor."
+    },
+    "seo": {
+     "rel": 1.6,
+     "nota": "Objeto universal, error común y acción inmediata (girar el mando); el ahorro en kWh se comparte."
+    },
+    "motion": {
+     "rel": 2.5,
+     "nota": "Objeto de casa, error común, acción inmediata (girar el mando) y muy compartible."
+    },
+    "sonido": {
+     "rel": 1.5,
+     "nota": "Corrige algo que haces cada semana y la acción es inmediata (girar el mando a 40), pero el bloque de decimales puede hacer que se pierda quien mira."
+    },
+    "paid": {
+     "rel": 2.6,
+     "nota": "Corrige algo que haces ahora mismo (el programa de la lavadora) y da ganas de enviárselo a quien lava a 60; encaja con el patrón del router."
+    },
+    "fotografia": {
+     "rel": 1.6,
+     "nota": "Una acción diaria, el error común y un mecanismo visible (tambor, agua y temperatura que cambian). Es fácil poner la cámara pegada al tambor girando desde el fotograma 1."
+    },
+    "director": {
+     "rel": 1.5,
+     "nota": "Corrige algo que haces ahora mismo (sesenta grados) con un coste en luz que se ve en un contador: patrón «lo estás haciendo mal», compartible."
+    },
+    "social": {
+     "rel": 1.8,
+     "nota": "Patrón «lo estás haciendo mal» con acción inmediata y mucho envío; la lavadora es universal y 60 frente a 40 grados provoca debate en comentarios."
+    },
+    "editor": {
+     "rel": 1.6,
+     "nota": "Error común en un aparato de casa, cifra clara (calentar el agua) y muy compartible; 205 palabras, buena duración."
+    }
+   }
+  },
+  "bateria100": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 3.0,
+     "nota": "Regla 1 al máximo y corrige un error universal; el riesgo es que el tema ya está muy visto en TikTok."
+    },
+    "seo": {
+     "rel": 1.8,
+     "nota": "Error que el espectador comete cada noche, con acción inmediata en ajustes; patrón del router."
+    },
+    "motion": {
+     "rel": 1.8,
+     "nota": "Es el móvil que tienes en la mano y la acción es muy fácil (activar el límite al 80 %), pero la parte de la celda es más técnica y lenta."
+    },
+    "sonido": {
+     "rel": 1.8,
+     "nota": "Es el móvil, tema universal y lo haces cada noche; la acción (límite al 80 %) se puede hacer al acabar el vídeo y se envía."
+    },
+    "paid": {
+     "rel": 3.5,
+     "nota": "Es el móvil que tienes en la mano, con error común y acción inmediata (no cargar al 100 %); el candidato más compartible."
+    },
+    "fotografia": {
+     "rel": 2.0,
+     "nota": "Es un objeto que el espectador usa ahora mismo y corrige un hábito, que es lo que se comparte. La celda en corte con iones y un contador de porcentaje que baja da un primer segundo claro y cifras visibles."
+    },
+    "director": {
+     "rel": 2.2,
+     "nota": "Móvil en la mano, error que casi todos cometen y acción inmediata: es el patrón más cercano al router y el más compartible del lote."
+    },
+    "social": {
+     "rel": 2.5,
+     "nota": "Toca el móvil que el espectador tiene en la mano, corrige un hábito nocturno (20 % frente a 4 %) y es muy discutible: buen candidato a comentarios y envíos."
+    },
+    "editor": {
+     "rel": 2.0,
+     "nota": "El móvil es lo más cotidiano, pregunta propia del 'lo estás haciendo mal' y contador de batería fácil de montar; es el que más se enviará."
+    }
+   }
+  },
+  "tunelave": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 0.9,
+     "nota": "Muy local (Madrid) y con cifra moderada; el tanque de tormentas funcionó por la cifra de 400.000 m³, aquí no hay equivalente."
+    },
+    "seo": {
+     "rel": 1.0,
+     "nota": "Serie de ciudad con tema madrileño y búsqueda local, pero sin objeto de casa; rendirá como la media de la serie."
+    },
+    "motion": {
+     "rel": 1.2,
+     "nota": "La serie de ciudad funciona, pero es un tema muy de Madrid y de tren, y los datos de ancho de vía y coste frenan."
+    },
+    "sonido": {
+     "rel": 0.9,
+     "nota": "Es una obra grande y con cifra, pero es lejana a lo cotidiano (solo Madrid) y arranca con un dato de mapa."
+    },
+    "paid": {
+     "rel": 1.5,
+     "nota": "Serie de la ciudad con cifra clara, pero la mediana de Madrid y sus túneles pesa menos que el tanque de tormentas; sube por los comentarios locales."
+    },
+    "fotografia": {
+     "rel": 1.5,
+     "nota": "Encaja con la serie ciudad, que ya ha rendido, y el corte bajo tierra enseña el interior de verdad. El riesgo es que el arranque sea un plano general de la maqueta en vez del tren en movimiento a 2-6 m."
+    },
+    "director": {
+     "rel": 0.8,
+     "nota": "Obra real y con kilómetros enseñables, pero muy centrada en Madrid y sin un error del espectador que corregir."
+    },
+    "social": {
+     "rel": 1.0,
+     "nota": "Obra real con cifras (7,3 km, 55 m), pero solo interesa a Madrid y el tema es menos tangible que el tanque de tormentas."
+    },
+    "editor": {
+     "rel": 0.8,
+     "nota": "Obra local de Madrid, bastante abstracta (túnel largo y poco que ver) y la cifra en km se enseña con menos fuerza que un tanque o un depósito."
+    }
+   }
+  },
+  "freidoraire": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 2.5,
+     "nota": "Error cotidiano con acción y envío fácil; algo por debajo del router porque la cifra es menos chocante."
+    },
+    "seo": {
+     "rel": 1.9,
+     "nota": "Objeto de moda en casa, error común (llenar el cesto) y acción inmediata; el candidato más claro a compartirse."
+    },
+    "motion": {
+     "rel": 2.2,
+     "nota": "Es un error cotidiano que corrige (cesto lleno), con acción clara y mucho que enseñar en el primer segundo."
+    },
+    "sonido": {
+     "rel": 1.7,
+     "nota": "Es un objeto de casa que está de moda, con error común («llenas el cesto») y una acción inmediata: es el más compartible del lote."
+    },
+    "paid": {
+     "rel": 2.2,
+     "nota": "Objeto de moda en muchas casas y mito que se rompe, pero la cifra de grados es poco chocante; no llega al umbral de pago."
+    },
+    "fotografia": {
+     "rel": 1.7,
+     "nota": "Es un electrodoméstico muy común, con flujo de aire caliente que se puede dibujar con flechas rojas 3D y una temperatura que sube. La cámara pegada al ventilador girando funciona desde el primer fotograma."
+    },
+    "director": {
+     "rel": 1.7,
+     "nota": "Objeto de moda en casa y gancho de creencia equivocada («no fríe con aire») con una temperatura que se enseña; buen potencial de envío."
+    },
+    "social": {
+     "rel": 1.6,
+     "nota": "Objeto muy popular, pregunta provocadora («¿fríe con aire?») y consejo práctico; el cesto lleno es un error cotidiano que da ganas de enviarlo."
+    },
+    "editor": {
+     "rel": 1.5,
+     "nota": "Electrodoméstico de moda, mito 'no fríe con aire' y grados que suben en pantalla; 208 palabras, en rango."
+    }
+   }
+  },
+  "transbordador": {
+   "fecha": "2026-11-13T19:30:00+00:00",
+   "roles": {
+    "estratega": {
+     "rel": 1.3,
+     "nota": "Obra icónica y visual, con barquilla colgando que engancha en el primer segundo, pero no es un objeto de casa."
+    },
+    "seo": {
+     "rel": 0.9,
+     "nota": "Obra emblemática y visual, pero local y sin objeto de casa; la serie de ciudad queda en torno a lo normal."
+    },
+    "motion": {
+     "rel": 1.4,
+     "nota": "Obra icónica y muy visual, pero local de Bizkaia, así que lo más probable es un alcance moderado."
+    },
+    "sonido": {
+     "rel": 0.8,
+     "nota": "Patrimonio local (Bizkaia), sin acción para el espectador y con la cifra del juego (45 m) poco llamativa."
+    },
+    "paid": {
+     "rel": 1.1,
+     "nota": "Puente de Vizcaya es curioso, pero no se toca ni se usa a diario y tiene poca comparación con la vida del espectador; formato C flojo sin cifra enorme."
+    },
+    "fotografia": {
+     "rel": 0.7,
+     "nota": "Es un objeto de nicho que casi nadie usa a diario, así que falla la regla 1. Es el tipo de tema que históricamente rinde por debajo de la mediana."
+    },
+    "director": {
+     "rel": 0.7,
+     "nota": "Dato curioso y visual, pero regional (Bizkaia) y sin conexión con algo que el espectador use a diario."
+    },
+    "social": {
+     "rel": 0.7,
+     "nota": "Puente de Vizcaya es llamativo pero regional, y el 45 m no se compara con nada del espectador; para comentarios solo funciona en Bizkaia."
+    },
+    "editor": {
+     "rel": 0.7,
+     "nota": "Puente de Vizcaya es muy visual en corte, pero 213 palabras rozan 65 s y el tema es regional y poco cotidiano."
+    }
+   }
   }
  },
  "encargos": [
@@ -1930,6 +2497,35 @@
     {
      "rol": "social",
      "texto": "Pie de «nevera» con pregunta cerrada «¿Puerta o balda?» (experimento x261113soc)."
+    }
+   ],
+   "experimentos": [
+    "x261112son",
+    "x261113soc"
+   ]
+  },
+  {
+   "fecha": "2026-11-13T19:43:37+00:00",
+   "autor": "pasada",
+   "resumen": "Entregada la escena de la nevera en estilo maqueta y propuestos 7 guiones (4 «lo estás haciendo mal» y 3 de la serie de ciudad) revisados por estratega, SEO, motion y sonido.",
+   "aprendido": [
+    "fotografia: en un objeto con puerta (nevera, horno, lavadora) la cámara que mira el interior por el corte tiene que estar detrás del plano de la puerta; si no, se ve la cara de fuera.",
+    "fotografia: con la cámara a la izquierda del objeto, light_rot=-30 deja en granate las caras que miran a cámara; usa light_rot=60.",
+    "motion: si la cifra se revela antes de la mitad, retira la tarjeta del juego tras la revelación y vuélvela a sacar en «¿Te has acercado?», para que no tape las pastillas.",
+    "estratega: autopsia de 5 vídeos: los B sin error del espectador (paraguas 0,2×) siguen por debajo; la lavadora B pasa (1,5×) por ser un objeto de casa."
+   ],
+   "cambios": [
+    {
+     "rol": "fotografia",
+     "texto": "Modelo nevera() nuevo en modelos.py para reutilizar en cocinas."
+    },
+    {
+     "rol": "director",
+     "texto": "7 guiones nuevos con las propuestas de sonido aplicadas (menos decimales seguidos, «…» y «¡!» antes de los datos)."
+    },
+    {
+     "rol": "social",
+     "texto": "Respuesta sugerida al comentario de Instagram sobre teclado de membrana o mecánico y nueva idea en comunidad."
     }
    ],
    "experimentos": [

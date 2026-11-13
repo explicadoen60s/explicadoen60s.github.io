@@ -76,7 +76,8 @@
    "notas": "Patrón «lo estás haciendo mal»: consumo en vacío del cargador (cifras a comprobar).",
    "por": "Claude",
    "fecha": "2026-11-12T16:34:01+01:00",
-   "estado": "pendiente"
+   "estado": "usada",
+   "guion": "cargadorvacio"
   },
   {
    "id": "error-nevera",
@@ -97,7 +98,8 @@
    "notas": "Patrón «lo estás haciendo mal»: energía de calentar el agua frente al motor (comprobar cifra).",
    "por": "Claude",
    "fecha": "2026-11-12T16:34:01+01:00",
-   "estado": "pendiente"
+   "estado": "usada",
+   "guion": "lavar30"
   },
   {
    "id": "error-microondas",
@@ -118,7 +120,8 @@
    "notas": "Patrón «lo estás haciendo mal»: ciclos y tensión de la batería de litio (comprobar).",
    "por": "Claude",
    "fecha": "2026-11-12T16:34:01+01:00",
-   "estado": "pendiente"
+   "estado": "usada",
+   "guion": "bateria100"
   }
  ]
 }

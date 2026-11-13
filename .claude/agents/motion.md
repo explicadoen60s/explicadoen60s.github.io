@@ -64,3 +64,4 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - KEYWORDS debe cubrir todas las piezas y cifras de la voz; el objetivo es llegar a 28 sin añadir palabras de relleno. (2026-11-12)
 - Los contadores multiplican un buen gancho pero no lo sustituyen: turia tuvo 10 y hizo 0,68×, router tuvo 3 y hizo 191×. A partir de 6 contadores, el siguiente no suma; la prioridad es que la cifra del juego sea el contador más visible. (2026-11-13)
 - Con planos de menos de 2 s (cam_cada 1,57-1,97), una pastilla debe entrar en 0,5 s tras el corte y como mucho 2 por plano, aunque el vídeo lleve 9-11 contadores. (2026-11-13)
+- Si la cifra del juego se revela antes de la mitad del vídeo, retira la tarjeta tras la revelación y vuelve a sacarla en «¿Te has acercado?» (dos llamadas a cifra_juego): si no, tapa todas las pastillas del último tercio. (2026-11-13, nevera)
