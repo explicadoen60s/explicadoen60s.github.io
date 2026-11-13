@@ -2613,9 +2613,15 @@
     "invierno",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707670046370400278",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-13T14:59:51.422758+00:00"
   },
   {
    "id": "deposito-youtube",
@@ -2631,9 +2637,14 @@
     "construccion",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "X03zTi_EL6M",
+    "url": "https://youtube.com/shorts/X03zTi_EL6M"
+   },
+   "publicado": "2026-11-13T14:59:54.202611+00:00"
   },
   {
    "id": "deposito-instagram",

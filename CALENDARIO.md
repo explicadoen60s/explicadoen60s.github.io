@@ -40,8 +40,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://youtube.com/shorts/OIrAW0iKLwk) |
 | vie 13/11 | 13:00 | tiktok | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ❌ error |
-| vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | ⏳ pendiente |
-| vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
+| vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | 📲 en tu bandeja de TikTok |
+| vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://youtube.com/shorts/X03zTi_EL6M) |
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
 | vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
 | vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
