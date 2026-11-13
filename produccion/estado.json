@@ -3798,7 +3798,7 @@
     "cocina",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "rehacer",
    "creado": "2026-11-13",
    "idea": "error-nevera",
    "reglas": {
@@ -3925,7 +3925,8 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-13T17:28:31.860Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 68.4
+   "duracion": 68.4,
+   "nota": "La oficina no da el visto bueno (0/3 en la revisión de escena). Fotografía: la cámara atraviesa la puerta y las baldas en varios primeros planos; rehacer el plan con cámara a 2-6 m, sin pasar por paredes ni puertas, y cambio de plano cada 2,8 s o menos. Motion: la tarjeta del juego se va al decir «seis de cada diez» y vuelve en «¿Te has acercado?»; pastillas por debajo de y=560 sin chocar con el mini. Editor: viajes entre la nevera y las 200 neveras en 0,3-0,5 s, y el último plano igual al primero. No vuelve a Borradores hasta tener 3 de 4 ok en la revisión de escena."
   },
   {
    "id": "cargadorvacio",
@@ -3940,7 +3941,7 @@
     "trucos de casa",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "revisando",
    "creado": "2026-11-13",
    "idea": "error-cargador",
    "reglas": {
@@ -4041,7 +4042,8 @@
      ]
     }
    },
-   "nota_escena": "Motion: vatímetro grande entre pared y cargador (3,0 W con móvil → 0,2 W sin él), bombilla de 10 W que se llena con el contador anual, dos vatímetros lado a lado (0,2 frente a 2 W) y flecha de calor roja en el viejo; sfx_cifra en la pausa antes de «Gasta»."
+   "nota_escena": "Motion: vatímetro grande entre pared y cargador (3,0 W con móvil → 0,2 W sin él), bombilla de 10 W que se llena con el contador anual, dos vatímetros lado a lado (0,2 frente a 2 W) y flecha de calor roja en el viejo; sfx_cifra en la pausa antes de «Gasta».",
+   "ronda": 1
   },
   {
    "id": "desaladora",
@@ -4290,7 +4292,7 @@
     "trucos de movil",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "revisando",
    "creado": "2026-11-13",
    "idea": "error-movil100",
    "reglas": {
@@ -4390,7 +4392,8 @@
       "comofunciona"
      ]
     }
-   }
+   },
+   "ronda": 1
   },
   {
    "id": "tunelave",
@@ -4406,7 +4409,7 @@
     "alta velocidad",
     "lo que esconde tu ciudad"
    ],
-   "estado": "propuesto",
+   "estado": "revisando",
    "creado": "2026-11-13",
    "tendencia": "Lo que esconde Madrid: el túnel del tren bajo el centro",
    "reglas": {
@@ -4507,7 +4510,8 @@
      ]
     }
    },
-   "nota_escena": "Motion: corte longitudinal con la tuneladora avanzando, contador de km hasta 7,3 sobre el trazado Atocha-Chamartín y perfil de profundidad hasta 55 m; pastilla pequeña de euros; velocímetro a 120 km/h."
+   "nota_escena": "Motion: corte longitudinal con la tuneladora avanzando, contador de km hasta 7,3 sobre el trazado Atocha-Chamartín y perfil de profundidad hasta 55 m; pastilla pequeña de euros; velocímetro a 120 km/h.",
+   "ronda": 1
   },
   {
    "id": "freidoraire",
@@ -4637,7 +4641,7 @@
     "ingenieria",
     "lo que esconde tu ciudad"
    ],
-   "estado": "propuesto",
+   "estado": "revisando",
    "creado": "2026-11-13",
    "reglas": {
     "cotidiano": 7,
@@ -4736,7 +4740,8 @@
       "comofunciona"
      ]
     }
-   }
+   },
+   "ronda": 1
   }
  ]
 }

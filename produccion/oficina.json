@@ -1361,6 +1361,60 @@
    "rol": "director",
    "tipo": "aviso",
    "texto": "Duda de fuentes en dos guiones nuevos: la desaladora da 200.000 m³/día como capacidad máxima (otra fuente, 172.800) y el túnel del AVE 7,3 km (otras fuentes, 6,9). Van con la cifra oficial; revísalo al aprobar."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "director",
+   "tipo": "encargo",
+   "texto": "Tienes razón: como director soy quien decide, y he dejado pasar a «propuesto» guiones que mis propios revisores no avalaban (cargadorvacio, tunelave y transbordador con 1/4). Desde hoy no entrego nada que no tenga el visto bueno de la mayoría y lo resuelvo yo antes de enviártelo, no después."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "estratega",
+   "tipo": "encargo",
+   "texto": "Tienes razón, y a mí me toca en parte: mis notas de guion han sido de «cambios» en 4 de los 6 guiones, y esas objeciones (cifra minúscula, cifra sin comparar) debían haberse resuelto antes de que el guion llegara a «propuesto». Desde hoy reviso primero, cierro el acuerdo con el director y solo entonces pasa a «propuesto»."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "seo",
+   "tipo": "encargo",
+   "texto": "Tienes razón: si mis revisiones llegan como «cambios» a un guion que ya está en propuesto, el filtro no ha funcionado y te toca a ti arbitrar lo que debíamos resolver nosotros. Desde hoy no doy el visto bueno hasta que título, primera frase y pie lleven la palabra que se busca."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "motion",
+   "tipo": "encargo",
+   "texto": "Tienes razón: he dado vistos buenos a medias y «cambios» sin un arreglo que el director pudiera aplicar de una vez, y así los guiones llegaban a ti sin consenso. Desde hoy mi parte (que cada cifra se vea cambiar en pantalla) la dejo cerrada antes de la votación."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "sonido",
+   "tipo": "encargo",
+   "texto": "Tienes razón. He dado «cambios» en cinco de los seis guiones con arreglos sueltos que el director aún no había aplicado cuando salieron. Desde hoy no doy un guion por bueno hasta que cumple mi lista, y solo entonces lo envío como «ok»."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "fotografia",
+   "tipo": "encargo",
+   "texto": "Tienes razón: en la revisión de escena de la nevera mis notas de cámara se quedaron en críticas sueltas y no hubo acuerdo con Gráficos y Montaje antes de enseñártelo. Desde hoy no doy un ok ni un «cambios» sin haber cerrado antes el plano del primer segundo y la lista de cambios de plano con los demás."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "editor",
+   "tipo": "encargo",
+   "texto": "Tienes razón: revisamos cada uno por su lado y dejamos pasar lo que casi nadie respaldaba, como la escena de la nevera con 0/3. Desde hoy no doy un visto bueno suelto: o propongo un arreglo concreto con el que podamos acordar, o no marco ok."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "social",
+   "tipo": "encargo",
+   "texto": "Tienes razón: no tiene sentido que un guion llegue a tu panel con 1 de 4. Desde hoy reviso el pie y la llamada a comentar con el director antes de que se envíe nada, y si mi nota es «cambios» propongo la frase exacta para que se cierre en la misma ronda."
+  },
+  {
+   "fecha": "2026-11-13T21:54:18+01:00",
+   "rol": "paid",
+   "tipo": "encargo",
+   "texto": "Tiene sentido: si cuatro de nosotros no vemos claro un guion, mucho menos lo veo yo para gastar dinero en él. Me sumo al criterio y lo aplico a lo mío: no empujar con dinero nada que no haya pasado ese filtro."
   }
  ],
  "manual": [
@@ -2268,7 +2322,56 @@
    "texto": "No puede ser que lleguen guiones o borradores con una aprobacion entre vosotros tan baja. Ejemplo teneis que estar de acuerdo 3 de 4 o 6 de 8 para que me pongais cualquier cosa en guion o borradores. Primero poneros de acuerdo hacerlo bien y luego enviarlo.",
    "por": "Nikoloz_Lekishvili",
    "fecha": "2026-11-13T20:49:51.229Z",
-   "estado": "pendiente"
+   "estado": "hecho",
+   "hecho": "2026-11-13T21:54:18+01:00",
+   "respuesta": "Los nueve puestos aceptan: nada pasa a Guiones ni a Borradores sin 3 de 4 ok (comprobado por oficina.py comprobar --final y --escena), con 2 rondas como mucho; si no se llega, se descarta. Cargador en vacío, túnel del AVE y transbordador (1/4) y batería al 100 % (2/4) salen del panel y vuelven a ronda; la nevera vuelve a rehacer.",
+   "respuestas": [
+    {
+     "rol": "director",
+     "texto": "Tienes razón: como director soy quien decide, y he dejado pasar a «propuesto» guiones que mis propios revisores no avalaban (cargadorvacio, tunelave y transbordador con 1/4). Desde hoy no entrego nada que no tenga el visto bueno de la mayoría y lo resuelvo yo antes de enviártelo, no después.",
+     "compromiso": "Ningún guion pasa a «propuesto» si no tiene al menos 3 de 4 revisiones en «ok» tras como mucho 2 rondas. Si no se alcanza, lo descarto o lo reescribo, sin usar mi voto de desempate para colarlo. Cada propuesta de un revisor la aplico o la rechazo con una frase antes de volver a pedir su voto."
+    },
+    {
+     "rol": "estratega",
+     "texto": "Tienes razón, y a mí me toca en parte: mis notas de guion han sido de «cambios» en 4 de los 6 guiones, y esas objeciones (cifra minúscula, cifra sin comparar) debían haberse resuelto antes de que el guion llegara a «propuesto». Desde hoy reviso primero, cierro el acuerdo con el director y solo entonces pasa a «propuesto».",
+     "compromiso": "Si marco «cambios», adjunto una frase concreta de sustitución y compruebo en la segunda ronda que está aplicada. Antes de proponer un tema, descarto los que tengan una cifra menor que lo que el espectador ya conoce o que no se pueda comparar con algo suyo."
+    },
+    {
+     "rol": "seo",
+     "texto": "Tienes razón: si mis revisiones llegan como «cambios» a un guion que ya está en propuesto, el filtro no ha funcionado y te toca a ti arbitrar lo que debíamos resolver nosotros. Desde hoy no doy el visto bueno hasta que título, primera frase y pie lleven la palabra que se busca.",
+     "compromiso": "No firmo «ok» a un guion hasta que la palabra buscada esté en el título de YouTube (≤70 caracteres), en el pie y dentro de las 8 primeras palabras; si falta, mi «cambios» lleva la frase o el título ya reescritos."
+    },
+    {
+     "rol": "motion",
+     "texto": "Tienes razón: he dado vistos buenos a medias y «cambios» sin un arreglo que el director pudiera aplicar de una vez, y así los guiones llegaban a ti sin consenso. Desde hoy mi parte (que cada cifra se vea cambiar en pantalla) la dejo cerrada antes de la votación.",
+     "compromiso": "En cada revisión, o digo «ok» o digo «cambios» con la frase exacta que sustituye a la que falla y la cifra concreta que se mueve en pantalla, con un mínimo de 2 cifras animables por guion."
+    },
+    {
+     "rol": "sonido",
+     "texto": "Tienes razón. He dado «cambios» en cinco de los seis guiones con arreglos sueltos que el director aún no había aplicado cuando salieron. Desde hoy no doy un guion por bueno hasta que cumple mi lista, y solo entonces lo envío como «ok».",
+     "compromiso": "No doy «ok» sin comprobar: 205-225 palabras, primera frase de 8 palabras o menos con «¡!» o «…» antes del dato, ningún contador escrito como «de cero a X», como mucho 2 cifras por frase y ningún efecto encima de una cifra dicha."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Tienes razón: en la revisión de escena de la nevera mis notas de cámara se quedaron en críticas sueltas y no hubo acuerdo con Gráficos y Montaje antes de enseñártelo. Desde hoy no doy un ok ni un «cambios» sin haber cerrado antes el plano del primer segundo y la lista de cambios de plano con los demás.",
+     "compromiso": "Mi veredicto lleva siempre un arreglo concreto de cámara, y no doy mi ok hasta que el fotograma 1 sea un objeto en movimiento en primer plano a 2-6 m, sin que la cámara atraviese nada."
+    },
+    {
+     "rol": "editor",
+     "texto": "Tienes razón: revisamos cada uno por su lado y dejamos pasar lo que casi nadie respaldaba, como la escena de la nevera con 0/3. Desde hoy no doy un visto bueno suelto: o propongo un arreglo concreto con el que podamos acordar, o no marco ok.",
+     "compromiso": "No marco ok en una escena si no se cumple: cada acción cae en su palabra con un desfase de 0,3 s como máximo, ningún tramo de más de 2 s sin cambio visual y el último plano igual al primero."
+    },
+    {
+     "rol": "social",
+     "texto": "Tienes razón: no tiene sentido que un guion llegue a tu panel con 1 de 4. Desde hoy reviso el pie y la llamada a comentar con el director antes de que se envíe nada, y si mi nota es «cambios» propongo la frase exacta para que se cierre en la misma ronda.",
+     "compromiso": "Solo marco «ok» si el pie repite «¿Cuál era tu número? 👇», incluye «Envíaselo a…» y termina en pregunta o 👇."
+    },
+    {
+     "rol": "paid",
+     "texto": "Tiene sentido: si cuatro de nosotros no vemos claro un guion, mucho menos lo veo yo para gastar dinero en él. Me sumo al criterio y lo aplico a lo mío: no empujar con dinero nada que no haya pasado ese filtro.",
+     "compromiso": "No propondré promocionar ningún vídeo cuyo guion no saliera con al menos 3 de 4 ok, que no pase de 20.000 vistas o que no esté en 10 veces lo normal en sus primeros 5 días."
+    }
+   ]
   }
  ],
  "paid": [],
@@ -3598,7 +3701,7 @@
    "texto": "Guiones nuevos de 205-225 palabras, frases de 6-10 palabras, «…» antes de cada dato y máximo 2 incisos por frase.",
    "desde": "2026-11-12",
    "origen": "c261112007",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112008edi",
@@ -3607,7 +3710,7 @@
    "texto": "Cada sfx_events debe tener ≥21 efectos/min y ≥8 tipos (whoosh en cada corte, pop en cada aparición, golpe en cada impacto); ningún efecto cae dentro de la palabra de una cifra: se adelanta 0,3 s.",
    "desde": "2026-11-12",
    "origen": "c261112008",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112009fot",
@@ -3616,7 +3719,7 @@
    "texto": "En cada escena nueva, cam_cada medio ≤2,8 s (un movimiento o cambio de plano cada 2,8 s como máximo), y te aviso en la nota de la escena de las marcas de tiempo de los cortes para que coloques los whoosh.",
    "desde": "2026-11-12",
    "origen": "c261112009",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112010dir",
@@ -3625,7 +3728,7 @@
    "texto": "Objetivo de 205-220 palabras por guion. Antes de pasar la compuerta, borro toda frase de transición que no aporte cifra ni pieza nueva.",
    "desde": "2026-11-12",
    "origen": "c261112010",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112011mot",
@@ -3634,7 +3737,7 @@
    "texto": "En cada _ov.py, KEYWORDS incluye todas las piezas nombradas por la voz, todas las cifras y las variantes de plural y género, con el objetivo de llegar a 28 cuando el guion lo permita. Si el guion da menos, no añado palabras de relleno y lo anoto en un comentario del _ov.py. Sigo con un único rótulo a la vez.",
    "desde": "2026-11-12",
    "origen": "c261112011",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112012fot",
@@ -3643,7 +3746,7 @@
    "texto": "Cada _scene.py nuevo lleva más de 22 claves de cámara Catmull-Rom y ningún tramo sin cambio de plano o movimiento superior a 2,8 s; lo compruebo con auditoria.py (cam_cada ≤2,8, cam_claves >22) antes de pasar a escena.",
    "desde": "2026-11-12",
    "origen": "c261112012",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112013dir",
@@ -3652,7 +3755,7 @@
    "texto": "Todo guion nuevo lleva al menos 4 cifras que cambian, escritas como «de X a Y» con unidad, que la escena pueda mostrar con pastilla o medidor. Si una cifra no se puede enseñar, la sustituyo por otra que sí.",
    "desde": "2026-11-12",
    "origen": "c261112013",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112014fot",
@@ -3661,7 +3764,7 @@
    "texto": "Junto a cada escena entrego un comentario al inicio de _scene.py con una línea por plano: tiempo, pieza en primer plano y esquina libre (arriba-izquierda por defecto); en cada plano nuevo dejo el mecanismo visible desde 0,5 s para que los gráficos entren en ese margen.",
    "desde": "2026-11-12",
    "origen": "c261112014",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112016dir",
@@ -3670,7 +3773,7 @@
    "texto": "Máximo 235 palabras en cualquier guion y objetivo de 68-70 s. Los recortes se hacen antes de generar la voz.",
    "desde": "2026-11-12",
    "origen": "c261112016",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112017dir",
@@ -3949,6 +4052,87 @@
    "texto": "Desde mañana, en cada guion nuevo reviso que el pie de Instagram de seo cumpla este orden: palabra buscada al inicio («Cómo funciona X: …»), una frase autosuficiente, «Envíaselo a quien…» y una pregunta concreta que se conteste con una palabra o un número. Si no lo cumple, devuelvo cambios con la frase corregida.",
    "desde": "2026-11-13",
    "origen": "c261113024",
+   "estado": "vigente"
+  },
+  {
+   "id": "alzv99dkl",
+   "rol": "director",
+   "pedido_por": "usuario",
+   "texto": "Ningún guion pasa a «propuesto» si no tiene al menos 3 de 4 revisiones en «ok» tras como mucho 2 rondas. Si no se alcanza, lo descarto o lo reescribo, sin usar mi voto de desempate para colarlo. Cada propuesta de un revisor la aplico o la rechazo con una frase antes de volver a pedir su voto.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "a70aus6ca",
+   "rol": "estratega",
+   "pedido_por": "usuario",
+   "texto": "Si marco «cambios», adjunto una frase concreta de sustitución y compruebo en la segunda ronda que está aplicada. Antes de proponer un tema, descarto los que tengan una cifra menor que lo que el espectador ya conoce o que no se pueda comparar con algo suyo.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "awma72qe5",
+   "rol": "seo",
+   "pedido_por": "usuario",
+   "texto": "No firmo «ok» a un guion hasta que la palabra buscada esté en el título de YouTube (≤70 caracteres), en el pie y dentro de las 8 primeras palabras; si falta, mi «cambios» lleva la frase o el título ya reescritos.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "azuichh4t",
+   "rol": "motion",
+   "pedido_por": "usuario",
+   "texto": "En cada revisión, o digo «ok» o digo «cambios» con la frase exacta que sustituye a la que falla y la cifra concreta que se mueve en pantalla, con un mínimo de 2 cifras animables por guion.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "atkt8a1sp",
+   "rol": "sonido",
+   "pedido_por": "usuario",
+   "texto": "No doy «ok» sin comprobar: 205-225 palabras, primera frase de 8 palabras o menos con «¡!» o «…» antes del dato, ningún contador escrito como «de cero a X», como mucho 2 cifras por frase y ningún efecto encima de una cifra dicha.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "a25j93laj",
+   "rol": "fotografia",
+   "pedido_por": "usuario",
+   "texto": "Mi veredicto lleva siempre un arreglo concreto de cámara, y no doy mi ok hasta que el fotograma 1 sea un objeto en movimiento en primer plano a 2-6 m, sin que la cámara atraviese nada.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "agpkt3xsh",
+   "rol": "editor",
+   "pedido_por": "usuario",
+   "texto": "No marco ok en una escena si no se cumple: cada acción cae en su palabra con un desfase de 0,3 s como máximo, ningún tramo de más de 2 s sin cambio visual y el último plano igual al primero.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "aoxz46q9a",
+   "rol": "social",
+   "pedido_por": "usuario",
+   "texto": "Solo marco «ok» si el pie repite «¿Cuál era tu número? 👇», incluye «Envíaselo a…» y termina en pregunta o 👇.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
+   "estado": "vigente"
+  },
+  {
+   "id": "apmn5n8dg",
+   "rol": "paid",
+   "pedido_por": "usuario",
+   "texto": "No propondré promocionar ningún vídeo cuyo guion no saliera con al menos 3 de 4 ok, que no pase de 20.000 vistas o que no esté en 10 veces lo normal en sus primeros 5 días.",
+   "desde": "2026-11-13",
+   "origen": "encargo emwfgaa9p (consenso 3 de 4)",
    "estado": "vigente"
   }
  ],

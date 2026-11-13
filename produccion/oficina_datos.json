@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T20:21:20+00:00",
+ "actualizado": "2026-11-13T20:54:40+00:00",
  "medianas": {
   "tiktok": 1083,
   "instagram": 1562.0,
@@ -8,7 +8,7 @@
  "maduros": 39,
  "puestos": {
   "director": {
-   "ahora": "6 guiones esperando tu visto bueno",
+   "ahora": "2 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "1 escenas por plantear · 0 correcciones",
-   "pendiente": 1,
+   "ahora": "1 escenas por plantear · 1 correcciones",
+   "pendiente": 2,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -42,7 +42,7 @@
    }
   },
   "editor": {
-   "ahora": "1 en render · 0 esperando tu revisión",
+   "ahora": "0 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -54,8 +54,8 @@
    "foco": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,98× los demás."
   },
   "motion": {
-   "ahora": "1 capas de gráficos por montar",
-   "pendiente": 1,
+   "ahora": "2 capas de gráficos por montar",
+   "pendiente": 2,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.1,
@@ -88,8 +88,8 @@
    }
   },
   "paid": {
-   "ahora": "3 vídeos candidatos a promocionar",
-   "pendiente": 3,
+   "ahora": "2 vídeos candidatos a promocionar",
+   "pendiente": 2,
    "kpi": {
     "nombre": "Promociones lanzadas",
     "valor": 0,
@@ -352,21 +352,7 @@
    "vistas": 622015,
    "rel": 212.65,
    "inter": 0.0505,
-   "horas": 80,
-   "presupuesto": 20,
-   "objetivo": "seguidores",
-   "decidido": null
-  },
-  {
-   "red": "tiktok",
-   "id": "7705903138942848289",
-   "video": "ruedas",
-   "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 41646,
-   "rel": 15.45,
-   "inter": 0.0293,
-   "horas": 120,
+   "horas": 81,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -380,7 +366,7 @@
    "vistas": 31868,
    "rel": 9.99,
    "inter": 0.0329,
-   "horas": 21,
+   "horas": 22,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -418,16 +404,16 @@
   }
  ],
  "compuertas": {
-  "cargadorvacio": [
+  "nevera": [
    {
     "nivel": "ok",
     "rol": "sonido",
-    "texto": "206 palabras (≈61 s)"
+    "texto": "217 palabras (≈64 s)"
    },
    {
     "nivel": "ok",
     "rol": "motion",
-    "texto": "15 cifras en el guion (mínimo 2 que se puedan enseñar)"
+    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
    },
    {
     "nivel": "ok",
@@ -514,70 +500,6 @@
     "texto": "Regla «enséñalo»: 9/10"
    }
   ],
-  "bateria100": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "207 palabras (≈61 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "25 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "tunelave": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "208 palabras (≈61 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
   "freidoraire": [
    {
     "nivel": "ok",
@@ -598,38 +520,6 @@
     "nivel": "ok",
     "rol": "estratega",
     "texto": "Regla «tema cotidiano»: 9/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "transbordador": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "213 palabras (≈63 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "17 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
    },
    {
     "nivel": "ok",
@@ -1941,6 +1831,38 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,19× más vistas)."
+    }
+   ],
+   "nevera": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,25× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 12, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,94 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 4. Los que funcionan van por encima de 8 (1,20× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,19× más vistas)."
     }
    ],
    "desaladora": [

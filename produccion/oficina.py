@@ -127,7 +127,33 @@ def compuertas(v):
     return out
 
 
+REVISORES = {"guion": ("estratega", "seo", "motion", "sonido"), "escena": ("fotografia", "motion", "editor", "sonido")}
+
+
+def consenso(v, fase="guion"):
+    """Último veredicto de cada revisor de la fase → (oks, revisores que han votado, revisores que faltan)."""
+    ult = {}
+    for r in v.get("revisiones") or []:
+        if r.get("fase") == fase and r.get("rol") in REVISORES[fase]:
+            ult[r["rol"]] = r.get("veredicto")
+    oks = sum(1 for x in ult.values() if x == "ok")
+    return oks, len(ult), [r for r in REVISORES[fase] if r not in ult]
+
+
+def compuerta_consenso(v, fase="guion"):
+    """Encargo del usuario (13-nov): nada llega al panel sin el acuerdo de 3 de cada 4 revisores (75 %)."""
+    oks, n, faltan = consenso(v, fase)
+    if faltan:
+        return {"nivel": "error", "rol": "director", "texto": f"Consenso de {fase}: faltan revisiones de {', '.join(faltan)}"}
+    if oks * 4 < 3 * len(REVISORES[fase]):
+        return {"nivel": "error", "rol": "director", "texto": f"Consenso de {fase}: {oks}/{len(REVISORES[fase])} ok (hace falta 3 de 4)"}
+    return {"nivel": "ok", "rol": "director", "texto": f"Consenso de {fase}: {oks}/{len(REVISORES[fase])} ok"}
+
+
 def cmd_comprobar(ids):
+    """comprobar [--final] [--escena] [ids]: --final exige además el consenso de guion; --escena solo mira el de escena."""
+    final, escena = "--final" in ids, "--escena" in ids
+    ids = [i for i in ids if not i.startswith("--")]
     est = leer("produccion/estado.json", {"videos": []})["videos"]
     sel = [v for v in est if (v["id"] in ids if ids else v.get("estado") == "propuesto")]
     if ids and not sel:
@@ -135,7 +161,12 @@ def cmd_comprobar(ids):
         return 2
     malo = False
     for v in sel:
-        c = compuertas(v)
+        if escena:
+            c = [compuerta_consenso(v, "escena")]
+        else:
+            c = compuertas(v)
+            if final or v.get("estado") == "propuesto":
+                c.append(compuerta_consenso(v, "guion"))
         errs = [x for x in c if x["nivel"] == "error"]
         malo |= bool(errs)
         print(f"\n{'✗' if errs else '✓'} {v['id']} · {v.get('titulo', '')}")
