@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-13T19:53:53+00:00",
+ "actualizado": "2026-11-13T20:21:20+00:00",
  "medianas": {
-  "tiktok": 1082,
+  "tiktok": 1083,
   "instagram": 1562.0,
-  "youtube": 1474.0
+  "youtube": 1480.0
  },
  "maduros": 39,
  "puestos": {
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "Al día: sin escenas pendientes",
-   "pendiente": 0,
+   "ahora": "1 escenas por plantear · 0 correcciones",
+   "pendiente": 1,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -31,8 +31,8 @@
    "foco": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,11× lo normal, frente a 0,89× los demás."
   },
   "sonido": {
-   "ahora": "1 voces generándose · 0 mezclas por hacer",
-   "pendiente": 0,
+   "ahora": "0 voces generándose · 1 mezclas por hacer",
+   "pendiente": 1,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.9,
@@ -46,16 +46,16 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.43,
+    "valor": 4.46,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
    },
-   "foco": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,98× los demás."
+   "foco": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,98× los demás."
   },
   "motion": {
-   "ahora": "Al día",
-   "pendiente": 0,
+   "ahora": "1 capas de gráficos por montar",
+   "pendiente": 1,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.1,
@@ -63,7 +63,7 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,30× lo normal, frente a 1,05× los demás."
+   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,29× lo normal, frente a 1,04× los demás."
   },
   "estratega": {
    "ahora": "0 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
@@ -132,23 +132,23 @@
    "n_no": 28,
    "med_si": 1.11,
    "med_no": 1.06,
-   "ratio": 1.04,
+   "ratio": 1.05,
    "veredicto": "sin_efecto"
   },
   "m_tituloPregunta": {
    "n_si": 32,
    "n_no": 7,
-   "med_si": 1.11,
+   "med_si": 1.12,
    "med_no": 0.34,
-   "ratio": 3.26,
+   "ratio": 3.29,
    "veredicto": "a_favor"
   },
   "m_cotidiano": {
    "n_si": 14,
    "n_no": 25,
-   "med_si": 0.95,
+   "med_si": 0.94,
    "med_no": 1.08,
-   "ratio": 0.88,
+   "ratio": 0.87,
    "veredicto": "sin_efecto"
   },
   "m_corto": {
@@ -170,7 +170,7 @@
   "m261112dir8": {
    "n_si": 19,
    "n_no": 20,
-   "med_si": 1.17,
+   "med_si": 1.16,
    "med_no": 0.98,
    "ratio": 1.19,
    "veredicto": "sin_efecto"
@@ -178,18 +178,18 @@
   "m261112fot9": {
    "n_si": 18,
    "n_no": 21,
-   "med_si": 1.17,
+   "med_si": 1.15,
    "med_no": 1.01,
-   "ratio": 1.15,
+   "ratio": 1.14,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
    "n_si": 6,
    "n_no": 33,
    "med_si": 1.25,
-   "med_no": 1.05,
+   "med_no": 1.04,
    "ratio": 1.2,
-   "veredicto": "sin_efecto"
+   "veredicto": "a_favor"
   },
   "m261112son11": {
    "n_si": 17,
@@ -202,9 +202,9 @@
   "m261112mot12": {
    "n_si": 18,
    "n_no": 21,
-   "med_si": 1.3,
-   "med_no": 1.05,
-   "ratio": 1.24,
+   "med_si": 1.29,
+   "med_no": 1.04,
+   "ratio": 1.25,
    "veredicto": "a_favor"
   },
   "m261112mot13": {
@@ -220,15 +220,15 @@
    "n_no": 21,
    "med_si": 1.14,
    "med_no": 1.04,
-   "ratio": 1.09,
+   "ratio": 1.1,
    "veredicto": "sin_efecto"
   },
   "m261113son16": {
    "n_si": 13,
    "n_no": 26,
-   "med_si": 1.17,
+   "med_si": 1.16,
    "med_no": 1.02,
-   "ratio": 1.14,
+   "ratio": 1.13,
    "veredicto": "sin_efecto"
   },
   "m261113edi17": {
@@ -257,9 +257,9 @@
    },
    "n_si": 32,
    "n_no": 7,
-   "med_si": 1.11,
+   "med_si": 1.12,
    "med_no": 0.34,
-   "ratio": 3.26,
+   "ratio": 3.29,
    "veredicto": "a_favor"
   },
   {
@@ -270,9 +270,9 @@
    },
    "n_si": 10,
    "n_no": 29,
-   "med_si": 1.39,
+   "med_si": 1.38,
    "med_no": 1.04,
-   "ratio": 1.33,
+   "ratio": 1.32,
    "veredicto": "a_favor"
   }
  ],
@@ -349,9 +349,9 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 618143,
-   "rel": 211.33,
-   "inter": 0.0504,
+   "vistas": 622015,
+   "rel": 212.65,
+   "inter": 0.0505,
    "horas": 80,
    "presupuesto": 20,
    "objetivo": "seguidores",
@@ -363,10 +363,10 @@
    "video": "ruedas",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 41627,
-   "rel": 15.46,
+   "vistas": 41646,
+   "rel": 15.45,
    "inter": 0.0293,
-   "horas": 119,
+   "horas": 120,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -377,9 +377,9 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 31129,
-   "rel": 9.85,
-   "inter": 0.0328,
+   "vistas": 31868,
+   "rel": 9.99,
+   "inter": 0.0329,
    "horas": 21,
    "presupuesto": 10,
    "objetivo": "seguidores",
@@ -392,28 +392,28 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 211.33,
-   "vistas": 618143
+   "rel": 212.65,
+   "vistas": 622015
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 21.88,
-   "vistas": 56285
+   "rel": 21.93,
+   "vistas": 56460
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 15.46,
-   "vistas": 41627
+   "rel": 15.45,
+   "vistas": 41646
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.41,
+   "rel": 10.4,
    "vistas": 21982
   }
  ],
@@ -666,12 +666,12 @@
     "unidad": "",
     "umbral": 3,
     "direccion": "mas",
-    "ratio": 1.24,
+    "ratio": 1.25,
     "n_si": 18,
     "n_no": 21,
-    "fuerza": 0.91,
+    "fuerza": 0.95,
     "sorpresa": false,
-    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,30× lo normal, frente a 1,05× los demás."
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,29× lo normal, frente a 1,04× los demás."
    },
    {
     "metrica": "cam_cada",
@@ -680,12 +680,12 @@
     "unidad": "s",
     "umbral": 3.05,
     "direccion": "menos",
-    "ratio": 1.22,
+    "ratio": 1.2,
     "n_si": 18,
     "n_no": 19,
-    "fuerza": 0.84,
+    "fuerza": 0.79,
     "sorpresa": false,
-    "texto": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,17× lo normal, frente a 0,97× los demás."
+    "texto": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,16× lo normal, frente a 0,97× los demás."
    },
    {
     "metrica": "ov_etiquetas",
@@ -699,7 +699,7 @@
     "n_no": 20,
     "fuerza": 0.79,
     "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,16× lo normal, frente a 0,97× los demás."
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,15× lo normal, frente a 0,96× los demás."
    },
    {
     "metrica": "duracion",
@@ -713,7 +713,7 @@
     "n_no": 21,
     "fuerza": 0.74,
     "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,98× los demás."
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,98× los demás."
    },
    {
     "metrica": "cam_inicio_dist",
@@ -742,7 +742,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -774,7 +774,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "motion",
@@ -902,7 +902,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -940,13 +940,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1048,7 +1048,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1112,7 +1112,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1156,7 +1156,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,5 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,5 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1182,13 +1182,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1240,7 +1240,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1322,7 +1322,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1412,13 +1412,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,24× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1488,7 +1488,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1678,7 +1678,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,22× más vistas)."
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,20× más vistas)."
     },
     {
      "rol": "motion",
@@ -1942,6 +1942,14 @@
      "metrica": "duracion",
      "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,19× más vistas)."
     }
+   ],
+   "desaladora": [
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
+    }
    ]
   },
   "experimentos": {
@@ -1978,12 +1986,12 @@
     "unidad": "",
     "umbral": 3,
     "direccion": "mas",
-    "ratio": 1.24,
+    "ratio": 1.25,
     "n_si": 18,
     "n_no": 21,
-    "fuerza": 0.91,
+    "fuerza": 0.95,
     "sorpresa": false,
-    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,30× lo normal, frente a 1,05× los demás."
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,29× lo normal, frente a 1,04× los demás."
    },
    "editor": {
     "metrica": "duracion",
@@ -1997,7 +2005,7 @@
     "n_no": 21,
     "fuerza": 0.74,
     "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,98× los demás."
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,98× los demás."
    }
   },
   "referencia": {
@@ -2224,7 +2232,7 @@
     "mejor": "mas"
    }
   },
-  "medidos": 91
+  "medidos": 92
  },
  "videos": [
   {
@@ -2273,9 +2281,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 297,
+   "vistas": 337,
    "rel_red": {
-    "tiktok": 0.13
+    "tiktok": 0.14
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -2325,12 +2333,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 5528,
+   "vistas": 5938,
    "rel_red": {
-    "tiktok": 2.33
+    "tiktok": 2.5
    },
    "com_mil": 0.0,
-   "comp_mil": 0.36,
+   "comp_mil": 0.34,
    "publicado": "2026-11-13T14:13:47+00:00"
   },
   {
@@ -2379,12 +2387,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1131,
+   "vistas": 1362,
    "rel_red": {
-    "tiktok": 0.48
+    "tiktok": 0.57
    },
    "com_mil": 0.0,
-   "comp_mil": 2.65,
+   "comp_mil": 2.2,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
   {
@@ -2433,12 +2441,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 3159,
+   "vistas": 3230,
    "rel_red": {
-    "tiktok": 1.0
+    "tiktok": 1.01
    },
-   "com_mil": 0.32,
-   "comp_mil": 0.63,
+   "com_mil": 0.31,
+   "comp_mil": 0.62,
    "publicado": "2026-11-12T23:00:34+00:00"
   },
   {
@@ -2490,9 +2498,9 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 5726,
+   "vistas": 5757,
    "rel_red": {
-    "instagram": 1.32,
+    "instagram": 1.33,
     "youtube": 0.83
    },
    "com_mil": 0.35,
@@ -2548,14 +2556,14 @@
    "creado": "2026-11-09",
    "rel": null,
    "maduro": false,
-   "vistas": 3618,
+   "vistas": 3700,
    "rel_red": {
     "tiktok": 0.28,
     "instagram": 0.92,
-    "youtube": 0.71
+    "youtube": 0.73
    },
    "com_mil": 0.0,
-   "comp_mil": 0.83,
+   "comp_mil": 0.81,
    "publicado": "2026-11-12T19:28:35+0000"
   },
   {
@@ -2607,14 +2615,14 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 38290,
+   "vistas": 39423,
    "rel_red": {
-    "tiktok": 9.85,
+    "tiktok": 9.99,
     "instagram": 0.97,
-    "youtube": 2.9
+    "youtube": 3.06
    },
    "com_mil": 0.13,
-   "comp_mil": 2.93,
+   "comp_mil": 2.89,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2663,11 +2671,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1683,
+   "vistas": 1694,
    "rel_red": {
     "tiktok": 0.53
    },
-   "com_mil": 1.19,
+   "com_mil": 1.18,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -2718,7 +2726,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1130,
+   "vistas": 1133,
    "rel_red": {
     "tiktok": 0.36
    },
@@ -2773,12 +2781,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1031,
+   "vistas": 1033,
    "rel_red": {
-    "tiktok": 0.33
+    "tiktok": 0.32
    },
    "com_mil": 0.0,
-   "comp_mil": 5.82,
+   "comp_mil": 5.81,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -2828,12 +2836,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 16305,
+   "vistas": 16361,
    "rel_red": {
-    "tiktok": 5.16
+    "tiktok": 5.13
    },
    "com_mil": 0.06,
-   "comp_mil": 0.8,
+   "comp_mil": 0.79,
    "publicado": "2026-11-12T11:40:48+00:00"
   },
   {
@@ -2883,11 +2891,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2051,
+   "vistas": 2055,
    "rel_red": {
-    "tiktok": 0.65
+    "tiktok": 0.64
    },
-   "com_mil": 0.98,
+   "com_mil": 0.97,
    "comp_mil": 0.0,
    "publicado": "2026-11-11T21:11:18+00:00"
   },
@@ -2935,11 +2943,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.85,
+   "rel": 0.84,
    "maduro": true,
-   "vistas": 2693,
+   "vistas": 2696,
    "rel_red": {
-    "tiktok": 0.85
+    "tiktok": 0.84
    },
    "com_mil": 0.0,
    "comp_mil": 2.6,
@@ -2990,11 +2998,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.92,
+   "rel": 0.91,
    "maduro": true,
-   "vistas": 2903,
+   "vistas": 2906,
    "rel_red": {
-    "tiktok": 0.92
+    "tiktok": 0.91
    },
    "com_mil": 0.34,
    "comp_mil": 0.0,
@@ -3047,7 +3055,7 @@
    "creado": "2026-11-07",
    "rel": 0.19,
    "maduro": true,
-   "vistas": 598,
+   "vistas": 600,
    "rel_red": {
     "tiktok": 0.19
    },
@@ -3101,7 +3109,7 @@
    "creado": "2026-11-07",
    "rel": 0.19,
    "maduro": true,
-   "vistas": 591,
+   "vistas": 592,
    "rel_red": {
     "tiktok": 0.19
    },
@@ -3153,11 +3161,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.44,
+   "rel": 1.43,
    "maduro": true,
-   "vistas": 4560,
+   "vistas": 4569,
    "rel_red": {
-    "tiktok": 1.44
+    "tiktok": 1.43
    },
    "com_mil": 0.0,
    "comp_mil": 0.22,
@@ -3208,11 +3216,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.05,
+   "rel": 1.04,
    "maduro": true,
-   "vistas": 3186,
+   "vistas": 3191,
    "rel_red": {
-    "tiktok": 1.05
+    "tiktok": 1.04
    },
    "com_mil": 0.0,
    "comp_mil": 1.57,
@@ -3265,7 +3273,7 @@
    "creado": "2026-11-06",
    "rel": 0.33,
    "maduro": true,
-   "vistas": 977,
+   "vistas": 978,
    "rel_red": {
     "tiktok": 0.33
    },
@@ -3317,14 +3325,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 211.33,
+   "rel": 212.65,
    "maduro": true,
-   "vistas": 618143,
+   "vistas": 622015,
    "rel_red": {
-    "tiktok": 211.33
+    "tiktok": 212.65
    },
    "com_mil": 0.14,
-   "comp_mil": 5.82,
+   "comp_mil": 5.85,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3373,12 +3381,12 @@
    "creado": "2026-11-06",
    "rel": 0.18,
    "maduro": true,
-   "vistas": 517,
+   "vistas": 518,
    "rel_red": {
     "tiktok": 0.18
    },
    "com_mil": 1.93,
-   "comp_mil": 3.87,
+   "comp_mil": 3.86,
    "publicado": "2026-11-09T20:34:10+00:00"
   },
   {
@@ -3425,11 +3433,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.48,
+   "rel": 1.47,
    "maduro": true,
-   "vistas": 4130,
+   "vistas": 4131,
    "rel_red": {
-    "tiktok": 1.48
+    "tiktok": 1.47
    },
    "com_mil": 0.0,
    "comp_mil": 0.24,
@@ -3480,7 +3488,7 @@
    "creado": "2026-11-06",
    "rel": 0.32,
    "maduro": true,
-   "vistas": 906,
+   "vistas": 907,
    "rel_red": {
     "tiktok": 0.32
    },
@@ -3535,7 +3543,7 @@
    "creado": "2026-11-05",
    "rel": 0.39,
    "maduro": true,
-   "vistas": 1082,
+   "vistas": 1083,
    "rel_red": {
     "tiktok": 0.39
    },
@@ -3589,7 +3597,7 @@
    "creado": "2026-11-06",
    "rel": 0.57,
    "maduro": true,
-   "vistas": 1543,
+   "vistas": 1545,
    "rel_red": {
     "tiktok": 0.57
    },
@@ -3643,14 +3651,14 @@
    "creado": "2026-11-06",
    "rel": 1.76,
    "maduro": true,
-   "vistas": 7147,
+   "vistas": 7480,
    "rel_red": {
     "tiktok": 1.76,
-    "instagram": 0.66,
-    "youtube": 0.81
+    "instagram": 0.81,
+    "youtube": 0.83
    },
-   "com_mil": 0.14,
-   "comp_mil": 0.14,
+   "com_mil": 0.13,
+   "comp_mil": 0.13,
    "publicado": "2026-11-08T20:41:38+00:00"
   },
   {
@@ -3699,14 +3707,14 @@
    "creado": "2026-11-06",
    "rel": 1.65,
    "maduro": true,
-   "vistas": 8882,
+   "vistas": 8952,
    "rel_red": {
     "tiktok": 1.65,
     "instagram": 0.9,
-    "youtube": 0.73
+    "youtube": 0.75
    },
-   "com_mil": 0.23,
-   "comp_mil": 0.23,
+   "com_mil": 0.22,
+   "comp_mil": 0.22,
    "publicado": "2026-11-08T20:40:50+00:00"
   },
   {
@@ -3754,16 +3762,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 15.46,
+   "rel": 15.45,
    "maduro": true,
-   "vistas": 49141,
+   "vistas": 49349,
    "rel_red": {
-    "tiktok": 15.46,
+    "tiktok": 15.45,
     "instagram": 1.34,
-    "youtube": 2.76
+    "youtube": 2.82
    },
    "com_mil": 0.1,
-   "comp_mil": 1.06,
+   "comp_mil": 1.05,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -3812,7 +3820,7 @@
    "creado": "2026-11-06",
    "rel": 1.58,
    "maduro": true,
-   "vistas": 6902,
+   "vistas": 6903,
    "rel_red": {
     "tiktok": 1.58,
     "instagram": 0.85,
@@ -3866,12 +3874,12 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-04",
-   "rel": 1.16,
+   "rel": 1.15,
    "maduro": true,
    "vistas": 4675,
    "rel_red": {
     "instagram": 0.92,
-    "youtube": 1.41
+    "youtube": 1.39
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -3922,13 +3930,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 7.82,
+   "rel": 7.91,
    "maduro": true,
-   "vistas": 73580,
+   "vistas": 73947,
    "rel_red": {
-    "tiktok": 21.88,
+    "tiktok": 21.93,
     "instagram": 1.06,
-    "youtube": 7.82
+    "youtube": 7.91
    },
    "com_mil": 0.37,
    "comp_mil": 1.33,
@@ -3979,16 +3987,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.11,
+   "rel": 1.13,
    "maduro": true,
-   "vistas": 8507,
+   "vistas": 8546,
    "rel_red": {
     "tiktok": 1.76,
     "instagram": 1.04,
-    "youtube": 1.11
+    "youtube": 1.13
    },
    "com_mil": 0.12,
-   "comp_mil": 1.41,
+   "comp_mil": 1.4,
    "publicado": "2026-11-07T23:50:48+00:00"
   },
   {
@@ -4037,11 +4045,11 @@
    "creado": "2026-11-05",
    "rel": 1.78,
    "maduro": true,
-   "vistas": 28462,
+   "vistas": 28463,
    "rel_red": {
     "tiktok": 1.78,
     "instagram": 1.11,
-    "youtube": 10.41
+    "youtube": 10.4
    },
    "com_mil": 0.11,
    "comp_mil": 0.04,
@@ -4091,13 +4099,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.17,
+   "rel": 1.16,
    "maduro": true,
    "vistas": 9182,
    "rel_red": {
     "tiktok": 1.93,
     "instagram": 1.05,
-    "youtube": 1.17
+    "youtube": 1.16
    },
    "com_mil": 0.0,
    "comp_mil": 0.76,
@@ -4148,13 +4156,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.6,
+   "rel": 1.59,
    "maduro": true,
-   "vistas": 11727,
+   "vistas": 11729,
    "rel_red": {
     "tiktok": 2.39,
     "instagram": 1.23,
-    "youtube": 1.6
+    "youtube": 1.59
    },
    "com_mil": 0.17,
    "comp_mil": 0.68,
@@ -4208,7 +4216,7 @@
    "rel_red": {
     "tiktok": 1.68,
     "instagram": 1.08,
-    "youtube": 0.55
+    "youtube": 0.54
    },
    "com_mil": 0.13,
    "comp_mil": 0.13,
@@ -4264,7 +4272,7 @@
    "rel_red": {
     "tiktok": 0.34,
     "instagram": 0.02,
-    "youtube": 0.51
+    "youtube": 0.5
    },
    "com_mil": 0.5,
    "comp_mil": 0.0,
@@ -4316,7 +4324,7 @@
    "creado": "2026-11-03",
    "rel": 0.83,
    "maduro": true,
-   "vistas": 4608,
+   "vistas": 4609,
    "rel_red": {
     "tiktok": 0.6,
     "instagram": 0.95,
@@ -4374,7 +4382,7 @@
    "maduro": true,
    "vistas": 6358,
    "rel_red": {
-    "tiktok": 1.9,
+    "tiktok": 1.89,
     "instagram": 0.92,
     "youtube": 0.75
    },
@@ -4596,11 +4604,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.43,
+   "rel": 1.42,
    "maduro": true,
    "vistas": 6838,
    "rel_red": {
-    "tiktok": 1.43,
+    "tiktok": 1.42,
     "instagram": 1.06,
     "youtube": 1.7
    },
@@ -4937,7 +4945,7 @@
    "creado": "2026-11-03",
    "rel": 2.69,
    "maduro": true,
-   "vistas": 12505,
+   "vistas": 12506,
    "rel_red": {
     "tiktok": 2.69,
     "instagram": 1.12,
