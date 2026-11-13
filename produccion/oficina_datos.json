@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-11-13T09:22:31+00:00",
+ "actualizado": "2026-11-13T10:27:38+00:00",
  "medianas": {
   "tiktok": 1060,
-  "instagram": 1562,
+  "instagram": 1561,
   "youtube": 1584.0
  },
  "maduros": 34,
@@ -47,7 +47,7 @@
    "pendiente": 7,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.33,
+    "valor": 4.34,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
@@ -132,8 +132,8 @@
    "n_si": 9,
    "n_no": 25,
    "med_si": 1.49,
-   "med_no": 1.05,
-   "ratio": 1.42,
+   "med_no": 1.07,
+   "ratio": 1.39,
    "veredicto": "a_favor"
   },
   "m_tituloPregunta": {
@@ -188,8 +188,8 @@
    "n_si": 5,
    "n_no": 29,
    "med_si": 1.44,
-   "med_no": 1.05,
-   "ratio": 1.37,
+   "med_no": 1.07,
+   "ratio": 1.35,
    "veredicto": "a_favor"
   },
   "m261112son11": {
@@ -205,7 +205,7 @@
    "n_no": 20,
    "med_si": 1.54,
    "med_no": 1.06,
-   "ratio": 1.46,
+   "ratio": 1.45,
    "veredicto": "a_favor"
   },
   "m261112mot13": {
@@ -213,7 +213,7 @@
    "n_no": 16,
    "med_si": 1.08,
    "med_no": 1.07,
-   "ratio": 1.0,
+   "ratio": 1.01,
    "veredicto": "sin_efecto"
   },
   "m261113fot15": {
@@ -228,16 +228,16 @@
    "n_si": 12,
    "n_no": 22,
    "med_si": 1.27,
-   "med_no": 1.05,
+   "med_no": 1.06,
    "ratio": 1.21,
    "veredicto": "a_favor"
   },
   "m261113edi17": {
    "n_si": 1,
    "n_no": 33,
-   "med_si": 0.98,
+   "med_si": 0.96,
    "med_no": 1.08,
-   "ratio": 0.91,
+   "ratio": 0.89,
    "veredicto": "faltan_datos"
   },
   "m261113est18": {
@@ -258,9 +258,9 @@
    },
    "n_si": 8,
    "n_no": 26,
-   "med_si": 1.97,
+   "med_si": 1.66,
    "med_no": 1.04,
-   "ratio": 1.91,
+   "ratio": 1.6,
    "veredicto": "a_favor"
   },
   {
@@ -272,8 +272,8 @@
    "n_si": 9,
    "n_no": 25,
    "med_si": 1.49,
-   "med_no": 1.05,
-   "ratio": 1.42,
+   "med_no": 1.07,
+   "ratio": 1.39,
    "veredicto": "a_favor"
   },
   {
@@ -363,10 +363,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 561278,
-   "rel": 192.02,
-   "inter": 0.0483,
-   "horas": 69,
+   "vistas": 564350,
+   "rel": 193.07,
+   "inter": 0.0484,
+   "horas": 70,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -377,10 +377,10 @@
    "video": "ruedas",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 41478,
-   "rel": 15.67,
+   "vistas": 41488,
+   "rel": 15.64,
    "inter": 0.0293,
-   "horas": 109,
+   "horas": 110,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -391,10 +391,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 20943,
-   "rel": 6.65,
-   "inter": 0.0311,
-   "horas": 10,
+   "vistas": 21741,
+   "rel": 6.9,
+   "inter": 0.0309,
+   "horas": 11,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -406,29 +406,29 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 192.02,
-   "vistas": 561278
+   "rel": 193.07,
+   "vistas": 564350
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 27.73,
-   "vistas": 55219
+   "rel": 27.71,
+   "vistas": 55275
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 15.67,
-   "vistas": 41478
+   "rel": 15.64,
+   "vistas": 41488
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.23,
-   "vistas": 21610
+   "rel": 10.26,
+   "vistas": 21676
   }
  ],
  "compuertas": {
@@ -516,26 +516,12 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.46,
+    "ratio": 1.45,
     "n_si": 14,
     "n_no": 20,
-    "fuerza": 1.42,
+    "fuerza": 1.39,
     "sorpresa": false,
     "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,06× los demás."
-   },
-   {
-    "metrica": "voz_gancho",
-    "nombre": "Energía del gancho frente al resto",
-    "rol": "sonido",
-    "unidad": "dB",
-    "umbral": 0.2,
-    "direccion": "mas",
-    "ratio": 1.31,
-    "n_si": 16,
-    "n_no": 18,
-    "fuerza": 1.08,
-    "sorpresa": false,
-    "texto": "Energía del gancho frente al resto: los vídeos con más de 0,20 dB rinden 1,35× lo normal, frente a 1,03× los demás."
    },
    {
     "metrica": "cam_lente_max",
@@ -544,12 +530,26 @@
     "unidad": "mm",
     "umbral": 36.0,
     "direccion": "mas",
-    "ratio": 1.31,
+    "ratio": 1.3,
     "n_si": 16,
     "n_no": 18,
-    "fuerza": 1.08,
+    "fuerza": 1.05,
     "sorpresa": false,
     "texto": "Lente más larga (primeros planos): los vídeos con más de 36 mm rinden 1,38× lo normal, frente a 1,06× los demás."
+   },
+   {
+    "metrica": "voz_gancho",
+    "nombre": "Energía del gancho frente al resto",
+    "rol": "sonido",
+    "unidad": "dB",
+    "umbral": 0.2,
+    "direccion": "mas",
+    "ratio": 1.29,
+    "n_si": 16,
+    "n_no": 18,
+    "fuerza": 1.02,
+    "sorpresa": false,
+    "texto": "Energía del gancho frente al resto: los vídeos con más de 0,20 dB rinden 1,35× lo normal, frente a 1,04× los demás."
    },
    {
     "metrica": "ov_palabras_clave",
@@ -632,19 +632,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 30 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 30 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -682,19 +682,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -732,19 +732,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,50 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,50 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -770,19 +770,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,00 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,00 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -829,16 +829,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -879,16 +879,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -929,16 +929,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -976,19 +976,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1026,19 +1026,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 38 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1079,16 +1079,16 @@
      "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
     },
     {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "voz_gancho",
      "texto": "Energía del gancho frente al resto: 1 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1129,16 +1129,16 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -1,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 80 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -1,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1176,19 +1176,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1229,16 +1229,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1276,19 +1276,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,70 dB, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,70 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1329,16 +1329,16 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,40 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,40 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1376,19 +1376,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1423,16 +1423,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1476,19 +1476,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,46× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,45× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "voz_gancho",
      "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1529,16 +1529,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1579,16 +1579,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "voz_gancho",
      "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1629,16 +1629,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,20 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,20 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1679,16 +1679,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,80 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,80 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1726,19 +1726,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1779,16 +1779,16 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1829,16 +1829,16 @@
      "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,90 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,90 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1879,16 +1879,16 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 45 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1929,16 +1929,16 @@
      "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1979,16 +1979,16 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -2029,16 +2029,16 @@
      "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
     },
     {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "voz_gancho",
      "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -2079,16 +2079,16 @@
      "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -2129,16 +2129,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -1,30 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 120 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -1,30 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -2179,16 +2179,16 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,00 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,00 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -2229,16 +2229,16 @@
      "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,80 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,80 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2279,16 +2279,16 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2329,16 +2329,16 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2379,16 +2379,16 @@
      "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2429,16 +2429,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2479,16 +2479,16 @@
      "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,50 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,50 dB. Los que funcionan van por encima de 0,20 dB (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -2529,16 +2529,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2579,16 +2579,16 @@
      "texto": "Contadores y medidores: 11, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 48 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2629,16 +2629,16 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2679,16 +2679,16 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 1,30 dB, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_lente_max",
      "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 1,30 dB, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -2752,10 +2752,10 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.46,
+    "ratio": 1.45,
     "n_si": 14,
     "n_no": 20,
-    "fuerza": 1.42,
+    "fuerza": 1.39,
     "sorpresa": false,
     "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,06× los demás."
    },
@@ -2776,16 +2776,16 @@
   },
   "referencia": {
    "voz_ritmo": {
-    "top": 3.55,
+    "top": 3.63,
     "resto": 3.57
    },
    "voz_silencio": {
-    "top": 9.9,
-    "resto": 10.9
+    "top": 10.6,
+    "resto": 10.8
    },
    "voz_pausas_min": {
-    "top": 17.1,
-    "resto": 18.0
+    "top": 17.9,
+    "resto": 17.7
    },
    "voz_pausa_max": {
     "top": 0.59,
@@ -2820,20 +2820,20 @@
     "resto": 2.97
    },
    "cam_inicio_dist": {
-    "top": 6.2,
-    "resto": 8.4
+    "top": 5.3,
+    "resto": 8.6
    },
    "cam_lente_max": {
     "top": 40,
     "resto": 36
    },
    "obj_piezas": {
-    "top": 34,
-    "resto": 27
+    "top": 26,
+    "resto": 28
    },
    "obj_animaciones": {
-    "top": 22,
-    "resto": 15
+    "top": 20,
+    "resto": 16
    },
    "obj_cortes": {
     "top": 1,
@@ -2844,19 +2844,19 @@
     "resto": 9
    },
    "ov_contadores": {
-    "top": 3,
+    "top": 4,
     "resto": 3
    },
    "ov_graficos_min": {
-    "top": 17.9,
-    "resto": 18.0
+    "top": 19.7,
+    "resto": 17.7
    },
    "ov_palabras_clave": {
-    "top": 27,
-    "resto": 27
+    "top": 28,
+    "resto": 25
    },
    "sfx_min": {
-    "top": 20.6,
+    "top": 19.9,
     "resto": 19.4
    },
    "sfx_variedad": {
@@ -3047,11 +3047,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1517,
+   "vistas": 1588,
    "rel_red": {
-    "tiktok": 0.48
+    "tiktok": 0.5
    },
-   "com_mil": 0.66,
+   "com_mil": 0.63,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T23:00:34+00:00"
   },
@@ -3104,9 +3104,9 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 5493,
+   "vistas": 5539,
    "rel_red": {
-    "instagram": 1.28,
+    "instagram": 1.3,
     "youtube": 0.72
    },
    "com_mil": 0.36,
@@ -3162,10 +3162,10 @@
    "creado": "2026-11-09",
    "rel": null,
    "maduro": false,
-   "vistas": 2906,
+   "vistas": 2908,
    "rel_red": {
-    "instagram": 0.9,
-    "youtube": 0.66
+    "instagram": 0.91,
+    "youtube": 0.64
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -3220,14 +3220,14 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 25562,
+   "vistas": 26435,
    "rel_red": {
-    "tiktok": 6.65,
-    "instagram": 0.94,
-    "youtube": 1.5
+    "tiktok": 6.9,
+    "instagram": 0.95,
+    "youtube": 1.49
    },
    "com_mil": 0.08,
-   "comp_mil": 2.54,
+   "comp_mil": 2.53,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -3276,11 +3276,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1333,
+   "vistas": 1368,
    "rel_red": {
-    "tiktok": 0.42
+    "tiktok": 0.43
    },
-   "com_mil": 0.75,
+   "com_mil": 0.73,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -3331,11 +3331,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1001,
+   "vistas": 1011,
    "rel_red": {
     "tiktok": 0.32
    },
-   "com_mil": 2.0,
+   "com_mil": 1.98,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
@@ -3386,12 +3386,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 969,
+   "vistas": 973,
    "rel_red": {
     "tiktok": 0.31
    },
    "com_mil": 0.0,
-   "comp_mil": 4.13,
+   "comp_mil": 4.11,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -3441,7 +3441,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 15866,
+   "vistas": 15901,
    "rel_red": {
     "tiktok": 5.04
    },
@@ -3496,7 +3496,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1991,
+   "vistas": 1995,
    "rel_red": {
     "tiktok": 0.55
    },
@@ -3550,7 +3550,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2647,
+   "vistas": 2652,
    "rel_red": {
     "tiktok": 0.73
    },
@@ -3605,7 +3605,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2865,
+   "vistas": 2868,
    "rel_red": {
     "tiktok": 0.91
    },
@@ -3660,7 +3660,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 564,
+   "vistas": 568,
    "rel_red": {
     "tiktok": 0.18
    },
@@ -3714,11 +3714,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 560,
+   "vistas": 564,
    "rel_red": {
     "tiktok": 0.18
    },
-   "com_mil": 1.79,
+   "com_mil": 1.77,
    "comp_mil": 0.0,
    "publicado": "2026-11-11T13:16:45+00:00"
   },
@@ -3768,7 +3768,7 @@
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
-   "vistas": 4516,
+   "vistas": 4518,
    "rel_red": {
     "tiktok": 1.43
    },
@@ -3823,7 +3823,7 @@
    "creado": "2026-11-06",
    "rel": 1.04,
    "maduro": true,
-   "vistas": 3148,
+   "vistas": 3152,
    "rel_red": {
     "tiktok": 1.04
    },
@@ -3878,7 +3878,7 @@
    "creado": "2026-11-06",
    "rel": 0.33,
    "maduro": true,
-   "vistas": 952,
+   "vistas": 954,
    "rel_red": {
     "tiktok": 0.33
    },
@@ -3930,14 +3930,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 192.02,
+   "rel": 193.07,
    "maduro": true,
-   "vistas": 561278,
+   "vistas": 564350,
    "rel_red": {
-    "tiktok": 192.02
+    "tiktok": 193.07
    },
-   "com_mil": 0.14,
-   "comp_mil": 5.45,
+   "com_mil": 0.13,
+   "comp_mil": 5.46,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3986,12 +3986,12 @@
    "creado": "2026-11-06",
    "rel": 0.18,
    "maduro": true,
-   "vistas": 503,
+   "vistas": 505,
    "rel_red": {
     "tiktok": 0.18
    },
-   "com_mil": 1.99,
-   "comp_mil": 3.98,
+   "com_mil": 1.98,
+   "comp_mil": 3.96,
    "publicado": "2026-11-09T20:34:10+00:00"
   },
   {
@@ -4040,7 +4040,7 @@
    "creado": "2026-11-06",
    "rel": 1.49,
    "maduro": true,
-   "vistas": 4111,
+   "vistas": 4113,
    "rel_red": {
     "tiktok": 1.49
    },
@@ -4093,7 +4093,7 @@
    "creado": "2026-11-06",
    "rel": 0.32,
    "maduro": true,
-   "vistas": 893,
+   "vistas": 894,
    "rel_red": {
     "tiktok": 0.32
    },
@@ -4148,7 +4148,7 @@
    "creado": "2026-11-05",
    "rel": 0.39,
    "maduro": true,
-   "vistas": 1070,
+   "vistas": 1071,
    "rel_red": {
     "tiktok": 0.39
    },
@@ -4202,7 +4202,7 @@
    "creado": "2026-11-06",
    "rel": 0.58,
    "maduro": true,
-   "vistas": 1525,
+   "vistas": 1526,
    "rel_red": {
     "tiktok": 0.58
    },
@@ -4256,7 +4256,7 @@
    "creado": "2026-11-06",
    "rel": 1.78,
    "maduro": true,
-   "vistas": 4716,
+   "vistas": 4717,
    "rel_red": {
     "tiktok": 1.78
    },
@@ -4310,12 +4310,13 @@
    "creado": "2026-11-06",
    "rel": 1.67,
    "maduro": true,
-   "vistas": 4426,
+   "vistas": 6621,
    "rel_red": {
-    "tiktok": 1.67
+    "tiktok": 1.67,
+    "instagram": 0.79
    },
-   "com_mil": 0.0,
-   "comp_mil": 0.45,
+   "com_mil": 0.15,
+   "comp_mil": 0.3,
    "publicado": "2026-11-08T20:40:50+00:00"
   },
   {
@@ -4363,13 +4364,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 15.67,
+   "rel": 15.64,
    "maduro": true,
-   "vistas": 47217,
+   "vistas": 47306,
    "rel_red": {
-    "tiktok": 15.67,
-    "instagram": 1.29,
-    "youtube": 1.76
+    "tiktok": 15.64,
+    "instagram": 1.31,
+    "youtube": 1.74
    },
    "com_mil": 0.11,
    "comp_mil": 1.1,
@@ -4421,10 +4422,10 @@
    "creado": "2026-11-06",
    "rel": 1.6,
    "maduro": true,
-   "vistas": 6849,
+   "vistas": 6864,
    "rel_red": {
     "tiktok": 1.6,
-    "instagram": 0.82,
+    "instagram": 0.83,
     "youtube": 0.55
    },
    "com_mil": 0.0,
@@ -4479,8 +4480,8 @@
    "maduro": true,
    "vistas": 4674,
    "rel_red": {
-    "instagram": 0.9,
-    "youtube": 1.44
+    "instagram": 0.92,
+    "youtube": 1.43
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -4531,16 +4532,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 27.73,
+   "rel": 27.71,
    "maduro": true,
-   "vistas": 71517,
+   "vistas": 71667,
    "rel_red": {
-    "tiktok": 27.73,
-    "instagram": 1.01,
-    "youtube": 7.32
+    "tiktok": 27.71,
+    "instagram": 1.05,
+    "youtube": 7.36
    },
    "com_mil": 0.38,
-   "comp_mil": 1.31,
+   "comp_mil": 1.33,
    "publicado": "2026-11-07T23:51:32+00:00"
   },
   {
@@ -4588,16 +4589,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 2.28,
+   "rel": 1.65,
    "maduro": true,
-   "vistas": 7997,
+   "vistas": 8087,
    "rel_red": {
-    "tiktok": 2.28,
-    "instagram": 0.99,
-    "youtube": 0.86
+    "tiktok": 2.27,
+    "instagram": 1.02,
+    "youtube": 0.91
    },
-   "com_mil": 0.13,
-   "comp_mil": 1.5,
+   "com_mil": 0.12,
+   "comp_mil": 1.48,
    "publicado": "2026-11-07T23:50:48+00:00"
   },
   {
@@ -4644,13 +4645,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 2.3,
+   "rel": 2.29,
    "maduro": true,
-   "vistas": 28080,
+   "vistas": 28147,
    "rel_red": {
-    "tiktok": 2.3,
-    "instagram": 1.09,
-    "youtube": 10.23
+    "tiktok": 2.29,
+    "instagram": 1.1,
+    "youtube": 10.26
    },
    "com_mil": 0.11,
    "comp_mil": 0.04,
@@ -4700,13 +4701,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.05,
+   "rel": 1.07,
    "maduro": true,
-   "vistas": 8936,
+   "vistas": 8974,
    "rel_red": {
     "tiktok": 2.48,
-    "instagram": 1.02,
-    "youtube": 1.05
+    "instagram": 1.04,
+    "youtube": 1.07
    },
    "com_mil": 0.0,
    "comp_mil": 0.78,
@@ -4757,16 +4758,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.59,
+   "rel": 1.58,
    "maduro": true,
-   "vistas": 11669,
+   "vistas": 11679,
    "rel_red": {
-    "tiktok": 3.08,
-    "instagram": 1.22,
-    "youtube": 1.59
+    "tiktok": 3.07,
+    "instagram": 1.23,
+    "youtube": 1.58
    },
    "com_mil": 0.17,
-   "comp_mil": 0.69,
+   "comp_mil": 0.68,
    "publicado": "2026-11-07T23:48:17+00:00"
   },
   {
@@ -4811,13 +4812,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.07,
+   "rel": 1.08,
    "maduro": true,
    "vistas": 7441,
    "rel_red": {
     "tiktok": 1.69,
-    "instagram": 1.07,
-    "youtube": 0.55
+    "instagram": 1.08,
+    "youtube": 0.54
    },
    "com_mil": 0.13,
    "comp_mil": 0.13,
@@ -4869,11 +4870,11 @@
    "creado": "2026-11-05",
    "rel": 0.34,
    "maduro": true,
-   "vistas": 1998,
+   "vistas": 1995,
    "rel_red": {
     "tiktok": 0.34,
     "instagram": 0.02,
-    "youtube": 0.51
+    "youtube": 0.5
    },
    "com_mil": 0.5,
    "comp_mil": 0.0,
@@ -4985,7 +4986,7 @@
    "rel_red": {
     "tiktok": 1.91,
     "instagram": 0.92,
-    "youtube": 0.79
+    "youtube": 0.78
    },
    "com_mil": 0.0,
    "comp_mil": 0.31,
@@ -5035,13 +5036,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 0.98,
+   "rel": 0.96,
    "maduro": true,
    "vistas": 12792,
    "rel_red": {
     "tiktok": 7.29,
     "instagram": 0.94,
-    "youtube": 0.98
+    "youtube": 0.96
    },
    "com_mil": 0.78,
    "comp_mil": 0.39,
@@ -5151,7 +5152,7 @@
    "creado": "2026-11-03",
    "rel": 2.96,
    "maduro": true,
-   "vistas": 12106,
+   "vistas": 12108,
    "rel_red": {
     "instagram": 1.08,
     "youtube": 4.84
