@@ -3798,7 +3798,7 @@
     "cocina",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-13",
    "idea": "error-nevera",
    "reglas": {
@@ -3894,7 +3894,10 @@
       "comofunciona"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-13T17:28:31.860Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   }
  ]
 }
