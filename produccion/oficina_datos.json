@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-11-13T12:16:01+00:00",
+ "actualizado": "2026-11-13T13:36:59+00:00",
  "medianas": {
-  "tiktok": 1060,
+  "tiktok": 1078,
   "instagram": 1561,
-  "youtube": 1445
+  "youtube": 1484
  },
- "maduros": 34,
+ "maduros": 38,
  "puestos": {
   "director": {
    "ahora": "1 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
-    "valor": 1.08,
+    "valor": 1.06,
     "fmt": "x",
     "meta": 1.5,
-    "pie": "34 vídeos maduros, frente a lo normal"
+    "pie": "38 vídeos maduros, frente a lo normal"
    }
   },
   "fotografia": {
@@ -28,7 +28,7 @@
     "meta": 0.8,
     "pie": "desde el 12-nov"
    },
-   "foco": "Claves de cámara: los vídeos con más de 23 rinden 1,44× lo normal, frente a 1,02× los demás."
+   "foco": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,02× los demás."
   },
   "sonido": {
    "ahora": "0 voces generándose · 0 mezclas por hacer",
@@ -46,12 +46,12 @@
    "pendiente": 7,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.4,
+    "valor": 4.43,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
    },
-   "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,33× lo normal, frente a 1,03× los demás."
+   "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,31× lo normal, frente a 1,02× los demás."
   },
   "motion": {
    "ahora": "Al día",
@@ -63,14 +63,14 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,04× los demás."
+   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,43× lo normal, frente a 1,04× los demás."
   },
   "estratega": {
    "ahora": "3 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
    "pendiente": 4,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
-    "valor": 0.65,
+    "valor": 0.61,
     "fmt": "pct",
     "meta": 0.5,
     "pie": "últimos 14 días"
@@ -113,153 +113,166 @@
  "manual": {
   "m_juego": {
    "n_si": 0,
-   "n_no": 34,
+   "n_no": 38,
    "med_si": null,
-   "med_no": 1.08,
+   "med_no": 1.06,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m_ciudad": {
    "n_si": 0,
-   "n_no": 34,
+   "n_no": 38,
    "med_si": null,
-   "med_no": 1.08,
+   "med_no": 1.06,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m_formatoC": {
-   "n_si": 9,
-   "n_no": 25,
-   "med_si": 1.48,
+   "n_si": 10,
+   "n_no": 28,
+   "med_si": 1.29,
    "med_no": 1.04,
-   "ratio": 1.42,
+   "ratio": 1.25,
    "veredicto": "a_favor"
   },
   "m_tituloPregunta": {
-   "n_si": 29,
-   "n_no": 5,
+   "n_si": 31,
+   "n_no": 7,
    "med_si": 1.11,
-   "med_no": 0.85,
-   "ratio": 1.31,
+   "med_no": 0.34,
+   "ratio": 3.26,
    "veredicto": "a_favor"
   },
   "m_cotidiano": {
-   "n_si": 11,
-   "n_no": 23,
+   "n_si": 13,
+   "n_no": 25,
    "med_si": 1.02,
-   "med_no": 1.11,
-   "ratio": 0.92,
+   "med_no": 1.08,
+   "ratio": 0.94,
    "veredicto": "sin_efecto"
   },
   "m_corto": {
-   "n_si": 0,
-   "n_no": 34,
-   "med_si": null,
+   "n_si": 1,
+   "n_no": 37,
+   "med_si": 0.18,
    "med_no": 1.08,
-   "ratio": null,
+   "ratio": 0.17,
    "veredicto": "faltan_datos"
   },
   "m_comentario": {
    "n_si": 0,
-   "n_no": 34,
+   "n_no": 38,
    "med_si": null,
-   "med_no": 1.08,
+   "med_no": 1.06,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m261112dir8": {
-   "n_si": 16,
-   "n_no": 18,
-   "med_si": 1.28,
-   "med_no": 1.03,
-   "ratio": 1.25,
-   "veredicto": "a_favor"
+   "n_si": 19,
+   "n_no": 19,
+   "med_si": 1.13,
+   "med_no": 1.02,
+   "ratio": 1.11,
+   "veredicto": "sin_efecto"
   },
   "m261112fot9": {
-   "n_si": 16,
-   "n_no": 18,
-   "med_si": 1.31,
+   "n_si": 18,
+   "n_no": 20,
+   "med_si": 1.16,
    "med_no": 1.02,
-   "ratio": 1.28,
-   "veredicto": "a_favor"
+   "ratio": 1.13,
+   "veredicto": "sin_efecto"
   },
   "m261112fot10": {
-   "n_si": 5,
-   "n_no": 29,
-   "med_si": 1.44,
+   "n_si": 6,
+   "n_no": 32,
+   "med_si": 1.25,
    "med_no": 1.04,
-   "ratio": 1.38,
+   "ratio": 1.21,
    "veredicto": "a_favor"
   },
   "m261112son11": {
-   "n_si": 14,
-   "n_no": 20,
-   "med_si": 1.1,
+   "n_si": 16,
+   "n_no": 22,
+   "med_si": 1.06,
    "med_no": 1.06,
-   "ratio": 1.04,
-   "veredicto": "sin_efecto"
-  },
-  "m261112mot12": {
-   "n_si": 14,
-   "n_no": 20,
-   "med_si": 1.54,
-   "med_no": 1.04,
-   "ratio": 1.48,
-   "veredicto": "a_favor"
-  },
-  "m261112mot13": {
-   "n_si": 18,
-   "n_no": 16,
-   "med_si": 1.08,
-   "med_no": 1.08,
    "ratio": 1.0,
    "veredicto": "sin_efecto"
   },
-  "m261113fot15": {
-   "n_si": 15,
-   "n_no": 19,
-   "med_si": 1.44,
+  "m261112mot12": {
+   "n_si": 17,
+   "n_no": 21,
+   "med_si": 1.43,
    "med_no": 1.04,
    "ratio": 1.38,
    "veredicto": "a_favor"
   },
+  "m261112mot13": {
+   "n_si": 20,
+   "n_no": 18,
+   "med_si": 1.06,
+   "med_no": 1.08,
+   "ratio": 0.99,
+   "veredicto": "sin_efecto"
+  },
+  "m261113fot15": {
+   "n_si": 17,
+   "n_no": 21,
+   "med_si": 1.19,
+   "med_no": 1.04,
+   "ratio": 1.14,
+   "veredicto": "sin_efecto"
+  },
   "m261113son16": {
-   "n_si": 12,
-   "n_no": 22,
-   "med_si": 1.28,
-   "med_no": 1.03,
-   "ratio": 1.25,
-   "veredicto": "a_favor"
+   "n_si": 13,
+   "n_no": 25,
+   "med_si": 1.13,
+   "med_no": 1.02,
+   "ratio": 1.11,
+   "veredicto": "sin_efecto"
   },
   "m261113edi17": {
-   "n_si": 1,
-   "n_no": 33,
-   "med_si": 0.96,
+   "n_si": 2,
+   "n_no": 36,
+   "med_si": 0.57,
    "med_no": 1.08,
-   "ratio": 0.89,
+   "ratio": 0.53,
    "veredicto": "faltan_datos"
   },
   "m261113est18": {
-   "n_si": 0,
-   "n_no": 34,
-   "med_si": null,
+   "n_si": 1,
+   "n_no": 37,
+   "med_si": 0.18,
    "med_no": 1.08,
-   "ratio": null,
+   "ratio": 0.17,
    "veredicto": "faltan_datos"
   }
  },
  "senales": [
+  {
+   "senal": "Título en forma de pregunta",
+   "filtro": {
+    "campo": "titulo_pregunta",
+    "igual": true
+   },
+   "n_si": 31,
+   "n_no": 7,
+   "med_si": 1.11,
+   "med_no": 0.34,
+   "ratio": 3.26,
+   "veredicto": "a_favor"
+  },
   {
    "senal": "Sale de una tendencia",
    "filtro": {
     "campo": "tendencia",
     "igual": true
    },
-   "n_si": 8,
-   "n_no": 26,
-   "med_si": 1.64,
+   "n_si": 10,
+   "n_no": 28,
+   "med_si": 1.38,
    "med_no": 1.04,
-   "ratio": 1.57,
+   "ratio": 1.32,
    "veredicto": "a_favor"
   },
   {
@@ -268,24 +281,11 @@
     "campo": "formato",
     "igual": "C"
    },
-   "n_si": 9,
-   "n_no": 25,
-   "med_si": 1.48,
+   "n_si": 10,
+   "n_no": 28,
+   "med_si": 1.29,
    "med_no": 1.04,
-   "ratio": 1.42,
-   "veredicto": "a_favor"
-  },
-  {
-   "senal": "Título en forma de pregunta",
-   "filtro": {
-    "campo": "titulo_pregunta",
-    "igual": true
-   },
-   "n_si": 29,
-   "n_no": 5,
-   "med_si": 1.11,
-   "med_no": 0.85,
-   "ratio": 1.31,
+   "ratio": 1.25,
    "veredicto": "a_favor"
   }
  ],
@@ -362,10 +362,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 574729,
-   "rel": 196.62,
-   "inter": 0.0487,
-   "horas": 72,
+   "vistas": 584045,
+   "rel": 199.81,
+   "inter": 0.0488,
+   "horas": 74,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -376,10 +376,10 @@
    "video": "ruedas",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 41516,
-   "rel": 15.58,
-   "inter": 0.0292,
-   "horas": 112,
+   "vistas": 41537,
+   "rel": 15.55,
+   "inter": 0.0293,
+   "horas": 113,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -390,10 +390,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 23698,
-   "rel": 7.51,
-   "inter": 0.0317,
-   "horas": 13,
+   "vistas": 25423,
+   "rel": 8.03,
+   "inter": 0.0324,
+   "horas": 15,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -405,29 +405,29 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 196.62,
-   "vistas": 574729
+   "rel": 199.81,
+   "vistas": 584045
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 27.52,
-   "vistas": 55389
+   "rel": 27.38,
+   "vistas": 55471
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 15.58,
-   "vistas": 41516
+   "rel": 15.55,
+   "vistas": 41537
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.41,
-   "vistas": 21676
+   "rel": 10.43,
+   "vistas": 21715
   }
  ],
  "compuertas": {
@@ -473,26 +473,12 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.48,
-    "n_si": 14,
-    "n_no": 20,
-    "fuerza": 1.47,
+    "ratio": 1.38,
+    "n_si": 17,
+    "n_no": 21,
+    "fuerza": 1.33,
     "sorpresa": false,
-    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,04× los demás."
-   },
-   {
-    "metrica": "cam_claves",
-    "nombre": "Claves de cámara",
-    "rol": "fotografia",
-    "unidad": "",
-    "umbral": 23,
-    "direccion": "mas",
-    "ratio": 1.4,
-    "n_si": 15,
-    "n_no": 18,
-    "fuerza": 1.3,
-    "sorpresa": false,
-    "texto": "Claves de cámara: los vídeos con más de 23 rinden 1,44× lo normal, frente a 1,02× los demás."
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,43× lo normal, frente a 1,04× los demás."
    },
    {
     "metrica": "ov_palabras_clave",
@@ -501,40 +487,12 @@
     "unidad": "",
     "umbral": 27.0,
     "direccion": "mas",
-    "ratio": 1.3,
-    "n_si": 16,
-    "n_no": 18,
-    "fuerza": 1.05,
+    "ratio": 1.29,
+    "n_si": 18,
+    "n_no": 20,
+    "fuerza": 1.08,
     "sorpresa": false,
-    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,33× lo normal, frente a 1,03× los demás."
-   },
-   {
-    "metrica": "cam_cada",
-    "nombre": "Un movimiento de cámara cada",
-    "rol": "fotografia",
-    "unidad": "s",
-    "umbral": 3.01,
-    "direccion": "menos",
-    "ratio": 1.28,
-    "n_si": 16,
-    "n_no": 16,
-    "fuerza": 0.99,
-    "sorpresa": false,
-    "texto": "Un movimiento de cámara cada: los vídeos con menos de 3,0 s rinden 1,31× lo normal, frente a 1,02× los demás."
-   },
-   {
-    "metrica": "duracion",
-    "nombre": "Duración",
-    "rol": "editor",
-    "unidad": "s",
-    "umbral": 71.1,
-    "direccion": "menos",
-    "ratio": 1.25,
-    "n_si": 16,
-    "n_no": 18,
-    "fuerza": 0.89,
-    "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,28× lo normal, frente a 1,03× los demás."
+    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,31× lo normal, frente a 1,02× los demás."
    },
    {
     "metrica": "cam_inicio_dist",
@@ -543,12 +501,12 @@
     "unidad": "m",
     "umbral": 7.5,
     "direccion": "menos",
-    "ratio": 1.39,
-    "n_si": 6,
-    "n_no": 7,
-    "fuerza": 0.8,
+    "ratio": 1.23,
+    "n_si": 7,
+    "n_no": 8,
+    "fuerza": 0.56,
     "sorpresa": false,
-    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,44× lo normal, frente a 1,03× los demás."
+    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,02× los demás."
    }
   ],
   "recomendaciones": {
@@ -557,31 +515,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,0 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "chatgpt": [
@@ -589,31 +529,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 20. Los que funcionan van por encima de 23 (1,40× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 74 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
+     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,29× más vistas)."
     }
    ],
    "plegable": [
@@ -621,19 +543,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,48× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     }
    ],
    "cargador": [
@@ -644,12 +560,6 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
@@ -657,21 +567,9 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 8,8 m. Los que funcionan van por debajo de 7,5 m (1,39× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 8,8 m. Los que funcionan van por debajo de 7,5 m (1,23× más vistas)."
     }
    ],
    "lavavajillas": [
@@ -682,28 +580,10 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 23. Los que funcionan van por encima de 23 (1,40× más vistas)."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     }
    ],
    "pozo": [
@@ -714,28 +594,10 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
+     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,29× más vistas)."
     }
    ],
    "arroz": [
@@ -743,37 +605,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 41, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 22. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,79 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
+     "texto": "Palabras clave resaltadas: 22. Los que funcionan van por encima de 27 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 22 m. Los que funcionan van por debajo de 7,5 m (1,39× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 22 m. Los que funcionan van por debajo de 7,5 m (1,23× más vistas)."
     }
    ],
    "whatsapp": [
@@ -781,31 +625,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 23. Los que funcionan van por encima de 23 (1,40× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 21. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
+     "texto": "Palabras clave resaltadas: 21. Los que funcionan van por encima de 27 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -822,28 +648,10 @@
      "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -860,28 +668,10 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 26, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "mando": [
@@ -889,31 +679,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,99 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "teclado": [
@@ -924,28 +696,10 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 27, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 29, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "ruedas": [
@@ -953,31 +707,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 22. Los que funcionan van por encima de 23 (1,40× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 28, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,0 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -994,28 +730,10 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 19. Los que funcionan van por encima de 23 (1,40× más vistas)."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,5 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
     }
    ],
    "router": [
@@ -1023,31 +741,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 19. Los que funcionan van por encima de 23 (1,40× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
     }
    ],
    "gps": [
@@ -1058,22 +758,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 2. Los que funcionan van por encima de 23 (1,40× más vistas)."
-    },
-    {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
+     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,29× más vistas)."
     }
    ],
    "induccion": [
@@ -1081,37 +769,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 25, en el lado bueno. Mantenlo."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 20. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,9 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
+     "texto": "Palabras clave resaltadas: 20. Los que funcionan van por encima de 27 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 8,4 m. Los que funcionan van por debajo de 7,5 m (1,39× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 8,4 m. Los que funcionan van por debajo de 7,5 m (1,23× más vistas)."
     }
    ],
    "qr": [
@@ -1122,12 +792,6 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 27, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
@@ -1135,21 +799,9 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 11,6 m. Los que funcionan van por debajo de 7,5 m (1,39× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 11,6 m. Los que funcionan van por debajo de 7,5 m (1,23× más vistas)."
     }
    ],
    "lavadora": [
@@ -1160,28 +812,10 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 22. Los que funcionan van por encima de 23 (1,40× más vistas)."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 30, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
     }
    ],
    "depuradora": [
@@ -1192,28 +826,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 35, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 29, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "parking": [
@@ -1224,28 +840,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "v16": [
@@ -1253,31 +851,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,48× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 20. Los que funcionan van por encima de 23 (1,40× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,38× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,29× más vistas)."
     }
    ],
    "ollaexpres": [
@@ -1288,28 +868,10 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 32, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
+     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1326,28 +888,10 @@
      "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 23. Los que funcionan van por encima de 23 (1,40× más vistas)."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -1364,28 +908,10 @@
      "texto": "Contadores y medidores: 5, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,73 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 62 s, en el lado bueno. Mantenlo."
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1402,28 +928,10 @@
      "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 30, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -1440,28 +948,10 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 30, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 34, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1478,12 +968,6 @@
      "texto": "Contadores y medidores: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 29, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
@@ -1491,21 +975,9 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 79 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 7,8 m. Los que funcionan van por debajo de 7,5 m (1,39× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 7,8 m. Los que funcionan van por debajo de 7,5 m (1,23× más vistas)."
     }
    ],
    "carretera": [
@@ -1516,28 +988,10 @@
      "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 24, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 37, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 3,0 s (1,28× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "tdt": [
@@ -1548,28 +1002,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 28, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "luces": [
@@ -1580,28 +1016,10 @@
      "texto": "Contadores y medidores: 4, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 27, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 37, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     }
    ],
    "paracaidas": [
@@ -1612,28 +1030,10 @@
      "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 34, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,95 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
     }
    ],
    "turia": [
@@ -1644,28 +1044,10 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 37, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,0 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 74 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "repetidor": [
@@ -1676,28 +1058,10 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 37, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,96 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "bcnpluvial": [
@@ -1708,28 +1072,10 @@
      "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 44, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 38, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,57 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 69 s, en el lado bueno. Mantenlo."
     }
    ],
    "m30tunel": [
@@ -1740,28 +1086,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 41, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 44, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,65 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
     }
    ],
    "avesagrada": [
@@ -1772,28 +1100,10 @@
      "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 40, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 42, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,82 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ],
    "wifi5ghz": [
@@ -1804,28 +1114,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,86 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     }
    ],
    "bombacalor": [
@@ -1836,28 +1128,10 @@
      "texto": "Contadores y medidores: 11, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 38, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,77 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     }
    ],
    "canalmadrid": [
@@ -1868,28 +1142,10 @@
      "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 35, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,97 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 69 s, en el lado bueno. Mantenlo."
     }
    ],
    "microcentro": [
@@ -1900,28 +1156,10 @@
      "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 39, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,25× más vistas)."
     }
    ]
   },
@@ -1945,26 +1183,12 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.48,
-    "n_si": 14,
-    "n_no": 20,
-    "fuerza": 1.47,
+    "ratio": 1.38,
+    "n_si": 17,
+    "n_no": 21,
+    "fuerza": 1.33,
     "sorpresa": false,
-    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,04× los demás."
-   },
-   "fotografia": {
-    "metrica": "cam_claves",
-    "nombre": "Claves de cámara",
-    "rol": "fotografia",
-    "unidad": "",
-    "umbral": 23,
-    "direccion": "mas",
-    "ratio": 1.4,
-    "n_si": 15,
-    "n_no": 18,
-    "fuerza": 1.3,
-    "sorpresa": false,
-    "texto": "Claves de cámara: los vídeos con más de 23 rinden 1,44× lo normal, frente a 1,02× los demás."
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,43× lo normal, frente a 1,04× los demás."
    },
    "editor": {
     "metrica": "ov_palabras_clave",
@@ -1973,29 +1197,43 @@
     "unidad": "",
     "umbral": 27.0,
     "direccion": "mas",
-    "ratio": 1.3,
-    "n_si": 16,
-    "n_no": 18,
-    "fuerza": 1.05,
+    "ratio": 1.29,
+    "n_si": 18,
+    "n_no": 20,
+    "fuerza": 1.08,
     "sorpresa": false,
-    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,33× lo normal, frente a 1,03× los demás."
+    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,31× lo normal, frente a 1,02× los demás."
+   },
+   "fotografia": {
+    "metrica": "cam_inicio_dist",
+    "nombre": "Distancia de cámara en el primer segundo",
+    "rol": "fotografia",
+    "unidad": "m",
+    "umbral": 7.5,
+    "direccion": "menos",
+    "ratio": 1.23,
+    "n_si": 7,
+    "n_no": 8,
+    "fuerza": 0.56,
+    "sorpresa": false,
+    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,02× los demás."
    }
   },
   "referencia": {
    "voz_ritmo": {
-    "top": 3.63,
+    "top": 3.59,
     "resto": 3.57
    },
    "voz_silencio": {
-    "top": 10.6,
-    "resto": 10.8
+    "top": 10.7,
+    "resto": 10.0
    },
    "voz_pausas_min": {
-    "top": 17.9,
-    "resto": 17.7
+    "top": 18.5,
+    "resto": 16.9
    },
    "voz_pausa_max": {
-    "top": 0.59,
+    "top": 0.58,
     "resto": 0.58
    },
    "voz_arranque": {
@@ -2003,7 +1241,7 @@
     "resto": 0.0
    },
    "voz_lufs": {
-    "top": -15.7,
+    "top": -15.65,
     "resto": -15.6
    },
    "voz_expresividad": {
@@ -2011,64 +1249,64 @@
     "resto": 2.3
    },
    "voz_gancho": {
-    "top": 0.5,
-    "resto": 0.1
+    "top": 0.45,
+    "resto": 0.15
    },
    "duracion": {
-    "top": 69.1,
-    "resto": 71.3
+    "top": 69.05,
+    "resto": 71.25
    },
    "cam_claves": {
-    "top": 22,
-    "resto": 23.0
+    "top": 23.0,
+    "resto": 23
    },
    "cam_cada": {
-    "top": 3.05,
-    "resto": 2.97
+    "top": 2.9,
+    "resto": 3.03
    },
    "cam_inicio_dist": {
-    "top": 5.3,
-    "resto": 8.6
+    "top": 6.2,
+    "resto": 7.8
    },
    "cam_lente_max": {
-    "top": 40,
-    "resto": 36
+    "top": 40.0,
+    "resto": 35.5
    },
    "obj_piezas": {
-    "top": 26,
-    "resto": 28
+    "top": 30.0,
+    "resto": 30.0
    },
    "obj_animaciones": {
-    "top": 20,
-    "resto": 16
+    "top": 17.5,
+    "resto": 16.0
    },
    "obj_cortes": {
-    "top": 1,
-    "resto": 0
+    "top": 1.0,
+    "resto": 0.0
    },
    "ov_etiquetas": {
-    "top": 9,
-    "resto": 9
+    "top": 9.0,
+    "resto": 8.0
    },
    "ov_contadores": {
-    "top": 4,
-    "resto": 3
+    "top": 4.5,
+    "resto": 3.0
    },
    "ov_graficos_min": {
-    "top": 19.7,
-    "resto": 17.7
+    "top": 21.05,
+    "resto": 17.3
    },
    "ov_palabras_clave": {
-    "top": 28,
-    "resto": 25
+    "top": 28.0,
+    "resto": 26.0
    },
    "sfx_min": {
-    "top": 19.9,
-    "resto": 19.4
+    "top": 20.25,
+    "resto": 19.3
    },
    "sfx_variedad": {
-    "top": 7,
-    "resto": 7
+    "top": 7.5,
+    "resto": 7.0
    }
   },
   "metricas": {
@@ -2254,12 +1492,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1758,
+   "vistas": 2000,
    "rel_red": {
-    "tiktok": 0.56
+    "tiktok": 0.63
    },
-   "com_mil": 0.57,
-   "comp_mil": 0.0,
+   "com_mil": 0.5,
+   "comp_mil": 1.0,
    "publicado": "2026-11-12T23:00:34+00:00"
   },
   {
@@ -2311,10 +1549,10 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 5554,
+   "vistas": 5600,
    "rel_red": {
     "instagram": 1.3,
-    "youtube": 0.8
+    "youtube": 0.81
    },
    "com_mil": 0.36,
    "comp_mil": 0.36,
@@ -2369,10 +1607,10 @@
    "creado": "2026-11-09",
    "rel": null,
    "maduro": false,
-   "vistas": 2908,
+   "vistas": 2944,
    "rel_red": {
     "instagram": 0.91,
-    "youtube": 0.71
+    "youtube": 0.72
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -2427,14 +1665,14 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 28488,
+   "vistas": 30334,
    "rel_red": {
-    "tiktok": 7.51,
+    "tiktok": 8.03,
     "instagram": 0.95,
-    "youtube": 1.71
+    "youtube": 1.76
    },
    "com_mil": 0.07,
-   "comp_mil": 2.84,
+   "comp_mil": 2.93,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2483,11 +1721,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1433,
+   "vistas": 1510,
    "rel_red": {
-    "tiktok": 0.45
+    "tiktok": 0.48
    },
-   "com_mil": 0.7,
+   "com_mil": 1.32,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -2538,11 +1776,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1054,
+   "vistas": 1099,
    "rel_red": {
-    "tiktok": 0.33
+    "tiktok": 0.35
    },
-   "com_mil": 1.9,
+   "com_mil": 1.82,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
@@ -2593,12 +1831,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 989,
+   "vistas": 1005,
    "rel_red": {
-    "tiktok": 0.31
+    "tiktok": 0.32
    },
    "com_mil": 0.0,
-   "comp_mil": 4.04,
+   "comp_mil": 3.98,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -2648,7 +1886,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 15960,
+   "vistas": 16032,
    "rel_red": {
     "tiktok": 5.06
    },
@@ -2703,9 +1941,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2013,
+   "vistas": 2026,
    "rel_red": {
-    "tiktok": 0.55
+    "tiktok": 0.56
    },
    "com_mil": 0.99,
    "comp_mil": 0.0,
@@ -2757,12 +1995,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2665,
+   "vistas": 2672,
    "rel_red": {
     "tiktok": 0.73
    },
    "com_mil": 0.0,
-   "comp_mil": 2.63,
+   "comp_mil": 2.62,
    "publicado": "2026-11-11T17:42:05+00:00"
   },
   {
@@ -2810,9 +2048,9 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": null,
-   "maduro": false,
-   "vistas": 2878,
+   "rel": 0.91,
+   "maduro": true,
+   "vistas": 2886,
    "rel_red": {
     "tiktok": 0.91
    },
@@ -2865,9 +2103,9 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": null,
-   "maduro": false,
-   "vistas": 577,
+   "rel": 0.18,
+   "maduro": true,
+   "vistas": 585,
    "rel_red": {
     "tiktok": 0.18
    },
@@ -2919,13 +2157,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": null,
-   "maduro": false,
-   "vistas": 568,
+   "rel": 0.18,
+   "maduro": true,
+   "vistas": 577,
    "rel_red": {
     "tiktok": 0.18
    },
-   "com_mil": 1.76,
+   "com_mil": 1.73,
    "comp_mil": 0.0,
    "publicado": "2026-11-11T13:16:45+00:00"
   },
@@ -2973,9 +2211,9 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": null,
-   "maduro": false,
-   "vistas": 4522,
+   "rel": 1.43,
+   "maduro": true,
+   "vistas": 4532,
    "rel_red": {
     "tiktok": 1.43
    },
@@ -3030,7 +2268,7 @@
    "creado": "2026-11-06",
    "rel": 1.04,
    "maduro": true,
-   "vistas": 3157,
+   "vistas": 3166,
    "rel_red": {
     "tiktok": 1.04
    },
@@ -3085,7 +2323,7 @@
    "creado": "2026-11-06",
    "rel": 0.33,
    "maduro": true,
-   "vistas": 959,
+   "vistas": 966,
    "rel_red": {
     "tiktok": 0.33
    },
@@ -3137,14 +2375,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 196.62,
+   "rel": 199.81,
    "maduro": true,
-   "vistas": 574729,
+   "vistas": 584045,
    "rel_red": {
-    "tiktok": 196.62
+    "tiktok": 199.81
    },
-   "com_mil": 0.14,
-   "comp_mil": 5.53,
+   "com_mil": 0.13,
+   "comp_mil": 5.56,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3193,12 +2431,12 @@
    "creado": "2026-11-06",
    "rel": 0.18,
    "maduro": true,
-   "vistas": 507,
+   "vistas": 512,
    "rel_red": {
     "tiktok": 0.18
    },
-   "com_mil": 1.97,
-   "comp_mil": 3.94,
+   "com_mil": 1.95,
+   "comp_mil": 3.91,
    "publicado": "2026-11-09T20:34:10+00:00"
   },
   {
@@ -3247,7 +2485,7 @@
    "creado": "2026-11-06",
    "rel": 1.48,
    "maduro": true,
-   "vistas": 4114,
+   "vistas": 4120,
    "rel_red": {
     "tiktok": 1.48
    },
@@ -3300,11 +2538,11 @@
    "creado": "2026-11-06",
    "rel": 0.32,
    "maduro": true,
-   "vistas": 894,
+   "vistas": 900,
    "rel_red": {
     "tiktok": 0.32
    },
-   "com_mil": 3.36,
+   "com_mil": 3.33,
    "comp_mil": 0.0,
    "publicado": "2026-11-09T15:10:31+00:00"
   },
@@ -3355,7 +2593,7 @@
    "creado": "2026-11-05",
    "rel": 0.39,
    "maduro": true,
-   "vistas": 1072,
+   "vistas": 1078,
    "rel_red": {
     "tiktok": 0.39
    },
@@ -3409,12 +2647,12 @@
    "creado": "2026-11-06",
    "rel": 0.57,
    "maduro": true,
-   "vistas": 1526,
+   "vistas": 1531,
    "rel_red": {
     "tiktok": 0.57
    },
-   "com_mil": 0.66,
-   "comp_mil": 1.97,
+   "com_mil": 0.65,
+   "comp_mil": 1.96,
    "publicado": "2026-11-08T20:42:33+00:00"
   },
   {
@@ -3463,7 +2701,7 @@
    "creado": "2026-11-06",
    "rel": 1.77,
    "maduro": true,
-   "vistas": 4718,
+   "vistas": 4721,
    "rel_red": {
     "tiktok": 1.77
    },
@@ -3517,14 +2755,14 @@
    "creado": "2026-11-06",
    "rel": 1.66,
    "maduro": true,
-   "vistas": 7694,
+   "vistas": 8234,
    "rel_red": {
     "tiktok": 1.66,
     "instagram": 0.87,
-    "youtube": 0.15
+    "youtube": 0.43
    },
-   "com_mil": 0.13,
-   "comp_mil": 0.26,
+   "com_mil": 0.24,
+   "comp_mil": 0.24,
    "publicado": "2026-11-08T20:40:50+00:00"
   },
   {
@@ -3572,16 +2810,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 15.58,
+   "rel": 15.55,
    "maduro": true,
-   "vistas": 47440,
+   "vistas": 47592,
    "rel_red": {
-    "tiktok": 15.58,
+    "tiktok": 15.55,
     "instagram": 1.32,
-    "youtube": 1.99
+    "youtube": 2.04
    },
    "com_mil": 0.11,
-   "comp_mil": 1.1,
+   "comp_mil": 1.09,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -3630,7 +2868,7 @@
    "creado": "2026-11-06",
    "rel": 1.59,
    "maduro": true,
-   "vistas": 6864,
+   "vistas": 6868,
    "rel_red": {
     "tiktok": 1.59,
     "instagram": 0.83,
@@ -3740,16 +2978,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 27.52,
+   "rel": 27.38,
    "maduro": true,
-   "vistas": 71842,
+   "vistas": 71993,
    "rel_red": {
-    "tiktok": 27.52,
+    "tiktok": 27.38,
     "instagram": 1.05,
-    "youtube": 7.79
+    "youtube": 7.82
    },
    "com_mil": 0.38,
-   "comp_mil": 1.32,
+   "comp_mil": 1.33,
    "publicado": "2026-11-07T23:51:32+00:00"
   },
   {
@@ -3799,11 +3037,11 @@
    "creado": "2026-11-05",
    "rel": 1.02,
    "maduro": true,
-   "vistas": 8100,
+   "vistas": 8125,
    "rel_red": {
-    "tiktok": 2.25,
+    "tiktok": 2.24,
     "instagram": 1.02,
-    "youtube": 0.96
+    "youtube": 0.98
    },
    "com_mil": 0.12,
    "comp_mil": 1.48,
@@ -3853,13 +3091,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 2.27,
+   "rel": 2.26,
    "maduro": true,
-   "vistas": 28147,
+   "vistas": 28189,
    "rel_red": {
-    "tiktok": 2.27,
+    "tiktok": 2.26,
     "instagram": 1.1,
-    "youtube": 10.41
+    "youtube": 10.43
    },
    "com_mil": 0.11,
    "comp_mil": 0.04,
@@ -3911,9 +3149,9 @@
    "creado": "2026-11-05",
    "rel": 1.13,
    "maduro": true,
-   "vistas": 8980,
+   "vistas": 8984,
    "rel_red": {
-    "tiktok": 2.46,
+    "tiktok": 2.44,
     "instagram": 1.04,
     "youtube": 1.13
    },
@@ -3966,16 +3204,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.61,
+   "rel": 1.62,
    "maduro": true,
-   "vistas": 11670,
+   "vistas": 11691,
    "rel_red": {
-    "tiktok": 3.05,
+    "tiktok": 3.03,
     "instagram": 1.23,
-    "youtube": 1.61
+    "youtube": 1.62
    },
    "com_mil": 0.17,
-   "comp_mil": 0.69,
+   "comp_mil": 0.68,
    "publicado": "2026-11-07T23:48:17+00:00"
   },
   {
@@ -4022,7 +3260,7 @@
    "creado": "2026-11-05",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 7441,
+   "vistas": 7444,
    "rel_red": {
     "tiktok": 1.69,
     "instagram": 1.08,
@@ -4078,7 +3316,7 @@
    "creado": "2026-11-05",
    "rel": 0.34,
    "maduro": true,
-   "vistas": 1996,
+   "vistas": 1998,
    "rel_red": {
     "tiktok": 0.34,
     "instagram": 0.02,
@@ -4134,7 +3372,7 @@
    "creado": "2026-11-03",
    "rel": 0.87,
    "maduro": true,
-   "vistas": 4604,
+   "vistas": 4606,
    "rel_red": {
     "tiktok": 0.6,
     "instagram": 0.95,
@@ -4192,7 +3430,7 @@
    "maduro": true,
    "vistas": 6356,
    "rel_red": {
-    "tiktok": 1.91,
+    "tiktok": 1.9,
     "instagram": 0.92,
     "youtube": 0.78
    },
@@ -4246,9 +3484,9 @@
    "creado": "2026-11-03",
    "rel": 0.96,
    "maduro": true,
-   "vistas": 12795,
+   "vistas": 12797,
    "rel_red": {
-    "tiktok": 7.29,
+    "tiktok": 7.27,
     "instagram": 0.94,
     "youtube": 0.96
    },
@@ -4303,9 +3541,9 @@
    "creado": "2026-11-03",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 4265,
+   "vistas": 4266,
    "rel_red": {
-    "tiktok": 1.33,
+    "tiktok": 1.32,
     "instagram": 1.08,
     "youtube": 0.45
    },
@@ -4414,11 +3652,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 1.44,
+   "rel": 1.43,
    "maduro": true,
    "vistas": 6836,
    "rel_red": {
-    "tiktok": 1.44,
+    "tiktok": 1.43,
     "instagram": 1.06,
     "youtube": 1.7
    },
@@ -4531,7 +3769,7 @@
    "maduro": true,
    "vistas": 4865,
    "rel_red": {
-    "tiktok": 0.86,
+    "tiktok": 0.85,
     "instagram": 0.86,
     "youtube": 1.24
    },
