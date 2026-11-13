@@ -2524,9 +2524,14 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18101856056386867",
+    "url": "https://www.instagram.com/reel/DfrQTrLE3RB/"
+   },
+   "publicado": "2026-11-13T08:58:41.062839+00:00"
   },
   {
    "id": "cepillo-tiktok",
@@ -2542,9 +2547,15 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707577588931495958",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-13T09:01:25.083375+00:00"
   },
   {
    "id": "teclado-youtube",

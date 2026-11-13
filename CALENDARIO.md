@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 10/11 | 10:00 | instagram | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | [✅ publicado](https://www.instagram.com/reel/DfjmZjHjtwO/) |
-| mar 10/11 | 10:00 | tiktok | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 12:00 | youtube | ¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fon | [✅ publicado](https://youtube.com/shorts/U0acTThOb0o) |
 | mar 10/11 | 13:00 | tiktok | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 16:00 | tiktok | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | 📲 en tu bandeja de TikTok |
@@ -40,8 +38,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://www.instagram.com/reel/DfqBWpoFMi8/) |
 | jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ❌ error |
 | jue 12/11 | 22:30 | youtube | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://youtube.com/shorts/b84J1UrDbbQ) |
-| vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
-| vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | ⏳ pendiente |
+| vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://www.instagram.com/reel/DfrQTrLE3RB/) |
+| vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | ⏳ pendiente |
 | vie 13/11 | 13:00 | tiktok | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ⏳ pendiente |
 | vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | ⏳ pendiente |
