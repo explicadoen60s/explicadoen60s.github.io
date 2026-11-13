@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-12T20:30:00+01:00",
- "resumen": "Trends y Wikipedia vuelven a ser política (huelga general, elecciones), papa, famosos y fútbol: nada aprovechable. El nicho (shorts «cómo funciona») da mecanismos domésticos y de coche; funicular (75 mil) y tuneladora (84 mil) apoyan la serie de ciudad. Esta pasada propone cinturón, desaladora de Barcelona, freidora de aire y tapa de alcantarilla. Las búsquedas online no devolvieron cifras citables: las cifras técnicas van marcadas «(comprobar)».",
+ "actualizado": "2026-11-13T09:50:00+01:00",
+ "resumen": "Trends y Wikipedia siguen en política, papa, famosos y sucesos (atraco en Cartagena): nada aprovechable. En el nicho, el cuerpo y los objetos de mano tiran (brazo 616 mil con 384 comentarios, paracaídas 766 mil). Se añade «tu brazo es una palanca» y se mantienen cinturón, desaladora de Barcelona, freidora de aire y tapa de alcantarilla; las cifras técnicas sin fuente van marcadas «(comprobar)».",
  "tendencias": [
   {
    "id": "cinturon",
@@ -256,6 +256,55 @@
    ]
   },
   {
+   "id": "t261113brazo",
+   "tema": "Tu brazo es una palanca que juega en tu contra",
+   "tipo": "evergreen",
+   "puntuacion": 60,
+   "por_que": "En los shorts de «cómo funciona» de esta semana, «¿Cómo funciona tu brazo?» lleva 616.336 vistas y 384 comentarios (muchos más comentarios que el resto del nicho), y «¿Cómo funciona el paracaídas?» 765.815: el cuerpo y los objetos de mano funcionan.",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona»",
+     "dato": "«¿Cómo funciona tu brazo?», 616.336 vistas y 384 comentarios",
+     "url": "https://youtube.com/shorts/6tAm85pXT5A"
+    }
+   ],
+   "urgencia": "baja (evergreen)",
+   "angulo": "Coges una botella de agua de un litro y tu bíceps hace muchas veces más fuerza, porque se engancha a unos centímetros del codo: el codo es el punto de apoyo de una palanca.",
+   "titulo": "¿Cuánta fuerza hace tu bíceps para coger una botella? 💪",
+   "gancho": "¿Cuánta fuerza haces al coger esta botella?",
+   "primer_segundo": "Primer plano de un antebrazo en corte levantando una botella, con el bíceps que se hincha y una flecha roja que crece.",
+   "cifras": [
+    "inserción del bíceps a unos 4-5 cm del codo frente a la mano a unos 30-35 cm (comprobar)",
+    "fuerza del bíceps unas 7 veces el peso que sostiene la mano (comprobar)"
+   ],
+   "formato": "A",
+   "estructura": [
+    "gancho con la botella",
+    "palanca: codo, bíceps y mano",
+    "flecha que crece hasta el múltiplo",
+    "por qué compensa: velocidad y recorrido de la mano",
+    "qué haces: carga pegada al cuerpo",
+    "cierre en bucle"
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "primer_segundo": 8,
+    "ensenar": 9
+   },
+   "potencial": "medio-alto",
+   "por_que_funcionaria": "Todo el mundo tiene brazo y coge cosas a diario; la cifra se enseña con una flecha que crece y un contador de kilos.",
+   "competencia": "Atrexo ya lo tocó con 616 mil vistas; nuestro ángulo es la cifra exacta y la acción (llevar peso pegado al cuerpo).",
+   "riesgos": "Que las cifras de anatomía varíen según la persona: dar un rango.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "cuerpohumano",
+    "comofunciona",
+    "palancas",
+    "ciencia",
+    "gimnasio"
+   ]
+  },
+  {
    "id": "funicular",
    "tema": "Cómo funciona un funicular y por qué no chocan",
    "tipo": "nicho",
@@ -463,6 +512,22 @@
   {
    "tema": "GTA VI, Marvel, música",
    "motivo": "Famosos y ocio; sin mecanismo."
+  },
+  {
+   "tema": "Atraco a una joyería en Cartagena",
+   "motivo": "Suceso con armas y víctimas."
+  },
+  {
+   "tema": "Tráiler de GTA VI",
+   "motivo": "Videojuego y marca: no es un mecanismo cotidiano que se pueda enseñar en corte."
+  },
+  {
+   "tema": "«Si caen bombas en tu ciudad»",
+   "motivo": "Armas y guerra: tema vetado."
+  },
+  {
+   "tema": "Calentador solar casero de Xóchitl",
+   "motivo": "Es una persona concreta y un invento casero; ya cubrimos termos y calor; poco cotidiano en España."
   }
  ]
 }

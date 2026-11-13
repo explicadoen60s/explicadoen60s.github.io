@@ -1025,6 +1025,56 @@
    "rol": "director",
    "tipo": "reunion",
    "texto": "Jornada del 2026-11-13: 25 mensajes entre puestos, 23 acuerdos nuevos, 0 guiones mejorados y 29 lecciones a las fichas."
+  },
+  {
+   "fecha": "2026-11-13T09:40:00+01:00",
+   "rol": "director",
+   "tipo": "propuesta",
+   "video": "nevera",
+   "texto": "Guion nuevo «nevera» (A, «lo estás haciendo mal», idea error-nevera): puerta a 5,2 °C frente a 1,9 °C en la balda de arriba; 217 palabras, pasa las compuertas."
+  },
+  {
+   "fecha": "2026-11-13T09:40:00+01:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "nevera",
+   "texto": "Primera frase de 9 palabras y sin pausa antes del dato: propone «¿Guardas la leche… en la puerta?».",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-13T09:40:00+01:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "video": "nevera",
+   "texto": "Aplicada la propuesta de sonido: gancho de 6 palabras con «…» (experimento x261112son)."
+  },
+  {
+   "fecha": "2026-11-13T10:20:00+01:00",
+   "rol": "fotografia",
+   "tipo": "revision",
+   "video": "microcentro",
+   "texto": "Escena del microondas: 4 planos cenitales miraban a través del techo del aparato; ahora entran por el frontal cortado. 36 claves, un cambio cada 2,1 s, primer plano del bol a 0,5 m y último plano igual al primero."
+  },
+  {
+   "fecha": "2026-11-13T10:20:00+01:00",
+   "rol": "motion",
+   "tipo": "revision",
+   "video": "microcentro",
+   "texto": "10 contadores (75 °C/8 °C, 2.450 millones/s, 6 vueltas/min, 85 cm frente a 0 cm, 3 cm, 12 → 6 cm) y «VACÍO» movido para no quedar bajo la tarjeta del juego."
+  },
+  {
+   "fecha": "2026-11-13T10:20:00+01:00",
+   "rol": "editor",
+   "tipo": "aviso",
+   "video": "microcentro",
+   "texto": "La voz de microcentro dura 77,4 s (tope 71 s). Escena entregada con esa voz; si quieres un vídeo más corto, cambia el guion al de 207 palabras del director y vuelve a generar la voz desde el panel."
+  },
+  {
+   "fecha": "2026-11-13T10:20:00+01:00",
+   "rol": "director",
+   "tipo": "aviso",
+   "texto": "El render de las 6 escenas de ayer falló porque cada vídeo se renderizaba con el commit que lo lanzó, sin las escenas subidas después. Corregido en render.yml (usa main) y relanzado."
   }
  ],
  "manual": [
@@ -1203,7 +1253,7 @@
   {
    "id": "m261113fot15",
    "texto": "Los vídeos con más de 23 claves de cámara rinden más que los demás.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "fotografia",
    "creada": "2026-11-13",
    "origen": "Jornada del 2026-11-13",
@@ -1215,7 +1265,7 @@
   {
    "id": "m261113son16",
    "texto": "Los vídeos con voz de más de 3,6 palabras/s duran menos de 71 s y rinden más que los lentos.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "sonido",
    "creada": "2026-11-13",
    "origen": "Jornada del 2026-11-13",
@@ -1545,6 +1595,47 @@
      "nota": "Microondas cotidiano con el patrón «lo estás haciendo mal» y reto de centímetros que invita a comentar, pero sin la rareza visual del router, así que apuesto por encima de lo normal sin llegar a viral."
     }
    }
+  },
+  "nevera": {
+   "fecha": "2026-11-13T09:40:00+01:00",
+   "roles": {
+    "director": {
+     "rel": 1.5,
+     "nota": "Tema universal con error común y acción concreta (patrón router), pero la cifra de 3,3 °C es poco espectacular y el gancho tiene 11 palabras en vez de 8, así que espero algo por encima de lo normal sin llegar a éxito."
+    },
+    "fotografia": {
+     "rel": 1.5,
+     "nota": "Tema cotidiano y visual (puerta de la nevera, termómetros y flechas de aire que se pueden rodar en primer plano desde el fotograma 1) con formato «lo estás haciendo mal» y juego de la cifra, pero sin la rareza del router ni una cifra enorme, así que lo apuesto algo por encima de lo normal."
+    },
+    "editor": {
+     "rel": 2.0,
+     "nota": "Es el patrón «lo estás haciendo mal» con un objeto que todos abren cada día, y eso es lo que más se compartió con el router. Pero la cifra (3,3 °C) es modesta, y por montaje el guion roza los 68 s (unas 230 palabras), así que no apuesto a un éxito como el del router."
+    },
+    "social": {
+     "rel": 1.6,
+     "nota": "Tema cotidiano con juego de la cifra claro (3,3 °C) y pie con envío, pero el cierre pide un número y no una respuesta corta; el 'error común' comparte bien (patrón router) y puede subir si se fija un comentario del tipo '¿Puerta o balda?'."
+    },
+    "paid": {
+     "rel": 2.5,
+     "nota": "Tema universal y de tipo «lo estás haciendo mal» (la leche en la puerta), con una cifra clara (3,3 °C) y el juego de la cifra, pero sin objeto raro ni espectáculo visual: lo apuesto por encima de la media y muy lejos del router, así que no es candidato a promoción de entrada."
+    },
+    "estratega": {
+     "rel": 2.5,
+     "nota": "Corrige un hábito diario con la leche, objeto que todos tienen, y tiene una cifra comparable (3,3 °C) y un mensaje fácil de enviar. Es un A de objeto de casa, no un B genérico, pero no es una obra de ciudad ni tiene la fuerza visual del router."
+    },
+    "seo": {
+     "rel": 2.5,
+     "nota": "Patrón «lo estás haciendo mal» con objeto de casa, leche y nevera muy buscables y juego de la cifra; sin el 354× del router, que fue excepcional."
+    },
+    "motion": {
+     "rel": 3.0,
+     "nota": "Es el patrón «lo estás haciendo mal» sobre un objeto que todos usan, con un error que se puede corregir y enviar a otro, y con cifras muy visuales. El gancho es fuerte; el riesgo es que sea un tema ya muy visto."
+    },
+    "sonido": {
+     "rel": 1.5,
+     "nota": "Es un «lo estás haciendo mal» cotidiano con juego de la cifra y 3,3 °C fáciles de enseñar, pero la leche en la nevera es un tema muy trillado."
+    }
+   }
   }
  },
  "encargos": [
@@ -1608,7 +1699,8 @@
    "hipotesis": "Una voz más expresiva en los primeros segundos retiene más y suena más natural, que es lo que pide el dueño en el encargo «que suene más real». La voz la genera voz.py, así que primero se prueba con la puntuación del guion.",
    "desde": "2026-11-12",
    "videos": [
-    "microcentro"
+    "microcentro",
+    "nevera"
    ],
    "estado": "activo",
    "metrica": "voz_gancho"
@@ -1619,7 +1711,9 @@
    "cambio": "En los próximos 3 vídeos del tipo A que salgan, el pie del post termina con una pregunta cerrada de una palabra ('¿Vertical u horizontal?', '¿2,4 o 5 GHz?') además del reto del número, y yo dejo un comentario fijado con la misma pregunta en la primera hora.",
    "hipotesis": "Una opción cerrada se responde en segundos y sube los comentarios por mil por encima de 1, frente al 0,17 actual, porque el reto del número exige pensar. Los compartidos no deberían bajar.",
    "desde": "2026-11-13",
-   "videos": [],
+   "videos": [
+    "nevera"
+   ],
    "estado": "activo",
    "metrica": "comentarios por 1.000 vistas en TikTok"
   }

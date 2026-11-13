@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T08:04:39+00:00",
+ "actualizado": "2026-11-13T08:23:00+00:00",
  "medianas": {
   "tiktok": 1060,
   "instagram": 1562,
@@ -8,7 +8,7 @@
  "maduros": 34,
  "puestos": {
   "director": {
-   "ahora": "0 guiones esperando tu visto bueno",
+   "ahora": "1 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -67,7 +67,7 @@
    "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,06× los demás."
   },
   "estratega": {
-   "ahora": "4 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
+   "ahora": "3 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
    "pendiente": 4,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
@@ -380,7 +380,7 @@
    "vistas": 41465,
    "rel": 15.68,
    "inter": 0.0293,
-   "horas": 107,
+   "horas": 108,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -452,6 +452,38 @@
     "nivel": "ok",
     "rol": "estratega",
     "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "nevera": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "217 palabras (≈64 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "12 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
    },
    {
     "nivel": "ok",
@@ -2355,28 +2387,64 @@
    ],
    "microcentro": [
     {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 23 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
+    },
+    {
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "voz_gancho",
      "texto": "Energía del gancho frente al resto: 1,30 dB, en el lado bueno. Mantenlo."
     },
     {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
      "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,22× más vistas)."
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 39, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
     }
    ]
   },
   "experimentos": {
    "x261112son": {
     "maduros": 0,
-    "total": 1,
+    "total": 2,
     "veredicto": "esperando"
    },
    "x261113soc": {
     "maduros": 0,
-    "total": 0,
+    "total": 1,
     "veredicto": "esperando"
    }
   },

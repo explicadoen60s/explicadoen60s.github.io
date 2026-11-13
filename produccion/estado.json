@@ -3643,7 +3643,7 @@
     "ciencia",
     "comofunciona"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-12",
    "idea": "error-microondas",
    "reglas": {
@@ -3703,6 +3703,33 @@
      "propuesta": "1) «Pulsas el botón y el magnetrón lanza ondas invisibles.», sin puntos suspensivos. 2) La segunda frase como «¡Por eso se queda fría por dentro!». 3) «Si ahí cae un punto frío… ¡tu comida se queda fría en el medio!». 4) En sfx_events, nada encima de «seis centímetros» ni de «doce»: el pop o sfx_cifra en «Se derrite a trozos».",
      "aplicada": true,
      "respuesta": "Aplicados los tres cambios del guion; lo de los efectos queda anotado para la escena. El vídeo entra en el experimento x261112son."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "En la hoja de contactos, los planos cenitales del plato (gira el plato, la trampa, el anillo) miraban a través del techo del microondas y salían grises.",
+     "propuesta": "Bajar esas cámaras para que miren por la abertura del frontal (altura/distancia ≤ 1,3).",
+     "aplicada": true,
+     "respuesta": "Cambiadas 4 claves; la regla de 12 cm salía gigante (escala en y/z) y también se corrigió."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "El rótulo «VACÍO» del anillo quedaba debajo de la tarjeta de la cifra revelada.",
+     "propuesta": "Bajarlo al centro del plato.",
+     "aplicada": true,
+     "respuesta": "Movido al centro del plato, debajo de la tarjeta."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "veredicto": "cambios",
+     "nota": "La voz dura 77,4 s, 6 s por encima del tope de 71 s; la escena no puede acortarla sin dejar pausas raras.",
+     "propuesta": "Regenerar la voz con el guion recortado a ~207 palabras que propuso el director en la jornada.",
+     "aplicada": false,
+     "respuesta": "No se puede desde la escena: la voz la genera el usuario; queda avisado en actividad. El último plano repite el primero (bucle)."
     }
    ],
    "seo": {
@@ -3743,6 +3770,117 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T22:51:36.102Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "nevera",
+   "formato": "A",
+   "titulo": "¿Guardas la leche en la puerta de la nevera? 🥛 Es el peor sitio",
+   "guion": "¿Guardas la leche… en la puerta? ¡Es el peor sitio de tu nevera! ¿Cuántos grados más hace en la puerta que en la balda de arriba? Escribe tu número antes de que acabe. Abres la nevera para coger la leche. El aire frío pesa más que el caliente. Así que se cae por abajo. Y por arriba entra el aire de tu cocina, a unos veintidós grados. ¿Y qué es lo primero que toca? ¡La puerta! El frío sale del fondo de la nevera… y la puerta queda lejísimos. Y tú la abres varias veces al día. Unos investigadores midieron doscientas neveras de verdad. La balda de arriba estaba a uno coma nueve grados. Y la puerta… a cinco coma dos. ¡Tres coma tres grados más! Seis de cada diez puertas pasaban de cuatro grados. Y con cada grado de más, las bacterias de la leche crecen más rápido. Un cartón que aguanta diecisiete días a cuatro grados… a seis grados dura unos tres días menos. ¿Qué haces? Leche y yogures, en la balda del medio, al fondo. En la puerta, salsas y refrescos. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Y ahora ya sabes dónde no va… la leche de tu nevera.",
+   "texto": "La puerta es la zona más templada de tu nevera: la leche va en la balda del medio, al fondo. Envíaselo a quien guarda la leche en la puerta. ¿Puerta o balda? ¿Cuál era tu número? 👇",
+   "tags": [
+    "nevera",
+    "leche",
+    "trucos de casa",
+    "cocina",
+    "comofunciona"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-13",
+   "idea": "error-nevera",
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Todo el mundo abre la nevera varias veces al día y casi todos guardan la leche en la puerta.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Primer plano de la puerta de la nevera abriéndose con el cartón de leche en la balda y el aire frío cayendo por abajo.",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetros que bajan a 1,9 °C en la balda y suben a 5,2 °C en la puerta, flechas de aire frío que caen y de aire de la cocina a 22 °C que entra, 6 de 10 puertas en rojo y días de la leche de 17 (a 4 °C) a 14 (a 6 °C)."
+   },
+   "ganchos": [
+    "¿Guardas la leche… en la puerta?",
+    "La puerta de tu nevera es su peor sitio.",
+    "¿Tu leche se estropea antes de tiempo? Mira dónde está."
+   ],
+   "juego": {
+    "pregunta": "¿Cuántos grados más hace en la puerta de tu nevera?",
+    "valor": 3.3,
+    "unidad": "°C MÁS EN LA PUERTA",
+    "dec": 1,
+    "pregunta_en": "¿Cuántos grados más hace",
+    "revela_en": "¡Tres coma tres grados más!"
+   },
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Cumple la regla 1 y el patrón «lo estás haciendo mal»: objeto de casa, error común, mecanismo, acción y cifra enseñable (1,9 → 5,2 °C, 17 → 14 días). La cifra se revela hacia la mitad del vídeo, no en los primeros 15 s. Un matiz: el estudio da 4,4 °C de media (40 °F), así que «pasaban de cuatro grados» es un poco flojo. Recomiendo precisarlo, pero no bloquea.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "Director: se queda «pasaban de cuatro grados», que es cierto (4,4 °C es más de cuatro) y se entiende al oído."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "«nevera» y «leche» suenan en la primera frase (menos de 3 s) y la pregunta del juego va en la segunda. El título cumple tu compromiso de hoy: pregunta del juego más negación corta y comprobable.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": "Director: de acuerdo; con el cambio de sonido, «nevera» pasa a la segunda frase, que sigue dentro de los 3 primeros segundos."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Todas las cifras se pueden enseñar. Hay 1,9 °C que sube a 5,2 °C (el juego cuenta hasta 3,3), 22 °C del aire de la cocina, 6 de cada 10 puertas y los días de la leche (17 a 14). Eso da 5 o más contadores, por encima del mínimo de 4 del acuerdo. Un detalle: la nota de reglas dice que los días bajan de 17 a 14, pero la voz habla de 4 °C y de 6 °C, no de 5,2 °C.",
+     "propuesta": "En la escena, el contador de días va en la pastilla del cartón de leche. Se pone en 17 días con un termómetro a 4 °C y baja a 14 días cuando el termómetro sube a 6 °C, así coincide con lo que dice la voz. «Seis de cada diez» se enseña con 10 iconos de puerta y 6 que se ponen rojos. Cada pastilla va en el tercio superior, con un máximo de 2 por plano. KEYWORDS: puerta, balda, leche, yogures, salsas, refrescos, bacterias, grados y todas las cifras.",
+     "aplicada": true,
+     "respuesta": "Director: aceptado para la escena; corrijo la nota de «enseñar» para que los días vayan con 4 → 6 °C."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "cambios",
+     "nota": "La duración está bien: 221 palabras a 3,4 palabras/s son unos 65 s, y la puntuación marca bien los datos («Y la puerta… a cinco coma dos», «¡Tres coma tres grados más!»). Falla mi acuerdo y el experimento x261112son: la primera frase tiene 9 palabras y solo lleva «¿?», sin «¡…!» ni «…» antes del dato. Eso baja voz_gancho, que es lo que mide el experimento.",
+     "propuesta": "Cambia la primera frase «¿Guardas la leche en la puerta de la nevera?» por «¡Guardas la leche… en la puerta!». Son 6 palabras, con exclamación y pausa antes del dato. Deja la segunda frase como está: «¡Es el peor sitio de toda la nevera!». Así el total baja a 218 palabras. Si el director quiere mantener la pregunta, vale «¿Guardas la leche… en la puerta?», también con 6 palabras.",
+     "aplicada": true,
+     "respuesta": "Director: aplicado con la pregunta: «¿Guardas la leche… en la puerta? ¡Es el peor sitio de tu nevera!» (217 palabras, primera frase de 6)."
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuántos grados más hace en la puerta de tu nevera? 🥛 La leche no va ahí",
+     "texto": "La puerta es la zona más templada de tu nevera: la leche va en la balda del medio, al fondo. Envíaselo a quien guarda la leche en la puerta. ¿Cuál era tu número? 👇",
+     "tags": [
+      "nevera",
+      "leche",
+      "trucos de casa",
+      "cocina",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Dónde guardar la leche en la nevera? 🥛",
+     "texto": "Nevera: la puerta es la zona más templada y la peor para la leche. Mide cuántos grados más hace que en la balda de arriba y dónde guardar leche y yogures para que duren más. Envíaselo a quien guarda la leche en la puerta. ¿Cuál era tu número? 👇 #nevera #leche #trucosdecasa #cocina #comofunciona",
+     "tags": [
+      "nevera",
+      "leche",
+      "trucosdecasa",
+      "cocina",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona la nevera: por qué la leche no va en la puerta",
+     "texto": "Cómo funciona el frío en tu nevera: la puerta es la zona más templada y la leche dura menos ahí. Mira dónde guardarla. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "nevera",
+      "como funciona la nevera",
+      "leche",
+      "trucos de casa",
+      "comofunciona"
+     ]
+    }
+   }
   }
  ]
 }

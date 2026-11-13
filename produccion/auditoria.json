@@ -1490,7 +1490,7 @@
    "sub_frase": true
   },
   "microcentro": {
-   "huella": "adcc42d54c6662b9",
+   "huella": "11754a53c869f28c",
    "duracion": 77.4,
    "voz_ritmo": 3.56,
    "voz_silencio": 19.1,
@@ -1499,7 +1499,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -16.3,
    "voz_expresividad": 3.4,
-   "voz_gancho": 1.3
+   "voz_gancho": 1.3,
+   "cam_claves": 36,
+   "cam_cada": 2.15,
+   "cam_lente_max": 42,
+   "obj_piezas": 53,
+   "obj_animaciones": 16,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 2,
+   "ov_etiquetas": 4,
+   "ov_contadores": 10,
+   "ov_graficos_min": 10.9,
+   "ov_palabras_clave": 39,
+   "sfx_min": 23.3,
+   "sfx_variedad": 8,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "moneda": {
    "huella": "1b56bd2741ae5266",
