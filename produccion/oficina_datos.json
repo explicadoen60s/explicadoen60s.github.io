@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T08:23:33+00:00",
+ "actualizado": "2026-11-13T09:22:31+00:00",
  "medianas": {
   "tiktok": 1060,
   "instagram": 1562,
@@ -43,8 +43,8 @@
    "foco": "Efectos de sonido por minuto: los vídeos con más de 19,8 /min rinden 1,49× lo normal, frente a 1,04× los demás."
   },
   "editor": {
-   "ahora": "7 en render · 0 esperando tu revisión",
-   "pendiente": 0,
+   "ahora": "0 en render · 7 esperando tu revisión",
+   "pendiente": 7,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
     "valor": 4.33,
@@ -205,7 +205,7 @@
    "n_no": 20,
    "med_si": 1.54,
    "med_no": 1.06,
-   "ratio": 1.45,
+   "ratio": 1.46,
    "veredicto": "a_favor"
   },
   "m261112mot13": {
@@ -363,10 +363,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 558792,
-   "rel": 191.17,
+   "vistas": 561278,
+   "rel": 192.02,
    "inter": 0.0483,
-   "horas": 68,
+   "horas": 69,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -377,10 +377,10 @@
    "video": "ruedas",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 41465,
-   "rel": 15.68,
+   "vistas": 41478,
+   "rel": 15.67,
    "inter": 0.0293,
-   "horas": 108,
+   "horas": 109,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -391,10 +391,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 20284,
-   "rel": 6.45,
-   "inter": 0.0316,
-   "horas": 9,
+   "vistas": 20943,
+   "rel": 6.65,
+   "inter": 0.0311,
+   "horas": 10,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -406,28 +406,28 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 191.17,
-   "vistas": 558792
+   "rel": 192.02,
+   "vistas": 561278
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 27.72,
-   "vistas": 55075
+   "rel": 27.73,
+   "vistas": 55219
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 15.68,
-   "vistas": 41465
+   "rel": 15.67,
+   "vistas": 41478
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.22,
+   "rel": 10.23,
    "vistas": 21610
   }
  ],
@@ -516,10 +516,10 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.45,
+    "ratio": 1.46,
     "n_si": 14,
     "n_no": 20,
-    "fuerza": 1.39,
+    "fuerza": 1.42,
     "sorpresa": false,
     "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,06× los demás."
    },
@@ -544,10 +544,10 @@
     "unidad": "mm",
     "umbral": 36.0,
     "direccion": "mas",
-    "ratio": 1.3,
+    "ratio": 1.31,
     "n_si": 16,
     "n_no": 18,
-    "fuerza": 1.05,
+    "fuerza": 1.08,
     "sorpresa": false,
     "texto": "Lente más larga (primeros planos): los vídeos con más de 36 mm rinden 1,38× lo normal, frente a 1,06× los demás."
    },
@@ -632,7 +632,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -644,7 +644,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 30 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 30 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -682,7 +682,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -732,7 +732,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -744,7 +744,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -770,7 +770,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -782,7 +782,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -976,7 +976,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1026,7 +1026,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1088,7 +1088,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1176,7 +1176,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1238,7 +1238,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1276,7 +1276,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1338,7 +1338,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1376,7 +1376,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1476,7 +1476,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1488,7 +1488,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1588,7 +1588,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1638,7 +1638,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1688,7 +1688,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -1726,7 +1726,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,45× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,46× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1988,7 +1988,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -2038,7 +2038,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -2088,7 +2088,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_lente_max",
-     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,30× más vistas)."
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 36 mm (1,31× más vistas)."
     },
     {
      "rol": "editor",
@@ -2352,6 +2352,356 @@
      "metrica": "sfx_variedad",
      "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
     }
+   ],
+   "bcnpluvial": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 44, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 35 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,57 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 38, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 9, en el lado bueno. Mantenlo."
+    }
+   ],
+   "m30tunel": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 41, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 31 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,65 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 44, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    }
+   ],
+   "avesagrada": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 40, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 30 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,82 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: -0,50 dB. Los que funcionan van por encima de 0,20 dB (1,31× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 42, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    }
+   ],
+   "wifi5ghz": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 31 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,86 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    }
+   ],
+   "bombacalor": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 38, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 34 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,77 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 11, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,30 dB, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 48 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    }
+   ],
+   "canalmadrid": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 35, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 35 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,97 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 10, en el lado bueno. Mantenlo."
+    }
+   ],
+   "microcentro": [
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_claves",
+     "texto": "Claves de cámara: 36, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 23 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_gancho",
+     "texto": "Energía del gancho frente al resto: 1,30 dB, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "ov_palabras_clave",
+     "texto": "Palabras clave resaltadas: 39, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8, en el lado bueno. Mantenlo."
+    }
    ]
   },
   "experimentos": {
@@ -2402,10 +2752,10 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.45,
+    "ratio": 1.46,
     "n_si": 14,
     "n_no": 20,
-    "fuerza": 1.39,
+    "fuerza": 1.42,
     "sorpresa": false,
     "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,54× lo normal, frente a 1,06× los demás."
    },
@@ -2697,11 +3047,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1366,
+   "vistas": 1517,
    "rel_red": {
-    "tiktok": 0.43
+    "tiktok": 0.48
    },
-   "com_mil": 0.73,
+   "com_mil": 0.66,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T23:00:34+00:00"
   },
@@ -2754,13 +3104,13 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 5387,
+   "vistas": 5493,
    "rel_red": {
     "instagram": 1.28,
-    "youtube": 0.68
+    "youtube": 0.72
    },
-   "com_mil": 0.37,
-   "comp_mil": 0.37,
+   "com_mil": 0.36,
+   "comp_mil": 0.36,
    "publicado": "2026-11-12T21:28:44+0000"
   },
   {
@@ -2814,7 +3164,7 @@
    "maduro": false,
    "vistas": 2906,
    "rel_red": {
-    "instagram": 0.91,
+    "instagram": 0.9,
     "youtube": 0.66
    },
    "com_mil": 0.0,
@@ -2870,14 +3220,14 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 24790,
+   "vistas": 25562,
    "rel_red": {
-    "tiktok": 6.45,
+    "tiktok": 6.65,
     "instagram": 0.94,
-    "youtube": 1.45
+    "youtube": 1.5
    },
    "com_mil": 0.08,
-   "comp_mil": 2.62,
+   "comp_mil": 2.54,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2926,11 +3276,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1266,
+   "vistas": 1333,
    "rel_red": {
-    "tiktok": 0.4
+    "tiktok": 0.42
    },
-   "com_mil": 0.79,
+   "com_mil": 0.75,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -2981,11 +3331,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 983,
+   "vistas": 1001,
    "rel_red": {
-    "tiktok": 0.31
+    "tiktok": 0.32
    },
-   "com_mil": 2.03,
+   "com_mil": 2.0,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
@@ -3036,12 +3386,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 963,
+   "vistas": 969,
    "rel_red": {
     "tiktok": 0.31
    },
    "com_mil": 0.0,
-   "comp_mil": 4.15,
+   "comp_mil": 4.13,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -3091,12 +3441,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 15738,
+   "vistas": 15866,
    "rel_red": {
-    "tiktok": 5.0
+    "tiktok": 5.04
    },
    "com_mil": 0.06,
-   "comp_mil": 0.76,
+   "comp_mil": 0.82,
    "publicado": "2026-11-12T11:40:48+00:00"
   },
   {
@@ -3146,11 +3496,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1987,
+   "vistas": 1991,
    "rel_red": {
     "tiktok": 0.55
    },
-   "com_mil": 1.01,
+   "com_mil": 1.0,
    "comp_mil": 0.0,
    "publicado": "2026-11-11T21:11:18+00:00"
   },
@@ -3200,12 +3550,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2644,
+   "vistas": 2647,
    "rel_red": {
     "tiktok": 0.73
    },
    "com_mil": 0.0,
-   "comp_mil": 2.65,
+   "comp_mil": 2.64,
    "publicado": "2026-11-11T17:42:05+00:00"
   },
   {
@@ -3255,7 +3605,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2863,
+   "vistas": 2865,
    "rel_red": {
     "tiktok": 0.91
    },
@@ -3310,7 +3660,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 562,
+   "vistas": 564,
    "rel_red": {
     "tiktok": 0.18
    },
@@ -3364,7 +3714,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 559,
+   "vistas": 560,
    "rel_red": {
     "tiktok": 0.18
    },
@@ -3418,7 +3768,7 @@
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
-   "vistas": 4514,
+   "vistas": 4516,
    "rel_red": {
     "tiktok": 1.43
    },
@@ -3473,7 +3823,7 @@
    "creado": "2026-11-06",
    "rel": 1.04,
    "maduro": true,
-   "vistas": 3146,
+   "vistas": 3148,
    "rel_red": {
     "tiktok": 1.04
    },
@@ -3528,7 +3878,7 @@
    "creado": "2026-11-06",
    "rel": 0.33,
    "maduro": true,
-   "vistas": 951,
+   "vistas": 952,
    "rel_red": {
     "tiktok": 0.33
    },
@@ -3580,11 +3930,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 191.17,
+   "rel": 192.02,
    "maduro": true,
-   "vistas": 558792,
+   "vistas": 561278,
    "rel_red": {
-    "tiktok": 191.17
+    "tiktok": 192.02
    },
    "com_mil": 0.14,
    "comp_mil": 5.45,
@@ -3690,7 +4040,7 @@
    "creado": "2026-11-06",
    "rel": 1.49,
    "maduro": true,
-   "vistas": 4109,
+   "vistas": 4111,
    "rel_red": {
     "tiktok": 1.49
    },
@@ -3906,7 +4256,7 @@
    "creado": "2026-11-06",
    "rel": 1.78,
    "maduro": true,
-   "vistas": 4714,
+   "vistas": 4716,
    "rel_red": {
     "tiktok": 1.78
    },
@@ -3960,7 +4310,7 @@
    "creado": "2026-11-06",
    "rel": 1.67,
    "maduro": true,
-   "vistas": 4424,
+   "vistas": 4426,
    "rel_red": {
     "tiktok": 1.67
    },
@@ -4013,16 +4363,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 15.68,
+   "rel": 15.67,
    "maduro": true,
-   "vistas": 47033,
+   "vistas": 47217,
    "rel_red": {
-    "tiktok": 15.68,
-    "instagram": 1.3,
-    "youtube": 1.67
+    "tiktok": 15.67,
+    "instagram": 1.29,
+    "youtube": 1.76
    },
    "com_mil": 0.11,
-   "comp_mil": 1.11,
+   "comp_mil": 1.1,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -4069,11 +4419,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.61,
+   "rel": 1.6,
    "maduro": true,
    "vistas": 6849,
    "rel_red": {
-    "tiktok": 1.61,
+    "tiktok": 1.6,
     "instagram": 0.82,
     "youtube": 0.55
    },
@@ -4181,16 +4531,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 27.72,
+   "rel": 27.73,
    "maduro": true,
-   "vistas": 70944,
+   "vistas": 71517,
    "rel_red": {
-    "tiktok": 27.72,
-    "instagram": 1.02,
-    "youtube": 7.1
+    "tiktok": 27.73,
+    "instagram": 1.01,
+    "youtube": 7.32
    },
    "com_mil": 0.38,
-   "comp_mil": 1.3,
+   "comp_mil": 1.31,
    "publicado": "2026-11-07T23:51:32+00:00"
   },
   {
@@ -4296,11 +4646,11 @@
    "creado": "2026-11-05",
    "rel": 2.3,
    "maduro": true,
-   "vistas": 28079,
+   "vistas": 28080,
    "rel_red": {
     "tiktok": 2.3,
     "instagram": 1.09,
-    "youtube": 10.22
+    "youtube": 10.23
    },
    "com_mil": 0.11,
    "comp_mil": 0.04,
@@ -4352,9 +4702,9 @@
    "creado": "2026-11-05",
    "rel": 1.05,
    "maduro": true,
-   "vistas": 8934,
+   "vistas": 8936,
    "rel_red": {
-    "tiktok": 2.49,
+    "tiktok": 2.48,
     "instagram": 1.02,
     "youtube": 1.05
    },
@@ -4407,13 +4757,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.58,
+   "rel": 1.59,
    "maduro": true,
-   "vistas": 11650,
+   "vistas": 11669,
    "rel_red": {
-    "tiktok": 3.09,
+    "tiktok": 3.08,
     "instagram": 1.22,
-    "youtube": 1.58
+    "youtube": 1.59
    },
    "com_mil": 0.17,
    "comp_mil": 0.69,
@@ -4463,7 +4813,7 @@
    "creado": "2026-11-05",
    "rel": 1.07,
    "maduro": true,
-   "vistas": 7439,
+   "vistas": 7441,
    "rel_red": {
     "tiktok": 1.69,
     "instagram": 1.07,
@@ -4519,7 +4869,7 @@
    "creado": "2026-11-05",
    "rel": 0.34,
    "maduro": true,
-   "vistas": 1997,
+   "vistas": 1998,
    "rel_red": {
     "tiktok": 0.34,
     "instagram": 0.02,
@@ -4687,7 +5037,7 @@
    "creado": "2026-11-03",
    "rel": 0.98,
    "maduro": true,
-   "vistas": 12789,
+   "vistas": 12792,
    "rel_red": {
     "tiktok": 7.29,
     "instagram": 0.94,
