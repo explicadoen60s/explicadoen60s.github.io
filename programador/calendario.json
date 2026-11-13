@@ -2595,8 +2595,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Christian_Civico"
+   "intentos": 1,
+   "por": "Christian_Civico",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"202611131157061C5795C8B4E8305C6815\"}}"
   },
   {
    "id": "ventana-tiktok",
