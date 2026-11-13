@@ -69,15 +69,22 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 18:00 | tiktok | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | ⏳ pendiente |
 | lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
+| mar 17/11 | 10:00 | tiktok | ¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu núm | ⏳ pendiente |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
+| mar 17/11 | 13:00 | tiktok | ¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗 | ⏳ pendiente |
 | mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
 | mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 17/11 | 18:00 | tiktok | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
+| mar 17/11 | 21:00 | tiktok | ¿Qué profundidad tiene el muro que protege la Sagrada Famili | ⏳ pendiente |
 | mié 18/11 | 10:00 | instagram | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
+| mié 18/11 | 10:00 | tiktok | ¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Ma | ⏳ pendiente |
 | mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
+| mié 18/11 | 13:00 | tiktok | ¿Cuánto calor te da el aire acondicionado por cada kWh de lu | ⏳ pendiente |
+| mié 18/11 | 16:00 | tiktok | ¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲 | ⏳ pendiente |
 | mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
 | mié 18/11 | 18:00 | instagram | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
+| mié 18/11 | 18:00 | tiktok | ¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2 | ⏳ pendiente |
 | jue 19/11 | 10:00 | instagram | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
 | jue 19/11 | 12:00 | youtube | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
 | jue 19/11 | 16:00 | youtube | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
@@ -140,7 +147,21 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 03/12 | 18:00 | instagram | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | ⏳ pendiente |
 | vie 04/12 | 10:00 | instagram | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
 | vie 04/12 | 12:00 | youtube | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
+| vie 04/12 | 16:00 | youtube | Cómo funciona el depósito de tormentas de Barcelona | ⏳ pendiente |
+| vie 04/12 | 18:00 | instagram | ¿Cuánta agua de tormenta cabe bajo Barcelona? 🌧️ | ⏳ pendiente |
+| sáb 05/12 | 10:00 | instagram | ¿Cuánto medía la tuneladora de la M-30? 🚗 | ⏳ pendiente |
+| sáb 05/12 | 12:00 | youtube | Cómo se hizo el túnel de la M-30 bajo Madrid | ⏳ pendiente |
 | sáb 05/12 | 16:00 | youtube | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
 | sáb 05/12 | 18:00 | instagram | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
 | dom 06/12 | 10:00 | instagram | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
 | dom 06/12 | 12:00 | youtube | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
+| dom 06/12 | 16:00 | youtube | Cómo pasó el AVE junto a la Sagrada Familia | ⏳ pendiente |
+| dom 06/12 | 18:00 | instagram | ¿Cómo pasó el AVE junto a la Sagrada Familia sin moverla? 🚄 | ⏳ pendiente |
+| lun 07/12 | 10:00 | instagram | ¿Cuántos kilómetros de tubos hay bajo Madrid? 💧 | ⏳ pendiente |
+| lun 07/12 | 12:00 | youtube | Cómo llega el agua a tu grifo en Madrid | ⏳ pendiente |
+| lun 07/12 | 16:00 | youtube | Cómo funciona el aire acondicionado en modo calor | ⏳ pendiente |
+| lun 07/12 | 18:00 | instagram | Tu aire acondicionado no lleva resistencia 🔥❄️ | ⏳ pendiente |
+| mar 08/12 | 10:00 | instagram | Tu microondas calienta a trozos: ¿cada cuántos cm? 🍲 | ⏳ pendiente |
+| mar 08/12 | 12:00 | youtube | Cómo funciona el microondas: ¿por qué sale frío por dentro? | ⏳ pendiente |
+| mar 08/12 | 16:00 | youtube | Wifi 2,4 o 5 GHz: cuál es mejor y cómo funciona | ⏳ pendiente |
+| mar 08/12 | 18:00 | instagram | Wifi de 5 GHz o 2,4 GHz: ¿cuál usar? 📶 | ⏳ pendiente |
