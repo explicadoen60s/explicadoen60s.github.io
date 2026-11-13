@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T17:19:57+00:00",
+ "actualizado": "2026-11-13T17:29:12+00:00",
  "medianas": {
   "tiktok": 1070.0,
   "instagram": 1561,
@@ -8,7 +8,7 @@
  "maduros": 38,
  "puestos": {
   "director": {
-   "ahora": "1 guiones esperando tu visto bueno",
+   "ahora": "0 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -23,7 +23,7 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
-    "valor": null,
+    "valor": 1.0,
     "fmt": "pct",
     "meta": 0.8,
     "pie": "desde el 12-nov"
@@ -31,19 +31,19 @@
    "foco": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,04× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 0 mezclas por hacer",
+   "ahora": "1 voces generándose · 0 mezclas por hacer",
    "pendiente": 0,
    "kpi": {
     "nombre": "Duración media",
-    "valor": 67.5,
+    "valor": 67.9,
     "fmt": "s",
     "meta": 70,
     "pie": "20/20 entre 55 y 75 s"
    }
   },
   "editor": {
-   "ahora": "0 en render · 7 esperando tu revisión",
-   "pendiente": 7,
+   "ahora": "0 en render · 0 esperando tu revisión",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
     "valor": 4.39,
@@ -1077,104 +1077,6 @@
      "tipo": "potenciar",
      "metrica": "ov_palabras_clave",
      "texto": "Palabras clave resaltadas: 31, en el lado bueno. Mantenlo."
-    }
-   ],
-   "bcnpluvial": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 9, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 38, en el lado bueno. Mantenlo."
-    }
-   ],
-   "m30tunel": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 44, en el lado bueno. Mantenlo."
-    }
-   ],
-   "avesagrada": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 6, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 42, en el lado bueno. Mantenlo."
-    }
-   ],
-   "wifi5ghz": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 33, en el lado bueno. Mantenlo."
-    }
-   ],
-   "bombacalor": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 11, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 32, en el lado bueno. Mantenlo."
-    }
-   ],
-   "canalmadrid": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 7, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 35, en el lado bueno. Mantenlo."
-    }
-   ],
-   "microcentro": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 39, en el lado bueno. Mantenlo."
     }
    ]
   },
