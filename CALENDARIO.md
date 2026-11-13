@@ -40,7 +40,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://youtube.com/shorts/X03zTi_EL6M) |
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://www.instagram.com/reel/DfsHUu-EaPm/) |
 | vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | 📲 en tu bandeja de TikTok |
-| vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
+| vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |

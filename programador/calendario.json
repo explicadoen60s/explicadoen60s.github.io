@@ -2708,9 +2708,15 @@
     "montaña",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Christian_Civico"
+   "por": "Christian_Civico",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707747251115952150",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-13T19:59:53.713162+00:00"
   },
   {
    "id": "mando-instagram",
