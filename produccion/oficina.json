@@ -1075,6 +1075,12 @@
    "rol": "director",
    "tipo": "aviso",
    "texto": "El render de las 6 escenas de ayer falló porque cada vídeo se renderizaba con el commit que lo lanzó, sin las escenas subidas después. Corregido en render.yml (usa main) y relanzado."
+  },
+  {
+   "fecha": "2026-11-13T10:30:00+01:00",
+   "rol": "estratega",
+   "tipo": "propuesta",
+   "texto": "Hipótesis m261113fot15 (más de 23 claves de cámara) y m261113son16 (voz de más de 3,6 palabras/s) pasan a propuesta: a favor con 15/19 y 12/22 vídeos. Decide tú en el panel."
   }
  ],
  "manual": [
@@ -1896,6 +1902,34 @@
     {
      "rol": "director",
      "texto": "Acuerdo con estratega: Los dos próximos guiones nuevos son error-cargador y error-nevera, formato A, 205-215 palabras, 4 cifras «de X a Y», título «¿Tu X hace Y?» y acción final concreta; de los 3 siguientes guiones, como máximo 1 de serie ciudad."
+    }
+   ],
+   "experimentos": [
+    "x261112son",
+    "x261113soc"
+   ]
+  },
+  {
+   "fecha": "2026-11-13T10:30:00+01:00",
+   "autor": "pasada",
+   "resumen": "Arreglado el fallo que dejó 6 escenas sin renderizar, entregada la escena del microondas y propuesto el guion de la nevera.",
+   "aprendido": [
+    "editor: el render de cada vídeo debe usar main y no el commit que lo lanzó; si no, los vídeos subidos en la misma tanda fallan en 1 minuto sin escena.",
+    "fotografia: en un objeto con techo (microondas, horno, nevera) los planos picados del interior solo funcionan si la cámara mira por el frontal cortado: altura menor que 1,3 veces la distancia.",
+    "director: microcentro sale a 77,4 s porque su voz va a 2,88 palabras por segundo; los guiones nuevos se quedan en 205-220 palabras."
+   ],
+   "cambios": [
+    {
+     "rol": "editor",
+     "texto": "render.yml: cada vídeo se renderiza con main."
+    },
+    {
+     "rol": "director",
+     "texto": "Guion «nevera» con gancho de 6 palabras y «…» (experimento x261112son)."
+    },
+    {
+     "rol": "social",
+     "texto": "Pie de «nevera» con pregunta cerrada «¿Puerta o balda?» (experimento x261113soc)."
     }
    ],
    "experimentos": [
