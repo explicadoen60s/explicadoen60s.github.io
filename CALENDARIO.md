@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 10/11 | 21:00 | tiktok | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 10:00 | instagram | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | [✅ publicado](https://www.instagram.com/reel/DfmJ0BBATXh/) |
 | mié 11/11 | 10:00 | tiktok | Si tuvieras que inventar el paraguas automático… ☔ el muelle | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 12:00 | youtube | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | [✅ publicado](https://youtube.com/shorts/NkZ5Wm0_7V4) |
