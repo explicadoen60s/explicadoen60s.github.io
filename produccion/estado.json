@@ -3798,7 +3798,7 @@
     "cocina",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-13",
    "idea": "error-nevera",
    "reglas": {
@@ -3924,7 +3924,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-13T17:28:31.860Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 68.4
   },
   {
    "id": "cargadorvacio",
