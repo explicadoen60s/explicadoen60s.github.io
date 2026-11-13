@@ -3643,7 +3643,7 @@
     "ciencia",
     "comofunciona"
    ],
-   "estado": "renderizando",
+   "estado": "revision",
    "creado": "2026-11-12",
    "idea": "error-microondas",
    "reglas": {
@@ -3769,7 +3769,8 @@
    },
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T22:51:36.102Z",
-   "aprobado_por": "Nikoloz_Lekishvili"
+   "aprobado_por": "Nikoloz_Lekishvili",
+   "duracion": 75.0
   },
   {
    "id": "nevera",
