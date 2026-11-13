@@ -63,3 +63,7 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Los C de ciudad y los A con una creencia que se desmonta superan 10×. Los B genéricos tienen una mediana de 0,28×, así que como máximo hago uno cada 8 guiones. (2026-11-12)
 - Los vídeos con más de 3 contadores rinden 1,98× frente a 1,05×. Cada guion lleva al menos 4 cifras que cambian. (2026-11-12)
 - La primera frase nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos, sin decir la cifra. (2026-11-12)
+- Los A que solo explican («¿Por qué…?», «Así funciona») rinden 0,31-0,43× en los últimos cuatro vídeos. Solo funcionan cuando el título o la primera frase corrigen algo que el espectador hace ahora mismo (router 191×, repetidor 6,45×). Cada A abre con el error común y cierra con una acción. (2026-11-13)
+- El ritmo de voz varía por vídeo (microcentro: 2,88 palabras/s). Antes de recortar, calculo palabras = segundos objetivo × ritmo medido de ese vídeo; no uso un 3,4 ni un 3,56 genéricos. (2026-11-13)
+- Un guion de 205-215 palabras es lo que da ~70 s con las voces actuales; por debajo de 205 no pasa las compuertas, así que el recorte tiene que ser fino (15-20 palabras, no 26). (2026-11-13)
+- Los A de «error común de casa» cierran con una acción hecha ya; es lo que lleva a los compartidos y al umbral de pago. (2026-11-13)

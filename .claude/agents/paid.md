@@ -58,3 +58,6 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 <!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
 - Ventana de promoción: los candidatos solo cuentan en sus primeros 5 días (120 h). A partir de las 100 h hay que decidirlo ese mismo día; tormentas está en 104 h. (2026-11-12)
 - Un 3× sobre una base pequeña no basta: cargador (3,95×) tiene 6.061 vistas y lavavajillas (3,18×) 4.877. Pago solo si el vídeo supera unas 20.000 vistas y 10× lo normal; por debajo de eso, 5 € no compensan. (2026-11-12)
+- Con 191× en 68 h, router muestra que los vídeos tipo «error común de casa» llegan al umbral de pago (20.000 vistas y 10×) en menos de 3 días; reviso candidatos a las 48 h, no a las 100 h, para dejar margen de decisión. (2026-11-13)
+- Un vídeo con muchas vistas y pocos comentarios por mil (menos de 0,5) no merece gasto hasta ver cómo responde a un comentario fijado: el dinero compra vistas, no conversación. (2026-11-13)
+- Orden de promoción: multiplicador sobre lo normal, edad y base de vistas, en ese orden; un 6× con 9 h todavía no supera el suelo de 10× y se relee a las 24 h. (2026-11-13)

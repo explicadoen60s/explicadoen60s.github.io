@@ -59,3 +59,6 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Duración: los vídeos de menos de 71 s rinden 1,39× lo normal frente a 1,07×; con 4 de los últimos 9 por encima de 75 s, el tope del guion es 225 palabras. (2026-11-12)
 - Tipos de efecto distintos: más de 7 rinden 1,98× lo normal frente a 1,05×; más de 19,7 efectos/min, 1,61× frente a 1,05×. (2026-11-12)
 - Los vídeos con voz lenta (spray 3,48, carretera 3,41, pistahielo 3,34 palabras/s) fueron también los más largos: la duración depende del ritmo de voz tanto como del número de palabras. (2026-11-12)
+- Una voz por debajo de 3,4 palabras/s alarga el vídeo: tdt (3,29 palabras/s) duró 75,8 s con un guion normal. Si la voz sale a menos de 3,5 palabras/s, el guion tiene que quedarse en 205-215 palabras para no pasar de 71 s. (2026-11-13)
+- Si el gancho sale flojo en voz_gancho (por debajo de 0,20 dB), se arregla con la puntuación de la primera frase (¡…! y pausa corta), porque la voz sintética no se sube de volumen a mano. (2026-11-13)
+- Para bajar la duración, quita unas 3,4 palabras por cada segundo de más (3,4 palabras/s). (2026-11-13)

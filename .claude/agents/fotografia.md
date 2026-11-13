@@ -60,3 +60,7 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Cámara: objetivo por escena nueva de cam_cada ≤2,8 s (los mejores van a 2,77 s; menos de 3,05 s rinden 1,98×), más de 22 claves (los mejores, 24,5) y lente máxima de 40 mm o más. Arranque entre 2 y 6 m: `paraguas` a 0,5 m hizo 0,11×, así que muy cerca no basta si el objeto no se reconoce. (2026-11-12)
 - Techo de cam_cada 2,8 s y más de 22 claves por escena: los vídeos con menos de 3,0 s rinden 1,98× frente a 0,97×. (2026-11-12)
 - Cada cambio de plano debe documentarse (tiempo, pieza en primer plano, esquina libre) para que Gráficos y Sonido coloquen pastillas y whooshes sin tapar el mecanismo. (2026-11-12)
+- Arranque entre 2 y 6 m con lente larga: menos de 7,5 m rinde 1,44× frente a 1,04×, pero paraguas a 0,5 m hizo 0,18×, así que tampoco vale pegar la cámara si la pieza no se reconoce. (2026-11-13)
+- Con cam_cada entre 1,5 y 2,0 s (las escenas en cola) cada plano dura menos de 2 s: las pastillas y los rótulos deben entrar en los primeros 0,5 s o se pierden en el plano siguiente. (2026-11-13)
+- Dejar 0,5 s de plano estable antes y después de cada cifra dicha en voz evita que el whoosh pise la palabra sin subir cam_cada por encima de 2,8 s. (2026-11-13)
+- Última clave de cámara igual a la primera (posición, target, lente) es lo que hace que el bucle no tenga salto visible. (2026-11-13)

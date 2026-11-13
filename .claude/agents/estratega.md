@@ -60,3 +60,7 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Hasta el 12-nov ningún vídeo publicado usaba el juego de la cifra (juego=false en los 31 maduros), así que la ley m_juego no puede evaluarse aún. No hay que tocarla antes de tener 3 vídeos con juego y 48 h de datos. (2026-11-12)
 - Los B «Si tuvieras que inventar…» hicieron 0,11-0,28× frente a 78,3× del router: priorizar A y C con creencia equivocada de un objeto de casa. (2026-11-12)
 - Las peticiones de seguidores se comprueban contra estado.json y escenas/ y se verifican con búsqueda web antes de entrar al banco de ideas. (2026-11-12)
+- Las segundas partes rinden una fracción de la original: repetidor 6,45× frente a router 191×. Tras un éxito, el siguiente vídeo debe cambiar de objeto de casa con el mismo patrón de creencia equivocada y no insistir en el tema. (2026-11-13)
+- Un B puede rendir si el objeto está en la mano del espectador y la cámara arranca cerca: grifo 5,0× con cam_inicio_dist 0,9 m, frente a una mediana de 0,28× en los demás B. La clave es el objeto de casa y el primer plano, no el formato. (2026-11-13)
+- Los A sin un error común del espectador en el título rinden unas 4 veces menos (luces 0,43×, tdt 0,40×, huella 0,31×, ollaexpres 0,31×) que los A que corrigen algo, como repetidor 6,45× y router 191×: todo A debe llegar con error y acción. (2026-11-13)
+- Cuando un vídeo despega, conviene que el siguiente vídeo de su serie salga dentro de las 48-120 h, para que quien llega por el vídeo fuerte encuentre otro y siga el perfil. (2026-11-13)

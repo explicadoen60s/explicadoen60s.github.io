@@ -61,3 +61,6 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Palabras clave resaltadas: más de 27 por vídeo rinde 1,50× lo normal (1,03× el resto). Objetivo 28 o más. (2026-11-12)
 - Menos de 71 s rinde 1,30-1,39× lo normal: marcar al director las frases sobrantes antes de generar la voz, no recortar después. (2026-11-12)
 - Más de 19,7 efectos/min (1,61×) y más de 7 tipos (1,98×): objetivo ≥21 y ≥8. (2026-11-12)
+- Router (191×, cam_cada 3,68 s, 3 contadores) y repetidor (6,45×, 72,7 s) rinden muy bien incumpliendo mis umbrales: el tema y la parte 2 de un éxito pesan más que el montaje. Los umbrales técnicos (<71 s, >27 palabras clave) son un suelo de calidad, no una garantía de vistas. (2026-11-13)
+- Si un vídeo pasa de 71 s antes de tener escena, recortar el guion y regenerar la voz sale mucho más barato que corregirlo después de montar. (2026-11-13)
+- Para proponer un recorte, la frase que sobra es la que repite lo anterior o no lleva una cifra del juego ni del mecanismo. (2026-11-13)
