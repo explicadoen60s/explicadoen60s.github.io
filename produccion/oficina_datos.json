@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:23:28+00:00",
+ "actualizado": "2026-11-13T19:43:27+00:00",
  "medianas": {
   "tiktok": 1082,
   "instagram": 1562.0,
@@ -8,7 +8,7 @@
  "maduros": 39,
  "puestos": {
   "director": {
-   "ahora": "0 guiones esperando tu visto bueno",
+   "ahora": "7 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "1 escenas por plantear · 0 correcciones",
-   "pendiente": 1,
+   "ahora": "Al día: sin escenas pendientes",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -31,8 +31,8 @@
    "foco": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,11× lo normal, frente a 0,89× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 1 mezclas por hacer",
-   "pendiente": 1,
+   "ahora": "0 voces generándose · 0 mezclas por hacer",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.9,
@@ -42,7 +42,7 @@
    }
   },
   "editor": {
-   "ahora": "0 en render · 0 esperando tu revisión",
+   "ahora": "1 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -54,11 +54,11 @@
    "foco": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,98× los demás."
   },
   "motion": {
-   "ahora": "1 capas de gráficos por montar",
-   "pendiente": 1,
+   "ahora": "Al día",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
-    "valor": 9.0,
+    "valor": 9.1,
     "fmt": "dec",
     "meta": 9,
     "pie": "últimos 20 guiones"
@@ -352,7 +352,7 @@
    "vistas": 618143,
    "rel": 211.33,
    "inter": 0.0504,
-   "horas": 79,
+   "horas": 80,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -380,7 +380,7 @@
    "vistas": 31129,
    "rel": 9.85,
    "inter": 0.0328,
-   "horas": 20,
+   "horas": 21,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -438,6 +438,230 @@
     "nivel": "ok",
     "rol": "estratega",
     "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "cargadorvacio": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "206 palabras (≈61 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "15 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "desaladora": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "205 palabras (≈60 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "lavar30": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "205 palabras (≈60 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "24 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "bateria100": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "207 palabras (≈61 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "25 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "tunelave": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "208 palabras (≈61 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "freidoraire": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "208 palabras (≈61 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "13 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 9/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "transbordador": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "213 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "17 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
    },
    {
     "nivel": "ok",
@@ -1752,6 +1976,30 @@
     }
    ],
    "nevera": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,25× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 12, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,94 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 4. Los que funcionan van por encima de 8 (1,20× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",

@@ -1576,7 +1576,7 @@
    "sub_frase": true
   },
   "nevera": {
-   "huella": "b5214f39902e82e8",
+   "huella": "9b42a334df5f5540",
    "duracion": 71.9,
    "voz_ritmo": 3.79,
    "voz_silencio": 20.4,
@@ -1585,7 +1585,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -16.1,
    "voz_expresividad": 3.2,
-   "voz_gancho": -1.9
+   "voz_gancho": -1.9,
+   "cam_claves": 37,
+   "cam_cada": 1.94,
+   "cam_lente_max": 40,
+   "obj_piezas": 56,
+   "obj_animaciones": 18,
+   "obj_cortes": 0,
+   "estilo_dia": true,
+   "obj_flechas": 3,
+   "ov_etiquetas": 4,
+   "ov_contadores": 12,
+   "ov_graficos_min": 13.4,
+   "ov_palabras_clave": 36,
+   "sfx_min": 30.9,
+   "sfx_variedad": 8,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "nieve": {
    "huella": "d0e89eab18479a9a",
