@@ -4529,7 +4529,7 @@
     "airfryer",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-13",
    "tendencia": "Tu freidora de aire no fríe con aire",
    "reglas": {
@@ -4628,7 +4628,10 @@
       "comofunciona"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-13T20:59:56.056Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "transbordador",
