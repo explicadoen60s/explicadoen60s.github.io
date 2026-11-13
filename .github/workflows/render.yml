@@ -68,6 +68,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: main   # la lista se hace con origin/main: si se usa el commit que lanzó el render, faltan las escenas subidas después
           sparse-checkout: produccion
       - uses: actions/setup-python@v5
         with:
