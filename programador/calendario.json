@@ -2594,10 +2594,10 @@
     "casa",
     "comofunciona"
    ],
-   "estado": "pendiente",
-   "intentos": 2,
+   "estado": "error",
+   "intentos": 3,
    "por": "Christian_Civico",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026111312323531B961B8F31E98743C14\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261113134614ECA284E8E8209C8482D9\"}}"
   },
   {
    "id": "ventana-tiktok",

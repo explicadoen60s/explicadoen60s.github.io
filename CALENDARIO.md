@@ -39,7 +39,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://www.instagram.com/reel/DfrQTrLE3RB/) |
 | vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://youtube.com/shorts/OIrAW0iKLwk) |
-| vie 13/11 | 13:00 | tiktok | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ⏳ pendiente |
+| vie 13/11 | 13:00 | tiktok | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ❌ error |
 | vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | ⏳ pendiente |
 | vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | ⏳ pendiente |
