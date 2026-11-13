@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-13T15:12:05+00:00",
+ "actualizado": "2026-11-13T16:15:16+00:00",
  "medianas": {
-  "tiktok": 1058.0,
+  "tiktok": 1070.0,
   "instagram": 1561,
-  "youtube": 1472.0
+  "youtube": 1474.0
  },
  "maduros": 38,
  "puestos": {
@@ -28,7 +28,7 @@
     "meta": 0.8,
     "pie": "desde el 12-nov"
    },
-   "foco": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,04× los demás."
+   "foco": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,03× los demás."
   },
   "sonido": {
    "ahora": "0 voces generándose · 0 mezclas por hacer",
@@ -46,12 +46,12 @@
    "pendiente": 7,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.48,
+    "valor": 4.54,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
    },
-   "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,42× lo normal, frente a 1,02× los demás."
+   "foco": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,34× lo normal, frente a 1,02× los demás."
   },
   "motion": {
    "ahora": "Al día",
@@ -63,14 +63,14 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,63× lo normal, frente a 1,04× los demás."
+   "foco": "Contadores y medidores: los vídeos con más de 3 rinden 1,50× lo normal, frente a 1,04× los demás."
   },
   "estratega": {
    "ahora": "3 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
    "pendiente": 4,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
-    "valor": 0.63,
+    "valor": 0.61,
     "fmt": "pct",
     "meta": 0.5,
     "pie": "últimos 14 días"
@@ -81,7 +81,7 @@
    "pendiente": 1,
    "kpi": {
     "nombre": "Comentarios por 1.000 vistas",
-    "valor": 0.17,
+    "valor": 0.16,
     "fmt": "dec",
     "meta": 1,
     "pie": "TikTok, últimos 14 días"
@@ -130,31 +130,31 @@
   "m_formatoC": {
    "n_si": 10,
    "n_no": 28,
-   "med_si": 1.38,
+   "med_si": 1.32,
    "med_no": 1.06,
-   "ratio": 1.3,
+   "ratio": 1.25,
    "veredicto": "a_favor"
   },
   "m_tituloPregunta": {
    "n_si": 31,
    "n_no": 7,
    "med_si": 1.11,
-   "med_no": 0.36,
-   "ratio": 3.08,
+   "med_no": 0.34,
+   "ratio": 3.26,
    "veredicto": "a_favor"
   },
   "m_cotidiano": {
    "n_si": 13,
    "n_no": 25,
-   "med_si": 1.02,
+   "med_si": 1.03,
    "med_no": 1.08,
-   "ratio": 0.94,
+   "ratio": 0.95,
    "veredicto": "sin_efecto"
   },
   "m_corto": {
    "n_si": 1,
    "n_no": 37,
-   "med_si": 0.21,
+   "med_si": 0.2,
    "med_no": 1.08,
    "ratio": 0.19,
    "veredicto": "faltan_datos"
@@ -170,8 +170,8 @@
   "m261112dir8": {
    "n_si": 19,
    "n_no": 19,
-   "med_si": 1.2,
-   "med_no": 1.04,
+   "med_si": 1.18,
+   "med_no": 1.03,
    "ratio": 1.15,
    "veredicto": "sin_efecto"
   },
@@ -180,7 +180,7 @@
    "n_no": 20,
    "med_si": 1.19,
    "med_no": 1.02,
-   "ratio": 1.17,
+   "ratio": 1.16,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
@@ -194,17 +194,17 @@
   "m261112son11": {
    "n_si": 16,
    "n_no": 22,
-   "med_si": 1.09,
+   "med_si": 1.08,
    "med_no": 1.06,
-   "ratio": 1.03,
+   "ratio": 1.02,
    "veredicto": "sin_efecto"
   },
   "m261112mot12": {
    "n_si": 17,
    "n_no": 21,
-   "med_si": 1.63,
+   "med_si": 1.5,
    "med_no": 1.04,
-   "ratio": 1.57,
+   "ratio": 1.44,
    "veredicto": "a_favor"
   },
   "m261112mot13": {
@@ -226,8 +226,8 @@
   "m261113son16": {
    "n_si": 13,
    "n_no": 25,
-   "med_si": 1.2,
-   "med_no": 1.04,
+   "med_si": 1.18,
+   "med_no": 1.03,
    "ratio": 1.15,
    "veredicto": "sin_efecto"
   },
@@ -235,14 +235,14 @@
    "n_si": 2,
    "n_no": 36,
    "med_si": 0.57,
-   "med_no": 1.09,
+   "med_no": 1.08,
    "ratio": 0.53,
    "veredicto": "faltan_datos"
   },
   "m261113est18": {
    "n_si": 1,
    "n_no": 37,
-   "med_si": 0.21,
+   "med_si": 0.2,
    "med_no": 1.08,
    "ratio": 0.19,
    "veredicto": "faltan_datos"
@@ -258,8 +258,8 @@
    "n_si": 31,
    "n_no": 7,
    "med_si": 1.11,
-   "med_no": 0.36,
-   "ratio": 3.08,
+   "med_no": 0.34,
+   "ratio": 3.26,
    "veredicto": "a_favor"
   },
   {
@@ -270,9 +270,9 @@
    },
    "n_si": 10,
    "n_no": 28,
-   "med_si": 1.42,
+   "med_si": 1.41,
    "med_no": 1.06,
-   "ratio": 1.34,
+   "ratio": 1.33,
    "veredicto": "a_favor"
   },
   {
@@ -283,9 +283,9 @@
    },
    "n_si": 10,
    "n_no": 28,
-   "med_si": 1.38,
+   "med_si": 1.32,
    "med_no": 1.06,
-   "ratio": 1.3,
+   "ratio": 1.25,
    "veredicto": "a_favor"
   }
  ],
@@ -362,10 +362,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 595308,
-   "rel": 213.56,
-   "inter": 0.0493,
-   "horas": 75,
+   "vistas": 602916,
+   "rel": 207.15,
+   "inter": 0.0498,
+   "horas": 76,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -376,10 +376,10 @@
    "video": "ruedas",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7705903138942848289?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 41561,
-   "rel": 18.32,
+   "vistas": 41576,
+   "rel": 15.47,
    "inter": 0.0293,
-   "horas": 115,
+   "horas": 116,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -390,10 +390,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 27745,
-   "rel": 9.95,
+   "vistas": 28880,
+   "rel": 9.51,
    "inter": 0.0323,
-   "horas": 16,
+   "horas": 17,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -405,29 +405,29 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 213.56,
-   "vistas": 595308
+   "rel": 207.15,
+   "vistas": 602916
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 22.26,
-   "vistas": 55632
+   "rel": 21.68,
+   "vistas": 55757
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 18.32,
-   "vistas": 41561
+   "rel": 15.47,
+   "vistas": 41576
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.93,
-   "vistas": 21839
+   "rel": 10.78,
+   "vistas": 21887
   }
  ],
  "compuertas": {
@@ -473,12 +473,12 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.57,
+    "ratio": 1.44,
     "n_si": 17,
     "n_no": 21,
-    "fuerza": 1.86,
+    "fuerza": 1.5,
     "sorpresa": false,
-    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,63× lo normal, frente a 1,04× los demás."
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,50× lo normal, frente a 1,04× los demás."
    },
    {
     "metrica": "ov_palabras_clave",
@@ -487,12 +487,12 @@
     "unidad": "",
     "umbral": 27.0,
     "direccion": "mas",
-    "ratio": 1.39,
+    "ratio": 1.32,
     "n_si": 18,
     "n_no": 20,
-    "fuerza": 1.4,
+    "fuerza": 1.18,
     "sorpresa": false,
-    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,42× lo normal, frente a 1,02× los demás."
+    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,34× lo normal, frente a 1,02× los demás."
    },
    {
     "metrica": "cam_inicio_dist",
@@ -501,12 +501,12 @@
     "unidad": "m",
     "umbral": 7.5,
     "direccion": "menos",
-    "ratio": 1.2,
+    "ratio": 1.22,
     "n_si": 7,
     "n_no": 8,
-    "fuerza": 0.49,
+    "fuerza": 0.53,
     "sorpresa": false,
-    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,04× los demás."
+    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,03× los demás."
    }
   ],
   "recomendaciones": {
@@ -515,7 +515,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
@@ -529,13 +529,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,32× más vistas)."
     }
    ],
    "plegable": [
@@ -543,7 +543,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
@@ -569,7 +569,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 8,8 m. Los que funcionan van por debajo de 7,5 m (1,20× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 8,8 m. Los que funcionan van por debajo de 7,5 m (1,22× más vistas)."
     }
    ],
    "lavavajillas": [
@@ -597,7 +597,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 27. Los que funcionan van por encima de 27 (1,32× más vistas)."
     }
    ],
    "arroz": [
@@ -605,19 +605,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 22. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 22. Los que funcionan van por encima de 27 (1,32× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 22 m. Los que funcionan van por debajo de 7,5 m (1,20× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 22 m. Los que funcionan van por debajo de 7,5 m (1,22× más vistas)."
     }
    ],
    "whatsapp": [
@@ -625,13 +625,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 21. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 21. Los que funcionan van por encima de 27 (1,32× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -679,7 +679,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 1. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
@@ -707,7 +707,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
@@ -741,7 +741,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
@@ -761,7 +761,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,32× más vistas)."
     }
    ],
    "induccion": [
@@ -769,19 +769,19 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 2. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 20. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 20. Los que funcionan van por encima de 27 (1,32× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 8,4 m. Los que funcionan van por debajo de 7,5 m (1,20× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 8,4 m. Los que funcionan van por debajo de 7,5 m (1,22× más vistas)."
     }
    ],
    "qr": [
@@ -801,7 +801,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 11,6 m. Los que funcionan van por debajo de 7,5 m (1,20× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 11,6 m. Los que funcionan van por debajo de 7,5 m (1,22× más vistas)."
     }
    ],
    "lavadora": [
@@ -851,13 +851,13 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_contadores",
-     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,57× más vistas)."
+     "texto": "Contadores y medidores: 3. Los que funcionan van por encima de 3 (1,44× más vistas)."
     },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,32× más vistas)."
     }
    ],
    "ollaexpres": [
@@ -871,7 +871,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 23. Los que funcionan van por encima de 27 (1,32× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -911,7 +911,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "ov_palabras_clave",
-     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,39× más vistas)."
+     "texto": "Palabras clave resaltadas: 26. Los que funcionan van por encima de 27 (1,32× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -977,7 +977,7 @@
      "rol": "fotografia",
      "tipo": "mejorar",
      "metrica": "cam_inicio_dist",
-     "texto": "Distancia de cámara en el primer segundo: 7,8 m. Los que funcionan van por debajo de 7,5 m (1,20× más vistas)."
+     "texto": "Distancia de cámara en el primer segundo: 7,8 m. Los que funcionan van por debajo de 7,5 m (1,22× más vistas)."
     }
    ],
    "carretera": [
@@ -1211,12 +1211,12 @@
     "unidad": "",
     "umbral": 3.0,
     "direccion": "mas",
-    "ratio": 1.57,
+    "ratio": 1.44,
     "n_si": 17,
     "n_no": 21,
-    "fuerza": 1.86,
+    "fuerza": 1.5,
     "sorpresa": false,
-    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,63× lo normal, frente a 1,04× los demás."
+    "texto": "Contadores y medidores: los vídeos con más de 3 rinden 1,50× lo normal, frente a 1,04× los demás."
    },
    "editor": {
     "metrica": "ov_palabras_clave",
@@ -1225,12 +1225,12 @@
     "unidad": "",
     "umbral": 27.0,
     "direccion": "mas",
-    "ratio": 1.39,
+    "ratio": 1.32,
     "n_si": 18,
     "n_no": 20,
-    "fuerza": 1.4,
+    "fuerza": 1.18,
     "sorpresa": false,
-    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,42× lo normal, frente a 1,02× los demás."
+    "texto": "Palabras clave resaltadas: los vídeos con más de 27 rinden 1,34× lo normal, frente a 1,02× los demás."
    },
    "fotografia": {
     "metrica": "cam_inicio_dist",
@@ -1239,12 +1239,12 @@
     "unidad": "m",
     "umbral": 7.5,
     "direccion": "menos",
-    "ratio": 1.2,
+    "ratio": 1.22,
     "n_si": 7,
     "n_no": 8,
-    "fuerza": 0.49,
+    "fuerza": 0.53,
     "sorpresa": false,
-    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,04× los demás."
+    "texto": "Distancia de cámara en el primer segundo: los vídeos con menos de 7,5 m rinden 1,25× lo normal, frente a 1,03× los demás."
    }
   },
   "referencia": {
@@ -1253,48 +1253,48 @@
     "resto": 3.57
    },
    "voz_silencio": {
-    "top": 10.8,
+    "top": 10.7,
     "resto": 10.0
    },
    "voz_pausas_min": {
-    "top": 18.15,
+    "top": 18.5,
     "resto": 16.9
    },
    "voz_pausa_max": {
-    "top": 0.61,
-    "resto": 0.57
+    "top": 0.58,
+    "resto": 0.58
    },
    "voz_arranque": {
     "top": 0.0,
     "resto": 0.0
    },
    "voz_lufs": {
-    "top": -15.7,
+    "top": -15.65,
     "resto": -15.6
    },
    "voz_expresividad": {
-    "top": 2.25,
-    "resto": 2.25
+    "top": 2.2,
+    "resto": 2.3
    },
    "voz_gancho": {
     "top": 0.45,
-    "resto": 0.2
+    "resto": 0.15
    },
    "duracion": {
-    "top": 69.55,
-    "resto": 71.15
+    "top": 69.05,
+    "resto": 71.25
    },
    "cam_claves": {
-    "top": 24.0,
+    "top": 23.0,
     "resto": 23
    },
    "cam_cada": {
-    "top": 2.96,
+    "top": 2.9,
     "resto": 3.03
    },
    "cam_inicio_dist": {
-    "top": 5.3,
-    "resto": 8.1
+    "top": 6.2,
+    "resto": 7.8
    },
    "cam_lente_max": {
     "top": 40.0,
@@ -1305,27 +1305,27 @@
     "resto": 30.0
    },
    "obj_animaciones": {
-    "top": 21.0,
-    "resto": 15.5
+    "top": 17.5,
+    "resto": 16.0
    },
    "obj_cortes": {
     "top": 1.0,
     "resto": 0.0
    },
    "ov_etiquetas": {
-    "top": 8.5,
-    "resto": 8.5
+    "top": 9.0,
+    "resto": 8.0
    },
    "ov_contadores": {
-    "top": 4.0,
+    "top": 4.5,
     "resto": 3.0
    },
    "ov_graficos_min": {
-    "top": 19.45,
+    "top": 21.05,
     "resto": 17.3
    },
    "ov_palabras_clave": {
-    "top": 28.5,
+    "top": 28.0,
     "resto": 26.0
    },
    "sfx_min": {
@@ -1518,12 +1518,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 923,
+   "vistas": 4615,
    "rel_red": {
-    "tiktok": 0.45
+    "tiktok": 1.72
    },
    "com_mil": 0.0,
-   "comp_mil": 0.0,
+   "comp_mil": 0.22,
    "publicado": "2026-11-13T14:13:47+00:00"
   },
   {
@@ -1572,12 +1572,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 246,
+   "vistas": 487,
    "rel_red": {
-    "tiktok": 0.12
+    "tiktok": 0.18
    },
    "com_mil": 0.0,
-   "comp_mil": 4.07,
+   "comp_mil": 2.05,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
   {
@@ -1626,12 +1626,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2499,
+   "vistas": 2689,
    "rel_red": {
-    "tiktok": 0.9
+    "tiktok": 0.89
    },
-   "com_mil": 0.4,
-   "comp_mil": 0.8,
+   "com_mil": 0.37,
+   "comp_mil": 0.74,
    "publicado": "2026-11-12T23:00:34+00:00"
   },
   {
@@ -1683,10 +1683,10 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 5635,
+   "vistas": 5660,
    "rel_red": {
-    "instagram": 1.3,
-    "youtube": 0.88
+    "instagram": 1.31,
+    "youtube": 0.87
    },
    "com_mil": 0.35,
    "comp_mil": 0.35,
@@ -1741,14 +1741,14 @@
    "creado": "2026-11-09",
    "rel": null,
    "maduro": false,
-   "vistas": 3220,
+   "vistas": 3413,
    "rel_red": {
-    "tiktok": 0.13,
+    "tiktok": 0.17,
     "instagram": 0.91,
-    "youtube": 0.78
+    "youtube": 0.76
    },
    "com_mil": 0.0,
-   "comp_mil": 0.0,
+   "comp_mil": 0.59,
    "publicado": "2026-11-12T19:28:35+0000"
   },
   {
@@ -1800,14 +1800,14 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 32899,
+   "vistas": 34337,
    "rel_red": {
-    "tiktok": 9.95,
+    "tiktok": 9.51,
     "instagram": 0.95,
-    "youtube": 2.02
+    "youtube": 2.15
    },
    "com_mil": 0.09,
-   "comp_mil": 2.92,
+   "comp_mil": 2.91,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -1856,11 +1856,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1585,
+   "vistas": 1626,
    "rel_red": {
-    "tiktok": 0.57
+    "tiktok": 0.54
    },
-   "com_mil": 1.26,
+   "com_mil": 1.23,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -1911,11 +1911,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1114,
+   "vistas": 1119,
    "rel_red": {
-    "tiktok": 0.4
+    "tiktok": 0.37
    },
-   "com_mil": 1.8,
+   "com_mil": 1.79,
    "comp_mil": 0.0,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
@@ -1966,12 +1966,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1017,
+   "vistas": 1020,
    "rel_red": {
-    "tiktok": 0.36
+    "tiktok": 0.34
    },
    "com_mil": 0.0,
-   "comp_mil": 5.9,
+   "comp_mil": 5.88,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -2021,12 +2021,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 16111,
+   "vistas": 16163,
    "rel_red": {
-    "tiktok": 5.78
+    "tiktok": 5.32
    },
    "com_mil": 0.06,
-   "comp_mil": 0.81,
+   "comp_mil": 0.8,
    "publicado": "2026-11-12T11:40:48+00:00"
   },
   {
@@ -2076,9 +2076,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2039,
+   "vistas": 2041,
    "rel_red": {
-    "tiktok": 0.7
+    "tiktok": 0.64
    },
    "com_mil": 0.98,
    "comp_mil": 0.0,
@@ -2130,9 +2130,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2681,
+   "vistas": 2685,
    "rel_red": {
-    "tiktok": 0.93
+    "tiktok": 0.85
    },
    "com_mil": 0.0,
    "comp_mil": 2.61,
@@ -2183,11 +2183,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 1.04,
+   "rel": 0.95,
    "maduro": true,
-   "vistas": 2894,
+   "vistas": 2897,
    "rel_red": {
-    "tiktok": 1.04
+    "tiktok": 0.95
    },
    "com_mil": 0.35,
    "comp_mil": 0.0,
@@ -2238,11 +2238,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.21,
+   "rel": 0.2,
    "maduro": true,
-   "vistas": 591,
+   "vistas": 594,
    "rel_red": {
-    "tiktok": 0.21
+    "tiktok": 0.2
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -2292,13 +2292,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.21,
+   "rel": 0.19,
    "maduro": true,
-   "vistas": 582,
+   "vistas": 584,
    "rel_red": {
-    "tiktok": 0.21
+    "tiktok": 0.19
    },
-   "com_mil": 1.72,
+   "com_mil": 1.71,
    "comp_mil": 0.0,
    "publicado": "2026-11-11T13:16:45+00:00"
   },
@@ -2346,11 +2346,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.63,
+   "rel": 1.5,
    "maduro": true,
-   "vistas": 4540,
+   "vistas": 4544,
    "rel_red": {
-    "tiktok": 1.63
+    "tiktok": 1.5
    },
    "com_mil": 0.0,
    "comp_mil": 0.22,
@@ -2401,11 +2401,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.1,
+   "rel": 1.09,
    "maduro": true,
-   "vistas": 3175,
+   "vistas": 3177,
    "rel_red": {
-    "tiktok": 1.1
+    "tiktok": 1.09
    },
    "com_mil": 0.0,
    "comp_mil": 1.57,
@@ -2456,11 +2456,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.35,
+   "rel": 0.33,
    "maduro": true,
-   "vistas": 970,
+   "vistas": 971,
    "rel_red": {
-    "tiktok": 0.35
+    "tiktok": 0.33
    },
    "com_mil": 1.03,
    "comp_mil": 0.0,
@@ -2510,14 +2510,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 213.56,
+   "rel": 207.15,
    "maduro": true,
-   "vistas": 595308,
+   "vistas": 602916,
    "rel_red": {
-    "tiktok": 213.56
+    "tiktok": 207.15
    },
    "com_mil": 0.13,
-   "comp_mil": 5.62,
+   "comp_mil": 5.73,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -2564,11 +2564,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.21,
+   "rel": 0.19,
    "maduro": true,
    "vistas": 515,
    "rel_red": {
-    "tiktok": 0.21
+    "tiktok": 0.19
    },
    "com_mil": 1.94,
    "comp_mil": 3.88,
@@ -2618,11 +2618,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.65,
+   "rel": 1.53,
    "maduro": true,
    "vistas": 4124,
    "rel_red": {
-    "tiktok": 1.65
+    "tiktok": 1.53
    },
    "com_mil": 0.0,
    "comp_mil": 0.24,
@@ -2671,11 +2671,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.36,
+   "rel": 0.34,
    "maduro": true,
    "vistas": 903,
    "rel_red": {
-    "tiktok": 0.36
+    "tiktok": 0.34
    },
    "com_mil": 3.32,
    "comp_mil": 0.0,
@@ -2726,11 +2726,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 0.43,
+   "rel": 0.4,
    "maduro": true,
    "vistas": 1079,
    "rel_red": {
-    "tiktok": 0.43
+    "tiktok": 0.4
    },
    "com_mil": 0.93,
    "comp_mil": 0.0,
@@ -2780,14 +2780,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.68,
+   "rel": 0.57,
    "maduro": true,
-   "vistas": 1534,
+   "vistas": 1535,
    "rel_red": {
-    "tiktok": 0.68
+    "tiktok": 0.57
    },
    "com_mil": 0.65,
-   "comp_mil": 1.96,
+   "comp_mil": 1.95,
    "publicado": "2026-11-08T20:42:33+00:00"
   },
   {
@@ -2834,15 +2834,15 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 2.08,
+   "rel": 1.76,
    "maduro": true,
-   "vistas": 4732,
+   "vistas": 5043,
    "rel_red": {
-    "tiktok": 2.08,
-    "youtube": 0.01
+    "tiktok": 1.76,
+    "youtube": 0.21
    },
-   "com_mil": 0.21,
-   "comp_mil": 0.21,
+   "com_mil": 0.2,
+   "comp_mil": 0.2,
    "publicado": "2026-11-08T20:41:38+00:00"
   },
   {
@@ -2889,13 +2889,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.96,
+   "rel": 1.65,
    "maduro": true,
-   "vistas": 8512,
+   "vistas": 8634,
    "rel_red": {
-    "tiktok": 1.96,
+    "tiktok": 1.65,
     "instagram": 0.88,
-    "youtube": 0.62
+    "youtube": 0.67
    },
    "com_mil": 0.23,
    "comp_mil": 0.23,
@@ -2946,16 +2946,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 18.32,
+   "rel": 15.47,
    "maduro": true,
-   "vistas": 47733,
+   "vistas": 47961,
    "rel_red": {
-    "tiktok": 18.32,
+    "tiktok": 15.47,
     "instagram": 1.32,
-    "youtube": 2.26
+    "youtube": 2.33
    },
    "com_mil": 0.1,
-   "comp_mil": 1.09,
+   "comp_mil": 1.08,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -3002,13 +3002,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.87,
+   "rel": 1.58,
    "maduro": true,
    "vistas": 6873,
    "rel_red": {
-    "tiktok": 1.87,
+    "tiktok": 1.58,
     "instagram": 0.83,
-    "youtube": 0.6
+    "youtube": 0.58
    },
    "com_mil": 0.0,
    "comp_mil": 0.58,
@@ -3114,16 +3114,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 22.26,
+   "rel": 14.73,
    "maduro": true,
-   "vistas": 72260,
+   "vistas": 72596,
    "rel_red": {
-    "tiktok": 22.26,
-    "instagram": 1.05,
-    "youtube": 7.82
+    "tiktok": 21.68,
+    "instagram": 1.04,
+    "youtube": 7.79
    },
    "com_mil": 0.37,
-   "comp_mil": 1.33,
+   "comp_mil": 1.32,
    "publicado": "2026-11-07T23:51:32+00:00"
   },
   {
@@ -3171,16 +3171,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.02,
+   "rel": 1.03,
    "maduro": true,
-   "vistas": 8205,
+   "vistas": 8271,
    "rel_red": {
-    "tiktok": 1.82,
+    "tiktok": 1.76,
     "instagram": 1.02,
-    "youtube": 1.01
+    "youtube": 1.03
    },
    "com_mil": 0.12,
-   "comp_mil": 1.46,
+   "comp_mil": 1.45,
    "publicado": "2026-11-07T23:50:48+00:00"
   },
   {
@@ -3227,13 +3227,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.83,
+   "rel": 1.78,
    "maduro": true,
-   "vistas": 28316,
+   "vistas": 28364,
    "rel_red": {
-    "tiktok": 1.83,
+    "tiktok": 1.78,
     "instagram": 1.1,
-    "youtube": 10.93
+    "youtube": 10.78
    },
    "com_mil": 0.11,
    "comp_mil": 0.04,
@@ -3283,13 +3283,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.2,
+   "rel": 1.18,
    "maduro": true,
-   "vistas": 9038,
+   "vistas": 9078,
    "rel_red": {
-    "tiktok": 1.98,
+    "tiktok": 1.93,
     "instagram": 1.04,
-    "youtube": 1.2
+    "youtube": 1.18
    },
    "com_mil": 0.0,
    "comp_mil": 0.77,
@@ -3344,7 +3344,7 @@
    "maduro": true,
    "vistas": 11700,
    "rel_red": {
-    "tiktok": 2.46,
+    "tiktok": 2.39,
     "instagram": 1.23,
     "youtube": 1.64
    },
@@ -3506,13 +3506,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 0.86,
+   "rel": 0.85,
    "maduro": true,
    "vistas": 4607,
    "rel_red": {
     "tiktok": 0.6,
     "instagram": 0.95,
-    "youtube": 0.86
+    "youtube": 0.85
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -3620,11 +3620,11 @@
    "creado": "2026-11-03",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 12801,
+   "vistas": 12802,
    "rel_red": {
     "tiktok": 7.26,
     "instagram": 0.94,
-    "youtube": 0.94
+    "youtube": 0.92
    },
    "com_mil": 0.78,
    "comp_mil": 0.39,
@@ -3677,7 +3677,7 @@
    "creado": "2026-11-03",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 4267,
+   "vistas": 4268,
    "rel_red": {
     "tiktok": 1.32,
     "instagram": 1.08,
@@ -3734,12 +3734,12 @@
    "creado": "2026-11-03",
    "rel": 2.96,
    "maduro": true,
-   "vistas": 12108,
+   "vistas": 12110,
    "rel_red": {
     "instagram": 1.08,
     "youtube": 4.84
    },
-   "com_mil": 0.17,
+   "com_mil": 0.0,
    "comp_mil": 0.0,
    "publicado": "2026-11-05T15:41:21Z"
   },
@@ -4185,7 +4185,7 @@
    "creado": "2026-11-03",
    "rel": 1.8,
    "maduro": true,
-   "vistas": 8419,
+   "vistas": 8420,
    "rel_red": {
     "tiktok": 4.43,
     "instagram": 1.13,
