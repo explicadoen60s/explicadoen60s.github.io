@@ -4056,7 +4056,7 @@
     "ingenieria",
     "lo que esconde tu ciudad"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-13",
    "tendencia": "Lo que esconde Barcelona: la desaladora que le da agua",
    "reglas": {
@@ -4156,7 +4156,10 @@
       "comofunciona"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-13T19:53:22.727Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "lavar30",
