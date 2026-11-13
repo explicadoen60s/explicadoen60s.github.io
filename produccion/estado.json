@@ -2745,7 +2745,7 @@
     "https://www.moncloa.com/2026/10/22/barcelona-deposito-pluvial-licitacion-3453606/",
     "https://www.iagua.es/blogs/jordi-oliveras/deposito-regulador-pluviales-joan-miro-barcelona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-12",
    "revisiones": [
     {
@@ -2859,7 +2859,8 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:04.463Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 68.8
+   "duracion": 68.8,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "m30tunel",
@@ -3178,7 +3179,7 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T11:32:25.012Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 72.0
+   "duracion": 72
   },
   {
    "id": "wifi5ghz",
@@ -3776,7 +3777,7 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-12T22:51:36.102Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 75.0
+   "duracion": 75
   },
   {
    "id": "nevera",
