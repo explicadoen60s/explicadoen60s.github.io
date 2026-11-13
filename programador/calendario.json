@@ -2683,10 +2683,16 @@
     "acero",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 1,
    "por": "Christian_Civico",
-   "ultimo_error": "HTTP 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>TLB</center>\r\n</body>\r\n</html>\r\n"
+   "ultimo_error": "HTTP 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>TLB</center>\r\n</body>\r\n</html>\r\n",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707703463828113430",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-13T17:08:44.486541+00:00"
   },
   {
    "id": "nieve-tiktok",

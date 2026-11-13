@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mar 10/11 | 18:00 | instagram | Si tuvieras que inventar el lavavajillas… 🍽️ ¿para qué sirve | [✅ publicado](https://www.instagram.com/reel/DfkbKTelOyj/) |
-| mar 10/11 | 18:00 | tiktok | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | 📲 en tu bandeja de TikTok |
 | mar 10/11 | 21:00 | tiktok | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 10:00 | instagram | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | [✅ publicado](https://www.instagram.com/reel/DfmJ0BBATXh/) |
 | mié 11/11 | 10:00 | tiktok | Si tuvieras que inventar el paraguas automático… ☔ el muelle | 📲 en tu bandeja de TikTok |
@@ -41,7 +39,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://youtube.com/shorts/X03zTi_EL6M) |
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://www.instagram.com/reel/DfsHUu-EaPm/) |
-| vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | ⏳ pendiente |
+| vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | ⏳ pendiente |
 | sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
