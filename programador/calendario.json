@@ -2732,9 +2732,14 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18108408596571510",
+    "url": "https://www.instagram.com/reel/Dft1NUAk7uR/"
+   },
+   "publicado": "2026-11-14T08:59:43.654187+00:00"
   },
   {
    "id": "raton-tiktok",
@@ -2750,9 +2755,15 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7707949065397209110",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-14T09:02:26.392461+00:00"
   },
   {
    "id": "mando-youtube",

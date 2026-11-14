@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mié 11/11 | 10:00 | instagram | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | [✅ publicado](https://www.instagram.com/reel/DfmJ0BBATXh/) |
-| mié 11/11 | 10:00 | tiktok | Si tuvieras que inventar el paraguas automático… ☔ el muelle | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 12:00 | youtube | ¿Se te ha mojado el móvil? El arroz no hace lo que crees 🍚📱  | [✅ publicado](https://youtube.com/shorts/NkZ5Wm0_7V4) |
 | mié 11/11 | 13:00 | tiktok | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 16:00 | tiktok | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | 📲 en tu bandeja de TikTok |
@@ -40,8 +38,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://www.instagram.com/reel/DfsHUu-EaPm/) |
 | vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | 📲 en tu bandeja de TikTok |
-| sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
-| sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | ⏳ pendiente |
+| sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | [✅ publicado](https://www.instagram.com/reel/Dft1NUAk7uR/) |
+| sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | ⏳ pendiente |
 | sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
 | sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
