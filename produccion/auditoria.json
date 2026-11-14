@@ -909,7 +909,7 @@
    "sub_frase": true
   },
   "desaladora": {
-   "huella": "29293bea37e5b8fb",
+   "huella": "a685940ce8825d1a",
    "duracion": 69.5,
    "voz_ritmo": 3.78,
    "voz_silencio": 22.0,
@@ -918,7 +918,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -16.1,
    "voz_expresividad": 2.8,
-   "voz_gancho": -0.6
+   "voz_gancho": -0.6,
+   "cam_claves": 38,
+   "cam_cada": 1.83,
+   "cam_lente_max": 38,
+   "obj_piezas": 69,
+   "obj_animaciones": 11,
+   "obj_cortes": 1,
+   "estilo_dia": true,
+   "obj_flechas": 3,
+   "ov_etiquetas": 9,
+   "ov_contadores": 9,
+   "ov_graficos_min": 15.5,
+   "ov_palabras_clave": 38,
+   "sfx_min": 34.5,
+   "sfx_variedad": 10,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "detector": {
    "huella": "d83fbac03da55a0f",
@@ -1322,7 +1340,7 @@
    "sub_frase": true
   },
   "lavar30": {
-   "huella": "8214b738400fffd8",
+   "huella": "7aa07f1d1e47c5b2",
    "duracion": 71.6,
    "voz_ritmo": 3.44,
    "voz_silencio": 16.8,
@@ -1331,7 +1349,25 @@
    "voz_arranque": 0.0,
    "voz_lufs": -16.1,
    "voz_expresividad": 2.9,
-   "voz_gancho": 0.4
+   "voz_gancho": 0.4,
+   "cam_claves": 32,
+   "cam_cada": 2.24,
+   "cam_lente_max": 40,
+   "obj_piezas": 45,
+   "obj_animaciones": 9,
+   "obj_cortes": 1,
+   "estilo_dia": true,
+   "obj_flechas": 1,
+   "ov_etiquetas": 9,
+   "ov_contadores": 6,
+   "ov_graficos_min": 12.6,
+   "ov_palabras_clave": 30,
+   "sfx_min": 31.8,
+   "sfx_variedad": 9,
+   "juego_en_escena": true,
+   "comentario_en_escena": false,
+   "sub_frase": false,
+   "sub_centro": true
   },
   "lavavajillas": {
    "huella": "9ce5f7a48781c06a",

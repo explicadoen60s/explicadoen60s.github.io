@@ -346,3 +346,47 @@ def tuneladora(loc, s=1.0, parent=None, rot=0.0, vagones=4, color=None):
 
 def tuneladora_pieza(e, nombre):
     return bpy.data.objects[e[nombre]]
+
+# ---------------- lavadero ----------------
+def lavadora(loc, s=1.0, parent=None, rot=0.0, color=None, unique=False):
+    """Lavadora de carga frontal hueca (60×58×85 cm): paredes, ojo de buey con cristal, panel con mando y cajetín,
+    tambor abierto por el lado -X (empty «tambor», gira en Y) con palas. El frontal mira hacia -Y.
+    Hijos con nombre: «pared_izq» (para cortarla con cortar()), «mando» (empty, gira en Y), «tambor», «polea» (empty, gira en Y)."""
+    from mathutils import Vector
+    from lib3d import torus
+    from maqueta import medio_tubo
+    e = empty(loc, parent); e.rotation_euler = (0, 0, rot); c = color or (0.97, 0.97, 0.98)
+    W, D, H = 0.6 * s, 0.58 * s, 0.85 * s; gr = 0.025 * s; acero = (0.78, 0.80, 0.84)
+    caja((gr, D, H), (W / 2 - gr / 2, 0, H / 2), c, e, r=0.008 * s)                                     # pared derecha
+    p = caja((gr, D, H), (-W / 2 + gr / 2, 0, H / 2), c, e, r=0.008 * s, unique=True); p.name = "pared_izq"
+    caja((W, gr, H), (0, D / 2 - gr / 2, H / 2), c, e, r=0.008 * s)                                     # fondo
+    caja((W, D, gr), (0, 0, H - gr / 2), c, e, r=0.01 * s); caja((W, D, 0.06 * s), (0, 0, 0.03 * s), (0.85, 0.86, 0.88), e, r=0.01 * s)
+    f = caja((W, gr, H - 0.06 * s), (0, -D / 2 + gr / 2, H / 2 + 0.03 * s), c, e, r=0.01 * s)          # frontal
+    torus(0.19 * s, 0.03 * s, (0, -D / 2 - 0.01 * s, 0.45 * s), (0.75, 0.77, 0.80), e, rot=(math.pi / 2, 0, 0))
+    cilindro(0.17 * s, 0.02 * s, (0, -D / 2 - 0.012 * s, 0.45 * s), (0.70, 0.85, 0.95), e, rot=(math.pi / 2, 0, 0), r=0.004 * s)
+    caja((0.03 * s, 0.03 * s, 0.08 * s), (0.17 * s, -D / 2 - 0.03 * s, 0.45 * s), (0.6, 0.62, 0.66), e, r=0.01 * s)
+    caja((W - 0.02 * s, 0.01 * s, 0.1 * s), (0, -D / 2 - 0.004 * s, 0.78 * s), (0.90, 0.91, 0.93), e, r=0.004 * s)   # panel
+    caja((0.2 * s, 0.03 * s, 0.07 * s), (-0.17 * s, -D / 2 - 0.012 * s, 0.78 * s), (0.86, 0.87, 0.9), e, r=0.008 * s)  # cajetín
+    caja((0.1 * s, 0.006 * s, 0.035 * s), (0.02 * s, -D / 2 - 0.01 * s, 0.79 * s), (0.15, 0.2, 0.25), e, r=0.003 * s) # pantalla
+    m = empty((0.19 * s, -D / 2 - 0.012 * s, 0.785 * s), e); m.name = "mando"; m.rotation_mode = 'XYZ'
+    cilindro(0.045 * s, 0.03 * s, (0, -0.012 * s, 0), (0.85, 0.86, 0.9), m, rot=(math.pi / 2, 0, 0), r=0.008 * s)
+    caja((0.008 * s, 0.01 * s, 0.035 * s), (0, -0.03 * s, 0.022 * s), PAL["rojo"], m, r=0.003 * s)
+    for k, ang in enumerate((-90, -45, 0, 45, 90)):
+        a = math.radians(90 - ang)
+        bola(0.006 * s, (0.19 * s + 0.062 * s * math.cos(a), -D / 2 - 0.012 * s, 0.785 * s + 0.062 * s * math.sin(a)),
+             ((0.3, 0.55, 0.95), (0.4, 0.7, 0.95), (0.95, 0.75, 0.2), (0.95, 0.45, 0.2), PAL["rojo"])[k], e)
+    tb = empty((0, 0.02 * s, 0.45 * s), e); tb.name = "tambor"; tb.rotation_mode = 'XYZ'
+    t = medio_tubo([Vector((0, -0.18 * s, 0.45 * s)), Vector((0, 0.22 * s, 0.45 * s))], 0.21 * s, 0.012 * s, acero, eje=(1, 0, 0)); t.parent = e
+    t.name = "cuba"
+    for k in range(3):
+        a = k * 2 * math.pi / 3
+        caja((0.04 * s, 0.36 * s, 0.035 * s), (0.18 * s * math.cos(a), 0, 0.18 * s * math.sin(a)), acero, tb, rot=(0, -a, 0), r=0.01 * s)
+    for k in range(18):
+        a = math.radians(-80 + k * 10)
+        bola(0.008 * s, (0.205 * s * math.cos(a), -0.08 * s + 0.16 * s * (k % 2), 0.205 * s * math.sin(a)), (0.45, 0.47, 0.5), tb)
+    pl = empty((0, D / 2 - 0.05 * s, 0.45 * s), e); pl.name = "polea"; pl.rotation_mode = 'XYZ'
+    cilindro(0.19 * s, 0.025 * s, (0, 0, 0), (0.55, 0.57, 0.6), pl, rot=(math.pi / 2, 0, 0), r=0.005 * s)
+    for k in range(3): caja((0.36 * s, 0.03 * s, 0.025 * s), (0, -0.015 * s, 0), (0.45, 0.47, 0.5), pl, rot=(0, k * math.pi / 3, 0), r=0.006 * s)
+    for x in (-0.25, 0.25):
+        for y in (-0.24, 0.24): cilindro(0.02 * s, 0.02 * s, (x * s, y * s, -0.005 * s), (0.25, 0.25, 0.27), e)
+    return e

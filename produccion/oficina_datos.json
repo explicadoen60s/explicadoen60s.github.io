@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T08:25:38+00:00",
+ "actualizado": "2026-11-14T08:49:48+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1585.0,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "3 escenas por plantear · 0 correcciones",
-   "pendiente": 3,
+   "ahora": "2 escenas por plantear · 0 correcciones",
+   "pendiente": 2,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -31,8 +31,8 @@
    "foco": "Cortes que enseñan el interior: los vídeos con más de 0,50 rinden 1,10× lo normal, frente a 0,85× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 3 mezclas por hacer",
-   "pendiente": 3,
+   "ahora": "0 voces generándose · 2 mezclas por hacer",
+   "pendiente": 2,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.9,
@@ -43,7 +43,7 @@
    "foco": "Efectos de sonido por minuto: los vídeos con más de 19,5 /min rinden 1,19× lo normal, frente a 0,92× los demás."
   },
   "editor": {
-   "ahora": "1 en render · 0 esperando tu revisión",
+   "ahora": "2 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -55,8 +55,8 @@
    "foco": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,85× los demás."
   },
   "motion": {
-   "ahora": "3 capas de gráficos por montar",
-   "pendiente": 3,
+   "ahora": "2 capas de gráficos por montar",
+   "pendiente": 2,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.1,
@@ -422,7 +422,7 @@
    "vistas": 660563,
    "rel": 194.51,
    "inter": 0.0512,
-   "horas": 92,
+   "horas": 93,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -436,7 +436,7 @@
    "vistas": 37445,
    "rel": 9.72,
    "inter": 0.0362,
-   "horas": 33,
+   "horas": 34,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -1716,6 +1716,24 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 34 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     }
    ],
    "lavar30": [
@@ -1724,6 +1742,24 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "sfx_min",
+     "texto": "Efectos de sonido por minuto: 32 /min, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     }
    ],
    "freidoraire": [

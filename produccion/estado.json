@@ -4138,7 +4138,7 @@
     "ingenieria",
     "lo que esconde tu ciudad"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-13",
    "tendencia": "Lo que esconde Barcelona: la desaladora que le da agua",
    "reglas": {
@@ -4202,6 +4202,56 @@
      "propuesta": "Cambia «una bomba la empuja de uno a sesenta bar» por «una bomba la empuja… ¡a sesenta bar!». Cambia «Más de veinticinco veces» por «¡Más de veinticinco veces la presión de la rueda de tu coche!». Pon «…» antes de «ochenta piscinas olímpicas». En «saca hasta doscientos mil metros cúbicos al día», pon la pausa antes de la cifra y ningún efecto durante ella.",
      "aplicada": true,
      "respuesta": "Aplicado («¡hasta sesenta bar!», exclamación y «…» antes de las piscinas); los «pero/así que» son la estructura del formato C y se quedan."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Primer fotograma en acción y bucle correcto, pero tramos largos parecidos (15-21, 35-38,5 y 56-60 s), una barra oscura que cruza el plano en 62,5-64 s y la tarjeta grande tapando la bomba de 0,5 a 2,5 s.",
+     "propuesta": "Partir 15-21 s; cortar en «pídelo» a la planta entera y en «lo más pedido» al manómetro; cortar en «esa salmuera» al recuperador desde el otro lado; mover la cámara de 62,5 s; tarjeta grande a H*0,22.",
+     "aplicada": true,
+     "respuesta": "Aplicado todo salvo 15-21 s, que ya tenía cuatro planos de menos de 2,2 s; fotografía lo acepta en la segunda ronda."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Cada cifra cambia en pantalla (manómetro 1→60, 2,3 bar, 100→45 L, 55 L, energía 100→50 %, 80 piscinas, 60 hm³) y la tarjeta se encoge sin tapar nada; detalles menores: la tarjeta grande tapa la bomba al principio y «MAR MEDITERRÁNEO» es un lugar, no una pieza.",
+     "propuesta": "Opcional: tarjeta grande a H*0,22 y quitar o cambiar el rótulo del mar.",
+     "aplicada": true,
+     "respuesta": "Tarjeta subida a H*0,22; el rótulo del mar se queda porque la voz lo nombra como lo que la ciudad tiene «a un paso»."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Cada acción cae en su palabra (60 bar, 2,3 bar, 100→45 L, la mitad, 200.000, 80 piscinas), cambio de plano cada ~2 s y el cierre vuelve al plano de la bomba; dura 66,7 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "66,3 s, unos 37 efectos/min con 10 tipos y ninguno dentro de una cifra dicha; solo el whoosh de «son» roza 0,09 s el arranque de «ochenta».",
+     "propuesta": "Opcional: whoosh de «son» a T(\"son\") - 0.4.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "La bomba gira en primer plano sin la tarjeta encima, 62,5-64 s sin barra, y los cortes nuevos se ven; acepta el razonamiento de 15-21 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {
