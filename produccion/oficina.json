@@ -1779,6 +1779,25 @@
    "rol": "director",
    "tipo": "propuesta",
    "texto": "Dos guiones nuevos a propuesto con 4 de 4 ok tras dos rondas: «cinturon» (A, error: banda floja o sobre el abrigo; cifra de la DGT) y «aspiradora» (A, error: filtro y depósito llenos)."
+  },
+  {
+   "fecha": "2026-11-14T09:19:16+00:00",
+   "rol": "director",
+   "tipo": "aviso",
+   "texto": "Ley m_cotidiano con evidencia en contra: los temas con nota 9+ en «cotidiano» rinden 0,66× frente a 1,08× (15 frente a 25 vídeos). Lo que despega es el error de casa (router, repetidor), no solo lo cotidiano. Decide en el panel si sigue como ley."
+  },
+  {
+   "fecha": "2026-11-14T09:19:16+00:00",
+   "rol": "director",
+   "tipo": "mejora",
+   "texto": "Cuatro hipótesis de hoy pasan a propuesta con datos a favor: cámara a menos de 6 m en el primer segundo (1,41× frente a 1,04×), corte que enseña el interior (1,10× frente a 0,85×), más de 19,5 efectos/min (1,19× frente a 0,91×) y más de 8 etiquetas (1,16× frente a 0,86×). Las decide el usuario."
+  },
+  {
+   "fecha": "2026-11-14T09:19:16+00:00",
+   "rol": "motion",
+   "tipo": "mejora",
+   "texto": "Experimento propuesto en la jornada (9 rótulos y 6 contadores como mucho) aplicado ya en lavar30 y freidoraire; no se abre como experimento porque hay 3 activos.",
+   "estado": "aplicada"
   }
  ],
  "manual": [
@@ -2025,50 +2044,54 @@
   {
    "id": "m261114fot21",
    "texto": "Los vídeos que empiezan con la cámara a menos de 6 m rinden más que los que empiezan a 6 m o más.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "fotografia",
    "creada": "2026-11-14",
    "origen": "Jornada del 2026-11-14",
    "filtro": {
     "campo": "cam_inicio_dist",
     "menor": 6
-   }
+   },
+   "propuesta_desde": "2026-11-14"
   },
   {
    "id": "m261114fot22",
    "texto": "Los vídeos con al menos un corte que enseña el interior rinden más que los que no tienen ninguno.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "fotografia",
    "creada": "2026-11-14",
    "origen": "Jornada del 2026-11-14",
    "filtro": {
     "campo": "obj_cortes",
     "mayor": 0.5
-   }
+   },
+   "propuesta_desde": "2026-11-14"
   },
   {
    "id": "m261114son23",
    "texto": "Los vídeos con más de 19,5 efectos por minuto rinden más que los que tienen menos.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "sonido",
    "creada": "2026-11-14",
    "origen": "Jornada del 2026-11-14",
    "filtro": {
     "campo": "sfx_min",
     "mayor": 19.5
-   }
+   },
+   "propuesta_desde": "2026-11-14"
   },
   {
    "id": "m261114mot24",
    "texto": "Los vídeos con más de 8 etiquetas sobre las piezas rinden más que los que tienen 8 o menos.",
-   "estado": "hipotesis",
+   "estado": "propuesta",
    "por": "motion",
    "creada": "2026-11-14",
    "origen": "Jornada del 2026-11-14",
    "filtro": {
     "campo": "ov_etiquetas",
     "mayor": 8
-   }
+   },
+   "propuesta_desde": "2026-11-14"
   },
   {
    "id": "m261114est25",
@@ -2945,7 +2968,9 @@
    "cambio": "En los próximos 3 vídeos con título de TikTok de negación, el título de YouTube empieza siempre por «¿Cómo funciona…?» + objeto (≤70 caracteres) y la negación solo va en TikTok. Se anota en cada vídeo el par de títulos para compararlos.",
    "hipotesis": "Separar el título discutible (TikTok) del buscable (YouTube) mantiene YouTube por encima de 1,2× sin perder el gancho de comentarios de TikTok; hoy YouTube con pregunta y objeto da 4,45× y 0,65-0,68× con serie o formato B.",
    "desde": "2026-11-14",
-   "videos": [],
+   "videos": [
+    "aspiradora"
+   ],
    "estado": "activo",
    "metrica": "rel_red.youtube"
   }
@@ -3264,6 +3289,39 @@
     {
      "rol": "director",
      "texto": "Acuerdo con motion: En cada guion nuevo la cifra del juego es la única que se dice con «de X a Y»; las otras tres cifras van en frases separadas, cada una ligada a una pieza distinta."
+    }
+   ],
+   "experimentos": [
+    "x261112son",
+    "x261113soc",
+    "x261114seo"
+   ]
+  },
+  {
+   "fecha": "2026-11-14T09:19:16+00:00",
+   "resumen": "Jornada hecha con los nueve agentes, cuatro escenas entregadas con consenso (nevera rehecha, desaladora, lavar30 y freidoraire), tres guiones a propuesto en segunda ronda, uno descartado y dos nuevos (cinturón y aspiradora) con 4 de 4 ok.",
+   "aprendido": [
+    "Cámara por cortes: ningún plano atraviesa puertas ni baldas, y el último acaba en la clave del primero (nevera vuelve de rehacer con 4 de 4 ok).",
+    "La tarjeta del juego ya no desaparece tras la revelación: queda en la esquina con la cifra en verde y vuelve en «¿Te has acercado?».",
+    "Los 0,2 W del cargador no convencen sin comparación visible: cargadorvacio se descarta con 2 de 4 y vuelve al banco con la propuesta.",
+    "Un short de 2,5 millones dice que cargar el móvil toda la noche no estropea la batería: bateria100 debe matizar la carga optimizada."
+   ],
+   "cambios": [
+    {
+     "rol": "fotografia",
+     "texto": "Cámara por cortes en las cuatro escenas nuevas o rehechas y cortes reales con booleana (pared de la nevera y la lavadora, carcasa de la freidora, mar y torre de la desaladora)."
+    },
+    {
+     "rol": "motion",
+     "texto": "Tarjeta del juego resuelta en la esquina y 9 rótulos por escena."
+    },
+    {
+     "rol": "sonido",
+     "texto": "Sin tictac sobre la cifra revelada: pop en la pregunta y win justo después."
+    },
+    {
+     "rol": "director",
+     "texto": "Modelo nuevo «lavadora» en modelos.py y dos guiones A de error de casa (cinturón, aspiradora)."
     }
    ],
    "experimentos": [

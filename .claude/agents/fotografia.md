@@ -57,7 +57,7 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 
 ## Lo que he aprendido
 <!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
-- Cada cambio de plano debe documentarse (tiempo, pieza en primer plano, esquina libre) para que Gráficos y Sonido coloquen pastillas y whooshes sin tapar el mecanismo. (2026-11-12)
+- Cámara por cortes (cada plano empuja un 8 % y cambia de golpe, el último acaba en la clave del primero): nunca atraviesa puertas ni baldas, que era lo que devolvió nevera de rehacer con 0 de 3. Si hace falta un viaje, que pase solo por aire libre. (2026-11-14, nevera)
 - Arranque entre 2 y 6 m con lente larga: menos de 7,5 m rinde 1,44× frente a 1,04×, pero paraguas a 0,5 m hizo 0,18×, así que tampoco vale pegar la cámara si la pieza no se reconoce. (2026-11-13)
 - Con cam_cada entre 1,5 y 2,0 s (las escenas en cola) cada plano dura menos de 2 s: las pastillas y los rótulos deben entrar en los primeros 0,5 s o se pierden en el plano siguiente. (2026-11-13)
 - Dejar 0,5 s de plano estable antes y después de cada cifra dicha en voz evita que el whoosh pise la palabra sin subir cam_cada por encima de 2,8 s. (2026-11-13)
