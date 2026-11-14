@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mié 11/11 | 16:00 | tiktok | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | 📲 en tu bandeja de TikTok |
-| mié 11/11 | 16:00 | youtube | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://youtube.com/shorts/jKlLX1rjuJ0) |
 | mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://www.instagram.com/reel/DfnDFSTgERI/) |
 | mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | 📲 en tu bandeja de TikTok |
