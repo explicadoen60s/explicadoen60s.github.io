@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T09:01:34+00:00",
+ "actualizado": "2026-11-14T09:05:12+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1585.0,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "1 escenas por plantear · 0 correcciones",
-   "pendiente": 1,
+   "ahora": "Al día: sin escenas pendientes",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -31,8 +31,8 @@
    "foco": "Cortes que enseñan el interior: los vídeos con más de 0,50 rinden 1,10× lo normal, frente a 0,85× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 1 mezclas por hacer",
-   "pendiente": 1,
+   "ahora": "0 voces generándose · 0 mezclas por hacer",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.9,
@@ -43,7 +43,7 @@
    "foco": "Efectos de sonido por minuto: los vídeos con más de 19,5 /min rinden 1,19× lo normal, frente a 0,92× los demás."
   },
   "editor": {
-   "ahora": "2 en render · 1 esperando tu revisión",
+   "ahora": "3 en render · 1 esperando tu revisión",
    "pendiente": 1,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -55,8 +55,8 @@
    "foco": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,85× los demás."
   },
   "motion": {
-   "ahora": "1 capas de gráficos por montar",
-   "pendiente": 1,
+   "ahora": "Al día",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.1,
@@ -1689,7 +1689,7 @@
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "sfx_min",
-     "texto": "Efectos de sonido por minuto: 36 /min, en el lado bueno. Mantenlo."
+     "texto": "Efectos de sonido por minuto: 34 /min, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",

@@ -25,7 +25,7 @@ def tarjeta_resuelta(C, ctx, t):
                      alpha=min(1.0, (fin - t) / 0.3))
 
 def overlay(ctx, t, A, C):
-    C.cifra_juego(ctx, t, 200, "°C DE AIRE", T("a cuántos grados"), T("el aire sube"), T("el aire sube") + 1.45, grande=(C.W / 2, C.H * 0.22))
+    C.cifra_juego(ctx, t, 200, "°C DE AIRE", T("a cuántos grados"), T("el aire sube"), T("el aire sube") + 1.45, grande=(C.W / 2, C.H * 0.22), t_mini=1.5)
     tarjeta_resuelta(C, ctx, t)
     # rótulos de pieza (uno cada vez, nunca a la vez que una pastilla)
     C.rotulo(ctx, t, "FREIDORA DE AIRE", T("tu freidora no") + 0.2, T("es un horno"))
@@ -38,10 +38,10 @@ def overlay(ctx, t, A, C):
     C.rotulo(ctx, t, "PATATA", T("cada patata") + 0.1, T("las patatas se tapan") - 0.2)
     C.rotulo(ctx, t, "VAPOR", T("vapor"), T("y aquí viene") - 0.1)
     # cifras (con la del juego, 5 contadores)
-    pastilla(C, ctx, t, 1700, "vatios", T("mil setecientos") - 0.1, T("un ventilador") - 0.25, A, "res", desde=0, dur=1.0)
-    pastilla(C, ctx, t, 15, "min horno", T("de diez") - 0.1, T("tu freidora", 3) - 0.25, A, "horno", desde=10, dur=1.6)
-    pastilla(C, ctx, t, 5, "min freidora", T("de tres") - 0.1, T("y si copias") - 0.25, A, "display", desde=3, dur=0.8)
-    pastilla(C, ctx, t, -20, "°C", T("quince o") - 0.1, T("qué haces") - 0.25, A, "mando", desde=0, dur=1.2)
+    pastilla(C, ctx, t, 1700, "vatios", T("mil setecientos") - 0.1, T("un ventilador") - 0.25, A, "res", dy=60, desde=0, dur=1.0, size=78)
+    pastilla(C, ctx, t, 15, "min horno", T("de diez") - 0.1, T("tu freidora", 3) - 0.25, A, "horno", desde=10, dur=1.6, size=80)
+    pastilla(C, ctx, t, 5, "min freidora", T("tu freidora", 3) + 0.2, T("y si copias") - 0.25, A, "display", desde=3, dur=1.2, size=80)
+    pastilla(C, ctx, t, -20, "°C", T("quince o") - 0.1, T("qué haces") - 0.25, A, "mando", desde=0, dur=1.2, size=78)
     # textos cortos y chispas
     p = win(t, T("pon una sola") + 0.2, T("y sacude") - 0.1)
     if p: x, y = A("cesto"); C.callout(ctx, "1 CAPA", clampx(x), clampy(y - 120, 560), p, size=72)
@@ -52,7 +52,7 @@ def overlay(ctx, t, A, C):
 def sfx_events(C):
     # sin efectos dentro de las cifras dichas («mil setecientos vatios», «de veinte a doscientos», «de diez a quince», «de tres a cinco»,
     # «quince o veinte»): van al inicio de cada frase o en las pausas
-    E = [(0.0, C.s_thud(), 0.45), (0.05, C.s_whoosh(), 0.35), (0.1, C.s_buzz(2.2), 0.12), (1.35, C.s_whoosh(), 0.25),
+    E = [(0.0, C.s_thud(), 0.45), (1.35, C.s_whoosh(), 0.25),
          (T("escribe") - 0.25, C.s_whoosh(), 0.3), (T("la llenas") - 0.2, C.s_pop(), 0.3), (T("y sale blanda"), C.s_fail(), 0.3),
          (T("tu freidora no") - 0.2, C.s_thud(), 0.4), (T("es un horno") - 0.2, C.s_whoosh(), 0.3), (T("turbo"), C.s_buzz(0.8), 0.15),
          (T("arriba", 2) - 0.2, C.s_whoosh(), 0.3), (T("calienta"), C.s_buzz(1.0), 0.15), (T("un ventilador") - 0.2, C.s_whoosh(), 0.35),
@@ -60,7 +60,7 @@ def sfx_events(C):
          (T("por eso se dora") - 0.2, C.s_tick(), 0.4), (T("crujiente", fin=True), C.s_win(), 0.25), (T("por eso el cesto") - 0.2, C.s_clank(), 0.35),
          (T("pero llenas") - 0.2, C.s_pop(), 0.3), (T("cada patata") - 0.2, C.s_whoosh(), 0.3), (T("las patatas se tapan") - 0.2, C.s_thud(), 0.35),
          (T("así que el aire") - 0.2, C.s_fail(), 0.3), (T("se cuecen") - 0.2, C.s_buzz(1.2), 0.12), (T("y aquí viene") - 0.25, C.s_whoosh(), 0.35),
-         (T("tu horno") - 0.25, C.s_whoosh(), 0.3), (T("tu freidora", 3) - 0.25, C.s_pop(), 0.3), (T("y si copias") - 0.25, C.s_whoosh(), 0.3),
+         (T("tu horno") - 0.1, C.s_whoosh(), 0.3), (T("tu freidora", 3) - 0.25, C.s_pop(), 0.3), (T("y si copias") - 0.15, C.s_whoosh(), 0.3),
          (T("baja") - 0.2, C.s_clank(), 0.35), (T("qué haces") - 0.2, C.s_whoosh(), 0.35), (T("pon una sola") - 0.2, C.s_pop(), 0.3),
          (T("y sacude") - 0.2, C.s_clank(), 0.35), (T("cocción", fin=True), C.s_bleep(520), 0.2), (T("te has acercado") - 0.25, C.s_whoosh(), 0.35),
          (T("y si quieres") - 0.25, C.s_whoosh(), 0.3), (T("lo más pedido") - 0.25, C.s_pop(), 0.3), (T("sígueme") - 0.25, C.s_whoosh(), 0.4),
