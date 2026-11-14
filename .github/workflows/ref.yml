@@ -21,7 +21,9 @@ jobs:
           python3 - <<'PY'
           from faster_whisper import WhisperModel
           m = WhisperModel("small", compute_type="int8")
-          segs, info = m.transcribe("a.wav")
+          import wave, numpy as np
+          w = wave.open("a.wav"); a = np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype("float32") / 32768
+          segs, info = m.transcribe(a)
           open("out/transcripcion.txt","w").write(f"idioma: {info.language}\n" + "\n".join(f"[{s.start:6.1f}] {s.text}" for s in segs))
           PY
           ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" >> out/info.txt
