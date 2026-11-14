@@ -40,7 +40,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://youtube.com/shorts/e2_kSOhGnTA) |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://www.instagram.com/reel/DfusE-NE8Vs/) |
 | sáb 14/11 | 18:00 | tiktok | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | 📲 en tu bandeja de TikTok |
-| sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | ⏳ pendiente |
+| sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
 | dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ⏳ pendiente |
 | dom 15/11 | 12:00 | youtube | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
