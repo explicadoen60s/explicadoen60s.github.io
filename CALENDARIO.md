@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| mié 11/11 | 18:00 | instagram | ¿Y si construyes un tanque de tormentas? 🌧️ A dónde va la ll | [✅ publicado](https://www.instagram.com/reel/DfnDFSTgERI/) |
-| mié 11/11 | 18:00 | tiktok | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | 📲 en tu bandeja de TikTok |
 | mié 11/11 | 21:00 | tiktok | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 10:00 | instagram | Si tuvieras que inventar la tostadora… 🍞 ¿cómo sabe cuándo s | [✅ publicado](https://www.instagram.com/reel/DfowLLaCRxJ/) |
 | jue 12/11 | 10:00 | tiktok | Tu olla exprés hierve el agua a 120 °C 🍲 ¿Por qué silba y no | 📲 en tu bandeja de TikTok |
@@ -40,8 +38,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://youtube.com/shorts/e2_kSOhGnTA) |
-| sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
-| sáb 14/11 | 18:00 | tiktok | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | ⏳ pendiente |
+| sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://www.instagram.com/reel/DfusE-NE8Vs/) |
+| sáb 14/11 | 18:00 | tiktok | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | ⏳ pendiente |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
 | dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ⏳ pendiente |

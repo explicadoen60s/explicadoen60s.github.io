@@ -2873,9 +2873,14 @@
     "privacidad",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18213337765368553",
+    "url": "https://www.instagram.com/reel/DfusE-NE8Vs/"
+   },
+   "publicado": "2026-11-14T16:59:21.794102+00:00"
   },
   {
    "id": "linterna-tiktok",
@@ -2891,9 +2896,15 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708072610315257878",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-14T17:02:08.535820+00:00"
   },
   {
    "id": "aerogenerador-tiktok",
