@@ -82,8 +82,12 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
 | mié 18/11 | 18:00 | instagram | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
 | mié 18/11 | 18:00 | tiktok | ¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2 | ⏳ pendiente |
+| mié 18/11 | 21:00 | tiktok | ¿Cuántos grados más hace en la puerta de tu nevera? 🥛 La lec | ⏳ pendiente |
 | jue 19/11 | 10:00 | instagram | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
+| jue 19/11 | 10:00 | tiktok | ¿Cuánta agua bebible hace la desaladora del Llobregat? 💧 | ⏳ pendiente |
 | jue 19/11 | 12:00 | youtube | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
+| jue 19/11 | 13:00 | tiktok | ¿Cuánta luz gasta tu lavadora solo calentando agua? 🌡️ | ⏳ pendiente |
+| jue 19/11 | 16:00 | tiktok | ¿A cuántos grados sopla tu freidora de aire? Y no, no fríe c | ⏳ pendiente |
 | jue 19/11 | 16:00 | youtube | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
 | jue 19/11 | 18:00 | instagram | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
 | vie 20/11 | 10:00 | instagram | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | ⏳ pendiente |
@@ -162,3 +166,11 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 08/12 | 12:00 | youtube | Cómo funciona el microondas: ¿por qué sale frío por dentro? | ⏳ pendiente |
 | mar 08/12 | 16:00 | youtube | Wifi 2,4 o 5 GHz: cuál es mejor y cómo funciona | ⏳ pendiente |
 | mar 08/12 | 18:00 | instagram | Wifi de 5 GHz o 2,4 GHz: ¿cuál usar? 📶 | ⏳ pendiente |
+| mié 09/12 | 10:00 | instagram | ¿Dónde guardar la leche en la nevera? 🥛 | ⏳ pendiente |
+| mié 09/12 | 12:00 | youtube | Cómo funciona la nevera: por qué la leche no va en la puerta | ⏳ pendiente |
+| mié 09/12 | 16:00 | youtube | Cómo funciona una desaladora: la del Llobregat, Barcelona 💧 | ⏳ pendiente |
+| mié 09/12 | 18:00 | instagram | Desaladora del Llobregat: así convierte el mar en agua potab | ⏳ pendiente |
+| jue 10/12 | 10:00 | instagram | Lavadora a 60 grados: cuánta luz gasta de verdad | ⏳ pendiente |
+| jue 10/12 | 12:00 | youtube | ¿Lavar a 60 grados gasta más? Cómo funciona la lavadora 🌡️ | ⏳ pendiente |
+| jue 10/12 | 16:00 | youtube | Cómo funciona una freidora de aire (y por qué sale blanda) 🍟 | ⏳ pendiente |
+| jue 10/12 | 18:00 | instagram | Freidora de aire: cómo funciona y por qué te sale blanda | ⏳ pendiente |
