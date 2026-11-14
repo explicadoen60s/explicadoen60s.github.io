@@ -181,10 +181,22 @@ class TikTok:
             return tok
         return {**tok, **self._token({"grant_type": "refresh_token", "refresh_token": tok["refresh_token"]})}
 
+    CUENTA = "explicadoen60s"   # la única cuenta a la que se sube; nunca a cuentas personales (the.nikooxx…)
+
+    def comprobar_cuenta(self, tok):
+        """Antes de subir nada, comprueba que la conexión es de @explicadoen60s. Si es otra cuenta, no sube."""
+        u = _ok(requests.get("https://open.tiktokapis.com/v2/user/info/", headers={"Authorization": f"Bearer {tok['access_token']}"},
+                             params={"fields": "display_name"}, timeout=60)).json()["data"]["user"]
+        nombre = (u.get("display_name") or "").strip().lstrip("@").lower()
+        if nombre != self.CUENTA:
+            raise RuntimeError(f"TikTok está conectado a otra cuenta («{nombre}»), no a {self.CUENTA}. No subo nada: "
+                               f"vuelve a conectar TikTok desde el panel con la sesión de {self.CUENTA}.")
+
     def publicar(self, post, tok):
+        self.comprobar_cuenta(tok)
         ruta = descargar_video(post["video"])
         aviso_web = None
-        if tiktok_web.hay_sesion():
+        if False and tiktok_web.hay_sesion():   # subida con cookies del navegador desactivada: podía ser otra cuenta
             try:
                 return tiktok_web.publicar_web(ruta, texto_completo(post))
             except tiktok_web.TrasPulsar:
