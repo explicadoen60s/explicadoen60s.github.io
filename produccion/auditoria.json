@@ -240,6 +240,18 @@
    "comentario_en_escena": false,
    "sub_frase": true
   },
+  "aspiradora": {
+   "huella": "d6080be38dd93044",
+   "duracion": 75.1,
+   "voz_ritmo": 3.62,
+   "voz_silencio": 21.7,
+   "voz_pausas_min": 29.6,
+   "voz_pausa_max": 0.79,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.3,
+   "voz_expresividad": 2.7,
+   "voz_gancho": -0.7
+  },
   "auriculares": {
    "huella": "7ffb79a85df211ec",
    "duracion": 70.1,
@@ -352,6 +364,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": true
+  },
+  "bateria100": {
+   "huella": "3531f2e678b9cc46",
+   "duracion": 74.8,
+   "voz_ritmo": 3.51,
+   "voz_silencio": 21.1,
+   "voz_pausas_min": 28.1,
+   "voz_pausa_max": 0.8,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 3.4,
+   "voz_gancho": 1.0
   },
   "bcnpluvial": {
    "huella": "d0ca477527a3d04b",
@@ -799,6 +823,18 @@
    "comentario_en_escena": false,
    "sub_frase": false,
    "sub_centro": true
+  },
+  "cinturon": {
+   "huella": "41441ec96717f9f5",
+   "duracion": 67.5,
+   "voz_ritmo": 3.89,
+   "voz_silencio": 19.5,
+   "voz_pausas_min": 30.2,
+   "voz_pausa_max": 0.58,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 2.7,
+   "voz_gancho": -0.8
   },
   "cisterna": {
    "huella": "c2c983ff287f0236",
@@ -2557,6 +2593,18 @@
    "comentario_en_escena": false,
    "sub_frase": true
   },
+  "transbordador": {
+   "huella": "57fddbed749b0d82",
+   "duracion": 70.0,
+   "voz_ritmo": 3.66,
+   "voz_silencio": 16.8,
+   "voz_pausas_min": 24.0,
+   "voz_pausa_max": 0.58,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.2,
+   "voz_expresividad": 2.8,
+   "voz_gancho": 1.1
+  },
   "tunel": {
    "huella": "3128a09f85adb6cd",
    "duracion": 71.9,
@@ -2583,6 +2631,18 @@
    "juego_en_escena": false,
    "comentario_en_escena": false,
    "sub_frase": false
+  },
+  "tunelave": {
+   "huella": "a2d73c4f2c41a87f",
+   "duracion": 71.3,
+   "voz_ritmo": 3.51,
+   "voz_silencio": 16.9,
+   "voz_pausas_min": 25.3,
+   "voz_pausa_max": 0.88,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 2.6,
+   "voz_gancho": 0.6
   },
   "turia": {
    "huella": "800811d9d44a485f",
