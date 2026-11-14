@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T09:05:12+00:00",
+ "actualizado": "2026-11-14T09:05:50+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1585.0,
@@ -467,38 +467,6 @@
   }
  ],
  "compuertas": {
-  "lavar30": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "205 palabras (≈60 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "24 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
   "freidoraire": [
    {
     "nivel": "ok",
@@ -1621,32 +1589,6 @@
     }
    ],
    "nevera": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_min",
-     "texto": "Efectos de sonido por minuto: 32 /min, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
-    }
-   ],
-   "lavar30": [
     {
      "rol": "editor",
      "tipo": "mejorar",
