@@ -2826,9 +2826,15 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708040921019041814",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-14T14:59:50.660087+00:00"
   },
   {
    "id": "whatsapp-youtube",
@@ -2844,9 +2850,14 @@
     "privacidad",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "e2_kSOhGnTA",
+    "url": "https://youtube.com/shorts/e2_kSOhGnTA"
+   },
+   "publicado": "2026-11-14T14:59:53.423934+00:00"
   },
   {
    "id": "whatsapp-instagram",
