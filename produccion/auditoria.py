@@ -12,7 +12,7 @@ import hashlib, json, math, os, re, subprocess, sys
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ESC = os.path.join(RAIZ, "produccion", "escenas")
 SALIDA = os.path.join(RAIZ, "produccion", "auditoria.json")
-VERSION = 5  # súbela si cambian las medidas: obliga a medir todo otra vez
+VERSION = 6  # súbela si cambian las medidas: obliga a medir todo otra vez
 
 # Qué mide cada cosa, a qué puesto pertenece y en qué sentido se espera que ayude.
 # «mejor»: "mas" | "menos" | None (que lo decidan los datos).
@@ -146,7 +146,7 @@ def medir_escena(src, dur):
         "cam_lente_max": max(lentes),
         "obj_piezas": len(re.findall(r"\b(box|cyl|sph|torus|rounded_slab|text3d|bar_obj|bx|caja|cilindro|bola|casa|edificio|coche|persona|arbol|arbusto|planta|sofa|cama|mesita|tele|inodoro|lavabo|cocina|olla|farola|calle)\(", build or src)),
         "obj_animaciones": len(re.findall(r"\b(keyed|seg|mix)\(", pose or src)),
-        "obj_cortes": len(re.findall(r"BOOLEAN", src)),
+        "obj_cortes": len(re.findall(r"BOOLEAN|\bcortar\(|\bmedio_tubo\(", src)),
         "estilo_dia": "entorno_claro(" in src,
         "obj_flechas": len(re.findall(r"\bflecha3d\(", src)),
     }

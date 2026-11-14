@@ -4643,6 +4643,60 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Fotograma 1 correcto: móvil enorme, cable y batería en primer plano, y el bucle cierra con el mismo plano (67-70,5 s). Pero en 9,0-9,5 s la cámara pasa detrás de la lámpara: la pantalla del móvil queda tapada o fuera de campo mientras suena 'Madrugada'. También hay planos muy lejanos en 5,0 y 14-15,5 s donde el móvil es un punto.",
+     "propuesta": "Mueve la clave de 9,0-9,5 s a x/y de la mesilla por delante de la lámpara (la cámara en y menor que la lámpara) o sube el target para que el móvil quede en el tercio central. Acerca las claves de 5,0 y 14,0-15,5 s a menos de 3 m del móvil o de la batería, con lente larga.",
+     "aplicada": true,
+     "respuesta": "Aplicado: plano del móvil sostenido hasta «y se queda» y planos de 5 y 14 s acercados."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Contadores visibles y distintos: 23:00/02:00, noches 82→365, % 99→96, °C 51→60, 73→63 %, 83 % máx. Rótulo LITIO y LÍMITE DE CARGA al nombrar. La tarjeta del juego cae en hueco libre. Solo un detalle: en 2-3 s la tarjeta grande tapa el móvil y las pastillas 23:00/02:00 son pequeñas.",
+     "propuesta": ""
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Enchufas (6,5 s), 23:00, 02:00, el contador de 365 noches, el rótulo LITIO y LÍMITE DE CARGA caen en su palabra. Cambia algo cada 2 s y el último plano es el móvil enchufado en primer plano, igual que el primero.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Dos efectos caen encima de una cifra dicha: el tick de «las dos» y el win de «ochenta por ciento». El whoosh de «con cuatro» roza «cuatro voltios». Variedad 9 y 24,8 efectos/min están bien.",
+     "propuesta": "Tick a T(\"las dos\") - 0.25, win a T(\"ochenta por\") + 1.2, whoosh a T(\"con cuatro\") - 0.35. Si se puede, recorta la cola final a unos 2 s.",
+     "aplicada": true,
+     "respuesta": "Aplicado: tick, win y whoosh movidos fuera de las cifras dichas."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "El móvil ya se ve sostenido de 9 a 10,5 s. A 11,0 s la lámpara llena casi todo el plano (cámara casi dentro de ella) y el móvil queda cortado por la izquierda.",
+     "propuesta": "Acorta el viaje a la celda: en la clave de 10,5 s aparta la cámara de la lámpara o haz corte directo de 10,5 s a la celda en 11,0 s con el target ya en la celda. Así no queda ningún fotograma con la lámpara tapando el plano.",
+     "aplicada": true,
+     "respuesta": "Aplicado después de la votación: el viaje a la celda pasa de 0,45 s a 0,12 s, casi un corte, sin fotograma tapado por la lámpara."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "El tick cae en 8,2 s, justo antes de «las dos». El win en 60,3 s queda después de «ochenta por ciento», así que no pisa la cifra. El whoosh va antes de «cuatro». El vídeo dura 70,9 s, dentro de lo previsto.",
+     "propuesta": ""
     }
    ],
    "seo": {
@@ -4803,6 +4857,78 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Arranque excelente: cabeza de la tuneladora en primer plano y girando, y el último plano vuelve a ella (65-69 s). Hay dos tramos sin sujeto: 9,5 s es solo pared marrón de tierra, y 11,5-12,0 s es medio cielo y medio tierra sin el tren ni el túnel. La cámara va por fuera del corte y el interior se pierde.",
+     "propuesta": "En 9,5 s, desplaza el target 0,5-1 m hacia el eje del túnel (y por delante de la cara del corte) para que el tren siga dentro del encuadre. Entre 11,5 y 12,0 s sube el target hacia las calles o los túneles para que no salga solo tierra y cielo. Después de moverlo, comprueba que el viaje 11,0-12,5 s sigue por aire libre.",
+     "aplicada": true,
+     "respuesta": "Aplicado: plano de Atocha sostenido hasta 9,6 s y target de «pero no se» subido a las calles."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Hay buenas pastillas (338 M€, 52→120 km/h) y rótulos (TUNELADORA, METRO, COLECTORES). Pero entre 0 y 40 s no cambia ninguna cifra: la mayor parte del vídeo es solo cámara y subtítulos. Además la tarjeta 7,3 se solapa con el rótulo GALICIA-ANDALUCÍA a 54,5 s, la flecha de GALICIA→ANDALUCÍA sale como cuadrado vacío y «JULIO 2022» tapa los edificios.",
+     "propuesta": "1) Cambia la flecha de GALICIA → ANDALUCÍA por «–». 2) Separa el rótulo GALICIA-ANDALUCÍA de la tarjeta de 54,5 s. 3) Añade 2 pastillas en el primer tercio: «km de túnel» contando 0→7,3 sobre la tuneladora hacia 3-6 s, y «m de profundidad» sobre el túnel hacia 7-9 s. 4) Sube «JULIO 2022» a H*0.18 para no tapar los edificios.",
+     "aplicada": true,
+     "respuesta": "Aplicados 1, 2 y 4; rechazado 3: una pastilla 0→7,3 km en 3-6 s revelaría la cifra del juego y la voz no dice cifras en ese tramo."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Los callouts ATOCHA y CHAMARTÍN salen 1,2-1,5 s antes que la voz. El final enlaza bien con la tuneladora del primer plano.",
+     "propuesta": "En tunelave_ov.py cambia la ventana de ATOCHA a win(t, T('a atocha'), T('los del norte') - 0.1) y la de CHAMARTÍN a win(t, T('a chamartín'), T('pero no se') + 0.6).",
+     "aplicada": true,
+     "respuesta": "Aplicado tal cual: ATOCHA y CHAMARTÍN entran con su palabra."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Variedad 10, 28,6 efectos/min y 71,3 s. El buzz de «y los trenes» queda debajo de «ciento veinte kilómetros por hora» y los tres pops de «hay metro / colectores / cimientos» se pisan.",
+     "propuesta": "Quita el buzz de T(\"y los trenes\") + 0.4 y el pop de «colectores».",
+     "aplicada": true,
+     "respuesta": "Aplicado: fuera el buzz de «y los trenes» y el pop de «colectores»."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "El tren de Atocha queda dentro del encuadre en 9,5 s. A 15-16,5 s se ven calles y túneles con el target en z=-4. El arranque es primer plano de la tuneladora en movimiento. Los fotogramas con mucho terreno (6,5-7,0 s y 11,5-12,0 s) siempre llevan túnel o tren a la vista y duran menos de 1 s.",
+     "propuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Aplicados los tres cambios que pedí (GALICIA – ANDALUCÍA con guion, rótulo retirado antes de la tarjeta, JULIO 2022 fijo a H*0.22). Acepto el rechazo de la pastilla 0→7,3 km: revelaría la cifra del juego antes de los 15 s y la voz no dice ninguna cifra en ese tramo. Los 55 m (22-24 s) y los 18 pisos (24-27 s) ya cuentan en pantalla, y hay 4 pastillas más más etiquetas.",
+     "propuesta": ""
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Ahora cuadra con la voz. ATOCHA aparece en el fotograma de 9,5 s, justo con la palabra «Atocha», sobre el tren del sur y con el plano sostenido. CHAMARTÍN entra a los 11,0 s, cuando suena «a Chamartín», y se mantiene hasta ~12,5 s. El único defecto es que ATOCHA dura solo unos 0,4-0,5 s antes de que cambie el plano; es corto pero legible.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Ya no están el buzz de «y los trenes» ni el pop de «colectores». Los clank van en el final de «Atocha» y de «Chamartín», no sobre ninguna cifra. Dura 68,7 s.",
+     "propuesta": ""
     }
    ],
    "seo": {
@@ -5142,6 +5268,60 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Fotograma 1 en acción (cables y góndola colgando, primer plano). La góndola del cierre (63-67,5 s) empata bien con el inicio. Pero de 10,0 a 15,0 s (unos 5 s) hay un plano general casi quieto con el puente diminuto en el centro y todo el cielo vacío. Rompe cam_cada y la regla del objeto en primer plano. También hay planos lejanos de agua sola en 7,0-7,5 y 17,0-18,0 s.",
+     "propuesta": "Parte el tramo 10,0-15,0 s en claves cada ~2 s: 10,0 s plano medio del puente a unos 20 m, 12,0 s empuje al pie de la torre roja, 14,0 s hacia la rampa o la góndola. Recoloca el target para que el puente ocupe la banda central (y 40-60 %) y no el hueco azul. En 7,0 y 17,0 s lleva la cámara a la góndola o a un barco en lugar de al agua sola.",
+     "aplicada": true,
+     "respuesta": "Aplicado: tramo 10-15 s partido en tres planos, barco en el agua desde 7,6 s y Portugalete en 16,7 s."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Cifras en pantalla: 3→6 coches, 166→200 pasajeros, 1,2→1,5 min, 1893 y UNESCO 2006; rótulos BARQUILLA y CABLES DE ACERO en el momento justo. La tarjeta 45 m se revela bien sin tapar el puente.",
+     "propuesta": ""
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "PORTUGALETE y GETXO, 1893, TORRES, la viga y la barquilla van con su frase. El plano abierto de 10-14,5 s sí cambia: aparecen las torres, un barco y las rampas. El último plano es la barquilla, como el primero.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Duración 70,1 s, variedad 10, 29,1 efectos/min. El coin de «en dos mil» suena sobre una cifra dicha, el pop de «en mil» roza «mil ochocientos» y el segundo clank de «levanta» duplica un efecto.",
+     "propuesta": "Coin a T(\"la unesco\"), pop a T(\"en mil\") - 0.25, quita el segundo clank de «levanta».",
+     "aplicada": true,
+     "respuesta": "Aplicado: coin en «la unesco», pop adelantado y un solo clank en «levanta»."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "Sigue habiendo planos sin objeto. A 5,5 s solo se ve agua con los rótulos. De 9,5 a 11,0 s el barco queda como un punto, y entre cielo y agua el puente fantasma se ve cortado por arriba. A 12,5 s solo se ve el pilar.",
+     "propuesta": "A 5,5 s apunta el target a la orilla de Getxo en lugar de al agua. En 9,5-11,0 s sube la cámara 2-3 m y acércala al barco, con el puente fantasma entero encima en 10,5 s. En 12,5 s abre el plano hasta que se vean la base y la cima del pilar con la orilla, o pasa ya al plano de rampas.",
+     "aplicada": true,
+     "respuesta": "Aplicado en parte después de la votación: el plano del pilar fantasma se abre (base, cima y orilla); el resto se revisará en el vídeo renderizado."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "El coin va en «la unesco», el pop en «en mil» - 0,25 y solo queda un clank en «levanta». Cada efecto cae en su idea y ninguno pisa una cifra dicha. Dura 67,6 s.",
+     "propuesta": ""
     }
    ],
    "seo": {
@@ -5227,7 +5407,7 @@
     "https://www.race.es/limitador-carga-cinturon-de-seguridad",
     "https://blog.myairbags.com/what-is-a-seat-belt-pretensioner-complete-guide-and-repair"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-14",
    "ronda": 2,
    "revisiones": [
@@ -5300,6 +5480,58 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Fotograma 1: pierna y carrete dentado en primer plano y girando, que se entiende sin texto. El ritmo cambia cada ~2 s entre el plano del coche y el primer plano del mecanismo, y el péndulo y el gancho se ven dentro del encuadre. El final repite el plano del carrete y el cinturón, que cierra el bucle con el inicio. Sin atravesar objetos.",
+     "propuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Mecanismo muy claro con rótulos CARRETE, PÉNDULO, GANCHO, LIMITADOR y pastillas 0,09→0,45 g y 7 cm. Problemas: en 1,5 s la tarjeta aparece diminuta y luego salta grande a 2 s, en 40-42 s «LIMITADOR» sale encima del subtítulo «Limitador», la pastilla de 0,45 g queda recortada por el borde derecho a 18-19 s y la cifra 3.000 kg no se ve construirse antes de la revelación.",
+     "propuesta": "1) Fija el arranque de la tarjeta grande en 0,5 s con grande=(W/2, H*0.28). 2) Retira el rótulo LIMITADOR o desplázalo a H*0.66. 3) Mueve la pastilla 0,45 g dentro de la zona segura. 4) Añade una pastilla «kg» que cuente 0→3.000 en el golpe, sobre el coche, justo antes de la revelación.",
+     "aplicada": true,
+     "respuesta": "Aplicado 3; rechazados 1 (la tarjeta sale con la pregunta), 2 (el rótulo de pieza es obligatorio) y 4 (contar a 3.000 antes destaparía el juego)."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "CARRETE, PÉNDULO y GANCHO caen en su palabra. La pastilla de g sube de 0,09 a 0,45 mientras la voz dice 'cero coma cuarenta y cinco'. El último plano es el carrete, igual que el primero.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "En «a cincuenta por hora / tres mil kilos» se apilan thud, clank y el pop de sfx_cifra en menos de 0,3 s y tapan el arranque de la cifra. voz_gancho -0,8 dB.",
+     "propuesta": "Quita el clank de T(\"a cincuenta\", fin=True) + 0.2, baja el thud a 0,5 en T(\"a cincuenta\", fin=True) + 0.05 y sube el whoosh de t=0 a 0,5.",
+     "aplicada": true,
+     "respuesta": "Aplicado: sin clank en el choque, thud a 0,5 y whoosh inicial a 0,5; la voz no se regenera en esta pasada."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "La pastilla de 0,45 g ya está en la zona segura. Acepto los rechazos: la tarjeta a 1,48 s es lo que manda el juego de la cifra, el rótulo de pieza es obligatorio en el estilo maqueta de día, y una pastilla de 3.000 kg antes de la revelación destaparía la cifra. Siguen cambiando en pantalla 0,45 g, 30 milésimas, 50 km/h y 7 cm de correa, más la flecha roja que crece y la tarjeta que cuenta.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Sin el clank del choque, el thud va en 34,5 s, cuando acaba «a cincuenta» y antes de «por hora», así que no tapa la cifra. La voz no se regenera, y los 65,5 s de duración están dentro del rango.",
+     "propuesta": ""
     }
    ],
    "seo": {
@@ -5436,6 +5668,48 @@
      "propuesta": "",
      "aplicada": false,
      "respuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Fotograma 1 en acción: aspas girando y motor en primer plano, con partículas. El corte enseña motor, aspas, filtro y salida, y la cámara alterna maqueta entera y primeros planos cada ~2 s. El cierre vuelve a las aspas, como el inicio. La tarjeta del juego queda arriba y no tapa el mecanismo, pero está algo cerca de la zona de 150 px en 3,0-5,5 s; es admisible.",
+     "propuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Contadores variados y bien colocados: rpm 13.324→30.000, -9→-14 % de aire, 44→50 % lleno; rótulos ASPAS, MOTOR, VENTILADOR, SALIDA, DEPÓSITO en su palabra y flechas rojas de salida. La tarjeta del juego está en la esquina sin tapar el motor.",
+     "propuesta": ""
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "ASPAS y VENTILADOR caen en su palabra. Las rpm suben de 13.324 a 30.000 con la voz. Hay cortes cada ~1-2 s y el final vuelve al primer plano de las aspas.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Ningún efecto pisa una cifra, variedad 9 y 24 efectos/min. El problema es la duración: 75,1 s con la voz acabando en 71,15 s (cola de unos 4 s). voz_gancho -0,7 dB.",
+     "propuesta": "No toques los efectos. Recorta la cola final sin voz hasta unos 73 s o menos.",
+     "aplicada": false,
+     "respuesta": "No hay cola: el montaje dura dur+0,4 s (71,5 s); los 75 s son del mp3 en bruto."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Acepto la explicación del director. La última palabra acaba en 71,15 s, así que la «cola de 75 s» viene del mp3 en bruto. Los efectos están repartidos y ninguno cae sobre una cifra.",
+     "propuesta": ""
     }
    ],
    "seo": {

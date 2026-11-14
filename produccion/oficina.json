@@ -1837,6 +1837,206 @@
    "tipo": "aviso",
    "video": "crucero",
    "texto": "Crucero (formato D, simulación sin voz) entregado a render con 4 de 4 en guion y 3 de 4 en escena; fotografía pidió un último ajuste que se ha aplicado."
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "video": "bateria100",
+   "texto": "Escena, ronda 1: Mueve la clave de 9,0-9,5 s a x/y de la mesilla por delante de la lámpara (la cámara en y menor que la lámpara) o sube el target para que el móvil quede en el tercio central. Acerca las claves de 5,0 y 14,0-15,5 s a meno"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "video": "bateria100",
+   "texto": "Aplicado: plano del móvil sostenido hasta «y se queda» y planos de 5 y 14 s acercados.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "bateria100",
+   "texto": "Escena, ronda 1: Tick a T(\"las dos\") - 0.25, win a T(\"ochenta por\") + 1.2, whoosh a T(\"con cuatro\") - 0.35. Si se puede, recorta la cola final a unos 2 s."
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "tipo": "mejora",
+   "video": "bateria100",
+   "texto": "Aplicado: tick, win y whoosh movidos fuera de las cifras dichas.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "video": "bateria100",
+   "texto": "Escena, ronda 2: Acorta el viaje a la celda: en la clave de 10,5 s aparta la cámara de la lámpara o haz corte directo de 10,5 s a la celda en 11,0 s con el target ya en la celda. Así no queda ningún fotograma con la lámpara tapando el pl"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "video": "bateria100",
+   "texto": "Aplicado después de la votación: el viaje a la celda pasa de 0,45 s a 0,12 s, casi un corte, sin fotograma tapado por la lámpara.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Escena, ronda 1: En 9,5 s, desplaza el target 0,5-1 m hacia el eje del túnel (y por delante de la cara del corte) para que el tren siga dentro del encuadre. Entre 11,5 y 12,0 s sube el target hacia las calles o los túneles para que no sa"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Aplicado: plano de Atocha sostenido hasta 9,6 s y target de «pero no se» subido a las calles.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Escena, ronda 1: 1) Cambia la flecha de GALICIA → ANDALUCÍA por «–». 2) Separa el rótulo GALICIA-ANDALUCÍA de la tarjeta de 54,5 s. 3) Añade 2 pastillas en el primer tercio: «km de túnel» contando 0→7,3 sobre la tuneladora hacia 3-6 s, y"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "motion",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Aplicados 1, 2 y 4; rechazado 3: una pastilla 0→7,3 km en 3-6 s revelaría la cifra del juego y la voz no dice cifras en ese tramo.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "editor",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Escena, ronda 1: En tunelave_ov.py cambia la ventana de ATOCHA a win(t, T('a atocha'), T('los del norte') - 0.1) y la de CHAMARTÍN a win(t, T('a chamartín'), T('pero no se') + 0.6)."
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "editor",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Aplicado tal cual: ATOCHA y CHAMARTÍN entran con su palabra.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "tunelave",
+   "texto": "Escena, ronda 1: Quita el buzz de T(\"y los trenes\") + 0.4 y el pop de «colectores»."
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "tipo": "mejora",
+   "video": "tunelave",
+   "texto": "Aplicado: fuera el buzz de «y los trenes» y el pop de «colectores».",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "video": "transbordador",
+   "texto": "Escena, ronda 1: Parte el tramo 10,0-15,0 s en claves cada ~2 s: 10,0 s plano medio del puente a unos 20 m, 12,0 s empuje al pie de la torre roja, 14,0 s hacia la rampa o la góndola. Recoloca el target para que el puente ocupe la banda c"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "video": "transbordador",
+   "texto": "Aplicado: tramo 10-15 s partido en tres planos, barco en el agua desde 7,6 s y Portugalete en 16,7 s.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "transbordador",
+   "texto": "Escena, ronda 1: Coin a T(\"la unesco\"), pop a T(\"en mil\") - 0.25, quita el segundo clank de «levanta»."
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "tipo": "mejora",
+   "video": "transbordador",
+   "texto": "Aplicado: coin en «la unesco», pop adelantado y un solo clank en «levanta».",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "para": "director",
+   "tipo": "revision",
+   "video": "transbordador",
+   "texto": "Escena, ronda 2: A 5,5 s apunta el target a la orilla de Getxo en lugar de al agua. En 9,5-11,0 s sube la cámara 2-3 m y acércala al barco, con el puente fantasma entero encima en 10,5 s. En 12,5 s abre el plano hasta que se vean la base"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "video": "transbordador",
+   "texto": "Aplicado en parte después de la votación: el plano del pilar fantasma se abre (base, cima y orilla); el resto se revisará en el vídeo renderizado.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cinturon",
+   "texto": "Escena, ronda 1: 1) Fija el arranque de la tarjeta grande en 0,5 s con grande=(W/2, H*0.28). 2) Retira el rótulo LIMITADOR o desplázalo a H*0.66. 3) Mueve la pastilla 0,45 g dentro de la zona segura. 4) Añade una pastilla «kg» que cuente"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "motion",
+   "tipo": "mejora",
+   "video": "cinturon",
+   "texto": "Aplicado 3; rechazados 1 (la tarjeta sale con la pregunta), 2 (el rótulo de pieza es obligatorio) y 4 (contar a 3.000 antes destaparía el juego).",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cinturon",
+   "texto": "Escena, ronda 1: Quita el clank de T(\"a cincuenta\", fin=True) + 0.2, baja el thud a 0,5 en T(\"a cincuenta\", fin=True) + 0.05 y sube el whoosh de t=0 a 0,5."
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "tipo": "mejora",
+   "video": "cinturon",
+   "texto": "Aplicado: sin clank en el choque, thud a 0,5 y whoosh inicial a 0,5; la voz no se regenera en esta pasada.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T20:40:00+01:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "aspiradora",
+   "texto": "Escena, ronda 1: No toques los efectos. Recorta la cola final sin voz hasta unos 73 s o menos."
   }
  ],
  "manual": [
