@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T08:02:41+00:00",
+ "actualizado": "2026-11-14T08:25:38+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1585.0,
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "3 escenas por plantear · 1 correcciones",
-   "pendiente": 4,
+   "ahora": "3 escenas por plantear · 0 correcciones",
+   "pendiente": 3,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -43,7 +43,7 @@
    "foco": "Efectos de sonido por minuto: los vídeos con más de 19,5 /min rinden 1,19× lo normal, frente a 0,92× los demás."
   },
   "editor": {
-   "ahora": "0 en render · 0 esperando tu revisión",
+   "ahora": "1 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -55,8 +55,8 @@
    "foco": "Duración: los vídeos con menos de 71 s rinden 1,17× lo normal, frente a 0,85× los demás."
   },
   "motion": {
-   "ahora": "4 capas de gráficos por montar",
-   "pendiente": 4,
+   "ahora": "3 capas de gráficos por montar",
+   "pendiente": 3,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.1,
@@ -1693,21 +1693,21 @@
     },
     {
      "rol": "motion",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 4. Los que funcionan van por encima de 8 (1,35× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
      "metrica": "sfx_min",
-     "texto": "Efectos de sonido por minuto: 31 /min, en el lado bueno. Mantenlo."
+     "texto": "Efectos de sonido por minuto: 32 /min, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,50 (1,28× más vistas)."
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     }
    ],
    "desaladora": [

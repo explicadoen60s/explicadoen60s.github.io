@@ -1589,6 +1589,45 @@
    "rol": "director",
    "tipo": "reunion",
    "texto": "Jornada del 2026-11-14: 25 mensajes entre puestos, 24 acuerdos nuevos, 0 guiones mejorados y 29 lecciones a las fichas."
+  },
+  {
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "texto": "Nevera rehecha con cámara por cortes (empuje del 8 % en cada plano, sin viajes que crucen la puerta), corte booleano real de la pared izquierda y puerta abierta para enseñar termómetro y cartón por delante.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T08:25:37+00:00",
+   "video": "nevera"
+  },
+  {
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "texto": "Lo aprendido del rehacer de nevera: con objetos con puerta, los viajes de cámara entre planos cruzan la puerta; mejor cortes secos y la cámara siempre por el lado abierto (o por el corte), nunca dentro de una pared.",
+   "fecha": "2026-11-14T08:25:37+00:00",
+   "video": "nevera"
+  },
+  {
+   "rol": "motion",
+   "tipo": "mejora",
+   "texto": "Nevera: la tarjeta del juego ya no se va tras la revelación (queda en la esquina con 3,3 en verde y vuelve en «¿Te has acercado?» sin recontar); 9 rótulos de pieza y pastillas por debajo de y=560.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T08:25:37+00:00",
+   "video": "nevera"
+  },
+  {
+   "rol": "sonido",
+   "tipo": "mejora",
+   "texto": "Nevera: quitados los ticks de sfx_cifra que pisaban «¡Tres coma tres grados más!»; queda un win justo después.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T08:25:37+00:00",
+   "video": "nevera"
+  },
+  {
+   "rol": "editor",
+   "tipo": "mejora",
+   "texto": "Nevera: el último plano acaba exactamente en la clave del primero (puerta a 20°, misma lente) para el bucle.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T08:25:37+00:00",
+   "video": "nevera"
   }
  ],
  "manual": [

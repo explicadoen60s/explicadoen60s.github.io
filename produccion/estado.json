@@ -3798,7 +3798,7 @@
     "cocina",
     "comofunciona"
    ],
-   "estado": "rehacer",
+   "estado": "escena",
    "creado": "2026-11-13",
    "idea": "error-nevera",
    "reglas": {
@@ -3885,6 +3885,86 @@
      "propuesta": "Mantener el plano y hacer el viaje en 0,3-0,5 s, como un barrido.",
      "aplicada": true,
      "respuesta": "Aplicado con hold en las claves de 26,1, 28,7, 33,9 y 47,7 s."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "La cámara ya no atraviesa nada y los cortes son limpios, pero la tarjeta del juego desaparece de 38,5 a 57,5 s, el plano de las 200 neveras (28,5 s) es casi todo cielo y el último plano no es igual al primero.",
+     "propuesta": "Mantener la mini arriba a la izquierda de 38,5 a 57,5 s; bajar cámara y objetivo en 28,5 s; última clave idéntica a la primera; subir «LEJOS DEL FRÍO».",
+     "aplicada": true,
+     "respuesta": "Aplicado: tarjeta resuelta en la esquina, plano de la isla más bajo, último plano que acaba en la clave del primero y rótulo por encima del subtítulo."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Regla 3 bien cubierta, pero «LEJOS DEL FRÍO» (25-26 s) pisa el subtítulo y «¿TE HAS ACERCADO?» sale en 38 s.",
+     "propuesta": "Sacar «LEJOS DEL FRÍO» del eje del subtítulo y dejar «¿TE HAS ACERCADO?» solo para la segunda llamada.",
+     "aplicada": true,
+     "respuesta": "Rótulo movido y arrancado en «lejísimos»; la cabecera del motor común en el medio segundo final de la cuenta no se toca para no cambiar otros vídeos."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Sincronía y ritmo bien, cámara sin cruzar la puerta y bucle correcto, pero la tarjeta se va de 38,5 a 57,3 s y vuelve contando otra vez.",
+     "propuesta": "Mini con 3,3 en verde de 38,5 a 57,6 s, grande con 3,3 fijo en «¿Te has acercado?» y «LEJOS DEL FRÍO» a H*0.64 o desde «lejísimos».",
+     "aplicada": true,
+     "respuesta": "Aplicado tal cual con una tarjeta resuelta propia en nevera_ov.py."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Efectos variados y sin pisar cifras salvo sfx_cifra: 14 ticks y el win encima de «¡Tres coma tres grados más!».",
+     "propuesta": "Sustituir sfx_cifra por un pop en la pregunta y un win justo después de «grados más».",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Los cuatro puntos están resueltos: tarjeta en la esquina con 3,3 en verde, neveras en la mitad de abajo, 68 s repite el fotograma 0 y «LEJOS DEL FRÍO» no pisa el subtítulo. Detalle menor: el fotograma de 28,5 s aún es casi cielo, dura menos de 0,5 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "La tarjeta vuelve grande con «¿TE HAS ACERCADO?» y 3,3 fijo sin recontar, sin tapar la nevera ni el subtítulo; «AQUÍ NO» queda por encima del subtítulo.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Los tres cambios aplicados; algo cambia cada 0,5 s o menos, las acciones caen en su palabra y el bucle funciona (0 s y 68 s: la leche en la puerta).",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Sin tictac y con el win a 38,15 s, antes de «Seis de cada diez» (38,46 s): no pisa ninguna cifra dicha.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {
@@ -3925,8 +4005,7 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-13T17:28:31.860Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 68.4,
-   "nota": "La oficina no da el visto bueno (0/3 en la revisión de escena). Fotografía: la cámara atraviesa la puerta y las baldas en varios primeros planos; rehacer el plan con cámara a 2-6 m, sin pasar por paredes ni puertas, y cambio de plano cada 2,8 s o menos. Motion: la tarjeta del juego se va al decir «seis de cada diez» y vuelve en «¿Te has acercado?»; pastillas por debajo de y=560 sin chocar con el mini. Editor: viajes entre la nevera y las 200 neveras en 0,3-0,5 s, y el último plano igual al primero. No vuelve a Borradores hasta tener 3 de 4 ok en la revisión de escena."
+   "duracion": 68.4
   },
   {
    "id": "cargadorvacio",

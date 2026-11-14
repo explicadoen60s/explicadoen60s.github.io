@@ -15,23 +15,39 @@ KEYWORDS = {"leche", "puerta", "nevera", "peor", "grados", "balda", "arriba", "f
             "seis", "diez", "puertas", "cuatro", "bacterias", "cartón", "diecisiete", "días", "menos", "yogures",
             "medio", "salsas", "refrescos", "más"}
 
-def pastilla(C, ctx, t, v, u, a, b, A, key, dx=0, dy=-120, desde=None, dec=0, dur=0.9, size=62, lo=330):
+def pastilla(C, ctx, t, v, u, a, b, A, key, dx=0, dy=-120, desde=None, dec=0, dur=0.9, size=62, lo=560):
     x, y = A(key); C.pastilla(ctx, t, v, u, a, b, clampx(x + dx, 280), clampy(y + dy, lo, 1380), desde=desde, dec=dec, dur=dur, size=size)
+
+def tarjeta_resuelta(C, ctx, t):
+    """tras la revelación la tarjeta no se va: se queda en la esquina con el 3,3 en verde y vuelve grande
+    (sin volver a contar) en «¿Te has acercado?»"""
+    a0, b0, fin = T("seis de cada") - 0.4, T("te has acercado") - 0.3, T("sígueme")
+    if t < a0 or t > fin: return
+    m = C.ease((t - a0) / 0.45) if t < b0 else 1 - C.ease((t - b0) / 0.45)
+    G, M = (C.W / 2, C.H * 0.33), (C.W * 0.21, C.H * 0.205)
+    cx, cy = G[0] + (M[0] - G[0]) * m, G[1] + (M[1] - G[1]) * m
+    C._tarjeta_cifra(ctx, cx, cy, 1 - 0.45 * m, "¿TE HAS ACERCADO?" if m < 0.5 else "LA CIFRA", C.miles(3.3, 1),
+                     "°C MÁS EN LA PUERTA", C.GREEN, alpha=min(1.0, (fin - t) / 0.3))
 
 def overlay(ctx, t, A, C):
     # la tarjeta se va tras la revelación (deja sitio a las pastillas) y vuelve en «¿Te has acercado?»
-    C.cifra_juego(ctx, t, 3.3, "°C MÁS EN LA PUERTA", T("cuántos grados"), T("tres coma"), T("seis de cada") - 0.2, dec=1)
-    C.cifra_juego(ctx, t, 3.3, "°C MÁS EN LA PUERTA", T("te has acercado") - 0.6, T("te has acercado") - 0.5, T("sígueme"), dec=1)
+    C.cifra_juego(ctx, t, 3.3, "°C MÁS EN LA PUERTA", T("cuántos grados"), T("tres coma"), T("seis de cada") - 0.4, dec=1)
+    tarjeta_resuelta(C, ctx, t)
     # rótulos de pieza (uno cada vez, nunca con una pastilla en pantalla)
     C.rotulo(ctx, t, "PUERTA", T("en la puerta") + 0.1, T("es el peor"))
     C.rotulo(ctx, t, "BALDA DE ARRIBA", T("balda de arriba"), T("balda de arriba") + 1.4)
     C.rotulo(ctx, t, "PANEL DEL FONDO", T("el frío sale") + 0.3, T("y la puerta queda"))
     C.rotulo(ctx, t, "BALDA DEL MEDIO", T("balda del medio"), T("al fondo"))
+    C.rotulo(ctx, t, "AIRE FRÍO", T("el aire frío"), T("así que se cae") + 0.6)
+    C.rotulo(ctx, t, "AIRE DE LA COCINA", T("y por arriba"), T("a unos") - 0.3)
+    C.rotulo(ctx, t, "BACTERIAS", T("bacterias"), T("bacterias") + 1.3)
+    C.rotulo(ctx, t, "CARTÓN DE LECHE", T("un cartón"), T("diecisiete") - 0.3)
+    C.rotulo(ctx, t, "SALSAS Y REFRESCOS", T("salsas"), T("te has acercado") - 0.7)
     # cifras
     pastilla(C, ctx, t, 22, "°C", T("a unos") - 0.2, T("y qué es lo primero"), A, "techo", dy=-90, desde=0, dur=0.9)
     pastilla(C, ctx, t, 200, "neveras", T("investigadores") + 0.1, T("la balda de arriba", 2) - 0.15, A, "grid", dy=-160, desde=0, dur=1.8)
-    pastilla(C, ctx, t, 1.9, "°C", T("la balda de arriba", 2) + 0.3, T("y la puerta", 2) - 0.1, A, "t1", dy=-60, desde=3.0, dec=1, dur=2.4, lo=560)
-    pastilla(C, ctx, t, 5.2, "°C", T("y la puerta", 2) + 0.2, T("tres coma") - 0.1, A, "t2", dy=-60, desde=3.0, dec=1, dur=1.6, lo=560)
+    pastilla(C, ctx, t, 1.9, "°C", T("la balda de arriba", 2) + 0.3, T("y la puerta", 2) - 0.1, A, "t1", dy=-60, desde=3.0, dec=1, dur=2.4)
+    pastilla(C, ctx, t, 5.2, "°C", T("y la puerta", 2) + 0.2, T("tres coma") - 0.1, A, "t2", dy=-60, desde=3.0, dec=1, dur=1.6)
     pastilla(C, ctx, t, 6, "de 10", T("seis de cada"), T("pasaban") + 1.1, A, "fila", dy=-200, desde=0, dur=1.6)
     pastilla(C, ctx, t, 4, "°C o más", T("pasaban"), T("pasaban") + 1.1, A, "fila", dy=-70, size=54)
     pastilla(C, ctx, t, 17, "días", T("diecisiete") - 0.2, T("a seis grados"), A, "carton", dx=40, dy=-90, desde=0, dur=1.0)
@@ -39,8 +55,8 @@ def overlay(ctx, t, A, C):
     pastilla(C, ctx, t, 4, "°C", T("cuatro grados", 2), T("a seis grados"), A, "carton_lado", dx=-170, dy=60, size=54, lo=600)
     pastilla(C, ctx, t, 6, "°C", T("a seis grados"), T("días menos", fin=True), A, "carton_lado", dx=-170, dy=60, desde=4, size=54, lo=600)
     # textos cortos sobre la escena (no repiten el subtítulo)
-    p = win(t, T("y la puerta queda") + 0.3, T("y tú la abres"))
-    if p: x, y = A("regla"); C.callout(ctx, "LEJOS DEL FRÍO", clampx(x), clampy(y - 120, 420), p, size=54)
+    p = win(t, T("lejísimos"), T("y tú la abres"))
+    if p: x, y = A("regla"); C.callout(ctx, "LEJOS DEL FRÍO", clampx(x), clampy(min(y - 120, C.H * 0.40), 420), p, size=54)
     p = win(t, T("ya sabes"), DUR + 1)
     if p: x, y = A("carton"); C.callout(ctx, "AQUÍ NO", clampx(x), clampy(y - 110, 420), p, size=60)
     # clics y golpes
@@ -66,5 +82,5 @@ def sfx_events(C):
          (T("al fondo", fin=True) - 0.1, C.s_clank(), 0.4), (T("salsas"), C.s_pop(), 0.3), (T("refrescos"), C.s_pop(), 0.3),
          (T("te has acercado"), C.s_whoosh(), 0.35), (T("pídelo"), C.s_pop(), 0.3), (T("sígueme"), C.s_whoosh(), 0.4),
          (T("ya sabes"), C.s_whoosh(), 0.35), (T("la leche de tu"), C.s_fail(), 0.25)]
-    E += C.sfx_cifra(T("cuántos grados"), T("tres coma"))
+    E += [(T("cuántos grados"), C.s_pop(), 0.5), (T("grados más", fin=True) + 0.05, C.s_win(), 0.4)]   # sin tictac encima de «tres coma tres»
     return E

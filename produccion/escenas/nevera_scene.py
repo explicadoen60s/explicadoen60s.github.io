@@ -6,6 +6,7 @@
 # segunda isla con 200 neveras (6 de cada 10 puertas en rojo), bacterias que crecen en el cartón y el cartón que se muda
 # a la balda del medio, al fondo, mientras salsas y refrescos entran en la puerta.
 # Planos (fotografía → motion; esquina libre arriba-izquierda salvo el mini del juego, que la ocupa desde 7 s):
+# Cámara por cortes (rehacer 14-nov): cada plano empuja un 8 % y cambia de golpe, sin viajes que crucen la puerta.
 #  0 puerta abriéndose con el cartón, a 1,2 m · 1,7 balcón de la puerta · 2,7 nevera entera · 4,4 balda de arriba ·
 #  5,6 puerta abierta · 7,0 cocina entera · 9,4 mano en el tirador · 11,7 aire frío que cae · 14,1 suelo frío ·
 #  15,7 aire caliente arriba · 17,1 22 °C · 19,4 aire que llega a la puerta · 22,4 corte lateral, panel del fondo ·
@@ -41,11 +42,11 @@ def puerta_ang(t):
     a = T("abres"); c = T("el frío sale"); v = T("varias veces"); h = T("qué haces"); f = T("ya sabes")
     if t < 2.7: return mix(20, 95, ss(t / 2.7))
     if t < a - 0.2: return 95 * (1 - seg(t, 6.6, 7.6))
-    if t < c: return 95 * seg(t, a + 0.1, a + 1.2) * (1 - seg(t, c - 0.9, c - 0.1))
+    if t < c + 1.1: return 95 * seg(t, a + 0.1, a + 1.2) * (1 - seg(t, c + 0.3, c + 1.1))
     if t < v - 0.1: return 0.0
     if t < T("investigadores"): return 70 * abs(math.sin((t - v) * math.pi * 3 / max(T("al día", fin=True) - v, 0.5)))
-    if t < h: return 0.0
-    if t < T("te has acercado"): return 95 * seg(t, h - 0.2, h + 0.7) * (1 - seg(t, T("salsas", fin=True) + 0.3, T("te has acercado") + 0.2))
+    if t < h: return 95 * seg(t, T("y la puerta", 2) - 0.6, T("y la puerta", 2) - 0.1)   # abierta: termómetro y cartón se ven por delante
+    if t < T("te has acercado"): return 95 * (1 - seg(t, T("salsas", fin=True) + 0.3, T("te has acercado") + 0.2))
     if t < f - 0.1: return 0.0
     return 95 * seg(t, f - 0.1, f + 1.2) * (1 - seg(t, f + 1.5, DUR + 0.4)) + 20 * seg(t, f + 1.5, DUR + 0.4)
 
@@ -94,6 +95,11 @@ def build():
     caja((FW, FD, 0.2), (0, FY, 0.1), WHITE, r=0.012)                             # base (compresor)
     box((0.004, FD - 0.06, FH - 0.27), (x1 - 0.032, FY, FH / 2 + 0.07), LINER)     # forro interior
     box((FW - 0.06, 0.004, FH - 0.27), (0, yb - 0.032, FH / 2 + 0.07), LINER)
+    # pared izquierda de verdad, cortada con una booleana: queda un marco y la cara cortada en crema
+    S["pared_izq"] = caja((0.03, FD, FH), (x0 + 0.015, FY, FH / 2), WHITE, r=0.01, unique=True)
+    S["pared_izq"].data.materials.append(mat(PAL["corte"]))
+    S["cut_izq"] = cortador((0.2, FD - 0.06, FH - 0.3), (x0 + 0.015, FY + 0.005, FH / 2 + 0.05))
+    cortar(S["pared_izq"], S["cut_izq"])                                         # corte real: modificador BOOLEAN
     for z in (0.2, FH - 0.05):                                                    # cantos del corte (pared izquierda)
         box((0.012, FD, 0.025), (x0 + 0.006, FY, z), PAL["corte"])
     box((0.012, 0.025, FH), (x0 + 0.006, yb - 0.012, FH / 2), PAL["corte"])
@@ -127,6 +133,7 @@ def build():
         caja((FW - 0.1, 0.1, 0.015), (-FW / 2, 0.06, z), (0.86, 0.9, 0.94), S["puerta"], r=0.004)
         caja((FW - 0.1, 0.012, 0.07), (-FW / 2, 0.11, z + 0.035), (0.80, 0.90, 0.97), S["puerta"], r=0.004)
     S["t2col"] = termometro(Vector((-0.12, 0.075, BALC[2] + 0.008)), parent=S["puerta"])
+    S["t2col"].parent.rotation_euler = (0, 0, math.pi)          # la escala mira al interior de la nevera
     # yogures (en la puerta al principio, luego a la balda del medio) y salsas/refrescos que entran al final
     S["yogures"] = [cilindro(0.028, 0.06, LEJOS, c, r=0.008, unique=True) for c in ((0.98, 0.6, 0.7), (0.98, 0.85, 0.4), (0.75, 0.55, 0.9))]
     S["botes"] = []
@@ -163,7 +170,7 @@ def build():
             m = nevera((G0.x - 0.95 + i * 0.1, G0.y - 0.5 + j * 0.12, 0.0), 0.12, unique=(j == 0 and i < 10))
             S["minis"].append(m)
     S["mini_puertas"] = [[c for c in S["minis"][i].children if c.name.startswith("puerta")][0] for i in range(10)]
-    dyn = [cam, S["evap"], S["t1col"], S["puerta"], S["yogures"], S["botes"], S["carton"], S["bact"], S["frio"], S["cal"],
+    dyn = [cam, S["pared_izq"], S["cut_izq"], S["evap"], S["t1col"], S["puerta"], S["yogures"], S["botes"], S["carton"], S["bact"], S["frio"], S["cal"],
            S["fl_frio"], S["fl_cal"], S["fl_fondo"], S["regla"], S["topes"], S["mano"], S["minis"]]
     join_static(dyn)
     return sc, S
@@ -288,7 +295,23 @@ def pose(t, S):
     for i, p in enumerate(S["mini_puertas"]):
         r_ = seg(t, T("seis de cada") + 0.25 * rojas.index(i), T("seis de cada") + 0.25 * rojas.index(i) + 0.3) if i in rojas else 0.0
         set_color(p, tuple(mix(x, y, r_) for x, y in zip((0.95, 0.96, 0.97), PAL["rojo"])))
-    apply_cam(S["cam"], *cam_lin(t, CAM(), drift=0.006))
+    apply_cam(S["cam"], *cam_cortes(t, CAM()))
+
+def cam_cortes(t, ks, drift=0.004):
+    """planos por corte: la cámara no viaja entre claves (no puede atravesar la puerta ni las baldas);
+    dentro de cada plano empuja un 8 % hacia el objetivo y se mece un poco"""
+    planos = []
+    for k in ks:
+        if planos and k[1] == planos[-1][1] and k[2] == planos[-1][2]: continue
+        planos.append(k)
+    i = 0
+    while i + 1 < len(planos) and planos[i + 1][0] <= t: i += 1
+    a = planos[i]; fin = planos[i + 1][0] if i + 1 < len(planos) else DUR + 0.4
+    u = ss((t - a[0]) / max(fin - a[0], 0.3))
+    if i + 1 >= len(planos) or planos[i + 1][0] > DUR: u = 1 - u    # último plano: termina justo en la clave del primero
+    tgt = Vector(a[2]); pos = tgt + (Vector(a[1]) - tgt) * (1 - 0.08 * u)
+    pos += Vector((math.sin(t * 0.9), 0.7 * math.sin(t * 0.7), 0.8 * math.sin(t * 1.1))) * drift
+    return pos, tgt, a[3]
 
 def back_(u):
     u = max(0.0, min(1.0, u)); c = 1.70158
@@ -297,7 +320,7 @@ def back_(u):
 FR = (0.0, 0.3, 0.95); TODO = (0.0, 0.3, 0.9); ARR = (-0.12, FY + 0.12, BALDAS[2] + 0.1); MED = (-0.05, FY + 0.15, BALDAS[1] + 0.1)
 FONDO = (-0.05, 0.35, 1.2); SUELO_F = (0.0, -0.3, 0.15); TECHO = (0.0, -0.2, 1.5)
 def P_ABIERTA(z): return tuple(HINGE + Matrix.Rotation(math.radians(95), 3, 'Z') @ Vector((-0.3, 0.06, z)))
-def P_CERR(z): return (0.11, 0.1, z)          # cartón en la puerta cerrada (se ve por la pared cortada)
+def P_AB(lx, ly, z): return tuple(HINGE + Matrix.Rotation(math.radians(95), 3, 'Z') @ Vector((lx, ly, z)))
 GRID = (G0.x, G0.y - 0.1, 0.1); FILA = (G0.x - 0.5, G0.y - 0.5, 0.08)
 
 def CAM():
@@ -319,16 +342,16 @@ def CAM():
     add(T("el frío sale"), V(FONDO, (-1.2, -0.5, 0.2), 32))
     add(T("y la puerta queda"), V(FONDO, (-1.0, -0.8, 0.35), 32))
     add(T("y tú la abres"), V(FR, (-1.0, -1.9, 0.4), 30), hold=1.95)
-    add(T("investigadores") - 0.2, V(GRID, (0.3, -1.9, 1.5), 30))
+    add(T("investigadores") - 0.2, V((G0.x, G0.y - 0.1, 0.0), (0.3, -1.9, 0.75), 30))
     add(T("doscientas") - 0.6, V(GRID, (-0.3, -1.6, 1.25), 32), hold=1.4)
     add(T("la balda de arriba", 2) - 0.45, V(ARR, (-0.6, -0.35, 0.1), 40))
-    add(T("y la puerta", 2) - 0.05, V((0.19, 0.075, BALC[2] + 0.09), (-0.48, 0.05, 0.12), 38), hold=T("tres coma") + 0.9 - T("y la puerta", 2))
+    add(T("y la puerta", 2) - 0.05, V(P_AB(-0.12, 0.075, BALC[2] + 0.09), (-0.5, -0.06, 0.1), 38), hold=T("tres coma") + 0.9 - T("y la puerta", 2))
     add(T("seis de cada") - 0.2, V(FILA, (0.0, -1.0, 0.35), 34))
     add(T("pasaban") - 0.1, V(FILA, (0.3, -0.85, 0.25), 36), hold=1.1)
-    add(T("y con cada"), V(P_CERR(BALC[1] + 0.12), (-0.62, 0.05, 0.15), 38))
-    add(T("bacterias") + 0.1, V(P_CERR(BALC[1] + 0.12), (-0.56, 0.05, 0.1), 38))
-    add(T("un cartón") - 0.05, V(P_CERR(BALC[1] + 0.1), (-0.6, 0.06, 0.14), 38))
-    add(T("a seis grados") - 0.6, V(P_CERR(BALC[1] + 0.1), (-0.58, 0.04, 0.06), 38), hold=T("días menos", fin=True) - T("a seis grados") + 0.3)
+    add(T("y con cada"), V(P_AB(-0.2, 0.09, BALC[1] + 0.12), (-0.6, -0.42, 0.15), 38))
+    add(T("bacterias") + 0.1, V(P_AB(-0.2, 0.09, BALC[1] + 0.12), (-0.45, -0.3, 0.08), 40))
+    add(T("un cartón") - 0.05, V(P_AB(-0.2, 0.09, BALC[1] + 0.1), (-0.62, -0.3, 0.14), 38))
+    add(T("a seis grados") - 0.6, V(P_AB(-0.2, 0.09, BALC[1] + 0.1), (-0.5, -0.45, 0.06), 38), hold=T("días menos", fin=True) - T("a seis grados") + 0.3)
     add(T("qué haces") - 0.1, V(FR, (-1.0, -1.5, 0.3), 32))
     add(T("balda del medio") - 0.2, V(MED, (-0.7, -0.6, 0.2), 36))
     add(T("al fondo") - 0.1, V(MED, (-0.5, -0.45, 0.08), 38))
