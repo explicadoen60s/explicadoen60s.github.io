@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-11-14T04:17:40+00:00",
+ "actualizado": "2026-11-14T05:16:33+00:00",
  "medianas": {
-  "tiktok": 1097.0,
-  "instagram": 1562.0,
-  "youtube": 1619.0
+  "tiktok": 1098.0,
+  "instagram": 1566.0,
+  "youtube": 1632.0
  },
  "maduros": 40,
  "puestos": {
@@ -47,12 +47,12 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.48,
+    "valor": 4.47,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
    },
-   "foco": "Duración: los vídeos con menos de 71 s rinden 1,15× lo normal, frente a 0,85× los demás."
+   "foco": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,85× los demás."
   },
   "motion": {
    "ahora": "4 capas de gráficos por montar",
@@ -64,11 +64,11 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,12× lo normal, frente a 0,86× los demás."
+   "foco": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,11× lo normal, frente a 0,86× los demás."
   },
   "estratega": {
-   "ahora": "0 ideas en el banco · tendencias de hoy · 4 segundas partes por proponer",
-   "pendiente": 4,
+   "ahora": "0 ideas en el banco · tendencias de hoy · 3 segundas partes por proponer",
+   "pendiente": 3,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
     "valor": 0.55,
@@ -104,7 +104,7 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "YouTube frente a lo normal",
-    "valor": 1.32,
+    "valor": 1.3,
     "fmt": "x",
     "meta": 1.2,
     "pie": "la red que más vive de la búsqueda, últimos 14 días"
@@ -147,9 +147,9 @@
   "m_cotidiano": {
    "n_si": 15,
    "n_no": 25,
-   "med_si": 0.68,
+   "med_si": 0.66,
    "med_no": 1.08,
-   "ratio": 0.63,
+   "ratio": 0.61,
    "veredicto": "en_contra"
   },
   "m_corto": {
@@ -171,17 +171,17 @@
   "m261112dir8": {
    "n_si": 19,
    "n_no": 21,
-   "med_si": 1.15,
+   "med_si": 1.16,
    "med_no": 0.85,
-   "ratio": 1.35,
+   "ratio": 1.36,
    "veredicto": "a_favor"
   },
   "m261112fot9": {
    "n_si": 19,
    "n_no": 21,
-   "med_si": 1.12,
+   "med_si": 1.11,
    "med_no": 1.02,
-   "ratio": 1.1,
+   "ratio": 1.09,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
@@ -203,9 +203,9 @@
   "m261112mot12": {
    "n_si": 19,
    "n_no": 21,
-   "med_si": 1.15,
+   "med_si": 1.16,
    "med_no": 1.04,
-   "ratio": 1.11,
+   "ratio": 1.12,
    "veredicto": "sin_efecto"
   },
   "m261112mot13": {
@@ -227,9 +227,9 @@
   "m261113son16": {
    "n_si": 13,
    "n_no": 27,
-   "med_si": 1.15,
+   "med_si": 1.16,
    "med_no": 1.02,
-   "ratio": 1.13,
+   "ratio": 1.14,
    "veredicto": "sin_efecto"
   },
   "m261113edi17": {
@@ -271,9 +271,9 @@
    },
    "n_si": 15,
    "n_no": 25,
-   "med_si": 0.68,
+   "med_si": 0.66,
    "med_no": 1.08,
-   "ratio": 0.63,
+   "ratio": 0.61,
    "veredicto": "en_contra"
   },
   {
@@ -284,9 +284,9 @@
    },
    "n_si": 10,
    "n_no": 30,
-   "med_si": 1.34,
+   "med_si": 1.32,
    "med_no": 0.98,
-   "ratio": 1.37,
+   "ratio": 1.35,
    "veredicto": "a_favor"
   }
  ],
@@ -363,10 +363,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 654928,
-   "rel": 193.77,
+   "vistas": 657250,
+   "rel": 194.14,
    "inter": 0.0511,
-   "horas": 88,
+   "horas": 89,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -377,10 +377,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 36883,
-   "rel": 9.78,
-   "inter": 0.036,
-   "horas": 29,
+   "vistas": 37146,
+   "rel": 9.73,
+   "inter": 0.0361,
+   "horas": 30,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -392,29 +392,22 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 193.77,
-   "vistas": 654928
+   "rel": 194.14,
+   "vistas": 657250
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 22.88,
-   "vistas": 58988
+   "rel": 22.91,
+   "vistas": 59051
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "rel": 14.31,
-   "vistas": 41838
-  },
-  {
-   "video": "pozo",
-   "red": "youtube",
-   "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.19,
-   "vistas": 22263
+   "vistas": 41844
   }
  ],
  "compuertas": {
@@ -556,12 +549,12 @@
     "unidad": "s",
     "umbral": 71.1,
     "direccion": "menos",
-    "ratio": 1.35,
+    "ratio": 1.37,
     "n_si": 19,
     "n_no": 21,
-    "fuerza": 1.31,
+    "fuerza": 1.37,
     "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,15× lo normal, frente a 0,85× los demás."
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,85× los demás."
    },
    {
     "metrica": "sfx_min",
@@ -584,12 +577,12 @@
     "unidad": "",
     "umbral": 8.0,
     "direccion": "mas",
-    "ratio": 1.3,
+    "ratio": 1.29,
     "n_si": 19,
     "n_no": 21,
-    "fuerza": 1.14,
+    "fuerza": 1.11,
     "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,12× lo normal, frente a 0,86× los demás."
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,11× lo normal, frente a 0,86× los demás."
    },
    {
     "metrica": "obj_cortes",
@@ -626,7 +619,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -736,7 +729,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -832,7 +825,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -844,7 +837,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -858,7 +851,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -870,7 +863,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -884,7 +877,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -954,7 +947,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -980,7 +973,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -994,7 +987,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1006,7 +999,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1020,7 +1013,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1032,7 +1025,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1052,7 +1045,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1064,7 +1057,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1096,7 +1089,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1110,7 +1103,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1136,7 +1129,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1174,7 +1167,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1200,7 +1193,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1232,7 +1225,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1264,7 +1257,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1296,7 +1289,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1316,7 +1309,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1328,7 +1321,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1348,7 +1341,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 79 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 79 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1360,7 +1353,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1380,7 +1373,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1392,7 +1385,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1406,7 +1399,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1418,7 +1411,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1484,7 +1477,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1574,7 +1567,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1588,7 +1581,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 74 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 74 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1600,7 +1593,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1614,7 +1607,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1626,7 +1619,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1640,7 +1633,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1652,7 +1645,7 @@
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 4. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 4. Los que funcionan van por encima de 8 (1,29× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1674,7 +1667,7 @@
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,35× más vistas)."
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,37× más vistas)."
     }
    ],
    "freidoraire": [
@@ -1706,12 +1699,12 @@
     "unidad": "s",
     "umbral": 71.1,
     "direccion": "menos",
-    "ratio": 1.35,
+    "ratio": 1.37,
     "n_si": 19,
     "n_no": 21,
-    "fuerza": 1.31,
+    "fuerza": 1.37,
     "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,15× lo normal, frente a 0,85× los demás."
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,16× lo normal, frente a 0,85× los demás."
    },
    "sonido": {
     "metrica": "sfx_min",
@@ -1734,12 +1727,12 @@
     "unidad": "",
     "umbral": 8.0,
     "direccion": "mas",
-    "ratio": 1.3,
+    "ratio": 1.29,
     "n_si": 19,
     "n_no": 21,
-    "fuerza": 1.14,
+    "fuerza": 1.11,
     "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,12× lo normal, frente a 0,86× los demás."
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,11× lo normal, frente a 0,86× los demás."
    },
    "fotografia": {
     "metrica": "obj_cortes",
@@ -2029,9 +2022,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 9058,
+   "vistas": 9120,
    "rel_red": {
-    "tiktok": 3.77
+    "tiktok": 3.8
    },
    "com_mil": 0.0,
    "comp_mil": 0.77,
@@ -2083,7 +2076,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 512,
+   "vistas": 526,
    "rel_red": {
     "tiktok": 0.18
    },
@@ -2135,12 +2128,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 14454,
+   "vistas": 15431,
    "rel_red": {
-    "tiktok": 4.94
+    "tiktok": 5.28
    },
    "com_mil": 0.0,
-   "comp_mil": 0.42,
+   "comp_mil": 0.45,
    "publicado": "2026-11-13T14:13:47+00:00"
   },
   {
@@ -2189,12 +2182,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 4010,
+   "vistas": 4096,
    "rel_red": {
-    "tiktok": 1.37
+    "tiktok": 1.4
    },
    "com_mil": 0.0,
-   "comp_mil": 2.0,
+   "comp_mil": 1.95,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
   {
@@ -2243,12 +2236,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 3533,
+   "vistas": 3543,
    "rel_red": {
-    "tiktok": 0.94
+    "tiktok": 0.93
    },
    "com_mil": 0.28,
-   "comp_mil": 0.57,
+   "comp_mil": 0.56,
    "publicado": "2026-11-12T23:00:34+00:00"
   },
   {
@@ -2300,12 +2293,12 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 5882,
+   "vistas": 5907,
    "rel_red": {
     "instagram": 1.32,
-    "youtube": 0.73
+    "youtube": 0.71
    },
-   "com_mil": 0.34,
+   "com_mil": 0.51,
    "comp_mil": 0.34,
    "publicado": "2026-11-12T21:28:44+0000"
   },
@@ -2358,14 +2351,14 @@
    "creado": "2026-11-09",
    "rel": null,
    "maduro": false,
-   "vistas": 4176,
+   "vistas": 4218,
    "rel_red": {
-    "tiktok": 0.34,
+    "tiktok": 0.35,
     "instagram": 0.91,
-    "youtube": 0.69
+    "youtube": 0.66
    },
    "com_mil": 0.0,
-   "comp_mil": 0.72,
+   "comp_mil": 0.71,
    "publicado": "2026-11-12T19:28:35+0000"
   },
   {
@@ -2417,14 +2410,14 @@
    "creado": "2026-11-11",
    "rel": null,
    "maduro": false,
-   "vistas": 48847,
+   "vistas": 49428,
    "rel_red": {
-    "tiktok": 9.78,
+    "tiktok": 9.73,
     "instagram": 0.95,
-    "youtube": 4.5
+    "youtube": 4.47
    },
    "com_mil": 0.14,
-   "comp_mil": 3.13,
+   "comp_mil": 3.12,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2473,11 +2466,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1823,
+   "vistas": 1830,
    "rel_red": {
     "tiktok": 0.48
    },
-   "com_mil": 1.1,
+   "com_mil": 1.09,
    "comp_mil": 0.55,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -2528,11 +2521,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1166,
+   "vistas": 1168,
    "rel_red": {
     "tiktok": 0.31
    },
-   "com_mil": 1.72,
+   "com_mil": 1.71,
    "comp_mil": 0.86,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
@@ -2583,12 +2576,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 1053,
+   "vistas": 1054,
    "rel_red": {
     "tiktok": 0.28
    },
    "com_mil": 0.0,
-   "comp_mil": 5.7,
+   "comp_mil": 5.69,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -2638,9 +2631,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 18432,
+   "vistas": 18475,
    "rel_red": {
-    "tiktok": 4.89
+    "tiktok": 4.84
    },
    "com_mil": 0.05,
    "comp_mil": 0.81,
@@ -2691,11 +2684,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.52,
+   "rel": 0.51,
    "maduro": true,
-   "vistas": 2087,
+   "vistas": 2091,
    "rel_red": {
-    "tiktok": 0.52
+    "tiktok": 0.51
    },
    "com_mil": 0.96,
    "comp_mil": 0.0,
@@ -2745,11 +2738,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.68,
+   "rel": 0.66,
    "maduro": true,
    "vistas": 2714,
    "rel_red": {
-    "tiktok": 0.68
+    "tiktok": 0.66
    },
    "com_mil": 0.0,
    "comp_mil": 2.58,
@@ -2800,11 +2793,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.78,
+   "rel": 0.77,
    "maduro": true,
-   "vistas": 2924,
+   "vistas": 2925,
    "rel_red": {
-    "tiktok": 0.78
+    "tiktok": 0.77
    },
    "com_mil": 0.34,
    "comp_mil": 0.0,
@@ -2963,11 +2956,11 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 1.22,
+   "rel": 1.21,
    "maduro": true,
-   "vistas": 4603,
+   "vistas": 4606,
    "rel_red": {
-    "tiktok": 1.22
+    "tiktok": 1.21
    },
    "com_mil": 0.0,
    "comp_mil": 0.22,
@@ -3020,7 +3013,7 @@
    "creado": "2026-11-06",
    "rel": 0.91,
    "maduro": true,
-   "vistas": 3227,
+   "vistas": 3228,
    "rel_red": {
     "tiktok": 0.91
    },
@@ -3127,14 +3120,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 193.77,
+   "rel": 194.14,
    "maduro": true,
-   "vistas": 654928,
+   "vistas": 657250,
    "rel_red": {
-    "tiktok": 193.77
+    "tiktok": 194.14
    },
    "com_mil": 0.14,
-   "comp_mil": 5.93,
+   "comp_mil": 5.92,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3345,7 +3338,7 @@
    "creado": "2026-11-05",
    "rel": 0.37,
    "maduro": true,
-   "vistas": 1094,
+   "vistas": 1095,
    "rel_red": {
     "tiktok": 0.37
    },
@@ -3397,14 +3390,14 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.53,
+   "rel": 0.54,
    "maduro": true,
-   "vistas": 1563,
+   "vistas": 1567,
    "rel_red": {
-    "tiktok": 0.53
+    "tiktok": 0.54
    },
    "com_mil": 0.64,
-   "comp_mil": 1.92,
+   "comp_mil": 1.91,
    "publicado": "2026-11-08T20:42:33+00:00"
   },
   {
@@ -3453,11 +3446,11 @@
    "creado": "2026-11-06",
    "rel": 1.62,
    "maduro": true,
-   "vistas": 7693,
+   "vistas": 7736,
    "rel_red": {
     "tiktok": 1.62,
-    "instagram": 0.84,
-    "youtube": 0.66
+    "instagram": 0.86,
+    "youtube": 0.62
    },
    "com_mil": 0.13,
    "comp_mil": 0.13,
@@ -3509,11 +3502,11 @@
    "creado": "2026-11-06",
    "rel": 1.53,
    "maduro": true,
-   "vistas": 10013,
+   "vistas": 10214,
    "rel_red": {
     "tiktok": 1.53,
     "instagram": 1.0,
-    "youtube": 0.98
+    "youtube": 1.01
    },
    "com_mil": 0.2,
    "comp_mil": 0.2,
@@ -3566,14 +3559,14 @@
    "creado": "2026-11-06",
    "rel": 14.31,
    "maduro": true,
-   "vistas": 52257,
+   "vistas": 52510,
    "rel_red": {
     "tiktok": 14.31,
     "instagram": 1.31,
-    "youtube": 3.56
+    "youtube": 3.53
    },
    "com_mil": 0.1,
-   "comp_mil": 1.0,
+   "comp_mil": 0.99,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -3622,11 +3615,11 @@
    "creado": "2026-11-06",
    "rel": 1.46,
    "maduro": true,
-   "vistas": 7100,
+   "vistas": 7122,
    "rel_red": {
     "tiktok": 1.46,
     "instagram": 0.83,
-    "youtube": 0.61
+    "youtube": 0.59
    },
    "com_mil": 0.0,
    "comp_mil": 0.56,
@@ -3676,12 +3669,12 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-04",
-   "rel": 1.12,
+   "rel": 1.11,
    "maduro": true,
    "vistas": 4676,
    "rel_red": {
     "instagram": 0.91,
-    "youtube": 1.34
+    "youtube": 1.3
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -3732,13 +3725,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 8.0,
+   "rel": 7.83,
    "maduro": true,
-   "vistas": 78021,
+   "vistas": 78141,
    "rel_red": {
-    "tiktok": 22.88,
+    "tiktok": 22.91,
     "instagram": 1.02,
-    "youtube": 8.0
+    "youtube": 7.83
    },
    "com_mil": 0.35,
    "comp_mil": 1.31,
@@ -3791,9 +3784,9 @@
    "creado": "2026-11-05",
    "rel": 1.11,
    "maduro": true,
-   "vistas": 8642,
+   "vistas": 8645,
    "rel_red": {
-    "tiktok": 1.76,
+    "tiktok": 1.77,
     "instagram": 1.0,
     "youtube": 1.11
    },
@@ -3851,7 +3844,7 @@
    "rel_red": {
     "tiktok": 1.78,
     "instagram": 1.1,
-    "youtube": 10.19
+    "youtube": 9.94
    },
    "com_mil": 0.1,
    "comp_mil": 0.03,
@@ -3901,16 +3894,16 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.15,
+   "rel": 1.16,
    "maduro": true,
-   "vistas": 9255,
+   "vistas": 9275,
    "rel_red": {
     "tiktok": 1.93,
     "instagram": 1.03,
-    "youtube": 1.15
+    "youtube": 1.16
    },
    "com_mil": 0.0,
-   "comp_mil": 0.76,
+   "comp_mil": 0.75,
    "publicado": "2026-11-07T23:49:21+00:00"
   },
   {
@@ -3958,13 +3951,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.53,
+   "rel": 1.48,
    "maduro": true,
    "vistas": 11758,
    "rel_red": {
     "tiktok": 2.39,
     "instagram": 1.23,
-    "youtube": 1.53
+    "youtube": 1.48
    },
    "com_mil": 0.17,
    "comp_mil": 0.85,
@@ -4018,7 +4011,7 @@
    "rel_red": {
     "tiktok": 1.67,
     "instagram": 1.08,
-    "youtube": 0.52
+    "youtube": 0.5
    },
    "com_mil": 0.13,
    "comp_mil": 0.13,
@@ -4074,7 +4067,7 @@
    "rel_red": {
     "tiktok": 0.34,
     "instagram": 0.02,
-    "youtube": 0.48
+    "youtube": 0.46
    },
    "com_mil": 0.5,
    "comp_mil": 0.0,
@@ -4124,13 +4117,13 @@
    "sub_frase": true,
    "estado": "programado",
    "creado": "2026-11-03",
-   "rel": 0.83,
+   "rel": 0.82,
    "maduro": true,
    "vistas": 4615,
    "rel_red": {
     "tiktok": 0.6,
     "instagram": 0.95,
-    "youtube": 0.83
+    "youtube": 0.82
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -4186,7 +4179,7 @@
    "rel_red": {
     "tiktok": 1.89,
     "instagram": 0.92,
-    "youtube": 0.75
+    "youtube": 0.74
    },
    "com_mil": 0.0,
    "comp_mil": 0.31,
@@ -4238,11 +4231,11 @@
    "creado": "2026-11-03",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 12847,
+   "vistas": 12851,
    "rel_red": {
     "tiktok": 7.24,
     "instagram": 0.94,
-    "youtube": 0.87
+    "youtube": 0.86
    },
    "com_mil": 0.78,
    "comp_mil": 0.39,
@@ -4297,7 +4290,7 @@
    "maduro": true,
    "vistas": 4272,
    "rel_red": {
-    "tiktok": 1.31,
+    "tiktok": 1.3,
     "instagram": 1.08,
     "youtube": 0.42
    },
@@ -4578,7 +4571,7 @@
    "creado": "2026-11-03",
    "rel": 0.85,
    "maduro": true,
-   "vistas": 3526,
+   "vistas": 3527,
    "rel_red": {
     "tiktok": 0.78,
     "instagram": 0.85,
@@ -4859,7 +4852,7 @@
    "creado": "2026-11-03",
    "rel": 1.11,
    "maduro": true,
-   "vistas": 8168,
+   "vistas": 8167,
    "rel_red": {
     "tiktok": 0.98,
     "instagram": 1.11,
