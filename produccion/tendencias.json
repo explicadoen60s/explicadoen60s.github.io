@@ -1,177 +1,25 @@
 {
- "actualizado": "2026-11-13T20:45:00+01:00",
- "resumen": "Trends y Wikipedia siguen en política, papa, famosos y sucesos (atraco en Cartagena): nada aprovechable. En el nicho, el cuerpo y los objetos de mano tiran (brazo 616 mil con 384 comentarios, paracaídas 766 mil). Se añade «tu brazo es una palanca» y se mantienen cinturón, desaladora de Barcelona, freidora de aire y tapa de alcantarilla; las cifras técnicas sin fuente van marcadas «(comprobar)». Revisión de la tarde (13-nov): «tarifaluzhora» sigue con 500+ búsquedas (apoya lavar30 y cargadorvacio, ya propuestos), un short de tuneladora suma 168 mil vistas en 3 días (apoya tunelave) y entra «los LED rojos de las cámaras» (3,8 M vistas en YouTube España).",
+ "actualizado": "2026-11-14T10:00:00+01:00",
+ "resumen": "Trends y Wikipedia siguen en política, elecciones, deporte y famosos: nada aprovechable salvo «desguace». En YouTube manda el short de los LED rojos de las cámaras (4,1 millones), que sube al primer puesto. Cinturón, desaladora, freidora, aspiradora y el túnel de Madrid ya están en producción y pasan a descartadas. Entran el silbato (116 mil vistas en el nicho) y el desguace (tendencia en Google). Ojo: «Cargar el celular toda la noche NO arruina la batería» (2,5 millones) dice lo contrario que nuestro guion «bateria100»; conviene que el guion matice la carga optimizada del móvil. Cifras sin fuente marcadas «(comprobar)».",
  "tendencias": [
-  {
-   "id": "cinturon",
-   "tema": "Tu cinturón de seguridad se bloquea y se tensa solo",
-   "tipo": "evergreen",
-   "puntuacion": 72,
-   "por_que": "Patrón «lo estás haciendo mal» con un objeto que el espectador usa cada día. En el nicho funcionan los mecanismos de coche (motor 117 mil, camiones 88 mil) y nadie lo cuenta con el pretensor y el bloqueo por inercia. Búsquedas de seguridad vial constantes (evergreen).",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Como funciona o motor do carro» (AiCar Tech), 116.855 vistas; mecánica de coche repite en la semana"
-    }
-   ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Formato A: carrete con péndulo que bloquea la correa, pretensor pirotécnico y limitador de fuerza. Error común: llevar la banda floja, torcida o con la mochila detrás sin atar.",
-   "titulo": "Tu cinturón es una trampa mecánica 🚗 Cómo se bloquea en milisegundos",
-   "gancho": "Tiras despacio del cinturón… y sale. ¿Por qué se bloquea de golpe?",
-   "primer_segundo": "Mano gigante tirando despacio de la correa; un tirón brusco y el carrete se clava con rayitas de clic.",
-   "cifras": [
-    "Pretensor: actúa en unas 10-20 milésimas de segundo (comprobar)",
-    "Bloqueo con deceleración de ~0,4 g (comprobar)",
-    "Fuerza sobre el pecho de un adulto en choque a 50 km/h: varias toneladas (comprobar)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Tirón lento: la correa sale",
-    "Tirón brusco: el péndulo se inclina y bloquea",
-    "Pretensor: carga pirotécnica recoge la holgura",
-    "Limitador de fuerza: cede un poco",
-    "Error: correa floja o torcida",
-    "Juego: ¿cuántos kg pesas en un choque a 50?"
-   ],
-   "reglas": {
-    "cotidiano": 10,
-    "primer_segundo": 8,
-    "ensenar": 8
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Objeto que usas cada día + error corregible (poner la correa bien) + cifra enorme: la fuerza en kg que sentirías, comparada con un coche. Muy enviable a quien conduce.",
-   "competencia": "No hay un short claro en castellano sobre el mecanismo interno en el nicho esta semana.",
-   "riesgos": "Cifras de pretensor y g varían por fabricante: verificar antes del guion. No mostrar choques con víctimas.",
-   "mejor_hora": "18:00",
-   "hashtags": [
-    "cinturon",
-    "coche",
-    "seguridad",
-    "comofunciona",
-    "fisica"
-   ]
-  },
-  {
-   "id": "desaladora",
-   "tema": "Lo que esconde Barcelona: la desaladora que le da agua",
-   "tipo": "nicho",
-   "puntuacion": 69,
-   "por_que": "Serie «Lo que esconde tu ciudad» con depósito, canal y túnel ya hechos: toca una obra de agua distinta y cercana al espectador (cada vaso de agua). La sequía catalana de 2023-2025 la hizo conocida. El tema agua gana en la cuenta (tanque de tormentas 51 veces lo normal).",
-   "senales": [
-    {
-     "fuente": "Banco de la cuenta",
-     "dato": "Tanque de tormentas Madrid: 50 mil vistas, 51 veces lo normal; serie-bcn-deposito ya usada"
-    },
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Por qué el 12 % del aceite de oliva no se puede vender» (36.801): la gente ve procesos industriales cercanos"
-    }
-   ],
-   "urgencia": "Media: la serie pide ritmo",
-   "angulo": "Formato C: «¿Y si construyes una desaladora?». Bombeo de mar, filtros, membranas a presión altísima y vuelta de la salmuera. Pregunta de juego: cuántos vasos de agua sale cada segundo.",
-   "titulo": "Barcelona saca agua del mar 🌊 ¿Cuántos vasos por segundo? Lo que esconde tu ciudad (parte 4)",
-   "gancho": "Este vaso de agua… ¿era mar hace una hora?",
-   "primer_segundo": "Vaso llenándose de grifo y la cámara cae por la tubería hasta el mar con el agua moviéndose.",
-   "cifras": [
-    "Desaladora del Llobregat: ~60 hm³ al año (comprobar)",
-    "Presión de ósmosis inversa: ~60-70 bar, unas 30 veces la de tu rueda de coche (comprobar)",
-    "Agua de mar: unos 35 g de sal por litro (comprobar)"
-   ],
-   "formato": "C",
-   "estructura": [
-    "Bombeas agua de mar",
-    "Pero hay arena: prefiltros",
-    "Pero la sal no pasa: membrana",
-    "Pero hace falta presión enorme: bomba",
-    "Salmuera de vuelta",
-    "Cifra revelada: vasos por segundo",
-    "Pie: comenta tu ciudad"
-   ],
-   "reglas": {
-    "cotidiano": 8,
-    "primer_segundo": 8,
-    "ensenar": 9
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Cifra enorme que se compara con el vaso y con la rueda del coche; la presión sube en un medidor. Serie con comentarios de ciudades.",
-   "competencia": "Poco contenido en castellano; el de aceite de oliva muestra que el proceso industrial se ve.",
-   "riesgos": "Dato de capacidad y presión por verificar; evitar la polémica política del agua y del trasvase.",
-   "mejor_hora": "13:00",
-   "hashtags": [
-    "leesconde",
-    "barcelona",
-    "desaladora",
-    "agua",
-    "ingenieria"
-   ]
-  },
-  {
-   "id": "freidora",
-   "tema": "Tu freidora de aire no fríe con aire",
-   "tipo": "evergreen",
-   "puntuacion": 66,
-   "por_que": "Objeto de cocina muy común y patrón «lo estás haciendo mal» (no apilar, no llenar el cesto). Nicho: los vídeos sobre electrodomésticos reales rinden (lavadora 38 mil, calentador solar 628 mil con comentarios 1.325). No está en escenas ni estado.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«Xóchitl explica cómo funciona el calentador solar…» (La Jornada) 628.453 vistas y 1.325 comentarios"
-    },
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "«¿Cómo funciona una lavadora?» 38.021 vistas"
-    }
-   ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Formato A: corte con resistencia, ventilador y cesto agujereado. Error: llenar el cesto hasta arriba y tapar el flujo. Mecanismo: es un horno de convección pequeño; el aire caliente barre la humedad de la superficie.",
-   "titulo": "Tu freidora de aire es un horno con turbo 🍟 ¿A cuántos grados corre el aire?",
-   "gancho": "Llenas el cesto hasta arriba… ¿y sale blando?",
-   "primer_segundo": "Cesto girando con patatas y flechas rojas de aire caliente que sube por los agujeros.",
-   "cifras": [
-    "Temperatura: hasta ~200 °C (comprobar)",
-    "Aire dando varias vueltas por segundo (comprobar)",
-    "Humedad que sale: contador de gramos de agua evaporada"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Resistencia calienta",
-    "Ventilador empuja el aire",
-    "El aire pasa por el cesto",
-    "Capa seca y crujiente",
-    "Error: cesto lleno bloquea el flujo",
-    "Qué hacer: una sola capa y agitar"
-   ],
-   "reglas": {
-    "cotidiano": 9,
-    "primer_segundo": 9,
-    "ensenar": 8
-   },
-   "potencial": "alto",
-   "por_que_funcionaria": "Error que el espectador comete esta noche y solución accionable; ideal para enviar a quien tiene una.",
-   "competencia": "Muchos recetarios, casi nadie explica el flujo de aire en 3D.",
-   "riesgos": "«Sin aceite» tiene matices; no prometer salud ni marcas.",
-   "mejor_hora": "20:00",
-   "hashtags": [
-    "freidoradeaire",
-    "cocina",
-    "hogar",
-    "comofunciona",
-    "trucos"
-   ]
-  },
   {
    "id": "t261113ir",
    "tema": "Los LED rojos alrededor de las cámaras de vigilancia: luz infrarroja",
    "tipo": "actualidad",
-   "puntuacion": 64,
+   "puntuacion": 74,
    "por_que": "El short «Esos foquitos rojos alrededor de la cámara NO están de adorno» lleva 3.841.367 vistas y 175.670 me gusta en 5 días en Ciencia y tecnología de YouTube España.",
    "senales": [
     {
      "fuente": "YouTube España · ciencia y tecnología",
      "dato": "3.841.367 vistas, 175.670 me gusta (8-nov)",
      "url": "https://www.youtube.com/watch?v=JYWtaI64t_I"
+    },
+    {
+     "fuente": "YouTube España (ciencia y tecnología, 14-nov)",
+     "dato": "«Esos foquitos rojos alrededor de la cámara NO están de adorno» (Stupy Doo): 4.123.044 vistas en 6 días"
     }
    ],
-   "urgencia": "media: el tema está caliente esta semana",
+   "urgencia": "Alta: el short de la competencia sigue sumando millones esta semana",
    "angulo": "Por qué las cámaras ven de noche en blanco y negro: un anillo de LED infrarrojos ilumina la calle y el sensor quita su filtro (un filtro que se mueve con un clic). No repetir el vídeo «mando» (luz del mando que no se ve).",
    "titulo": "¿Por qué brillan en rojo las cámaras del portal? 🔴 Así ven de noche",
    "gancho": "¿Ves esos puntitos rojos de la cámara?",
@@ -257,54 +105,6 @@
    ]
   },
   {
-   "id": "aspiradora",
-   "tema": "Tu aspiradora no chupa: empuja el aire",
-   "tipo": "evergreen",
-   "puntuacion": 62,
-   "por_que": "Corrige una creencia sobre un objeto de casa (patrón del router). Mecanismo claro (presión) y comparación con tu entorno. No está en escenas.",
-   "senales": [
-    {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "Tendencia de mecanismos domésticos: lavadora 38 mil, brazo 525 mil, calentador solar 628 mil"
-    }
-   ],
-   "urgencia": "Baja: evergreen",
-   "angulo": "Formato A: ventilador baja la presión dentro y el aire de fuera empuja la suciedad. Error: llevar el filtro lleno o tapar la entrada.",
-   "titulo": "Tu aspiradora no chupa nada 🌀 La que empuja es la habitación",
-   "gancho": "Tu aspiradora no chupa… ¿entonces qué hace?",
-   "primer_segundo": "Boquilla pasando sobre migas con flechas rojas de aire.",
-   "cifras": [
-    "Depresión interna: contador de presión",
-    "Aire que entra: litros por segundo (comprobar)",
-    "Rpm del motor (comprobar)"
-   ],
-   "formato": "A",
-   "estructura": [
-    "Motor y ventilador",
-    "Baja presión",
-    "Empuja el aire exterior",
-    "Filtro lleno: pierde fuerza",
-    "Qué hacer"
-   ],
-   "reglas": {
-    "cotidiano": 10,
-    "primer_segundo": 9,
-    "ensenar": 8
-   },
-   "potencial": "medio",
-   "por_que_funcionaria": "Giro de creencia con flechas visibles.",
-   "competencia": "Mucho contenido genérico.",
-   "riesgos": "Mecanismo mejor conocido; la cifra enorme no destaca.",
-   "mejor_hora": "19:00",
-   "hashtags": [
-    "aspiradora",
-    "hogar",
-    "fisica",
-    "comofunciona",
-    "trucos"
-   ]
-  },
-  {
    "id": "t261113brazo",
    "tema": "Tu brazo es una palanca que juega en tu contra",
    "tipo": "evergreen",
@@ -351,6 +151,54 @@
     "palancas",
     "ciencia",
     "gimnasio"
+   ]
+  },
+  {
+   "id": "t261114silbato",
+   "tema": "Cómo suena un silbato: la bolita que corta el aire",
+   "tipo": "evergreen",
+   "puntuacion": 58,
+   "por_que": "En los shorts de «cómo funciona» de la semana, «¿Cómo funciona un silbato? (No es lo que crees)» lleva 116.070 vistas en 6 días. Objeto pequeño que casi todos han soplado (árbitro, perro, emergencia) y con mecanismo visible: el chorro de aire choca con un filo y la bolita lo corta.",
+   "senales": [
+    {
+     "fuente": "YouTube shorts «cómo funciona» (semana)",
+     "dato": "«¿Cómo funciona un silbato? (No es lo que crees)» (mecanica_oculta): 116.070 vistas"
+    }
+   ],
+   "urgencia": "Media: un tema que está saliendo esta semana en el nicho",
+   "angulo": "Formato B: inventar el silbato pieza a pieza (boquilla, filo, cámara, bolita) y enseñar cómo cambia el sonido.",
+   "titulo": "¿Para qué lleva una bolita tu silbato? 🔊",
+   "gancho": "Soplas tu silbato… ¿para qué sirve la bolita?",
+   "primer_segundo": "Silbato en corte con el aire entrando a chorro y la bolita girando dentro.",
+   "cifras": [
+    "Frecuencia de un silbato de árbitro: unos 3.000-4.000 Hz (comprobar)",
+    "Volumen: más de 100 dB a corta distancia (comprobar)",
+    "La bolita lo hace vibrar decenas de veces por segundo (comprobar)"
+   ],
+   "formato": "B",
+   "estructura": [
+    "Soplas: chorro de aire",
+    "El filo parte el chorro",
+    "La cámara resuena",
+    "La bolita corta el aire y hace el trino",
+    "Juego: ¿cuántos hercios?"
+   ],
+   "reglas": {
+    "cotidiano": 7,
+    "primer_segundo": 8,
+    "ensenar": 8
+   },
+   "potencial": "medio",
+   "por_que_funcionaria": "Mecanismo pequeño, sonoro y sorprendente; la cifra en hercios se puede enseñar con una onda.",
+   "competencia": "Ya hay un short con 116 mil vistas esta semana: hay que dar otro ángulo (la bolita).",
+   "riesgos": "No todo el mundo tiene silbato (regla 1 floja); hay que cuidar el volumen del sonido en el vídeo.",
+   "mejor_hora": "18:00",
+   "hashtags": [
+    "silbato",
+    "sonido",
+    "fisica",
+    "comofunciona",
+    "curiosidades"
    ]
   },
   {
@@ -407,54 +255,52 @@
    ]
   },
   {
-   "id": "tunelmadrid",
-   "tema": "Lo que esconde Madrid: el túnel del tren bajo el centro",
-   "tipo": "nicho",
-   "puntuacion": 55,
-   "por_que": "Serie «Lo que esconde tu ciudad» con la línea de Cercanías que cruza Madrid bajo el centro; los viajeros de cada día la usan sin verla. Tunelación en el nicho (84 mil).",
+   "id": "t261114desguace",
+   "tema": "Lo que pasa con tu coche en el desguace: la prensa que lo aplasta",
+   "tipo": "actualidad",
+   "puntuacion": 56,
+   "por_que": "«Desguace» aparece entre las búsquedas en tendencia de Google España (14-nov). Todo el mundo ha tenido o tendrá un coche viejo; la prensa y la fragmentadora enseñan cifras enormes (toneladas de fuerza, metal que se recicla).",
    "senales": [
     {
-     "fuente": "YouTube shorts «cómo funciona» (semana)",
-     "dato": "Tuneladora gigante 84.015 vistas"
-    },
-    {
-     "fuente": "Banco de la cuenta",
-     "dato": "serie-m30 y serie-canal ya usados: Madrid funciona bien"
+     "fuente": "Google Trends España (14-nov)",
+     "dato": "«desguace» entre las búsquedas en tendencia"
     }
    ],
-   "urgencia": "Media",
-   "angulo": "Formato C: «¿Y si construyes un túnel ferroviario bajo una ciudad?» sin cerrar la ciudad. Cifra de juego: cuántos trenes por hora pasan.",
-   "titulo": "Un túnel de trenes bajo el centro de Madrid 🚆 Lo que esconde tu ciudad (parte 5)",
-   "gancho": "Pisas el centro de Madrid… ¿y bajo tus pies pasa un tren?",
-   "primer_segundo": "Tren Cercanías entrando en el túnel con la calle encima.",
+   "urgencia": "Media: pico de búsquedas hoy",
+   "angulo": "Formato C: el viaje del coche por el desguace (descontaminar, desmontar, prensar, triturar y separar metales con imanes).",
+   "titulo": "¿Cuánto queda de tu coche después del desguace? 🚗",
+   "gancho": "Tu coche viejo… ¿cuánto se recicla?",
+   "primer_segundo": "La prensa bajando sobre un coche en primer plano, con flechas rojas de fuerza.",
    "cifras": [
-    "Longitud del túnel Atocha-Chamartín: ~7 km (comprobar)",
-    "Trenes por hora en hora punta (comprobar)"
+    "Porcentaje del peso del coche que se recicla: en torno al 85-95 % (comprobar)",
+    "Fuerza de la prensa: cientos de toneladas (comprobar)",
+    "Un imán separa el acero de lo demás (comprobar cifras)"
    ],
    "formato": "C",
    "estructura": [
-    "Calle sobre el túnel",
-    "Cut and cover",
-    "Cimientos",
-    "Cifra",
-    "Pie: comenta tu ciudad"
+    "Llega el coche",
+    "Se quitan líquidos y batería",
+    "Prensa",
+    "Trituradora",
+    "Imanes separan metales",
+    "Juego: ¿qué porcentaje se recicla?"
    ],
    "reglas": {
-    "cotidiano": 7,
-    "primer_segundo": 7,
+    "cotidiano": 8,
+    "primer_segundo": 9,
     "ensenar": 8
    },
    "potencial": "medio",
-   "por_que_funcionaria": "Serie con comentarios por ciudad.",
-   "competencia": "Sin shorts del tema en la lista.",
-   "riesgos": "Datos del túnel por comprobar; muy parecido al metro ya hecho.",
+   "por_que_funcionaria": "Imagen potente (coche aplastado) y una cifra enorme que se puede enseñar con una barra de porcentaje.",
+   "competencia": "Hay vídeos de prensas de coches, casi ninguno explica el reciclaje con cifras en castellano.",
+   "riesgos": "Comprobar por qué es tendencia hoy (si es por una noticia con víctimas, se descarta).",
    "mejor_hora": "19:00",
    "hashtags": [
-    "leesconde",
-    "madrid",
-    "tren",
-    "ciudad",
-    "ingenieria"
+    "desguace",
+    "coche",
+    "reciclaje",
+    "comofunciona",
+    "maquinas"
    ]
   },
   {
@@ -506,6 +352,26 @@
   }
  ],
  "descartadas": [
+  {
+   "tema": "Lo que esconde Madrid: el túnel del tren bajo el centro",
+   "motivo": "Ya en producción: guion «tunelave» (14-nov)."
+  },
+  {
+   "tema": "Tu aspiradora no chupa: empuja el aire",
+   "motivo": "Ya en producción: guion «aspiradora» (14-nov)."
+  },
+  {
+   "tema": "Tu freidora de aire no fríe con aire",
+   "motivo": "Ya en producción: guion «freidoraire» (14-nov)."
+  },
+  {
+   "tema": "Lo que esconde Barcelona: la desaladora que le da agua",
+   "motivo": "Ya en producción: guion «desaladora» (14-nov)."
+  },
+  {
+   "tema": "Tu cinturón de seguridad se bloquea y se tensa solo",
+   "motivo": "Ya en producción: guion «cinturon» (14-nov)."
+  },
   {
    "tema": "Huelga general, elecciones, CIS, Feijóo, Abascal, Colau, Pedro Sánchez",
    "motivo": "Política."
