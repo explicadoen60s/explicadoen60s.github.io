@@ -4020,7 +4020,7 @@
     "trucos de casa",
     "comofunciona"
    ],
-   "estado": "revisando",
+   "estado": "descartado",
    "creado": "2026-11-13",
    "idea": "error-cargador",
    "reglas": {
@@ -4084,23 +4084,63 @@
      "propuesta": "Cambia «Míralo, ahí, en la pared.» por «¡Míralo… ahí, en la pared!». Cambia «En todo un año, de cero a menos de dos kilovatios hora» por «En todo un año… menos de dos kilovatios hora». Escribe la cifra como «cero coma dos vatios» con «…» delante, sin efecto encima. Pon el sfx_cifra en la pausa antes de «Gasta», no sobre el número.",
      "aplicada": true,
      "respuesta": "Aplicados los dos cambios de texto; lo del efecto, en la escena."
+    },
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "Objeto de pared y error común reales, pero la revelación (0,2 W) sigue sin comparación enorme. El director mantuvo los vatios, lo cual es válido, pero la sorpresa hay que hacerla visible. Los cálculos cuadran: 0,2 W durante un año son unos 1,75 kWh, y una bombilla de 10 W gasta eso en una semana.",
+     "propuesta": "Después de «Gasta unos cero coma dos vatios.» añade «Cincuenta veces menos que una bombilla led.» (10 W / 0,2 W = 50). La pastilla de la escena puede contar 10 W → 0,2 W y así la cifra pequeña se ve como una sorpresa.",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Texto actual cumple: «cargador» suena en la primera frase (8 palabras), está en título y pie, y la entonación de las cifras ya está arreglada. La cifra minúscula (0,2 W) se compensa con el contraste con la bombilla de 10 W.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "Se puede enseñar (vatímetro 3 W a 0,2 W, 230 V a 5 V, bombilla de 10 W frente a menos de 2 kWh), pero el contador de la cifra del juego es 0,2 W, una cifra casi invisible. Además, «Una bombilla led de diez vatios gasta eso en una semana» es dudosa: 10 W x 168 h son 1,7 kWh, que es el año entero del cargador, así que cuadra, pero sin escala se queda en frase.",
+     "propuesta": "Cambia «Una bombilla led de diez vatios gasta eso en una semana.» por «Una bombilla led de diez vatios gasta eso en una semana: mira cómo se llena su contador mientras el del cargador casi no se mueve.» y pon en la escena dos contadores de kWh lado a lado (cargador en 1,7 al cabo del año, bombilla en 1,7 a la semana). Con eso la cifra pasa a ser visible y el mínimo de 2 cifras que cambian queda cubierto.",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "206 palabras, unos 60 s a 3,4 palabras/s. La primera frase tiene 8 palabras. «¡Míralo… ahí, en la pared!» da el gancho. «Y aquí viene lo curioso… Gasta unos cero coma dos vatios» pone la pausa antes de la cifra. «En todo un año… menos de dos kilovatios hora» ya no lleva contadores raros. En la escena, el sfx_cifra va en la pausa antes de «Gasta», no sobre el número.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {
     "tiktok": {
-     "titulo": "¿Cuántos vatios gasta tu cargador enchufado sin móvil? 🔌",
-     "texto": "¿Cuántos vatios gasta tu cargador sin móvil? Escribe tu número y mira la respuesta. Envíaselo a ese amigo que desenchufa todos los cargadores. ¿Cuál era tu número? 👇",
+     "titulo": "¿Tu cargador gasta luz sin el móvil? 🔌 Escribe cuántos vatios",
+     "texto": "Enchufado sin móvil, un cargador moderno gasta unos 0,2 W: menos de 2 kWh al año. Envíaselo a ese amigo que desenchufa todos los cargadores por miedo a la factura. ¿Cuál era tu número? 👇",
      "tags": [
       "cargador",
-      "consumo",
+      "consumo en espera",
       "ahorro luz",
       "trucos de casa",
       "comofunciona"
      ]
     },
     "instagram": {
-     "titulo": "Cargador enchufado sin móvil: cuánto gasta de verdad",
-     "texto": "Cargador enchufado sin móvil: ¿gasta luz? Un cargador moderno consume unos 0,2 vatios en espera, menos de 2 kWh al año. El inalámbrico y los viejos gastan bastante más, y ahí sí compensa una regleta con interruptor. Envíaselo a quien desenchufa el cargador por miedo a la factura. ¿Cuál era tu número? 👇 #cargador #consumo #ahorroluz #trucosdecasa #comofunciona",
+     "titulo": "¿Cuánto gasta tu cargador enchufado sin el móvil?",
+     "texto": "Consumo en espera del cargador: un cargador moderno sin móvil gasta unos 0,2 vatios (menos de 2 kWh al año, menos de un euro). El inalámbrico y los viejos gastan bastante más: usa una regleta con interruptor. Envíaselo a quien desenchufa el cargador cada noche. ¿Cuál era tu número? 👇 #cargador #consumo #ahorroluz #trucosdecasa #comofunciona",
      "tags": [
       "cargador",
       "consumo",
@@ -4110,8 +4150,8 @@
      ]
     },
     "youtube": {
-     "titulo": "¿Gasta luz un cargador sin móvil? Cómo funciona 🔌",
-     "texto": "Cómo funciona un cargador y cuánto consume enchufado sin móvil: unos 0,2 vatios. ¿Cuál era tu número? 👇 #shorts",
+     "titulo": "¿Cuánto gasta un cargador sin móvil? Cómo funciona",
+     "texto": "Cómo funciona un cargador enchufado sin móvil y cuánta luz gasta de verdad: unos 0,2 W, menos de 2 kWh al año. Qué cargadores sí conviene apagar. ¿Cuál era tu número? 👇 #shorts",
      "tags": [
       "cargador",
       "consumo en espera",
@@ -4122,7 +4162,7 @@
     }
    },
    "nota_escena": "Motion: vatímetro grande entre pared y cargador (3,0 W con móvil → 0,2 W sin él), bombilla de 10 W que se llena con el contador anual, dos vatímetros lado a lado (0,2 frente a 2 W) y flecha de calor roja en el viejo; sfx_cifra en la pausa antes de «Gasta».",
-   "ronda": 1
+   "ronda": 2
   },
   {
    "id": "desaladora",
@@ -4494,7 +4534,7 @@
     "trucos de movil",
     "comofunciona"
    ],
-   "estado": "revisando",
+   "estado": "propuesto",
    "creado": "2026-11-13",
    "idea": "error-movil100",
    "reglas": {
@@ -4558,44 +4598,84 @@
      "propuesta": "Cambia las dos frases de los voltios por «Cargada del todo, a cuatro coma dos voltios, aguanta unos quinientos ciclos… ¡con un poco menos de carga, más de mil!». Pon «…» antes de «pierde un veinte por ciento» y deja esa cifra sin efecto. Escribe «ochenta por ciento» tal cual, sin símbolo. En el gancho, cambia «Y se queda ahí, apretado, horas y horas.» por «¡Y se queda ahí, apretado, horas y horas!».",
      "aplicada": true,
      "respuesta": "Aplicado, manteniendo «en laboratorio» y «con cuatro voltios» para no perder el dato."
+    },
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Es el mejor de los cuatro: móvil en la mano, hábito de cada noche (enchufarlo a las once), error común claro, acción inmediata (límite del 80 %) y cifras que cambian: 20 % frente a 4 % de pérdida, y 500 frente a más de 1.000 ciclos. Se comparte fácilmente.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Cumple: «móvil» y «batería» suenan en los 2 primeros segundos, el título de TikTok lleva la pregunta del juego y las cifras ya van simplificadas (quinientos ciclos frente a más de mil). Pie con acción concreta (límite de carga).",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Se enseña: el porcentaje del móvil sube a 100, dos barras de ciclos (unos 500 frente a más de 1.000) que se recortan, y capacidad 100 a 80 % (llena) frente a 96 % (al 40 %), con el 20 % del juego como cifra más visible. La ronda 1 ya simplificó los ciclos y el resto es de escena.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "207 palabras, unos 61 s. La primera frase tiene 8 palabras y «¡Y se queda ahí, apretado, horas y horas!» da energía al gancho. La frase de los voltios ya es legible: «cuatro coma dos voltios… ¡Con cuatro voltios, más de mil!». «…» va antes de «pierde un veinte por ciento». La cifra aparece pasado el minuto 0:15, como pide la regla. En la escena, el sfx_cifra va en la pausa, no sobre el veinte.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {
     "tiktok": {
-     "titulo": "¿Cuánta batería pierde tu móvil lleno cada noche? No es tan inocente 🔋",
-     "texto": "¿Cuánta batería pierde tu móvil lleno cada noche? Escribe tu número en porcentaje. Envíaselo a ese amigo que carga el móvil al 100 % cada noche. ¿Cuál era tu número? 👇",
+     "titulo": "¿Cargas el móvil al 100 % cada noche? 🔋 ¿Cuánta batería pierde en un año?",
+     "texto": "Una batería de litio guardada al 100 % pierde un 20 % de capacidad en un año; al 40 %, solo un 4 %. Activa el límite de carga de tu móvil. Envíaselo a ese amigo que carga el móvil al 100 % cada noche. ¿Cuál era tu número? 👇",
      "tags": [
       "bateria",
       "movil",
-      "litio",
-      "trucos de movil",
-      "comofunciona"
-     ]
-    },
-    "instagram": {
-     "titulo": "Cargar el móvil al 100 % cada noche: lo que le hace a la batería",
-     "texto": "Cargar el móvil al 100 % cada noche castiga la batería: una celda de litio guardada llena pierde un 20 % de capacidad en un año, y al 40 %, solo un 4 %. Activa el límite de carga al 80 % en ajustes. Envíaselo a quien carga el móvil al 100 % cada noche. ¿Cuánto creías que perdía? 👇 #bateria #movil #litio #trucosdemovil #comofunciona",
-     "tags": [
-      "bateria",
-      "movil",
-      "litio",
-      "trucosdemovil",
-      "comofunciona"
-     ]
-    },
-    "youtube": {
-     "titulo": "¿Cargar el móvil al 100 % estropea la batería? Cómo funciona 🔋",
-     "texto": "Cómo funciona la batería de litio de tu móvil y por qué conviene limitar la carga al 80 %: llena pierde un 20 % de capacidad al año. ¿Cuál era tu número? 👇 #shorts",
-     "tags": [
-      "bateria movil",
-      "cargar al 100",
       "litio",
       "limite de carga",
       "comofunciona"
      ]
+    },
+    "instagram": {
+     "titulo": "¿Cuánta batería pierde tu móvil si lo cargas al 100 % cada noche?",
+     "texto": "Cargar el móvil al 100 % cada noche aprieta el litio y gasta la batería: guardada llena pierde un 20 % de capacidad en un año, y al 40 % solo un 4 %. Activa el límite de carga al 80 % en ajustes. Envíaselo a quien carga el móvil toda la noche. ¿Cuál era tu número? 👇 #bateria #movil #litio #limitedecarga #comofunciona",
+     "tags": [
+      "bateria",
+      "movil",
+      "litio",
+      "limitedecarga",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "¿Cargar el móvil al 100 % estropea la batería? Cómo funciona",
+     "texto": "Cómo funciona la batería de litio de tu móvil y por qué cargarla al 100 % cada noche la desgasta: pierde un 20 % en un año guardada llena. Activa el límite de carga al 80 %. ¿Cuál era tu número? 👇 #shorts",
+     "tags": [
+      "bateria movil",
+      "cargar al 100",
+      "limite de carga",
+      "litio",
+      "comofunciona"
+     ]
     }
    },
-   "ronda": 1
+   "ronda": 2
   },
   {
    "id": "tunelave",
@@ -4611,7 +4691,7 @@
     "alta velocidad",
     "lo que esconde tu ciudad"
    ],
-   "estado": "revisando",
+   "estado": "propuesto",
    "creado": "2026-11-13",
    "tendencia": "Lo que esconde Madrid: el túnel del tren bajo el centro",
    "reglas": {
@@ -4675,45 +4755,85 @@
      "propuesta": "Cambia «bajas de cero a cincuenta y cinco metros de profundidad» por «bajas… ¡cincuenta y cinco metros!». Cambia «El gasto sube de cero a trescientos treinta y ocho millones de euros» por «Costó trescientos treinta y ocho millones de euros». Quita la frase del ancho de vía. Pon «…» antes de «siete coma tres kilómetros».",
      "aplicada": true,
      "respuesta": "Aplicado; el ancho de vía queda sin cifra («vías de ancho internacional, como el AVE») porque explica por qué ahora no te bajas del tren."
+    },
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Es de la serie, formato C, con la cadena de «pero… así que…». La comparación de los 55 m con un edificio de dieciocho plantas (3 m por planta) ya está aplicada y da la cifra enorme. Longitud, coste y fecha ya estaban comprobados. Que solo toque a Madrid se compensa con la petición de ciudad en el cierre.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Cumple: «túnel», «Atocha» y «Chamartín» suenan en la primera frase y están en título y pie; la pregunta del juego va tal cual al inicio (importante en un vídeo largo). Cifras ya simplificadas.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Quitados el ancho de vía y el «de cero a» del coste. Quedan cifras que se mueven: profundidad hasta 55 m, contador de km hasta 7,3 sobre el trazado en corte longitudinal con la tuneladora, velocímetro hasta 120 km/h y pastilla de 338 millones junto a la máquina. Hay más de 2 cifras que cambian.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "208 palabras, unos 61 s. La primera frase tiene 8 palabras. «Así que bajas… ¡hasta cincuenta y cinco metros!» y «El túnel mide siete coma tres kilómetros» llevan la pausa o la exclamación antes del dato. Ya no hay contadores escritos «de cero a…». Queda un bloque con tres cifras seguidas (julio de dos mil veintidós, trescientos treinta y ocho millones, ciento veinte km/h). Con una pausa entre ellas la voz las aguanta; no pongas efecto encima de ninguna.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {
     "tiktok": {
-     "titulo": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín? 🚄",
-     "texto": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín? Escribe tu número. Dime en qué ciudad vives y te cuento qué esconde. ¿Cuál era tu número? 👇",
+     "titulo": "¿Cuántos kilómetros de túnel unen Atocha con Chamartín? 🚄 Escribe tu número",
+     "texto": "El túnel del AVE bajo Madrid baja hasta 55 m y une por fin las líneas del sur y del norte. Dime en qué ciudad vives y qué obra quieres ver. Envíaselo a ese amigo que ha cambiado de estación en Madrid. ¿Cuál era tu número? 👇",
      "tags": [
       "madrid",
-      "tunel",
-      "ave",
-      "alta velocidad",
-      "lo que esconde tu ciudad"
+      "tunel ave",
+      "atocha chamartin",
+      "lo que esconde tu ciudad",
+      "comofunciona"
      ]
     },
     "instagram": {
-     "titulo": "Túnel del AVE Atocha-Chamartín: así se excavó bajo Madrid",
-     "texto": "Túnel del AVE entre Atocha y Chamartín: 7,3 km bajo el centro de Madrid, hasta 55 m de profundidad, excavado con una tuneladora de presión de tierras. Envíaselo a quien haya cambiado de estación en Madrid. ¿Cuántos km pensabas? 👇 #madrid #tunel #ave #altavelocidad #loqueesconde",
+     "titulo": "El túnel del AVE que une Atocha y Chamartín",
+     "texto": "Madrid tenía dos redes de alta velocidad que no se tocaban. El túnel del AVE las une por debajo: baja hasta 55 m, mide 7,3 km y costó 338 millones de euros. Cuéntame en qué ciudad vives y qué obra esconde. Envíaselo a quien ha tenido que cambiar de estación en Madrid. ¿Cuál era tu número? 👇 #madrid #tunelave #atochachamartin #altavelocidad #comofunciona",
      "tags": [
       "madrid",
-      "tunel",
-      "ave",
+      "tunelave",
+      "atochachamartin",
       "altavelocidad",
-      "loqueesconde"
+      "comofunciona"
      ]
     },
     "youtube": {
-     "titulo": "Cómo funciona el túnel del AVE entre Atocha y Chamartín 🚄",
-     "texto": "Cómo se construyó el túnel del AVE bajo Madrid: 7,3 km, hasta 55 m de profundidad y una tuneladora de presión de tierras. ¿Cuál era tu número? 👇 #shorts",
+     "titulo": "Cómo funciona el túnel del AVE entre Atocha y Chamartín",
+     "texto": "Cómo funciona el túnel del AVE de Madrid: 7,3 km bajo el centro, hasta 55 m de profundidad y una tuneladora de presión de tierras. Dime en qué ciudad vives y qué obra quieres ver. ¿Cuál era tu número? 👇 #shorts",
      "tags": [
-      "tunel AVE madrid",
+      "tunel ave madrid",
       "atocha chamartin",
       "tuneladora",
-      "alta velocidad",
+      "lo que esconde tu ciudad",
       "comofunciona"
      ]
     }
    },
    "nota_escena": "Motion: corte longitudinal con la tuneladora avanzando, contador de km hasta 7,3 sobre el trazado Atocha-Chamartín y perfil de profundidad hasta 55 m; pastilla pequeña de euros; velocímetro a 120 km/h.",
-   "ronda": 1
+   "ronda": 2
   },
   {
    "id": "freidoraire",
@@ -4906,7 +5026,7 @@
     "ingenieria",
     "lo que esconde tu ciudad"
    ],
-   "estado": "revisando",
+   "estado": "propuesto",
    "creado": "2026-11-13",
    "reglas": {
     "cotidiano": 7,
@@ -4969,44 +5089,84 @@
      "propuesta": "Cambia «de cero a sesenta y un metros» por «de sesenta y un metros». Cambia «Caben de cero a seis coches y doscientos pasajeros» por «Caben seis coches y doscientos pasajeros». Quita «Cruza en minuto y medio, y sale cada ocho minutos» o deja solo «Cruza en minuto y medio». Pon «…» antes de «cuarenta y cinco metros» y deja esa cifra sin efecto.",
      "aplicada": true,
      "respuesta": "Aplicado todo: queda «Cruza la ría en minuto y medio» y «…» antes de los 45 m."
+    },
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Se han aplicado las dos correcciones: 45 m comparados con un edificio de quince plantas y «seis coches y doscientos pasajeros». La estructura problema-solución es sólida, y la cifra y el contador (45 m) se pueden enseñar. Es serie y se puede enviar a un bilbaíno.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Aplicada mi propuesta de la ronda 1: «puente colgante» suena en voz y va en el pie; «puente de Vizcaya» está en la primera frase, el título y el pie. Comparación de 45 m con un edificio de quince plantas ya incluida.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Muy enseñable: torres que suben a 61 m, viga de 160 m, cota de 45 m sobre el agua (la del juego, revelada a mitad), contador de 0 a 6 coches y de 0 a 200 pasajeros, y cronómetro de 1,5 min.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "213 palabras, unos 63 s, dentro del tope de 225. La primera frase tiene 8 palabras. «La viga cuelga… a cuarenta y cinco metros» pone la pausa antes de la cifra. Ya no quedan «de cero a…» ni la frase de los ocho minutos. El cierre en bucle suena natural. En la escena, el sfx_cifra va en la pausa antes de «cuarenta», sin efecto sobre el número.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {
     "tiktok": {
-     "titulo": "¿A qué altura cuelga el puente de Vizcaya? 🌉",
-     "texto": "¿A qué altura cuelga el puente colgante de Vizcaya? Escribe tus metros. Dime en qué ciudad vives y te cuento qué esconde. ¿Cuál era tu número? 👇",
+     "titulo": "¿A qué altura cuelga el puente de Vizcaya? 🌉 Escribe tus metros",
+     "texto": "El puente colgante de Vizcaya (Portugalete-Getxo) cuelga su viga a 45 m sobre la ría y una barquilla cruza coches y personas en minuto y medio. Dime en qué ciudad vives y qué obra quieres ver. Envíaselo a ese amigo que es de Bilbao. ¿Cuál era tu número? 👇",
      "tags": [
-      "bilbao",
       "puente de vizcaya",
-      "puentes",
-      "ingenieria",
-      "lo que esconde tu ciudad"
+      "puente colgante",
+      "bilbao",
+      "lo que esconde tu ciudad",
+      "comofunciona"
      ]
     },
     "instagram": {
-     "titulo": "Puente de Vizcaya: el puente colgante que cruza una barquilla",
-     "texto": "Puente de Vizcaya (Portugalete-Getxo): un puente colgante de 1893 cuya viga cuelga a 45 m sobre la ría y por donde una barquilla cruza coches y personas en minuto y medio. Es Patrimonio Mundial. Envíaselo a quien sea de Bilbao. ¿A qué altura pensabas? 👇 #puentedevizcaya #bilbao #puentes #ingenieria #loqueesconde",
+     "titulo": "El puente colgante de Vizcaya: una barquilla que cuelga sobre la ría",
+     "texto": "El puente de Vizcaya (Puente Bizkaia, Portugalete-Getxo) es un puente colgante con transbordador: su viga cuelga a 45 m sobre la ría y la barquilla cruza seis coches y 200 personas en minuto y medio. Patrimonio Mundial desde 2006. Cuéntame en qué ciudad vives y qué obra esconde. Envíaselo a quien sea de Bilbao. ¿Cuál era tu número? 👇 #puentedevizcaya #puentecolgante #bilbao #puentebizkaia #comofunciona",
      "tags": [
       "puentedevizcaya",
+      "puentecolgante",
       "bilbao",
-      "puentes",
-      "ingenieria",
-      "loqueesconde"
+      "puentebizkaia",
+      "comofunciona"
      ]
     },
     "youtube": {
-     "titulo": "Cómo funciona el puente de Vizcaya, que cuelga una barquilla 🌉",
-     "texto": "Cómo funciona el puente colgante de Vizcaya (Bilbao): una viga a 45 m y una barquilla que cruza la ría en minuto y medio. ¿Cuál era tu número? 👇 #shorts",
+     "titulo": "Cómo funciona el puente colgante de Vizcaya (Bizkaia)",
+     "texto": "Cómo funciona el puente colgante de Vizcaya, el transbordador de Portugalete y Getxo: viga a 45 m sobre la ría y una barquilla que cruza en minuto y medio. Patrimonio Mundial de la UNESCO. ¿Cuál era tu número? 👇 #shorts",
      "tags": [
       "puente de vizcaya",
-      "puente colgante bilbao",
+      "puente colgante",
       "transbordador",
-      "ingenieria",
+      "bilbao",
       "comofunciona"
      ]
     }
    },
-   "ronda": 1
+   "ronda": 2
   }
  ]
 }

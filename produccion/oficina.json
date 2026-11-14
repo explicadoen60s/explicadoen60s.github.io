@@ -1708,6 +1708,35 @@
    "estado": "aplicada",
    "fecha": "2026-11-14T09:05:11+00:00",
    "video": "freidoraire"
+  },
+  {
+   "fecha": "2026-11-14T09:07:06+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cargadorvacio",
+   "texto": "Objeto de pared y error común reales, pero la revelación (0,2 W) sigue sin comparación enorme. El director mantuvo los vatios, lo cual es válido, pero la sorpresa hay que hacerla visible. Los cálculos cuadran: 0,2 W dura"
+  },
+  {
+   "fecha": "2026-11-14T09:07:06+00:00",
+   "rol": "motion",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cargadorvacio",
+   "texto": "Se puede enseñar (vatímetro 3 W a 0,2 W, 230 V a 5 V, bombilla de 10 W frente a menos de 2 kWh), pero el contador de la cifra del juego es 0,2 W, una cifra casi invisible. Además, «Una bombilla led de diez vatios gasta e"
+  },
+  {
+   "fecha": "2026-11-14T09:07:06+00:00",
+   "rol": "director",
+   "tipo": "aviso",
+   "video": "cargadorvacio",
+   "texto": "Cargadorvacio descartado tras dos rondas con 2 de 4 ok (estratega y motion: los 0,2 W necesitan una comparación visible). La idea vuelve al banco con sus propuestas."
+  },
+  {
+   "fecha": "2026-11-14T09:07:06+00:00",
+   "rol": "director",
+   "tipo": "revision",
+   "texto": "Bateria100, tunelave y transbordador pasan a propuesto con 4 de 4 ok en la segunda ronda; seo deja sus títulos por red."
   }
  ],
  "manual": [

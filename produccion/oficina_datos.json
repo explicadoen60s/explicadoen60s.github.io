@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T09:05:50+00:00",
+ "actualizado": "2026-11-14T09:07:07+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1585.0,
@@ -8,7 +8,7 @@
  "maduros": 40,
  "puestos": {
   "director": {
-   "ahora": "0 guiones esperando tu visto bueno",
+   "ahora": "3 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -67,7 +67,7 @@
    "foco": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,16× lo normal, frente a 0,86× los demás."
   },
   "estratega": {
-   "ahora": "0 ideas en el banco · tendencias de hoy · 3 segundas partes por proponer",
+   "ahora": "1 ideas en el banco · tendencias de hoy · 3 segundas partes por proponer",
    "pendiente": 3,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
@@ -467,16 +467,16 @@
   }
  ],
  "compuertas": {
-  "freidoraire": [
+  "bateria100": [
    {
     "nivel": "ok",
     "rol": "sonido",
-    "texto": "208 palabras (≈61 s)"
+    "texto": "207 palabras (≈61 s)"
    },
    {
     "nivel": "ok",
     "rol": "motion",
-    "texto": "13 cifras en el guion (mínimo 2 que se puedan enseñar)"
+    "texto": "25 cifras en el guion (mínimo 2 que se puedan enseñar)"
    },
    {
     "nivel": "ok",
@@ -486,7 +486,71 @@
    {
     "nivel": "ok",
     "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 9/10"
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "tunelave": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "208 palabras (≈61 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "transbordador": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "213 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "17 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 7/10"
    },
    {
     "nivel": "ok",
@@ -1606,32 +1670,6 @@
      "tipo": "potenciar",
      "metrica": "sfx_min",
      "texto": "Efectos de sonido por minuto: 32 /min, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
-    }
-   ],
-   "freidoraire": [
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 69 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "sfx_min",
-     "texto": "Efectos de sonido por minuto: 34 /min, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",

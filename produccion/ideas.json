@@ -73,11 +73,10 @@
    "texto": "¿Dejas el cargador enchufado sin el móvil? 🔌 Esto es lo que gasta de verdad",
    "prioridad": "alta",
    "origen": "encargo: por qué funcionó el router (12-nov)",
-   "notas": "Patrón «lo estás haciendo mal»: consumo en vacío del cargador (cifras a comprobar).",
+   "notas": "Patrón «lo estás haciendo mal»: consumo en vacío del cargador (cifras a comprobar).\n\nDescartado el 14-nov (guion «cargadorvacio»): 2 de 4 ok tras dos rondas. Estratega y motion piden una comparación visible para los 0,2 W: «Cincuenta veces menos que una bombilla led» y dos contadores de kWh lado a lado (cargador en un año frente a bombilla en una semana).",
    "por": "Claude",
    "fecha": "2026-11-12T16:34:01+01:00",
-   "estado": "usada",
-   "guion": "cargadorvacio"
+   "estado": "nueva"
   },
   {
    "id": "error-nevera",
