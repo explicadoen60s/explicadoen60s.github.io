@@ -1652,6 +1652,38 @@
    "estado": "aplicada",
    "fecha": "2026-11-14T08:49:46+00:00",
    "video": "desaladora"
+  },
+  {
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "texto": "Lavar30: lavadora con la pared cortada por booleana (modelo nuevo «lavadora» en modelos.py), cámara por cortes y planos rehechos para que la barra de 60 °C quepa entera.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T09:01:26+00:00",
+   "video": "lavar30"
+  },
+  {
+   "rol": "motion",
+   "tipo": "mejora",
+   "texto": "Lavar30: experimento de 9 rótulos y 5 contadores; pastillas de kWh que ya no se pisan y tarjeta «LA CIFRA 80-85» que no se va tras la revelación.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T09:01:26+00:00",
+   "video": "lavar30"
+  },
+  {
+   "rol": "sonido",
+   "tipo": "mejora",
+   "texto": "Lavar30: pop movido fuera de «cuatro»; ningún efecto sobre una cifra dicha.",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T09:01:26+00:00",
+   "video": "lavar30"
+  },
+  {
+   "rol": "editor",
+   "tipo": "mejora",
+   "texto": "Lavar30: cortes nuevos en «con poca», «el calor» y «pídelo» para no pasar de 2 s sin cambio. Voz alineada de 69,8 s (por debajo de 71 s).",
+   "estado": "aplicada",
+   "fecha": "2026-11-14T09:01:26+00:00",
+   "video": "lavar30"
   }
  ],
  "manual": [

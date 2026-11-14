@@ -17,16 +17,16 @@ def pastilla(C, ctx, t, v, u, a, b, A, key, dx=0, dy=-110, desde=None, dec=0, du
     x, y = A(key); C.pastilla(ctx, t, v, u, a, b, clampx(x + dx, 280), clampy(y + dy, lo, 1380), desde=desde, dec=dec, dur=dur, size=size)
 
 def tarjeta_resuelta(C, ctx, t):
-    a0, b0, fin = T("casi todo") - 0.3, T("te has acercado") - 0.3, T("sígueme")
+    a0, s0, b0, fin = T("entre el ochenta") + 1.1, T("casi todo") - 0.3, T("te has acercado") - 0.3, T("sígueme")
     if t < a0 or t > fin: return
-    m = C.ease((t - a0) / 0.45) if t < b0 else 1 - C.ease((t - b0) / 0.45)
+    m = C.ease((t - s0) / 0.45) if t < b0 else 1 - C.ease((t - b0) / 0.45)
     G, M = (C.W / 2, C.H * 0.33), (C.W * 0.21, C.H * 0.205)
     cx, cy = G[0] + (M[0] - G[0]) * m, G[1] + (M[1] - G[1]) * m
-    C._tarjeta_cifra(ctx, cx, cy, 1 - 0.45 * m, "¿TE HAS ACERCADO?" if m < 0.5 else "LA CIFRA", "80-85", "% EN CALENTAR AGUA", C.GREEN,
+    C._tarjeta_cifra(ctx, cx, cy, 1 - 0.45 * m, "¿TE HAS ACERCADO?" if t >= b0 else "LA CIFRA", "80-85", "% EN CALENTAR AGUA", C.GREEN,
                      alpha=min(1.0, (fin - t) / 0.3))
 
 def overlay(ctx, t, A, C):
-    C.cifra_juego(ctx, t, 80, "% EN CALENTAR AGUA", T("cuánta luz"), T("entre el ochenta"), T("casi todo") - 0.3)
+    C.cifra_juego(ctx, t, 80, "% EN CALENTAR AGUA", T("cuánta luz"), T("entre el ochenta"), T("entre el ochenta") + 1.45)
     tarjeta_resuelta(C, ctx, t)
     # rótulos de pieza (uno cada vez, nunca a la vez que una pastilla)
     C.rotulo(ctx, t, "MANDO", T("el mando") + 0.1, T("y eliges"))
@@ -41,7 +41,7 @@ def overlay(ctx, t, A, C):
     # cifras (con la del juego, 5 contadores)
     pastilla(C, ctx, t, 60, "°C", T("subir el agua") - 0.1, T("mira una") - 0.25, A, "termo", desde=15, dur=2.8)
     pastilla(C, ctx, t, 8, "kg", T("ocho") - 0.1, T("de veinte") - 0.25, A, "drum", desde=0, dur=0.6)
-    pastilla(C, ctx, t, 0.33, "kWh a 20 °C", T("de veinte") - 0.1, T("y aquí viene") - 0.25, A, "bars", dx=-140, dy=-60, desde=0, dec=2, dur=0.8, size=54)
+    pastilla(C, ctx, t, 0.33, "kWh a 20 °C", T("de veinte") - 0.1, T("de cero coma") - 0.15, A, "bars", dx=-140, dy=-60, desde=0, dec=2, dur=0.8, size=54)
     pastilla(C, ctx, t, 1.5, "kWh a 60 °C", T("de cero coma") - 0.1, T("y aquí viene") - 0.25, A, "meter", desde=0.33, dec=2, dur=3.0)
     pastilla(C, ctx, t, 62, "kWh al año", T("ahorras") - 0.1, T("con cuatro") - 0.25, A, "meter", desde=0, dur=2.0)
     # textos cortos y chispas
@@ -60,7 +60,7 @@ def sfx_events(C):
          (T("dentro") - 0.25, C.s_whoosh(), 0.3), (T("al rojo") - 0.1, C.s_buzz(1.2), 0.18), (T("el motor") - 0.25, C.s_whoosh(), 0.3),
          (T("gira con poca"), C.s_buzz(1.0), 0.1), (T("pero calentar") - 0.25, C.s_whoosh(), 0.3), (T("carísimo", fin=True), C.s_fail(), 0.3),
          (T("subir el agua") - 0.25, C.s_pop(), 0.3), (T("mira una") - 0.25, C.s_whoosh(), 0.3), (T("con algodón"), C.s_pop(), 0.3),
-         (T("de veinte") - 0.3, C.s_whoosh(), 0.3), (T("de cero coma") - 0.3, C.s_pop(), 0.3), (T("y aquí viene") - 0.25, C.s_whoosh(), 0.35),
+         (T("de veinte") - 0.3, C.s_whoosh(), 0.3), (T("el gasto") - 0.1, C.s_pop(), 0.3), (T("y aquí viene") - 0.25, C.s_whoosh(), 0.35),
          (T("casi todo") - 0.25, C.s_whoosh(), 0.3), (T("si bajas") - 0.25, C.s_clank(), 0.35), (T("ahorras") - 0.25, C.s_pop(), 0.3),
          (T("pero y la") - 0.2, C.s_whoosh(), 0.3), (T("desinfecta", fin=True), C.s_win(), 0.25), (T("así que guarda") - 0.25, C.s_whoosh(), 0.3),
          (T("qué haces") - 0.2, C.s_whoosh(), 0.35), (T("gira ahora") - 0.2, C.s_clank(), 0.4), (T("cuarenta", 2, fin=True) + 0.05, C.s_tick(), 0.4),

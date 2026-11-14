@@ -4306,7 +4306,7 @@
     "consumo",
     "comofunciona"
    ],
-   "estado": "voz",
+   "estado": "escena",
    "creado": "2026-11-13",
    "idea": "error-lavadora",
    "reglas": {
@@ -4370,6 +4370,76 @@
      "propuesta": "Cambia la frase por «De veinte a sesenta grados, el gasto se multiplica por cuatro y medio… de uno coma cincuenta kilovatios hora, frente a cero coma treinta y tres.» Quita «A cuarenta, uno coma veintiuno». Cambia «Entre el ochenta y el ochenta y cinco por ciento» por «¡Casi el ochenta por ciento de la energía se va en calentar el agua!». La revelación del juego es el ochenta, así que alinéala con esa frase.",
      "aplicada": true,
      "respuesta": "Aplicado el cambio de los decimales («se multiplica por más de cuatro»); mantengo «entre el ochenta y el ochenta y cinco», que es lo que dicen las fuentes, y «casi» lo rebajaría."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Primer fotograma con la mano girando el mando y cortes limpios, pero de 27 a 31 s la barra roja de 60 °C se sale por la derecha, el plano del motor deja medio suelo vacío y el general de «y aquí viene» queda lejos.",
+     "propuesta": "Objetivo del plano de «el gasto» a BARS+0,32; subir la cámara del motor a z +0,2; acercar «y aquí viene» a (0, -2,2, 1,5) con lente 34.",
+     "aplicada": true,
+     "respuesta": "Aplicado, y el plano de «de cero coma» se rehace para coger contador y barras."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Los 9 rótulos y los 5 contadores se ven, pero las pastillas de 0,33 y 1,5 kWh se pisan en 27,5-30,5 s y la tarjeta dice «¿TE HAS ACERCADO?» en la revelación.",
+     "propuesta": "Apagar la de 0,33 cuando entra la de 1,5; cabecera «LA CIFRA» en la revelación; encoger la tarjeta hacia 37,9 s.",
+     "aplicada": true,
+     "respuesta": "Aplicado los tres puntos con una tarjeta propia en lavar30_ov.py."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Cada acción cae en su palabra (mando en «sesenta» y «cuarenta», resistencia en «al rojo», 8 kg, 0,33→1,5, 62 kWh, ×4 en «multiplica»), corte cada ~2 s y bucle correcto; dura 70,2 s.",
+     "propuesta": "Opcional: cortes hacia 13 s, 48,7 s y 61,5 s.",
+     "aplicada": true,
+     "respuesta": "Añadidos cortes en «con poca», «el calor» y «pídelo»."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Unos 32 efectos/min con 9 tipos y ninguno encima de una cifra salvo el pop de «de cero coma», que cae dentro de «cuatro».",
+     "propuesta": "Pasarlo a T(\"el gasto\") - 0.1.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "La barra de 60 °C queda entera, las pastillas ya no se pisan y el motor llena mejor el encuadre; detalles menores en «y aquí viene» y la tarjeta sobre las barras.",
+     "propuesta": "Opcional: «y aquí viene» a (0, -1,6, 1,2) con lente 40.",
+     "aplicada": true,
+     "respuesta": "Aplicado en la escena."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "La de 0,33 se va antes de la de 1,5, el plano nuevo es legible y la tarjeta pasa a «LA CIFRA 80-85» y se encoge hacia 38 s.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "El pop cae en la pausa de 25,4 s, sin pisar «cuatro» ni «cero coma treinta y tres».",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
     }
    ],
    "seo": {

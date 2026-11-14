@@ -24,7 +24,7 @@ SUELO = (0.90, 0.86, 0.80); PIEL = (0.96, 0.78, 0.64); BACT = (0.45, 0.85, 0.30)
 L = Vector((0.0, 0.4, 0.0))                          # lavadora (frontal en y = 0.11)
 KNOB = L + Vector((0.19, -0.302, 0.785))
 DRUM = L + Vector((0.05, 0.02, 0.45))
-RES = L + Vector((-0.13, 0.04, 0.18))
+RES = L + Vector((-0.06, 0.04, 0.18))
 MOTOR = L + Vector((0.08, 0.18, 0.1))
 TERMO = Vector((-0.8, 0.5, 0.0))
 METER = Vector((0.85, 0.71, 1.25))
@@ -83,12 +83,12 @@ def build():
     S["lav"] = lavadora(tuple(L))
     ch = {o.name.split(".")[0]: o for o in S["lav"].children_recursive}
     S["pared"] = ch["pared_izq"]; S["pared"].data.materials.append(mat(PAL["corte"]))
-    S["cut"] = cortador((0.2, 0.5, 0.66), tuple(L + Vector((-0.3, 0.0, 0.43))))
+    S["cut"] = cortador((0.2, 0.5, 0.7), tuple(L + Vector((-0.3, 0.0, 0.41))))
     cortar(S["pared"], S["cut"])                                                     # corte real: modificador BOOLEAN
     S["mando"], S["tambor"], S["polea"] = ch["mando"], ch["tambor"], ch["polea"]
     # resistencia (en U bajo el tambor), agua con su superficie, burbujas
-    S["res"] = tubo([RES + Vector((0, -0.2, 0)), RES + Vector((0, 0.18, 0)), RES + Vector((0.07, 0.18, 0)), RES + Vector((0.07, -0.2, 0))], 0.019, (0.45, 0.45, 0.48), unique=True)
-    caja((0.13, 0.03, 0.06), tuple(RES + Vector((0.035, -0.22, 0))), (0.3, 0.3, 0.32), r=0.01)
+    S["res"] = tubo([RES + Vector((0, -0.22, 0)), RES + Vector((0, 0.04, 0)), RES + Vector((0.07, 0.04, 0)), RES + Vector((0.07, -0.22, 0))], 0.019, (0.45, 0.45, 0.48), unique=True)
+    caja((0.13, 0.03, 0.06), tuple(RES + Vector((0.035, -0.24, 0))), (0.3, 0.3, 0.32), r=0.01)
     S["agua"] = box((0.24, 0.42, 0.006), tuple(L + Vector((0.11, 0.02, 0.31))), (0.45, 0.72, 1.0), unique=True)
     S["burb"] = [sph(0.012, LEJOS, BURB, seg=8) for _ in range(NB)]
     # ropa dentro del tambor (8 kg de algodón)
@@ -160,7 +160,7 @@ def pose(t, S):
     for k, b in enumerate(S["burb"]):
         if c < 0.4: b.location = LEJOS; continue
         u = (t * 0.8 + k / NB) % 1.0
-        b.location = RES + Vector((0.035 + 0.03 * math.sin(k * 2.3), -0.18 + 0.36 * ((k * 0.37) % 1.0), 0.02 + 0.07 * u)); b.scale = ((c - 0.4) / 0.6 * (1 - u * 0.5),) * 3
+        b.location = RES + Vector((0.035 + 0.03 * math.sin(k * 2.3), -0.2 + 0.24 * ((k * 0.37) % 1.0), 0.02 + 0.07 * u)); b.scale = ((c - 0.4) / 0.6 * (1 - u * 0.5),) * 3
     S["disco"].rotation_euler = (0, t * (1.5 + 10 * c), 0)
     w = win01(t, T("el motor") - 0.1, T("pero calentar") - 0.2, 0.3, 0.3)
     S["fl_motor"].location = MOTOR + Vector((-0.05, -0.12, 0.14)) if w > 0.01 else LEJOS; S["fl_motor"].scale = (max(w * 0.6, 0.001),) * 3
@@ -226,20 +226,22 @@ def CAM():
     add(T("giras") - 0.2, V(tuple(KNOB), (-0.2, -0.5, 0.1), 40))
     add(T("dentro") - 0.2, V(tuple(DRUM + Vector((0, 0, -0.08))), (-0.95, -0.45, 0.2), 34))
     add(T("una resistencia") + 0.6, V(tuple(RES), (-0.55, -0.28, 0.14), 40))
-    add(T("el motor") - 0.2, V(tuple(MOTOR), (-0.6, -0.32, 0.18), 38))
+    add(T("el motor") - 0.2, V(tuple(MOTOR), (-0.55, -0.1, 0.2), 38))
+    add(T("con poca") - 0.2, V(tuple(DRUM), (-0.7, -0.3, 0.15), 38))
     add(T("pero calentar") - 0.2, V(SALA, (1.0, -2.5, 1.0), 30))
     add(T("subir el agua") - 0.2, V(tuple(TERMO + Vector((0.2, 0, 0.55))), (-0.35, -1.6, 0.3), 32))
     add(T("mira una") - 0.2, V(tuple(DRUM), (-1.0, -0.7, 0.4), 32))
     add(T("de veinte") - 0.2, V(tuple(BARS + Vector((0, 0, 0.45))), (-0.45, -1.7, 0.45), 32))
-    add(T("el gasto") - 0.1, V(tuple(BARS + Vector((0.05, 0, 0.6))), (0.4, -1.5, 0.3), 32))
-    add(T("de cero coma") - 0.2, V(tuple(METER + Vector((-0.15, 0, -0.45))), (-0.35, -1.6, 0.1), 32))
-    add(T("y aquí viene") - 0.2, V(SALA, (0.0, -2.9, 2.2), 30))
+    add(T("el gasto") - 0.1, V(tuple(BARS + Vector((0.32, 0, 0.6))), (0.4, -1.5, 0.3), 32))
+    add(T("de cero coma") - 0.2, V((0.85, 0.5, 0.85), (-0.2, -2.0, 0.15), 30))
+    add(T("y aquí viene") - 0.2, V(SALA, (0.0, -1.6, 1.2), 40))
     add(T("entre el ochenta") - 0.2, V(tuple(SPLIT + Vector((-0.2, 0, 0.45))), (-0.5, -1.6, 0.35), 32))
     add(T("casi todo") - 0.2, V(tuple(RES), (-0.5, -0.36, 0.17), 40))
     add(T("si bajas") - 0.2, V(tuple(KNOB), (-0.3, -0.5, 0.1), 40))
     add(T("ahorras") - 0.2, V(tuple(METER + Vector((-0.1, 0, -0.2))), (-0.3, -1.1, 0.1), 34))
     add(T("con cuatro") - 0.2, V(tuple(CESTOS[1] + Vector((0.15, 0, 0.15))), (-0.3, -1.4, 0.55), 32))
     add(T("pero y la") - 0.2, V(tuple(TOALLA), (-0.45, -0.8, 0.3), 36))
+    add(T("el calor") - 0.2, V(tuple(TOALLA), (-0.3, -0.55, 0.2), 40))
     add(T("así que guarda") - 0.2, V(tuple(L + Vector((0, 0, 0.6))), (0.6, -1.7, 0.6), 32))
     add(T("qué haces") - 0.2, V(tuple(KNOB), (0.25, -0.5, 0.1), 40))
     add(T("gira ahora") + 0.4, V(tuple(KNOB), (-0.3, -0.45, 0.12), 40))
@@ -247,6 +249,7 @@ def CAM():
     add(T("y menos luz") - 0.2, V(tuple(METER + Vector((-0.1, 0, -0.2))), (-0.3, -1.1, 0.1), 34))
     add(T("te has acercado") - 0.2, V(SALA, (-1.1, -2.7, 1.2), 30))
     add(T("y si quieres") - 0.2, V(tuple(DRUM), (-1.0, -0.7, 0.4), 32))
+    add(T("pídelo") - 0.2, V(tuple(RES), (-0.5, -0.36, 0.17), 40))
     add(T("lo más pedido") - 0.2, V(SALA, (1.0, -2.5, 1.0), 30))
     add(T("sígueme") - 0.2, V(SALA, (0.0, -2.9, 1.6), 30))
     add(T("y ahora ya sabes") - 0.2, V(tuple(RES), (-0.55, -0.28, 0.14), 40))
