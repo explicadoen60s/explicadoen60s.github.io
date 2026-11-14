@@ -29,4 +29,4 @@ jobs:
           ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" >> out/info.txt
       - run: |
           git config user.name explicadoen60s; git config user.email explicadoen60s.cxn@gmail.com
-          git add out && git commit -qm "Resultado análisis referencia" && git push
+          git add --sparse out && git commit -qm "Resultado análisis referencia" && git push
