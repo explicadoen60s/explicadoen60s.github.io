@@ -5167,6 +5167,293 @@
     }
    },
    "ronda": 2
+  },
+  {
+   "id": "cinturon",
+   "formato": "A",
+   "titulo": "Tu cinturón se clava solo: ¿cuánto pesas en un choque a 50 km/h? 🚗",
+   "guion": "Tu cinturón… ¿cuánto pesas en un choque? Escribe tu número antes de que acabe. Tira despacio del carrete: la correa sale. Si tiras de golpe… se clava. Dentro hay un péndulo, una bolita colgada sobre un gancho. Cuando el coche frena fuerte, la bolita se inclina. Pero solo lo hace al frenar con cero coma cuarenta y cinco veces la gravedad. Así que un diente encaja en la rueda y la correa se queda quieta. Pero si el golpe es serio, la correa floja no basta. Así que salta el pretensor: una carga pirotécnica tira de ella en treinta milésimas de segundo. Y aquí viene lo curioso… a cincuenta por hora, tu cuerpo pasa a pesar más de tres mil kilos. Pero tanta fuerza te rompería las costillas. Así que el limitador cede entre cinco y siete centímetros de correa. Y tú la llevas floja, torcida, bajo el brazo o sobre un abrigo gordo. Esa holgura es distancia que recorres antes de frenar. Quítate el abrigo y pon la banda plana sobre el hombro y la cadera. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes por qué se clava… el carrete de tu cinturón.",
+   "texto": "Tu cinturón se clava, se tensa y cede, pero solo si lo llevas bien puesto. Envíaselo a ese amigo que conduce con el abrigo gordo y la banda floja. ¿Cuál era tu número? 👇",
+   "tags": [
+    "cinturon",
+    "coche",
+    "seguridad",
+    "comofunciona",
+    "fisica"
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Cinturón que el espectador se pone cada vez que sube a un coche, con error común (floja, torcida, bajo el brazo, abrigo gordo).",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Mano gigante tirando del carrete: la correa sale despacio, un tirón y el carrete se clava con rayitas de clic; el péndulo se ve moverse en el primer plano.",
+    "ensenar": 9,
+    "ensenar_nota": "Pastillas que cambian: 0,45 g al inclinarse el péndulo, 30 ms con el pretensor, peso de 70 a más de 3.000 kg con el juego, 5-7 cm de correa que cede el limitador."
+   },
+   "ganchos": [
+    "Tu cinturón… ¿cuánto pesas en un choque?",
+    "Tu cinturón se clava solo… ¿cuánto pesas al chocar?",
+    "El péndulo de tu cinturón: ¿cuántos kilos pesas?"
+   ],
+   "juego": {
+    "pregunta": "¿Cuánto pesas en un choque a 50 km/h?",
+    "valor": 3000,
+    "unidad": "KG EN UN CHOQUE",
+    "dec": 0,
+    "pregunta_en": "Tu cinturón",
+    "revela_en": "Y aquí viene lo curioso"
+   },
+   "tendencia": "Tu cinturón de seguridad se bloquea y se tensa solo",
+   "notas": "ERROR: llevas la banda floja, torcida, bajo el brazo o sobre un abrigo gordo, y esa holgura es distancia que recorres antes de que el cinturón te frene. | HACER: quítate el abrigo gordo y pon la banda plana sobre el hombro y la cadera, tensa. Cifra del juego: DGT, «a 50 km/h, una persona de 70 kg impacta con más de 3.000 kg, más de 40 veces su peso».",
+   "fuentes": [
+    "https://www.boe.es/doue/2015/304/L00001-00096.pdf",
+    "https://www.dgt.es/muevete-con-seguridad/evita-conductas-de-riesgo/conducir-sin-cinturon-de-seguridad/",
+    "https://revista.dgt.es/Galerias/hemeroteca/revista/I-XVI-ESP-GUIA-SIST-RETENCION-WEBOP.pdf",
+    "https://www.race.es/limitador-carga-cinturon-de-seguridad",
+    "https://blog.myairbags.com/what-is-a-seat-belt-pretensioner-complete-guide-and-repair"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-14",
+   "ronda": 2,
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "El tema, el error común (abrigo y banda floja) y la acción final funcionan, y el juego está bien colocado. Pero la cifra del juego («más de tres mil kilos» a 50 km/h) es la más discutible del guion: con 70 kg y una parada de 0,3 a 0,5 m salen unos 1.400 a 2.300 kg.",
+     "propuesta": "Cambia «pasas de setenta a más de tres mil kilos» por «pasas de setenta a casi dos mil kilos» y pon juego.valor = 2000. Si una de las fuentes (DGT o RACE) confirma tres mil, deja la frase como está y cita la fuente en notas.",
+     "aplicada": false,
+     "respuesta": "Rechazada: la DGT lo dice tal cual («a 50 km/h, una persona de 70 kg impacta con más de 3.000 kg, más de 40 veces su peso»); queda citada en notas y en fuentes."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "La palabra que se busca («cinturón») no suena en los 3 primeros segundos: la primera frase dice solo «carrete».",
+     "propuesta": "Cambia la frase 1 por «Tu cinturón… ¿cuánto pesas en un choque?» y deja «Tira del carrete» como frase 2; juego.pregunta_en = «Tu cinturón».",
+     "aplicada": true,
+     "respuesta": "Aplicada: la primera frase nombra el cinturón y «Tira despacio del carrete» pasa a la tercera."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Cumple la regla 3 con 4 cifras que cambian en pantalla (0,45 g en el péndulo, 30 ms del pretensor, 70 a 3.000 kg en la cifra del juego, 5-7 cm de correa que cede). El mecanismo se ve entero y no hay metáforas.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "208 palabras y primera frase de 8: bien. Pero «a cincuenta por hora, pasas de setenta a más de tres mil kilos» junta tres cifras en una frase y es un contador «de X a Y», que la voz atropella.",
+     "propuesta": "Cambia esa frase por «Y aquí viene lo curioso… a cincuenta por hora, tu cuerpo pasa a pesar más de tres mil kilos.» (el contador de 70 a 3000 lo hace la escena).",
+     "aplicada": true,
+     "respuesta": "Aplicada; el contador de 70 a 3.000 kg queda para la escena."
+    },
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Acepto la fuente: la DGT da más de 3.000 kg a 50 km/h para 70 kg, así que la cifra está respaldada. Cumple la regla 1, corrige un error común y da una acción al final; la cifra se revela a mitad del vídeo.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "«Cinturón» suena en la primera frase, de 7 palabras con la pregunta del juego; título y pie llevan la palabra buscada, el reto y el envío.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "211 palabras, unos 62-64 s; primera frase con «…» y «¿?»; pausa antes de la cifra y ningún efecto encima de «tres mil kilos».",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "Tu cinturón se clava solo: ¿cuánto pesas en un choque a 50 km/h? 🚗",
+     "texto": "Tu cinturón se clava, se tensa y cede, pero solo si lo llevas bien puesto. Envíaselo a ese amigo que conduce con el abrigo gordo y la banda floja. ¿Cuál era tu número? 👇",
+     "tags": [
+      "comofunciona",
+      "cinturon",
+      "seguridadvial",
+      "coche",
+      "fisica"
+     ]
+    },
+    "instagram": {
+     "titulo": "Cómo funciona el cinturón de seguridad",
+     "texto": "Cómo funciona el cinturón de seguridad por dentro: un péndulo, un pretensor y un limitador que cede. A 50 km/h pasas de 70 a más de 3.000 kg, y la holgura de tu abrigo cuenta. Envíaselo a quien conduce con la banda floja. ¿Cuántos kilos dijiste? 🚗 #comofunciona #cinturon #seguridadvial #coche #fisica",
+     "tags": [
+      "comofunciona",
+      "cinturon",
+      "seguridadvial",
+      "coche",
+      "fisica"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el cinturón de seguridad: ¿cuánto pesas al chocar?",
+     "texto": "Cómo funciona el cinturón de seguridad por dentro: el péndulo que lo bloquea, el pretensor y el limitador. ¿Cuál era tu número? 👇 #shorts #cinturon #comofunciona",
+     "tags": [
+      "comofunciona",
+      "cinturon",
+      "cinturondeseguridad",
+      "seguridadvial",
+      "fisica"
+     ]
+    }
+   }
+  },
+  {
+   "id": "aspiradora",
+   "formato": "A",
+   "titulo": "🌀 Tu aspiradora no chupa nada: ¿a cuántos kilopascales baja la presión dentro?",
+   "guion": "Las aspas de tu aspiradora no chupan. ¿A cuántos kilopascales baja la presión dentro? Escribe tu número antes de que acabe. Llevas años usándola mal. Dentro, un motor hace girar el ventilador. Gira hasta treinta mil vueltas por minuto. Cada vuelta lanza aire hacia fuera, por la salida. Pero así dentro queda menos aire que antes. Menos aire significa menos presión. Así que el aire de tu habitación empuja. Ese aire pesa, y empuja el polvo por la boquilla. Nada tira de la suciedad: la empujan. Y aquí viene lo curioso… dentro baja hasta ochenta y un kilopascales, frente a los ciento uno de fuera. Pero ahora mira el filtro. Si lleva meses sin limpiar, el aire pasa peor. En una prueba, un filtro de tres años perdió un catorce por ciento de aire. Tu aspiradora rinde menos y el motor sufre. Con el depósito pasa igual. Cuando llega a la mitad, el aire ya circula peor. Más polvo dentro, menos aire pasando, menos empuje. Así que no compres otra aspiradora todavía. Vacía el depósito ahora mismo y lava el filtro. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes por qué… las aspas de tu aspiradora.",
+   "texto": "Tu aspiradora no chupa: la que empuja es la habitación. Envíaselo a ese amigo que nunca vacía el depósito. ¿Cuál era tu número? 👇",
+   "tags": [
+    "aspiradora",
+    "fisica",
+    "hogar",
+    "comofunciona",
+    "limpieza"
+   ],
+   "reglas": {
+    "cotidiano": 10,
+    "cotidiano_nota": "Aspiradora, filtro y depósito: algo que casi todos tienen en casa y usan cada semana.",
+    "primer_segundo": 9,
+    "primer_segundo_nota": "Las aspas del ventilador girando en primer plano dentro de la aspiradora abierta, con flechas rojas de aire saliendo; la boquilla aún no aparece.",
+    "ensenar": 9,
+    "ensenar_nota": "Contadores que cambian: rpm del motor hasta 30.000, presión interna de 101 a 81 kPa (cifra del juego), caudal del filtro con una pastilla de -14 % y depósito que se llena hasta la mitad con el aire cayendo."
+   },
+   "ganchos": [
+    "Las aspas de tu aspiradora no chupan.",
+    "Tu aspiradora no chupa nada. ¿Entonces qué hace?",
+    "Llevas años usando mal tu aspiradora."
+   ],
+   "juego": {
+    "pregunta": "¿A cuántos kilopascales baja la presión dentro?",
+    "valor": 81,
+    "unidad": "kPa DENTRO",
+    "dec": 0,
+    "pregunta_en": "¿A cuántos kilopascales",
+    "revela_en": "Y aquí viene lo curioso"
+   },
+   "tendencia": "Tu aspiradora no chupa: empuja el aire",
+   "notas": "ERROR: crees que la aspiradora tira de la suciedad y la usas con el filtro sin limpiar y el depósito casi lleno, así que el aire pasa peor. | HACER: vacía el depósito ahora mismo y lava el filtro. (101 kPa: presión atmosférica; 20 kPa de depresión típica de una aspiradora doméstica, varía por modelo; 14 %: prueba de un blog con un filtro de tres años.)",
+   "fuentes": [
+    "https://pickvacuumcleaner.com/vacuum-cleaner-specifications",
+    "https://www.electronicsforu.com/electronics-projects/reference-design-for-vacuum-cleaner",
+    "https://www.bestcordlessvacuumguide.com/why-your-cordless-vacuum-lost-suction/",
+    "https://www.ifixit.com/Wiki/Vacuum_Lost_Suction"
+   ],
+   "estado": "propuesto",
+   "creado": "2026-11-14",
+   "ronda": 2,
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Objeto de casa, creencia equivocada («no chupa, empuja») y acción concreta (vaciar el depósito y lavar el filtro). Aviso para la escena: la depresión real varía por modelo y el 14 % del filtro viene de un blog.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "«Aspiradora» suena en la primera frase y está en título y pie; el patrón «llevas años usándola mal» con acción final favorece compartir.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Hay 4 contadores que cambian: rpm hasta 30.000, presión de 101 a 81 kPa, -14 % de caudal y el depósito que se llena. «¿A cuántos kilopascales baja?» admite 20 u 81: se resuelve en escena con un manómetro de 101 a 81 y una pastilla «-20 kPa».",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "209 palabras y buen «Llevas años usándola mal». Pero la frase de la cifra es un contador «de X a Y» y «ochenta y uno kilopascales» suena mal; «catorce por ciento» sin artículo suena a traducción.",
+     "propuesta": "Sustituye la frase de la cifra por «Y aquí viene lo curioso… dentro baja hasta ochenta y un kilopascales, frente a los ciento uno de fuera.», revela_en «Y aquí viene lo curioso», y «perdió un catorce por ciento de aire».",
+     "aplicada": true,
+     "respuesta": "Aplicada tal cual."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "213 palabras, unos 63-65 s; «…» antes de la cifra, «ochenta y un kilopascales» y «ciento uno» bien escritos para la voz; sin efecto sobre las cifras.",
+     "propuesta": "",
+     "aplicada": false,
+     "respuesta": ""
+    }
+   ],
+   "seo": {
+    "tiktok": {
+     "titulo": "🌀 Tu aspiradora no chupa nada: ¿a cuántos kilopascales baja la presión dentro?",
+     "texto": "Tu aspiradora no chupa: la que empuja es la habitación. Envíaselo a ese amigo que nunca vacía el depósito. ¿Cuál era tu número? 👇",
+     "tags": [
+      "comofunciona",
+      "aspiradora",
+      "hogar",
+      "fisica",
+      "limpieza"
+     ]
+    },
+    "instagram": {
+     "titulo": "Cómo funciona una aspiradora",
+     "texto": "Cómo funciona una aspiradora: no chupa, el aire de tu habitación empuja el polvo porque dentro baja la presión. Y si el filtro o el depósito están sucios, rinde menos. Envíaselo a quien nunca vacía el depósito. ¿A cuántos kilopascales dijiste? 🌀 #comofunciona #aspiradora #hogar #limpieza #fisica",
+     "tags": [
+      "comofunciona",
+      "aspiradora",
+      "hogar",
+      "limpieza",
+      "fisica"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona una aspiradora: ¿cuánta presión baja dentro?",
+     "texto": "Cómo funciona una aspiradora: no chupa, empuja el aire de tu casa. Vacía el depósito y lava el filtro. ¿Cuál era tu número? 👇 #shorts #aspiradora #comofunciona",
+     "tags": [
+      "comofunciona",
+      "aspiradora",
+      "comofuncionaunaaspiradora",
+      "hogar",
+      "fisica"
+     ]
+    }
+   }
   }
  ]
 }

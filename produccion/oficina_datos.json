@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T09:12:17+00:00",
+ "actualizado": "2026-11-14T09:17:57+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1570,
@@ -8,7 +8,7 @@
  "maduros": 40,
  "puestos": {
   "director": {
-   "ahora": "3 guiones esperando tu visto bueno",
+   "ahora": "5 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -59,7 +59,7 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
-    "valor": 9.1,
+    "valor": 9.0,
     "fmt": "dec",
     "meta": 9,
     "pie": "últimos 20 guiones"
@@ -556,6 +556,70 @@
     "nivel": "ok",
     "rol": "fotografia",
     "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "cinturon": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "211 palabras (≈62 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "11 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "aspiradora": [
+   {
+    "nivel": "ok",
+    "rol": "sonido",
+    "texto": "213 palabras (≈63 s)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "9 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "ok",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano»: 10/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 9/10"
    },
    {
     "nivel": "ok",

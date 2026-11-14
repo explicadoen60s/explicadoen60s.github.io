@@ -1737,6 +1737,48 @@
    "rol": "director",
    "tipo": "revision",
    "texto": "Bateria100, tunelave y transbordador pasan a propuesto con 4 de 4 ok en la segunda ronda; seo deja sus títulos por red."
+  },
+  {
+   "fecha": "2026-11-14T09:17:00+00:00",
+   "rol": "estratega",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cinturon",
+   "texto": "Pide bajar «más de tres mil kilos» a casi dos mil; el director lo rechaza citando a la DGT (70 kg → más de 3.000 kg a 50 km/h).",
+   "estado": "rechazada"
+  },
+  {
+   "fecha": "2026-11-14T09:17:00+00:00",
+   "rol": "seo",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cinturon",
+   "texto": "La primera frase ya nombra el cinturón («Tu cinturón… ¿cuánto pesas en un choque?»).",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T09:17:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "cinturon",
+   "texto": "Sin «de X a Y» en la frase de la cifra: «tu cuerpo pasa a pesar más de tres mil kilos».",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T09:17:00+00:00",
+   "rol": "sonido",
+   "para": "director",
+   "tipo": "revision",
+   "video": "aspiradora",
+   "texto": "«ochenta y un kilopascales, frente a los ciento uno de fuera» y «un catorce por ciento».",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T09:17:51+00:00",
+   "rol": "director",
+   "tipo": "propuesta",
+   "texto": "Dos guiones nuevos a propuesto con 4 de 4 ok tras dos rondas: «cinturon» (A, error: banda floja o sobre el abrigo; cifra de la DGT) y «aspiradora» (A, error: filtro y depósito llenos)."
   }
  ],
  "manual": [
@@ -2675,6 +2717,88 @@
     "editor": {
      "rel": 0.7,
      "nota": "Puente de Vizcaya es muy visual en corte, pero 213 palabras rozan 65 s y el tema es regional y poco cotidiano."
+    }
+   }
+  },
+  "cinturon": {
+   "fecha": "2026-11-14T09:17:51+00:00",
+   "roles": {
+    "director": {
+     "rel": 1.1,
+     "nota": "A con título que corrige un gesto y cifra de choque comparable, pero los A explicativos recientes rinden 0,3-0,4× y no tiene un error tan claro como el router."
+    },
+    "fotografia": {
+     "rel": 2.0,
+     "nota": "Primer segundo bueno: mano tirando del carrete con clic y péndulo visible; el riesgo es que el péndulo es pequeño y difícil de reconocer."
+    },
+    "editor": {
+     "rel": 1.5,
+     "nota": "208 palabras en el rango bueno de duración, objeto diario con «lo llevas mal»; lo frenan los muchos pasos seguidos del mecanismo."
+    },
+    "paid": {
+     "rel": 2.2,
+     "nota": "Objeto de uso diario y cifra enseñable (70 a más de 3.000 kg), pero sin un error de casa claro no veo un candidato a promoción."
+    },
+    "social": {
+     "rel": 1.8,
+     "nota": "Error común y envío a un amigo, el número en kilos es fácil de comentar; tema más técnico que un router."
+    },
+    "estratega": {
+     "rel": 1.6,
+     "nota": "A con objeto diario, error y acción; el carrete en el primer segundo es muy visual; la cifra se compara poco con algo de casa."
+    },
+    "seo": {
+     "rel": 1.5,
+     "nota": "Objeto cotidiano con cifra impactante y búsqueda estable «cómo funciona el cinturón»."
+    },
+    "motion": {
+     "rel": 2.2,
+     "nota": "Error común y contador de 70 a 3.000 kg muy visual; limitado porque el tema es más conocido que el router."
+    },
+    "sonido": {
+     "rel": 1.5,
+     "nota": "Objeto diario con error corregible y cifra fuerte; lo frenan el péndulo y el pretensor, bastante técnicos."
+    }
+   }
+  },
+  "aspiradora": {
+   "fecha": "2026-11-14T09:17:51+00:00",
+   "roles": {
+    "director": {
+     "rel": 1.6,
+     "nota": "Abre con creencia equivocada y «llevas años usándola mal», patrón router/repetidor; sin cifra visual tan fuerte se queda lejos de 10×."
+    },
+    "fotografia": {
+     "rel": 1.1,
+     "nota": "El primer segundo son solo aspas sin boquilla que identifique el objeto; subiría con la manguera aspirando migas en el plano 1."
+    },
+    "editor": {
+     "rel": 1.8,
+     "nota": "Patrón del router con acción final y contador de presión que se enseña bien."
+    },
+    "paid": {
+     "rel": 3.5,
+     "nota": "Sigue el patrón del router y tiene más opciones de compartirse; lo frena que 81 kPa es abstracta."
+    },
+    "social": {
+     "rel": 1.6,
+     "nota": "Corrige una idea que todos tienen y da una acción inmediata; los kilopascales son difíciles de adivinar y comentar."
+    },
+    "estratega": {
+     "rel": 1.8,
+     "nota": "Corrige una creencia sobre un objeto de casa, como router y repetidor; la presión se compara poco con algo visible."
+    },
+    "seo": {
+     "rel": 1.8,
+     "nota": "Objeto de casa, error común y acción inmediata, con «cómo funciona» más el objeto en YouTube."
+    },
+    "motion": {
+     "rel": 1.4,
+     "nota": "La cifra del juego es floja y la presión es abstracta de mostrar; el gancho y el filtro sucio sostienen algo por encima de lo normal."
+    },
+    "sonido": {
+     "rel": 1.2,
+     "nota": "Objeto de casa con «lo estás haciendo mal», pero la explicación de la presión es abstracta."
     }
    }
   }
