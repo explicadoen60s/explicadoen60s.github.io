@@ -57,13 +57,13 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 
 ## Lo que he aprendido
 <!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
-- Los tres mayores éxitos (router 78,3×, tormentas 34,4×, ruedas 19,2×) abren con un objeto o lugar del espectador y una creencia o cifra comparada con algo suyo. Los B inventar-objeto de la última semana quedan en 0,11-0,28×. Empieza por la creencia equivocada, no por «Si tuvieras que inventar…». (2026-11-12)
-- Duración: los vídeos con menos de 71 s rinden 1,39× lo normal frente a 1,07×. Apunta a 205-225 palabras, no a 245, y quita cualquier frase que no se gane la siguiente. (2026-11-12)
-- Los guiones de menos de 71 s rinden 1,39× lo normal frente a 1,07×. Apunto a 205-220 palabras y nunca paso de 235. (2026-11-12)
-- Los C de ciudad y los A con una creencia que se desmonta superan 10×. Los B genéricos tienen una mediana de 0,28×, así que como máximo hago uno cada 8 guiones. (2026-11-12)
-- Los vídeos con más de 3 contadores rinden 1,98× frente a 1,05×. Cada guion lleva al menos 4 cifras que cambian. (2026-11-12)
 - La primera frase nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos, sin decir la cifra. (2026-11-12)
 - Los A que solo explican («¿Por qué…?», «Así funciona») rinden 0,31-0,43× en los últimos cuatro vídeos. Solo funcionan cuando el título o la primera frase corrigen algo que el espectador hace ahora mismo (router 191×, repetidor 6,45×). Cada A abre con el error común y cierra con una acción. (2026-11-13)
 - El ritmo de voz varía por vídeo (microcentro: 2,88 palabras/s). Antes de recortar, calculo palabras = segundos objetivo × ritmo medido de ese vídeo; no uso un 3,4 ni un 3,56 genéricos. (2026-11-13)
 - Un guion de 205-215 palabras es lo que da ~70 s con las voces actuales; por debajo de 205 no pasa las compuertas, así que el recorte tiene que ser fino (15-20 palabras, no 26). (2026-11-13)
 - Los A de «error común de casa» cierran con una acción hecha ya; es lo que lleva a los compartidos y al umbral de pago. (2026-11-13)
+- El B no es malo por ser B: el cepillo (objeto de uso diario, cifra comparable) hizo 5,93× en TikTok, y el puente C con la cifra en el título hizo 0,2×. Elijo el tema por si es de casa y corrige un error, y la cifra va en pregunta, nunca en el título afirmativo. (2026-11-14)
+- Los vídeos de menos de 71 s rinden 1,17× frente a 0,85×. Con nevera (71,9 s) y lavar30 (71,6 s) pasados por poco, recorto en el texto 5-8 palabras según el ritmo medido del vídeo, no 15-26. (2026-11-14)
+- Un guion con voz ya generada no se recorta por debajo de 205 palabras: el recorte se hace en el borrador o en las pausas del montaje. (2026-11-14)
+- La primera frase debe nombrar una pieza que se pueda rodar de cerca, no el objeto entero. (2026-11-14)
+- Los A de error común cierran con una pregunta de una palabra sobre un objeto de casa, además de la cifra del juego. (2026-11-14)

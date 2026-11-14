@@ -57,11 +57,13 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 
 ## Lo que he aprendido
 <!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
-- Cámara: objetivo por escena nueva de cam_cada ≤2,8 s (los mejores van a 2,77 s; menos de 3,05 s rinden 1,98×), más de 22 claves (los mejores, 24,5) y lente máxima de 40 mm o más. Arranque entre 2 y 6 m: `paraguas` a 0,5 m hizo 0,11×, así que muy cerca no basta si el objeto no se reconoce. (2026-11-12)
-- Techo de cam_cada 2,8 s y más de 22 claves por escena: los vídeos con menos de 3,0 s rinden 1,98× frente a 0,97×. (2026-11-12)
 - Cada cambio de plano debe documentarse (tiempo, pieza en primer plano, esquina libre) para que Gráficos y Sonido coloquen pastillas y whooshes sin tapar el mecanismo. (2026-11-12)
 - Arranque entre 2 y 6 m con lente larga: menos de 7,5 m rinde 1,44× frente a 1,04×, pero paraguas a 0,5 m hizo 0,18×, así que tampoco vale pegar la cámara si la pieza no se reconoce. (2026-11-13)
 - Con cam_cada entre 1,5 y 2,0 s (las escenas en cola) cada plano dura menos de 2 s: las pastillas y los rótulos deben entrar en los primeros 0,5 s o se pierden en el plano siguiente. (2026-11-13)
 - Dejar 0,5 s de plano estable antes y después de cada cifra dicha en voz evita que el whoosh pise la palabra sin subir cam_cada por encima de 2,8 s. (2026-11-13)
 - Última clave de cámara igual a la primera (posición, target, lente) es lo que hace que el bucle no tenga salto visible. (2026-11-13)
 - En un objeto con puerta (nevera, horno, lavadora) visto por el corte lateral, la cámara va detrás del plano de la puerta (y > 0) o se ve su cara de fuera; con la cámara a la izquierda usa light_rot=60, que con -30 las caras salen granates. (2026-11-13, nevera)
+- Cámara a menos de 7,3 m en el primer segundo: 1,25× lo normal frente a 0,89×. El umbral nuevo es 7,3 m, con arranque entre 2 y 6 m y siempre con una pieza reconocible; puente a cam_cada 2,09 s hizo 0,2×. (2026-11-14)
+- Con un objeto de puerta o tapa (nevera, horno, lavadora), el corte que enseña el interior (obj_cortes >0,5) rinde 1,10× frente a 0,85×. Cada escena de ese tipo lleva al menos un corte real con la cámara fuera de la puerta. (2026-11-14)
+- Los viajes de cámara de menos de 0,8 s hacen que la voz llegue antes que la imagen: separa las claves al menos 0,8 s y adelanta cada plano 0,2 s a su palabra. (2026-11-14)
+- Anotar qué cortes caen sobre una cifra dicha permite a sonido quitarles el whoosh y no pasar de 20 efectos/min. (2026-11-14)

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T07:31:04+00:00",
+ "actualizado": "2026-11-14T08:02:41+00:00",
  "medianas": {
   "tiktok": 1099.0,
   "instagram": 1585.0,
@@ -247,6 +247,62 @@
    "med_no": 1.08,
    "ratio": 0.31,
    "veredicto": "faltan_datos"
+  },
+  "m261114dir20": {
+   "n_si": 37,
+   "n_no": 3,
+   "med_si": 1.04,
+   "med_no": 1.08,
+   "ratio": 0.96,
+   "veredicto": "sin_efecto"
+  },
+  "m261114fot21": {
+   "n_si": 5,
+   "n_no": 35,
+   "med_si": 1.41,
+   "med_no": 1.04,
+   "ratio": 1.36,
+   "veredicto": "a_favor"
+  },
+  "m261114fot22": {
+   "n_si": 20,
+   "n_no": 20,
+   "med_si": 1.1,
+   "med_no": 0.85,
+   "ratio": 1.28,
+   "veredicto": "a_favor"
+  },
+  "m261114son23": {
+   "n_si": 20,
+   "n_no": 20,
+   "med_si": 1.19,
+   "med_no": 0.92,
+   "ratio": 1.3,
+   "veredicto": "a_favor"
+  },
+  "m261114mot24": {
+   "n_si": 19,
+   "n_no": 21,
+   "med_si": 1.16,
+   "med_no": 0.86,
+   "ratio": 1.35,
+   "veredicto": "a_favor"
+  },
+  "m261114est25": {
+   "n_si": 3,
+   "n_no": 37,
+   "med_si": 1.08,
+   "med_no": 1.04,
+   "ratio": 1.04,
+   "veredicto": "sin_efecto"
+  },
+  "m261114est26": {
+   "n_si": 14,
+   "n_no": 26,
+   "med_si": 1.06,
+   "med_no": 1.05,
+   "ratio": 1.01,
+   "veredicto": "sin_efecto"
   }
  },
  "senales": [
@@ -366,7 +422,7 @@
    "vistas": 660563,
    "rel": 194.51,
    "inter": 0.0512,
-   "horas": 91,
+   "horas": 92,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -380,7 +436,7 @@
    "vistas": 37445,
    "rel": 9.72,
    "inter": 0.0362,
-   "horas": 32,
+   "horas": 33,
    "presupuesto": 10,
    "objetivo": "seguidores",
    "decidido": null
@@ -1688,6 +1744,11 @@
    "x261113soc": {
     "maduros": 0,
     "total": 1,
+    "veredicto": "esperando"
+   },
+   "x261114seo": {
+    "maduros": 0,
+    "total": 0,
     "veredicto": "esperando"
    }
   },

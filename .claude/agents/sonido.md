@@ -62,3 +62,5 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Una voz por debajo de 3,4 palabras/s alarga el vídeo: tdt (3,29 palabras/s) duró 75,8 s con un guion normal. Si la voz sale a menos de 3,5 palabras/s, el guion tiene que quedarse en 205-215 palabras para no pasar de 71 s. (2026-11-13)
 - Si el gancho sale flojo en voz_gancho (por debajo de 0,20 dB), se arregla con la puntuación de la primera frase (¡…! y pausa corta), porque la voz sintética no se sube de volumen a mano. (2026-11-13)
 - Para bajar la duración, quita unas 3,4 palabras por cada segundo de más (3,4 palabras/s). (2026-11-13)
+- Si un vídeo en voz pasa de 71 s, la solución es recortar el guion y regenerar la voz, no cortar en montaje: las pausas de más de 0,6 s lo estropean. Un guion de 205-215 palabras con voz a más de 3,7 palabras/s sale en torno a 58-60 s. Si la voz va a menos de 3,5 palabras/s, mantén 205-215 palabras. (2026-11-14)
+- Las palabras a quitar se calculan con el voz_ritmo real de cada vídeo y un objetivo de 69,5 s: lavar30 (3,44) ≈ 7 palabras, nevera (3,79) ≈ 9. Los 3,4 palabras/s genéricos solo valen como estimación antes de tener la voz. (2026-11-14)

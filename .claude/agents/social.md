@@ -63,3 +63,6 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Un vídeo con 5,45 compartidos por mil y 0,14 comentarios por mil (router) mueve a la gente a enviarlo, no a escribir. Hay que dar una opción cerrada de una palabra ('¿Vertical u horizontal?'). (2026-11-13) (2026-11-13)
 - Con vistas altas y pocos comentarios (router: 0,14 por 1.000), el comentario fijado y las respuestas a los primeros comentarios reales deben estar listos antes de promocionar. (2026-11-13)
 - Para Instagram solo hay comentarios como medida: el pie con la palabra buscada primero y una pregunta de respuesta corta es la prueba a medir. (2026-11-13)
+- Los vídeos con 0,3× de vistas (huella 1,71, tdt 1,09) sacan más comentarios por mil que repetidor con 9,72× (0,14): comentan las afirmaciones discutibles sobre el objeto del espectador, no el volumen. Umbral útil: menos de 0,3 comentarios por mil pide pregunta cerrada y comentario fijado. (2026-11-14)
+- Un enlace al perfil en comentarios no suma: la bio ya lo cubre y el comentario fijado rinde más con una pregunta cerrada de una palabra. (2026-11-14)
+- Para pagar promoción de un vídeo muy compartido y poco comentado hace falta el comentario fijado listo antes, para que el gasto compre conversación. (2026-11-14)

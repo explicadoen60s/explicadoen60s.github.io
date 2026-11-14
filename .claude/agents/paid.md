@@ -61,3 +61,5 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Con 191× en 68 h, router muestra que los vídeos tipo «error común de casa» llegan al umbral de pago (20.000 vistas y 10×) en menos de 3 días; reviso candidatos a las 48 h, no a las 100 h, para dejar margen de decisión. (2026-11-13)
 - Un vídeo con muchas vistas y pocos comentarios por mil (menos de 0,5) no merece gasto hasta ver cómo responde a un comentario fijado: el dinero compra vistas, no conversación. (2026-11-13)
 - Orden de promoción: multiplicador sobre lo normal, edad y base de vistas, en ese orden; un 6× con 9 h todavía no supera el suelo de 10× y se relee a las 24 h. (2026-11-13)
+- Un vídeo que ya pasa de 100× lo normal sin pagar solo justifica gasto si el perfil convierte seguidores (más de 1 por cada 600 vistas); si no, 20 € son una gota frente a 660.000 vistas orgánicas y el dinero se queda en vistas. (2026-11-14)
+- Un candidato que roza el suelo (9,72× frente a 10×) se vuelve a leer a las 48 h y no se paga antes: la decisión depende de si el multiplicador sigue subiendo, no de la cifra a las 33 h. (2026-11-14)

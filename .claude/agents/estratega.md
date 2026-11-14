@@ -56,11 +56,13 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 
 ## Lo que he aprendido
 <!-- Lo amplían las jornadas y las reuniones: máximo 10 puntos, los más recientes. -->
-- Los vídeos de mayor éxito (78×, 34×, 19×) corrigen una creencia sobre un objeto que el espectador tiene delante, o enseñan una infraestructura de su ciudad, y ponen una comparación con su coche o su casa. Un B genérico de 'si tuvieras que inventar' rinde por debajo de 1× (mediana 0,28× en los cinco últimos). (2026-11-12)
-- Hasta el 12-nov ningún vídeo publicado usaba el juego de la cifra (juego=false en los 31 maduros), así que la ley m_juego no puede evaluarse aún. No hay que tocarla antes de tener 3 vídeos con juego y 48 h de datos. (2026-11-12)
 - Los B «Si tuvieras que inventar…» hicieron 0,11-0,28× frente a 78,3× del router: priorizar A y C con creencia equivocada de un objeto de casa. (2026-11-12)
 - Las peticiones de seguidores se comprueban contra estado.json y escenas/ y se verifican con búsqueda web antes de entrar al banco de ideas. (2026-11-12)
 - Las segundas partes rinden una fracción de la original: repetidor 6,45× frente a router 191×. Tras un éxito, el siguiente vídeo debe cambiar de objeto de casa con el mismo patrón de creencia equivocada y no insistir en el tema. (2026-11-13)
 - Un B puede rendir si el objeto está en la mano del espectador y la cámara arranca cerca: grifo 5,0× con cam_inicio_dist 0,9 m, frente a una mediana de 0,28× en los demás B. La clave es el objeto de casa y el primer plano, no el formato. (2026-11-13)
 - Los A sin un error común del espectador en el título rinden unas 4 veces menos (luces 0,43×, tdt 0,40×, huella 0,31×, ollaexpres 0,31×) que los A que corrigen algo, como repetidor 6,45× y router 191×: todo A debe llegar con error y acción. (2026-11-13)
 - Cuando un vídeo despega, conviene que el siguiente vídeo de su serie salga dentro de las 48-120 h, para que quien llega por el vídeo fuerte encuentre otro y siga el perfil. (2026-11-13)
+- Los B que rinden (cepillo 5,93×, grifo 4,83×) tienen un objeto en la mano del espectador y una cifra o una pregunta concreta en el título; los B sin cifra (paraguas 0,16×, qr 0,29×, whatsapp 0,37×) no pasan de 0,4×. Un B se acepta solo con ambas cosas. (2026-11-14)
+- Las segundas partes dan alrededor del 5 % del original (repetidor 9,7× frente a router 194,5×). Si hay hueco, conviene más un A nuevo con error de otro objeto de casa que una tercera parte del mismo tema. (2026-11-14)
+- Los seguidores por vídeo no están en estadisticas.json: para decidir gasto de promoción hay que comparar seguidores diarios antes y después del pico, no atribuirlos a un vídeo. (2026-11-14)
+- Antes de subir una petición de seguidor al banco hay que comprobar que su objeto no tenga ya vídeo (termo y cafetera existen) y buscar otro ángulo. (2026-11-14)

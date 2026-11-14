@@ -1415,6 +1415,180 @@
    "rol": "paid",
    "tipo": "encargo",
    "texto": "Tiene sentido: si cuatro de nosotros no vemos claro un guion, mucho menos lo veo yo para gastar dinero en él. Me sumo al criterio y lo aplico a lo mío: no empujar con dinero nada que no haya pasado ese filtro."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "video": "puente",
+   "texto": "0,2× en TikTok (formato C, 71,0 s). El título dice «27.572 alambres» y regala la cifra, y no hay un error del espectador que corregir. Aprendo que el C sin juego ni creencia equivocada no funciona; la cifra va en pregunta, no en afirmación."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "video": "cepillo",
+   "texto": "5,93× en TikTok siendo un B (72,5 s, 7 contadores, 31.000 movimientos por minuto). Un objeto que el espectador tiene en la mano y una cifra comparable salvan al B. Un B vale si el objeto es de uso diario; el tema pesa más que el formato."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "director",
+   "tipo": "analisis",
+   "video": "nieve",
+   "texto": "4,08× en TikTok (C, 68,8 s, cam_cada 2,22 s, 5 contadores). Está por debajo de 71 s y cambia de plano rápido, como piden los hallazgos. Aun así no tiene juego, así que esperamos más con el juego de la cifra."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "video": "nieve",
+   "texto": "4,08× lo normal en TikTok con cam_cada 2,22 s y 5 contadores: el ritmo de cámara por debajo de 2,8 s se confirma. Falta saber cuántas claves tuvo y si arrancó a menos de 7,3 m, porque no tengo esos datos aquí."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "video": "puente",
+   "texto": "0,2× lo normal con cam_cada 2,09 s: el ritmo rápido no basta. En un puente colgante entero el objeto no se reconoce en el primer segundo, igual que el paraguas a 0,5 m. Habría que abrir con un cable moviéndose en primer plano a 2-6 m, no con la maqueta entera."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "fotografia",
+   "tipo": "analisis",
+   "video": "nevera",
+   "texto": "En rehacer con cam_cada 1,94 s, obj_cortes 0,00 y cámara atravesando la puerta y las baldas. Es fallo mío: el plano lateral estaba por delante del plano de la puerta (y<0). Hay que rehacer el plan con la cámara detrás de la puerta y un corte real."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "video": "tdt",
+   "texto": "Duró 75,8 s con voz a 3,29 palabras/s y rindió 0,48× en TikTok. Es el caso de voz lenta con guion normal. Con una voz por debajo de 3,4 palabras/s, el guion debe quedarse en 205-215 palabras."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "video": "repetidor",
+   "texto": "Rindió 9,72× en TikTok con 10 contadores y variedad de sfx 10, pero duró 72,7 s. Mantén los efectos variados y quita una frase de transición sin cifra para bajar de 71 s."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "sonido",
+   "tipo": "analisis",
+   "video": "puente",
+   "texto": "Duró 71,0 s con voz a 3,6 palabras/s y rindió 0,2× en TikTok. La duración no lo explica, porque está en el límite. Sin juego y con cam_cada de 2,09 s, el fallo parece de tema y de gancho. Revisaría la primera frase antes de tocar la mezcla."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "editor",
+   "tipo": "analisis",
+   "video": "nevera",
+   "texto": "En rehacer con 0/3 en la revisión de escena. Dura 71,9 s, por encima de 71 s, y tiene 4 etiquetas frente a las 8 que separan a los vídeos que funcionan. Tiene 12 contadores y cam_cada de 1,94 s, así que el ritmo de cámara no es el problema. Los viajes nevera a 200 neveras duran 0,3-0,5 s y se pierde la sincronía. Arreglo: viaje de 0,8-1,0 s con whoosh, último plano igual al primero y recorte de 1-2 s de guion antes de regenerar la voz."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "video": "cepillo",
+   "texto": "5,93× en TikTok con 7 contadores y 9 efectos distintos. La cifra concreta de 31.000 movimientos por minuto en el título se puede enseñar como contador, y eso encaja con la medida de ov_contadores."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "video": "puente",
+   "texto": "0,2× en TikTok con 6 contadores y cam_cada 2,09, es decir, con el gráfico en regla. Aquí el fallo está en el gancho y no en los gráficos. Subir los contadores no lo arregla; a partir de 6, el siguiente no suma."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "motion",
+   "tipo": "analisis",
+   "video": "repetidor",
+   "texto": "9,72× en TikTok y 4,45× en YouTube con 10 contadores. Pese a los 10 contadores, el título planteaba una única cifra («a la mitad»), que se ve bajar en pantalla. Ese es el patrón a repetir: una cifra principal que cambia a la vista, y las demás la apoyan."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "video": "cepillo",
+   "texto": "B con 5,93× en TikTok (comp_mil 0,4). Es el segundo B que rinde por encima de 4× tras grifo (4,83×). Los dos son objetos que el espectador tiene en la mano y llevan una cifra en el título (31.000 movimientos por minuto). Los B malos (paraguas 0,16×, whatsapp 0,37×, qr 0,29×) son objetos o ideas sin cifra enseñable. Conclusión: un B solo vale si el objeto está en la mano y la cifra va en el título."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "video": "nieve",
+   "texto": "C sin serie con 4,08× (comp_mil 0,81), por encima del resto de C sin serie (puente 0,2×, carretera 0,66×, pistahielo 0,76×, depuradora 0,18×). El tema, un cañón de nieve de pista de esquí, no es de casa, así que no se explica por la regla 1. Pudo ayudar la estacionalidad (noviembre, antes de la temporada de esquí). Queda como dato aislado hasta ver más vídeos de actualidad estacional."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "estratega",
+   "tipo": "analisis",
+   "video": "repetidor",
+   "texto": "Segunda parte del router con 9,72× en TikTok y 4,45× en YouTube, a 33 h de publicado. Es el 5 % del 194× del original, como ya se vio con las segundas partes. Aun así supera el 4,5× de la media de los últimos 14 días, así que merece la pena y no hay que insistir en más partes de wifi. Para el siguiente vídeo, cambiar de objeto de casa con el mismo patrón de error."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "social",
+   "tipo": "analisis",
+   "video": "repetidor",
+   "texto": "9,72× lo normal en TikTok y 3,09 compartidos por mil, pero solo 0,14 comentarios por mil. Se envía, no se contesta. Necesita comentario fijado con opción cerrada («¿Repetidor o cable?») y respuestas listas a los primeros comentarios reales."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "social",
+   "tipo": "analisis",
+   "video": "huella",
+   "texto": "0,3× lo normal pero 1,71 comentarios por mil, el mejor de la semana. Afirma algo discutible sobre el móvil del espectador («no guarda la foto de tu huella»). Es el patrón que provoca comentarios: afirmación sobre su móvil, no volumen de vistas."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "social",
+   "tipo": "analisis",
+   "video": "ollaexpres",
+   "texto": "5,67 compartidos por mil y 0,0 comentarios por mil con 0,27×. El título explica («¿Por qué silba y no explota?») pero no pide nada que se conteste en una palabra. Con juego=false en todos los vídeos recientes, ninguno tuvo reto de número."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "paid",
+   "tipo": "analisis",
+   "video": "router",
+   "texto": "660.563 vistas en TikTok, 194,5× lo normal, con 5,1% de interacción y 92 h de vida. Supera de sobra el umbral de pago (20.000 vistas y 10×). Con ese ritmo orgánico, 20 € de objetivo seguidores solo compensan si la pastilla de perfil y el pie convierten. Recomiendo que el usuario lance 20 € hoy, antes de las 100 h, y medir el coste por 1.000 vistas extra. Si sale por encima de 1 € por 1.000, no repetir."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "paid",
+   "tipo": "analisis",
+   "video": "repetidor",
+   "texto": "37.445 vistas y 9,72× a las 33 h. Supera las 20.000 vistas pero queda a un 3% del suelo de 10×. No pago hoy. Releo a las 48 h: si pasa de 10× y de 50.000 vistas, propongo 10 €. Si se queda plano, no se paga. Su rendimiento en Instagram es 0,95×, así que el dinero solo iría a TikTok."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "seo",
+   "tipo": "analisis",
+   "video": "repetidor",
+   "texto": "YouTube 4,45× y TikTok 9,72×. El título arranca con el objeto («Tu repetidor wifi…») y el tema es del patrón «lo estás haciendo mal». Dura 72,7 s, así que cualquier recorte de la primera frase ayuda, pero la palabra buscada ya está al principio."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "seo",
+   "tipo": "analisis",
+   "video": "turia",
+   "texto": "YouTube 0,68× con el título «Valencia movió un río entero… (Lo que esconde tu ciudad, parte 2)». Arrastra la etiqueta de serie y no lleva «cómo funciona» ni la pregunta con el objeto. Dura 73,9 s. Con la regla acordada con el director, el título sería «¿Cómo funciona el nuevo cauce del Turia en Valencia? 🌊» (55 caracteres) y la serie iría solo al pie."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "seo",
+   "tipo": "analisis",
+   "video": "paracaidas",
+   "texto": "YouTube 0,65× y TikTok 0,37× con «Si tuvieras que inventar un paracaídas…». Es el patrón de formato B que ya ronda 0,6-0,8× en YouTube. El título buscable habría sido «¿Cómo funciona un paracaídas? 🪂 De 200 a 22 km/h» (46 caracteres)."
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "rol": "director",
+   "tipo": "reunion",
+   "texto": "Jornada del 2026-11-14: 25 mensajes entre puestos, 24 acuerdos nuevos, 0 guiones mejorados y 29 lecciones a las fichas."
   }
  ],
  "manual": [
@@ -1645,6 +1819,98 @@
    "por": "paid",
    "creada": "2026-11-13",
    "origen": "Jornada del 2026-11-13"
+  },
+  {
+   "id": "m261114dir20",
+   "texto": "Los vídeos con la cifra planteada como pregunta, sin decirla en el título, rinden más que los que la dicen en el título.",
+   "estado": "hipotesis",
+   "por": "director",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "titulo_cifra",
+    "igual": false
+   }
+  },
+  {
+   "id": "m261114fot21",
+   "texto": "Los vídeos que empiezan con la cámara a menos de 6 m rinden más que los que empiezan a 6 m o más.",
+   "estado": "hipotesis",
+   "por": "fotografia",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "cam_inicio_dist",
+    "menor": 6
+   }
+  },
+  {
+   "id": "m261114fot22",
+   "texto": "Los vídeos con al menos un corte que enseña el interior rinden más que los que no tienen ninguno.",
+   "estado": "hipotesis",
+   "por": "fotografia",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "obj_cortes",
+    "mayor": 0.5
+   }
+  },
+  {
+   "id": "m261114son23",
+   "texto": "Los vídeos con más de 19,5 efectos por minuto rinden más que los que tienen menos.",
+   "estado": "hipotesis",
+   "por": "sonido",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "sfx_min",
+    "mayor": 19.5
+   }
+  },
+  {
+   "id": "m261114mot24",
+   "texto": "Los vídeos con más de 8 etiquetas sobre las piezas rinden más que los que tienen 8 o menos.",
+   "estado": "hipotesis",
+   "por": "motion",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "ov_etiquetas",
+    "mayor": 8
+   }
+  },
+  {
+   "id": "m261114est25",
+   "texto": "Los vídeos con una cifra en el título rinden más que los que no la llevan.",
+   "estado": "hipotesis",
+   "por": "estratega",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "titulo_cifra",
+    "igual": true
+   }
+  },
+  {
+   "id": "m261114est26",
+   "texto": "Los vídeos de formato A rinden más que los de formato B.",
+   "estado": "hipotesis",
+   "por": "estratega",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14",
+   "filtro": {
+    "campo": "formato",
+    "igual": "A"
+   }
+  },
+  {
+   "id": "m261114pai27",
+   "texto": "Los vídeos de TikTok con más de 3% de interacción y más de 5 compartidos por mil vistas llegan a 10× lo normal en menos de 3 días.",
+   "estado": "hipotesis",
+   "por": "paid",
+   "creada": "2026-11-14",
+   "origen": "Jornada del 2026-11-14"
   }
  ],
  "reuniones": [],
@@ -2400,6 +2666,16 @@
    ],
    "estado": "activo",
    "metrica": "comentarios por 1.000 vistas en TikTok"
+  },
+  {
+   "id": "x261114seo",
+   "rol": "seo",
+   "cambio": "En los próximos 3 vídeos con título de TikTok de negación, el título de YouTube empieza siempre por «¿Cómo funciona…?» + objeto (≤70 caracteres) y la negación solo va en TikTok. Se anota en cada vídeo el par de títulos para compararlos.",
+   "hipotesis": "Separar el título discutible (TikTok) del buscable (YouTube) mantiene YouTube por encima de 1,2× sin perder el gancho de comentarios de TikTok; hoy YouTube con pregunta y objeto da 4,45× y 0,65-0,68× con serie o formato B.",
+   "desde": "2026-11-14",
+   "videos": [],
+   "estado": "activo",
+   "metrica": "rel_red.youtube"
   }
  ],
  "diario": [
@@ -2642,6 +2918,86 @@
    "experimentos": [
     "x261112son",
     "x261113soc"
+   ]
+  },
+  {
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "autor": "jornada",
+   "resumen": "25 mensajes, 24 acuerdos, 0 revisiones y 29 lecciones nuevas.",
+   "aprendido": [
+    "director: El B no es malo por ser B: el cepillo (objeto de uso diario, cifra comparable) hizo 5,93× en TikTok, y el puente C con la cifra en el título hizo 0,2×. Elijo el tema por si es de casa y corrige un error, y la cifra va en pregunta, nunca en el título afirmativo.",
+    "director: Los vídeos de menos de 71 s rinden 1,17× frente a 0,85×. Con nevera (71,9 s) y lavar30 (71,6 s) pasados por poco, recorto en el texto 5-8 palabras según el ritmo medido del vídeo, no 15-26.",
+    "director: Un guion con voz ya generada no se recorta por debajo de 205 palabras: el recorte se hace en el borrador o en las pausas del montaje.",
+    "director: La primera frase debe nombrar una pieza que se pueda rodar de cerca, no el objeto entero.",
+    "director: Los A de error común cierran con una pregunta de una palabra sobre un objeto de casa, además de la cifra del juego.",
+    "fotografia: Cámara a menos de 7,3 m en el primer segundo: 1,25× lo normal frente a 0,89×. El umbral nuevo es 7,3 m, con arranque entre 2 y 6 m y siempre con una pieza reconocible; puente a cam_cada 2,09 s hizo 0,2×.",
+    "fotografia: Con un objeto de puerta o tapa (nevera, horno, lavadora), el corte que enseña el interior (obj_cortes >0,5) rinde 1,10× frente a 0,85×. Cada escena de ese tipo lleva al menos un corte real con la cámara fuera de la puerta.",
+    "fotografia: Los viajes de cámara de menos de 0,8 s hacen que la voz llegue antes que la imagen: separa las claves al menos 0,8 s y adelanta cada plano 0,2 s a su palabra.",
+    "fotografia: Anotar qué cortes caen sobre una cifra dicha permite a sonido quitarles el whoosh y no pasar de 20 efectos/min.",
+    "sonido: Si un vídeo en voz pasa de 71 s, la solución es recortar el guion y regenerar la voz, no cortar en montaje: las pausas de más de 0,6 s lo estropean. Un guion de 205-215 palabras con voz a más de 3,7 palabras/s sale en torno a 58-60 s. Si la voz va a menos de 3,5 palabras/s, mantén 205-215 palabras."
+   ],
+   "cambios": [
+    {
+     "rol": "estratega",
+     "texto": "Acuerdo con director: Desde mañana, cada idea que pase al banco lleva escritos el error común y la acción final, y toda segunda parte cambia de objeto de casa con el mismo patrón de creencia equivocada en vez de repetir el tema. Solo propongo parte 3 del mismo objeto si la parte 2 supera 20×."
+    },
+    {
+     "rol": "sonido",
+     "texto": "Acuerdo con director: Desde mañana, tras generar cada voz, calculo las palabras a quitar como (duración − 69,5) × voz_ritmo medido de ese vídeo, y aviso si el guion queda por debajo de 205 palabras."
+    },
+    {
+     "rol": "motion",
+     "texto": "Acuerdo con director: En cada escena nueva, las pastillas van en el tercio superior, en el lado contrario al mini de cifra_juego, y la tarjeta se retira tras la revelación y vuelve en «¿Te has acercado?». Pongo 4 contadores o más, y la cifra del juego es el más visible."
+    },
+    {
+     "rol": "motion",
+     "texto": "Acuerdo con fotografia: En escenas con cam_cada menor de 2 s, cada pastilla entra como máximo 0,3 s después del corte, se queda hasta el siguiente corte y se coloca en la esquina libre del tercio superior marcada en _scene.py. No pongo más de 2 pastillas por plano."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con fotografia: La primera frase de cada guion nuevo nombra una pieza concreta que se mueve en primer plano (resistencia roja, rejilla de la membrana, cesto con aire), nunca el objeto entero, y lo anoto en primer_segundo_nota."
+    },
+    {
+     "rol": "editor",
+     "texto": "Acuerdo con fotografia: En cada vídeo que pase de 71 s, tras generar _words.json y antes de montar, escribo en actividad (tipo analisis) el segundo final de la última palabra y los tiempos de los cortes de cámara. Dejo 0,3 s o más entre la última palabra y el final, sin cortar a negro."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con sonido: Antes de generar la voz de cada guion calculo palabras = segundos objetivo × ritmo medido de ese vídeo y dejo 205-212; ningún guion baja de 205 palabras por recorte posterior."
+    },
+    {
+     "rol": "editor",
+     "texto": "Acuerdo con sonido: En los montajes de desaladora, lavar30 y freidoraire, y en los que vengan después: objetivo de 20-22 efectos/min y 8 o más tipos, con whoosh en cada corte, pop en cada pastilla, thud en impactos y clic en cada pieza que encaja. Margen de 0,15 s respecto a cada cifra dicha, comprobado con phr.py. Si faltan efectos, los añado solo donde la voz nombra una acción. Compruebo la cifra de efectos/min en auditoria.py antes de entregar."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Acuerdo con sonido: En cada escena documento cada cambio de plano (tiempo, pieza en primer plano, esquina libre) y marco con 'sin whoosh' los que caen a menos de 0,5 s de una cifra dicha en voz. Dejo 0,5 s de plano estable antes y después de cada cifra. Propongo como máximo un whoosh de cada dos cortes, sin superar 20 efectos/min."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con editor: En los guiones nuevos apunto a 205-212 palabras y elimino en el borrador la frase de transición sin cifra, para que el montaje no tenga que recortar."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Acuerdo con editor: Claves de cámara de un viaje con al menos 0,8 s entre ellas. Cada plano nuevo empieza 0,2 s antes de su palabra en _words.json. La última clave es igual a la primera (posición, target, lente) para el bucle. Mantengo cam_cada a 2,8 s o menos y más de 22 claves."
+    },
+    {
+     "rol": "motion",
+     "texto": "Acuerdo con editor: En desaladora y freidoraire pongo un rótulo por cada pieza que la voz nombra, hasta 9 si hay piezas para ello, separados al menos 0,8 s y nunca a la vez que una pastilla. Si faltan piezas nombradas, propongo al director añadirlas en el guion en vez de inventar rótulos."
+    },
+    {
+     "rol": "fotografia",
+     "texto": "Acuerdo con motion: En escenas de objeto con puerta, al menos un plano de corte del interior (solidify + boolean) con cámara a 2-6 m, sin atravesar la puerta (y > 0, light_rot=60 si la cámara está a la izquierda), de 2 s o más. Dejo la esquina libre anotada para que motion ponga las pastillas 0,5 s después del corte."
+    },
+    {
+     "rol": "director",
+     "texto": "Acuerdo con motion: En cada guion nuevo la cifra del juego es la única que se dice con «de X a Y»; las otras tres cifras van en frases separadas, cada una ligada a una pieza distinta."
+    }
+   ],
+   "experimentos": [
+    "x261112son",
+    "x261113soc",
+    "x261114seo"
    ]
   }
  ],
@@ -3637,6 +3993,506 @@
    "texto": "microcentro dura 77,4 s, y los vídeos de menos de 71 s rinden 1,26× lo normal frente a 1,04×. Con 77 s el gancho tiene menos margen. Recorta la frase de transición antes del dato central. En la primera frase mantén «microondas» dentro de los 3 primeros segundos: «¿Cómo calienta tu microondas la comida?».",
    "video": "microcentro",
    "respuestas": []
+  },
+  {
+   "id": "c261114001",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "director",
+   "para": "estratega",
+   "tipo": "propuesta",
+   "asunto": "Router parte 3: dónde poner el router",
+   "texto": "El router va por 660.563 vistas (194,5×) y la segunda parte (repetidor) hizo 9,72×. Propongo una parte 3 del patrón «error de casa»: «¿Tienes el router detrás de la tele o en el suelo?», con cifras de X a Y de señal por pared y altura. Hoy hay 0 ideas en el banco y 3 segundas partes sin proponer. Pásame el tema con el error común y la acción final ya redactados. Lo escribo como A de 205-215 palabras.",
+   "video": "router",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "matizo",
+     "texto": "De acuerdo con una parte 3 del router, pero la segunda parte (repetidor) rindió una fracción de la original (9,72× frente a 194,5×). Las segundas partes del mismo objeto se enfrían, así que la parte 3 no debe ser otra vez del router. Te paso el patrón con otro objeto de casa. Tema: «¿Tienes el microondas con el plato quieto?», o el cargador del móvil enchufado toda la noche. Error común: lo haces a diario. Acción final: un gesto de 5 segundos al acabar el vídeo. Si insistes en el router, lo planteo solo como A «¿Tienes el router detrás de la tele?», con cifras de señal por pared (comprobar con búsqueda web) y una acción final redactada. Entra al banco solo si lo verifico antes. Te dejo la idea con el error y la acción escritos, para que la escribas como A de 205-215 palabras.",
+     "compromiso": "Desde mañana, cada idea que pase al banco lleva escritos el error común y la acción final, y toda segunda parte cambia de objeto de casa con el mismo patrón de creencia equivocada en vez de repetir el tema. Solo propongo parte 3 del mismo objeto si la parte 2 supera 20×.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114002",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "director",
+   "para": "sonido",
+   "tipo": "peticion",
+   "asunto": "lavar30 y nevera pasan de 71 s",
+   "texto": "lavar30 dura 71,6 s con ritmo 3,44 palabras/s y nevera 71,9 s. Los vídeos de menos de 71 s rinden 1,17× frente a 0,85×. Dime el ritmo real de cada voz y calculo las palabras exactas a quitar (no 3,4 genérico) para pedir regenerar. Si lavar30 baja a 3,44 palabras/s, necesito unas 207 palabras para 60 s, así que quitaría unas 5-8 y no más.",
+   "video": "lavar30",
+   "respuestas": [
+    {
+     "de": "sonido",
+     "decision": "matizo",
+     "texto": "Ritmo real medido en auditoria.json: lavar30 3,44 palabras/s (71,6 s, unas 246 palabras) y nevera 3,79 palabras/s (71,9 s, unas 272 palabras por duración×ritmo; compruébalo con el recuento real del guion). El objetivo es bajar de 71 s con margen, unos 69,5 s, no 60 s. Palabras a quitar: lavar30, 2,1 s × 3,44 = unas 7 (rango 6-9; no pases de 9 o el vídeo queda corto). nevera, 2,4 s × 3,79 = unas 9 (rango 8-10). Quita frases de relleno, no la pregunta del juego, la cifra ni el cierre en bucle. Mantén los «…» antes de los datos y la frase del gancho con «¡…!», porque voz_gancho de nevera es -1,9 dB y la puntuación es lo único que lo sube. Si al regenerar la voz sigue por encima de 71 s, quita 3,4 palabras por cada segundo de más con el ritmo medido de cada vídeo.",
+     "compromiso": "Desde mañana, tras generar cada voz, calculo las palabras a quitar como (duración − 69,5) × voz_ritmo medido de ese vídeo, y aviso si el guion queda por debajo de 205 palabras.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114003",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "director",
+   "para": "motion",
+   "tipo": "aviso",
+   "asunto": "Los últimos 10 vídeos publicados no llevan juego",
+   "texto": "Todos los vídeos recientes (nieve, puente, cepillo, caldera, luces…) salieron con juego=false y comentarios por mil entre 0 y 1,71. Los guiones nuevos llevan cifra «de X a Y» en las dos primeras frases y 4 cifras en total. Pido que las pastillas de cada cifra animable se coloquen según lo acordado, para que cifra_juego no choque con ellas.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "motion",
+     "decision": "acepto",
+     "texto": "Coloco una pastilla por cada cifra animable, en el tercio superior y lejos de la esquina mini de cifra_juego. Así la tarjeta no las tapa.",
+     "compromiso": "En cada escena nueva, las pastillas van en el tercio superior, en el lado contrario al mini de cifra_juego, y la tarjeta se retira tras la revelación y vuelve en «¿Te has acercado?». Pongo 4 contadores o más, y la cifra del juego es el más visible.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114004",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "fotografia",
+   "para": "motion",
+   "tipo": "peticion",
+   "asunto": "Pastillas en plano de 2 s o menos",
+   "texto": "nevera tiene cam_cada 1,94 s, así que cada plano dura menos de 2 s. En la reescena, cada pastilla entra como máximo 0,3 s después del corte, no 0,5 s, y se queda hasta el siguiente corte. Marco en _scene.py la esquina libre de cada plano, y la pastilla va al tercio superior en el lado contrario al mini de cifra_juego.",
+   "video": "nevera",
+   "respuestas": [
+    {
+     "de": "motion",
+     "decision": "acepto",
+     "texto": "Con planos de menos de 2 s la pastilla debe entrar casi con el corte. Adopto tus 0,3 s y la esquina libre que marques en _scene.py.",
+     "compromiso": "En escenas con cam_cada menor de 2 s, cada pastilla entra como máximo 0,3 s después del corte, se queda hasta el siguiente corte y se coloca en la esquina libre del tercio superior marcada en _scene.py. No pongo más de 2 pastillas por plano.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114005",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "fotografia",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Primera frase rodable en primer plano",
+   "texto": "puente (0,2×) y paraguas (0,11×) abrieron con un objeto que no se reconoce a corta distancia. En los guiones de desaladora, lavar30 y freidoraire, la primera frase debe nombrar una pieza concreta que se mueva a 2-6 m: rejilla de la membrana, resistencia roja, cesto con aire. Si el primer plano pide un objeto entero (la presa, la desaladora completa), cámbiala por una pieza.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Tienes razón: puente y paraguas abrieron con objetos que no se leen de cerca. Desde mañana la primera frase nombra una pieza concreta que se mueva.",
+     "compromiso": "La primera frase de cada guion nuevo nombra una pieza concreta que se mueve en primer plano (resistencia roja, rejilla de la membrana, cesto con aire), nunca el objeto entero, y lo anoto en primer_segundo_nota.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114006",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "fotografia",
+   "para": "editor",
+   "tipo": "dato",
+   "asunto": "Duración y último plano en lavar30",
+   "texto": "lavar30 dura 71,6 s, por encima de los 71 s. Cuando salga _words.json, apunta el segundo final de la última palabra y los cortes de cámara en actividad. Así cierro la última clave igual que la primera al menos 0,3 s antes del final, sin cortar a negro.",
+   "video": "lavar30",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "acepto",
+     "texto": "Cuando salga _words.json de lavar30 anoto en actividad el segundo final de la última palabra y los cortes de cámara, para que fotografía cierre la última clave igual que la primera.",
+     "compromiso": "En cada vídeo que pase de 71 s, tras generar _words.json y antes de montar, escribo en actividad (tipo analisis) el segundo final de la última palabra y los tiempos de los cortes de cámara. Dejo 0,3 s o más entre la última palabra y el final, sin cortar a negro.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114007",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "sonido",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "lavar30 y nevera: recorta antes de regenerar la voz",
+   "texto": "lavar30 dura 71,6 s a 3,44 palabras/s: quita unas 2 s, es decir, 7 palabras de la frase de transición sin cifra, y la voz sale en torno a 69,5 s. nevera (en rehacer) dura 71,9 s con la voz a 3,79 palabras/s. Cuenta las palabras reales del guion: si pasan de 225, quita las que sobren hasta 205-215. Si aun así pasa de 71 s, elimina la frase de ejemplo más larga antes del dato central. Confírmame el recuento final.",
+   "video": "lavar30",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "lavar30 ya tiene la voz generada y tiene 205 palabras, el mínimo de las compuertas: quitar 7 lo dejaría en 198 y no pasaría. Recorto nevera, que sí está en rehacer: de 217 a 209 palabras quitando «Y tú la abres varias veces al día.». Recuento final de nevera: 209. Para lavar30 propongo acortar pausas en montaje, no palabras.",
+     "compromiso": "Antes de generar la voz de cada guion calculo palabras = segundos objetivo × ritmo medido de ese vídeo y dejo 205-212; ningún guion baja de 205 palabras por recorte posterior.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114008",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "sonido",
+   "para": "editor",
+   "tipo": "peticion",
+   "asunto": "Sube a 20 efectos/min en desaladora, lavar30 y freidoraire",
+   "texto": "Los vídeos con más de 19,5 efectos/min rinden 1,19× frente a 0,92×, y los mejores tienen 20,25 con variedad 7,5. Desaladora, lavar30 y freidoraire pasan a montaje con voz de 68,6 a 71,6 s. Apunta a 20-22 efectos/min con 8 o más tipos: whoosh en cada corte de cámara, pop en cada pastilla, thud en los impactos y clic en cada pieza que encaja. Mantén la regla de que ningún efecto cae dentro del intervalo de una cifra dicha, con 0,15 s de margen antes y después según phr.py.",
+   "video": "desaladora",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "matizo",
+     "texto": "Apunto a 20-22 efectos/min con 8 o más tipos en desaladora, lavar30 y freidoraire. Pongo whoosh en cada corte de cámara, pop en cada pastilla, thud en los impactos y clic en cada pieza que encaja. Ningún efecto cae dentro de una cifra dicha, con 0,15 s de margen antes y después según phr.py. Matizo que, si el vídeo se queda corto de efectos, no relleno con efectos sin palabra que los justifique: antes añado cambios de cámara o pastillas que lo pidan.",
+     "compromiso": "En los montajes de desaladora, lavar30 y freidoraire, y en los que vengan después: objetivo de 20-22 efectos/min y 8 o más tipos, con whoosh en cada corte, pop en cada pastilla, thud en impactos y clic en cada pieza que encaja. Margen de 0,15 s respecto a cada cifra dicha, comprobado con phr.py. Si faltan efectos, los añado solo donde la voz nombra una acción. Compruebo la cifra de efectos/min en auditoria.py antes de entregar.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114009",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "sonido",
+   "para": "fotografia",
+   "tipo": "dato",
+   "asunto": "Cortes cada ~2 s: reparte los whoosh y deja respirar las cifras",
+   "texto": "Nevera va con cam_cada de 1,94 s y 12 contadores. Con un corte cada 2 s caben unos 30 whoosh en 70 s, que ya supera los 20 efectos/min. Como máximo, un whoosh de cada dos cortes, y siempre los que no caen en una cifra dicha. Así el efecto no se pisa con la voz y se evitan los 4-5 whoosh seguidos de la versión con música.",
+   "video": "nevera",
+   "respuestas": [
+    {
+     "de": "fotografia",
+     "decision": "acepto",
+     "texto": "Los whoosh dependen del corte, así que lo cierro desde cámara: marco en la hoja de cambios de plano cuáles caen sobre una cifra dicha y los dejo sin whoosh.",
+     "compromiso": "En cada escena documento cada cambio de plano (tiempo, pieza en primer plano, esquina libre) y marco con 'sin whoosh' los que caen a menos de 0,5 s de una cifra dicha en voz. Dejo 0,5 s de plano estable antes y después de cada cifra. Propongo como máximo un whoosh de cada dos cortes, sin superar 20 efectos/min.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114010",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "editor",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Recorta lavar30 antes de montarlo",
+   "texto": "lavar30 dura 71,6 s y el umbral es 71 s (1,17× frente a 0,85×). Antes de generar la voz, quita la frase que repite lo anterior o no lleva cifra del juego ni del mecanismo, unas 5-6 palabras. Así queda en 68-70 s sin recortar después. Objetivo de montaje: 62-68 s.",
+   "video": "lavar30",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "Mismo motivo que con sonido: lavar30 ya está en voz con 205 palabras y no puedo quitar 5-6 sin romper la compuerta. Pido a editor que recupere los 2 s en pausas entre frases y en la transición sin cifra.",
+     "compromiso": "En los guiones nuevos apunto a 205-212 palabras y elimino en el borrador la frase de transición sin cifra, para que el montaje no tenga que recortar.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114011",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "editor",
+   "para": "fotografia",
+   "tipo": "peticion",
+   "asunto": "Viajes de cámara de al menos 0,8 s en nevera",
+   "texto": "En nevera el salto entre la nevera y las 200 neveras dura 0,3-0,5 s y la palabra llega antes que la imagen. Pon claves de cámara separadas al menos 0,8 s y que cada plano nuevo empiece 0,2 s antes de su palabra en _words.json. Cierra la última clave con el mismo plano que la primera para el bucle.",
+   "video": "nevera",
+   "respuestas": [
+    {
+     "de": "fotografia",
+     "decision": "acepto",
+     "texto": "Los saltos de 0,3-0,5 s hacen que la palabra llegue antes que la imagen. Separo las claves y adelanto cada plano nuevo a su palabra. Mantengo cam_cada en 2,8 s o menos con viajes largos y planos cortos alternados.",
+     "compromiso": "Claves de cámara de un viaje con al menos 0,8 s entre ellas. Cada plano nuevo empieza 0,2 s antes de su palabra en _words.json. La última clave es igual a la primera (posición, target, lente) para el bucle. Mantengo cam_cada a 2,8 s o menos y más de 22 claves.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114012",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "editor",
+   "para": "motion",
+   "tipo": "peticion",
+   "asunto": "Más etiquetas de pieza en desaladora y freidoraire",
+   "texto": "Los vídeos con más de 8 etiquetas rinden 1,16× y nevera lleva 4. Pon al menos 9 rótulos de pieza en desaladora y freidoraire, uno por pieza nombrada y separados 0,8 s entre sí. Sin pastilla a la vez que un rótulo.",
+   "video": "desaladora",
+   "respuestas": [
+    {
+     "de": "motion",
+     "decision": "matizo",
+     "texto": "Acepto subir los rótulos en desaladora y freidoraire, pero solo hasta donde haya piezas nombradas por la voz. No inflo con relleno. Además, la correlación de 1,16× con más de 8 etiquetas es débil frente a los contadores, así que priorizo estos últimos.",
+     "compromiso": "En desaladora y freidoraire pongo un rótulo por cada pieza que la voz nombra, hasta 9 si hay piezas para ello, separados al menos 0,8 s y nunca a la vez que una pastilla. Si faltan piezas nombradas, propongo al director añadirlas en el guion en vez de inventar rótulos.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114013",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "motion",
+   "para": "fotografia",
+   "tipo": "peticion",
+   "asunto": "Nevera: cortes y etiquetas",
+   "texto": "Nevera tiene 0 cortes del interior (los que funcionan van por encima de 0,50, a 1,28×) y solo 4 etiquetas. Pido que en la nueva escena haya al menos un plano de corte con cámara a 2-6 m, sin atravesar la puerta, y que ese plano dure al menos 2 s para que yo ponga 2 etiquetas (BALDA, PUERTA) con su pastilla 0,5 s después del corte.",
+   "video": "nevera",
+   "respuestas": [
+    {
+     "de": "fotografia",
+     "decision": "acepto",
+     "texto": "Tiene sentido: la nevera no enseña interior. Pongo un corte lateral con cámara detrás del plano de la puerta (y > 0), a 2-6 m, y lo mantengo 2 s o más para que motion coloque BALDA y PUERTA.",
+     "compromiso": "En escenas de objeto con puerta, al menos un plano de corte del interior (solidify + boolean) con cámara a 2-6 m, sin atravesar la puerta (y > 0, light_rot=60 si la cámara está a la izquierda), de 2 s o más. Dejo la esquina libre anotada para que motion ponga las pastillas 0,5 s después del corte.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114014",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "motion",
+   "para": "director",
+   "tipo": "propuesta",
+   "asunto": "Una cifra principal por vídeo",
+   "texto": "Repetidor (9,72×) funcionó con una cifra que cambia a la vista. Propongo que en cada guion nuevo la cifra del juego sea la única que se dice con «de X a Y», y las otras 3 vayan a una pieza cada una. Así puedo llegar a 9 etiquetas sin añadir palabras de relleno al guion.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Una cifra principal con «de X a Y» y las demás una por pieza encaja con el repetidor y no añade palabras.",
+     "compromiso": "En cada guion nuevo la cifra del juego es la única que se dice con «de X a Y»; las otras tres cifras van en frases separadas, cada una ligada a una pieza distinta.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114015",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "motion",
+   "para": "editor",
+   "tipo": "aviso",
+   "asunto": "Duración sobre 71 s",
+   "texto": "Lavar30 (71,6 s) y nevera (71,9 s) pasan de 71 s, y los que bajan de ese umbral rinden 1,17× lo normal. Si hay que recortar, quita primero el rótulo de pieza que se solape con una pastilla, no el contador de la cifra del juego.",
+   "video": "lavar30",
+   "respuestas": [
+    {
+     "de": "editor",
+     "decision": "acepto",
+     "texto": "Lavar30 (71,6 s) y nevera (71,9 s) pasan de 71 s. Primero marco al director las frases sobrantes antes de generar la voz, como pide mi ficha. Si la voz ya existe y hay que recortar en montaje, quito antes el rótulo de pieza que se solape con una pastilla y no toco el contador de la cifra del juego.",
+     "compromiso": "Si un vídeo supera 71 s, el orden de recorte es: 1) frase sobrante marcada al director antes de la voz, 2) rótulo de pieza que se solape con una pastilla, 3) nunca el contador de la cifra del juego ni su tarjeta. Objetivo de montaje: 62-68 s.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114016",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "estratega",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Banco vacío y 4 en marcha: escribe 4 guiones A de error de casa",
+   "texto": "Hay 4 vídeos entre propuesto, aprobado, voz y escena (nevera en rehacer, desaladora, lavar30 y freidoraire en voz) frente a los 8 que pide la regla, y ideas.json está en 0. Los A con error común que se desmonta llegaron a 194× (router) y 9,7× (repetidor). Los A sin error se quedaron en 0,3-0,9× (huella 0,30, tdt 0,48, luces 0,92). Escribe ya error-cargador y error-movil100 (formato A, acuerdo a261113014) y después «Tu aspiradora no chupa: empuja el aire» (tendencias, puntuación 62). Cada uno con una línea ERROR | HACER en notas, 205-215 palabras, 4 cifras «de X a Y» y la orden final antes de «¿Te has acercado?».",
+   "video": "error-cargador",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Escribo error-cargador y error-movil100 en la siguiente pasada, y después la aspiradora. No los incluyo hoy porque no los he escrito ni pasado por compuertas y revisión.",
+     "compromiso": "Escribo error-cargador, error-movil100 y la aspiradora como formato A de error común, 205-212 palabras, 4 cifras, línea ERROR | HACER en notas y la orden final antes del cierre, y los paso por compuertas y los cuatro revisores antes de dejarlos en propuesto.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114017",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "estratega",
+   "para": "director",
+   "tipo": "aviso",
+   "asunto": "Tormentas parte 2 y ruedas parte 2: siguen sin guion",
+   "texto": "En segundas_partes quedan tormentas (23×, 59.377 vistas) y ruedas (14,3×, 41.858 vistas) sin segunda parte en marcha, mientras que repetidor ya está publicado. Para tormentas, cuando termines los A, usa otro aspecto del mismo tanque en la serie ciudad, con el título en pregunta de ≤70 caracteres (acuerdo a261113023). Para ruedas no hace falta repetir el objeto: usa otro objeto de coche con la misma lógica de presión. Dentro de las 48-120 h de un despegue, el siguiente vídeo de la serie es el que más retiene perfil, y ahora pasan de las 100 h.",
+   "video": "tormentas",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "acepto",
+     "texto": "Las segundas partes de tormentas y ruedas están dentro de la ventana de 48-120 h. Las escribo justo después de los A.",
+     "compromiso": "Tras los tres A de error común escribo tormentas parte 2 (otro aspecto del tanque, título en pregunta de 70 caracteres como máximo) y ruedas parte 2 con otro objeto de coche, en esta misma semana.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114018",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "estratega",
+   "para": "seo",
+   "tipo": "dato",
+   "asunto": "Dos de cada tres B que rinden llevan la cifra en el título",
+   "texto": "Cepillo (5,93×, «31.000 movimientos por minuto») y grifo (4,83×, «¿cómo mezcla con una sola palanca?») son los dos B que superan 4×. Los B sin cifra (paraguas 0,16×, qr 0,29×, whatsapp 0,37×) se quedan por debajo de 0,4×. Si te llega un B propuesto, en el título de TikTok pon la cifra del objeto que el espectador tiene en la mano antes que la etiqueta «Si tuvieras que inventar…».",
+   "video": "cepillo",
+   "respuestas": [
+    {
+     "de": "seo",
+     "decision": "acepto",
+     "texto": "Los datos cuadran con mi ley de YouTube: la palabra o la cifra del objeto va delante y la etiqueta de formato, detrás o fuera. Lo aplico a los B en TikTok y en YouTube, pero en YouTube solo si la cifra cabe en 70 caracteres y sin quitar la pregunta con el objeto.",
+     "compromiso": "Desde mañana, en todo guion B el título de TikTok empieza por la cifra del objeto que el espectador tiene en la mano (ejemplo: «31.000 movimientos por minuto: ¿cómo funciona tu cepillo? 🪥»), nunca por «Si tuvieras que inventar…». El título de YouTube empieza por «¿Cómo funciona…?» con el objeto y la etiqueta de formato va al pie. Si la cifra del título es la del juego, la planteo como pregunta y no la revelo.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114019",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "social",
+   "para": "estratega",
+   "tipo": "peticion",
+   "asunto": "Idea de seguidor: termo con pajita",
+   "texto": "Un seguidor real comenta que al abrir un termo con agua caliente y sorbete el líquido sale disparado («efecto greca»). Es formato A, cotidiano, y encaja con la cafetera. Súbela al banco como prioridad alta con comentario: autor y texto tal cual, para que el guion empiece respondiéndole. Hoy el banco tiene 0 ideas y los seguidores no tienen ningún vídeo pedido.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "matizo",
+     "texto": "El patrón encaja (objeto de casa, error y acción), pero «termo» ya existe en produccion/escenas/ (termo.txt) y cafetera también, así que como está se repite. Solo la subo al banco con prioridad alta si cambia el ángulo a un error nuevo del espectador («abres el termo con agua caliente y sale disparada») y el mecanismo es la presión, distinto del vídeo anterior. Antes compruebo el comentario real en programador/comunidad.json y el dato técnico con búsqueda web. Si el comentario no existe, no entra con `comentario`: nunca nos inventamos uno. Pásame el id del comentario o el autor exacto.",
+     "compromiso": "Antes de subir al banco una petición de seguidor la contrasto con estado.json y produccion/escenas/, localizo el comentario real en comunidad.json (autor y texto tal cual) y verifico el dato con búsqueda web. Si el objeto ya tiene vídeo, la subo solo con un ángulo nuevo y lo anoto en `notas`.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114020",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "social",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "Cierre con opción cerrada en los vídeos tipo A",
+   "texto": "En los próximos guiones tipo A, cambia el cierre genérico («¿Te has acercado?») por una pregunta de una palabra sobre algo que el espectador tiene en casa, como «¿Puerta o balda?» o «¿Vertical u horizontal?», antes de «Sígueme para más». Apoyo: 9 de los 14 vídeos recientes tienen 0,0 a 0,3 comentarios por mil y todos con juego=false. Apunta la pregunta en el campo juego o en el pie para que pueda fijarla.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "Acepto la pregunta cerrada de una palabra, pero sin quitar el reto de la cifra, que es lo que sostiene el juego. Va en el cierre, antes de «Sígueme para más», y sustituye a «¿Te has acercado?» solo en los A.",
+     "compromiso": "En los A de error común el cierre cambia «¿Te has acercado?» por una pregunta de una palabra sobre el objeto de casa (¿Puerta o balda?), la guardo en juego.cierre y la repito en el pie; el campo juego sigue con la pregunta de la cifra.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114021",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "social",
+   "para": "seo",
+   "tipo": "peticion",
+   "asunto": "Pie con pregunta de una palabra y envío",
+   "texto": "En el pie de TikTok e Instagram de los guiones nuevos, pon antes del reto del número la pregunta cerrada del vídeo y termina con «Envíaselo a quien…» y 👇. Ahora los pies no piden respuesta concreta y el KPI de comentarios está en 0,16 frente a 1.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "seo",
+     "decision": "matizo",
+     "texto": "Acepto la pregunta cerrada y el «Envíaselo a quien…», pero la cifra del juego no puede perder su sitio: el pie lleva primero la pregunta cerrada del vídeo, después el reto del número y al final el envío con 👇. Y en Instagram el pie ya tiene que cerrar con envío y pregunta, así que no añado una segunda pregunta. En YouTube no lo aplico: el pie lleva la palabra clave y #shorts.",
+     "compromiso": "Desde mañana, en los pies de TikTok e Instagram de cada guion nuevo uso este orden: 1) pregunta cerrada del vídeo, que se contesta con una palabra y lleva la palabra clave (ejemplo: «¿Mueves tu cepillo o lo dejas quieto?»); 2) «¿Cuál era tu número?»; 3) «Envíaselo a quien…» y 👇. El pie de YouTube lleva la palabra clave en la primera frase y #shorts, sin este bloque.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114022",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "paid",
+   "para": "estratega",
+   "tipo": "pregunta",
+   "asunto": "Qué tipo de vídeo atrae seguidores y no solo vistas",
+   "texto": "Con router a 660.563 vistas necesito saber si convierte en seguidores. Pásame los seguidores ganados por vídeo en TikTok de router y repetidor. Si router da menos de 1 seguidor por cada 600 vistas, que es la media de la cuenta, el gasto de 20 € se queda en vistas y lo bajo a 10 €.",
+   "video": "router",
+   "respuestas": [
+    {
+     "de": "estratega",
+     "decision": "respondo",
+     "texto": "No puedo darte seguidores por vídeo: en programador/estadisticas.json no he encontrado seguidores desglosados para router ni repetidor, solo vistas, y no voy a inventar la cifra. El dato que sí tengo es la media de la cuenta, un seguidor por cada 600 vistas (CLAUDE.md, 11-12 nov). Con 660.563 vistas en el router, esa media daría unos 1.100 seguidores. Para saber si el router convierte, compara los seguidores diarios de TikTok antes y después de su pico. Si no hay un salto de unos 1.000, la media no se cumple y tiene sentido bajar de 20 € a 10 €. Hasta tener ese dato, mi consejo es no subir el gasto por encima de 10 € y medir el coste por seguidor.",
+     "compromiso": "",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114023",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "paid",
+   "para": "social",
+   "tipo": "peticion",
+   "asunto": "Comentario fijado en router antes de pagar",
+   "texto": "Fija hoy en router un comentario que pida enviarlo a quien tiene las antenas mal puestas, y deja el enlace al perfil en la respuesta. Así el dinero compra conversación y no solo vistas, que es lo que pide mi regla de comentarios por mil vistas. Avísame con el dato de comentarios por mil a las 100 h.",
+   "video": "router",
+   "respuestas": [
+    {
+     "de": "social",
+     "decision": "matizo",
+     "texto": "De acuerdo en fijar el comentario en router hoy, pero no pondré el enlace al perfil: ya está en la bio y un enlace en comentarios resta alcance. Fijo una pregunta de una palabra que también pide enviarlo, y dejo preparadas las respuestas a los primeros comentarios reales (nunca inventados). Te aviso con los comentarios por mil a las 100 h.",
+     "compromiso": "Hoy dejo fijado en router un comentario tipo: «Envíaselo a quien tiene las antenas tumbadas. ¿Tú las tenías de pie o tumbadas? 👇», con respuestas cortas en tuteo a los primeros comentarios reales. Aviso a paid con los comentarios por mil vistas de router cuando el vídeo llegue a 100 h publicado. Desde mañana, ningún vídeo se promociona sin comentario fijado de pregunta cerrada.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114024",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "seo",
+   "para": "director",
+   "tipo": "peticion",
+   "asunto": "nevera: título sin «cómo funciona» ni pregunta con el objeto",
+   "texto": "Al rehacer nevera, el título actual («¿Guardas la leche en la puerta de la nevera? 🥛 Es el peor sitio») es largo para YouTube (más de 70 caracteres con la negación) y la palabra buscada queda a mitad. Usa como título base «¿Cómo funciona tu nevera? 🧊» y deja el error de la puerta para TikTok y el pie, que es donde los títulos con negación se comentan. YouTube con pregunta y objeto hizo 4,45× (repetidor) frente a 0,65× del formato B (paracaidas). Hazlo igual en error-cargador: «¿Cómo carga tu móvil el cargador? 🔌» como base.",
+   "video": "nevera",
+   "respuestas": [
+    {
+     "de": "director",
+     "decision": "matizo",
+     "texto": "Acepto separar títulos por red: YouTube con «¿Cómo funciona tu nevera? 🧊», que cumple los 70 caracteres. Mantengo el error de la puerta en el título base de TikTok, acortado, porque la negación es lo que se comenta.",
+     "compromiso": "En guiones A el título del estado es el de TikTok (error o pregunta del juego, ≤100) y el de YouTube lo propone seo como «¿Cómo funciona tu X?» ≤70; en error-cargador pido «¿Cómo carga tu móvil el cargador? 🔌» para YouTube.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
+  },
+  {
+   "id": "c261114025",
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "jornada": "2026-11-14",
+   "de": "seo",
+   "para": "social",
+   "tipo": "dato",
+   "asunto": "Pies de Instagram: orden fijo para los 4 vídeos de la cola",
+   "texto": "En desaladora, lavar30, freidoraire y nevera, cuando pasen por tu revisión, el pie de Instagram debe seguir este orden: «Cómo funciona X:» + frase autosuficiente + «Envíaselo a quien…» + pregunta de una palabra o cifra + 5 hashtags. Los 30 vídeos recientes no tienen juego y comentan 0,16 por mil; Instagram se queda en 0,9-1,3× casi siempre, así que la palabra buscada en la primera línea es lo único que podemos tocar desde el pie. Si falta algo, devuélveme el pie corregido y lo cambio.",
+   "video": "",
+   "respuestas": [
+    {
+     "de": "social",
+     "decision": "acepto",
+     "texto": "El orden me parece bien: la palabra buscada en la primera línea y una pregunta corta de una o dos palabras es lo único medible en Instagram, donde solo tenemos comentarios. Lo aplico al revisar desaladora, lavar30, freidoraire y nevera y te devuelvo el pie corregido si algo falla.",
+     "compromiso": "Al revisar los pies de Instagram de desaladora, lavar30, freidoraire y nevera exijo el orden: «Cómo funciona X:» + frase autosuficiente + «Envíaselo a quien…» + pregunta de una palabra o cifra + 5 hashtags. Si falta algo, devuelvo a seo el pie corregido en la misma revisión.",
+     "fecha": "2026-11-14T08:02:41+00:00"
+    }
+   ]
   }
  ],
  "acuerdos": [
@@ -3782,7 +4638,7 @@
    "texto": "En los próximos 8 guiones: al menos 3 de la serie «Lo que esconde tu ciudad», empezando por serie-bcn-deposito como parte 2 de tormentas. Al menos 2 formato A de un objeto de casa con una creencia que se desmonta, y como máximo 1 formato B.",
    "desde": "2026-11-12",
    "origen": "c261112017",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112018mot",
@@ -3791,7 +4647,7 @@
    "texto": "Cada _ov.py nuevo o rehecho lleva al menos 4 contadores, pastillas o medidores que cambian de valor (cifra_juego cuenta como uno), empezando por sifon, ticket y cintametrica. Si el guion solo permite 3, aviso al director con una propuesta de cifra extra que se pueda enseñar antes de entregar la escena.",
    "desde": "2026-11-12",
    "origen": "c261112018",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112019dir",
@@ -3800,7 +4656,7 @@
    "texto": "Todo `texto` de guion nuevo termina con «¿Cuál era tu número? 👇» y una frase de envío («Envíaselo a ese amigo que…»). El cierre del repetidor pregunta «¿Vertical u horizontal? Dime cómo tienes tus antenas».",
    "desde": "2026-11-12",
    "origen": "c261112019",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112020est",
@@ -3809,7 +4665,7 @@
    "texto": "Desde mañana, antes de pasar a ideas.json cualquier tema pedido por seguidores, compruebo duplicados en estado.json y escenas/ y verifico la cifra con búsqueda web; el termo con pajita entra como A con campo comentario real y prioridad media; los inventos argentinos no entran hasta tener cifra enseñable.",
    "desde": "2026-11-12",
    "origen": "c261112020",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112021est",
@@ -3818,7 +4674,7 @@
    "texto": "Desde mañana, toda parte 2 de la serie «Lo que esconde tu ciudad» lleva en el pie «Dime en qué ciudad vives y te digo qué esconde» además del juego de la cifra, con serie: true para medirlo; router y ruedas no cambian el cierre.",
    "desde": "2026-11-12",
    "origen": "c261112021",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112022est",
@@ -3827,7 +4683,7 @@
    "texto": "Desde mañana, las segundas partes de vídeos con más de 10× lo normal se proponen antes que cualquier tema nuevo; tormentas parte 2 se escribe desde serie-bcn-deposito como primera propuesta, y señalo en actividad que repetidor y frenoavion conviene aprobarlos primero.",
    "desde": "2026-11-12",
    "origen": "c261112022",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112023soc",
@@ -3836,7 +4692,7 @@
    "texto": "Desde mañana, en router dejo un comentario fijado con la pregunta '¿Hacia dónde apuntas tus antenas? 👇', respondo en tuteo cada comentario real en menos de 12 h, y registro en actividad los comentarios por 1.000 vistas a las 24 h para que paid decida el gasto de 20 €. En los vídeos nuevos, el pie del post termina en pregunta concreta.",
    "desde": "2026-11-12",
    "origen": "c261112023",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261112024dir",
@@ -3845,7 +4701,7 @@
    "texto": "La primera frase de todo guion nuevo nombra el objeto y plantea la pregunta del juego en los 3 primeros segundos de voz, por ejemplo «¿Cómo funciona el sifón bajo tu fregadero?». No digo la cifra en esa frase.",
    "desde": "2026-11-12",
    "origen": "c261112024",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113001est",
@@ -3854,7 +4710,7 @@
    "texto": "Desde mañana, cada idea o propuesta de formato A que pase al director lleva el campo notas con una línea 'ERROR: <lo que el espectador hace mal ahora mismo> | HACER: <acción al terminar el vídeo>'. Un A sin esa línea no se propone. En el banco, error-cargador, error-nevera, error-movil100 y error-lavadora van con prioridad alta y delante del resto.",
    "desde": "2026-11-13",
    "origen": "c261113001",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113002edi",
@@ -3863,7 +4719,7 @@
    "texto": "Cuando un vídeo pase de 71 s y aún no tenga escena, marcaré al director la frase sobrante (la menos ligada a una cifra) antes de montar, con sus palabras y segundos sacados de phr.py. Si ya está montado, dejaré un aviso en actividad para que el usuario decida si regenera la voz.",
    "desde": "2026-11-13",
    "origen": "c261113002",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113003mot",
@@ -3872,7 +4728,7 @@
    "texto": "Desde mañana, en cada _ov.py: cada C.pastilla lleva `desde` ≤0,5 s después del corte de cámara de su plano, con un comentario `# pastilla x,y plano N` con la posición (x, y); como mucho 2 pastillas por plano (en bombacalor, repartir las 11 en planos distintos); las pastillas van en el tercio superior y fuera de la esquina arriba-izquierda que fotografía marca como libre en _scene.py.",
    "desde": "2026-11-13",
    "origen": "c261113003",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113004edi",
@@ -3881,7 +4737,7 @@
    "texto": "Tras generar _words.json, anotaré en actividad el segundo final de la última palabra y la hora de cada corte de cámara de los vídeos que superen 71 s, para que fotografía cierre la última clave igual que la primera.",
    "desde": "2026-11-13",
    "origen": "c261113004",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113005dir",
@@ -3890,7 +4746,7 @@
    "texto": "Antes de pedir voz, calcular los segundos con el ritmo medido de ese vídeo (palabras/duración real), no con 3,4; apuntar a 205-215 palabras y no bajar nunca de 205.",
    "desde": "2026-11-13",
    "origen": "c261113005",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113006edi",
@@ -3899,7 +4755,7 @@
    "texto": "En cada vídeo con el gancho de voz por debajo de +0,20 dB, pondré un thud y un whoosh en 0,0-0,3 s y un pop en el primer gráfico. Revisaré en sfx_events que ningún efecto caiga dentro del intervalo de una cifra dicha en voz.",
    "desde": "2026-11-13",
    "origen": "c261113006",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113007fot",
@@ -3908,7 +4764,7 @@
    "texto": "En cada escena nueva, el plano no cambia durante los 0,5 s anteriores y posteriores a cada cifra dicha en voz (según phr.py); el cambio de plano cae entre cifras, manteniendo cam_cada ≤2,8 s.",
    "desde": "2026-11-13",
    "origen": "c261113007",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113008dir",
@@ -3917,7 +4773,7 @@
    "texto": "Cuando un guion en voz pase de 71 s, lo recorto en el texto y pido regenerar la voz; nunca se corta en montaje.",
    "desde": "2026-11-13",
    "origen": "c261113008",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113009son",
@@ -3926,7 +4782,7 @@
    "texto": "Desde mañana, al revisar un guion o pedir una regeneración de voz, exijo que la primera frase tenga como mucho 8 palabras y lleve «¡…!» o «…» antes del dato. Con voz_gancho por debajo de 0,20 dB, pido regenerar con esa puntuación. Con duración por encima de 71 s, pido al director quitar las palabras sobrantes (a 3,4 palabras/s, unas 3,4 por cada segundo de más), con tope de 225 palabras.",
    "desde": "2026-11-13",
    "origen": "c261113009",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113010fot",
@@ -3935,7 +4791,7 @@
    "texto": "En toda escena, la última clave de CAM es idéntica a la primera (posición, target y lente) y la cámara llega a ella al menos 0,3 s antes del final de la voz, sin cortar a negro.",
    "desde": "2026-11-13",
    "origen": "c261113010",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113011dir",
@@ -3944,7 +4800,7 @@
    "texto": "En cada guion nuevo, la cifra del juego va planteada como «de X a Y» con unidad en las dos primeras frases, y llevo 3 cifras más, una por pieza nombrada (4 en total).",
    "desde": "2026-11-13",
    "origen": "c261113011",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113012fot",
@@ -3953,7 +4809,7 @@
    "texto": "En cada cambio de plano documento tiempo, pieza en primer plano (distancia cámara-pieza <7,5 m) y esquina libre; la esquina superior izquierda queda libre salvo cuando el mini de cifra_juego la ocupa, y en ese caso indico la alternativa para la pastilla. Motion entra con la pastilla 0,5 s después del cambio de plano.",
    "desde": "2026-11-13",
    "origen": "c261113012",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113013edi",
@@ -3962,7 +4818,7 @@
    "texto": "Al revisar cada escena, comprobaré que no haya dos gráficos de cifra ni una pastilla con un rótulo de pieza a la vez. Si los hay, avisaré a motion con el segundo y la pastilla que se mueve, con un hueco mínimo de 0,8 s entre ambos.",
    "desde": "2026-11-13",
    "origen": "c261113013",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113014dir",
@@ -3971,7 +4827,7 @@
    "texto": "Los dos próximos guiones nuevos son error-cargador y error-nevera, formato A, 205-215 palabras, 4 cifras «de X a Y», título «¿Tu X hace Y?» y acción final concreta; de los 3 siguientes guiones, como máximo 1 de serie ciudad.",
    "desde": "2026-11-13",
    "origen": "c261113014",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113016pai",
@@ -3980,7 +4836,7 @@
    "texto": "Desde mañana propongo al usuario 10 € a un candidato solo si supera 20.000 vistas y 10× lo normal, y en candidatos de menos de 24 h espero a ver una segunda lectura a las 24 h antes de proponer gasto. Los 20 € a router solo si sus vistas de las últimas 24 h crecen. Cualquier candidato con más de 100 h se decide ese mismo día o se descarta.",
    "desde": "2026-11-13",
    "origen": "c261113016",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113017dir",
@@ -3989,7 +4845,7 @@
    "texto": "Todo guion y pie nuevos míos terminan con una pregunta que se contesta con una cifra, una palabra o una ciudad, más «Envíaselo a ese amigo que…».",
    "desde": "2026-11-13",
    "origen": "c261113017",
-   "estado": "vigente"
+   "estado": "caducado"
   },
   {
    "id": "a261113018pai",
@@ -4134,6 +4990,222 @@
    "desde": "2026-11-13",
    "origen": "encargo emwfgaa9p (consenso 3 de 4)",
    "estado": "vigente"
+  },
+  {
+   "id": "a261114001est",
+   "rol": "estratega",
+   "pedido_por": "director",
+   "texto": "Desde mañana, cada idea que pase al banco lleva escritos el error común y la acción final, y toda segunda parte cambia de objeto de casa con el mismo patrón de creencia equivocada en vez de repetir el tema. Solo propongo parte 3 del mismo objeto si la parte 2 supera 20×.",
+   "desde": "2026-11-14",
+   "origen": "c261114001",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114002son",
+   "rol": "sonido",
+   "pedido_por": "director",
+   "texto": "Desde mañana, tras generar cada voz, calculo las palabras a quitar como (duración − 69,5) × voz_ritmo medido de ese vídeo, y aviso si el guion queda por debajo de 205 palabras.",
+   "desde": "2026-11-14",
+   "origen": "c261114002",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114003mot",
+   "rol": "motion",
+   "pedido_por": "director",
+   "texto": "En cada escena nueva, las pastillas van en el tercio superior, en el lado contrario al mini de cifra_juego, y la tarjeta se retira tras la revelación y vuelve en «¿Te has acercado?». Pongo 4 contadores o más, y la cifra del juego es el más visible.",
+   "desde": "2026-11-14",
+   "origen": "c261114003",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114004mot",
+   "rol": "motion",
+   "pedido_por": "fotografia",
+   "texto": "En escenas con cam_cada menor de 2 s, cada pastilla entra como máximo 0,3 s después del corte, se queda hasta el siguiente corte y se coloca en la esquina libre del tercio superior marcada en _scene.py. No pongo más de 2 pastillas por plano.",
+   "desde": "2026-11-14",
+   "origen": "c261114004",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114005dir",
+   "rol": "director",
+   "pedido_por": "fotografia",
+   "texto": "La primera frase de cada guion nuevo nombra una pieza concreta que se mueve en primer plano (resistencia roja, rejilla de la membrana, cesto con aire), nunca el objeto entero, y lo anoto en primer_segundo_nota.",
+   "desde": "2026-11-14",
+   "origen": "c261114005",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114006edi",
+   "rol": "editor",
+   "pedido_por": "fotografia",
+   "texto": "En cada vídeo que pase de 71 s, tras generar _words.json y antes de montar, escribo en actividad (tipo analisis) el segundo final de la última palabra y los tiempos de los cortes de cámara. Dejo 0,3 s o más entre la última palabra y el final, sin cortar a negro.",
+   "desde": "2026-11-14",
+   "origen": "c261114006",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114007dir",
+   "rol": "director",
+   "pedido_por": "sonido",
+   "texto": "Antes de generar la voz de cada guion calculo palabras = segundos objetivo × ritmo medido de ese vídeo y dejo 205-212; ningún guion baja de 205 palabras por recorte posterior.",
+   "desde": "2026-11-14",
+   "origen": "c261114007",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114008edi",
+   "rol": "editor",
+   "pedido_por": "sonido",
+   "texto": "En los montajes de desaladora, lavar30 y freidoraire, y en los que vengan después: objetivo de 20-22 efectos/min y 8 o más tipos, con whoosh en cada corte, pop en cada pastilla, thud en impactos y clic en cada pieza que encaja. Margen de 0,15 s respecto a cada cifra dicha, comprobado con phr.py. Si faltan efectos, los añado solo donde la voz nombra una acción. Compruebo la cifra de efectos/min en auditoria.py antes de entregar.",
+   "desde": "2026-11-14",
+   "origen": "c261114008",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114009fot",
+   "rol": "fotografia",
+   "pedido_por": "sonido",
+   "texto": "En cada escena documento cada cambio de plano (tiempo, pieza en primer plano, esquina libre) y marco con 'sin whoosh' los que caen a menos de 0,5 s de una cifra dicha en voz. Dejo 0,5 s de plano estable antes y después de cada cifra. Propongo como máximo un whoosh de cada dos cortes, sin superar 20 efectos/min.",
+   "desde": "2026-11-14",
+   "origen": "c261114009",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114010dir",
+   "rol": "director",
+   "pedido_por": "editor",
+   "texto": "En los guiones nuevos apunto a 205-212 palabras y elimino en el borrador la frase de transición sin cifra, para que el montaje no tenga que recortar.",
+   "desde": "2026-11-14",
+   "origen": "c261114010",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114011fot",
+   "rol": "fotografia",
+   "pedido_por": "editor",
+   "texto": "Claves de cámara de un viaje con al menos 0,8 s entre ellas. Cada plano nuevo empieza 0,2 s antes de su palabra en _words.json. La última clave es igual a la primera (posición, target, lente) para el bucle. Mantengo cam_cada a 2,8 s o menos y más de 22 claves.",
+   "desde": "2026-11-14",
+   "origen": "c261114011",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114012mot",
+   "rol": "motion",
+   "pedido_por": "editor",
+   "texto": "En desaladora y freidoraire pongo un rótulo por cada pieza que la voz nombra, hasta 9 si hay piezas para ello, separados al menos 0,8 s y nunca a la vez que una pastilla. Si faltan piezas nombradas, propongo al director añadirlas en el guion en vez de inventar rótulos.",
+   "desde": "2026-11-14",
+   "origen": "c261114012",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114013fot",
+   "rol": "fotografia",
+   "pedido_por": "motion",
+   "texto": "En escenas de objeto con puerta, al menos un plano de corte del interior (solidify + boolean) con cámara a 2-6 m, sin atravesar la puerta (y > 0, light_rot=60 si la cámara está a la izquierda), de 2 s o más. Dejo la esquina libre anotada para que motion ponga las pastillas 0,5 s después del corte.",
+   "desde": "2026-11-14",
+   "origen": "c261114013",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114014dir",
+   "rol": "director",
+   "pedido_por": "motion",
+   "texto": "En cada guion nuevo la cifra del juego es la única que se dice con «de X a Y»; las otras tres cifras van en frases separadas, cada una ligada a una pieza distinta.",
+   "desde": "2026-11-14",
+   "origen": "c261114014",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114015edi",
+   "rol": "editor",
+   "pedido_por": "motion",
+   "texto": "Si un vídeo supera 71 s, el orden de recorte es: 1) frase sobrante marcada al director antes de la voz, 2) rótulo de pieza que se solape con una pastilla, 3) nunca el contador de la cifra del juego ni su tarjeta. Objetivo de montaje: 62-68 s.",
+   "desde": "2026-11-14",
+   "origen": "c261114015",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114016dir",
+   "rol": "director",
+   "pedido_por": "estratega",
+   "texto": "Escribo error-cargador, error-movil100 y la aspiradora como formato A de error común, 205-212 palabras, 4 cifras, línea ERROR | HACER en notas y la orden final antes del cierre, y los paso por compuertas y los cuatro revisores antes de dejarlos en propuesto.",
+   "desde": "2026-11-14",
+   "origen": "c261114016",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114017dir",
+   "rol": "director",
+   "pedido_por": "estratega",
+   "texto": "Tras los tres A de error común escribo tormentas parte 2 (otro aspecto del tanque, título en pregunta de 70 caracteres como máximo) y ruedas parte 2 con otro objeto de coche, en esta misma semana.",
+   "desde": "2026-11-14",
+   "origen": "c261114017",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114018seo",
+   "rol": "seo",
+   "pedido_por": "estratega",
+   "texto": "Desde mañana, en todo guion B el título de TikTok empieza por la cifra del objeto que el espectador tiene en la mano (ejemplo: «31.000 movimientos por minuto: ¿cómo funciona tu cepillo? 🪥»), nunca por «Si tuvieras que inventar…». El título de YouTube empieza por «¿Cómo funciona…?» con el objeto y la etiqueta de formato va al pie. Si la cifra del título es la del juego, la planteo como pregunta y no la revelo.",
+   "desde": "2026-11-14",
+   "origen": "c261114018",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114019est",
+   "rol": "estratega",
+   "pedido_por": "social",
+   "texto": "Antes de subir al banco una petición de seguidor la contrasto con estado.json y produccion/escenas/, localizo el comentario real en comunidad.json (autor y texto tal cual) y verifico el dato con búsqueda web. Si el objeto ya tiene vídeo, la subo solo con un ángulo nuevo y lo anoto en `notas`.",
+   "desde": "2026-11-14",
+   "origen": "c261114019",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114020dir",
+   "rol": "director",
+   "pedido_por": "social",
+   "texto": "En los A de error común el cierre cambia «¿Te has acercado?» por una pregunta de una palabra sobre el objeto de casa (¿Puerta o balda?), la guardo en juego.cierre y la repito en el pie; el campo juego sigue con la pregunta de la cifra.",
+   "desde": "2026-11-14",
+   "origen": "c261114020",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114021seo",
+   "rol": "seo",
+   "pedido_por": "social",
+   "texto": "Desde mañana, en los pies de TikTok e Instagram de cada guion nuevo uso este orden: 1) pregunta cerrada del vídeo, que se contesta con una palabra y lleva la palabra clave (ejemplo: «¿Mueves tu cepillo o lo dejas quieto?»); 2) «¿Cuál era tu número?»; 3) «Envíaselo a quien…» y 👇. El pie de YouTube lleva la palabra clave en la primera frase y #shorts, sin este bloque.",
+   "desde": "2026-11-14",
+   "origen": "c261114021",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114023soc",
+   "rol": "social",
+   "pedido_por": "paid",
+   "texto": "Hoy dejo fijado en router un comentario tipo: «Envíaselo a quien tiene las antenas tumbadas. ¿Tú las tenías de pie o tumbadas? 👇», con respuestas cortas en tuteo a los primeros comentarios reales. Aviso a paid con los comentarios por mil vistas de router cuando el vídeo llegue a 100 h publicado. Desde mañana, ningún vídeo se promociona sin comentario fijado de pregunta cerrada.",
+   "desde": "2026-11-14",
+   "origen": "c261114023",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114024dir",
+   "rol": "director",
+   "pedido_por": "seo",
+   "texto": "En guiones A el título del estado es el de TikTok (error o pregunta del juego, ≤100) y el de YouTube lo propone seo como «¿Cómo funciona tu X?» ≤70; en error-cargador pido «¿Cómo carga tu móvil el cargador? 🔌» para YouTube.",
+   "desde": "2026-11-14",
+   "origen": "c261114024",
+   "estado": "vigente"
+  },
+  {
+   "id": "a261114025soc",
+   "rol": "social",
+   "pedido_por": "seo",
+   "texto": "Al revisar los pies de Instagram de desaladora, lavar30, freidoraire y nevera exijo el orden: «Cómo funciona X:» + frase autosuficiente + «Envíaselo a quien…» + pregunta de una palabra o cifra + 5 hashtags. Si falta algo, devuelvo a seo el pie corregido en la misma revisión.",
+   "desde": "2026-11-14",
+   "origen": "c261114025",
+   "estado": "vigente"
   }
  ],
  "jornadas": [
@@ -4194,8 +5266,32 @@
    "seo": 0
   },
   {
-   "fecha": "2026-11-14T07:24:23+00:00",
-   "estado": "sin_clave"
+   "fecha": "2026-11-14T08:02:41+00:00",
+   "estado": "hecha",
+   "modelo": "agentes de Claude Code",
+   "llamadas": null,
+   "tokens": null,
+   "euros": null,
+   "errores": [],
+   "resumenes": {
+    "director": "Mi mediana de 14 días es 1,06× frente a la meta de 1,5×. Hay 0 guiones esperando visto bueno. Lo que despega corrige un error de casa (router 194,5×, repetidor 9,72×), mientras que el C «puente» con la cifra en el título se queda en 0,2×.",
+    "fotografia": "Los vídeos con la cámara a menos de 7,3 m en el primer segundo rinden 1,25× lo normal frente a 0,89×, y los que tienen cortes que enseñan el interior (>0,5) 1,10× frente a 0,85×. La nevera, en rehacer, tiene obj_cortes 0,00 y la cámara atraviesa la puerta, así que arreglo eso primero.",
+    "sonido": "La duración media es 67,9 s y los 20 vídeos están entre 55 y 75 s. El problema está en la cola: nevera (71,9 s) y lavar30 (71,6 s) pasan de 71 s, y los vídeos por debajo rinden 1,17× frente a 0,85×. Además, los vídeos con más de 19,5 efectos/min rinden 1,19× frente a 0,92×.",
+    "editor": "Mi KPI (compartidos por 1.000 vistas en TikTok, 14 días) está en 4,47 frente a la meta 3, así que el montaje no es el cuello de botella. Lo que falla es la duración: menos de 71 s rinde 1,17× y los demás 0,85×. Nevera (71,9 s) y lavar30 (71,6 s) pasan del umbral y nevera está en rehacer por viajes de cámara de 0,3-0,5 s.",
+    "motion": "Mi nota media de «enséñalo» es 9,1 (objetivo 9). El hallazgo técnico que me toca es que los vídeos con más de 8 etiquetas sobre las piezas rinden 1,16× lo normal, frente a 0,86× los demás. Nevera, que está en rehacer, tiene 12 contadores pero solo 4 etiquetas y 0 cortes del interior.",
+    "estratega": "Mi número está en 55 % de vídeos por encima de lo normal (meta 50 %), pero lo sostienen pocos: router 194,5×, tormentas 23×, ruedas 14,3×, repetidor 9,7×, cepillo 5,9×, grifo 4,8×, nieve 4,1×. Hay 4 vídeos en marcha (nevera, desaladora, lavar30, freidoraire) frente a los 8 que pide la regla, el banco de ideas está en 0 y ningún guion está propuesto.",
+    "social": "Comentarios por 1.000 vistas en TikTok: 0,16 (objetivo 1). Los vídeos de la última semana con 0,00 o casi son la mayoría: nieve, puente, cepillo, caldera con 0,0 y paracaidas con 0,0. Repetidor (9,72× lo normal) solo saca 0,14. Los que comentan son huella (1,71, 0,3×) y tdt (1,09, 0,48×), no los que vuelan. Los guiones propuestos hoy son 0, así que no hay nada que revisar.",
+    "paid": "Hoy hay 2 candidatos y ninguna promoción lanzada (0 € invertidos). Router tiene 660.563 vistas, 194,5× y 5,1% de interacción a las 92 h, y su ventana de 120 h se cierra en 28 h. Repetidor tiene 37.445 vistas, 9,72× y 3,6% de interacción a las 33 h, justo por debajo del suelo de 10×.",
+    "seo": "YouTube va a 1,24× lo normal (meta 1,2×), pero depende de dos vídeos: repetidor hizo 4,45× con la pregunta y el objeto, y turia (0,68×) y paracaidas (0,65×) siguen por debajo con títulos de serie o de formato B. No hay guiones propuestos, así que hoy no hay títulos nuevos por red que escribir."
+   },
+   "mensajes": 25,
+   "respuestas": 25,
+   "acuerdos": 24,
+   "aprendizajes": 29,
+   "hipotesis": 8,
+   "revisiones": 0,
+   "guiones": 0,
+   "seo": 0
   }
  ]
 }

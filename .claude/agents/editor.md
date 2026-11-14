@@ -64,3 +64,6 @@ Cada día `produccion/auditoria.py` mide los vídeos y `produccion/oficina_datos
 - Router (191×, cam_cada 3,68 s, 3 contadores) y repetidor (6,45×, 72,7 s) rinden muy bien incumpliendo mis umbrales: el tema y la parte 2 de un éxito pesan más que el montaje. Los umbrales técnicos (<71 s, >27 palabras clave) son un suelo de calidad, no una garantía de vistas. (2026-11-13)
 - Si un vídeo pasa de 71 s antes de tener escena, recortar el guion y regenerar la voz sale mucho más barato que corregirlo después de montar. (2026-11-13)
 - Para proponer un recorte, la frase que sobra es la que repite lo anterior o no lleva una cifra del juego ni del mecanismo. (2026-11-13)
+- Los viajes de cámara entre planos muy distintos (objeto a muchos objetos) necesitan al menos 0,8 s; con 0,3-0,5 s la palabra llega antes que la imagen y la escena se rechaza (nevera, 0/3). (2026-11-14)
+- Si un vídeo pasa de 71 s, apunto en actividad el segundo final de la última palabra y los cortes de cámara, para que el último plano cierre igual que el primero con 0,3 s o más de margen. (2026-11-14)
+- Para subir los efectos/min añado efectos solo donde la voz nombra una acción (cambio de cámara, pastilla, impacto, pieza que encaja), nunca a ciegas. (2026-11-14)
