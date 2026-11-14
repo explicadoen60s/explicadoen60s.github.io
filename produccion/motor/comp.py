@@ -283,6 +283,135 @@ def subtitulo_centro(ctx, t, ws, kws, y):
                      scale=0.85 + 0.15 * min(1, (t - ta + 0.03) / 0.08))
             return
 
+# ---------------- formato D · simulación sin voz ----------------
+SERIF = "DejaVu Serif"
+
+def _serif(ctx, size):
+    ctx.select_font_face(SERIF, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD); ctx.set_font_size(size)
+
+def rotulos_sim(ctx, t, ROT, y=H * 0.28, size=58, ancho=880, rojo=RED, banda=False):
+    """Rótulos de la simulación: frase centrada en serif blanca; las palabras entre *asteriscos* van en rojo.
+    ROT = [(t0, t1, "texto con *clave*"), …]. Aparece con un pequeño fundido y sube 10 px."""
+    for t0, t1, txt in ROT:
+        if not (t0 <= t < t1): continue
+        a = min(1.0, (t - t0) / 0.25, (t1 - t) / 0.2); dy = 10 * (1 - ease((t - t0) / 0.3))
+        _serif(ctx, size)
+        # partir en palabras con color y en líneas
+        toks, rojo_on = [], False
+        for w in txt.split():
+            ini = w.startswith("*"); fin = w.rstrip("?!.,:…»").endswith("*")
+            if ini: rojo_on = True
+            limpio = w.replace("*", ""); toks.append((limpio, rojo_on))
+            if fin: rojo_on = False
+        sp = ctx.text_extents(" ").x_advance; lineas, cur, wcur = [], [], 0
+        for w, r in toks:
+            ww = ctx.text_extents(w).x_advance
+            if cur and wcur + sp + ww > ancho: lineas.append((cur, wcur)); cur, wcur = [], 0
+            cur.append((w, r, ww)); wcur += (sp if len(cur) > 1 else 0) + ww
+        if cur: lineas.append((cur, wcur))
+        if banda:   # banda oscura redondeada detrás del texto, para leerlo sobre cualquier fondo
+            n = len(lineas); bw = max(lw for _, lw in lineas) + 70; bh = n * size * 1.18 + 34
+            rrect(ctx, W / 2 - bw / 2, y + dy - bh / 2 - size * 0.32, bw, bh, 26); ctx.set_source_rgba(0, 0, 0, 0.55 * a); ctx.fill()
+        for i, (ln, lw) in enumerate(lineas):
+            x = W / 2 - lw / 2; yy = y + dy + (i - (len(lineas) - 1) / 2) * size * 1.18
+            for w, r, ww in ln:
+                ctx.move_to(x + 3, yy + 4); ctx.text_path(w); ctx.set_source_rgba(0, 0, 0, 0.55 * a); ctx.fill()
+                ctx.move_to(x, yy); ctx.text_path(w); ctx.set_line_width(9); ctx.set_source_rgba(0, 0, 0, 0.6 * a); ctx.stroke_preserve()
+                ctx.set_source_rgba(*(rojo if r else (1, 1, 1)), a); ctx.fill()
+                x += ww + sp
+        return
+
+def pulso(ctx, t, bpm, etiqueta="", x=70, y=245):
+    """Pulso en la esquina: «PULSO» pequeño, número grande que late, y una etiqueta de estado debajo."""
+    lat = (t * bpm / 60.0) % 1.0; k = 1 + 0.08 * math.exp(-lat * 9)
+    _serif(ctx, 22); ctx.move_to(x, y - 62); ctx.text_path("PULSO"); ctx.set_source_rgba(1, 1, 1, 0.75); ctx.fill()
+    ctx.save(); ctx.translate(x, y); ctx.scale(k, k)
+    _serif(ctx, 64); s = f"{int(round(bpm))}"; e = ctx.text_extents(s)
+    ctx.move_to(0, 0); ctx.text_path(s); ctx.set_source_rgba(0, 0, 0, 0.4); ctx.set_line_width(6); ctx.stroke_preserve(); ctx.set_source_rgba(1, 1, 1, 1); ctx.fill()
+    _serif(ctx, 28); ctx.move_to(e.x_advance + 10, 0); ctx.text_path("PPM"); ctx.set_source_rgba(1, 1, 1, 0.9); ctx.fill()
+    ctx.restore()
+    if etiqueta:
+        _serif(ctx, 20); ctx.move_to(x, y + 34); ctx.text_path(etiqueta.upper()); ctx.set_source_rgba(1, 1, 1, 0.65); ctx.fill()
+
+def medidor(ctx, t, frac, etiqueta, a, b, x, y, w=420, col=RED):
+    """Barra horizontal que se vacía o se llena (frac 0-1), con su etiqueta encima."""
+    if t < a or t > b: return
+    al = min(1.0, (t - a) / 0.2, (b - t) / 0.2)
+    _serif(ctx, 32); ctx.move_to(x, y - 18); ctx.text_path(etiqueta); ctx.set_source_rgba(0, 0, 0, 0.5 * al); ctx.set_line_width(5); ctx.stroke_preserve()
+    ctx.set_source_rgba(1, 1, 1, al); ctx.fill()
+    rrect(ctx, x, y, w, 40, 20); ctx.set_source_rgba(0, 0, 0, 0.55 * al); ctx.fill()
+    rrect(ctx, x + 5, y + 5, max(0, (w - 10) * frac), 30, 15); ctx.set_source_rgba(*col, al); ctx.fill()
+
+def lluvia(ctx, t, intensidad=1.0, viento=0.25, seed=3):
+    """Lluvia en 2D por encima de la escena (no cuesta nada en el render 3D)."""
+    if intensidad <= 0: return
+    rng = np.random.default_rng(seed); n = int(260 * intensidad)
+    xs = rng.uniform(-200, W + 200, n); ys = rng.uniform(0, H, n); vel = rng.uniform(1700, 2600, n); ln = rng.uniform(40, 90, n)
+    ctx.set_line_width(2); ctx.set_line_cap(cairo.LINE_CAP_ROUND)
+    for i in range(n):
+        yy = (ys[i] + vel[i] * t) % (H + 200) - 100; xx = (xs[i] + vel[i] * viento * t) % (W + 400) - 200
+        ctx.move_to(xx, yy); ctx.line_to(xx - ln[i] * viento, yy - ln[i])
+        ctx.set_source_rgba(0.85, 0.9, 1.0, 0.22 * intensidad); ctx.stroke()
+
+def vineta(ctx, fuerza=0.55, col=(0.02, 0.04, 0.06)):
+    g = cairo.RadialGradient(W / 2, H / 2, H * 0.25, W / 2, H / 2, H * 0.75)
+    g.add_color_stop_rgba(0, *col, 0); g.add_color_stop_rgba(1, *col, fuerza)
+    ctx.rectangle(0, 0, W, H); ctx.set_source(g); ctx.fill()
+
+def velo(ctx, alpha, col=(1, 1, 1)):
+    """Pantalla teñida (relámpago, golpe, bajo el agua)."""
+    if alpha <= 0: return
+    ctx.rectangle(0, 0, W, H); ctx.set_source_rgba(*col, alpha); ctx.fill()
+
+# sonidos largos de ambiente (ruido filtrado)
+def _ruido_filtrado(dur, corte, seed=0):
+    n = int(dur * SR); x = np.random.default_rng(seed).standard_normal(n)
+    a = math.exp(-2 * math.pi * corte / SR); y = np.empty(n); acc = 0.0
+    # paso bajo de un polo, vectorizado por bloques
+    from itertools import accumulate
+    y = np.fromiter(accumulate(x * (1 - a), lambda p, v: p * a + v), dtype=float, count=n)
+    return y / (np.abs(y).max() + 1e-9)
+
+def s_lluvia(dur, seed=1):
+    n = int(dur * SR); x = np.random.default_rng(seed).standard_normal(n) * 0.18
+    gotas = np.zeros(n); r = np.random.default_rng(seed + 1)
+    for p in r.integers(0, n - 2000, int(dur * 40)): gotas[p:p + 300] += r.uniform(0.05, 0.2) * np.exp(-np.arange(300) / 40) * r.choice((-1, 1))
+    return (x - np.convolve(x, np.ones(6) / 6, "same")) * 0.9 + gotas
+
+def s_olas(dur, seed=2):
+    base = _ruido_filtrado(dur, 300, seed); t = np.arange(len(base)) / SR
+    return base * (0.55 + 0.45 * np.sin(2 * np.pi * t / 5.5) ** 2)
+
+def s_sumergido(dur, seed=4):
+    x = _ruido_filtrado(dur, 120, seed); t = np.arange(len(x)) / SR
+    return x * 0.9 + np.sin(2 * np.pi * 55 * t) * 0.15
+
+def s_latido():
+    n = int(0.32 * SR); t = np.arange(n) / SR
+    golpe = lambda t0, g: np.where(t >= t0, np.sin(2 * np.pi * (60 - 20 * (t - t0)) * (t - t0)) * np.exp(-(t - t0) * 22) * g, 0)
+    return (golpe(0, 1.0) + golpe(0.14, 0.7)) * 0.9
+
+def s_bocina(dur=1.6):
+    n = int(dur * SR); t = np.arange(n) / SR
+    x = sum(np.sin(2 * np.pi * f * t) / k for k, f in enumerate((92, 184, 276, 368, 460), 1))
+    return x * np.minimum(1, t / 0.08) * np.minimum(1, (dur - t) / 0.2) * 0.35
+
+def s_chapuzon(fuerte=1.0):
+    n = int(1.2 * SR); t = np.arange(n) / SR; x = np.random.default_rng(7).standard_normal(n)
+    return (x * np.exp(-t * 4) * 0.6 + np.sin(2 * np.pi * 70 * t) * np.exp(-t * 8) * 0.8) * fuerte
+
+def s_motor(dur):
+    n = int(dur * SR); t = np.arange(n) / SR
+    x = np.sign(np.sin(2 * np.pi * 38 * t)) * 0.3 + np.sin(2 * np.pi * 76 * t) * 0.3
+    return x * np.minimum(1, t / 0.5) * 0.25
+
+def latidos(bpm_fn, t0, t1, g=0.5):
+    """Eventos de latido al ritmo de bpm_fn(t) entre t0 y t1 (para sfx_events)."""
+    ev, t = [], t0
+    while t < t1:
+        ev.append((t, s_latido(), g)); t += 60.0 / max(40, bpm_fn(t))
+    return ev
+
 # ---------------- subtítulo en frases (estilo «karaoke») ----------------
 # La frase se escribe palabra a palabra arriba; la palabra que suena va en blanco y las anteriores en gris.
 # Las palabras clave llevan un recuadro azul. Fondo oscuro suave para que se lea sobre cualquier escena.
@@ -366,6 +495,8 @@ def main(name, t0=None, t1=None):
         a = anc.get(f, last_anchor); last_anchor = a
         A = (lambda k: (a[k][0] * W, a[k][1] * H)) if a else (lambda k: (W / 2, H / 2))
         spec.overlay(ctx, t, A, sys.modules[__name__])
+        if estilo == "ninguno":   # formato D (simulación): los rótulos los dibuja el _ov.py con rotulos_sim
+            surf.flush(); enc.stdin.write(bytes(buf)); continue
         if estilo == "centro":
             subtitulo_centro(ctx, t, ws, kws, H * getattr(spec, "SUB_Y", 0.50))
             surf.flush(); enc.stdin.write(bytes(buf)); continue

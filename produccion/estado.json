@@ -5476,6 +5476,246 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-14T10:09:21.221Z",
    "aprobado_por": "Nikoloz_Lekishvili"
+  },
+  {
+   "id": "crucero",
+   "formato": "D",
+   "titulo": "🚢 ¿Y si te caes de un crucero? ¿Cuántos minutos aguantan tus brazos?",
+   "guion": "¿Y si te caes de un crucero? Si te caes de un crucero, ¿cuántos minutos aguantan tus brazos? Escríbelo. Caes. Llegas al agua como un coche en autovía. Choque por frío: te obliga a jadear sin control. El primer minuto, no nades. Flota. El casco pasa a un metro de ti. Gritas. Con la tormenta, nadie te oye. Llega la popa. Las hélices tiran del agua. Patalea. Aléjate de la estela. El barco no para: se aleja. Pero alguien te vio caer: ¡Hombre al agua! Te lanzan un aro… y cae lejos. Aguantas diez minutos con los brazos en agua fría. Después, el frío te los apaga. Nadas hacia el aro. Lo agarras. Brazos dentro. Cabeza arriba. Quieto. El barco necesita más de un kilómetro para dar la vuelta. Una luz en la tormenta: la lancha de rescate. ¿Habrías aguantado? Envíaselo a quien dice que nadaría. ¿Y si te caes de un crucero?",
+   "sinvoz": true,
+   "texto": "¿Y si te caes de un crucero en plena tormenta? ¿Cuántos minutos aguantarían tus brazos en agua fría? Escribe tu número 👇 Envíaselo a quien dice que nadaría.",
+   "tags": [
+    "crucero",
+    "hombrealagua",
+    "supervivencia",
+    "simulacion",
+    "mar"
+   ],
+   "reglas": {
+    "cotidiano": 6,
+    "cotidiano_nota": "Tema elegido por el usuario (versión en castellano de una simulación viral); el anclaje es el cuerpo del espectador: sus brazos y el agua fría.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La persona ya inclinada sobre la barandilla, con cabeceo del barco y la cámara empujando.",
+    "ensenar": 9,
+    "ensenar_nota": "Pulso que sube y baja, 25 m de caída, 80 km/h, 14 °C, 300 m de casco, 600-900 m, barra de fuerza 10:00 → 0:00, 1000 m para girar, 1000 → 0 m a la lancha."
+   },
+   "juego": {
+    "pregunta": "¿Cuántos minutos aguantan tus brazos?",
+    "valor": 10,
+    "unidad": "MIN DE FUERZA EN LOS BRAZOS",
+    "dec": 0,
+    "pregunta_en": "Si te caes de un crucero",
+    "revela_en": "Aguantas diez minutos"
+   },
+   "seo": {
+    "tiktok": {
+     "titulo": "🚢 ¿Y si te caes de un crucero? ¿Cuántos minutos aguantan tus brazos?",
+     "texto": "¿Y si te caes de un crucero en plena tormenta? Escribe tu número 👇 Envíaselo a quien dice que nadaría.",
+     "tags": [
+      "crucero",
+      "hombrealagua",
+      "supervivencia",
+      "simulacion",
+      "mar"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Qué pasa si te caes de un crucero?",
+     "texto": "¿Qué pasa si te caes de un crucero en plena tormenta? Primer minuto: choque por frío. Después, unos diez minutos de fuerza en los brazos. ¿Cuántos creías? 👇 Envíaselo a quien dice que nadaría. #crucero #supervivencia #mar #simulacion #comofunciona",
+     "tags": [
+      "crucero",
+      "supervivencia",
+      "mar",
+      "simulacion",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "¿Qué pasa si te caes de un crucero? Minutos reales",
+     "texto": "Simulación: caes de un crucero en plena tormenta. ¿Cuántos minutos aguantan tus brazos? 👇 #shorts #crucero #supervivencia",
+     "tags": [
+      "crucero",
+      "quepasasitecaesdeuncrucero",
+      "supervivencia",
+      "hombrealagua",
+      "simulacion"
+     ]
+    }
+   },
+   "notas": "Formato D · Simulación sin voz, pedida por el usuario: versión en castellano de un vídeo de @simulator_universe. Rótulos en escenas/crucero_rotulos.json; sin voz (sinvoz.py).",
+   "fuentes": [
+    "Regla 1-10-1 del agua fría (Gordon Giesbrecht): 1 min de choque, ~10 min de movimiento útil, ~1 h hasta hipotermia grave.",
+    "Un barco a 20 nudos recorre unos 617 m por minuto.",
+    "Caer de 20-30 m: unos 64-80 km/h al tocar el agua.",
+    "Un crucero necesita más de una milla para detenerse y volver (maniobra Williamson)."
+   ],
+   "estado": "escena",
+   "creado": "2026-11-14",
+   "duracion": 71,
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Voto final «ok» sobre los rótulos corregidos (la primera ronda fue 0 de 4; el director aplicó todas las propuestas). El texto literal de este voto no se conservó.",
+     "propuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Voto final «ok» sobre los rótulos corregidos (la primera ronda fue 0 de 4; el director aplicó todas las propuestas). El texto literal de este voto no se conservó.",
+     "propuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Voto final «ok» sobre los rótulos corregidos (la primera ronda fue 0 de 4; el director aplicó todas las propuestas). El texto literal de este voto no se conservó.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "veredicto": "ok",
+     "nota": "Voto final «ok» sobre los rótulos corregidos (la primera ronda fue 0 de 4; el director aplicó todas las propuestas). El texto literal de este voto no se conservó.",
+     "propuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Primera ronda (resumen).",
+     "propuesta": "Planos nuevos cada ~2 s entre 36 y 52 s y movimiento fuerte en el primer segundo, con el bucle igual al inicio.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Primera ronda (resumen).",
+     "propuesta": "Pastillas ~2,5 veces más grandes, medidor 600×40 con «10:00 → 0:00 MIN» de verde a rojo y rótulo del aro legible sobre la chimenea.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Primera ronda (resumen).",
+     "propuesta": "Cortes en 39 (vigía señalando) y 40,5 (vista lateral del aro), y en 48 (manos sin fuerza) y 50 (empuje hacia el aro).",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "Primera ronda (resumen).",
+     "propuesta": "Añadir sfx_cifra en la segunda revelación y bajar el motor a 0,4 al final.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "Entre 40,5 y 51 s casi solo se ve agua: el aro volando no aparece y en 44-51,5 es un punto minúsculo; de 0 a 4,5 s el plano casi no cambia.",
+     "propuesta": "Cámara que siga el aro en su arco; aro en cuadro en 44-51,5; empuje inicial del 15 %, cabeceo ±0,3 m y corte a los 2 s.",
+     "aplicada": true,
+     "respuesta": "Aplicado: cámara que sigue al aro, empuje del 15 %, cabeceo y corte a los 2 s."
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "Pastillas y contador bien, pero las palabras clave en rojo se leen mal sobre fondos oscuros; el medidor no se ve a los 48 s.",
+     "propuesta": "Palabras clave en amarillo con banda oscura al 55 % y medidor desde 48,0.",
+     "aplicada": true,
+     "respuesta": "Aplicado: amarillo de la paleta, banda redondeada y tarjeta fuera a los 47,7."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "El aro no se ve en 40,5, 42-43,5 ni 45-46,5: el rótulo «aro… y cae lejos» suena sin imagen.",
+     "propuesta": "Aro en vuelo con salpicadura a los 42 y aro flotando visible en 42-48.",
+     "aplicada": true,
+     "respuesta": "Aplicado."
+    },
+    {
+     "rol": "sonido",
+     "fase": "escena",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "sfx_cifra(64.6, 65.0) y motor a 0,4 aplicados; chapuzones, bocina y tramo sumergido donde tocan.",
+     "propuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "escena",
+     "ronda": 3,
+     "veredicto": "ok",
+     "nota": "Rótulos en amarillo sobre banda oscura se leen bien; la pastilla de 900 m ya no tapa el aro y la tarjeta deja hueco al medidor.",
+     "propuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 3,
+     "veredicto": "cambios",
+     "nota": "Vuelo del aro y arranque bien; en 44-51,5 el aro sigue sin leerse bien (mota o fuera de cuadro).",
+     "propuesta": "Seguir la posición real del aro, a ~0,62·H, más grande, en cuadro a los 44, 48 y 49 s.",
+     "aplicada": true,
+     "respuesta": "Aplicado: target desde aro_flota(t), cámara a 2,1 m."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 3,
+     "veredicto": "cambios",
+     "nota": "El aro desaparece en 44, 45 y 48; la salpicadura llega tarde.",
+     "propuesta": "Aro en cuadro en 42-52, acercamiento lento desde 44, corte a 48 con el aro sobre la barra y salpicadura a los 42,0.",
+     "aplicada": true,
+     "respuesta": "Aplicado; salpicadura a los 41,85."
+    },
+    {
+     "rol": "editor",
+     "fase": "escena",
+     "ronda": 4,
+     "veredicto": "ok",
+     "nota": "El aro está en cuadro de 42 a 53; la salpicadura cae en 42-43 y el corte de 48 deja el aro encima de la barra. Fallos menores en 44 y 52 que no rompen la lectura.",
+     "propuesta": ""
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 4,
+     "veredicto": "cambios",
+     "nota": "El aro sigue leyéndose mal en 44, 48-49 y 52.",
+     "propuesta": "Lente 55 desde 44, 60 en 48-49, aro a ~0,62-0,66·H; en 51,5-53 subir el target para que el aro quede sobre los dedos.",
+     "aplicada": true,
+     "respuesta": "Aplicado (aro a ~0,5·H en 48-50 para no quedar detrás de la barra)."
+    },
+    {
+     "rol": "fotografia",
+     "fase": "escena",
+     "ronda": 5,
+     "veredicto": "cambios",
+     "nota": "De 44 a 50 s el aro ya se lee bien, pero en 54-57 llena todo el ancho y toca los bordes.",
+     "propuesta": "Alejar la cámara en 54-58,5 hasta que el aro ocupe ≤70 % del ancho, centrado en x≈0,45·W, y≈0,62·H.",
+     "aplicada": true,
+     "respuesta": "Aplicado: cámara más alta y más lejos; el aro ocupa ~55 % del ancho y flota más alto para que las olas no lo tapen."
+    }
+   ]
   }
  ]
 }

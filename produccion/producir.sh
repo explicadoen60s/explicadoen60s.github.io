@@ -8,9 +8,14 @@ n="$1"; estilo="${2:-$(( $(echo -n "$n" | cksum | cut -d' ' -f1) % 6 ))}"
 R="$(cd "$(dirname "$0")" && pwd)"; W="$R/trabajo/$n"
 mkdir -p "$W"
 cp "$R"/motor/*.py "$W"/
-cp "$R/escenas/${n}_scene.py" "$R/escenas/${n}_ov.py" "$R/escenas/${n}.txt" "$R/escenas/${n}.mp3" "$W"/
-cd "$W"
-[ -f "${n}_words.json" ] || python3 align.py "${n}.mp3" "${n}.txt" "$n"
+cp "$R/escenas/${n}_scene.py" "$R/escenas/${n}_ov.py" "$W"/
+# Formato D (simulación sin voz): los rótulos sustituyen a la voz
+if [ -f "$R/escenas/${n}_rotulos.json" ]; then
+  cp "$R/escenas/${n}_rotulos.json" "$W"/; cd "$W"; python3 sinvoz.py "$n"
+else
+  cp "$R/escenas/${n}.txt" "$R/escenas/${n}.mp3" "$W"/; cd "$W"
+  [ -f "${n}_words.json" ] || python3 align.py "${n}.mp3" "${n}.txt" "$n"
+fi
 N=$(python3 -c "import json;print(int((json.load(open('${n}_words.json'))['dur']+0.4)*30))")
 if [ -n "${RANGO:-}" ]; then python3 "${n}_scene.py" $RANGO; exit 0; fi
 have=$( (ls frames/$n/ 2>/dev/null || true) | grep -c "\.png$" || true)

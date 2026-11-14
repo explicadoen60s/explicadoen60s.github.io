@@ -42,7 +42,8 @@ jobs:
           f = os.environ.get("FORZAR", "").split()
           est = json.load(open("produccion/estado.json"))
           # solo los que ya tienen su escena subida en este commit (si no, el render falla y se queda atascado con error)
-          listo = lambda i: all(os.path.exists(f"produccion/escenas/{i}{s}") for s in ("_scene.py", "_ov.py", ".mp3"))
+          listo = lambda i: all(os.path.exists(f"produccion/escenas/{i}{s}") for s in ("_scene.py", "_ov.py")) and \
+              (os.path.exists(f"produccion/escenas/{i}.mp3") or os.path.exists(f"produccion/escenas/{i}_rotulos.json"))
           n = [i for i in f if listo(i)] if f else [v["id"] for v in est["videos"] if v.get("estado") == "escena" and listo(v["id"])]
           for v in est["videos"]:
               if v["id"] in n and v.get("estado") == "escena": v["estado"] = "renderizando"   # que otra ejecución no los repita (los ya aprobados no cambian)

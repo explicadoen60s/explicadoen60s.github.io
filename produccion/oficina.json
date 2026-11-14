@@ -1798,6 +1798,45 @@
    "tipo": "mejora",
    "texto": "Experimento propuesto en la jornada (9 rótulos y 6 contadores como mucho) aplicado ya en lavar30 y freidoraire; no se abre como experimento porque hay 3 activos.",
    "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T12:00:00+01:00",
+   "rol": "fotografia",
+   "tipo": "mejora",
+   "video": "crucero",
+   "texto": "Crucero: aplicados los planos de 37-52 s (vigía, aro en vuelo, aro siempre en cuadro), el corte a los 2 s y el aro más pequeño en 54-57 s.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T12:00:00+01:00",
+   "rol": "motion",
+   "tipo": "mejora",
+   "video": "crucero",
+   "texto": "Crucero: pastillas grandes bajo el rótulo, barra de fuerza 10:00 → 0:00 de verde a rojo, palabras clave en amarillo con banda oscura.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T12:00:00+01:00",
+   "rol": "editor",
+   "tipo": "mejora",
+   "video": "crucero",
+   "texto": "Crucero: cortes cada ~2 s entre 37 y 52 s y salpicadura del aro adelantada a 41,85 s.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T12:00:00+01:00",
+   "rol": "sonido",
+   "tipo": "mejora",
+   "video": "crucero",
+   "texto": "Crucero: segunda revelación con sfx_cifra y motor de la lancha a 0,4.",
+   "estado": "aplicada"
+  },
+  {
+   "fecha": "2026-11-14T12:00:00+01:00",
+   "rol": "director",
+   "tipo": "aviso",
+   "video": "crucero",
+   "texto": "Crucero (formato D, simulación sin voz) entregado a render con 4 de 4 en guion y 3 de 4 en escena; fotografía pidió un último ajuste que se ha aplicado."
   }
  ],
  "manual": [

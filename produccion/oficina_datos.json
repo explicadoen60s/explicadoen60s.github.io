@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T14:10:01+00:00",
+ "actualizado": "2026-11-14T14:25:08+00:00",
  "medianas": {
   "tiktok": 1172.0,
   "instagram": 1603,
@@ -42,7 +42,7 @@
    "foco": "Tipos de efecto distintos: los vídeos con menos de 7 rinden 1,06× lo normal, frente a 0,83× los demás (al revés de lo que se esperaba)."
   },
   "editor": {
-   "ahora": "0 en render · 0 esperando tu revisión",
+   "ahora": "1 en render · 0 esperando tu revisión",
    "pendiente": 0,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -651,6 +651,53 @@
     "nivel": "ok",
     "rol": "motion",
     "texto": "Regla «enséñalo»: 9/10"
+   }
+  ],
+  "crucero": [
+   {
+    "nivel": "error",
+    "rol": "sonido",
+    "texto": "153 palabras: tiene que estar entre 205 y 245"
+   },
+   {
+    "nivel": "aviso",
+    "rol": "motion",
+    "texto": "2 cifras en el guion (mínimo 2 que se puedan enseñar)"
+   },
+   {
+    "nivel": "ok",
+    "rol": "editor",
+    "texto": "Juego de la cifra bien colocado"
+   },
+   {
+    "nivel": "error",
+    "rol": "estratega",
+    "texto": "Regla «tema cotidiano» con 6/10: tiene que llegar a 7"
+   },
+   {
+    "nivel": "ok",
+    "rol": "fotografia",
+    "texto": "Regla «primer segundo»: 8/10"
+   },
+   {
+    "nivel": "ok",
+    "rol": "motion",
+    "texto": "Regla «enséñalo»: 9/10"
+   },
+   {
+    "nivel": "aviso",
+    "rol": "director",
+    "texto": "Faltan ganchos alternativos (se piden 3)"
+   },
+   {
+    "nivel": "aviso",
+    "rol": "social",
+    "texto": "El pie no termina en pregunta ni en 👇"
+   },
+   {
+    "nivel": "aviso",
+    "rol": "social",
+    "texto": "El cierre no dice «Sígueme»"
    }
   ]
  },
@@ -2179,6 +2226,38 @@
      "metrica": "voz_pausas_min",
      "texto": "Pausas por minuto: 30 /min. Los que funcionan van por debajo de 17,7 /min (1,20× más vistas)."
     }
+   ],
+   "crucero": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 0,00. Los que funcionan van por encima de 8 (1,37× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,33× más vistas)."
+    },
+    {
+     "rol": "sonido",
+     "tipo": "mejorar",
+     "metrica": "sfx_variedad",
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por debajo de 7 (1,27× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_contadores",
+     "texto": "Contadores y medidores: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "obj_animaciones",
+     "texto": "Animaciones en la escena: 8, en el lado bueno. Mantenlo."
+    }
    ]
   },
   "experimentos": {
@@ -2466,7 +2545,7 @@
     "mejor": "mas"
    }
   },
-  "medidos": 99
+  "medidos": 100
  },
  "videos": [
   {
