@@ -5227,7 +5227,7 @@
     "https://www.race.es/limitador-carga-cinturon-de-seguridad",
     "https://blog.myairbags.com/what-is-a-seat-belt-pretensioner-complete-guide-and-repair"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-14",
    "ronda": 2,
    "revisiones": [
@@ -5336,7 +5336,10 @@
       "fisica"
      ]
     }
-   }
+   },
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-14T10:09:12.225Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "aspiradora",
