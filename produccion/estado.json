@@ -5039,7 +5039,7 @@
     "ingenieria",
     "lo que esconde tu ciudad"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-13",
    "reglas": {
     "cotidiano": 7,
@@ -5179,7 +5179,10 @@
      ]
     }
    },
-   "ronda": 2
+   "ronda": 2,
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-14T10:09:02.077Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "cinturon",
