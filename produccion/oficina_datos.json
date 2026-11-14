@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T19:52:52+00:00",
+ "actualizado": "2026-11-14T20:00:32+00:00",
  "medianas": {
   "tiktok": 1159,
   "instagram": 1586.0,
@@ -8,7 +8,7 @@
  "maduros": 46,
  "puestos": {
   "director": {
-   "ahora": "0 guiones esperando tu visto bueno",
+   "ahora": "3 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
@@ -19,8 +19,8 @@
    }
   },
   "fotografia": {
-   "ahora": "4 escenas por plantear · 0 correcciones",
-   "pendiente": 4,
+   "ahora": "Al día: sin escenas pendientes",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Vídeos sin pedir cambios",
     "valor": 1.0,
@@ -31,8 +31,8 @@
    "foco": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,85× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 4 mezclas por hacer",
-   "pendiente": 4,
+   "ahora": "0 voces generándose · 0 mezclas por hacer",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Duración media",
     "valor": 67.9,
@@ -42,7 +42,7 @@
    }
   },
   "editor": {
-   "ahora": "1 en render · 1 esperando tu revisión",
+   "ahora": "5 en render · 1 esperando tu revisión",
    "pendiente": 1,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
@@ -54,8 +54,8 @@
    "foco": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
   },
   "motion": {
-   "ahora": "4 capas de gráficos por montar",
-   "pendiente": 4,
+   "ahora": "Al día",
+   "pendiente": 0,
    "kpi": {
     "nombre": "Nota media de «enséñalo»",
     "valor": 9.0,
@@ -480,16 +480,16 @@
   }
  ],
  "compuertas": {
-  "bateria100": [
+  "horno": [
    {
     "nivel": "ok",
     "rol": "sonido",
-    "texto": "207 palabras (≈61 s)"
+    "texto": "205 palabras (≈60 s)"
    },
    {
     "nivel": "ok",
     "rol": "motion",
-    "texto": "25 cifras en el guion (mínimo 2 que se puedan enseñar)"
+    "texto": "7 cifras en el guion (mínimo 2 que se puedan enseñar)"
    },
    {
     "nivel": "ok",
@@ -499,7 +499,7 @@
    {
     "nivel": "ok",
     "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
+    "texto": "Regla «tema cotidiano»: 9/10"
    },
    {
     "nivel": "ok",
@@ -512,16 +512,16 @@
     "texto": "Regla «enséñalo»: 9/10"
    }
   ],
-  "tunelave": [
+  "tapa": [
    {
     "nivel": "ok",
     "rol": "sonido",
-    "texto": "208 palabras (≈61 s)"
+    "texto": "212 palabras (≈62 s)"
    },
    {
     "nivel": "ok",
     "rol": "motion",
-    "texto": "14 cifras en el guion (mínimo 2 que se puedan enseñar)"
+    "texto": "9 cifras en el guion (mínimo 2 que se puedan enseñar)"
    },
    {
     "nivel": "ok",
@@ -531,7 +531,7 @@
    {
     "nivel": "ok",
     "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 7/10"
+    "texto": "Regla «tema cotidiano»: 8/10"
    },
    {
     "nivel": "ok",
@@ -544,11 +544,11 @@
     "texto": "Regla «enséñalo»: 9/10"
    }
   ],
-  "transbordador": [
+  "bulnes": [
    {
     "nivel": "ok",
     "rol": "sonido",
-    "texto": "213 palabras (≈63 s)"
+    "texto": "210 palabras (≈62 s)"
    },
    {
     "nivel": "ok",
@@ -569,70 +569,6 @@
     "nivel": "ok",
     "rol": "fotografia",
     "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "cinturon": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "211 palabras (≈62 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "11 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 8/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "Regla «enséñalo»: 9/10"
-   }
-  ],
-  "aspiradora": [
-   {
-    "nivel": "ok",
-    "rol": "sonido",
-    "texto": "213 palabras (≈63 s)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "motion",
-    "texto": "9 cifras en el guion (mínimo 2 que se puedan enseñar)"
-   },
-   {
-    "nivel": "ok",
-    "rol": "editor",
-    "texto": "Juego de la cifra bien colocado"
-   },
-   {
-    "nivel": "ok",
-    "rol": "estratega",
-    "texto": "Regla «tema cotidiano»: 10/10"
-   },
-   {
-    "nivel": "ok",
-    "rol": "fotografia",
-    "texto": "Regla «primer segundo»: 9/10"
    },
    {
     "nivel": "ok",
@@ -1631,64 +1567,6 @@
      "texto": "Claves de cámara: 37. Los que funcionan van por debajo de 24 (1,20× más vistas)."
     }
    ],
-   "bateria100": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "tunelave": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "transbordador": [
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "cinturon": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,34× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 35. Los que funcionan van por debajo de 24 (1,20× más vistas)."
-    }
-   ],
-   "aspiradora": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
    "crucero": [
     {
      "rol": "motion",
@@ -1718,12 +1596,12 @@
    },
    "x261113soc": {
     "maduros": 0,
-    "total": 1,
+    "total": 3,
     "veredicto": "esperando"
    },
    "x261114seo": {
     "maduros": 0,
-    "total": 1,
+    "total": 2,
     "veredicto": "esperando"
    }
   },

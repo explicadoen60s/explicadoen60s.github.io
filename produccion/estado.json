@@ -5990,6 +5990,385 @@
      "respuesta": "Aplicado: cámara más alta y más lejos; el aro ocupa ~55 % del ancho y flota más alto para que las olas no lo tapen."
     }
    ]
+  },
+  {
+   "id": "horno",
+   "formato": "A",
+   "titulo": "¿Abres el horno para mirar? 🔥 ¿Cuánta energía pierdes cada vez?",
+   "guion": "¿Abres la puerta del horno para mirar? ¿Cuánta energía pierdes cada vez? Escribe tu número, en porcentaje, antes de que acabe. Dentro, la resistencia se pone al rojo. Calienta el aire hasta ciento ochenta grados. Ese aire caliente pesa menos que el de tu cocina. Así que sube y se queda arriba, pegado al techo del horno. Pero abres la puerta… El aire caliente se escapa por arriba. Y el aire frío de tu cocina entra por abajo. En unos segundos, el horno puede perder hasta treinta grados. Y aquí viene lo curioso… Cada vez que abres, pierdes al menos un veinte por ciento de la energía acumulada dentro. ¡Un quinto del calor, a tu cocina! Así que la resistencia vuelve a encenderse. Un horno normal gasta unos mil quinientos vatios mientras recupera. Y tu bizcocho, a medio subir, se puede hundir: el aire de sus burbujas se enfría y encoge antes de que la masa se endurezca. ¿Qué haces? Enciende la luz del horno y mira por el cristal, sin abrir. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes qué pierdes cuando abres… la puerta del horno.",
+   "texto": "Cada vez que abres el horno para mirar, se escapa al menos un 20 % del calor. ¿Cuál era tu número? 👇 Envíaselo a quien abre el horno cada dos minutos. ¿Puerta o cristal?",
+   "tags": [
+    "horno",
+    "cocina",
+    "ahorro de energía",
+    "bizcocho",
+    "física"
+   ],
+   "ganchos": [
+    "¿Abres la puerta del horno para mirar?",
+    "Tu horno pierde calor cada vez que miras.",
+    "¿Miras el bizcocho abriendo la puerta?"
+   ],
+   "juego": {
+    "pregunta": "¿Cuánta energía pierdes cada vez que abres el horno?",
+    "valor": 20,
+    "unidad": "% DE LA ENERGÍA",
+    "dec": 0,
+    "pregunta_en": "¿Cuánta energía pierdes cada",
+    "revela_en": "Cada vez que abres, pierdes",
+    "cierre": "¿Puerta o cristal?"
+   },
+   "reglas": {
+    "cotidiano": 9,
+    "cotidiano_nota": "Casi todas las casas tienen horno y casi todos abren la puerta para mirar.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La puerta del horno abriéndose en primer plano con el aire caliente (bolitas naranjas) escapando por arriba y la resistencia al rojo.",
+    "ensenar": 9,
+    "ensenar_nota": "Termómetro que sube a 180 °C y cae 30 °C al abrir, barra de energía que pierde un 20 %, contador de 1.500 W al volver a encenderse la resistencia."
+   },
+   "notas": "ERROR: abrir la puerta del horno para mirar | HACER: encender la luz y mirar por el cristal. Fuentes: guía ECODES / Gobierno de Aragón (mínimo 20 % de la energía acumulada por apertura), Wikipedia «Recovery time (cooking)» (hasta 50 °F ≈ 30 °C), Endesa (horno medio 1.500 W).",
+   "estado": "propuesto",
+   "creado": "2026-11-14",
+   "ronda": 1,
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánta energía pierdes al abrir el horno? 🔥 Mirar no exige abrirlo",
+     "texto": "¿Abres el horno o miras por el cristal? ¿Cuál era tu número? 👇 Envíaselo a quien abre el horno cada dos minutos.",
+     "tags": [
+      "comofunciona",
+      "horno",
+      "ahorrodeenergia",
+      "cocina",
+      "bizcocho"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Cuánta energía pierdes cada vez que abres el horno?",
+     "texto": "Cada vez que abres la puerta del horno para mirar, se escapa al menos un 20 % del calor acumulado, y tu bizcocho puede hundirse. ¿Abres el horno o miras por el cristal? ¿Cuál era tu número? 👇 Envíaselo a quien abre el horno cada dos minutos. ¿Puerta o cristal? #comofunciona #horno #ahorrodeenergia #cocina #bizcocho",
+     "tags": [
+      "comofunciona",
+      "horno",
+      "ahorrodeenergia",
+      "cocina",
+      "bizcocho"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona tu horno: ¿cuánto calor pierdes al abrirlo?",
+     "texto": "Cómo funciona el horno: cada vez que abres la puerta para mirar pierdes al menos un 20 % del calor. Mira por el cristal. #shorts",
+     "tags": [
+      "comofunciona",
+      "horno",
+      "ahorrodeenergia",
+      "cocina",
+      "bizcocho"
+     ]
+    }
+   },
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Objeto de casa con error común (abrir la puerta) y acción final (luz y cristal), el patrón que rinde. La cifra del 20 % se plantea en la pregunta y se revela en mitad del vídeo, con 30 °C y 1.500 W como contadores; la fuente es ECODES.",
+     "propuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "«Horno» suena en la primera frase (palabra 5) y va en el título y en el pie. Solo reordeno los pies según mi acuerdo (pregunta cerrada, número, «Envíaselo»).",
+     "propuesta": ""
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Hay 4 cifras que cambian en pantalla: termómetro 180 °C que cae 30 °C al abrir, barra de energía que baja un 20 %, contador de 1.500 W y el aire en bolitas. La del juego se revela a mitad de vídeo y es la barra más visible.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "205 palabras, ≈60 s. La primera frase tiene 7 palabras y es una pregunta al espectador. «Y aquí viene lo curioso…» prepara la cifra y ninguna frase pasa de 2 cifras.",
+     "propuesta": ""
+    }
+   ]
+  },
+  {
+   "id": "tapa",
+   "formato": "A",
+   "titulo": "¿Cuánto peso aguanta la tapa de alcantarilla que pisas? 🕳️ (y por qué es redonda)",
+   "guion": "La tapa de alcantarilla… ¿cuánto peso aguanta? Escribe tu número, en toneladas, antes de que acabe. Debajo hay un pozo que baja hasta la alcantarilla. Y por él tiene que poder bajar una persona. Así que el agujero mide unos sesenta y cinco centímetros. Pero si la tapa y el agujero fueran cuadrados… La diagonal del agujero mide casi una vez y media su lado. Giras la tapa, la pones de canto… ¡y cae al pozo! Una tapa redonda mide lo mismo la gires como la gires. Así que nunca se cuela. Pesa unos treinta y cuatro kilos de hierro. Y puedes rodarla, en vez de levantarla. Pero encima pasan coches, autobuses y camiones. Y aquí viene lo curioso… En la calzada, la norma europea la prueba con cuarenta toneladas. ¡Como casi treinta coches apilados encima! Por eso es de fundición dúctil, un hierro que se dobla antes de romperse. Y se apoya en un marco con un escalón que la sujeta por todo el borde. La próxima vez, mira el borde: lleva grabada su clase: la D, cuatrocientos. ¿Te has acercado? Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes cuánto aguanta… la tapa de alcantarilla que pisas.",
+   "texto": "¿Cuánto peso aguanta la tapa de alcantarilla que pisas? Y por qué es redonda… ¿Cuál era tu número? 👇 Envíaselo a quien cree que las tapas son redondas por casualidad. ¿Redonda o cuadrada en tu calle?",
+   "tags": [
+    "alcantarilla",
+    "tapaalcantarilla",
+    "ingenieria",
+    "geometria",
+    "comofunciona"
+   ],
+   "ganchos": [
+    "La tapa de alcantarilla… ¿cuánto peso aguanta?",
+    "¿Por qué la tapa de tu calle es redonda?",
+    "Pisas esta tapa cada día sin mirarla."
+   ],
+   "juego": {
+    "pregunta": "¿Cuánto peso aguanta la tapa de alcantarilla que pisas?",
+    "valor": 40,
+    "unidad": "TONELADAS",
+    "dec": 0,
+    "pregunta_en": "La tapa de alcantarilla…",
+    "revela_en": "En la calzada, la norma"
+   },
+   "reglas": {
+    "cotidiano": 8,
+    "cotidiano_nota": "Todo el mundo pisa o pasa por encima de una tapa de alcantarilla cada día.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "La tapa redonda girando y rodando en primer plano sobre el asfalto hasta encajar en su marco con un clic, con el pozo en corte debajo.",
+    "ensenar": 9,
+    "ensenar_nota": "Agujero de 65 cm con regla, diagonal del agujero cuadrado 1,41× su lado por la que se cuela la tapa de canto, 34 kg en una pastilla y 40 toneladas con coches que caen encima de la tapa."
+   },
+   "notas": "Fuentes: fichas técnicas de tapas D400 (EN 124): Saint-Gobain PAM REXESS Ø785, tapa 33,5 kg, paso ~645 mm; Holity D400 «hasta 40 toneladas». D400 = carga de ensayo 400 kN (EN 124).",
+   "estado": "propuesto",
+   "creado": "2026-11-14",
+   "ronda": 2,
+   "tendencia": "Por qué las tapas de alcantarilla son redondas",
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuánto peso aguanta la tapa de alcantarilla que pisas? 🕳️",
+     "texto": "¿Cuánto peso aguanta la tapa de alcantarilla que pisas? Y por qué es redonda… ¿Cuál era tu número? 👇 Envíaselo a quien cree que las tapas son redondas por casualidad. ¿Redonda o cuadrada en tu calle?",
+     "tags": [
+      "alcantarilla",
+      "tapaalcantarilla",
+      "ingenieria",
+      "geometria",
+      "comofunciona"
+     ]
+    },
+    "instagram": {
+     "titulo": "¿Cuánto peso aguanta la tapa de alcantarilla que pisas?",
+     "texto": "La tapa de alcantarilla de tu calle esconde un truco de geometría. ¿Cuánto peso aguanta? ¿Cuál era tu número? 👇 Envíaselo a quien cree que las tapas son redondas por casualidad. ¿Redonda o cuadrada en tu calle? #alcantarilla #tapadealcantarilla #ingenieria #geometria #comofunciona",
+     "tags": [
+      "alcantarilla",
+      "tapadealcantarilla",
+      "ingenieria",
+      "geometria",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "¿Por qué la tapa de alcantarilla es redonda? Cómo funciona",
+     "texto": "Cómo funciona la tapa de alcantarilla y cuánto peso aguanta. #shorts",
+     "tags": [
+      "comofunciona",
+      "alcantarilla",
+      "tapadealcantarilla",
+      "ingenieria",
+      "geometria"
+     ]
+    }
+   },
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "El tema y el 40 t (D400, EN 124) valen, pero la geometría estaba al revés: lo que deja caer una tapa cuadrada es que la diagonal del agujero cuadrado es mayor que el lado de la tapa.",
+     "propuesta": "Sustituye la frase de la tapa cuadrada por «Pero si el agujero fuera cuadrado… su diagonal mide casi una vez y media su lado. Giras la tapa, y cabe en diagonal por el agujero… ¡y cae al pozo!»",
+     "aplicada": true,
+     "respuesta": "Aplicada con la redacción «Pero si la tapa y el agujero fueran cuadrados… La diagonal del agujero mide casi una vez y media su lado. Giras la tapa, la pones de canto… ¡y cae al pozo!»."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "«Alcantarilla» es lo que se busca y no sonaba hasta la tercera frase.",
+     "propuesta": "Primera frase «Esa tapa de alcantarilla que pisas… ¿cuánto peso aguanta?» y cierre «…la tapa de alcantarilla que pisas.»",
+     "aplicada": true,
+     "respuesta": "Aplicada con «La tapa de alcantarilla… ¿cuánto peso aguanta?» para no pasar de 8 palabras en el gancho; cierre cambiado igual."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Hay 4 cifras animables: regla de 65 cm sobre el agujero, diagonal 1,41× que se cuela, pastilla de 34 kg y 40 t con unos 28-30 coches que caen encima.",
+     "propuesta": ""
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "211 palabras y ≈62 s. Primera frase de 8 palabras con «…» antes de la pregunta; la cifra se revela tras «Y aquí viene lo curioso…». Riesgo: «D cuatrocientos» puede sonar «de cuatrocientos».",
+     "propuesta": "Cambia «lleva grabada su clase: D cuatrocientos.» por «lleva grabada su clase: la D, cuatrocientos.»",
+     "aplicada": true,
+     "respuesta": "Aplicada."
+    },
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "La geometría ya se sostiene y 40 t ≈ 28 coches cuadra con «casi treinta»; D400 = 400 kN. Fleco: el paso libre mínimo de la norma es 600 mm, «unos sesenta y cinco» queda algo alto; 34 kg es bajo para D400 grande.",
+     "propuesta": "Opcional: «unos sesenta centímetros» y comprobar el peso.",
+     "aplicada": false,
+     "respuesta": "Se mantiene: la ficha de Saint-Gobain PAM REXESS D400 Ø785 da paso de 645 mm y tapa de 33,5 kg."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "La primera frase ya dice «tapa de alcantarilla». Fallaban el pie (sin «alcantarilla» y soltando las 40 toneladas), las tags y el campo seo vacío.",
+     "propuesta": "Tags [alcantarilla, tapaalcantarilla, ingenieria, geometria, comofunciona], pie nuevo sin la cifra del juego y seo por red.",
+     "aplicada": true,
+     "respuesta": "Aplicado todo: tags, pie y seo por red tal cual."
+    }
+   ]
+  },
+  {
+   "id": "bulnes",
+   "formato": "C",
+   "titulo": "¿Cómo funciona el funicular de Bulnes, por dentro de la montaña? 🚞",
+   "guion": "¿Cuántos metros sube este funicular por dentro? Escribe tu número antes de que acabe. Bulnes es un pueblo de Asturias. No tiene carretera. Hasta el año dos mil uno, se subía a pie, por un camino de una hora. Pero una carretera rompería la montaña. Así que construyes un túnel por dentro de la roca. Mide más de dos kilómetros. Pero subir un tren por esa cuesta… las ruedas patinarían. Así que el tren no lleva motor. Arriba, un motor tira de un cable de acero. Y de cada punta del cable cuelga una cabina. Cuando una sube, la otra baja. Una hace de contrapeso de la otra. Pero solo hay sitio para una vía. Así que a mitad del túnel la vía se abre en dos, y las cabinas se cruzan. Y aquí viene lo curioso… En siete minutos, subes cuatrocientos dos metros. ¡Más que un edificio de ciento treinta plantas! Con rampas de casi el diecinueve por ciento, a dieciocho kilómetros por hora. ¿Te has acercado? Dime en qué ciudad vives y te cuento qué esconde. Y si quieres que explique algo, pídelo en comentarios: lo más pedido será un vídeo. Sígueme para más. Así que ya sabes cuántos metros sube… el funicular de dentro de la montaña.",
+   "texto": "El funicular de Bulnes sube por dentro de la montaña en 7 minutos. ¿Cuál era tu número? 👇 Envíaselo a quien no sabe que hay un tren dentro de los Picos de Europa. ¿Qué esconde tu ciudad?",
+   "tags": [
+    "funicular",
+    "bulnes",
+    "asturias",
+    "picosdeeuropa",
+    "comofunciona"
+   ],
+   "ganchos": [
+    "¿Cuántos metros sube este funicular por dentro?",
+    "Este tren sube por dentro de una montaña.",
+    "Un pueblo sin carretera… y un tren dentro de la roca."
+   ],
+   "juego": {
+    "pregunta": "¿Cuántos metros sube el funicular de Bulnes por dentro de la montaña?",
+    "valor": 402,
+    "unidad": "M DE DESNIVEL",
+    "dec": 0,
+    "pregunta_en": "¿Cuántos metros sube este",
+    "revela_en": "En siete minutos, subes"
+   },
+   "reglas": {
+    "cotidiano": 7,
+    "cotidiano_nota": "Obra real de España que mucha gente ha visitado o quiere visitar; el tren y el ascensor son cotidianos aunque el sitio no.",
+    "primer_segundo": 8,
+    "primer_segundo_nota": "Cabina roja subiendo en primer plano por la vía dentro del túnel en corte, con el cable tirando y la polea girando.",
+    "ensenar": 9,
+    "ensenar_nota": "Contador de metros de túnel hasta 2.227, altímetro que sube a 402 m, cronómetro de 7 min, velocímetro a 18 km/h y edificio de 130 plantas al lado."
+   },
+   "notas": "Serie «Lo que esconde tu ciudad». Fuentes: Wikipedia «Bulnes Funicular» (402 m, 18 km/h, 2001), Los Pueblos Más Bonitos de España (2.227 m, 7 min, 18,9 %), El viaje de Sofi (Canal del Texu 1 h 15 min de subida). El cruce a mitad es necesario en un funicular de dos cabinas con salidas a la vez desde las dos estaciones (salen cada 30 min de las dos).",
+   "estado": "propuesto",
+   "creado": "2026-11-14",
+   "ronda": 2,
+   "serie": true,
+   "seo": {
+    "tiktok": {
+     "titulo": "¿Cuántos metros sube el funicular de Bulnes por dentro de la montaña? 🚞",
+     "texto": "¿Sube solo o tira de él un cable? ¿Cuál era tu número? 👇 Envíaselo a quien no sabe que hay un funicular dentro de los Picos de Europa. Lo que esconde tu ciudad: ¿qué esconde la tuya?",
+     "tags": [
+      "comofunciona",
+      "funicular",
+      "bulnes",
+      "picosdeeuropa",
+      "asturias"
+     ]
+    },
+    "instagram": {
+     "titulo": "El funicular de Bulnes: un tren dentro de la montaña",
+     "texto": "El funicular de Bulnes sube por dentro de la montaña en 7 minutos, sin carretera y con dos cabinas que se cruzan a mitad del túnel. ¿Sube solo o tira de él un cable? ¿Cuál era tu número? 👇 Envíaselo a quien no sabe que hay un funicular dentro de los Picos de Europa. ¿Qué esconde tu ciudad? #funicular #bulnes #asturias #picosdeeuropa #comofunciona",
+     "tags": [
+      "funicular",
+      "bulnes",
+      "asturias",
+      "picosdeeuropa",
+      "comofunciona"
+     ]
+    },
+    "youtube": {
+     "titulo": "Cómo funciona el funicular de Bulnes, por dentro de la montaña",
+     "texto": "Cómo funciona el funicular de Bulnes: un túnel, un cable y dos cabinas. #shorts",
+     "tags": [
+      "comofunciona",
+      "funicular",
+      "bulnes",
+      "picosdeeuropa",
+      "asturias"
+     ]
+    }
+   },
+   "revisiones": [
+    {
+     "rol": "estratega",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Entra en la serie «Lo que esconde tu ciudad» (formato C, con la cadena pero/así que). 402 m ≈ 130 plantas se puede enseñar. Datos coherentes: 2.227 m a 18 km/h ≈ 7 min y 402/2.227 ≈ 18,9 %.",
+     "propuesta": ""
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "«Funicular» es la palabra que se busca y la primera frase decía «este tren».",
+     "propuesta": "Primera frase «¿Cuántos metros sube este funicular por dentro de una montaña?» y cierre «…el funicular de dentro de la montaña.»",
+     "aplicada": true,
+     "respuesta": "Aplicada con «¿Cuántos metros sube este funicular por dentro?» (7 palabras, para cumplir el máximo de 8 que pide sonido); cierre cambiado."
+    },
+    {
+     "rol": "motion",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "ok",
+     "nota": "Hay 5 cifras animables: túnel hasta 2.227 m, altímetro a 402 m, cronómetro de 7 min, 18 km/h y edificio de 130 plantas. Riesgo: 2.227 m antes de la revelación compite con la cifra del juego.",
+     "propuesta": "Opcional: «Mide dos mil doscientos veintisiete metros.» → «Mide más de dos kilómetros.» y 2.227 m solo en la pastilla.",
+     "aplicada": true,
+     "respuesta": "Aplicada."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 1,
+     "veredicto": "cambios",
+     "nota": "La primera frase tenía 10 palabras y el límite del gancho es 8.",
+     "propuesta": "«¿Cuántos metros sube este tren por dentro?»",
+     "aplicada": true,
+     "respuesta": "Aplicada como «¿Cuántos metros sube este funicular por dentro?» (pide SEO la palabra funicular)."
+    },
+    {
+     "rol": "sonido",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "ok",
+     "nota": "Primera frase de 7 palabras, 208 palabras (≈61 s). Punto frágil: «Hasta dos mil uno» puede sonar «dos mil, uno».",
+     "propuesta": "«Hasta el año dos mil uno, se subía a pie».",
+     "aplicada": true,
+     "respuesta": "Aplicada."
+    },
+    {
+     "rol": "seo",
+     "fase": "guion",
+     "ronda": 2,
+     "veredicto": "cambios",
+     "nota": "«Bulnes» no suena hasta la tercera frase (≈5 s); tags y campo seo por completar.",
+     "propuesta": "No tocar la primera frase; tags [funicular, bulnes, asturias, picosdeeuropa, comofunciona]; seo por red.",
+     "aplicada": true,
+     "respuesta": "Aplicados tags y seo; «Bulnes» queda en la segunda frase de contenido, tras el reto, porque la primera ya está en 7 palabras."
+    }
+   ]
   }
  ]
 }
