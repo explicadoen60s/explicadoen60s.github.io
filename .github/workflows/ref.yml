@@ -1,0 +1,30 @@
+name: Analizar referencia
+on: {push: {branches: [analisis-sim]}}
+permissions: {contents: write}
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {sparse-checkout: .github}
+      - run: pip install -q -U yt-dlp faster-whisper && sudo apt-get -qq install -y ffmpeg >/dev/null
+      - run: |
+          mkdir -p out
+          yt-dlp -q -o "v.%(ext)s" --write-info-json "https://www.tiktok.com/@simulator_universe/video/7705178791638813965" || true
+          ls -la
+          python3 -c "import json,glob;d=json.load(open(glob.glob('*.info.json')[0]));print(json.dumps({k:d.get(k) for k in ('title','description','duration','view_count','like_count','comment_count','repost_count','uploader')},ensure_ascii=False))" > out/info.txt || true
+          f=$(ls v.* | grep -v json | head -1)
+          ffmpeg -loglevel error -y -i "$f" -vf "fps=1,scale=240:-1,tile=8x8" -frames:v 1 out/hoja1.jpg
+          ffmpeg -loglevel error -y -ss 64 -i "$f" -vf "fps=1,scale=240:-1,tile=8x8" -frames:v 1 out/hoja2.jpg || true
+          ffmpeg -loglevel error -y -t 3 -i "$f" -vf "fps=4,scale=270:-1,tile=6x2" -frames:v 1 out/inicio.jpg
+          ffmpeg -loglevel error -y -i "$f" -vn -ac 1 -ar 16000 a.wav
+          python3 - <<'PY'
+          from faster_whisper import WhisperModel
+          m = WhisperModel("small", compute_type="int8")
+          segs, info = m.transcribe("a.wav")
+          open("out/transcripcion.txt","w").write(f"idioma: {info.language}\n" + "\n".join(f"[{s.start:6.1f}] {s.text}" for s in segs))
+          PY
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "$f" >> out/info.txt
+      - run: |
+          git config user.name explicadoen60s; git config user.email explicadoen60s.cxn@gmail.com
+          git add out && git commit -qm "Resultado análisis referencia" && git push
