@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-11-14T22:58:29+00:00",
+ "actualizado": "2026-11-14T23:56:40+00:00",
  "medianas": {
   "tiktok": 1159,
   "instagram": 1604.0,
-  "youtube": 1714
+  "youtube": 1858
  },
- "maduros": 47,
+ "maduros": 48,
  "puestos": {
   "director": {
    "ahora": "3 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
-    "valor": 1.02,
+    "valor": 1.01,
     "fmt": "x",
     "meta": 1.5,
-    "pie": "47 vídeos maduros, frente a lo normal"
+    "pie": "48 vídeos maduros, frente a lo normal"
    }
   },
   "fotografia": {
@@ -40,14 +40,14 @@
     "meta": 70,
     "pie": "20/20 entre 55 y 75 s"
    },
-   "foco": "Energía del gancho frente al resto: los vídeos con más de 0,30 dB rinden 1,11× lo normal, frente a 0,85× los demás."
+   "foco": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,08× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
   },
   "editor": {
    "ahora": "0 en render · 6 esperando tu revisión",
    "pendiente": 6,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.41,
+    "valor": 4.4,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
@@ -64,14 +64,14 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,14× lo normal, frente a 0,86× los demás."
+   "foco": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,08× lo normal, frente a 0,85× los demás."
   },
   "estratega": {
    "ahora": "1 ideas en el banco · tendencias de hoy · 5 segundas partes por proponer",
    "pendiente": 5,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
-    "valor": 0.51,
+    "valor": 0.52,
     "fmt": "pct",
     "meta": 0.5,
     "pie": "últimos 14 días"
@@ -114,47 +114,47 @@
  "manual": {
   "m_juego": {
    "n_si": 0,
-   "n_no": 47,
+   "n_no": 48,
    "med_si": null,
-   "med_no": 1.02,
+   "med_no": 1.01,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m_ciudad": {
    "n_si": 1,
-   "n_no": 46,
+   "n_no": 47,
    "med_si": 1.03,
-   "med_no": 0.98,
-   "ratio": 1.05,
+   "med_no": 1.0,
+   "ratio": 1.03,
    "veredicto": "faltan_datos"
   },
   "m_formatoC": {
    "n_si": 12,
-   "n_no": 35,
+   "n_no": 36,
    "med_si": 1.07,
-   "med_no": 0.94,
-   "ratio": 1.14,
+   "med_no": 0.97,
+   "ratio": 1.1,
    "veredicto": "sin_efecto"
   },
   "m_tituloPregunta": {
-   "n_si": 36,
+   "n_si": 37,
    "n_no": 11,
-   "med_si": 1.06,
-   "med_no": 0.85,
-   "ratio": 1.25,
+   "med_si": 1.04,
+   "med_no": 0.84,
+   "ratio": 1.24,
    "veredicto": "a_favor"
   },
   "m_cotidiano": {
-   "n_si": 20,
+   "n_si": 21,
    "n_no": 27,
-   "med_si": 0.62,
+   "med_si": 0.7,
    "med_no": 1.07,
-   "ratio": 0.58,
+   "ratio": 0.65,
    "veredicto": "en_contra"
   },
   "m_corto": {
    "n_si": 1,
-   "n_no": 46,
+   "n_no": 47,
    "med_si": 0.17,
    "med_no": 1.02,
    "ratio": 0.17,
@@ -162,14 +162,14 @@
   },
   "m_comentario": {
    "n_si": 0,
-   "n_no": 47,
+   "n_no": 48,
    "med_si": null,
-   "med_no": 1.02,
+   "med_no": 1.01,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m261112dir8": {
-   "n_si": 23,
+   "n_si": 24,
    "n_no": 24,
    "med_si": 1.08,
    "med_no": 0.85,
@@ -177,131 +177,131 @@
    "veredicto": "a_favor"
   },
   "m261112fot9": {
-   "n_si": 25,
+   "n_si": 26,
    "n_no": 22,
-   "med_si": 1.03,
+   "med_si": 1.02,
    "med_no": 0.97,
-   "ratio": 1.06,
+   "ratio": 1.05,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
    "n_si": 10,
-   "n_no": 37,
+   "n_no": 38,
    "med_si": 0.82,
-   "med_no": 1.02,
-   "ratio": 0.8,
+   "med_no": 1.01,
+   "ratio": 0.81,
    "veredicto": "en_contra"
   },
   "m261112son11": {
-   "n_si": 25,
+   "n_si": 26,
    "n_no": 22,
-   "med_si": 0.86,
+   "med_si": 0.9,
    "med_no": 1.06,
-   "ratio": 0.82,
+   "ratio": 0.85,
    "veredicto": "en_contra"
   },
   "m261112mot12": {
-   "n_si": 26,
+   "n_si": 27,
    "n_no": 21,
-   "med_si": 0.89,
+   "med_si": 0.92,
    "med_no": 1.04,
-   "ratio": 0.86,
+   "ratio": 0.88,
    "veredicto": "sin_efecto"
   },
   "m261112mot13": {
    "n_si": 23,
-   "n_no": 24,
+   "n_no": 25,
    "med_si": 0.94,
-   "med_no": 1.04,
+   "med_no": 1.03,
    "ratio": 0.91,
    "veredicto": "sin_efecto"
   },
   "m261113fot15": {
-   "n_si": 25,
+   "n_si": 26,
    "n_no": 22,
-   "med_si": 0.94,
+   "med_si": 0.97,
    "med_no": 1.03,
-   "ratio": 0.91,
+   "ratio": 0.94,
    "veredicto": "sin_efecto"
   },
   "m261113son16": {
    "n_si": 16,
-   "n_no": 31,
+   "n_no": 32,
    "med_si": 1.3,
-   "med_no": 0.86,
-   "ratio": 1.52,
+   "med_no": 0.85,
+   "ratio": 1.53,
    "veredicto": "a_favor"
   },
   "m261113edi17": {
    "n_si": 2,
-   "n_no": 45,
+   "n_no": 46,
    "med_si": 0.55,
-   "med_no": 1.03,
+   "med_no": 1.02,
    "ratio": 0.54,
    "veredicto": "faltan_datos"
   },
   "m261113est18": {
    "n_si": 5,
-   "n_no": 42,
+   "n_no": 43,
    "med_si": 0.33,
-   "med_no": 1.04,
+   "med_no": 1.03,
    "ratio": 0.32,
    "veredicto": "en_contra"
   },
   "m261114dir20": {
-   "n_si": 40,
+   "n_si": 41,
    "n_no": 7,
-   "med_si": 0.98,
+   "med_si": 1.0,
    "med_no": 1.03,
-   "ratio": 0.95,
+   "ratio": 0.97,
    "veredicto": "sin_efecto"
   },
   "m261114fot21": {
    "n_si": 8,
-   "n_no": 39,
+   "n_no": 40,
    "med_si": 0.98,
-   "med_no": 1.02,
-   "ratio": 0.96,
+   "med_no": 1.01,
+   "ratio": 0.97,
    "veredicto": "sin_efecto"
   },
   "m261114fot22": {
    "n_si": 22,
-   "n_no": 25,
+   "n_no": 26,
    "med_si": 1.1,
    "med_no": 0.85,
    "ratio": 1.29,
    "veredicto": "a_favor"
   },
   "m261114son23": {
-   "n_si": 26,
+   "n_si": 27,
    "n_no": 21,
-   "med_si": 1.06,
+   "med_si": 1.03,
    "med_no": 0.94,
-   "ratio": 1.12,
+   "ratio": 1.1,
    "veredicto": "sin_efecto"
   },
   "m261114mot24": {
-   "n_si": 19,
+   "n_si": 20,
    "n_no": 28,
-   "med_si": 1.2,
+   "med_si": 1.14,
    "med_no": 0.85,
-   "ratio": 1.4,
+   "ratio": 1.34,
    "veredicto": "a_favor"
   },
   "m261114est25": {
    "n_si": 7,
-   "n_no": 40,
+   "n_no": 41,
    "med_si": 1.03,
-   "med_no": 0.98,
-   "ratio": 1.05,
+   "med_no": 1.0,
+   "ratio": 1.03,
    "veredicto": "sin_efecto"
   },
   "m261114est26": {
-   "n_si": 18,
+   "n_si": 19,
    "n_no": 29,
-   "med_si": 0.95,
+   "med_si": 1.0,
    "med_no": 1.02,
-   "ratio": 0.93,
+   "ratio": 0.98,
    "veredicto": "sin_efecto"
   }
  },
@@ -312,11 +312,11 @@
     "campo": "cotidiano",
     "mayor": 8
    },
-   "n_si": 20,
+   "n_si": 21,
    "n_no": 27,
-   "med_si": 0.62,
+   "med_si": 0.7,
    "med_no": 1.07,
-   "ratio": 0.58,
+   "ratio": 0.65,
    "veredicto": "en_contra"
   },
   {
@@ -325,7 +325,7 @@
     "campo": "tendencia",
     "igual": true
    },
-   "n_si": 12,
+   "n_si": 13,
    "n_no": 35,
    "med_si": 1.2,
    "med_no": 0.94,
@@ -338,11 +338,11 @@
     "campo": "titulo_pregunta",
     "igual": true
    },
-   "n_si": 36,
+   "n_si": 37,
    "n_no": 11,
-   "med_si": 1.06,
-   "med_no": 0.85,
-   "ratio": 1.25,
+   "med_si": 1.04,
+   "med_no": 0.84,
+   "ratio": 1.24,
    "veredicto": "a_favor"
   }
  ],
@@ -419,10 +419,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 683265,
-   "rel": 209.53,
-   "inter": 0.0511,
-   "horas": 107,
+   "vistas": 685572,
+   "rel": 210.04,
+   "inter": 0.051,
+   "horas": 108,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -433,10 +433,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 44161,
-   "rel": 12.01,
+   "vistas": 44515,
+   "rel": 12.08,
    "inter": 0.035,
-   "horas": 48,
+   "horas": 49,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -448,36 +448,36 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 209.53,
-   "vistas": 683265
+   "rel": 210.04,
+   "vistas": 685572
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 23.7,
-   "vistas": 61093
+   "rel": 23.78,
+   "vistas": 61294
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 14.32,
-   "vistas": 42071
+   "rel": 14.34,
+   "vistas": 42119
   },
   {
    "video": "repetidor",
    "red": "tiktok",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
-   "rel": 12.01,
-   "vistas": 44161
+   "rel": 12.08,
+   "vistas": 44515
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
    "rel": 10.48,
-   "vistas": 22470
+   "vistas": 22486
   }
  ],
  "compuertas": {
@@ -581,43 +581,15 @@
  "mejora": {
   "hallazgos": [
    {
-    "metrica": "ov_etiquetas",
-    "nombre": "Etiquetas sobre las piezas",
-    "rol": "motion",
-    "unidad": "",
-    "umbral": 7,
-    "direccion": "mas",
-    "ratio": 1.33,
-    "n_si": 22,
-    "n_no": 25,
-    "fuerza": 1.34,
-    "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,14× lo normal, frente a 0,86× los demás."
-   },
-   {
-    "metrica": "voz_gancho",
-    "nombre": "Energía del gancho frente al resto",
-    "rol": "sonido",
-    "unidad": "dB",
-    "umbral": 0.3,
-    "direccion": "mas",
-    "ratio": 1.3,
-    "n_si": 21,
-    "n_no": 26,
-    "fuerza": 1.2,
-    "sorpresa": false,
-    "texto": "Energía del gancho frente al resto: los vídeos con más de 0,30 dB rinden 1,11× lo normal, frente a 0,85× los demás."
-   },
-   {
     "metrica": "obj_cortes",
     "nombre": "Cortes que enseñan el interior",
     "rol": "fotografia",
     "unidad": "",
-    "umbral": 0,
+    "umbral": 0.0,
     "direccion": "mas",
     "ratio": 1.29,
     "n_si": 22,
-    "n_no": 25,
+    "n_no": 26,
     "fuerza": 1.19,
     "sorpresa": false,
     "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,85× los demás."
@@ -627,30 +599,46 @@
     "nombre": "Duración",
     "rol": "editor",
     "unidad": "s",
-    "umbral": 71.1,
+    "umbral": 70.95,
     "direccion": "menos",
     "ratio": 1.27,
-    "n_si": 22,
-    "n_no": 25,
-    "fuerza": 1.11,
+    "n_si": 24,
+    "n_no": 24,
+    "fuerza": 1.15,
     "sorpresa": false,
     "texto": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
+   },
+   {
+    "metrica": "ov_etiquetas",
+    "nombre": "Etiquetas sobre las piezas",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 7.0,
+    "direccion": "mas",
+    "ratio": 1.27,
+    "n_si": 23,
+    "n_no": 25,
+    "fuerza": 1.15,
+    "sorpresa": false,
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,08× lo normal, frente a 0,85× los demás."
+   },
+   {
+    "metrica": "voz_pausa_max",
+    "nombre": "Pausa más larga",
+    "rol": "sonido",
+    "unidad": "s",
+    "umbral": 0.57,
+    "direccion": "mas",
+    "ratio": 1.21,
+    "n_si": 24,
+    "n_no": 24,
+    "fuerza": 0.93,
+    "sorpresa": true,
+    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,08× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
    }
   ],
   "recomendaciones": {
    "camara": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -662,113 +650,33 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "cargador": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 12, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "lavavajillas": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 16, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "pozo": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 16, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "arroz": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,66 s, en el lado bueno. Mantenlo."
     }
    ],
    "whatsapp": [
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+    },
+    {
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
@@ -778,61 +686,11 @@
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "tormentas": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 13, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 1 dB, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
     }
    ],
    "tostadora": [
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -1,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -844,21 +702,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "mando": [
+    },
     {
      "rol": "motion",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,66 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "mando": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -870,21 +728,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "teclado": [
+    },
     {
      "rol": "motion",
-     "tipo": "potenciar",
+     "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,51 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "teclado": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -896,9 +754,7 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "ruedas": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
@@ -908,9 +764,11 @@
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,70 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,71 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "ruedas": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -922,21 +780,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "deposito": [
+    },
     {
      "rol": "motion",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,40 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,57 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "deposito": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -948,21 +806,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "router": [
+    },
     {
      "rol": "motion",
-     "tipo": "potenciar",
+     "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,55 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "router": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -974,21 +832,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "gps": [
+    },
     {
      "rol": "motion",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,64 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "gps": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1000,21 +858,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "induccion": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "induccion": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1026,21 +884,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "qr": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,59 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "qr": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1052,21 +910,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "lavadora": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,50 dB, en el lado bueno. Mantenlo."
-    },
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,56 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "lavadora": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1078,21 +936,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "depuradora": [
+    },
     {
      "rol": "motion",
-     "tipo": "potenciar",
+     "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 13, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,20 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,62 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "depuradora": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1104,21 +962,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "parking": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 13, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,80 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,66 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "parking": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1130,21 +988,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "v16": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "v16": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1156,21 +1014,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "ollaexpres": [
+    },
     {
      "rol": "motion",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,64 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "ollaexpres": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1182,21 +1040,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "huella": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,90 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,61 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "huella": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1208,21 +1066,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "paraguas": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,52 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "paraguas": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1234,21 +1092,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 62 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "grifo": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,20 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "grifo": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1260,21 +1118,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "spray": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,58 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "spray": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1286,21 +1144,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "pistahielo": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,59 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "pistahielo": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1312,21 +1170,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 79 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "carretera": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "carretera": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1338,21 +1196,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "tdt": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -1,30 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,54 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "tdt": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1364,21 +1222,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "luces": [
+    },
     {
      "rol": "motion",
-     "tipo": "potenciar",
+     "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,00 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "luces": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1390,21 +1248,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "caldera": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 14, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,46 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "caldera": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1416,21 +1274,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "cepillo": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 14, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,60 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "cepillo": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1442,21 +1300,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "puente": [
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 16, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,30 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,63 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "puente": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1465,24 +1323,24 @@
     },
     {
      "rol": "editor",
-     "tipo": "potenciar",
+     "tipo": "mejorar",
      "metrica": "duracion",
-     "texto": "Duración: 71 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "nieve": [
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+    },
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 12, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 16, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,10 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,65 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "nieve": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1494,21 +1352,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 69 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "paracaidas": [
+    },
     {
      "rol": "motion",
-     "tipo": "mejorar",
+     "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 12, en el lado bueno. Mantenlo."
     },
     {
      "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,80 dB, en el lado bueno. Mantenlo."
-    },
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,45 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "paracaidas": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1520,21 +1378,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "turia": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "turia": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1546,21 +1404,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 74 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "repetidor": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,40 dB, en el lado bueno. Mantenlo."
-    },
+     "tipo": "mejorar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+    }
+   ],
+   "repetidor": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1572,21 +1430,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 73 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "bateria100": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 1 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,61 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "bateria100": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1598,21 +1456,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "tunelave": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 0,60 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,80 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "tunelave": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1624,21 +1482,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "transbordador": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: 1,10 dB, en el lado bueno. Mantenlo."
-    },
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,88 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "transbordador": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1650,21 +1508,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "cinturon": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,80 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,58 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "cinturon": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1676,21 +1534,21 @@
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 68 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "aspiradora": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
     {
      "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_gancho",
-     "texto": "Energía del gancho frente al resto: -0,70 dB. Los que funcionan van por encima de 0,30 dB (1,30× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,58 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "aspiradora": [
     {
      "rol": "fotografia",
      "tipo": "potenciar",
@@ -1702,15 +1560,21 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    }
-   ],
-   "crucero": [
+    },
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 0,00. Los que funcionan van por encima de 7 (1,33× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,27× más vistas)."
     },
+    {
+     "rol": "sonido",
+     "tipo": "potenciar",
+     "metrica": "voz_pausa_max",
+     "texto": "Pausa más larga: 0,79 s, en el lado bueno. Mantenlo."
+    }
+   ],
+   "crucero": [
     {
      "rol": "fotografia",
      "tipo": "mejorar",
@@ -1722,6 +1586,12 @@
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+    },
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 0,00. Los que funcionan van por encima de 7 (1,27× más vistas)."
     }
    ]
   },
@@ -1743,44 +1613,16 @@
    }
   },
   "foco": {
-   "motion": {
-    "metrica": "ov_etiquetas",
-    "nombre": "Etiquetas sobre las piezas",
-    "rol": "motion",
-    "unidad": "",
-    "umbral": 7,
-    "direccion": "mas",
-    "ratio": 1.33,
-    "n_si": 22,
-    "n_no": 25,
-    "fuerza": 1.34,
-    "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,14× lo normal, frente a 0,86× los demás."
-   },
-   "sonido": {
-    "metrica": "voz_gancho",
-    "nombre": "Energía del gancho frente al resto",
-    "rol": "sonido",
-    "unidad": "dB",
-    "umbral": 0.3,
-    "direccion": "mas",
-    "ratio": 1.3,
-    "n_si": 21,
-    "n_no": 26,
-    "fuerza": 1.2,
-    "sorpresa": false,
-    "texto": "Energía del gancho frente al resto: los vídeos con más de 0,30 dB rinden 1,11× lo normal, frente a 0,85× los demás."
-   },
    "fotografia": {
     "metrica": "obj_cortes",
     "nombre": "Cortes que enseñan el interior",
     "rol": "fotografia",
     "unidad": "",
-    "umbral": 0,
+    "umbral": 0.0,
     "direccion": "mas",
     "ratio": 1.29,
     "n_si": 22,
-    "n_no": 25,
+    "n_no": 26,
     "fuerza": 1.19,
     "sorpresa": false,
     "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,85× los demás."
@@ -1790,14 +1632,42 @@
     "nombre": "Duración",
     "rol": "editor",
     "unidad": "s",
-    "umbral": 71.1,
+    "umbral": 70.95,
     "direccion": "menos",
     "ratio": 1.27,
-    "n_si": 22,
-    "n_no": 25,
-    "fuerza": 1.11,
+    "n_si": 24,
+    "n_no": 24,
+    "fuerza": 1.15,
     "sorpresa": false,
     "texto": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
+   },
+   "motion": {
+    "metrica": "ov_etiquetas",
+    "nombre": "Etiquetas sobre las piezas",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 7.0,
+    "direccion": "mas",
+    "ratio": 1.27,
+    "n_si": 23,
+    "n_no": 25,
+    "fuerza": 1.15,
+    "sorpresa": false,
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,08× lo normal, frente a 0,85× los demás."
+   },
+   "sonido": {
+    "metrica": "voz_pausa_max",
+    "nombre": "Pausa más larga",
+    "rol": "sonido",
+    "unidad": "s",
+    "umbral": 0.57,
+    "direccion": "mas",
+    "ratio": 1.21,
+    "n_si": 24,
+    "n_no": 24,
+    "fuerza": 0.93,
+    "sorpresa": true,
+    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,08× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
    }
   },
   "referencia": {
@@ -1806,16 +1676,16 @@
     "resto": 3.57
    },
    "voz_silencio": {
-    "top": 11.0,
-    "resto": 10.2
+    "top": 10.7,
+    "resto": 10.3
    },
    "voz_pausas_min": {
-    "top": 19.1,
-    "resto": 17.1
+    "top": 18.5,
+    "resto": 17.5
    },
    "voz_pausa_max": {
-    "top": 0.58,
-    "resto": 0.56
+    "top": 0.57,
+    "resto": 0.57
    },
    "voz_arranque": {
     "top": 0.0,
@@ -1835,59 +1705,59 @@
    },
    "duracion": {
     "top": 69.55,
-    "resto": 71.3
+    "resto": 71.25
    },
    "cam_claves": {
     "top": 25.0,
-    "resto": 24.0
+    "resto": 24
    },
    "cam_cada": {
     "top": 2.71,
-    "resto": 2.9
+    "resto": 2.94
    },
    "cam_inicio_dist": {
-    "top": 5.3,
-    "resto": 7.05
+    "top": 5.4,
+    "resto": 7.5
    },
    "cam_lente_max": {
     "top": 40.0,
-    "resto": 36
+    "resto": 38.0
    },
    "obj_piezas": {
     "top": 33.0,
-    "resto": 27
+    "resto": 27.0
    },
    "obj_animaciones": {
     "top": 13.0,
-    "resto": 16
+    "resto": 15.5
    },
    "obj_cortes": {
     "top": 1.0,
-    "resto": 0
+    "resto": 0.0
    },
    "ov_etiquetas": {
-    "top": 8.5,
-    "resto": 7
+    "top": 9.0,
+    "resto": 7.0
    },
    "ov_contadores": {
     "top": 5.0,
-    "resto": 4
+    "resto": 4.0
    },
    "ov_graficos_min": {
     "top": 20.85,
-    "resto": 16.9
+    "resto": 17.3
    },
    "ov_palabras_clave": {
     "top": 28.5,
-    "resto": 29
+    "resto": 29.5
    },
    "sfx_min": {
     "top": 20.25,
-    "resto": 20.4
+    "resto": 20.55
    },
    "sfx_variedad": {
-    "top": 8.0,
-    "resto": 8
+    "top": 7.5,
+    "resto": 8.0
    }
   },
   "metricas": {
@@ -2066,9 +1936,9 @@
    "creado": "2026-11-14",
    "rel": null,
    "maduro": false,
-   "vistas": 255,
+   "vistas": 282,
    "rel_red": {
-    "tiktok": 0.09
+    "tiktok": 0.1
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -2123,9 +1993,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 15622,
+   "vistas": 15681,
    "rel_red": {
-    "tiktok": 6.57
+    "tiktok": 6.59
    },
    "com_mil": 0.0,
    "comp_mil": 0.77,
@@ -2235,9 +2105,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 26806,
+   "vistas": 26875,
    "rel_red": {
-    "tiktok": 9.42
+    "tiktok": 9.44
    },
    "com_mil": 0.04,
    "comp_mil": 0.3,
@@ -2292,12 +2162,12 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 8306,
+   "vistas": 8361,
    "rel_red": {
-    "tiktok": 2.92
+    "tiktok": 2.94
    },
    "com_mil": 0.48,
-   "comp_mil": 2.77,
+   "comp_mil": 2.75,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
   {
@@ -2347,9 +2217,9 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": null,
-   "maduro": false,
-   "vistas": 3678,
+   "rel": 1.0,
+   "maduro": true,
+   "vistas": 3686,
    "rel_red": {
     "tiktok": 1.0
    },
@@ -2406,12 +2276,12 @@
    "creado": "2026-11-11",
    "rel": 1.03,
    "maduro": true,
-   "vistas": 6684,
+   "vistas": 6732,
    "rel_red": {
     "instagram": 1.35,
     "youtube": 1.0
    },
-   "com_mil": 0.6,
+   "com_mil": 0.59,
    "comp_mil": 0.3,
    "publicado": "2026-11-12T21:28:44+0000"
   },
@@ -2462,16 +2332,16 @@
    "sub_centro": true,
    "estado": "programado",
    "creado": "2026-11-09",
-   "rel": 0.86,
+   "rel": 0.84,
    "maduro": true,
-   "vistas": 4815,
+   "vistas": 4754,
    "rel_red": {
     "tiktok": 0.44,
     "instagram": 0.92,
-    "youtube": 0.79
+    "youtube": 0.76
    },
    "com_mil": 0.0,
-   "comp_mil": 0.62,
+   "comp_mil": 0.63,
    "publicado": "2026-11-12T19:28:35+0000"
   },
   {
@@ -2521,16 +2391,16 @@
    "sub_centro": true,
    "estado": "programado",
    "creado": "2026-11-11",
-   "rel": 3.47,
+   "rel": 5.92,
    "maduro": true,
-   "vistas": 60421,
+   "vistas": 60893,
    "rel_red": {
-    "tiktok": 12.01,
+    "tiktok": 12.08,
     "instagram": 0.97,
-    "youtube": 5.97
+    "youtube": 5.92
    },
    "com_mil": 0.15,
-   "comp_mil": 2.83,
+   "comp_mil": 2.82,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2580,13 +2450,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.54,
+   "rel": 0.55,
    "maduro": true,
-   "vistas": 2003,
+   "vistas": 2012,
    "rel_red": {
-    "tiktok": 0.54
+    "tiktok": 0.55
    },
-   "com_mil": 1.0,
+   "com_mil": 0.99,
    "comp_mil": 0.5,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -2754,11 +2624,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 5.42,
+   "rel": 5.45,
    "maduro": true,
-   "vistas": 19921,
+   "vistas": 20071,
    "rel_red": {
-    "tiktok": 5.42
+    "tiktok": 5.45
    },
    "com_mil": 0.05,
    "comp_mil": 0.75,
@@ -2814,7 +2684,7 @@
    "creado": "2026-11-07",
    "rel": 0.55,
    "maduro": true,
-   "vistas": 2154,
+   "vistas": 2158,
    "rel_red": {
     "tiktok": 0.55
    },
@@ -2871,7 +2741,7 @@
    "creado": "2026-11-07",
    "rel": 0.7,
    "maduro": true,
-   "vistas": 2735,
+   "vistas": 2736,
    "rel_red": {
     "tiktok": 0.7
    },
@@ -3044,7 +2914,7 @@
    "creado": "2026-11-07",
    "rel": 0.17,
    "maduro": true,
-   "vistas": 613,
+   "vistas": 614,
    "rel_red": {
     "tiktok": 0.17
    },
@@ -3101,7 +2971,7 @@
    "creado": "2026-11-06",
    "rel": 1.27,
    "maduro": true,
-   "vistas": 4666,
+   "vistas": 4668,
    "rel_red": {
     "tiktok": 1.27
    },
@@ -3159,7 +3029,7 @@
    "creado": "2026-11-06",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 3261,
+   "vistas": 3264,
    "rel_red": {
     "tiktok": 0.94
    },
@@ -3272,14 +3142,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 209.53,
+   "rel": 210.04,
    "maduro": true,
-   "vistas": 683265,
+   "vistas": 685572,
    "rel_red": {
-    "tiktok": 209.53
+    "tiktok": 210.04
    },
    "com_mil": 0.14,
-   "comp_mil": 5.92,
+   "comp_mil": 5.91,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3388,7 +3258,7 @@
    "creado": "2026-11-06",
    "rel": 1.41,
    "maduro": true,
-   "vistas": 4159,
+   "vistas": 4160,
    "rel_red": {
     "tiktok": 1.41
    },
@@ -3502,7 +3372,7 @@
    "creado": "2026-11-05",
    "rel": 0.37,
    "maduro": true,
-   "vistas": 3929,
+   "vistas": 3930,
    "rel_red": {
     "tiktok": 0.37,
     "instagram": 0.94,
@@ -3561,14 +3431,14 @@
    "creado": "2026-11-06",
    "rel": 0.54,
    "maduro": true,
-   "vistas": 5005,
+   "vistas": 5153,
    "rel_red": {
     "tiktok": 0.54,
     "instagram": 0.95,
-    "youtube": 0.7
+    "youtube": 0.75
    },
-   "com_mil": 0.2,
-   "comp_mil": 0.6,
+   "com_mil": 0.19,
+   "comp_mil": 0.58,
    "publicado": "2026-11-08T20:42:33+00:00"
   },
   {
@@ -3620,11 +3490,11 @@
    "creado": "2026-11-06",
    "rel": 1.62,
    "maduro": true,
-   "vistas": 8047,
+   "vistas": 8072,
    "rel_red": {
     "tiktok": 1.62,
     "instagram": 0.92,
-    "youtube": 0.77
+    "youtube": 0.78
    },
    "com_mil": 0.12,
    "comp_mil": 0.12,
@@ -3679,11 +3549,11 @@
    "creado": "2026-11-06",
    "rel": 1.52,
    "maduro": true,
-   "vistas": 12298,
+   "vistas": 12392,
    "rel_red": {
     "tiktok": 1.52,
     "instagram": 1.04,
-    "youtube": 1.79
+    "youtube": 1.8
    },
    "com_mil": 0.16,
    "comp_mil": 0.16,
@@ -3737,16 +3607,16 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 4.56,
+   "rel": 4.57,
    "maduro": true,
-   "vistas": 55495,
+   "vistas": 55769,
    "rel_red": {
-    "tiktok": 14.32,
+    "tiktok": 14.34,
     "instagram": 1.34,
-    "youtube": 4.56
+    "youtube": 4.57
    },
    "com_mil": 0.09,
-   "comp_mil": 0.94,
+   "comp_mil": 0.93,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -3798,7 +3668,7 @@
    "creado": "2026-11-06",
    "rel": 0.85,
    "maduro": true,
-   "vistas": 7418,
+   "vistas": 7452,
    "rel_red": {
     "tiktok": 1.46,
     "instagram": 0.85,
@@ -3914,16 +3784,16 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 8.69,
+   "rel": 8.71,
    "maduro": true,
-   "vistas": 81022,
+   "vistas": 81269,
    "rel_red": {
-    "tiktok": 23.7,
+    "tiktok": 23.78,
     "instagram": 1.06,
-    "youtube": 8.69
+    "youtube": 8.71
    },
    "com_mil": 0.33,
-   "comp_mil": 1.3,
+   "comp_mil": 1.29,
    "publicado": "2026-11-07T23:51:32+00:00"
   },
   {
@@ -3974,13 +3844,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.2,
+   "rel": 1.21,
    "maduro": true,
-   "vistas": 8828,
+   "vistas": 8845,
    "rel_red": {
     "tiktok": 1.77,
     "instagram": 1.03,
-    "youtube": 1.2
+    "youtube": 1.21
    },
    "com_mil": 0.11,
    "comp_mil": 1.36,
@@ -4035,7 +3905,7 @@
    "creado": "2026-11-05",
    "rel": 1.78,
    "maduro": true,
-   "vistas": 28971,
+   "vistas": 28990,
    "rel_red": {
     "tiktok": 1.78,
     "instagram": 1.12,
@@ -4094,7 +3964,7 @@
    "creado": "2026-11-05",
    "rel": 1.2,
    "maduro": true,
-   "vistas": 9371,
+   "vistas": 9374,
    "rel_red": {
     "tiktok": 1.95,
     "instagram": 1.05,
@@ -4152,13 +4022,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.44,
+   "rel": 1.41,
    "maduro": true,
-   "vistas": 11796,
+   "vistas": 11800,
    "rel_red": {
     "tiktok": 2.41,
     "instagram": 1.23,
-    "youtube": 1.44
+    "youtube": 1.41
    },
    "com_mil": 0.17,
    "comp_mil": 0.93,
@@ -4211,11 +4081,11 @@
    "creado": "2026-11-05",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 7462,
+   "vistas": 7463,
    "rel_red": {
     "tiktok": 1.67,
     "instagram": 1.08,
-    "youtube": 0.48
+    "youtube": 0.47
    },
    "com_mil": 0.13,
    "comp_mil": 0.13,
@@ -4447,13 +4317,13 @@
    "creado": "2026-11-03",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 12898,
+   "vistas": 12910,
    "rel_red": {
-    "tiktok": 7.25,
+    "tiktok": 7.26,
     "instagram": 0.94,
     "youtube": 0.84
    },
-   "com_mil": 0.78,
+   "com_mil": 0.77,
    "comp_mil": 0.39,
    "publicado": "2026-11-05T20:17:44+00:00"
   },
@@ -4507,7 +4377,7 @@
    "creado": "2026-11-03",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 4273,
+   "vistas": 4274,
    "rel_red": {
     "tiktok": 1.3,
     "instagram": 1.08,
@@ -4567,12 +4437,12 @@
    "creado": "2026-11-03",
    "rel": 2.96,
    "maduro": true,
-   "vistas": 12119,
+   "vistas": 12122,
    "rel_red": {
     "instagram": 1.08,
     "youtube": 4.84
    },
-   "com_mil": 0.17,
+   "com_mil": 0.16,
    "comp_mil": 0.0,
    "publicado": "2026-11-05T15:41:21Z"
   },
@@ -4626,7 +4496,7 @@
    "creado": "2026-11-03",
    "rel": 1.41,
    "maduro": true,
-   "vistas": 6853,
+   "vistas": 6854,
    "rel_red": {
     "tiktok": 1.41,
     "instagram": 1.06,
@@ -4745,7 +4615,7 @@
    "creado": "2026-11-03",
    "rel": 0.86,
    "maduro": true,
-   "vistas": 4882,
+   "vistas": 4883,
    "rel_red": {
     "tiktok": 0.85,
     "instagram": 0.86,
@@ -4983,7 +4853,7 @@
    "creado": "2026-11-03",
    "rel": 2.69,
    "maduro": true,
-   "vistas": 12516,
+   "vistas": 12517,
    "rel_red": {
     "tiktok": 2.69,
     "instagram": 1.12,
