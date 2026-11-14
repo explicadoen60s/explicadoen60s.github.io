@@ -40,7 +40,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | [✅ publicado](https://www.instagram.com/reel/Dft1NUAk7uR/) |
 | sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | [✅ publicado](https://youtube.com/shorts/A_GjM_a-BRg) |
-| sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | ⏳ pendiente |
+| sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | ⏳ pendiente |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | ⏳ pendiente |
