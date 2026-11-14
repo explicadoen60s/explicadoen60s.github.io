@@ -4699,7 +4699,7 @@
     "alta velocidad",
     "lo que esconde tu ciudad"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-13",
    "tendencia": "Lo que esconde Madrid: el túnel del tren bajo el centro",
    "reglas": {
@@ -4841,7 +4841,10 @@
     }
    },
    "nota_escena": "Motion: corte longitudinal con la tuneladora avanzando, contador de km hasta 7,3 sobre el trazado Atocha-Chamartín y perfil de profundidad hasta 55 m; pastilla pequeña de euros; velocímetro a 120 km/h.",
-   "ronda": 2
+   "ronda": 2,
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-14T10:08:56.528Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "freidoraire",
