@@ -4349,7 +4349,7 @@
     "consumo",
     "comofunciona"
    ],
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-13",
    "idea": "error-lavadora",
    "reglas": {
@@ -4523,7 +4523,8 @@
    "gancho_elegido": 0,
    "aprobado": "2026-11-13T20:59:51.169Z",
    "aprobado_por": "Nikoloz_Lekishvili",
-   "duracion": 70.2
+   "duracion": 70.2,
+   "programado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "bateria100",
