@@ -4539,7 +4539,7 @@
     "trucos de movil",
     "comofunciona"
    ],
-   "estado": "propuesto",
+   "estado": "aprobado",
    "creado": "2026-11-13",
    "idea": "error-movil100",
    "reglas": {
@@ -4680,7 +4680,10 @@
      ]
     }
    },
-   "ronda": 2
+   "ronda": 2,
+   "gancho_elegido": 0,
+   "aprobado": "2026-11-14T10:08:48.753Z",
+   "aprobado_por": "Nikoloz_Lekishvili"
   },
   {
    "id": "tunelave",
