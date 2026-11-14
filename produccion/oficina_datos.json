@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T19:52:13+00:00",
+ "actualizado": "2026-11-14T19:52:52+00:00",
  "medianas": {
   "tiktok": 1159,
   "instagram": 1586.0,
@@ -1633,80 +1633,26 @@
    ],
    "bateria100": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,34× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 29. Los que funcionan van por debajo de 24 (1,20× más vistas)."
     }
    ],
    "tunelave": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,34× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 4, en el lado bueno. Mantenlo."
-    },
     {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 36. Los que funcionan van por debajo de 24 (1,20× más vistas)."
     }
    ],
    "transbordador": [
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,34× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
     {
      "rol": "editor",
      "tipo": "potenciar",
      "metrica": "duracion",
      "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 32. Los que funcionan van por debajo de 24 (1,20× más vistas)."
     }
    ],
    "cinturon": [
@@ -1737,28 +1683,10 @@
    ],
    "aspiradora": [
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,34× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 5, en el lado bueno. Mantenlo."
-    },
-    {
      "rol": "editor",
      "tipo": "mejorar",
      "metrica": "duracion",
      "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_claves",
-     "texto": "Claves de cámara: 32. Los que funcionan van por debajo de 24 (1,20× más vistas)."
     }
    ],
    "crucero": [
