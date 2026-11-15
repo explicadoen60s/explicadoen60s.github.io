@@ -2944,9 +2944,14 @@
     "einstein",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18053633651619732",
+    "url": "https://www.instagram.com/reel/DfwZ5TwFEXs/"
+   },
+   "publicado": "2026-11-15T08:58:46.854517+00:00"
   },
   {
    "id": "giro-tiktok",
@@ -2963,8 +2968,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"202611150858477810AD4D2D6F13570D5D\"}}"
   },
   {
    "id": "gps-youtube",
