@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | 📲 en tu bandeja de TikTok |
-| jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://youtube.com/shorts/6IBJzgMPnr8) |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://www.instagram.com/reel/DfpijJ9FCxD/) |
 | jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://www.instagram.com/reel/DfppUHrAQYy/) |
