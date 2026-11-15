@@ -4,9 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://www.instagram.com/reel/DfqBWpoFMi8/) |
-| jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ❌ error |
-| jue 12/11 | 22:30 | youtube | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://youtube.com/shorts/b84J1UrDbbQ) |
 | vie 13/11 | 10:00 | instagram | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://www.instagram.com/reel/DfrQTrLE3RB/) |
 | vie 13/11 | 10:00 | tiktok | Si tuvieras que inventar el cepillo eléctrico… 🪥 31.000 movi | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://youtube.com/shorts/OIrAW0iKLwk) |
