@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T01:37:31+00:00",
+ "actualizado": "2026-11-15T03:11:51+00:00",
  "medianas": {
   "tiktok": 1159,
   "instagram": 1604.0,
@@ -40,7 +40,7 @@
     "meta": 70,
     "pie": "20/20 entre 55 y 75 s"
    },
-   "foco": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,08× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
+   "foco": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,07× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
   },
   "editor": {
    "ahora": "0 en render · 6 esperando tu revisión",
@@ -123,17 +123,17 @@
   "m_ciudad": {
    "n_si": 1,
    "n_no": 47,
-   "med_si": 1.03,
+   "med_si": 1.05,
    "med_no": 1.0,
-   "ratio": 1.03,
+   "ratio": 1.05,
    "veredicto": "faltan_datos"
   },
   "m_formatoC": {
    "n_si": 12,
    "n_no": 36,
-   "med_si": 1.07,
+   "med_si": 1.08,
    "med_no": 0.97,
-   "ratio": 1.1,
+   "ratio": 1.11,
    "veredicto": "sin_efecto"
   },
   "m_tituloPregunta": {
@@ -148,8 +148,8 @@
    "n_si": 21,
    "n_no": 27,
    "med_si": 0.7,
-   "med_no": 1.07,
-   "ratio": 0.65,
+   "med_no": 1.06,
+   "ratio": 0.66,
    "veredicto": "en_contra"
   },
   "m_corto": {
@@ -181,7 +181,7 @@
    "n_no": 22,
    "med_si": 1.02,
    "med_no": 0.97,
-   "ratio": 1.05,
+   "ratio": 1.06,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
@@ -196,9 +196,9 @@
    "n_si": 26,
    "n_no": 22,
    "med_si": 0.9,
-   "med_no": 1.06,
+   "med_no": 1.05,
    "ratio": 0.85,
-   "veredicto": "en_contra"
+   "veredicto": "sin_efecto"
   },
   "m261112mot12": {
    "n_si": 27,
@@ -212,8 +212,8 @@
    "n_si": 23,
    "n_no": 25,
    "med_si": 0.94,
-   "med_no": 1.03,
-   "ratio": 0.91,
+   "med_no": 1.04,
+   "ratio": 0.9,
    "veredicto": "sin_efecto"
   },
   "m261113fot15": {
@@ -229,14 +229,14 @@
    "n_no": 32,
    "med_si": 1.3,
    "med_no": 0.85,
-   "ratio": 1.53,
+   "ratio": 1.52,
    "veredicto": "a_favor"
   },
   "m261113edi17": {
    "n_si": 2,
    "n_no": 46,
    "med_si": 0.55,
-   "med_no": 1.02,
+   "med_no": 1.03,
    "ratio": 0.54,
    "veredicto": "faltan_datos"
   },
@@ -244,7 +244,7 @@
    "n_si": 5,
    "n_no": 43,
    "med_si": 0.33,
-   "med_no": 1.03,
+   "med_no": 1.04,
    "ratio": 0.32,
    "veredicto": "en_contra"
   },
@@ -252,8 +252,8 @@
    "n_si": 41,
    "n_no": 7,
    "med_si": 1.0,
-   "med_no": 1.03,
-   "ratio": 0.97,
+   "med_no": 1.05,
+   "ratio": 0.95,
    "veredicto": "sin_efecto"
   },
   "m261114fot21": {
@@ -275,25 +275,25 @@
   "m261114son23": {
    "n_si": 27,
    "n_no": 21,
-   "med_si": 1.03,
+   "med_si": 1.05,
    "med_no": 0.94,
-   "ratio": 1.1,
+   "ratio": 1.12,
    "veredicto": "sin_efecto"
   },
   "m261114mot24": {
    "n_si": 20,
    "n_no": 28,
-   "med_si": 1.14,
+   "med_si": 1.13,
    "med_no": 0.85,
-   "ratio": 1.34,
+   "ratio": 1.33,
    "veredicto": "a_favor"
   },
   "m261114est25": {
    "n_si": 7,
    "n_no": 41,
-   "med_si": 1.03,
+   "med_si": 1.05,
    "med_no": 1.0,
-   "ratio": 1.03,
+   "ratio": 1.05,
    "veredicto": "sin_efecto"
   },
   "m261114est26": {
@@ -315,8 +315,8 @@
    "n_si": 21,
    "n_no": 27,
    "med_si": 0.7,
-   "med_no": 1.07,
-   "ratio": 0.65,
+   "med_no": 1.06,
+   "ratio": 0.66,
    "veredicto": "en_contra"
   },
   {
@@ -327,9 +327,9 @@
    },
    "n_si": 13,
    "n_no": 35,
-   "med_si": 1.2,
+   "med_si": 1.18,
    "med_no": 0.94,
-   "ratio": 1.28,
+   "ratio": 1.26,
    "veredicto": "a_favor"
   },
   {
@@ -419,10 +419,10 @@
    "video": "router",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7706512621951814945?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 690792,
-   "rel": 211.38,
-   "inter": 0.0509,
-   "horas": 110,
+   "vistas": 695805,
+   "rel": 212.72,
+   "inter": 0.0508,
+   "horas": 111,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -433,10 +433,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 45008,
-   "rel": 12.16,
+   "vistas": 45244,
+   "rel": 12.18,
    "inter": 0.035,
-   "horas": 51,
+   "horas": 52,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -448,36 +448,36 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 211.38,
-   "vistas": 690792
+   "rel": 212.72,
+   "vistas": 695805
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 23.88,
-   "vistas": 61550
+   "rel": 23.9,
+   "vistas": 61615
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 14.34,
-   "vistas": 42156
+   "rel": 14.35,
+   "vistas": 42170
   },
   {
    "video": "repetidor",
    "red": "tiktok",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
-   "rel": 12.16,
-   "vistas": 45008
+   "rel": 12.18,
+   "vistas": 45244
   },
   {
    "video": "pozo",
    "red": "youtube",
    "titulo": "¿Y si construyes un pozo? 💧 Por qué la bomba va hasta el fondo",
-   "rel": 10.48,
-   "vistas": 22486
+   "rel": 10.49,
+   "vistas": 22499
   }
  ],
  "compuertas": {
@@ -629,12 +629,12 @@
     "unidad": "s",
     "umbral": 0.57,
     "direccion": "mas",
-    "ratio": 1.21,
+    "ratio": 1.2,
     "n_si": 24,
     "n_no": 24,
-    "fuerza": 0.93,
+    "fuerza": 0.89,
     "sorpresa": true,
-    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,08× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
+    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,07× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
    }
   ],
   "recomendaciones": {
@@ -687,7 +687,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "tostadora": [
@@ -739,7 +739,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,51 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,51 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "teclado": [
@@ -791,7 +791,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,57 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,57 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "deposito": [
@@ -817,7 +817,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,55 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,55 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "router": [
@@ -869,7 +869,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "induccion": [
@@ -921,7 +921,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,56 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,56 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "lavadora": [
@@ -999,7 +999,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "v16": [
@@ -1077,7 +1077,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,52 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,52 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "paraguas": [
@@ -1103,7 +1103,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "grifo": [
@@ -1181,7 +1181,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "carretera": [
@@ -1207,7 +1207,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,54 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,54 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "tdt": [
@@ -1233,7 +1233,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "luces": [
@@ -1259,7 +1259,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,46 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,46 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "caldera": [
@@ -1363,7 +1363,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,45 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,45 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "paracaidas": [
@@ -1389,7 +1389,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "turia": [
@@ -1415,7 +1415,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,21× más vistas)."
+     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
     }
    ],
    "repetidor": [
@@ -1662,30 +1662,30 @@
     "unidad": "s",
     "umbral": 0.57,
     "direccion": "mas",
-    "ratio": 1.21,
+    "ratio": 1.2,
     "n_si": 24,
     "n_no": 24,
-    "fuerza": 0.93,
+    "fuerza": 0.89,
     "sorpresa": true,
-    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,08× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
+    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,07× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
    }
   },
   "referencia": {
    "voz_ritmo": {
-    "top": 3.67,
+    "top": 3.72,
     "resto": 3.57
    },
    "voz_silencio": {
-    "top": 10.7,
+    "top": 10.6,
     "resto": 10.3
    },
    "voz_pausas_min": {
-    "top": 18.5,
-    "resto": 17.5
+    "top": 17.9,
+    "resto": 17.6
    },
    "voz_pausa_max": {
-    "top": 0.57,
-    "resto": 0.57
+    "top": 0.58,
+    "resto": 0.56
    },
    "voz_arranque": {
     "top": 0.0,
@@ -1696,7 +1696,7 @@
     "resto": -15.6
    },
    "voz_expresividad": {
-    "top": 2.25,
+    "top": 2.3,
     "resto": 2.3
    },
    "voz_gancho": {
@@ -1704,60 +1704,60 @@
     "resto": 0.2
    },
    "duracion": {
-    "top": 69.55,
-    "resto": 71.25
+    "top": 70.0,
+    "resto": 71.2
    },
    "cam_claves": {
-    "top": 25.0,
-    "resto": 24
+    "top": 26,
+    "resto": 24.0
    },
    "cam_cada": {
-    "top": 2.71,
-    "resto": 2.94
+    "top": 2.68,
+    "resto": 2.9
    },
    "cam_inicio_dist": {
-    "top": 5.4,
-    "resto": 7.5
+    "top": 5.3,
+    "resto": 7.65
    },
    "cam_lente_max": {
-    "top": 40.0,
-    "resto": 38.0
+    "top": 40,
+    "resto": 38
    },
    "obj_piezas": {
-    "top": 33.0,
-    "resto": 27.0
+    "top": 31,
+    "resto": 27
    },
    "obj_animaciones": {
-    "top": 13.0,
-    "resto": 15.5
+    "top": 11,
+    "resto": 15
    },
    "obj_cortes": {
-    "top": 1.0,
-    "resto": 0.0
+    "top": 1,
+    "resto": 0
    },
    "ov_etiquetas": {
-    "top": 9.0,
-    "resto": 7.0
+    "top": 9,
+    "resto": 7
    },
    "ov_contadores": {
-    "top": 5.0,
-    "resto": 4.0
+    "top": 5,
+    "resto": 4
    },
    "ov_graficos_min": {
-    "top": 20.85,
-    "resto": 17.3
+    "top": 19.7,
+    "resto": 17.7
    },
    "ov_palabras_clave": {
-    "top": 28.5,
-    "resto": 29.5
+    "top": 29,
+    "resto": 29
    },
    "sfx_min": {
-    "top": 20.25,
-    "resto": 20.55
+    "top": 19.9,
+    "resto": 20.7
    },
    "sfx_variedad": {
-    "top": 7.5,
-    "resto": 8.0
+    "top": 7,
+    "resto": 8
    }
   },
   "metricas": {
@@ -1936,7 +1936,7 @@
    "creado": "2026-11-14",
    "rel": null,
    "maduro": false,
-   "vistas": 300,
+   "vistas": 309,
    "rel_red": {
     "tiktok": 0.11
    },
@@ -1993,7 +1993,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 15762,
+   "vistas": 15794,
    "rel_red": {
     "tiktok": 6.61
    },
@@ -2050,7 +2050,7 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 2386,
+   "vistas": 2389,
    "rel_red": {
     "tiktok": 0.84
    },
@@ -2105,9 +2105,9 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 27296,
+   "vistas": 27688,
    "rel_red": {
-    "tiktok": 9.57
+    "tiktok": 9.71
    },
    "com_mil": 0.04,
    "comp_mil": 0.29,
@@ -2162,11 +2162,11 @@
    "creado": "2026-11-07",
    "rel": null,
    "maduro": false,
-   "vistas": 8413,
+   "vistas": 8425,
    "rel_red": {
     "tiktok": 2.95
    },
-   "com_mil": 0.48,
+   "com_mil": 0.47,
    "comp_mil": 2.85,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
@@ -2219,7 +2219,7 @@
    "creado": "2026-11-07",
    "rel": 1.0,
    "maduro": true,
-   "vistas": 3700,
+   "vistas": 3716,
    "rel_red": {
     "tiktok": 1.0
    },
@@ -2274,15 +2274,15 @@
    "sub_centro": true,
    "estado": "programado",
    "creado": "2026-11-11",
-   "rel": 1.03,
+   "rel": 1.05,
    "maduro": true,
-   "vistas": 6745,
+   "vistas": 6867,
    "rel_red": {
     "instagram": 1.35,
-    "youtube": 1.0
+    "youtube": 1.03
    },
-   "com_mil": 0.59,
-   "comp_mil": 0.3,
+   "com_mil": 0.58,
+   "comp_mil": 0.29,
    "publicado": "2026-11-12T21:28:44+0000"
   },
   {
@@ -2338,7 +2338,7 @@
    "rel_red": {
     "tiktok": 0.44,
     "instagram": 0.92,
-    "youtube": 0.79
+    "youtube": 0.77
    },
    "com_mil": 0.0,
    "comp_mil": 0.62,
@@ -2391,16 +2391,16 @@
    "sub_centro": true,
    "estado": "programado",
    "creado": "2026-11-11",
-   "rel": 6.03,
+   "rel": 6.01,
    "maduro": true,
-   "vistas": 61701,
+   "vistas": 62186,
    "rel_red": {
-    "tiktok": 12.16,
+    "tiktok": 12.18,
     "instagram": 0.97,
-    "youtube": 6.03
+    "youtube": 6.01
    },
-   "com_mil": 0.15,
-   "comp_mil": 2.82,
+   "com_mil": 0.14,
+   "comp_mil": 2.81,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2450,14 +2450,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.55,
+   "rel": 0.56,
    "maduro": true,
-   "vistas": 2042,
+   "vistas": 2072,
    "rel_red": {
-    "tiktok": 0.55
+    "tiktok": 0.56
    },
-   "com_mil": 0.98,
-   "comp_mil": 0.49,
+   "com_mil": 0.97,
+   "comp_mil": 0.48,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
   {
@@ -2510,7 +2510,7 @@
    "creado": "2026-11-07",
    "rel": 0.33,
    "maduro": true,
-   "vistas": 1209,
+   "vistas": 1212,
    "rel_red": {
     "tiktok": 0.33
    },
@@ -2626,7 +2626,7 @@
    "creado": "2026-11-07",
    "rel": 5.48,
    "maduro": true,
-   "vistas": 20292,
+   "vistas": 20353,
    "rel_red": {
     "tiktok": 5.48
    },
@@ -2684,7 +2684,7 @@
    "creado": "2026-11-07",
    "rel": 0.55,
    "maduro": true,
-   "vistas": 2166,
+   "vistas": 2177,
    "rel_red": {
     "tiktok": 0.55
    },
@@ -2799,7 +2799,7 @@
    "creado": "2026-11-07",
    "rel": 0.8,
    "maduro": true,
-   "vistas": 2961,
+   "vistas": 2962,
    "rel_red": {
     "tiktok": 0.8
    },
@@ -2971,7 +2971,7 @@
    "creado": "2026-11-06",
    "rel": 1.26,
    "maduro": true,
-   "vistas": 4676,
+   "vistas": 4677,
    "rel_red": {
     "tiktok": 1.26
    },
@@ -3029,7 +3029,7 @@
    "creado": "2026-11-06",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 3268,
+   "vistas": 3271,
    "rel_red": {
     "tiktok": 0.94
    },
@@ -3087,7 +3087,7 @@
    "creado": "2026-11-06",
    "rel": 0.31,
    "maduro": true,
-   "vistas": 1010,
+   "vistas": 1012,
    "rel_red": {
     "tiktok": 0.31
    },
@@ -3142,14 +3142,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 211.38,
+   "rel": 212.72,
    "maduro": true,
-   "vistas": 690792,
+   "vistas": 695805,
    "rel_red": {
-    "tiktok": 211.38
+    "tiktok": 212.72
    },
    "com_mil": 0.14,
-   "comp_mil": 5.9,
+   "comp_mil": 5.89,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3372,7 +3372,7 @@
    "creado": "2026-11-05",
    "rel": 0.37,
    "maduro": true,
-   "vistas": 3941,
+   "vistas": 3960,
    "rel_red": {
     "tiktok": 0.37,
     "instagram": 0.95,
@@ -3431,14 +3431,14 @@
    "creado": "2026-11-06",
    "rel": 0.54,
    "maduro": true,
-   "vistas": 5310,
+   "vistas": 5445,
    "rel_red": {
     "tiktok": 0.54,
     "instagram": 0.95,
-    "youtube": 0.81
+    "youtube": 0.85
    },
-   "com_mil": 0.19,
-   "comp_mil": 0.56,
+   "com_mil": 0.18,
+   "comp_mil": 0.55,
    "publicado": "2026-11-08T20:42:33+00:00"
   },
   {
@@ -3490,11 +3490,11 @@
    "creado": "2026-11-06",
    "rel": 1.62,
    "maduro": true,
-   "vistas": 8075,
+   "vistas": 8114,
    "rel_red": {
     "tiktok": 1.62,
     "instagram": 0.92,
-    "youtube": 0.76
+    "youtube": 0.74
    },
    "com_mil": 0.12,
    "comp_mil": 0.12,
@@ -3549,11 +3549,11 @@
    "creado": "2026-11-06",
    "rel": 1.52,
    "maduro": true,
-   "vistas": 12538,
+   "vistas": 12754,
    "rel_red": {
     "tiktok": 1.52,
     "instagram": 1.04,
-    "youtube": 1.85
+    "youtube": 1.9
    },
    "com_mil": 0.16,
    "comp_mil": 0.16,
@@ -3607,16 +3607,16 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 4.64,
+   "rel": 4.65,
    "maduro": true,
-   "vistas": 56026,
+   "vistas": 56281,
    "rel_red": {
-    "tiktok": 14.34,
+    "tiktok": 14.35,
     "instagram": 1.34,
-    "youtube": 4.64
+    "youtube": 4.65
    },
    "com_mil": 0.09,
-   "comp_mil": 0.95,
+   "comp_mil": 0.94,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -3668,11 +3668,11 @@
    "creado": "2026-11-06",
    "rel": 0.85,
    "maduro": true,
-   "vistas": 7499,
+   "vistas": 7547,
    "rel_red": {
     "tiktok": 1.46,
     "instagram": 0.85,
-    "youtube": 0.76
+    "youtube": 0.77
    },
    "com_mil": 0.0,
    "comp_mil": 0.53,
@@ -3725,12 +3725,12 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-04",
-   "rel": 1.07,
+   "rel": 1.06,
    "maduro": true,
    "vistas": 4678,
    "rel_red": {
     "instagram": 0.91,
-    "youtube": 1.23
+    "youtube": 1.21
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -3784,13 +3784,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 8.74,
+   "rel": 8.54,
    "maduro": true,
-   "vistas": 81576,
+   "vistas": 81720,
    "rel_red": {
-    "tiktok": 23.88,
-    "instagram": 1.06,
-    "youtube": 8.74
+    "tiktok": 23.9,
+    "instagram": 1.05,
+    "youtube": 8.54
    },
    "com_mil": 0.33,
    "comp_mil": 1.3,
@@ -3844,13 +3844,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.21,
+   "rel": 1.18,
    "maduro": true,
-   "vistas": 8851,
+   "vistas": 8856,
    "rel_red": {
     "tiktok": 1.77,
     "instagram": 1.03,
-    "youtube": 1.21
+    "youtube": 1.18
    },
    "com_mil": 0.11,
    "comp_mil": 1.36,
@@ -3905,11 +3905,11 @@
    "creado": "2026-11-05",
    "rel": 1.79,
    "maduro": true,
-   "vistas": 28992,
+   "vistas": 29005,
    "rel_red": {
     "tiktok": 1.79,
-    "instagram": 1.12,
-    "youtube": 10.48
+    "instagram": 1.11,
+    "youtube": 10.49
    },
    "com_mil": 0.1,
    "comp_mil": 0.03,
@@ -3962,13 +3962,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.2,
+   "rel": 1.19,
    "maduro": true,
-   "vistas": 9377,
+   "vistas": 9378,
    "rel_red": {
     "tiktok": 1.95,
     "instagram": 1.05,
-    "youtube": 1.2
+    "youtube": 1.19
    },
    "com_mil": 0.0,
    "comp_mil": 0.75,
@@ -4022,13 +4022,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.41,
+   "rel": 1.38,
    "maduro": true,
-   "vistas": 11803,
+   "vistas": 11805,
    "rel_red": {
     "tiktok": 2.41,
     "instagram": 1.23,
-    "youtube": 1.41
+    "youtube": 1.38
    },
    "com_mil": 0.17,
    "comp_mil": 0.93,
@@ -4317,7 +4317,7 @@
    "creado": "2026-11-03",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 12916,
+   "vistas": 12917,
    "rel_red": {
     "tiktok": 7.26,
     "instagram": 0.94,
@@ -4555,7 +4555,7 @@
    "creado": "2026-11-03",
    "rel": 0.85,
    "maduro": true,
-   "vistas": 5394,
+   "vistas": 5395,
    "rel_red": {
     "tiktok": 0.78,
     "instagram": 0.85,
