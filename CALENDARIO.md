@@ -4,9 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 12/11 | 20:30 | instagram | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://www.instagram.com/reel/DfpznasgiGj/) |
-| jue 12/11 | 20:30 | tiktok | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | 📲 en tu bandeja de TikTok |
-| jue 12/11 | 20:30 | youtube | Si tuvieras que inventar un paracaídas… 🪂 de 200 a 22 km/h | [✅ publicado](https://youtube.com/shorts/2syr9NBeMco) |
 | jue 12/11 | 21:00 | tiktok | Tu caldera saca calor del humo 🔥 Así funciona una caldera de | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 22:30 | instagram | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | [✅ publicado](https://www.instagram.com/reel/DfqBWpoFMi8/) |
 | jue 12/11 | 22:30 | tiktok | Valencia movió un río entero 🌊 12 km de cauce nuevo (Lo que  | ❌ error |
