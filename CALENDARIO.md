@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 12/11 | 13:00 | tiktok | Tu móvil no guarda la foto de tu huella 👆 Así la lee en meno | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 16:00 | tiktok | ¿Te faltan canales en la tele? 📺 Así llega la TDT a tu anten | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 16:00 | youtube | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://youtube.com/shorts/6IBJzgMPnr8) |
 | jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://www.instagram.com/reel/DfpijJ9FCxD/) |
