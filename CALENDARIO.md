@@ -39,7 +39,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | sáb 14/11 | 18:00 | tiktok | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | [✅ publicado](https://www.instagram.com/reel/DfwZ5TwFEXs/) |
-| dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ⏳ pendiente |
+| dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ❌ error |
 | dom 15/11 | 12:00 | youtube | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | ⏳ pendiente |
 | dom 15/11 | 13:00 | tiktok | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | ⏳ pendiente |
 | dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | ⏳ pendiente |
