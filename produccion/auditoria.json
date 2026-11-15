@@ -583,6 +583,18 @@
    "sub_frase": true,
    "sub_centro": false
   },
+  "bulnes": {
+   "huella": "ed7c79787c912447",
+   "duracion": 67.4,
+   "voz_ritmo": 3.87,
+   "voz_silencio": 19.6,
+   "voz_pausas_min": 29.4,
+   "voz_pausa_max": 0.58,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 2.9,
+   "voz_gancho": 0.2
+  },
   "cafetera": {
    "huella": "3b6b059dba6a3a95",
    "duracion": 67.0,
@@ -1445,6 +1457,18 @@
    "comentario_en_escena": false,
    "sub_frase": true,
    "sub_centro": false
+  },
+  "horno": {
+   "huella": "6bc542a9b6b34ed5",
+   "duracion": 67.7,
+   "voz_ritmo": 3.67,
+   "voz_silencio": 17.5,
+   "voz_pausas_min": 26.6,
+   "voz_pausa_max": 0.73,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 3.2,
+   "voz_gancho": -1.3
   },
   "huella": {
    "huella": "97c8f673ba119905",
@@ -2657,6 +2681,18 @@
    "comentario_en_escena": false,
    "sub_frase": false,
    "sub_centro": true
+  },
+  "tapa": {
+   "huella": "baad4a5af41ff6fb",
+   "duracion": 70.2,
+   "voz_ritmo": 3.57,
+   "voz_silencio": 15.4,
+   "voz_pausas_min": 23.9,
+   "voz_pausa_max": 0.57,
+   "voz_arranque": 0.0,
+   "voz_lufs": -16.1,
+   "voz_expresividad": 3.1,
+   "voz_gancho": -1.0
   },
   "tarjeta": {
    "huella": "bbcc1ab1b981093a",
