@@ -3033,9 +3033,15 @@
     "palanca",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708412151207381014",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-15T14:59:47.902347+00:00"
   },
   {
    "id": "placas-youtube",
@@ -3051,9 +3057,14 @@
     "energia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "B2JdFjzMDwc",
+    "url": "https://youtube.com/shorts/B2JdFjzMDwc"
+   },
+   "publicado": "2026-11-15T14:59:50.571389+00:00"
   },
   {
    "id": "placas-instagram",

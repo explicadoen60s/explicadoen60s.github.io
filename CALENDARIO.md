@@ -40,8 +40,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ❌ error |
 | dom 15/11 | 12:00 | youtube | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | [✅ publicado](https://youtube.com/shorts/5fuCN3W7Fhw) |
 | dom 15/11 | 13:00 | tiktok | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | 📲 en tu bandeja de TikTok |
-| dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | ⏳ pendiente |
-| dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
+| dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | 📲 en tu bandeja de TikTok |
+| dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | [✅ publicado](https://youtube.com/shorts/B2JdFjzMDwc) |
 | dom 15/11 | 18:00 | instagram | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
 | dom 15/11 | 18:00 | tiktok | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
 | dom 15/11 | 21:00 | tiktok | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | ⏳ pendiente |
