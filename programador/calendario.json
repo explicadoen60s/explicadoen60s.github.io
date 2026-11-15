@@ -3080,9 +3080,14 @@
     "energia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18025513403940938",
+    "url": "https://www.instagram.com/reel/DfxQ1AdD74W/"
+   },
+   "publicado": "2026-11-15T16:58:45.498323+00:00"
   },
   {
    "id": "metro-tiktok",
@@ -3098,9 +3103,15 @@
     "ciudad",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708443489277052950",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-15T17:01:29.496727+00:00"
   },
   {
    "id": "cerilla-tiktok",

@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| jue 12/11 | 18:00 | instagram | ¿Por qué no revientan las ruedas de un avión? ✈️ Así funcion | [✅ publicado](https://www.instagram.com/reel/DfpijJ9FCxD/) |
-| jue 12/11 | 18:00 | tiktok | ¿Por qué si se funde una bombilla no se apagan todas? 🎄 Así  | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 19:00 | instagram | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://www.instagram.com/reel/DfppUHrAQYy/) |
 | jue 12/11 | 19:00 | tiktok | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | 📲 en tu bandeja de TikTok |
 | jue 12/11 | 19:00 | youtube | Tu repetidor wifi puede cortarte la velocidad a la mitad 📶 ( | [✅ publicado](https://youtube.com/shorts/BghX9g3T_vw) |
@@ -40,8 +38,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 15/11 | 13:00 | tiktok | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | [✅ publicado](https://youtube.com/shorts/B2JdFjzMDwc) |
-| dom 15/11 | 18:00 | instagram | Se va la luz y tus placas solares se apagan… aunque haga sol | ⏳ pendiente |
-| dom 15/11 | 18:00 | tiktok | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | ⏳ pendiente |
+| dom 15/11 | 18:00 | instagram | Se va la luz y tus placas solares se apagan… aunque haga sol | [✅ publicado](https://www.instagram.com/reel/DfxQ1AdD74W/) |
+| dom 15/11 | 18:00 | tiktok | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 21:00 | tiktok | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | ⏳ pendiente |
 | lun 16/11 | 10:00 | instagram | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
 | lun 16/11 | 10:00 | tiktok | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | ⏳ pendiente |
