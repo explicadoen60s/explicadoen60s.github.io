@@ -1,21 +1,21 @@
 {
- "actualizado": "2026-11-15T13:22:11+00:00",
+ "actualizado": "2026-11-15T14:13:27+00:00",
  "medianas": {
   "tiktok": 1160,
   "instagram": 1603,
   "youtube": 1898.0
  },
- "maduros": 48,
+ "maduros": 49,
  "puestos": {
   "director": {
-   "ahora": "3 guiones esperando tu visto bueno",
+   "ahora": "2 guiones esperando tu visto bueno",
    "pendiente": 0,
    "kpi": {
     "nombre": "Mediana de los últimos 14 días",
-    "valor": 1.01,
+    "valor": 1.02,
     "fmt": "x",
     "meta": 1.5,
-    "pie": "48 vídeos maduros, frente a lo normal"
+    "pie": "49 vídeos maduros, frente a lo normal"
    }
   },
   "fotografia": {
@@ -28,26 +28,25 @@
     "meta": 0.8,
     "pie": "desde el 12-nov"
    },
-   "foco": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,86× los demás."
+   "foco": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,11× lo normal, frente a 0,85× los demás."
   },
   "sonido": {
-   "ahora": "0 voces generándose · 0 mezclas por hacer",
+   "ahora": "1 voces generándose · 0 mezclas por hacer",
    "pendiente": 0,
    "kpi": {
     "nombre": "Duración media",
-    "valor": 67.9,
+    "valor": 69.3,
     "fmt": "s",
     "meta": 70,
     "pie": "20/20 entre 55 y 75 s"
-   },
-   "foco": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,07× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
+   }
   },
   "editor": {
-   "ahora": "0 en render · 6 esperando tu revisión",
-   "pendiente": 6,
+   "ahora": "0 en render · 1 esperando tu revisión",
+   "pendiente": 1,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.39,
+    "valor": 4.38,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
@@ -64,14 +63,14 @@
     "meta": 9,
     "pie": "últimos 20 guiones"
    },
-   "foco": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,08× lo normal, frente a 0,86× los demás."
+   "foco": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,13× lo normal, frente a 0,85× los demás."
   },
   "estratega": {
    "ahora": "1 ideas en el banco · tendencias de hoy · 5 segundas partes por proponer",
    "pendiente": 5,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
-    "valor": 0.52,
+    "valor": 0.53,
     "fmt": "pct",
     "meta": 0.5,
     "pie": "últimos 14 días"
@@ -114,39 +113,39 @@
  "manual": {
   "m_juego": {
    "n_si": 0,
-   "n_no": 48,
+   "n_no": 49,
    "med_si": null,
-   "med_no": 1.01,
+   "med_no": 1.02,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m_ciudad": {
    "n_si": 1,
-   "n_no": 47,
+   "n_no": 48,
    "med_si": 1.14,
-   "med_no": 1.0,
-   "ratio": 1.14,
+   "med_no": 1.01,
+   "ratio": 1.13,
    "veredicto": "faltan_datos"
   },
   "m_formatoC": {
    "n_si": 12,
-   "n_no": 36,
+   "n_no": 37,
    "med_si": 1.12,
-   "med_no": 0.97,
-   "ratio": 1.16,
+   "med_no": 1.0,
+   "ratio": 1.12,
    "veredicto": "sin_efecto"
   },
   "m_tituloPregunta": {
    "n_si": 37,
-   "n_no": 11,
+   "n_no": 12,
    "med_si": 1.04,
-   "med_no": 0.85,
-   "ratio": 1.22,
+   "med_no": 0.82,
+   "ratio": 1.27,
    "veredicto": "a_favor"
   },
   "m_cotidiano": {
    "n_si": 21,
-   "n_no": 27,
+   "n_no": 28,
    "med_si": 0.69,
    "med_no": 1.08,
    "ratio": 0.64,
@@ -154,22 +153,22 @@
   },
   "m_corto": {
    "n_si": 1,
-   "n_no": 47,
+   "n_no": 48,
    "med_si": 0.17,
-   "med_no": 1.02,
+   "med_no": 1.03,
    "ratio": 0.17,
    "veredicto": "faltan_datos"
   },
   "m_comentario": {
    "n_si": 0,
-   "n_no": 48,
+   "n_no": 49,
    "med_si": null,
-   "med_no": 1.01,
+   "med_no": 1.02,
    "ratio": null,
    "veredicto": "faltan_datos"
   },
   "m261112dir8": {
-   "n_si": 24,
+   "n_si": 25,
    "n_no": 24,
    "med_si": 1.08,
    "med_no": 0.85,
@@ -177,131 +176,131 @@
    "veredicto": "a_favor"
   },
   "m261112fot9": {
-   "n_si": 26,
+   "n_si": 27,
    "n_no": 22,
-   "med_si": 1.03,
+   "med_si": 1.06,
    "med_no": 0.97,
-   "ratio": 1.06,
+   "ratio": 1.09,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
    "n_si": 10,
-   "n_no": 38,
+   "n_no": 39,
    "med_si": 0.82,
-   "med_no": 1.01,
-   "ratio": 0.81,
+   "med_no": 1.02,
+   "ratio": 0.8,
    "veredicto": "en_contra"
   },
   "m261112son11": {
-   "n_si": 26,
-   "n_no": 22,
-   "med_si": 0.9,
-   "med_no": 1.05,
-   "ratio": 0.85,
-   "veredicto": "sin_efecto"
-  },
-  "m261112mot12": {
    "n_si": 27,
-   "n_no": 21,
-   "med_si": 0.92,
-   "med_no": 1.04,
-   "ratio": 0.88,
-   "veredicto": "sin_efecto"
-  },
-  "m261112mot13": {
-   "n_si": 23,
-   "n_no": 25,
+   "n_no": 22,
    "med_si": 0.93,
-   "med_no": 1.04,
+   "med_no": 1.05,
    "ratio": 0.89,
    "veredicto": "sin_efecto"
   },
+  "m261112mot12": {
+   "n_si": 28,
+   "n_no": 21,
+   "med_si": 0.96,
+   "med_no": 1.04,
+   "ratio": 0.92,
+   "veredicto": "sin_efecto"
+  },
+  "m261112mot13": {
+   "n_si": 24,
+   "n_no": 25,
+   "med_si": 0.94,
+   "med_no": 1.04,
+   "ratio": 0.9,
+   "veredicto": "sin_efecto"
+  },
   "m261113fot15": {
-   "n_si": 26,
+   "n_si": 27,
    "n_no": 22,
-   "med_si": 0.97,
+   "med_si": 1.0,
    "med_no": 1.03,
-   "ratio": 0.94,
+   "ratio": 0.97,
    "veredicto": "sin_efecto"
   },
   "m261113son16": {
-   "n_si": 16,
+   "n_si": 17,
    "n_no": 32,
-   "med_si": 1.23,
+   "med_si": 1.29,
    "med_no": 0.86,
-   "ratio": 1.44,
+   "ratio": 1.5,
    "veredicto": "a_favor"
   },
   "m261113edi17": {
    "n_si": 2,
-   "n_no": 46,
+   "n_no": 47,
    "med_si": 0.55,
-   "med_no": 1.03,
-   "ratio": 0.54,
+   "med_no": 1.04,
+   "ratio": 0.53,
    "veredicto": "faltan_datos"
   },
   "m261113est18": {
    "n_si": 5,
-   "n_no": 43,
+   "n_no": 44,
    "med_si": 0.33,
-   "med_no": 1.04,
-   "ratio": 0.32,
+   "med_no": 1.05,
+   "ratio": 0.31,
    "veredicto": "en_contra"
   },
   "m261114dir20": {
-   "n_si": 41,
+   "n_si": 42,
    "n_no": 7,
-   "med_si": 1.0,
+   "med_si": 1.01,
    "med_no": 1.06,
-   "ratio": 0.94,
+   "ratio": 0.95,
    "veredicto": "sin_efecto"
   },
   "m261114fot21": {
    "n_si": 8,
-   "n_no": 40,
+   "n_no": 41,
    "med_si": 0.97,
-   "med_no": 1.01,
-   "ratio": 0.97,
+   "med_no": 1.02,
+   "ratio": 0.96,
    "veredicto": "sin_efecto"
   },
   "m261114fot22": {
-   "n_si": 22,
+   "n_si": 23,
    "n_no": 26,
-   "med_si": 1.1,
-   "med_no": 0.86,
-   "ratio": 1.27,
+   "med_si": 1.11,
+   "med_no": 0.85,
+   "ratio": 1.3,
    "veredicto": "a_favor"
   },
   "m261114son23": {
-   "n_si": 27,
+   "n_si": 28,
    "n_no": 21,
-   "med_si": 1.08,
+   "med_si": 1.11,
    "med_no": 0.93,
-   "ratio": 1.16,
+   "ratio": 1.19,
    "veredicto": "sin_efecto"
   },
   "m261114mot24": {
-   "n_si": 20,
+   "n_si": 21,
    "n_no": 28,
-   "med_si": 1.13,
-   "med_no": 0.86,
-   "ratio": 1.31,
+   "med_si": 1.18,
+   "med_no": 0.85,
+   "ratio": 1.38,
    "veredicto": "a_favor"
   },
   "m261114est25": {
    "n_si": 7,
-   "n_no": 41,
+   "n_no": 42,
    "med_si": 1.06,
-   "med_no": 1.0,
-   "ratio": 1.06,
+   "med_no": 1.01,
+   "ratio": 1.05,
    "veredicto": "sin_efecto"
   },
   "m261114est26": {
-   "n_si": 19,
+   "n_si": 20,
    "n_no": 29,
-   "med_si": 1.0,
+   "med_si": 1.02,
    "med_no": 1.02,
-   "ratio": 0.98,
+   "ratio": 1.0,
    "veredicto": "sin_efecto"
   }
  },
@@ -313,24 +312,11 @@
     "mayor": 8
    },
    "n_si": 21,
-   "n_no": 27,
+   "n_no": 28,
    "med_si": 0.69,
    "med_no": 1.08,
    "ratio": 0.64,
    "veredicto": "en_contra"
-  },
-  {
-   "senal": "Sale de una tendencia",
-   "filtro": {
-    "campo": "tendencia",
-    "igual": true
-   },
-   "n_si": 13,
-   "n_no": 35,
-   "med_si": 1.18,
-   "med_no": 0.94,
-   "ratio": 1.26,
-   "veredicto": "a_favor"
   },
   {
    "senal": "Título en forma de pregunta",
@@ -339,10 +325,23 @@
     "igual": true
    },
    "n_si": 37,
-   "n_no": 11,
+   "n_no": 12,
    "med_si": 1.04,
-   "med_no": 0.85,
-   "ratio": 1.22,
+   "med_no": 0.82,
+   "ratio": 1.27,
+   "veredicto": "a_favor"
+  },
+  {
+   "senal": "Sale de una tendencia",
+   "filtro": {
+    "campo": "tendencia",
+    "igual": true
+   },
+   "n_si": 13,
+   "n_no": 36,
+   "med_si": 1.18,
+   "med_no": 0.98,
+   "ratio": 1.2,
    "veredicto": "a_favor"
   }
  ],
@@ -422,7 +421,7 @@
    "vistas": 46357,
    "rel": 12.28,
    "inter": 0.0349,
-   "horas": 62,
+   "horas": 63,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -436,7 +435,7 @@
    "vistas": 8930,
    "rel": 3.12,
    "inter": 0.0316,
-   "horas": 47,
+   "horas": 48,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -581,60 +580,60 @@
  "mejora": {
   "hallazgos": [
    {
-    "metrica": "duracion",
-    "nombre": "Duración",
-    "rol": "editor",
-    "unidad": "s",
-    "umbral": 70.95,
-    "direccion": "menos",
-    "ratio": 1.27,
+    "metrica": "ov_etiquetas",
+    "nombre": "Etiquetas sobre las piezas",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 7,
+    "direccion": "mas",
+    "ratio": 1.33,
     "n_si": 24,
-    "n_no": 24,
-    "fuerza": 1.15,
+    "n_no": 25,
+    "fuerza": 1.4,
     "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,13× lo normal, frente a 0,85× los demás."
    },
    {
     "metrica": "obj_cortes",
     "nombre": "Cortes que enseñan el interior",
     "rol": "fotografia",
     "unidad": "",
-    "umbral": 0.0,
+    "umbral": 0,
     "direccion": "mas",
-    "ratio": 1.27,
-    "n_si": 22,
+    "ratio": 1.3,
+    "n_si": 23,
     "n_no": 26,
-    "fuerza": 1.12,
+    "fuerza": 1.26,
     "sorpresa": false,
-    "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,86× los demás."
+    "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,11× lo normal, frente a 0,85× los demás."
    },
    {
-    "metrica": "ov_etiquetas",
-    "nombre": "Etiquetas sobre las piezas",
-    "rol": "motion",
-    "unidad": "",
-    "umbral": 7.0,
+    "metrica": "duracion",
+    "nombre": "Duración",
+    "rol": "editor",
+    "unidad": "s",
+    "umbral": 70.8,
+    "direccion": "menos",
+    "ratio": 1.27,
+    "n_si": 24,
+    "n_no": 25,
+    "fuerza": 1.15,
+    "sorpresa": false,
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
+   },
+   {
+    "metrica": "cam_lente_max",
+    "nombre": "Lente más larga (primeros planos)",
+    "rol": "fotografia",
+    "unidad": "mm",
+    "umbral": 40,
     "direccion": "mas",
     "ratio": 1.26,
-    "n_si": 23,
-    "n_no": 25,
-    "fuerza": 1.11,
+    "n_si": 13,
+    "n_no": 36,
+    "fuerza": 0.83,
     "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,08× lo normal, frente a 0,86× los demás."
-   },
-   {
-    "metrica": "voz_pausa_max",
-    "nombre": "Pausa más larga",
-    "rol": "sonido",
-    "unidad": "s",
-    "umbral": 0.57,
-    "direccion": "mas",
-    "ratio": 1.2,
-    "n_si": 24,
-    "n_no": 24,
-    "fuerza": 0.89,
-    "sorpresa": true,
-    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,07× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
+    "texto": "Lente más larga (primeros planos): los vídeos con más de 40 mm rinden 1,18× lo normal, frente a 0,94× los demás."
    },
    {
     "metrica": "sub_frase",
@@ -644,15 +643,27 @@
     "umbral": null,
     "direccion": "menos",
     "ratio": 1.19,
-    "n_si": 39,
+    "n_si": 40,
     "n_no": 9,
     "fuerza": 0.52,
     "sorpresa": false,
-    "texto": "Subtítulos en frase: no rinde (0,93× frente a 1,11×)."
+    "texto": "Subtítulos en frase: no rinde (0,94× frente a 1,11×)."
    }
   ],
   "recomendaciones": {
    "whatsapp": [
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -662,23 +673,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 38 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "tostadora": [
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "tostadora": [
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -687,24 +698,24 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
      "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,66 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 80 mm, en el lado bueno. Mantenlo."
     }
    ],
    "mando": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -714,28 +725,16 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,51 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "teclado": [
     {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -744,24 +743,24 @@
      "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,71 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "ruedas": [
     {
-     "rol": "editor",
+     "rol": "motion",
      "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -770,24 +769,24 @@
      "texto": "Cortes que enseñan el interior: 2, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
+     "rol": "editor",
      "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+     "metrica": "duracion",
+     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,57 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "deposito": [
     {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -796,19 +795,31 @@
      "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 66 s, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,55 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "router": [
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -818,23 +829,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,64 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "gps": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -844,28 +855,16 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "induccion": [
     {
-     "rol": "editor",
+     "rol": "motion",
      "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -874,19 +873,31 @@
      "texto": "Cortes que enseñan el interior: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
+     "rol": "editor",
      "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "metrica": "duracion",
+     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,59 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "qr": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -896,28 +907,16 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,56 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "lavadora": [
     {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -926,24 +925,24 @@
      "texto": "Cortes que enseñan el interior: 3, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,62 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "depuradora": [
     {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 13, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -952,19 +951,31 @@
      "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 13, en el lado bueno. Mantenlo."
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 76 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,66 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "parking": [
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -974,23 +985,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "v16": [
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 9, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "v16": [
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -999,29 +1010,17 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
      "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 8, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,64 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
     }
    ],
    "ollaexpres": [
     {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1030,19 +1029,31 @@
      "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "rol": "editor",
+     "tipo": "potenciar",
+     "metrica": "duracion",
+     "texto": "Duración: 67 s, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,61 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "huella": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1052,23 +1063,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "paraguas": [
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,52 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "paraguas": [
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1078,23 +1089,23 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 45 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "grifo": [
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "grifo": [
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1104,28 +1115,16 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,58 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
     }
    ],
    "spray": [
     {
-     "rol": "editor",
+     "rol": "motion",
      "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
      "rol": "fotografia",
@@ -1134,19 +1133,31 @@
      "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
+     "rol": "editor",
      "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "metrica": "duracion",
+     "texto": "Duración: 77 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,59 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "pistahielo": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1156,23 +1167,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "carretera": [
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,50 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "carretera": [
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1182,23 +1193,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 36 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "tdt": [
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,54 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "tdt": [
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1207,24 +1218,24 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 120 mm, en el lado bueno. Mantenlo."
     }
    ],
    "luces": [
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1233,24 +1244,24 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "tipo": "potenciar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 50 mm, en el lado bueno. Mantenlo."
+    }
+   ],
+   "caldera": [
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 14, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,46 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "caldera": [
+     "rol": "fotografia",
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1260,28 +1271,16 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 14, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,60 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 106 mm, en el lado bueno. Mantenlo."
     }
    ],
    "cepillo": [
     {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
@@ -1290,19 +1289,31 @@
      "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "motion",
-     "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 10, en el lado bueno. Mantenlo."
+     "rol": "editor",
+     "tipo": "mejorar",
+     "metrica": "duracion",
+     "texto": "Duración: 72 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,63 s, en el lado bueno. Mantenlo."
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ],
    "puente": [
+    {
+     "rol": "motion",
+     "tipo": "potenciar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 16, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1312,23 +1323,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 34 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "nieve": [
     {
      "rol": "motion",
      "tipo": "potenciar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 16, en el lado bueno. Mantenlo."
+     "texto": "Etiquetas sobre las piezas: 12, en el lado bueno. Mantenlo."
     },
     {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,65 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "nieve": [
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1337,24 +1348,24 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
      "tipo": "potenciar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 12, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,45 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 45 mm, en el lado bueno. Mantenlo."
     }
    ],
    "paracaidas": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1364,23 +1375,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "turia": [
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,53 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "turia": [
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1390,23 +1401,23 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 40 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
+    }
+   ],
+   "repetidor": [
     {
      "rol": "motion",
      "tipo": "mejorar",
      "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,33× más vistas)."
     },
     {
-     "rol": "sonido",
+     "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,47 s. Los que funcionan van por encima de 0,57 s (1,20× más vistas)."
-    }
-   ],
-   "repetidor": [
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1415,102 +1426,24 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,61 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "bateria100": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 5. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,80 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "tunelave": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 71 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 4, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,88 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "transbordador": [
-    {
-     "rol": "editor",
-     "tipo": "potenciar",
-     "metrica": "duracion",
-     "texto": "Duración: 70 s, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,58 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 42 mm, en el lado bueno. Mantenlo."
     }
    ],
    "cinturon": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "potenciar",
@@ -1519,50 +1452,24 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 6. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
      "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,58 s, en el lado bueno. Mantenlo."
-    }
-   ],
-   "aspiradora": [
-    {
-     "rol": "editor",
-     "tipo": "mejorar",
-     "metrica": "duracion",
-     "texto": "Duración: 75 s. Los que funcionan van por debajo de 71 s (1,27× más vistas)."
-    },
-    {
-     "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 5, en el lado bueno. Mantenlo."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 7. Los que funcionan van por encima de 7 (1,26× más vistas)."
-    },
-    {
-     "rol": "sonido",
-     "tipo": "potenciar",
-     "metrica": "voz_pausa_max",
-     "texto": "Pausa más larga: 0,79 s, en el lado bueno. Mantenlo."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 52 mm, en el lado bueno. Mantenlo."
     }
    ],
    "crucero": [
+    {
+     "rol": "motion",
+     "tipo": "mejorar",
+     "metrica": "ov_etiquetas",
+     "texto": "Etiquetas sobre las piezas: 0,00. Los que funcionan van por encima de 7 (1,33× más vistas)."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,30× más vistas)."
+    },
     {
      "rol": "editor",
      "tipo": "mejorar",
@@ -1572,14 +1479,8 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,27× más vistas)."
-    },
-    {
-     "rol": "motion",
-     "tipo": "mejorar",
-     "metrica": "ov_etiquetas",
-     "texto": "Etiquetas sobre las piezas: 0,00. Los que funcionan van por encima de 7 (1,26× más vistas)."
+     "metrica": "cam_lente_max",
+     "texto": "Lente más larga (primeros planos): 35 mm. Los que funcionan van por encima de 40 mm (1,26× más vistas)."
     }
    ]
   },
@@ -1601,61 +1502,47 @@
    }
   },
   "foco": {
-   "editor": {
-    "metrica": "duracion",
-    "nombre": "Duración",
-    "rol": "editor",
-    "unidad": "s",
-    "umbral": 70.95,
-    "direccion": "menos",
-    "ratio": 1.27,
+   "motion": {
+    "metrica": "ov_etiquetas",
+    "nombre": "Etiquetas sobre las piezas",
+    "rol": "motion",
+    "unidad": "",
+    "umbral": 7,
+    "direccion": "mas",
+    "ratio": 1.33,
     "n_si": 24,
-    "n_no": 24,
-    "fuerza": 1.15,
+    "n_no": 25,
+    "fuerza": 1.4,
     "sorpresa": false,
-    "texto": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
+    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,13× lo normal, frente a 0,85× los demás."
    },
    "fotografia": {
     "metrica": "obj_cortes",
     "nombre": "Cortes que enseñan el interior",
     "rol": "fotografia",
     "unidad": "",
-    "umbral": 0.0,
+    "umbral": 0,
     "direccion": "mas",
-    "ratio": 1.27,
-    "n_si": 22,
-    "n_no": 26,
-    "fuerza": 1.12,
-    "sorpresa": false,
-    "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,86× los demás."
-   },
-   "motion": {
-    "metrica": "ov_etiquetas",
-    "nombre": "Etiquetas sobre las piezas",
-    "rol": "motion",
-    "unidad": "",
-    "umbral": 7.0,
-    "direccion": "mas",
-    "ratio": 1.26,
+    "ratio": 1.3,
     "n_si": 23,
-    "n_no": 25,
-    "fuerza": 1.11,
+    "n_no": 26,
+    "fuerza": 1.26,
     "sorpresa": false,
-    "texto": "Etiquetas sobre las piezas: los vídeos con más de 7 rinden 1,08× lo normal, frente a 0,86× los demás."
+    "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,11× lo normal, frente a 0,85× los demás."
    },
-   "sonido": {
-    "metrica": "voz_pausa_max",
-    "nombre": "Pausa más larga",
-    "rol": "sonido",
+   "editor": {
+    "metrica": "duracion",
+    "nombre": "Duración",
+    "rol": "editor",
     "unidad": "s",
-    "umbral": 0.57,
-    "direccion": "mas",
-    "ratio": 1.2,
+    "umbral": 70.8,
+    "direccion": "menos",
+    "ratio": 1.27,
     "n_si": 24,
-    "n_no": 24,
-    "fuerza": 0.89,
-    "sorpresa": true,
-    "texto": "Pausa más larga: los vídeos con más de 0,57 s rinden 1,07× lo normal, frente a 0,89× los demás (al revés de lo que se esperaba)."
+    "n_no": 25,
+    "fuerza": 1.15,
+    "sorpresa": false,
+    "texto": "Duración: los vídeos con menos de 71 s rinden 1,08× lo normal, frente a 0,85× los demás."
    }
   },
   "referencia": {
@@ -1664,15 +1551,15 @@
     "resto": 3.57
    },
    "voz_silencio": {
-    "top": 10.25,
+    "top": 10.6,
     "resto": 10.4
    },
    "voz_pausas_min": {
-    "top": 17.5,
+    "top": 17.7,
     "resto": 17.65
    },
    "voz_pausa_max": {
-    "top": 0.57,
+    "top": 0.58,
     "resto": 0.57
    },
    "voz_arranque": {
@@ -1684,7 +1571,7 @@
     "resto": -15.6
    },
    "voz_expresividad": {
-    "top": 2.25,
+    "top": 2.2,
     "resto": 2.3
    },
    "voz_gancho": {
@@ -1692,15 +1579,15 @@
     "resto": 0.2
    },
    "duracion": {
-    "top": 69.55,
+    "top": 69.1,
     "resto": 71.25
    },
    "cam_claves": {
-    "top": 25.0,
+    "top": 26,
     "resto": 24
    },
    "cam_cada": {
-    "top": 2.72,
+    "top": 2.65,
     "resto": 2.89
    },
    "cam_inicio_dist": {
@@ -1708,43 +1595,43 @@
     "resto": 7.65
    },
    "cam_lente_max": {
-    "top": 40.0,
+    "top": 40,
     "resto": 38.0
    },
    "obj_piezas": {
-    "top": 34.0,
+    "top": 37,
     "resto": 27.0
    },
    "obj_animaciones": {
-    "top": 13.5,
+    "top": 16,
     "resto": 15.0
    },
    "obj_cortes": {
-    "top": 1.0,
+    "top": 1,
     "resto": 0.0
    },
    "ov_etiquetas": {
-    "top": 8.5,
+    "top": 9,
     "resto": 7.0
    },
    "ov_contadores": {
-    "top": 4.5,
+    "top": 5,
     "resto": 4.0
    },
    "ov_graficos_min": {
-    "top": 18.8,
+    "top": 19.7,
     "resto": 17.85
    },
    "ov_palabras_clave": {
-    "top": 29.5,
+    "top": 29,
     "resto": 29.0
    },
    "sfx_min": {
-    "top": 20.15,
+    "top": 20.6,
     "resto": 20.55
    },
    "sfx_variedad": {
-    "top": 7.0,
+    "top": 7,
     "resto": 8.0
    }
   },
@@ -1920,7 +1807,7 @@
    "comentario_en_escena": false,
    "sub_frase": false,
    "sub_centro": false,
-   "estado": "revision",
+   "estado": "programado",
    "creado": "2026-11-14",
    "rel": null,
    "maduro": false,
@@ -2148,8 +2035,8 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": null,
-   "maduro": false,
+   "rel": 3.12,
+   "maduro": true,
    "vistas": 8930,
    "rel_red": {
     "tiktok": 3.12
@@ -2320,7 +2207,7 @@
    "sub_centro": true,
    "estado": "programado",
    "creado": "2026-11-09",
-   "rel": 0.86,
+   "rel": 0.79,
    "maduro": true,
    "vistas": 4921,
    "rel_red": {
