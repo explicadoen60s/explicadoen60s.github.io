@@ -79,10 +79,16 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 19/11 | 16:00 | tiktok | ¿A cuántos grados sopla tu freidora de aire? Y no, no fríe c | ⏳ pendiente |
 | jue 19/11 | 16:00 | youtube | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
 | jue 19/11 | 18:00 | instagram | Si tuvieras que inventar el paraguas automático… ☔ el muelle | ⏳ pendiente |
+| jue 19/11 | 18:00 | tiktok | ¿Cargas el móvil al 100 % cada noche? 🔋 ¿Cuánta batería pier | ⏳ pendiente |
+| jue 19/11 | 21:00 | tiktok | ¿Cuántos kilómetros de túnel unen Atocha con Chamartín? 🚄 Es | ⏳ pendiente |
 | vie 20/11 | 10:00 | instagram | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | ⏳ pendiente |
+| vie 20/11 | 10:00 | tiktok | ¿A qué altura cuelga el puente de Vizcaya? 🌉 Escribe tus met | ⏳ pendiente |
 | vie 20/11 | 12:00 | youtube | ¿Y si construyes una pista de hielo? ⛸️ Lleva calefacción de | ⏳ pendiente |
+| vie 20/11 | 13:00 | tiktok | Tu cinturón se clava solo: ¿cuánto pesas en un choque a 50 k | ⏳ pendiente |
+| vie 20/11 | 16:00 | tiktok | 🌀 Tu aspiradora no chupa nada: ¿a cuántos kilopascales baja  | ⏳ pendiente |
 | vie 20/11 | 16:00 | youtube | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | ⏳ pendiente |
 | vie 20/11 | 18:00 | instagram | ¿Y si construyes una carretera? 🛣️ El agua es su peor enemig | ⏳ pendiente |
+| vie 20/11 | 18:00 | tiktok | 🚢 ¿Y si te caes de un crucero? ¿Cuántos minutos aguantan tus | ⏳ pendiente |
 | sáb 21/11 | 10:00 | instagram | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
 | sáb 21/11 | 12:00 | youtube | Si tuvieras que inventar el spray… 💨 ¿por qué el bote se que | ⏳ pendiente |
 | sáb 21/11 | 16:00 | youtube | Si tuvieras que inventar el grifo monomando… 🚰 ¿cómo mezcla  | ⏳ pendiente |
@@ -163,3 +169,15 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | jue 10/12 | 12:00 | youtube | ¿Lavar a 60 grados gasta más? Cómo funciona la lavadora 🌡️ | ⏳ pendiente |
 | jue 10/12 | 16:00 | youtube | Cómo funciona una freidora de aire (y por qué sale blanda) 🍟 | ⏳ pendiente |
 | jue 10/12 | 18:00 | instagram | Freidora de aire: cómo funciona y por qué te sale blanda | ⏳ pendiente |
+| vie 11/12 | 10:00 | instagram | ¿Cuánta batería pierde tu móvil si lo cargas al 100 % cada n | ⏳ pendiente |
+| vie 11/12 | 12:00 | youtube | ¿Cargar el móvil al 100 % estropea la batería? Cómo funciona | ⏳ pendiente |
+| vie 11/12 | 16:00 | youtube | Cómo funciona el túnel del AVE entre Atocha y Chamartín | ⏳ pendiente |
+| vie 11/12 | 18:00 | instagram | El túnel del AVE que une Atocha y Chamartín | ⏳ pendiente |
+| sáb 12/12 | 10:00 | instagram | El puente colgante de Vizcaya: una barquilla que cuelga sobr | ⏳ pendiente |
+| sáb 12/12 | 12:00 | youtube | Cómo funciona el puente colgante de Vizcaya (Bizkaia) | ⏳ pendiente |
+| sáb 12/12 | 16:00 | youtube | Cómo funciona el cinturón de seguridad: ¿cuánto pesas al cho | ⏳ pendiente |
+| sáb 12/12 | 18:00 | instagram | Cómo funciona el cinturón de seguridad | ⏳ pendiente |
+| dom 13/12 | 10:00 | instagram | Cómo funciona una aspiradora | ⏳ pendiente |
+| dom 13/12 | 12:00 | youtube | Cómo funciona una aspiradora: ¿cuánta presión baja dentro? | ⏳ pendiente |
+| dom 13/12 | 16:00 | youtube | ¿Qué pasa si te caes de un crucero? Minutos reales | ⏳ pendiente |
+| dom 13/12 | 18:00 | instagram | ¿Qué pasa si te caes de un crucero? | ⏳ pendiente |
