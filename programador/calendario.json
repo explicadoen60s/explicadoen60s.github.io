@@ -3292,9 +3292,14 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "17913370908592835",
+    "url": "https://www.instagram.com/reel/Dfz1n2gj0et/"
+   },
+   "publicado": "2026-11-16T16:58:43.175819+00:00"
   },
   {
    "id": "frenoavion-tiktok",
@@ -3311,8 +3316,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>TLB</center>\r\n</body>\r\n</html>\r\n"
   },
   {
    "id": "estadio-tiktok",
