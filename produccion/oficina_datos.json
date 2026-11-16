@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-16T00:03:38+00:00",
+ "actualizado": "2026-11-16T01:51:42+00:00",
  "medianas": {
-  "tiktok": 1280,
+  "tiktok": 1317,
   "instagram": 1604.0,
   "youtube": 1942
  },
@@ -28,7 +28,7 @@
     "meta": 0.8,
     "pie": "desde el 12-nov"
    },
-   "foco": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,85× los demás."
+   "foco": "Un movimiento de cámara cada: los vídeos con menos de 2,8 s rinden 1,19× lo normal, frente a 0,92× los demás."
   },
   "sonido": {
    "ahora": "0 voces generándose · 3 mezclas por hacer",
@@ -47,7 +47,7 @@
    "pendiente": 1,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.16,
+    "valor": 4.1,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
@@ -67,8 +67,8 @@
    "foco": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,14× lo normal, frente a 0,83× los demás."
   },
   "estratega": {
-   "ahora": "1 ideas en el banco · tendencias sin actualizar · 5 segundas partes por proponer",
-   "pendiente": 5,
+   "ahora": "1 ideas en el banco · tendencias sin actualizar · 6 segundas partes por proponer",
+   "pendiente": 6,
    "kpi": {
     "nombre": "Vídeos por encima de lo normal",
     "valor": 0.5,
@@ -82,7 +82,7 @@
    "pendiente": 1,
    "kpi": {
     "nombre": "Comentarios por 1.000 vistas",
-    "valor": 0.18,
+    "valor": 0.21,
     "fmt": "dec",
     "meta": 1,
     "pie": "TikTok, últimos 14 días"
@@ -124,8 +124,8 @@
    "n_si": 1,
    "n_no": 51,
    "med_si": 1.25,
-   "med_no": 0.94,
-   "ratio": 1.33,
+   "med_no": 0.95,
+   "ratio": 1.32,
    "veredicto": "faltan_datos"
   },
   "m_formatoC": {
@@ -133,7 +133,7 @@
    "n_no": 38,
    "med_si": 1.02,
    "med_no": 0.98,
-   "ratio": 1.04,
+   "ratio": 1.03,
    "veredicto": "sin_efecto"
   },
   "m_tituloPregunta": {
@@ -180,8 +180,8 @@
    "n_si": 29,
    "n_no": 23,
    "med_si": 1.06,
-   "med_no": 0.93,
-   "ratio": 1.14,
+   "med_no": 0.92,
+   "ratio": 1.15,
    "veredicto": "sin_efecto"
   },
   "m261112fot10": {
@@ -203,9 +203,9 @@
   "m261112mot12": {
    "n_si": 31,
    "n_no": 21,
-   "med_si": 0.93,
+   "med_si": 0.92,
    "med_no": 1.04,
-   "ratio": 0.89,
+   "ratio": 0.88,
    "veredicto": "sin_efecto"
   },
   "m261112mot13": {
@@ -219,9 +219,9 @@
   "m261113fot15": {
    "n_si": 29,
    "n_no": 23,
-   "med_si": 0.94,
+   "med_si": 0.95,
    "med_no": 1.02,
-   "ratio": 0.92,
+   "ratio": 0.93,
    "veredicto": "sin_efecto"
   },
   "m261113son16": {
@@ -251,9 +251,9 @@
   "m261114dir20": {
    "n_si": 43,
    "n_no": 9,
-   "med_si": 0.94,
+   "med_si": 0.95,
    "med_no": 1.06,
-   "ratio": 0.89,
+   "ratio": 0.9,
    "veredicto": "sin_efecto"
   },
   "m261114fot21": {
@@ -292,8 +292,8 @@
    "n_si": 9,
    "n_no": 43,
    "med_si": 1.06,
-   "med_no": 0.94,
-   "ratio": 1.13,
+   "med_no": 0.95,
+   "ratio": 1.12,
    "veredicto": "sin_efecto"
   },
   "m261114est26": {
@@ -301,7 +301,7 @@
    "n_no": 32,
    "med_si": 0.99,
    "med_no": 0.98,
-   "ratio": 1.01,
+   "ratio": 1.02,
    "veredicto": "sin_efecto"
   }
  },
@@ -406,10 +406,10 @@
    "video": "linterna",
    "titulo": "Sin pilas y sin enchufe: un imán, una bobina y tu mano. ¿Tienes una linterna así en casa? ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7708400025751063840?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 50621,
-   "rel": 16.98,
-   "inter": 0.0469,
-   "horas": 10,
+   "vistas": 111044,
+   "rel": 37.19,
+   "inter": 0.0568,
+   "horas": 12,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -420,10 +420,10 @@
    "video": "repetidor",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707423975512624416?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 48135,
-   "rel": 11.53,
+   "vistas": 48555,
+   "rel": 11.62,
    "inter": 0.0348,
-   "horas": 73,
+   "horas": 75,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -434,10 +434,10 @@
    "video": "caldera",
    "titulo": "Las calderas de condensación aprovechan el vapor que las antiguas tiraban por la chimenea.",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7707658834612866336?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 9636,
+   "vistas": 9668,
    "rel": 3.06,
-   "inter": 0.0329,
-   "horas": 58,
+   "inter": 0.0328,
+   "horas": 60,
    "presupuesto": 5,
    "objetivo": "seguidores",
    "decidido": null
@@ -449,36 +449,43 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 218.09,
-   "vistas": 725358
-  },
-  {
-   "video": "tormentas",
-   "red": "tiktok",
-   "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 24.7,
-   "vistas": 63802
+   "rel": 219.6,
+   "vistas": 731045
   },
   {
    "video": "linterna",
    "red": "tiktok",
    "titulo": "Sin pilas y sin enchufe: un imán, una bobina y tu mano. ¿Tienes una linterna así en casa? ",
-   "rel": 16.98,
-   "vistas": 50621
+   "rel": 37.19,
+   "vistas": 111044
+  },
+  {
+   "video": "tormentas",
+   "red": "tiktok",
+   "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
+   "rel": 24.75,
+   "vistas": 63941
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
-   "rel": 14.38,
-   "vistas": 42383
+   "rel": 14.39,
+   "vistas": 42400
   },
   {
    "video": "repetidor",
    "red": "tiktok",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
-   "rel": 11.53,
-   "vistas": 48135
+   "rel": 11.62,
+   "vistas": 48555
+  },
+  {
+   "video": "cepillo",
+   "red": "tiktok",
+   "titulo": "Un cepillo sónico vibra cientos de veces por segundo y se carga sin enchufe. ¿Tú usas manu",
+   "rel": 10.0,
+   "vistas": 31579
   }
  ],
  "compuertas": {
@@ -596,6 +603,20 @@
     "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,14× lo normal, frente a 0,83× los demás."
    },
    {
+    "metrica": "cam_cada",
+    "nombre": "Un movimiento de cámara cada",
+    "rol": "fotografia",
+    "unidad": "s",
+    "umbral": 2.84,
+    "direccion": "menos",
+    "ratio": 1.3,
+    "n_si": 24,
+    "n_no": 25,
+    "fuerza": 1.28,
+    "sorpresa": false,
+    "texto": "Un movimiento de cámara cada: los vídeos con menos de 2,8 s rinden 1,19× lo normal, frente a 0,92× los demás."
+   },
+   {
     "metrica": "obj_cortes",
     "nombre": "Cortes que enseñan el interior",
     "rol": "fotografia",
@@ -608,20 +629,6 @@
     "fuerza": 1.25,
     "sorpresa": false,
     "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,85× los demás."
-   },
-   {
-    "metrica": "cam_cada",
-    "nombre": "Un movimiento de cámara cada",
-    "rol": "fotografia",
-    "unidad": "s",
-    "umbral": 2.84,
-    "direccion": "menos",
-    "ratio": 1.28,
-    "n_si": 24,
-    "n_no": 25,
-    "fuerza": 1.22,
-    "sorpresa": false,
-    "texto": "Un movimiento de cámara cada: los vídeos con menos de 2,8 s rinden 1,19× lo normal, frente a 0,93× los demás."
    },
    {
     "metrica": "duracion",
@@ -644,10 +651,10 @@
     "unidad": "/min",
     "umbral": 17.5,
     "direccion": "menos",
-    "ratio": 1.18,
+    "ratio": 1.19,
     "n_si": 26,
     "n_no": 26,
-    "fuerza": 0.83,
+    "fuerza": 0.89,
     "sorpresa": false,
     "texto": "Pausas por minuto: los vídeos con menos de 17,5 /min rinden 1,05× lo normal, frente a 0,89× los demás."
    },
@@ -658,10 +665,10 @@
     "unidad": "",
     "umbral": 8.0,
     "direccion": "mas",
-    "ratio": 1.3,
+    "ratio": 1.29,
     "n_si": 10,
     "n_no": 42,
-    "fuerza": 0.83,
+    "fuerza": 0.81,
     "sorpresa": false,
     "texto": "Tipos de efecto distintos: los vídeos con más de 8 rinden 1,22× lo normal, frente a 0,94× los demás."
    },
@@ -672,12 +679,12 @@
     "unidad": "",
     "umbral": null,
     "direccion": "menos",
-    "ratio": 1.19,
+    "ratio": 1.2,
     "n_si": 43,
     "n_no": 9,
-    "fuerza": 0.52,
+    "fuerza": 0.56,
     "sorpresa": false,
-    "texto": "Subtítulos en frase: no rinde (0,93× frente a 1,11×)."
+    "texto": "Subtítulos en frase: no rinde (0,92× frente a 1,11×)."
    },
    {
     "metrica": "sub_centro",
@@ -686,12 +693,12 @@
     "unidad": "",
     "umbral": null,
     "direccion": "mas",
-    "ratio": 1.33,
+    "ratio": 1.32,
     "n_si": 3,
     "n_no": 49,
-    "fuerza": 0.49,
+    "fuerza": 0.48,
     "sorpresa": false,
-    "texto": "Subtítulo de una palabra en el centro (maqueta de día): rinde (1,25× frente a 0,94×)."
+    "texto": "Subtítulo de una palabra en el centro (maqueta de día): rinde (1,25× frente a 0,95×)."
    },
    {
     "metrica": "estilo_dia",
@@ -700,12 +707,12 @@
     "unidad": "",
     "umbral": null,
     "direccion": "mas",
-    "ratio": 1.33,
+    "ratio": 1.32,
     "n_si": 3,
     "n_no": 49,
-    "fuerza": 0.49,
+    "fuerza": 0.48,
     "sorpresa": false,
-    "texto": "Estilo maqueta de día (fondo claro, isla, azulejos): rinde (1,25× frente a 0,94×)."
+    "texto": "Estilo maqueta de día (fondo claro, isla, azulejos): rinde (1,25× frente a 0,95×)."
    }
   ],
   "recomendaciones": {
@@ -719,14 +726,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -738,13 +745,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 18,6 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 18,6 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "placas": [
@@ -757,14 +764,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,3 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,3 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -776,13 +783,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 18,2 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 18,2 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "router": [
@@ -795,14 +802,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,7 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -846,7 +853,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 19,9 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 19,9 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
@@ -864,15 +871,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 8, en el lado bueno. Mantenlo."
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,9 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,9 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 8, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -884,7 +891,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 17,7 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 17,7 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
@@ -902,15 +909,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,8 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -922,7 +929,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 18,8 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 18,8 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
@@ -940,15 +947,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 3, en el lado bueno. Mantenlo."
+     "tipo": "mejorar",
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "tipo": "potenciar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 3, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -966,7 +973,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "depuradora": [
@@ -979,14 +986,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -998,13 +1005,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 19,1 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 19,1 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "parking": [
@@ -1016,15 +1023,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1042,7 +1049,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "v16": [
@@ -1055,14 +1062,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,4 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1080,7 +1087,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "ollaexpres": [
@@ -1093,14 +1100,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1112,13 +1119,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 18,9 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 18,9 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "huella": [
@@ -1131,14 +1138,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,1 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1156,7 +1163,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "paraguas": [
@@ -1169,14 +1176,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,73 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,73 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1194,7 +1201,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "grifo": [
@@ -1207,14 +1214,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,4 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1226,13 +1233,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 23 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 23 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "spray": [
@@ -1245,14 +1252,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,6 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1264,13 +1271,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 18,6 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 18,6 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "pistahielo": [
@@ -1282,15 +1289,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1308,7 +1315,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "carretera": [
@@ -1321,14 +1328,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 3,2 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1340,13 +1347,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 17,9 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 17,9 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "tdt": [
@@ -1358,15 +1365,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,7 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1384,7 +1391,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "luces": [
@@ -1396,15 +1403,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1416,13 +1423,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 19,7 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 19,7 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "caldera": [
@@ -1435,14 +1442,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1454,7 +1461,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 17,7 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 17,7 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1504,15 +1511,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1530,7 +1537,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "nieve": [
@@ -1542,15 +1549,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,2 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1568,7 +1575,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "raton": [
@@ -1581,14 +1588,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 3, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 1,94 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 1,94 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 3, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1606,7 +1613,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "vibracion": [
@@ -1618,15 +1625,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,3 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1638,13 +1645,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 19,7 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 19,7 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "secador": [
@@ -1657,14 +1664,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,5 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1682,7 +1689,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "linterna": [
@@ -1695,14 +1702,14 @@
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
     },
     {
      "rol": "fotografia",
      "tipo": "potenciar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 2,1 s, en el lado bueno. Mantenlo."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 1, en el lado bueno. Mantenlo."
     },
     {
      "rol": "editor",
@@ -1720,7 +1727,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "velcro": [
@@ -1746,13 +1753,13 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 21 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 21 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "aerogenerador": [
@@ -1765,14 +1772,14 @@
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
+     "metrica": "cam_cada",
+     "texto": "Un movimiento de cámara cada: 17,8 s. Los que funcionan van por debajo de 2,8 s (1,30× más vistas)."
     },
     {
      "rol": "fotografia",
      "tipo": "mejorar",
-     "metrica": "cam_cada",
-     "texto": "Un movimiento de cámara cada: 17,8 s. Los que funcionan van por debajo de 2,8 s (1,28× más vistas)."
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1790,7 +1797,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 7. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "paracaidas": [
@@ -1802,15 +1809,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 1,95 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1840,15 +1847,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 2,0 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1878,15 +1885,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 1,97 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1898,7 +1905,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 19,8 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 19,8 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1916,15 +1923,15 @@
     },
     {
      "rol": "fotografia",
-     "tipo": "mejorar",
-     "metrica": "obj_cortes",
-     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
-    },
-    {
-     "rol": "fotografia",
      "tipo": "potenciar",
      "metrica": "cam_cada",
      "texto": "Un movimiento de cámara cada: 1,93 s, en el lado bueno. Mantenlo."
+    },
+    {
+     "rol": "fotografia",
+     "tipo": "mejorar",
+     "metrica": "obj_cortes",
+     "texto": "Cortes que enseñan el interior: 0,00. Los que funcionan van por encima de 0,00 (1,29× más vistas)."
     },
     {
      "rol": "editor",
@@ -1936,7 +1943,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 30 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 30 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     },
     {
      "rol": "sonido",
@@ -1968,7 +1975,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "sfx_variedad",
-     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,30× más vistas)."
+     "texto": "Tipos de efecto distintos: 8. Los que funcionan van por encima de 8 (1,29× más vistas)."
     }
    ],
    "horno": [
@@ -1982,7 +1989,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 27 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 27 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     }
    ],
    "tapa": [
@@ -1996,7 +2003,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 24 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 24 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     }
    ],
    "bulnes": [
@@ -2010,7 +2017,7 @@
      "rol": "sonido",
      "tipo": "mejorar",
      "metrica": "voz_pausas_min",
-     "texto": "Pausas por minuto: 29 /min. Los que funcionan van por debajo de 17,5 /min (1,18× más vistas)."
+     "texto": "Pausas por minuto: 29 /min. Los que funcionan van por debajo de 17,5 /min (1,19× más vistas)."
     }
    ]
   },
@@ -2047,18 +2054,18 @@
     "texto": "Etiquetas sobre las piezas: los vídeos con más de 8 rinden 1,14× lo normal, frente a 0,83× los demás."
    },
    "fotografia": {
-    "metrica": "obj_cortes",
-    "nombre": "Cortes que enseñan el interior",
+    "metrica": "cam_cada",
+    "nombre": "Un movimiento de cámara cada",
     "rol": "fotografia",
-    "unidad": "",
-    "umbral": 0.0,
-    "direccion": "mas",
-    "ratio": 1.29,
+    "unidad": "s",
+    "umbral": 2.84,
+    "direccion": "menos",
+    "ratio": 1.3,
     "n_si": 24,
-    "n_no": 28,
-    "fuerza": 1.25,
+    "n_no": 25,
+    "fuerza": 1.28,
     "sorpresa": false,
-    "texto": "Cortes que enseñan el interior: los vídeos con más de 0,00 rinden 1,10× lo normal, frente a 0,85× los demás."
+    "texto": "Un movimiento de cámara cada: los vídeos con menos de 2,8 s rinden 1,19× lo normal, frente a 0,92× los demás."
    },
    "editor": {
     "metrica": "duracion",
@@ -2081,10 +2088,10 @@
     "unidad": "/min",
     "umbral": 17.5,
     "direccion": "menos",
-    "ratio": 1.18,
+    "ratio": 1.19,
     "n_si": 26,
     "n_no": 26,
-    "fuerza": 0.83,
+    "fuerza": 0.89,
     "sorpresa": false,
     "texto": "Pausas por minuto: los vídeos con menos de 17,5 /min rinden 1,05× lo normal, frente a 0,89× los demás."
    }
@@ -2365,13 +2372,13 @@
    "creado": "2026-11-06",
    "rel": null,
    "maduro": false,
-   "vistas": 3159,
+   "vistas": 3255,
    "rel_red": {
-    "instagram": 1.01,
-    "youtube": 0.56
+    "instagram": 1.02,
+    "youtube": 0.58
    },
    "com_mil": 0.0,
-   "comp_mil": 0.32,
+   "comp_mil": 0.31,
    "publicado": "2026-11-15T15:00:07Z"
   },
   {
@@ -2421,9 +2428,9 @@
    "creado": "2026-11-08",
    "rel": null,
    "maduro": false,
-   "vistas": 8182,
+   "vistas": 8361,
    "rel_red": {
-    "tiktok": 2.74
+    "tiktok": 2.8
    },
    "com_mil": 0.12,
    "comp_mil": 0.24,
@@ -2478,9 +2485,9 @@
    "creado": "2026-11-08",
    "rel": null,
    "maduro": false,
-   "vistas": 1149,
+   "vistas": 1288,
    "rel_red": {
-    "tiktok": 0.39
+    "tiktok": 0.43
    },
    "com_mil": 0.0,
    "comp_mil": 0.0,
@@ -2535,12 +2542,12 @@
    "creado": "2026-11-08",
    "rel": null,
    "maduro": false,
-   "vistas": 50621,
+   "vistas": 111044,
    "rel_red": {
-    "tiktok": 16.98
+    "tiktok": 37.19
    },
-   "com_mil": 0.61,
-   "comp_mil": 1.58,
+   "com_mil": 0.75,
+   "comp_mil": 2.25,
    "publicado": "2026-11-15T14:09:04+00:00"
   },
   {
@@ -2592,12 +2599,12 @@
    "creado": "2026-11-08",
    "rel": null,
    "maduro": false,
-   "vistas": 8689,
+   "vistas": 9223,
    "rel_red": {
-    "tiktok": 2.91
+    "tiktok": 3.09
    },
-   "com_mil": 0.12,
-   "comp_mil": 0.23,
+   "com_mil": 0.11,
+   "comp_mil": 0.43,
    "publicado": "2026-11-15T14:08:12+00:00"
   },
   {
@@ -2650,11 +2657,11 @@
    "creado": "2026-11-08",
    "rel": null,
    "maduro": false,
-   "vistas": 1257,
+   "vistas": 1447,
    "rel_red": {
-    "tiktok": 0.42
+    "tiktok": 0.48
    },
-   "com_mil": 0.8,
+   "com_mil": 0.69,
    "comp_mil": 0.0,
    "publicado": "2026-11-15T14:07:39+00:00"
   },
@@ -2708,9 +2715,9 @@
    "creado": "2026-11-08",
    "rel": null,
    "maduro": false,
-   "vistas": 4547,
+   "vistas": 4613,
    "rel_red": {
-    "tiktok": 1.53
+    "tiktok": 1.54
    },
    "com_mil": 0.22,
    "comp_mil": 0.22,
@@ -2755,7 +2762,7 @@
    "creado": "2026-11-14",
    "rel": null,
    "maduro": false,
-   "vistas": 376,
+   "vistas": 400,
    "rel_red": {
     "tiktok": 0.13
    },
@@ -2810,11 +2817,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 6.11,
+   "rel": 6.12,
    "maduro": true,
-   "vistas": 16810,
+   "vistas": 16875,
    "rel_red": {
-    "tiktok": 6.11
+    "tiktok": 6.12
    },
    "com_mil": 0.0,
    "comp_mil": 0.71,
@@ -2867,11 +2874,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.77,
+   "rel": 0.78,
    "maduro": true,
-   "vistas": 2434,
+   "vistas": 2450,
    "rel_red": {
-    "tiktok": 0.77
+    "tiktok": 0.78
    },
    "com_mil": 0.0,
    "comp_mil": 0.41,
@@ -2922,14 +2929,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 9.98,
+   "rel": 10.0,
    "maduro": true,
-   "vistas": 31458,
+   "vistas": 31579,
    "rel_red": {
-    "tiktok": 9.98
+    "tiktok": 10.0
    },
    "com_mil": 0.03,
-   "comp_mil": 0.29,
+   "comp_mil": 0.28,
    "publicado": "2026-11-13T14:13:47+00:00"
   },
   {
@@ -2981,12 +2988,12 @@
    "creado": "2026-11-07",
    "rel": 3.06,
    "maduro": true,
-   "vistas": 9636,
+   "vistas": 9668,
    "rel_red": {
     "tiktok": 3.06
    },
-   "com_mil": 0.42,
-   "comp_mil": 3.63,
+   "com_mil": 0.41,
+   "comp_mil": 3.62,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
   {
@@ -3036,11 +3043,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.94,
+   "rel": 0.95,
    "maduro": true,
-   "vistas": 3922,
+   "vistas": 3959,
    "rel_red": {
-    "tiktok": 0.94
+    "tiktok": 0.95
    },
    "com_mil": 0.25,
    "comp_mil": 0.51,
@@ -3095,9 +3102,9 @@
    "creado": "2026-11-11",
    "rel": 1.25,
    "maduro": true,
-   "vistas": 7464,
+   "vistas": 7471,
    "rel_red": {
-    "instagram": 1.37,
+    "instagram": 1.36,
     "youtube": 1.25
    },
    "com_mil": 0.54,
@@ -3153,10 +3160,10 @@
    "creado": "2026-11-09",
    "rel": 0.8,
    "maduro": true,
-   "vistas": 4979,
+   "vistas": 4997,
    "rel_red": {
-    "tiktok": 0.41,
-    "instagram": 0.93,
+    "tiktok": 0.42,
+    "instagram": 0.92,
     "youtube": 0.8
    },
    "com_mil": 0.0,
@@ -3210,13 +3217,13 @@
    "sub_centro": true,
    "estado": "programado",
    "creado": "2026-11-11",
-   "rel": 6.87,
+   "rel": 6.93,
    "maduro": true,
-   "vistas": 67418,
+   "vistas": 67985,
    "rel_red": {
-    "tiktok": 11.53,
-    "instagram": 0.98,
-    "youtube": 6.87
+    "tiktok": 11.62,
+    "instagram": 0.97,
+    "youtube": 6.93
    },
    "com_mil": 0.13,
    "comp_mil": 2.74,
@@ -3269,13 +3276,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.55,
+   "rel": 0.56,
    "maduro": true,
-   "vistas": 2306,
+   "vistas": 2342,
    "rel_red": {
-    "tiktok": 0.55
+    "tiktok": 0.56
    },
-   "com_mil": 0.87,
+   "com_mil": 0.85,
    "comp_mil": 0.43,
    "publicado": "2026-11-12T15:54:57+00:00"
   },
@@ -3329,12 +3336,12 @@
    "creado": "2026-11-07",
    "rel": 0.31,
    "maduro": true,
-   "vistas": 1280,
+   "vistas": 1297,
    "rel_red": {
     "tiktok": 0.31
    },
-   "com_mil": 1.56,
-   "comp_mil": 1.56,
+   "com_mil": 1.54,
+   "comp_mil": 1.54,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
   {
@@ -3387,12 +3394,12 @@
    "creado": "2026-11-07",
    "rel": 0.27,
    "maduro": true,
-   "vistas": 1109,
+   "vistas": 1117,
    "rel_red": {
     "tiktok": 0.27
    },
    "com_mil": 0.0,
-   "comp_mil": 5.41,
+   "comp_mil": 5.37,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -3445,7 +3452,7 @@
    "creado": "2026-11-07",
    "rel": 4.99,
    "maduro": true,
-   "vistas": 20832,
+   "vistas": 20869,
    "rel_red": {
     "tiktok": 4.99
    },
@@ -3503,11 +3510,11 @@
    "creado": "2026-11-07",
    "rel": 0.53,
    "maduro": true,
-   "vistas": 2230,
+   "vistas": 2243,
    "rel_red": {
     "tiktok": 0.53
    },
-   "com_mil": 0.9,
+   "com_mil": 0.89,
    "comp_mil": 0.0,
    "publicado": "2026-11-11T21:11:18+00:00"
   },
@@ -3560,7 +3567,7 @@
    "creado": "2026-11-07",
    "rel": 0.65,
    "maduro": true,
-   "vistas": 2753,
+   "vistas": 2758,
    "rel_red": {
     "tiktok": 0.65
    },
@@ -3618,12 +3625,12 @@
    "creado": "2026-11-07",
    "rel": 0.71,
    "maduro": true,
-   "vistas": 2981,
+   "vistas": 2986,
    "rel_red": {
     "tiktok": 0.71
    },
-   "com_mil": 0.34,
-   "comp_mil": 0.34,
+   "com_mil": 0.33,
+   "comp_mil": 0.33,
    "publicado": "2026-11-11T13:18:01+00:00"
   },
   {
@@ -3676,7 +3683,7 @@
    "creado": "2026-11-07",
    "rel": 0.15,
    "maduro": true,
-   "vistas": 640,
+   "vistas": 645,
    "rel_red": {
     "tiktok": 0.15
    },
@@ -3733,12 +3740,12 @@
    "creado": "2026-11-07",
    "rel": 0.15,
    "maduro": true,
-   "vistas": 625,
+   "vistas": 629,
    "rel_red": {
     "tiktok": 0.15
    },
-   "com_mil": 1.6,
-   "comp_mil": 1.6,
+   "com_mil": 1.59,
+   "comp_mil": 1.59,
    "publicado": "2026-11-11T13:16:45+00:00"
   },
   {
@@ -3790,7 +3797,7 @@
    "creado": "2026-11-06",
    "rel": 1.13,
    "maduro": true,
-   "vistas": 4716,
+   "vistas": 4723,
    "rel_red": {
     "tiktok": 1.13
    },
@@ -3848,7 +3855,7 @@
    "creado": "2026-11-06",
    "rel": 0.82,
    "maduro": true,
-   "vistas": 3326,
+   "vistas": 3329,
    "rel_red": {
     "tiktok": 0.82
    },
@@ -3906,7 +3913,7 @@
    "creado": "2026-11-06",
    "rel": 0.31,
    "maduro": true,
-   "vistas": 1028,
+   "vistas": 1036,
    "rel_red": {
     "tiktok": 0.31
    },
@@ -3961,14 +3968,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 218.09,
+   "rel": 219.6,
    "maduro": true,
-   "vistas": 725358,
+   "vistas": 731045,
    "rel_red": {
-    "tiktok": 218.09
+    "tiktok": 219.6
    },
    "com_mil": 0.14,
-   "comp_mil": 5.83,
+   "comp_mil": 5.82,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -4020,12 +4027,12 @@
    "creado": "2026-11-06",
    "rel": 0.18,
    "maduro": true,
-   "vistas": 545,
+   "vistas": 548,
    "rel_red": {
     "tiktok": 0.18
    },
-   "com_mil": 1.83,
-   "comp_mil": 3.67,
+   "com_mil": 1.82,
+   "comp_mil": 3.65,
    "publicado": "2026-11-09T20:34:10+00:00"
   },
   {
@@ -4077,7 +4084,7 @@
    "creado": "2026-11-06",
    "rel": 1.41,
    "maduro": true,
-   "vistas": 4176,
+   "vistas": 4178,
    "rel_red": {
     "tiktok": 1.41
    },
@@ -4133,7 +4140,7 @@
    "creado": "2026-11-06",
    "rel": 0.31,
    "maduro": true,
-   "vistas": 2350,
+   "vistas": 2351,
    "rel_red": {
     "tiktok": 0.31,
     "instagram": 0.79,
@@ -4193,10 +4200,10 @@
    "creado": "2026-11-05",
    "rel": 0.37,
    "maduro": true,
-   "vistas": 3995,
+   "vistas": 4004,
    "rel_red": {
     "tiktok": 0.37,
-    "instagram": 0.97,
+    "instagram": 0.96,
     "youtube": 0.42
    },
    "com_mil": 0.5,
@@ -4252,11 +4259,11 @@
    "creado": "2026-11-06",
    "rel": 0.55,
    "maduro": true,
-   "vistas": 6455,
+   "vistas": 6554,
    "rel_red": {
     "tiktok": 0.55,
     "instagram": 0.97,
-    "youtube": 1.23
+    "youtube": 1.26
    },
    "com_mil": 0.15,
    "comp_mil": 0.46,
@@ -4309,13 +4316,13 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.93,
+   "rel": 0.92,
    "maduro": true,
-   "vistas": 8481,
+   "vistas": 8540,
    "rel_red": {
     "tiktok": 1.63,
-    "instagram": 0.93,
-    "youtube": 0.81
+    "instagram": 0.92,
+    "youtube": 0.84
    },
    "com_mil": 0.12,
    "comp_mil": 0.12,
@@ -4370,14 +4377,14 @@
    "creado": "2026-11-06",
    "rel": 1.28,
    "maduro": true,
-   "vistas": 13765,
+   "vistas": 13858,
    "rel_red": {
     "tiktok": 1.52,
-    "instagram": 1.05,
-    "youtube": 2.28
+    "instagram": 1.04,
+    "youtube": 2.31
    },
-   "com_mil": 0.15,
-   "comp_mil": 0.15,
+   "com_mil": 0.14,
+   "comp_mil": 0.14,
    "publicado": "2026-11-08T20:40:50+00:00"
   },
   {
@@ -4428,16 +4435,16 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 5.14,
+   "rel": 5.19,
    "maduro": true,
-   "vistas": 57858,
+   "vistas": 57996,
    "rel_red": {
-    "tiktok": 14.38,
+    "tiktok": 14.39,
     "instagram": 1.34,
-    "youtube": 5.14
+    "youtube": 5.19
    },
    "com_mil": 0.09,
-   "comp_mil": 0.92,
+   "comp_mil": 0.91,
    "publicado": "2026-11-08T20:39:54+00:00"
   },
   {
@@ -4489,7 +4496,7 @@
    "creado": "2026-11-06",
    "rel": 0.85,
    "maduro": true,
-   "vistas": 7743,
+   "vistas": 7742,
    "rel_red": {
     "tiktok": 1.46,
     "instagram": 0.85,
@@ -4607,14 +4614,14 @@
    "creado": "2026-11-05",
    "rel": 7.39,
    "maduro": true,
-   "vistas": 84388,
+   "vistas": 84527,
    "rel_red": {
-    "tiktok": 24.7,
+    "tiktok": 24.75,
     "instagram": 1.05,
     "youtube": 7.39
    },
    "com_mil": 0.32,
-   "comp_mil": 1.3,
+   "comp_mil": 1.31,
    "publicado": "2026-11-07T23:51:32+00:00"
   },
   {
@@ -4667,7 +4674,7 @@
    "creado": "2026-11-05",
    "rel": 1.19,
    "maduro": true,
-   "vistas": 8888,
+   "vistas": 8890,
    "rel_red": {
     "tiktok": 1.77,
     "instagram": 1.03,
@@ -4724,11 +4731,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-05",
-   "rel": 1.78,
+   "rel": 1.79,
    "maduro": true,
-   "vistas": 29067,
+   "vistas": 29070,
    "rel_red": {
-    "tiktok": 1.78,
+    "tiktok": 1.79,
     "instagram": 1.11,
     "youtube": 8.84
    },
@@ -4785,7 +4792,7 @@
    "creado": "2026-11-05",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 9405,
+   "vistas": 9406,
    "rel_red": {
     "tiktok": 1.96,
     "instagram": 1.05,
@@ -4845,7 +4852,7 @@
    "creado": "2026-11-05",
    "rel": 1.36,
    "maduro": true,
-   "vistas": 11824,
+   "vistas": 11825,
    "rel_red": {
     "tiktok": 2.41,
     "instagram": 1.23,
@@ -5138,9 +5145,9 @@
    "creado": "2026-11-03",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 12969,
+   "vistas": 12971,
    "rel_red": {
-    "tiktok": 7.26,
+    "tiktok": 7.27,
     "instagram": 0.94,
     "youtube": 0.84
    },
@@ -5198,7 +5205,7 @@
    "creado": "2026-11-03",
    "rel": 1.08,
    "maduro": true,
-   "vistas": 4284,
+   "vistas": 4282,
    "rel_red": {
     "tiktok": 1.29,
     "instagram": 1.08,
@@ -5317,7 +5324,7 @@
    "creado": "2026-11-03",
    "rel": 1.4,
    "maduro": true,
-   "vistas": 6861,
+   "vistas": 6864,
    "rel_red": {
     "tiktok": 1.4,
     "instagram": 1.06,
@@ -5376,7 +5383,7 @@
    "creado": "2026-11-03",
    "rel": 0.85,
    "maduro": true,
-   "vistas": 5395,
+   "vistas": 5396,
    "rel_red": {
     "tiktok": 0.78,
     "instagram": 0.85,
@@ -5436,7 +5443,7 @@
    "creado": "2026-11-03",
    "rel": 0.86,
    "maduro": true,
-   "vistas": 4884,
+   "vistas": 4885,
    "rel_red": {
     "tiktok": 0.84,
     "instagram": 0.86,
@@ -5498,7 +5505,7 @@
    "maduro": true,
    "vistas": 3535,
    "rel_red": {
-    "tiktok": 0.78,
+    "tiktok": 0.79,
     "instagram": 0.85,
     "youtube": 0.97
    },
@@ -5615,7 +5622,7 @@
    "creado": "2026-11-03",
    "rel": 1.02,
    "maduro": true,
-   "vistas": 3024,
+   "vistas": 3025,
    "rel_red": {
     "tiktok": 1.02,
     "instagram": 0.11,
