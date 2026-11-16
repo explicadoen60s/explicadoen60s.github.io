@@ -31,7 +31,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 10:00 | instagram | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | [✅ publicado](https://www.instagram.com/reel/DfzFdePJSbl/) |
 | lun 16/11 | 10:00 | tiktok | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | 📲 en tu bandeja de TikTok |
 | lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | [✅ publicado](https://youtube.com/shorts/PVkmJYrOf-4) |
-| lun 16/11 | 13:00 | tiktok | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
+| lun 16/11 | 13:00 | tiktok | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | 📲 en tu bandeja de TikTok |
 | lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
