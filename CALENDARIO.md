@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| vie 13/11 | 12:00 | youtube | ¿Cómo sabe el ordenador qué tecla pulsas? ⌨️ Así funciona el | [✅ publicado](https://youtube.com/shorts/OIrAW0iKLwk) |
 | vie 13/11 | 13:00 | tiktok | Si tuvieras que inventar el detector de humo… 🚨 ¿cómo «ve» e | ❌ error |
 | vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://youtube.com/shorts/X03zTi_EL6M) |
@@ -31,7 +30,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | dom 15/11 | 21:00 | tiktok | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | 📲 en tu bandeja de TikTok |
 | lun 16/11 | 10:00 | instagram | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | [✅ publicado](https://www.instagram.com/reel/DfzFdePJSbl/) |
 | lun 16/11 | 10:00 | tiktok | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | 📲 en tu bandeja de TikTok |
-| lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | ⏳ pendiente |
+| lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | [✅ publicado](https://youtube.com/shorts/PVkmJYrOf-4) |
 | lun 16/11 | 13:00 | tiktok | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | ⏳ pendiente |
 | lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
