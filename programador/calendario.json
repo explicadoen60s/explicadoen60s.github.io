@@ -3315,10 +3315,16 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 1,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>TLB</center>\r\n</body>\r\n</html>\r\n"
+   "ultimo_error": "HTTP 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>TLB</center>\r\n</body>\r\n</html>\r\n",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708827658045556758",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-16T17:50:29.642818+00:00"
   },
   {
    "id": "estadio-tiktok",
