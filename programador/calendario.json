@@ -3245,9 +3245,15 @@
     "quimica",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708788999409797122",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-16T15:21:47.124564+00:00"
   },
   {
    "id": "depuradora-youtube",
@@ -3263,9 +3269,14 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "oBRlx-tuDHE",
+    "url": "https://youtube.com/shorts/oBRlx-tuDHE"
+   },
+   "publicado": "2026-11-16T15:21:50.168427+00:00"
   },
   {
    "id": "depuradora-instagram",

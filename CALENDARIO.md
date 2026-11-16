@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| vie 13/11 | 16:00 | tiktok | ¿Por qué se empañan tus ventanas por la mañana? 🪟💧 Así lo ev | 📲 en tu bandeja de TikTok |
-| vie 13/11 | 16:00 | youtube | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://youtube.com/shorts/X03zTi_EL6M) |
 | vie 13/11 | 18:00 | instagram | ¿Y si construyes el depósito de agua de tu pueblo? 💧 Por qué | [✅ publicado](https://www.instagram.com/reel/DfsHUu-EaPm/) |
 | vie 13/11 | 18:00 | tiktok | ¿Y si construyes un puente colgante? 🌉 Cada cable tiene 27.5 | 📲 en tu bandeja de TikTok |
 | vie 13/11 | 21:00 | tiktok | ¿Y si fabricas nieve para una pista de esquí? ❄️ Así funcion | 📲 en tu bandeja de TikTok |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 10:00 | tiktok | ¿Y si construyes una montaña rusa? 🎢 Por qué los rizos no so | 📲 en tu bandeja de TikTok |
 | lun 16/11 | 12:00 | youtube | ¿Y si construyes un parking subterráneo? 🚗 Lo que hay detrás | [✅ publicado](https://youtube.com/shorts/PVkmJYrOf-4) |
 | lun 16/11 | 13:00 | tiktok | Ese tubo en U bajo tu fregadero 🚰 sin él tu cocina olería a  | 📲 en tu bandeja de TikTok |
-| lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | ⏳ pendiente |
-| lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
+| lun 16/11 | 16:00 | tiktok | El ticket del súper no lleva tinta 🧾 Así se escribe… y por e | 📲 en tu bandeja de TikTok |
+| lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | [✅ publicado](https://youtube.com/shorts/oBRlx-tuDHE) |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | ⏳ pendiente |
 | lun 16/11 | 18:00 | tiktok | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | ⏳ pendiente |
 | lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
