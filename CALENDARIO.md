@@ -31,7 +31,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 16:00 | youtube | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | [✅ publicado](https://youtube.com/shorts/oBRlx-tuDHE) |
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | [✅ publicado](https://www.instagram.com/reel/Dfz1n2gj0et/) |
 | lun 16/11 | 18:00 | tiktok | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | 📲 en tu bandeja de TikTok |
-| lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | ⏳ pendiente |
+| lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | 📲 en tu bandeja de TikTok |
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 17/11 | 10:00 | tiktok | ¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu núm | ⏳ pendiente |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
