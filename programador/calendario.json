@@ -3151,9 +3151,14 @@
     "coches",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18446565556196136",
+    "url": "https://www.instagram.com/reel/DfzFdePJSbl/"
+   },
+   "publicado": "2026-11-16T09:58:03.251909+00:00"
   },
   {
    "id": "montanarusa-tiktok",
@@ -3169,9 +3174,15 @@
     "ingenieria",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "v_inbox_file~v2.7708706224858056726",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-16T10:00:45.631294+00:00"
   },
   {
    "id": "parking-youtube",
