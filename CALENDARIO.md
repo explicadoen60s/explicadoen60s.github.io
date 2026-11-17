@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://youtube.com/shorts/e2_kSOhGnTA) |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://www.instagram.com/reel/DfusE-NE8Vs/) |
