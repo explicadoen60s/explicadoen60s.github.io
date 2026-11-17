@@ -3524,10 +3524,16 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 2,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261117172652676917CA4FF32BC8C10C\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261117172652676917CA4FF32BC8C10C\"}}",
+   "resultado": {
+    "id": "v_inbox_file~v2.7709204854727690262",
+    "estado": "PROCESSING_UPLOAD",
+    "borrador": true
+   },
+   "publicado": "2026-11-17T18:20:30.728285+00:00"
   },
   {
    "id": "avesagrada-tiktok",
