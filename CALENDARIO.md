@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| sáb 14/11 | 10:00 | instagram | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | [✅ publicado](https://www.instagram.com/reel/Dft1NUAk7uR/) |
-| sáb 14/11 | 10:00 | tiktok | Tu ratón hace 1.500 fotos por segundo… de tu mesa 🖱️ Así fun | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 12:00 | youtube | Si tuvieras que inventar el mando de la tele… 📺 ¿por qué la  | [✅ publicado](https://youtube.com/shorts/A_GjM_a-BRg) |
 | sáb 14/11 | 13:00 | tiktok | ¿Qué hay dentro de tu móvil cuando vibra? 📳 Una pesa que gir | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | 📲 en tu bandeja de TikTok |
@@ -31,8 +29,8 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | lun 16/11 | 18:00 | instagram | ¿Y si construyes una depuradora? 🚽 A dónde va el agua cuando | [✅ publicado](https://www.instagram.com/reel/Dfz1n2gj0et/) |
 | lun 16/11 | 18:00 | tiktok | Así frena un avión de 60 toneladas en segundos ✈️ Sus frenos | 📲 en tu bandeja de TikTok |
 | lun 16/11 | 21:00 | tiktok | ¿Y si construyes un campo de fútbol? ⚽ Lo que hay bajo el cé | 📲 en tu bandeja de TikTok |
-| mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
-| mar 17/11 | 10:00 | tiktok | ¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu núm | ⏳ pendiente |
+| mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | [✅ publicado](https://www.instagram.com/reel/Df1je6-mXZT/) |
+| mar 17/11 | 10:00 | tiktok | ¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu núm | 📲 en tu bandeja de TikTok |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | ⏳ pendiente |
 | mar 17/11 | 13:00 | tiktok | ¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗 | ⏳ pendiente |
 | mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
