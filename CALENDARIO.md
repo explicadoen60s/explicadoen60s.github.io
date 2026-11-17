@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 10:00 | instagram | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | [✅ publicado](https://www.instagram.com/reel/DfwZ5TwFEXs/) |
 | dom 15/11 | 10:00 | tiktok | Giras el móvil y la pantalla gira 📱 Así sabe dónde está el s | ❌ error |
 | dom 15/11 | 12:00 | youtube | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | [✅ publicado](https://youtube.com/shorts/5fuCN3W7Fhw) |
