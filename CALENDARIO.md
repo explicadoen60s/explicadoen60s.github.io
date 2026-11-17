@@ -32,7 +32,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | [✅ publicado](https://youtube.com/shorts/TvDkYnI0Ozw) |
 | mar 17/11 | 13:00 | tiktok | ¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗 | ❌ error |
 | mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
-| mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
+| mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | [✅ publicado](https://youtube.com/shorts/ztswR89kBOA) |
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 17/11 | 18:00 | tiktok | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |
 | mar 17/11 | 21:00 | tiktok | ¿Qué profundidad tiene el muro que protege la Sagrada Famili | ⏳ pendiente |
