@@ -30,7 +30,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 17/11 | 10:00 | instagram | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | [✅ publicado](https://www.instagram.com/reel/Df1je6-mXZT/) |
 | mar 17/11 | 10:00 | tiktok | ¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu núm | 📲 en tu bandeja de TikTok |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | [✅ publicado](https://youtube.com/shorts/TvDkYnI0Ozw) |
-| mar 17/11 | 13:00 | tiktok | ¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗 | ⏳ pendiente |
+| mar 17/11 | 13:00 | tiktok | ¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗 | ❌ error |
 | mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
 | mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |

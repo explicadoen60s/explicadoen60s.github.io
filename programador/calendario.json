@@ -3434,10 +3434,10 @@
     "tuneladora",
     "comofunciona"
    ],
-   "estado": "pendiente",
-   "intentos": 2,
+   "estado": "error",
+   "intentos": 3,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261117121915CB88E3419B5F9981A7FE\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261117133439B860A1C13EE09C884422\"}}"
   },
   {
    "id": "cintametrica-tiktok",
