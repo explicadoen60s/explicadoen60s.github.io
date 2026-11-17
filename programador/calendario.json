@@ -3501,9 +3501,14 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18100248374438547",
+    "url": "https://www.instagram.com/reel/Df2aazzCTwp/"
+   },
+   "publicado": "2026-11-17T16:58:41.268148+00:00"
   },
   {
    "id": "submarino-tiktok",
@@ -3520,8 +3525,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026111716584212AE342570BFF6B60F76\"}}"
   },
   {
    "id": "avesagrada-tiktok",
