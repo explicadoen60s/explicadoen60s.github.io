@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| sáb 14/11 | 16:00 | tiktok | Si tuvieras que inventar el secador de pelo… 💨 2.000 vatios  | 📲 en tu bandeja de TikTok |
-| sáb 14/11 | 16:00 | youtube | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://youtube.com/shorts/e2_kSOhGnTA) |
 | sáb 14/11 | 18:00 | instagram | Si tuvieras que inventar WhatsApp… 🔒 ¿por qué ni el servidor | [✅ publicado](https://www.instagram.com/reel/DfusE-NE8Vs/) |
 | sáb 14/11 | 18:00 | tiktok | Si tuvieras que inventar una linterna sin pilas… 🔦 ¿de dónde | 📲 en tu bandeja de TikTok |
 | sáb 14/11 | 21:00 | tiktok | ¿Y si construyes un molino de viento gigante? 🌬️ Por qué se  | 📲 en tu bandeja de TikTok |
@@ -31,7 +29,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 17/11 | 10:00 | tiktok | ¿Cuánta agua de tormenta cabe bajo Barcelona? Escribe tu núm | 📲 en tu bandeja de TikTok |
 | mar 17/11 | 12:00 | youtube | ¿Tus antenas del router apuntan a tu cuarto? 📶 Así sale de v | [✅ publicado](https://youtube.com/shorts/TvDkYnI0Ozw) |
 | mar 17/11 | 13:00 | tiktok | ¿Cuánto medía la tuneladora que metió la M-30 bajo tierra? 🚗 | ❌ error |
-| mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | ⏳ pendiente |
+| mar 17/11 | 16:00 | tiktok | La punta de tu cinta métrica está suelta a propósito 📏 | 📲 en tu bandeja de TikTok |
 | mar 17/11 | 16:00 | youtube | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | [✅ publicado](https://youtube.com/shorts/ztswR89kBOA) |
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | ⏳ pendiente |
 | mar 17/11 | 18:00 | tiktok | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | ⏳ pendiente |

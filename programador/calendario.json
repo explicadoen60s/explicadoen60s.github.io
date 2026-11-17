@@ -3453,10 +3453,16 @@
     "inventos",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 1,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"202611171457070DE12343E21C66AEFD57\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"202611171457070DE12343E21C66AEFD57\"}}",
+   "resultado": {
+    "id": "v_inbox_file~v2.7709162227605112854",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-17T15:28:00.002823+00:00"
   },
   {
    "id": "qr-youtube",
