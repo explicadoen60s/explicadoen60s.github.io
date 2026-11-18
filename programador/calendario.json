@@ -3739,10 +3739,10 @@
     "tecnologia",
     "comofunciona"
    ],
-   "estado": "pendiente",
-   "intentos": 2,
+   "estado": "error",
+   "intentos": 3,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261118173830049AC8CF73DBB5CEF8C4\"}}"
+   "ultimo_error": "HTTP 500: <html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>TLB</center>\r\n</body>\r\n</html>\r\n"
   },
   {
    "id": "nevera-tiktok",

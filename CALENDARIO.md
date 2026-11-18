@@ -30,7 +30,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 18/11 | 16:00 | tiktok | ¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲 | 📲 en tu bandeja de TikTok |
 | mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | [✅ publicado](https://youtube.com/shorts/4Z0YtoAEnO0) |
 | mié 18/11 | 18:00 | instagram | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | [✅ publicado](https://www.instagram.com/reel/Df4_Nw-Ast1/) |
-| mié 18/11 | 18:00 | tiktok | ¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2 | ⏳ pendiente |
+| mié 18/11 | 18:00 | tiktok | ¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2 | ❌ error |
 | mié 18/11 | 21:00 | tiktok | ¿Cuántos grados más hace en la puerta de tu nevera? 🥛 La lec | ⏳ pendiente |
 | jue 19/11 | 10:00 | instagram | Adiós a los triángulos: esta luz avisa a Tráfico de dónde es | ⏳ pendiente |
 | jue 19/11 | 10:00 | tiktok | ¿Cuánta agua bebible hace la desaladora del Llobregat? 💧 | ⏳ pendiente |
