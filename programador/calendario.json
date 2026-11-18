@@ -3596,10 +3596,16 @@
     "canal de isabel ii",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 1,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261118085826A9198F2E6EEF718773D0\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261118085826A9198F2E6EEF718773D0\"}}",
+   "resultado": {
+    "id": "v_inbox_file~v2.7709444256863406102",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-18T09:42:52.651810+00:00"
   },
   {
    "id": "induccion-youtube",
