@@ -4,8 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | 📲 en tu bandeja de TikTok |
-| dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | [✅ publicado](https://youtube.com/shorts/B2JdFjzMDwc) |
 | dom 15/11 | 18:00 | instagram | Se va la luz y tus placas solares se apagan… aunque haga sol | [✅ publicado](https://www.instagram.com/reel/DfxQ1AdD74W/) |
 | dom 15/11 | 18:00 | tiktok | ¿Y si construyes el metro bajo tu ciudad? 🚇 Una máquina de 1 | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 21:00 | tiktok | Si tuvieras que inventar la cerilla… 🔥 por qué solo se encie | 📲 en tu bandeja de TikTok |
@@ -31,7 +29,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 18/11 | 10:00 | tiktok | ¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Ma | 📲 en tu bandeja de TikTok |
 | mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | [✅ publicado](https://youtube.com/shorts/Z9lwke7gqVI) |
 | mié 18/11 | 13:00 | tiktok | ¿Cuánto calor te da el aire acondicionado por cada kWh de lu | 📲 en tu bandeja de TikTok |
-| mié 18/11 | 16:00 | tiktok | ¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲 | ⏳ pendiente |
+| mié 18/11 | 16:00 | tiktok | ¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲 | 📲 en tu bandeja de TikTok |
 | mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | [✅ publicado](https://youtube.com/shorts/4Z0YtoAEnO0) |
 | mié 18/11 | 18:00 | instagram | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
 | mié 18/11 | 18:00 | tiktok | ¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2 | ⏳ pendiente |

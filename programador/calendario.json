@@ -3668,10 +3668,16 @@
     "ciencia",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "borrador",
    "intentos": 1,
    "por": "Nikoloz_Lekishvili",
-   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026111814570729F0A2D48A958DA290AD\"}}"
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026111814570729F0A2D48A958DA290AD\"}}",
+   "resultado": {
+    "id": "v_inbox_file~v2.7709536502833465366",
+    "estado": "SEND_TO_USER_INBOX",
+    "borrador": true
+   },
+   "publicado": "2026-11-18T15:40:24.210097+00:00"
   },
   {
    "id": "lavadora-youtube",
