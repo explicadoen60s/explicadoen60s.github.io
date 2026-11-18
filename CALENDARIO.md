@@ -31,7 +31,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 17/11 | 21:00 | tiktok | ¿Qué profundidad tiene el muro que protege la Sagrada Famili | 📲 en tu bandeja de TikTok |
 | mié 18/11 | 10:00 | instagram | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | [✅ publicado](https://www.instagram.com/reel/Df4ISTKD5Gz/) |
 | mié 18/11 | 10:00 | tiktok | ¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Ma | 📲 en tu bandeja de TikTok |
-| mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
+| mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | [✅ publicado](https://youtube.com/shorts/Z9lwke7gqVI) |
 | mié 18/11 | 13:00 | tiktok | ¿Cuánto calor te da el aire acondicionado por cada kWh de lu | ⏳ pendiente |
 | mié 18/11 | 16:00 | tiktok | ¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲 | ⏳ pendiente |
 | mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
