@@ -3716,9 +3716,14 @@
     "fisica",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18102431084539589",
+    "url": "https://www.instagram.com/reel/Df4_Nw-Ast1/"
+   },
+   "publicado": "2026-11-18T16:58:39.960151+00:00"
   },
   {
    "id": "wifi5ghz-tiktok",
@@ -3735,8 +3740,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"202611181658427074711F267C60CC9B95\"}}"
   },
   {
    "id": "nevera-tiktok",
