@@ -32,7 +32,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | [✅ publicado](https://youtube.com/shorts/Z9lwke7gqVI) |
 | mié 18/11 | 13:00 | tiktok | ¿Cuánto calor te da el aire acondicionado por cada kWh de lu | 📲 en tu bandeja de TikTok |
 | mié 18/11 | 16:00 | tiktok | ¿Cada cuántos cm hay un punto caliente en tu microondas? 🍲 | ⏳ pendiente |
-| mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
+| mié 18/11 | 16:00 | youtube | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | [✅ publicado](https://youtube.com/shorts/4Z0YtoAEnO0) |
 | mié 18/11 | 18:00 | instagram | Si tuvieras que inventar la lavadora… 🌀 ¿por qué lleva un bl | ⏳ pendiente |
 | mié 18/11 | 18:00 | tiktok | ¿Hasta cuántos metros llega tu wifi de 5 GHz? 5 GHz contra 2 | ⏳ pendiente |
 | mié 18/11 | 21:00 | tiktok | ¿Cuántos grados más hace en la puerta de tu nevera? 🥛 La lec | ⏳ pendiente |

@@ -3669,8 +3669,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"2026111814570729F0A2D48A958DA290AD\"}}"
   },
   {
    "id": "lavadora-youtube",
@@ -3686,9 +3687,14 @@
     "fisica",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "4Z0YtoAEnO0",
+    "url": "https://youtube.com/shorts/4Z0YtoAEnO0"
+   },
+   "publicado": "2026-11-18T14:57:12.951783+00:00"
   },
   {
    "id": "lavadora-instagram",
