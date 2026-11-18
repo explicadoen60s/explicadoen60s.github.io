@@ -4,7 +4,6 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 
 | Fecha | Hora | Red | Vídeo | Estado |
 |---|---|---|---|---|
-| dom 15/11 | 12:00 | youtube | Tu móvil sabe dónde estás sin enviar nada 🛰️ Así funciona el | [✅ publicado](https://youtube.com/shorts/5fuCN3W7Fhw) |
 | dom 15/11 | 13:00 | tiktok | Si tuvieras que inventar el velcro… 👟 cientos de ganchos dim | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 16:00 | tiktok | Sujetar tu móvil le cuesta a tu brazo casi 2 kilos 💪 Si tuvi | 📲 en tu bandeja de TikTok |
 | dom 15/11 | 16:00 | youtube | Se va la luz y tus placas solares se apagan… aunque haga sol | [✅ publicado](https://youtube.com/shorts/B2JdFjzMDwc) |
