@@ -1,7 +1,7 @@
 {
- "actualizado": "2026-11-18T15:20:17+00:00",
+ "actualizado": "2026-11-18T16:26:57+00:00",
  "medianas": {
-  "tiktok": 1468.0,
+  "tiktok": 1474.0,
   "instagram": 1569.0,
   "youtube": 1894
  },
@@ -46,7 +46,7 @@
    "pendiente": 1,
    "kpi": {
     "nombre": "Compartidos por 1.000 vistas",
-    "valor": 4.11,
+    "valor": 4.1,
     "fmt": "dec",
     "meta": 3,
     "pie": "TikTok, últimos 14 días"
@@ -103,7 +103,7 @@
    "pendiente": 0,
    "kpi": {
     "nombre": "YouTube frente a lo normal",
-    "valor": 1.08,
+    "valor": 1.04,
     "fmt": "x",
     "meta": 1.2,
     "pie": "la red que más vive de la búsqueda, últimos 14 días"
@@ -154,9 +154,9 @@
   "m_corto": {
    "n_si": 2,
    "n_no": 61,
-   "med_si": 97.48,
+   "med_si": 97.52,
    "med_no": 1.03,
-   "ratio": 94.65,
+   "ratio": 94.68,
    "veredicto": "faltan_datos"
   },
   "m_comentario": {
@@ -378,10 +378,10 @@
    "video": "linterna",
    "titulo": "Sin pilas y sin enchufe: un imán, una bobina y tu mano. ¿Tienes una linterna así en casa? ",
    "url": "https://www.tiktok.com/@explicadoen60s/video/7708400025751063840?utm_campaign=tt4d_open_api&utm_source=sbawlvxzv7zq3jpouz",
-   "vistas": 599971,
-   "rel": 194.8,
+   "vistas": 602070,
+   "rel": 194.88,
    "inter": 0.0877,
-   "horas": 73,
+   "horas": 74,
    "presupuesto": 20,
    "objetivo": "seguidores",
    "decidido": null
@@ -393,43 +393,43 @@
    "video": "router",
    "red": "tiktok",
    "titulo": "El wifi sale de las antenas como un donut, no como una linterna. ¿Cómo tienes puestas las ",
-   "rel": 292.58,
-   "vistas": 999731
+   "rel": 295.99,
+   "vistas": 1011406
   },
   {
    "video": "linterna",
    "red": "tiktok",
    "titulo": "Sin pilas y sin enchufe: un imán, una bobina y tu mano. ¿Tienes una linterna así en casa? ",
-   "rel": 194.8,
-   "vistas": 599971
+   "rel": 194.88,
+   "vistas": 602070
   },
   {
    "video": "tormentas",
    "red": "tiktok",
    "titulo": "Bajo Madrid hay un depósito de 400.000 m³ que se traga la lluvia de las tormentas. ¿Sabías",
-   "rel": 23.47,
-   "vistas": 66020
+   "rel": 23.48,
+   "vistas": 66061
   },
   {
    "video": "repetidor",
    "red": "tiktok",
    "titulo": "Una sola radio, dos viajes por el aire: así pierde velocidad un repetidor. ¿Tú dónde lo ti",
-   "rel": 14.05,
-   "vistas": 56533
+   "rel": 14.06,
+   "vistas": 56646
   },
   {
    "video": "ruedas",
    "red": "tiktok",
    "titulo": "La rueda de un avión lleva casi 6 veces la presión de la de tu coche. ¿Te lo imaginabas? 👇",
    "rel": 14.01,
-   "vistas": 42823
+   "vistas": 42829
   },
   {
    "video": "cepillo",
    "red": "tiktok",
    "titulo": "Un cepillo sónico vibra cientos de veces por segundo y se carga sin enchufe. ¿Tú usas manu",
-   "rel": 10.89,
-   "vistas": 33806
+   "rel": 10.85,
+   "vistas": 33867
   }
  ],
  "compuertas": {
@@ -1695,11 +1695,11 @@
    "creado": "2026-11-09",
    "rel": 0.37,
    "maduro": true,
-   "vistas": 1136,
+   "vistas": 1144,
    "rel_red": {
     "tiktok": 0.37
    },
-   "com_mil": 0.88,
+   "com_mil": 0.87,
    "comp_mil": 0.0,
    "publicado": "2026-11-16T12:07:01+00:00"
   },
@@ -1752,7 +1752,7 @@
    "creado": "2026-11-09",
    "rel": 1.25,
    "maduro": true,
-   "vistas": 3831,
+   "vistas": 3837,
    "rel_red": {
     "tiktok": 1.25
    },
@@ -1809,11 +1809,11 @@
    "creado": "2026-11-08",
    "rel": 0.38,
    "maduro": true,
-   "vistas": 1146,
+   "vistas": 1150,
    "rel_red": {
     "tiktok": 0.38
    },
-   "com_mil": 1.75,
+   "com_mil": 1.74,
    "comp_mil": 0.87,
    "publicado": "2026-11-16T12:04:22+00:00"
   },
@@ -1920,11 +1920,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-08",
-   "rel": 3.13,
+   "rel": 3.12,
    "maduro": true,
-   "vistas": 9638,
+   "vistas": 9647,
    "rel_red": {
-    "tiktok": 3.13
+    "tiktok": 3.12
    },
    "com_mil": 0.1,
    "comp_mil": 0.31,
@@ -1979,7 +1979,7 @@
    "creado": "2026-11-08",
    "rel": 0.81,
    "maduro": true,
-   "vistas": 2489,
+   "vistas": 2490,
    "rel_red": {
     "tiktok": 0.81
    },
@@ -2034,14 +2034,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-08",
-   "rel": 194.8,
+   "rel": 194.88,
    "maduro": true,
-   "vistas": 599971,
+   "vistas": 602070,
    "rel_red": {
-    "tiktok": 194.8
+    "tiktok": 194.88
    },
-   "com_mil": 1.3,
-   "comp_mil": 4.37,
+   "com_mil": 1.31,
+   "comp_mil": 4.36,
    "publicado": "2026-11-15T14:09:04+00:00"
   },
   {
@@ -2091,11 +2091,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-08",
-   "rel": 4.04,
+   "rel": 4.03,
    "maduro": true,
-   "vistas": 12432,
+   "vistas": 12444,
    "rel_red": {
-    "tiktok": 4.04
+    "tiktok": 4.03
    },
    "com_mil": 0.08,
    "comp_mil": 0.64,
@@ -2151,7 +2151,7 @@
    "creado": "2026-11-08",
    "rel": 0.96,
    "maduro": true,
-   "vistas": 2969,
+   "vistas": 2972,
    "rel_red": {
     "tiktok": 0.96
    },
@@ -2207,11 +2207,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-08",
-   "rel": 1.62,
+   "rel": 1.61,
    "maduro": true,
-   "vistas": 4985,
+   "vistas": 4986,
    "rel_red": {
-    "tiktok": 1.62
+    "tiktok": 1.61
    },
    "com_mil": 0.2,
    "comp_mil": 0.2,
@@ -2256,7 +2256,7 @@
    "creado": "2026-11-14",
    "rel": 0.18,
    "maduro": true,
-   "vistas": 560,
+   "vistas": 561,
    "rel_red": {
     "tiktok": 0.18
    },
@@ -2313,7 +2313,7 @@
    "creado": "2026-11-07",
    "rel": 6.15,
    "maduro": true,
-   "vistas": 18518,
+   "vistas": 18552,
    "rel_red": {
     "tiktok": 6.15
    },
@@ -2368,11 +2368,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 0.84,
+   "rel": 0.83,
    "maduro": true,
-   "vistas": 2592,
+   "vistas": 2593,
    "rel_red": {
-    "tiktok": 0.84
+    "tiktok": 0.83
    },
    "com_mil": 0.0,
    "comp_mil": 0.39,
@@ -2423,11 +2423,11 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 10.89,
+   "rel": 10.85,
    "maduro": true,
-   "vistas": 33806,
+   "vistas": 33867,
    "rel_red": {
-    "tiktok": 10.89
+    "tiktok": 10.85
    },
    "com_mil": 0.03,
    "comp_mil": 0.27,
@@ -2480,14 +2480,14 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-07",
-   "rel": 3.3,
+   "rel": 3.28,
    "maduro": true,
-   "vistas": 10237,
+   "vistas": 10251,
    "rel_red": {
-    "tiktok": 3.3
+    "tiktok": 3.28
    },
    "com_mil": 0.39,
-   "comp_mil": 3.42,
+   "comp_mil": 3.41,
    "publicado": "2026-11-13T14:12:54+00:00"
   },
   {
@@ -2539,7 +2539,7 @@
    "creado": "2026-11-07",
    "rel": 1.07,
    "maduro": true,
-   "vistas": 4288,
+   "vistas": 4298,
    "rel_red": {
     "tiktok": 1.07
    },
@@ -2654,7 +2654,7 @@
    "creado": "2026-11-09",
    "rel": 0.82,
    "maduro": true,
-   "vistas": 5171,
+   "vistas": 5176,
    "rel_red": {
     "tiktok": 0.47,
     "instagram": 0.95,
@@ -2713,14 +2713,14 @@
    "creado": "2026-11-11",
    "rel": 7.54,
    "maduro": true,
-   "vistas": 77419,
+   "vistas": 77532,
    "rel_red": {
-    "tiktok": 14.05,
+    "tiktok": 14.06,
     "instagram": 1.0,
     "youtube": 7.54
    },
    "com_mil": 0.12,
-   "comp_mil": 2.64,
+   "comp_mil": 2.63,
    "publicado": "2026-11-12T17:58:49+0000"
   },
   {
@@ -2772,7 +2772,7 @@
    "creado": "2026-11-07",
    "rel": 0.77,
    "maduro": true,
-   "vistas": 3104,
+   "vistas": 3121,
    "rel_red": {
     "tiktok": 0.77
    },
@@ -2830,12 +2830,12 @@
    "creado": "2026-11-07",
    "rel": 0.37,
    "maduro": true,
-   "vistas": 1483,
+   "vistas": 1492,
    "rel_red": {
     "tiktok": 0.37
    },
-   "com_mil": 1.35,
-   "comp_mil": 1.35,
+   "com_mil": 1.34,
+   "comp_mil": 1.34,
    "publicado": "2026-11-12T13:04:06+00:00"
   },
   {
@@ -2888,12 +2888,12 @@
    "creado": "2026-11-07",
    "rel": 0.3,
    "maduro": true,
-   "vistas": 1204,
+   "vistas": 1208,
    "rel_red": {
     "tiktok": 0.3
    },
    "com_mil": 0.0,
-   "comp_mil": 4.98,
+   "comp_mil": 4.97,
    "publicado": "2026-11-12T11:41:30+00:00"
   },
   {
@@ -2946,7 +2946,7 @@
    "creado": "2026-11-07",
    "rel": 5.3,
    "maduro": true,
-   "vistas": 21341,
+   "vistas": 21347,
    "rel_red": {
     "tiktok": 5.3
    },
@@ -3004,7 +3004,7 @@
    "creado": "2026-11-07",
    "rel": 0.58,
    "maduro": true,
-   "vistas": 2444,
+   "vistas": 2448,
    "rel_red": {
     "tiktok": 0.58
    },
@@ -3061,7 +3061,7 @@
    "creado": "2026-11-07",
    "rel": 0.67,
    "maduro": true,
-   "vistas": 2813,
+   "vistas": 2814,
    "rel_red": {
     "tiktok": 0.67
    },
@@ -3119,7 +3119,7 @@
    "creado": "2026-11-07",
    "rel": 0.76,
    "maduro": true,
-   "vistas": 3056,
+   "vistas": 3058,
    "rel_red": {
     "tiktok": 0.76
    },
@@ -3177,7 +3177,7 @@
    "creado": "2026-11-07",
    "rel": 0.17,
    "maduro": true,
-   "vistas": 697,
+   "vistas": 698,
    "rel_red": {
     "tiktok": 0.17
    },
@@ -3234,12 +3234,12 @@
    "creado": "2026-11-07",
    "rel": 0.17,
    "maduro": true,
-   "vistas": 681,
+   "vistas": 683,
    "rel_red": {
     "tiktok": 0.17
    },
-   "com_mil": 1.47,
-   "comp_mil": 1.47,
+   "com_mil": 1.46,
+   "comp_mil": 1.46,
    "publicado": "2026-11-11T13:16:45+00:00"
   },
   {
@@ -3291,13 +3291,13 @@
    "creado": "2026-11-06",
    "rel": 1.21,
    "maduro": true,
-   "vistas": 4872,
+   "vistas": 4957,
    "rel_red": {
     "tiktok": 1.21,
-    "youtube": 0.01
+    "youtube": 0.08
    },
    "com_mil": 0.0,
-   "comp_mil": 0.21,
+   "comp_mil": 0.2,
    "publicado": "2026-11-11T13:15:22+00:00"
   },
   {
@@ -3350,14 +3350,14 @@
    "creado": "2026-11-06",
    "rel": 0.8,
    "maduro": true,
-   "vistas": 5809,
+   "vistas": 6067,
    "rel_red": {
     "tiktok": 0.8,
     "instagram": 0.94,
-    "youtube": 0.71
+    "youtube": 0.92
    },
    "com_mil": 0.0,
-   "comp_mil": 0.86,
+   "comp_mil": 0.82,
    "publicado": "2026-11-10T15:57:53+00:00"
   },
   {
@@ -3410,13 +3410,13 @@
    "creado": "2026-11-06",
    "rel": 0.32,
    "maduro": true,
-   "vistas": 1616,
+   "vistas": 1649,
    "rel_red": {
     "tiktok": 0.32,
     "instagram": 0.09,
-    "youtube": 0.17
+    "youtube": 0.18
    },
-   "com_mil": 0.62,
+   "com_mil": 0.61,
    "comp_mil": 0.0,
    "publicado": "2026-11-10T13:15:33+00:00"
   },
@@ -3467,16 +3467,16 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 292.58,
+   "rel": 295.99,
    "maduro": true,
-   "vistas": 1009052,
+   "vistas": 1021320,
    "rel_red": {
-    "tiktok": 292.58,
+    "tiktok": 295.99,
     "instagram": 0.11,
-    "youtube": 4.26
+    "youtube": 4.55
    },
    "com_mil": 0.12,
-   "comp_mil": 4.97,
+   "comp_mil": 4.94,
    "publicado": "2026-11-10T12:05:01+00:00"
   },
   {
@@ -3526,9 +3526,9 @@
    "sub_centro": false,
    "estado": "programado",
    "creado": "2026-11-06",
-   "rel": 0.19,
+   "rel": 0.35,
    "maduro": true,
-   "vistas": 3165,
+   "vistas": 3166,
    "rel_red": {
     "tiktok": 0.19,
     "instagram": 0.9,
@@ -3587,11 +3587,11 @@
    "creado": "2026-11-06",
    "rel": 1.06,
    "maduro": true,
-   "vistas": 7372,
+   "vistas": 7370,
    "rel_red": {
     "tiktok": 1.37,
     "instagram": 1.06,
-    "youtube": 0.63
+    "youtube": 0.62
    },
    "com_mil": 0.0,
    "comp_mil": 0.14,
@@ -3764,7 +3764,7 @@
    "creado": "2026-11-06",
    "rel": 1.0,
    "maduro": true,
-   "vistas": 6928,
+   "vistas": 6930,
    "rel_red": {
     "tiktok": 0.54,
     "instagram": 1.0,
@@ -3823,7 +3823,7 @@
    "creado": "2026-11-06",
    "rel": 0.97,
    "maduro": true,
-   "vistas": 8680,
+   "vistas": 8681,
    "rel_red": {
     "tiktok": 1.58,
     "instagram": 0.95,
@@ -3882,7 +3882,7 @@
    "creado": "2026-11-06",
    "rel": 1.28,
    "maduro": true,
-   "vistas": 14489,
+   "vistas": 14490,
    "rel_red": {
     "tiktok": 1.48,
     "instagram": 1.07,
@@ -3942,7 +3942,7 @@
    "creado": "2026-11-06",
    "rel": 5.49,
    "maduro": true,
-   "vistas": 59092,
+   "vistas": 59098,
    "rel_red": {
     "tiktok": 14.01,
     "instagram": 1.36,
@@ -4003,7 +4003,7 @@
    "maduro": true,
    "vistas": 7829,
    "rel_red": {
-    "tiktok": 1.42,
+    "tiktok": 1.41,
     "instagram": 0.86,
     "youtube": 0.8
    },
@@ -4119,9 +4119,9 @@
    "creado": "2026-11-05",
    "rel": 7.72,
    "maduro": true,
-   "vistas": 86733,
+   "vistas": 86774,
    "rel_red": {
-    "tiktok": 23.47,
+    "tiktok": 23.48,
     "instagram": 1.05,
     "youtube": 7.72
    },
@@ -4238,7 +4238,7 @@
    "creado": "2026-11-05",
    "rel": 1.65,
    "maduro": true,
-   "vistas": 29246,
+   "vistas": 29247,
    "rel_red": {
     "tiktok": 1.65,
     "instagram": 1.11,
@@ -4297,9 +4297,9 @@
    "creado": "2026-11-05",
    "rel": 1.05,
    "maduro": true,
-   "vistas": 9536,
+   "vistas": 9540,
    "rel_red": {
-    "tiktok": 1.84,
+    "tiktok": 1.85,
     "instagram": 1.05,
     "youtube": 1.04
    },
@@ -4357,7 +4357,7 @@
    "creado": "2026-11-05",
    "rel": 1.36,
    "maduro": true,
-   "vistas": 11895,
+   "vistas": 11896,
    "rel_red": {
     "tiktok": 2.24,
     "instagram": 1.23,
@@ -4591,7 +4591,7 @@
    "creado": "2026-11-03",
    "rel": 0.92,
    "maduro": true,
-   "vistas": 6409,
+   "vistas": 6410,
    "rel_red": {
     "tiktok": 1.84,
     "instagram": 0.92,
@@ -4650,7 +4650,7 @@
    "creado": "2026-11-03",
    "rel": 0.94,
    "maduro": true,
-   "vistas": 13065,
+   "vistas": 13067,
    "rel_red": {
     "tiktok": 7.23,
     "instagram": 0.94,
