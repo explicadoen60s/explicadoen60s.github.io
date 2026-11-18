@@ -31,7 +31,7 @@ _Horas de Madrid. Se actualiza solo cuando algo cambia._
 | mar 17/11 | 18:00 | instagram | Si tuvieras que inventar el código QR… 🔳 ¿por qué se lee aun | [✅ publicado](https://www.instagram.com/reel/Df2aazzCTwp/) |
 | mar 17/11 | 18:00 | tiktok | Si tuvieras que inventar un submarino… 🌊 cómo se hunde y vue | 📲 en tu bandeja de TikTok |
 | mar 17/11 | 21:00 | tiktok | ¿Qué profundidad tiene el muro que protege la Sagrada Famili | 📲 en tu bandeja de TikTok |
-| mié 18/11 | 10:00 | instagram | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
+| mié 18/11 | 10:00 | instagram | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | [✅ publicado](https://www.instagram.com/reel/Df4ISTKD5Gz/) |
 | mié 18/11 | 10:00 | tiktok | ¿Cuántos kilómetros de tubos llevan el agua a tu grifo en Ma | ⏳ pendiente |
 | mié 18/11 | 12:00 | youtube | Si tuvieras que inventar la placa de inducción… 🍳 ¿por qué e | ⏳ pendiente |
 | mié 18/11 | 13:00 | tiktok | ¿Cuánto calor te da el aire acondicionado por cada kWh de lu | ⏳ pendiente |

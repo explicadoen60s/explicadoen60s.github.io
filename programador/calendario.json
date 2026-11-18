@@ -3573,9 +3573,14 @@
     "magnetismo",
     "comofunciona"
    ],
-   "estado": "pendiente",
+   "estado": "publicado",
    "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "por": "Nikoloz_Lekishvili",
+   "resultado": {
+    "id": "18044134553896838",
+    "url": "https://www.instagram.com/reel/Df4ISTKD5Gz/"
+   },
+   "publicado": "2026-11-18T08:58:24.755454+00:00"
   },
   {
    "id": "canalmadrid-tiktok",
@@ -3592,8 +3597,9 @@
     "comofunciona"
    ],
    "estado": "pendiente",
-   "intentos": 0,
-   "por": "Nikoloz_Lekishvili"
+   "intentos": 1,
+   "por": "Nikoloz_Lekishvili",
+   "ultimo_error": "HTTP 400: {\"error\":{\"code\":\"spam_risk_too_many_pending_share\",\"message\":\"spam_risk_too_many_pending_share\",\"log_id\":\"20261118085826A9198F2E6EEF718773D0\"}}"
   },
   {
    "id": "induccion-youtube",
