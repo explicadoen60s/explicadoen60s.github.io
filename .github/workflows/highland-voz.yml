@@ -2,34 +2,24 @@ name: Voz Highland (temporal)
 on:
   push:
     branches: [highland-voz]
+permissions:
+  contents: write
+  actions: read
 jobs:
-  voz:
+  guardar:
     runs-on: ubuntu-latest
-    timeout-minutes: 150
-    strategy:
-      fail-fast: false
-      matrix:
-        grupo: ["1,2,9", "3,8,13", "4,10", "5,12", "6,11", "7"]
     steps:
       - uses: actions/checkout@v4
         with:
-          sparse-checkout: |
-            produccion/voz
-            highland
-      - uses: actions/setup-python@v5
+          ref: highland-voz
+          sparse-checkout: highland
+      - uses: actions/download-artifact@v4
         with:
-          python-version: "3.11"
-      - uses: actions/cache@v4
-        with:
-          path: ~/.cache/huggingface
-          key: qwen3-tts-base-1.7b
+          run-id: 44434980428
+          github-token: ${{ github.token }}
+          path: highland/wavs
+          merge-multiple: true
       - run: |
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL || true
-          sudo apt-get install -y -qq sox > /dev/null
-          pip install -q --no-cache-dir torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-          pip install -q --no-cache-dir qwen-tts soundfile numpy
-      - run: python3 highland/gen_highland.py "${{ matrix.grupo }}"
-      - uses: actions/upload-artifact@v4
-        with:
-          name: voz-${{ strategy.job-index }}
-          path: /tmp/hl/*.wav
+          ls highland/wavs | wc -l
+          git config user.name explicadoen60s; git config user.email explicadoen60s.cxn@gmail.com
+          git add --sparse highland/wavs && git commit -q -m "Voz Highland: wavs" && git push -q
