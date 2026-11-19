@@ -3,7 +3,7 @@ import json, sys, numpy as np, soundfile as sf, torch
 from pathlib import Path
 from qwen_tts import Qwen3TTSModel
 R = Path(__file__).resolve().parent
-ref = R.parent / "produccion" / "voz"
+ref = R / "ref"   # grabación de referencia nueva (19-nov)
 m = Qwen3TTSModel.from_pretrained("Qwen/Qwen3-TTS-12Hz-1.7B-Base", device_map="cpu", dtype=torch.float32)
 p = m.create_voice_clone_prompt(ref_audio=str(ref / "referencia.wav"), ref_text=(ref / "referencia.txt").read_text(encoding="utf-8").strip(), x_vector_only_mode=False)
 g = json.load(open(R / "guion.json", encoding="utf-8"))
